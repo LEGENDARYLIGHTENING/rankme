@@ -13,7 +13,7 @@ export default defineConfig({
         '/cosmetic-clinic-websites', '/immigration-consultant-websites', 
         '/luxury-real-estate-websites', '/cybersecurity-it-websites'
       ],
-      renderer: '@prerenderer/renderer-puppeteer',
+      renderer: '@prerenderer/renderer-jsdom',
       rendererOptions: {
         maxConcurrentRoutes: 1,
         renderAfterTime: 1000,
