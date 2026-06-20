@@ -25,8 +25,7 @@ export default function Footer() {
         <div className="footer__grid">
           <div className="footer__brand">
             <div className="footer__brand-name">
-              <span className="footer__brand-mark">P</span>
-              Prototype
+              <img src="/Copilot_20260620_142216.png" alt="Prototype Logo" className="footer__logo-img" />
             </div>
             <p className="footer__brand-desc">
               B2B Growth Consultant &amp; Performance Marketer. I build high-converting websites

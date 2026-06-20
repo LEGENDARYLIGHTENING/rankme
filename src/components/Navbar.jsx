@@ -33,8 +33,7 @@ export default function Navbar() {
       <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`} id="main-nav">
         <div className="navbar__inner">
           <Link to="/" className="navbar__logo">
-            <span className="navbar__logo-mark">P</span>
-            Prototype
+            <img src="/Copilot_20260620_142216.png" alt="Prototype Logo" className="navbar__logo-img" />
           </Link>
 
           <div className="navbar__links">

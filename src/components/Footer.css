@@ -24,17 +24,10 @@
   margin-bottom: var(--space-md);
 }
 
-.footer__brand-mark {
-  width: 28px;
-  height: 28px;
-  background-color: var(--color-gold);
-  border-radius: var(--border-radius);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-black);
-  font-weight: var(--font-weight-bold);
-  font-size: 0.9rem;
+.footer__logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
 
 .footer__brand-desc {
