@@ -1,0 +1,152 @@
+/* =============================================
+   CONTACT PAGE
+   ============================================= */
+@import '../styles/variables.css';
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4xl);
+  padding: var(--space-5xl) 0;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  margin-bottom: var(--space-md);
+}
+
+.contact-info p {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: var(--space-2xl);
+  max-width: 500px;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-3xl);
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.contact-method__icon {
+  width: 48px;
+  height: 48px;
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gold);
+  font-size: 1.25rem;
+}
+
+.contact-method__details span {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-xs);
+}
+
+.contact-method__details a {
+  font-size: 1.05rem;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-white);
+}
+
+.contact-method__details a:hover {
+  color: var(--color-gold);
+}
+
+/* Contact Form */
+.contact-form {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-3xl);
+}
+
+.form-group {
+  margin-bottom: var(--space-xl);
+}
+
+.form-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-sm);
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--space-md);
+  color: var(--color-white);
+  font-size: 1rem;
+  transition: border-color var(--transition-fast);
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: var(--color-gold);
+}
+
+.form-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-error {
+  color: var(--color-red);
+  font-size: 0.8rem;
+  margin-top: var(--space-xs);
+  display: block;
+}
+
+.form-submit {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/* Calendly Alternative Section */
+.contact-calendly {
+  padding: var(--space-5xl) 0;
+  background-color: var(--color-dark-surface);
+  text-align: center;
+}
+
+.contact-calendly .calendly-placeholder {
+  max-width: 700px;
+  margin: var(--space-2xl) auto 0;
+  min-height: 300px;
+}
+
+@media (max-width: 900px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-3xl);
+  }
+
+  .contact-form {
+    padding: var(--space-2xl);
+  }
+}

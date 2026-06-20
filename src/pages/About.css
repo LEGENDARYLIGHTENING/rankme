@@ -1,0 +1,149 @@
+/* =============================================
+   ABOUT PAGE
+   ============================================= */
+@import '../styles/variables.css';
+
+.about-story {
+  padding: var(--space-5xl) 0;
+}
+
+.about-story__content {
+  max-width: 800px;
+}
+
+.about-story__content p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-bottom: var(--space-lg);
+}
+
+/* Skills Grid */
+.skills-section {
+  padding: var(--space-5xl) 0;
+  background-color: var(--color-dark-surface);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-2xl);
+}
+
+.skill-tag {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--space-md) var(--space-lg);
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-white);
+  transition: all var(--transition-base);
+}
+
+.skill-tag:hover {
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+}
+
+/* Tools */
+.tools-section {
+  padding: var(--space-5xl) 0;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-2xl);
+}
+
+.tool-item {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--space-md) var(--space-lg);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.tool-item::before {
+  content: '→';
+  color: var(--color-gold);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Certifications Preview */
+.about-certs {
+  padding: var(--space-5xl) 0;
+  background-color: var(--color-dark-surface);
+}
+
+.about-certs__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-xl);
+  margin-top: var(--space-2xl);
+}
+
+.about-cert-card {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-xl);
+}
+
+.about-cert-card__name {
+  font-size: 1rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-xs);
+}
+
+.about-cert-card__issuer {
+  font-size: 0.8rem;
+  color: var(--color-gold);
+  font-weight: var(--font-weight-medium);
+}
+
+/* Target Markets */
+.markets-section {
+  padding: var(--space-5xl) 0;
+}
+
+.markets-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin-top: var(--space-2xl);
+}
+
+.market-tag {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--space-md) var(--space-xl);
+  font-size: 0.9rem;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-white);
+}
+
+/* Portfolio Link */
+.portfolio-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-gold);
+  font-size: 0.95rem;
+  margin-top: var(--space-lg);
+  transition: gap var(--transition-base);
+}
+
+.portfolio-link:hover {
+  gap: var(--space-md);
+}

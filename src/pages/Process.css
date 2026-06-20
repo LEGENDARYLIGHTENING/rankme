@@ -1,0 +1,82 @@
+/* =============================================
+   PROCESS PAGE
+   ============================================= */
+@import '../styles/variables.css';
+
+.process-detail {
+  padding: var(--space-5xl) 0;
+}
+
+.process-detail:nth-child(even) {
+  background-color: var(--color-dark-surface);
+}
+
+.process-detail__layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: var(--space-3xl);
+  align-items: start;
+}
+
+.process-detail__step-num {
+  width: 80px;
+  height: 80px;
+  background-color: var(--color-card-bg);
+  border: 2px solid var(--color-gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-gold);
+}
+
+.process-detail__content h3 {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-md);
+}
+
+.process-detail__content p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: var(--space-lg);
+}
+
+.process-detail__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+.process-detail__item {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--space-lg);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+}
+
+.process-detail__item::before {
+  content: '✓';
+  color: var(--color-gold);
+  font-weight: var(--font-weight-bold);
+  flex-shrink: 0;
+}
+
+/* Process FAQ */
+.process-faq {
+  padding: var(--space-5xl) 0;
+}
+
+@media (max-width: 768px) {
+  .process-detail__layout {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,12 @@
+@import './styles/global.css';
+
+/* App level specific overrides can go here if needed */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}

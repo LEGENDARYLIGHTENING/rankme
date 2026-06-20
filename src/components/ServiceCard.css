@@ -1,0 +1,85 @@
+/* =============================================
+   SERVICE CARD
+   ============================================= */
+@import '../styles/variables.css';
+
+.service-card {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-2xl);
+  transition: all var(--transition-base);
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  border-color: var(--color-gold);
+  transform: translateY(-4px);
+}
+
+.service-card__icon {
+  width: 48px;
+  height: 48px;
+  background-color: var(--color-black);
+  border: 1px solid var(--color-gold);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-bottom: var(--space-lg);
+  color: var(--color-gold);
+  font-weight: var(--font-weight-bold);
+}
+
+.service-card__title {
+  font-size: 1.15rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-sm);
+}
+
+.service-card__price {
+  font-size: 0.85rem;
+  color: var(--color-gold);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--space-md);
+}
+
+.service-card__desc {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  flex: 1;
+}
+
+.service-card__deliverables {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.service-card__deliverable {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  padding: var(--space-xs) 0;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+}
+
+.service-card__deliverable::before {
+  content: '→';
+  color: var(--color-gold);
+  font-weight: var(--font-weight-bold);
+  flex-shrink: 0;
+}
+
+.service-card__timeline {
+  margin-top: var(--space-md);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

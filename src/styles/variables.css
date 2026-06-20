@@ -1,0 +1,47 @@
+/* =============================================
+   CSS VARIABLES — IRON MAN THEME
+   ============================================= */
+:root {
+  /* Color Palette */
+  --color-black: #0A0A0A;
+  --color-gold: #C9A84C;
+  --color-red: #C0392B;
+  --color-white: #F5F5F5;
+
+  /* Derived Colors */
+  --color-dark-surface: #111111;
+  --color-card-bg: #141414;
+  --color-border: #1E1E1E;
+  --color-text-muted: #999999;
+  --color-gold-hover: #D4B85A;
+  --color-red-hover: #D94432;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+
+  /* Layout */
+  --max-width: 1200px;
+  --max-width-narrow: 900px;
+  --nav-height: 72px;
+  --border-radius: 6px;
+  --border-radius-lg: 12px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+}

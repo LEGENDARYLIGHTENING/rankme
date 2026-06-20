@@ -1,0 +1,73 @@
+/* =============================================
+   CTA BLOCK
+   ============================================= */
+@import '../styles/variables.css';
+
+.cta-block {
+  padding: var(--space-5xl) 0;
+  text-align: center;
+}
+
+.cta-block__inner {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-4xl) var(--space-2xl);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-block__label {
+  font-size: 0.8rem;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-gold);
+  margin-bottom: var(--space-md);
+}
+
+.cta-block__title {
+  margin-bottom: var(--space-md);
+}
+
+.cta-block__subtitle {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  margin-bottom: var(--space-2xl);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-block__actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+/* Calendly embed placeholder */
+.calendly-placeholder {
+  background-color: var(--color-dark-surface);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-3xl) var(--space-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  font-weight: var(--font-weight-medium);
+  min-height: 200px;
+  margin-top: var(--space-2xl);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .cta-block__inner {
+    padding: var(--space-2xl) var(--space-lg);
+  }
+}
