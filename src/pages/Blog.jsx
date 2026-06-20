@@ -4,52 +4,11 @@ import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import './Blog.css';
 
-const blogPosts = [
-  {
-    title: 'Why Your SaaS Website Is Losing Leads — and How to Fix It',
-    tag: 'SaaS Growth',
-    date: 'Coming Soon',
-    readTime: '6 min read',
-    excerpt: 'Most SaaS websites are built for features, not conversions. Here is how to restructure your site to turn visitors into demo requests.',
-  },
-  {
-    title: 'SEO vs GEO: What B2B Cosmetic Clinics Need to Know in 2025',
-    tag: 'Cosmetic Clinics',
-    date: 'Coming Soon',
-    readTime: '5 min read',
-    excerpt: 'Google is no longer the only search engine. ChatGPT and Perplexity are sending traffic too. Here is how to optimize for both.',
-  },
-  {
-    title: 'How Immigration Consultants Can Generate Leads Through Content',
-    tag: 'Immigration',
-    date: 'Coming Soon',
-    readTime: '7 min read',
-    excerpt: 'Visa seekers are Googling their questions. If your website does not answer them, you are leaving leads on the table.',
-  },
-  {
-    title: 'The Cybersecurity MSP Website Playbook: From Brochure to Lead Gen Machine',
-    tag: 'Cybersecurity and IT',
-    date: 'Coming Soon',
-    readTime: '8 min read',
-    excerpt: 'Why most IT and cybersecurity websites fail at generating leads, and the exact pages and structure that fix it.',
-  },
-  {
-    title: 'Luxury Real Estate Websites That Actually Sell: A Developer\'s Perspective',
-    tag: 'Luxury Real Estate',
-    date: 'Coming Soon',
-    readTime: '6 min read',
-    excerpt: 'Premium properties need premium digital presence. Here is how to build a website that matches the quality of your listings.',
-  },
-  {
-    title: 'How Probiota Innovations Generated 10+ B2B Leads with a React JS Website',
-    tag: 'B2B Manufacturing',
-    date: 'Coming Soon',
-    readTime: '5 min read',
-    excerpt: 'A behind-the-scenes look at how I built a B2B export website that generated qualified international leads.',
-  },
-];
+import blogPosts from '../data/blogs-index.json';
 
-const allTags = ['All', 'SaaS Growth', 'Luxury Real Estate', 'Cybersecurity and IT', 'Cosmetic Clinics', 'Immigration', 'B2B Manufacturing', 'More Niches'];
+// Dynamically generate all tags from the imported JSON
+const uniqueTags = [...new Set(blogPosts.map(p => p.tag))].filter(Boolean);
+const allTags = ['All', ...uniqueTags];
 
 const hubDescriptions = {
   'SaaS Growth': 'Everything you need to grow a SaaS business through SEO, GEO, LinkedIn, and conversion-focused website strategy. These posts are written for SaaS founders and growth teams in the US, UK, Australia, Canada, and Gulf.',
@@ -115,9 +74,9 @@ export default function Blog() {
           {/* Blog Grid */}
           <div className="blog-grid">
             {filtered.map((post, i) => (
-              <div key={i} className="blog-card">
+              <Link to={`/blog/${post.slug}`} key={i} className="blog-card" style={{ textDecoration: 'none', color: 'inherit' }}>
                 <div className="blog-card__image img-placeholder" style={{ minHeight: '200px' }}>
-                  [ Client Work Preview — Coming Soon ]
+                  [ Read Article ]
                 </div>
                 <div className="blog-card__body">
                   <div className="blog-card__meta">
@@ -128,7 +87,7 @@ export default function Blog() {
                   <h3 className="blog-card__title">{post.title}</h3>
                   <p className="blog-card__excerpt">{post.excerpt}</p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
 

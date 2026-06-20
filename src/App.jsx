@@ -11,6 +11,7 @@ import About from './pages/About';
 import Certifications from './pages/Certifications';
 import Process from './pages/Process';
 import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 import FreeAudit from './pages/FreeAudit';
 import Contact from './pages/Contact';
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/certifications" element={<Certifications />} />
           <Route path="/process" element={<Process />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/free-audit" element={<FreeAudit />} />
           <Route path="/contact" element={<Contact />} />
           
