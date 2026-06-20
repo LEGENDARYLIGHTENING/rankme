@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     prerender({
       routes: [
-        '/', '/services', '/case-studies', '/about', '/certifications', 
+        '/services', '/case-studies', '/about', '/certifications', 
         '/process', '/blog', '/free-audit', '/contact', '/saas-websites', 
         '/cosmetic-clinic-websites', '/immigration-consultant-websites', 
         '/luxury-real-estate-websites', '/cybersecurity-it-websites'
