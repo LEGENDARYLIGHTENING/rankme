@@ -16,9 +16,6 @@ export default function CTABlock({
           <p className="cta-block__label">{label}</p>
           <h2 className="cta-block__title">{title}</h2>
           <p className="cta-block__subtitle">{subtitle}</p>
-          <div style={{ color: 'var(--color-red)', fontSize: '13px', fontWeight: 500, margin: 'var(--space-md) 0' }}>
-            Only 2 new client spots available this month. Audit slots fill fast.
-          </div>
           <div className="cta-block__actions">
             <Link to={primaryCTA.to} className="btn btn--primary">
               {primaryCTA.label}
@@ -29,6 +26,7 @@ export default function CTABlock({
               </Link>
             )}
           </div>
+          {/* TODO: replace with real Calendly embed once link is created. */}
           {showCalendly && (
             <div className="calendly-placeholder">
               <div className="calendly-inline-widget" data-url="https://calendly.com/your-link" style={{ minWidth: "320px", height: "700px" }}></div>

@@ -21,11 +21,11 @@ const otherCases = [
 ];
 
 const impactItems = [
-  { value: '1,000+', label: 'Leads Generated' },
-  { value: '50K+', label: 'Instagram Followers' },
-  { value: '200+', label: 'Affiliate Customers' },
-  { value: '$1,000+', label: 'Affiliate Revenue' },
-  { value: '800+', label: 'Cold Leads Generated' },
+  { value: '1,000+', label: 'Leads Generated for Gut & Beyond and Probiota Innovations campaigns' },
+  { value: '50K+', label: 'Instagram Followers built for Gut & Beyond' },
+  { value: '200+', label: 'Affiliate Customers converted for Gut & Beyond' },
+  { value: '$1,000+', label: 'Affiliate Revenue generated for Gut & Beyond' },
+  { value: '800+', label: 'Cold Leads Generated for Gut & Beyond' },
 ];
 
 export default function CaseStudies() {
@@ -60,17 +60,18 @@ export default function CaseStudies() {
               <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Client Work Preview" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
             </div>
             <div className="case-full__content">
-              <h3>Client Background</h3>
+              <h3>Background</h3>
               <p>
-                Probiota Innovations is a B2B nutraceutical manufacturer and exporter
-                based in India, producing supplements and health products for international buyers.
+                Probiota Innovations is the B2B contract manufacturing arm of Atlanta Systems,
+                where I work as Brand Manager. I personally designed and built this website
+                end-to-end to showcase our B2B nutraceutical manufacturing and export operations.
               </p>
 
-              <h3>The Problem</h3>
+              <h3>The Challenge</h3>
               <p>
-                Zero digital presence. No website. No overseas buyer inquiries. The business
-                was entirely dependent on offline channels and word-of-mouth referrals, missing
-                out on global B2B opportunities.
+                The division had zero digital presence. No website and no overseas buyer inquiries.
+                Our operations were entirely dependent on offline channels and word-of-mouth referrals,
+                missing out on global B2B opportunities.
               </p>
 
               <h3>The Solution</h3>

@@ -9,9 +9,9 @@ import LeadMagnet from '../components/LeadMagnet';
 import './Home.css';
 
 const proofItems = [
-  { value: '1,000+', label: 'Qualified B2B Leads (2022–2025)' },
-  { value: '50K+', label: 'Followers Built Across Tier 1 Markets' },
-  { value: '20M+', label: 'Cumulative Reach: US, UK, AU, Gulf' },
+  { value: '1,000+', label: 'Qualified B2B Leads across Gut & Beyond and Probiota Innovations campaigns' },
+  { value: '50K+', label: 'Followers Built for Gut & Beyond' },
+  { value: '20M+', label: 'Cumulative Reach for Gut & Beyond campaigns' },
   { value: 'GA4', label: 'Google Certified' },
   { value: 'US · UK · AU', label: 'Gulf Markets' },
 ];
@@ -142,9 +142,9 @@ export default function Home() {
             <div className="case-teaser__info">
               <h3>Full B2B Website Built in React JS</h3>
               <p>
-                Probiota Innovations is a B2B nutraceutical manufacturer and exporter.
-                I built their entire website from scratch in React JS, complete with
-                SEO-optimized pages, GEO blog content, a quote capture funnel, and GA4 tracking.
+                Probiota Innovations is the B2B contract manufacturing arm of Atlanta Systems,
+                where I work as Brand Manager. I personally designed and built this website from scratch
+                in React JS, complete with SEO-optimized pages, GEO blog content, a quote capture funnel, and GA4 tracking.
               </p>
               <div className="case-teaser__stats">
                 <div>

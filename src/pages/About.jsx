@@ -26,11 +26,11 @@ const certifications = [
 ];
 
 const impactItems = [
-  { value: '1,000+', label: 'Leads' },
-  { value: '50K+', label: 'Followers' },
-  { value: '20M+', label: 'Reach' },
-  { value: '$1,000+', label: 'Affiliate Revenue' },
-  { value: '200+', label: 'Paying Customers' },
+  { value: '1,000+', label: 'Leads generated across Gut & Beyond and Probiota campaigns' },
+  { value: '50K+', label: 'Followers built for Gut & Beyond' },
+  { value: '20M+', label: 'Reach achieved via Gut & Beyond campaigns' },
+  { value: '$1,000+', label: 'Affiliate Revenue generated for Gut & Beyond' },
+  { value: '200+', label: 'Paying Customers converted for Gut & Beyond' },
 ];
 
 const markets = [
@@ -45,7 +45,7 @@ export default function About() {
         <title>About Moksh | B2B Growth Consultant & React Developer</title>
         <meta
           name="description"
-          content="Performance marketer and B2B growth consultant. 1,000+ leads generated. GA4 certified. React JS developer. Serving US, UK, Australia, Canada, and Gulf clients."
+          content="Performance marketer and B2B growth consultant. Over 1,000 leads generated across Gut & Beyond and Probiota campaigns. GA4 certified. React JS developer. Serving US, UK, Australia, Canada, and Gulf clients."
         />
       </Helmet>
 
@@ -74,10 +74,10 @@ export default function About() {
               wanted real results.
             </p>
             <p>
-              I generated over 1,000 leads across multiple campaigns, scaled Instagram pages to
-              50K+ followers with 20M+ cumulative reach, and converted 200+ paying affiliate
-              customers generating over $1,000 in commissions. Every number is real, every
-              result is documented.
+              I generated over 1,000 leads across campaigns for Gut & Beyond and Probiota Innovations,
+              scaled Instagram pages for Gut & Beyond to 50K+ followers with 20M+ cumulative reach,
+              and converted 200+ paying affiliate customers generating over $1,000 in commissions for
+              Gut & Beyond. Every number is real, every result is documented.
             </p>
             <p>
               Then I built Probiota Innovations, a full B2B manufacturing and export website

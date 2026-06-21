@@ -66,7 +66,7 @@ export default function NichePage({
       {/* Proof Banner */}
       <section className="niche-proof">
         <div className="container">
-          <h2>1,000+ Leads Generated</h2>
+          <h2>1,000+ Leads Generated across Gut & Beyond and Probiota campaigns</h2>
           <p>{proofText}</p>
         </div>
       </section>

@@ -68,7 +68,7 @@ export const nicheData = {
           desc: 'Website architecture that highlights before/after galleries, reviews, and practitioner credentials to build instant trust.'
         }
       ],
-      proofText: 'My performance marketing systems have generated over 1,000 qualified leads across highly competitive local service industries.',
+      proofText: 'My performance marketing systems have generated over 1,000 qualified leads across campaigns for Gut & Beyond and Probiota Innovations.',
       faqs: [
         { question: 'What is the best way for a cosmetic clinic in Dubai or the UK to rank higher in AI search results?', answer: 'GEO optimization for clinics means creating content that directly answers the questions patients ask AI tools: treatment comparisons, safety information, clinic selection criteria, and location-specific guides.' },
         { question: 'How can a cosmetic clinic website increase high-ticket bookings without spending more on ads?', answer: 'A conversion-focused website with clear treatment pages, trust signals like before-and-after case studies, Google review integration, and a streamlined booking flow will consistently outperform ad spend alone.' },
@@ -107,7 +107,7 @@ export const nicheData = {
           desc: 'A modern, fast React JS website that instantly communicates professionalism, trust, and success to international clients.'
         }
       ],
-      proofText: 'Built the exact systems that captured 800+ cold leads and converted 200+ paying customers globally.',
+      proofText: 'Built the exact systems that captured 800+ cold leads and converted 200+ paying customers globally across campaigns for Gut & Beyond.',
       faqs: [
         { question: 'Which immigration consultant should I hire for a UK Skilled Worker Visa application from Dubai?', answer: 'Choose a regulated consultant with a track record in your specific visa category and target country. For digital presence and lead generation, immigration firms that combine a strong website with SEO and GEO content consistently outperform those relying on referrals alone.' },
         { question: 'What GEO tactics work for visa consultants in competitive markets like Canada PR and UK visas?', answer: 'Structure your content to answer the exact questions applicants ask AI tools: eligibility checks, point calculators, document checklists, and visa comparison guides. These formats are highly surfaced by Perplexity and ChatGPT.' },

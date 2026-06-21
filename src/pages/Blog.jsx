@@ -4,7 +4,10 @@ import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import './Blog.css';
 
-import blogPosts from '../data/blogs-index.json';
+import blogPostsRaw from '../data/blogs-index.json';
+
+// Filter out unparsed blog posts
+const blogPosts = blogPostsRaw.filter(p => !/^blog_\d+$/i.test(p.title));
 
 // Dynamically generate all tags from the imported JSON
 const uniqueTags = [...new Set(blogPosts.map(p => p.tag))].filter(Boolean);

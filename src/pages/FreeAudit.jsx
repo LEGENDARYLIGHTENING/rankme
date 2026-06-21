@@ -31,8 +31,8 @@ const reviewItems = [
 ];
 
 const trustSignals = [
-  { value: '1,000+', label: 'Leads Generated' },
-  { value: '10+', label: 'B2B Leads (Probiota)' },
+  { value: '1,000+', label: 'Leads Generated across Gut & Beyond and Probiota campaigns' },
+  { value: '10+', label: 'B2B Leads for Atlanta Systems (Probiota)' },
   { value: 'GA4', label: 'Certified' },
   { value: 'Digital Deepak', label: 'Trained' },
   { value: 'US · UK · AU', label: 'Gulf · Canada' },
@@ -82,9 +82,7 @@ export default function FreeAudit() {
         <div className="container">
           <p className="section-label">Book Your Audit</p>
           <h2 className="section-title">Pick a Time That Works</h2>
-          <div style={{ color: 'var(--color-red)', fontSize: '13px', fontWeight: 500, marginBottom: 'var(--space-sm)' }}>
-            Only 2 new client spots available this month. Audit slots fill fast.
-          </div>
+          {/* TODO: replace with real Calendly embed once link is created. */}
           <div className="calendly-placeholder">
             {/* Calendly Embed Placeholder - Replace with Calendly inline widget script
                 Example: <div class="calendly-inline-widget" data-url="https://calendly.com/YOUR_LINK" style="min-width:320px;height:630px;"></div>

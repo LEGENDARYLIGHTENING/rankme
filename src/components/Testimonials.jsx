@@ -7,20 +7,6 @@ const testimonials = [
     title: "Founder, Probiota Innovations",
     initials: "RS",
     isPending: false,
-  },
-  {
-    quote: "The GEO content strategy put us in front of buyers we had never reached before. Our LinkedIn leads doubled in 6 weeks.",
-    name: "Client Name",
-    title: "CEO, [Company - Testimonial Pending]",
-    initials: "CN",
-    isPending: true,
-  },
-  {
-    quote: "Finally a consultant who understands both the technical build and the marketing strategy. The audit alone was worth it.",
-    name: "Client Name",
-    title: "Director, [Company - Testimonial Pending]",
-    initials: "CN",
-    isPending: true,
   }
 ];
 
@@ -30,7 +16,7 @@ export default function Testimonials() {
       <div className="container">
         <p className="section-label">What Clients Say</p>
         <h2 className="section-title">Trusted by B2B Leaders</h2>
-        <div className="testimonials__grid">
+        <div className={`testimonials__grid ${testimonials.length === 1 ? 'testimonials__grid--single' : ''}`}>
           {testimonials.map((testimonial, i) => (
             <div key={i} className="testimonial-card">
               <p className="testimonial-card__quote">{testimonial.quote}</p>

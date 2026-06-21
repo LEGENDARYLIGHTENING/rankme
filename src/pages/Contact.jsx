@@ -246,9 +246,7 @@ export default function Contact() {
         <div className="container">
           <p className="section-label">Prefer to talk?</p>
           <h2 className="section-title">Book a Call Directly</h2>
-          <div style={{ color: 'var(--color-red)', fontSize: '13px', fontWeight: 500, marginBottom: 'var(--space-sm)' }}>
-            Only 2 new client spots available this month. Audit slots fill fast.
-          </div>
+          {/* TODO: replace with real Calendly embed once link is created. */}
           <div className="calendly-placeholder">
             <div className="calendly-inline-widget" data-url="https://calendly.com/your-link" style={{ minWidth: "320px", height: "700px" }}></div>
             Calendly Scheduling Widget Will Appear Here
