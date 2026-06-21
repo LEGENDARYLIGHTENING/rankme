@@ -27,10 +27,14 @@ export default function BlogPost() {
           const rawModule = await markdownFiles[filePath]();
           let text = rawModule.default || rawModule;
 
-          // Strip the frontmatter (content between ---) so it doesn't render on the page
-          const frontmatterMatch = text.match(/^---\n([\s\S]*?)\n---/);
-          if (frontmatterMatch) {
-            text = text.substring(frontmatterMatch[0].length);
+          // Strip the frontmatter and placeholder headers so they don't render on the page
+          const headerMatch = text.match(/^(?:#\s*Blog\s*\d+\s*of\s*\d+\s*)?---\n[\s\S]*?\n---\s*/i);
+          if (headerMatch) {
+            text = text.substring(headerMatch[0].length);
+          } else {
+             // Fallback if no '# Blog X of Y' but standard frontmatter
+             const standardMatch = text.match(/^---\n[\s\S]*?\n---\s*/);
+             if (standardMatch) text = text.substring(standardMatch[0].length);
           }
 
           setContent(text);

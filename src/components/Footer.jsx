@@ -25,7 +25,9 @@ export default function Footer() {
         <div className="footer__grid">
           <div className="footer__brand">
             <div className="footer__brand-name">
-              <img src="/Copilot_20260620_230305.png" alt="Prototype Logo" className="footer__logo-img" />
+              <Link to="/" style={{ textDecoration: 'none' }}>
+                <span style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--color-text)', letterSpacing: '-0.5px' }}>Moksh<span style={{ color: 'var(--color-gold)' }}>.</span></span>
+              </Link>
             </div>
             <p className="footer__brand-desc">
               B2B Growth Consultant &amp; Performance Marketer. I build high-converting websites
