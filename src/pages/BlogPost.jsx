@@ -66,6 +66,36 @@ export default function BlogPost() {
       <Helmet>
         <title>{postMeta.title} | Moksh B2B Growth Blog</title>
         <meta name="description" content={postMeta.excerpt} />
+        
+        {/* Dynamic GEO JSON-LD Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": postMeta.title,
+            "description": postMeta.excerpt,
+            "image": postMeta.image,
+            "datePublished": "2026-06-21T12:00:00+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Moksh",
+              "jobTitle": "B2B Growth Consultant & Performance Marketer",
+              "url": "https://rankme-seven.vercel.app/about"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Moksh Growth Consulting",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://rankme-seven.vercel.app/Copilot_20260620_230305.png"
+              }
+            },
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": `https://rankme-seven.vercel.app/blog/${postMeta.slug}`
+            }
+          })}
+        </script>
       </Helmet>
 
       <HeroSection
@@ -82,6 +112,11 @@ export default function BlogPost() {
             </div>
           ) : (
             <div className="markdown-prose">
+              {postMeta.image && (
+                <div className="blog-post__featured-image img-placeholder" style={{ marginBottom: '2.5rem', height: '380px', width: '100%', overflow: 'hidden' }}>
+                  <img src={postMeta.image} alt={postMeta.imageAlt} title={postMeta.imageAlt} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
+                </div>
+              )}
               <ReactMarkdown>{content}</ReactMarkdown>
             </div>
           )}
@@ -94,7 +129,7 @@ export default function BlogPost() {
                 {relatedPosts.map((post) => (
                   <Link to={`/blog/${post.slug}`} key={post.slug} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                     <div className="img-placeholder" style={{ height: '120px', borderRadius: '4px' }}>
-                      <img src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?auto=format&fit=crop&w=800&q=80" alt={post.title} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
+                      <img src={post.image || "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"} alt={post.imageAlt || post.title} title={post.imageAlt || post.title} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
                     </div>
                     <h4 style={{ fontSize: '1rem', margin: 0, color: 'var(--color-text)' }}>{post.title}</h4>
                     <span style={{ fontSize: '0.875rem', color: 'var(--color-text-muted)' }}>{post.readTime}</span>

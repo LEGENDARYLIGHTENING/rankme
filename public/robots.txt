@@ -1,0 +1,5 @@
+# robots.txt for rankme-seven.vercel.app
+User-agent: *
+Allow: /
+
+Sitemap: https://rankme-seven.vercel.app/sitemap.xml
