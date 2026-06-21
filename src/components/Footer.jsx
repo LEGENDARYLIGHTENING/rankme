@@ -26,7 +26,7 @@ export default function Footer() {
           <div className="footer__brand">
             <div className="footer__brand-name">
               <Link to="/">
-                <img src="/Copilot_20260620_230305.png" alt="Moksh Logo" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
+                <img src="/Copilot_20260621_183745.png" alt="Moksh Logo" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
               </Link>
             </div>
             <p className="footer__brand-desc">

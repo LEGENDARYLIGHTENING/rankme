@@ -26,11 +26,13 @@ export default function CTABlock({
               </Link>
             )}
           </div>
-          {/* TODO: replace with real Calendly embed once link is created. */}
           {showCalendly && (
             <div className="calendly-placeholder">
-              <div className="calendly-inline-widget" data-url="https://calendly.com/your-link" style={{ minWidth: "320px", height: "700px" }}></div>
-              Calendly Scheduling Widget Will Appear Here
+              <div
+                className="calendly-inline-widget"
+                data-url="https://calendly.com/parjapatiwork/free-30-minute-growth-audit"
+                style={{ minWidth: '320px', height: '700px' }}
+              ></div>
             </div>
           )}
         </div>

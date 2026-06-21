@@ -87,7 +87,7 @@ export default function BlogPost() {
               "name": "Moksh Growth Consulting",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://rankme-seven.vercel.app/Copilot_20260620_230305.png"
+                "url": "https://rankme-seven.vercel.app/Copilot_20260621_183745.png"
               }
             },
             "mainEntityOfPage": {

@@ -82,13 +82,12 @@ export default function FreeAudit() {
         <div className="container">
           <p className="section-label">Book Your Audit</p>
           <h2 className="section-title">Pick a Time That Works</h2>
-          {/* TODO: replace with real Calendly embed once link is created. */}
           <div className="calendly-placeholder">
-            {/* Calendly Embed Placeholder - Replace with Calendly inline widget script
-                Example: <div class="calendly-inline-widget" data-url="https://calendly.com/YOUR_LINK" style="min-width:320px;height:630px;"></div>
-                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-            */}
-            Calendly Scheduling Widget Will Appear Here
+            <div
+              className="calendly-inline-widget"
+              data-url="https://calendly.com/parjapatiwork/free-30-minute-growth-audit"
+              style={{ minWidth: '320px', height: '700px' }}
+            ></div>
           </div>
         </div>
       </section>
