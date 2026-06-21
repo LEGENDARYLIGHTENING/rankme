@@ -11,9 +11,7 @@ const __dirname = path.dirname(__filename)
 let blogRoutes = []
 try {
   const blogIndex = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'src/data/blogs-index.json'), 'utf-8'))
-  blogRoutes = blogIndex
-    .filter(blog => !/^blog_\d+$/i.test(blog.title))
-    .map(blog => `/blog/${blog.slug}`)
+  blogRoutes = blogIndex.map(blog => `/blog/${blog.slug}`)
 } catch (error) {
   console.warn('Could not read blogs-index.json for prerendering routes.')
 }

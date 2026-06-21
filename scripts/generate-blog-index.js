@@ -88,23 +88,158 @@ const blogIndex = files.map((filename, index) => {
   
   let data = {};
   
-  // Strip the optional "# Blog X of 200" line at the beginning
-  const cleanedContent = normalizedContent.replace(/^(?:#\s*Blog\s*\d+\s*of\s*\d+\s*[\n]*)+/i, '').trim();
-  let content = cleanedContent;
+  // Split into lines to identify garbage lines at the start
+  const lines = normalizedContent.split('\n');
+  let startIndex = 0;
+  
+  while (startIndex < lines.length) {
+    const line = lines[startIndex].trim();
+    if (
+      line === '' ||
+      /^#?\s*Blog\s*\d+(\s*of\s*\d+)?/i.test(line) ||
+      /^═+$/.test(line) ||
+      (line.startsWith('---') && line.length > 5) || // filter line divider like '--------'
+      /^[═\-*\s]+$/.test(line) // any lines containing only dashes, equal signs, asterisks, spaces
+    ) {
+      startIndex++;
+    } else {
+      break;
+    }
+  }
 
-  const match = cleanedContent.match(/^---\n([\s\S]*?)\n---/);
-  if (match) {
-    const frontmatter = match[1];
-    content = cleanedContent.substring(match[0].length).trim();
-    frontmatter.split('\n').forEach(line => {
+  let contentLines = [];
+  const hasStrictFencing = lines[startIndex]?.trim() === '---';
+  
+  if (hasStrictFencing) {
+    let closingIndex = -1;
+    for (let i = startIndex + 1; i < lines.length; i++) {
+      if (lines[i].trim() === '---') {
+        closingIndex = i;
+        break;
+      }
+    }
+    
+    if (closingIndex !== -1) {
+      // Mode A: Parse strict frontmatter
+      const fmLines = lines.slice(startIndex + 1, closingIndex);
+      fmLines.forEach(line => {
+        const idx = line.indexOf(':');
+        if (idx > 0) {
+          const rawKey = line.substring(0, idx).trim();
+          const rawValue = line.substring(idx + 1).trim();
+          const key = rawKey.replace(/\*/g, '').trim();
+          const value = rawValue.replace(/\*/g, '').trim();
+          data[key] = value;
+          const lowerKey = key.toLowerCase();
+          if (lowerKey === 'seo title') data['SEO Title'] = value;
+          if (lowerKey === 'meta description') data['Meta Description'] = value;
+          if (lowerKey === 'slug') data['Slug'] = value;
+          if (lowerKey === 'niche tag') data['Niche Tag'] = value;
+        }
+      });
+      contentLines = lines.slice(closingIndex + 1);
+    } else {
+      // Opening '---' but no closing '---'. Fallback to Mode B line-by-line parsing
+      parseLineByLine(startIndex + 1);
+    }
+  } else {
+    // Mode B: Parse line-by-line starting at startIndex
+    parseLineByLine(startIndex);
+  }
+
+  function parseLineByLine(startIdx) {
+    let i = startIdx;
+    const knownKeys = [
+      'seo title', 'meta description', 'slug', 'primary keyword', 
+      'secondary keywords', 'geo phrase', 'target market', 'niche tag', 'date'
+    ];
+    
+    while (i < lines.length) {
+      const line = lines[i].trim();
+      if (line === '') {
+        i++;
+        continue;
+      }
+      
+      // Check if this line is a key: value pair
       const idx = line.indexOf(':');
       if (idx > 0) {
-        const key = line.substring(0, idx).trim();
-        const value = line.substring(idx + 1).trim();
-        data[key] = value;
+        const rawKey = line.substring(0, idx).trim();
+        const rawValue = line.substring(idx + 1).trim();
+        const key = rawKey.replace(/\*/g, '').trim();
+        const value = rawValue.replace(/\*/g, '').trim();
+        const lowerKey = key.toLowerCase();
+        
+        // If it matches a known key, or it's within the first few lines of Mode B parsing
+        if (knownKeys.includes(lowerKey) || (i - startIdx < 15 && /^[A-Za-z][a-zA-Z\s]+$/.test(key))) {
+          data[key] = value;
+          // Normalized keys
+          if (lowerKey === 'seo title') data['SEO Title'] = value;
+          if (lowerKey === 'meta description') data['Meta Description'] = value;
+          if (lowerKey === 'slug') data['Slug'] = value;
+          if (lowerKey === 'niche tag') data['Niche Tag'] = value;
+          i++;
+          continue;
+        }
       }
-    });
+      
+      // If it is not a key: value pair, or it's a heading/prose, we stop the frontmatter block
+      break;
+    }
+    contentLines = lines.slice(i);
   }
+
+  let content = contentLines.join('\n').trim();
+
+  // Search harder for SEO Title in the first 20 lines if not found
+  if (!data['SEO Title'] && !data.title) {
+    for (let i = 0; i < Math.min(20, lines.length); i++) {
+      const line = lines[i].trim();
+      const matchTitle = line.match(/^(?:SEO\s+Title|Title)\s*:\s*(.+)$/i);
+      if (matchTitle) {
+        data['SEO Title'] = matchTitle[1].trim();
+        break;
+      }
+    }
+  }
+
+  // Search harder for Meta Description in the first 20 lines if not found
+  if (!data['Meta Description'] && !data.excerpt) {
+    for (let i = 0; i < Math.min(20, lines.length); i++) {
+      const line = lines[i].trim();
+      const matchDesc = line.match(/^(?:Meta\s+Description|Description|Excerpt)\s*:\s*(.+)$/i);
+      if (matchDesc) {
+        data['Meta Description'] = matchDesc[1].trim();
+        break;
+      }
+    }
+  }
+
+  // Clean fallback excerpt by stripping leaked generation lines
+  let cleanExcerpt = data['Meta Description'] || data.excerpt;
+  if (!cleanExcerpt) {
+    const cleanContentText = content
+      .split('\n')
+      .filter(line => {
+        const l = line.trim();
+        return l !== '' &&
+               !/^#?\s*Blog\s*\d+/i.test(l) &&
+               !/^[═\-*\s]+$/.test(l) &&
+               !/^(SEO Title|Meta Description|Slug|Primary Keyword|Secondary Keywords|GEO Phrase|Target Market|Niche Tag|Date)/i.test(l);
+      })
+      .join(' ');
+    cleanExcerpt = cleanContentText.substring(0, 150).trim();
+    if (cleanExcerpt.length > 0) {
+      cleanExcerpt += '...';
+    } else {
+      cleanExcerpt = 'Click to read full post...';
+    }
+  }
+
+  // Clean title from fallback filename
+  const rawTitle = data['SEO Title'] || data.title;
+  const isTitleParsed = rawTitle && !/^blog_\d+$/i.test(rawTitle);
+  const title = isTitleParsed ? rawTitle : filename.replace('.md', '');
 
   // Estimate read time (assuming ~200 words per minute)
   const wordCount = content.split(/\s+/).length;
@@ -116,19 +251,18 @@ const blogIndex = files.map((filename, index) => {
   const image = pool[index % pool.length];
 
   // Dynamic alt text filled with metadata and primary keywords
-  const primaryKeyword = data['Primary Keyword'] || data.title || 'B2B growth';
+  const primaryKeyword = data['Primary Keyword'] || title;
   const targetMarket = data['Target Market'] || 'US / UK / Australia';
   const imageAlt = `${primaryKeyword} - High-converting growth marketing and web systems targeting ${targetMarket}`;
 
-  // Extract frontmatter keys mapping to the original Blog.jsx object structure
   return {
     filename,
-    title: data['SEO Title'] || data.title || filename.replace('.md', ''),
+    title,
     tag: rawTag,
     date: data.Date || 'Published recently',
     readTime,
-    excerpt: data['Meta Description'] || data.excerpt || content.substring(0, 150).replace(/#/g, '').trim() + '...',
-    slug: data.Slug || filename.replace('.md', ''),
+    excerpt: cleanExcerpt,
+    slug: data.Slug || data.slug || filename.replace('.md', ''),
     image,
     imageAlt,
     primaryKeyword,
