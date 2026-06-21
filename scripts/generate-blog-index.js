@@ -82,13 +82,20 @@ function normalizeTag(tag) {
 const blogIndex = files.map((filename, index) => {
   const filePath = path.join(blogsDir, filename);
   const fileContent = fs.readFileSync(filePath, 'utf-8');
+  
+  // Normalize line endings to LF
+  const normalizedContent = fileContent.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+  
   let data = {};
-  let content = fileContent;
+  
+  // Strip the optional "# Blog X of 200" line at the beginning
+  const cleanedContent = normalizedContent.replace(/^(?:#\s*Blog\s*\d+\s*of\s*\d+\s*[\n]*)+/i, '').trim();
+  let content = cleanedContent;
 
-  const match = fileContent.match(/^---\n([\s\S]*?)\n---/);
+  const match = cleanedContent.match(/^---\n([\s\S]*?)\n---/);
   if (match) {
     const frontmatter = match[1];
-    content = fileContent.substring(match[0].length);
+    content = cleanedContent.substring(match[0].length).trim();
     frontmatter.split('\n').forEach(line => {
       const idx = line.indexOf(':');
       if (idx > 0) {
