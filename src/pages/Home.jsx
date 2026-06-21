@@ -50,14 +50,8 @@ const services = [
 ];
 
 const niches = [
-  { label: 'SaaS', to: '/saas-websites' },
-  { label: 'Cosmetic Clinics', to: '/cosmetic-clinic-websites' },
-  { label: 'Immigration Consultants', to: '/immigration-consultant-websites' },
-  { label: 'Luxury Real Estate', to: '/luxury-real-estate-websites' },
-  { label: 'Cybersecurity & IT', to: '/cybersecurity-it-websites' },
-  { label: 'B2B Manufacturers', to: '/case-studies' },
-  { label: 'Legal Firms', to: '/services' },
-  { label: 'EdTech', to: '/services' },
+  { label: 'SaaS & Tech Startups', to: '/saas-websites' },
+  { label: 'B2B Manufacturing & Nutraceuticals', to: '/case-studies' },
 ];
 
 const processSteps = [

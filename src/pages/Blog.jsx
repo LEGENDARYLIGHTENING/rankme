@@ -11,13 +11,9 @@ const uniqueTags = [...new Set(blogPosts.map(p => p.tag))].filter(Boolean);
 const allTags = ['All', ...uniqueTags];
 
 const hubDescriptions = {
-  'SaaS Growth': 'Everything you need to grow a SaaS business through SEO, GEO, LinkedIn, and conversion-focused website strategy. These posts are written for SaaS founders and growth teams in the US, UK, Australia, Canada, and Gulf.',
-  'Luxury Real Estate': 'Digital presence strategies for premium property developers and high-end brokers. Insights on targeting high-net-worth individuals, off-plan SEO, and high-ticket lead generation.',
-  'Cybersecurity and IT': 'B2B marketing playbooks for MSPs and cybersecurity firms. Learn how to turn complex technical services into business value that enterprise decision-makers actually search for.',
-  'Cosmetic Clinics': 'Growth systems for high-ticket medical aesthetics clinics. Proven tactics to dominate local SEO, capture AI search traffic, and convert website visitors into booked consultations.',
-  'Immigration': 'Digital trust and lead generation for immigration consultants. Strategies to rank globally for visa queries, pre-qualify applicants, and build a premium international brand.',
-  'B2B Manufacturing': 'Modernizing digital presence for B2B manufacturers and exporters. Learn how to build conversion-focused websites that capture international leads and quote requests.',
-  'More Niches': 'Actionable growth strategies, case studies, and insights applicable across various B2B niches and professional services.'
+  'SaaS & Tech Startups': 'Everything you need to grow a SaaS business through SEO, GEO, LinkedIn, and conversion-focused website strategy. These posts are written for SaaS founders and growth teams in the US, UK, Australia, Canada, and Gulf.',
+  'nutraceuticals and wellness brands': 'Digital presence and performance marketing playbooks for high-ticket nutraceuticals and wellness brands. Learn how to drive international export leads and build consumer trust.',
+  'B2B Manufacturers & Exporters': 'Modernizing digital presence for B2B manufacturers and exporters. Learn how to build conversion-focused websites that capture international leads and quote requests.'
 };
 
 export default function Blog() {
@@ -27,7 +23,7 @@ export default function Blog() {
 
   const filtered = activeFilter === 'All'
     ? blogPosts
-    : blogPosts.filter((p) => p.tag === activeFilter || (activeFilter === 'More Niches' && !allTags.includes(p.tag)));
+    : blogPosts.filter((p) => p.tag === activeFilter);
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;

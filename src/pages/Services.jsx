@@ -110,7 +110,7 @@ const faqs = [
   },
   {
     question: 'What industries do you specialize in?',
-    answer: 'I specialize in B2B companies including SaaS, cybersecurity, IT managed services, cosmetic clinics, immigration consultants, luxury real estate, B2B manufacturing, legal firms, and EdTech.',
+    answer: 'I specialize in B2B companies including SaaS & Tech Startups, Nutraceuticals & Wellness brands, and B2B Manufacturers & Exporters.',
   },
   {
     question: 'What if I only need a website and not the retainer?',

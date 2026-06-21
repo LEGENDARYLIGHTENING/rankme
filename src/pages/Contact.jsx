@@ -193,7 +193,7 @@ export default function Contact() {
                           className="form-input"
                           value={formData.niche}
                           onChange={handleChange}
-                          placeholder="SaaS, Real Estate..."
+                          placeholder="SaaS, Wellness, Manufacturing..."
                         />
                       </div>
                     </div>

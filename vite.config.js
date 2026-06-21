@@ -18,9 +18,7 @@ try {
 
 const baseRoutes = [
   '/services', '/case-studies', '/about', '/certifications', 
-  '/process', '/blog', '/free-audit', '/contact', '/saas-websites', 
-  '/cosmetic-clinic-websites', '/immigration-consultant-websites', 
-  '/luxury-real-estate-websites', '/cybersecurity-it-websites'
+  '/process', '/blog', '/free-audit', '/contact', '/saas-websites'
 ]
 
 // https://vite.dev/config/

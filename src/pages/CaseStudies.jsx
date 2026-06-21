@@ -134,8 +134,8 @@ export default function CaseStudies() {
             />
             <CaseStudyCard
               comingSoon
-              tag="Cybersecurity"
-              title="Cybersecurity MSP - Website & SEO System"
+              tag="Nutraceuticals"
+              title="Wellness Brand - E-commerce & Retail Distribution"
             />
           </div>
         </div>
