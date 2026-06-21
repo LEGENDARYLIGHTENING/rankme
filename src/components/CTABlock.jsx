@@ -4,7 +4,7 @@ import './CTABlock.css';
 export default function CTABlock({
   label = 'Ready to Grow?',
   title = 'Book Your Free 30-Minute Growth Audit',
-  subtitle = 'Get a complete teardown of your website, SEO, ads, and lead generation — no pitch, just a clear action plan.',
+  subtitle = 'Get a complete teardown of your website, SEO, ads, and lead generation - no pitch, just a clear action plan.',
   primaryCTA = { to: '/free-audit', label: 'Book Free Audit' },
   secondaryCTA,
   showCalendly = false,
@@ -17,7 +17,7 @@ export default function CTABlock({
           <h2 className="cta-block__title">{title}</h2>
           <p className="cta-block__subtitle">{subtitle}</p>
           <div style={{ color: 'var(--color-red)', fontSize: '13px', fontWeight: 500, margin: 'var(--space-md) 0' }}>
-            Only 2 new client spots available this month — audit slots fill fast.
+            Only 2 new client spots available this month. Audit slots fill fast.
           </div>
           <div className="cta-block__actions">
             <Link to={primaryCTA.to} className="btn btn--primary">
@@ -31,7 +31,7 @@ export default function CTABlock({
           </div>
           {showCalendly && (
             <div className="calendly-placeholder">
-              {/* Calendly Embed Placeholder — Replace with Calendly inline widget script */}
+              <div className="calendly-inline-widget" data-url="https://calendly.com/your-link" style={{ minWidth: "320px", height: "700px" }}></div>
               Calendly Scheduling Widget Will Appear Here
             </div>
           )}

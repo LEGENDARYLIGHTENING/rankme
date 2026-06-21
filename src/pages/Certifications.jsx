@@ -9,14 +9,14 @@ const certs = [
     name: 'GA4 Certification',
     issuer: 'Google',
     year: '2024',
-    impact: 'Tracks every lead, form fill, and conversion event on your site — ensuring no opportunity is missed and every dollar spent is accounted for.',
+    impact: 'Tracks every lead, form fill, and conversion event on your site, ensuring no opportunity is missed and every dollar spent is accounted for.',
   },
   {
     badge: '★',
     name: 'Digital Marketing Mastery',
     issuer: 'Digital Deepak Internship Program',
     year: '2024',
-    impact: 'Full-stack digital marketing training covering SEO, ads, funnels, and content — the foundation of every growth system I build for clients.',
+    impact: 'Full-stack digital marketing training covering SEO, ads, funnels, and content, the foundation of every growth system I build for clients.',
   },
 ];
 
@@ -24,7 +24,7 @@ export default function Certifications() {
   return (
     <>
       <Helmet>
-        <title>Certifications | Moksh — B2B Growth Consultant</title>
+        <title>Certifications | Moksh | B2B Growth Consultant</title>
         <meta
           name="description"
           content="GA4 certified and Digital Deepak trained. Verified SEO, GEO, and performance marketing credentials to ensure your B2B growth consulting delivers massive ROI."
@@ -39,7 +39,7 @@ export default function Certifications() {
             <span className="text-gold">Drive Results</span>
           </>
         }
-        subtitle="Every certification directly impacts client outcomes — these are not just badges, they are the systems behind the results."
+        subtitle="Every certification directly impacts client outcomes. These are not just badges, they are the systems behind the results."
         primaryCTA={{ to: '/free-audit', label: 'Book Free Audit' }}
       />
 
@@ -62,7 +62,7 @@ export default function Certifications() {
             <div className="cert-card" style={{ borderColor: 'var(--color-border)' }}>
               <div className="cert-card__badge" style={{ color: 'var(--color-gold)' }}>…</div>
               <p className="cert-card__progress-badge" style={{ color: 'var(--color-gold)', backgroundColor: 'transparent', border: '1px solid var(--color-gold)' }}>Coming Soon</p>
-              <h3 className="cert-card__name" style={{ color: 'var(--color-text-muted)' }}>More Certifications In Progress — check back soon.</h3>
+              <h3 className="cert-card__name" style={{ color: 'var(--color-text-muted)' }}>More Certifications In Progress - check back soon.</h3>
             </div>
           </div>
         </div>

@@ -11,8 +11,8 @@ import './Home.css';
 const proofItems = [
   { value: '1,000+', label: 'Qualified B2B Leads (2022–2025)' },
   { value: '50K+', label: 'Followers Built Across Tier 1 Markets' },
-  { value: '20M+', label: 'Cumulative Reach — US, UK, AU, Gulf' },
-  { value: 'GA4', label: 'Certified — Google' },
+  { value: '20M+', label: 'Cumulative Reach: US, UK, AU, Gulf' },
+  { value: 'GA4', label: 'Google Certified' },
   { value: 'US · UK · AU', label: 'Gulf Markets' },
 ];
 
@@ -63,7 +63,7 @@ const niches = [
 const processSteps = [
   {
     title: 'Free Audit',
-    description: 'A 30-minute call where I review your website, SEO, ads, and LinkedIn — you walk away with a clear priority list.',
+    description: 'A 30-minute call where I review your website, SEO, ads, and LinkedIn, and you walk away with a clear priority list.',
   },
   {
     title: 'Build & Launch',
@@ -137,13 +137,13 @@ export default function Home() {
           <h2 className="section-title">Probiota Innovations</h2>
           <div className="case-teaser__content">
             <div className="img-placeholder">
-              [ Client Work Preview — Coming Soon ]
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Client Work Preview" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
             </div>
             <div className="case-teaser__info">
               <h3>Full B2B Website Built in React JS</h3>
               <p>
                 Probiota Innovations is a B2B nutraceutical manufacturer and exporter.
-                I built their entire website from scratch in React JS — complete with
+                I built their entire website from scratch in React JS, complete with
                 SEO-optimized pages, GEO blog content, a quote capture funnel, and GA4 tracking.
               </p>
               <div className="case-teaser__stats">

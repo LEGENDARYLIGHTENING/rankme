@@ -247,10 +247,10 @@ export default function Contact() {
           <p className="section-label">Prefer to talk?</p>
           <h2 className="section-title">Book a Call Directly</h2>
           <div style={{ color: 'var(--color-red)', fontSize: '13px', fontWeight: 500, marginBottom: 'var(--space-sm)' }}>
-            Only 2 new client spots available this month — audit slots fill fast.
+            Only 2 new client spots available this month. Audit slots fill fast.
           </div>
           <div className="calendly-placeholder">
-            {/* Calendly Embed Placeholder — Replace with Calendly inline widget script */}
+            <div className="calendly-inline-widget" data-url="https://calendly.com/your-link" style={{ minWidth: "320px", height: "700px" }}></div>
             Calendly Scheduling Widget Will Appear Here
           </div>
         </div>

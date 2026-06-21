@@ -7,7 +7,7 @@ import './Process.css';
 const faqs = [
   {
     question: 'How do we collaborate if we are in different timezones?',
-    answer: 'I am flexible with scheduling across US, UK, Australia, Canada, and Gulf timezones. We agree on a cadence that works — usually weekly async updates with a bi-weekly call.',
+    answer: 'I am flexible with scheduling across US, UK, Australia, Canada, and Gulf timezones. We agree on a cadence that works: usually weekly async updates with a bi-weekly call.',
   },
   {
     question: 'What tools do you use for communication?',
@@ -32,7 +32,7 @@ export default function Process() {
         <title>How I Work | Audit to B2B Website & Retainer | Moksh</title>
         <meta
           name="description"
-          content="From a free 30-minute audit to a live React JS website and a monthly SEO, GEO, LinkedIn, and ads retainer — here is exactly how I partner with B2B businesses."
+          content="From a free 30-minute audit to a live React JS website and a monthly SEO, GEO, LinkedIn, and ads retainer. Here is exactly how I partner with B2B businesses."
         />
       </Helmet>
 
@@ -43,7 +43,7 @@ export default function Process() {
             Audit. Build. <span className="text-gold">Grow.</span>
           </>
         }
-        subtitle="From a free 30-minute audit to a live React JS website to a monthly growth retainer — here is exactly how I work with clients."
+        subtitle="From a free 30-minute audit to a live React JS website to a monthly growth retainer. Here is exactly how I work with clients."
         primaryCTA={{ to: '/free-audit', label: 'Book Free Audit' }}
       />
 
@@ -56,7 +56,7 @@ export default function Process() {
               <h3>Free Growth Audit (30 min)</h3>
               <p>
                 We start with a free 30-minute call where the audit uncovers exactly what is blocking your leads.
-                You walk away with a clear priority list — no pitch, no pressure.
+                You walk away with a clear priority list with no pitch, no pressure.
               </p>
               <div className="process-detail__items">
                 <div className="process-detail__item">Website UX & conversion rate review</div>
@@ -80,7 +80,7 @@ export default function Process() {
               <h3>Build Sprint (7–14 days)</h3>
               <p>
                 The build phase delivers a live, GA4-tracked, conversion-ready website 
-                with SEO-optimized pages and mobile responsive design — delivered as a live URL 
+                with SEO-optimized pages and mobile responsive design, delivered as a live URL 
                 you fully control.
               </p>
               <div className="process-detail__items">

@@ -26,7 +26,7 @@ const reviewItems = [
   {
     icon: '✓',
     title: 'GA4 & Analytics Setup',
-    desc: 'The analytics check reveals if leads, form fills, and conversion events are properly tracked — or if you are flying blind.',
+    desc: 'The analytics check reveals if leads, form fills, and conversion events are properly tracked, or if you are flying blind.',
   },
 ];
 
@@ -45,7 +45,7 @@ export default function FreeAudit() {
         <title>Book a Free B2B Website & Growth Audit | Moksh</title>
         <meta
           name="description"
-          content="Get a free 30-minute teardown of your B2B website, SEO and GEO gaps, ads performance, and lead generation leaks — zero pitch, just a clear, actionable plan."
+          content="Get a free 30-minute teardown of your B2B website, SEO and GEO gaps, ads performance, and lead generation leaks with zero pitch, just a clear, actionable plan."
         />
       </Helmet>
 
@@ -56,7 +56,7 @@ export default function FreeAudit() {
             Get a Free <span className="text-gold">30-Minute</span> Growth Teardown
           </>
         }
-        subtitle="I will review your website, SEO, GEO, LinkedIn, and ads — and give you a clear priority action plan. No pitch. No commitment. Just value."
+        subtitle="I will review your website, SEO, GEO, LinkedIn, and ads and give you a clear priority action plan. No pitch. No commitment. Just value."
         center
       />
 
@@ -83,10 +83,10 @@ export default function FreeAudit() {
           <p className="section-label">Book Your Audit</p>
           <h2 className="section-title">Pick a Time That Works</h2>
           <div style={{ color: 'var(--color-red)', fontSize: '13px', fontWeight: 500, marginBottom: 'var(--space-sm)' }}>
-            Only 2 new client spots available this month — audit slots fill fast.
+            Only 2 new client spots available this month. Audit slots fill fast.
           </div>
           <div className="calendly-placeholder">
-            {/* Calendly Embed Placeholder — Replace with Calendly inline widget script
+            {/* Calendly Embed Placeholder - Replace with Calendly inline widget script
                 Example: <div class="calendly-inline-widget" data-url="https://calendly.com/YOUR_LINK" style="min-width:320px;height:630px;"></div>
                 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
             */}

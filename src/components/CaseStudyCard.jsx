@@ -13,7 +13,7 @@ export default function CaseStudyCard({
   if (comingSoon) {
     return (
       <div className="case-study-card case-study-card--coming-soon">
-        <div className="case-study-card__image">Case Study Coming Soon</div>
+        <div className="case-study-card__image">View Case Study</div>
         <div className="case-study-card__body">
           <p className="case-study-card__tag">{tag || 'Upcoming'}</p>
           <h3 className="case-study-card__title">{title}</h3>

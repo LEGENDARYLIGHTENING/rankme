@@ -44,7 +44,7 @@ export default function Blog() {
             Insights on <span className="text-gold">B2B Growth</span>
           </>
         }
-        subtitle="SEO, GEO, LinkedIn, React JS websites, and paid ads — tactical insights for B2B brands looking to generate qualified leads."
+        subtitle="SEO, GEO, LinkedIn, React JS websites, and paid ads. Tactical insights for B2B brands looking to generate qualified leads."
         primaryCTA={{ to: '/free-audit', label: 'Book Free Audit' }}
       />
 

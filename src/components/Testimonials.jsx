@@ -11,14 +11,14 @@ const testimonials = [
   {
     quote: "The GEO content strategy put us in front of buyers we had never reached before. Our LinkedIn leads doubled in 6 weeks.",
     name: "Client Name",
-    title: "CEO, [Company — Testimonial Pending]",
+    title: "CEO, [Company - Testimonial Pending]",
     initials: "CN",
     isPending: true,
   },
   {
     quote: "Finally a consultant who understands both the technical build and the marketing strategy. The audit alone was worth it.",
     name: "Client Name",
-    title: "Director, [Company — Testimonial Pending]",
+    title: "Director, [Company - Testimonial Pending]",
     initials: "CN",
     isPending: true,
   }
@@ -42,7 +42,7 @@ export default function Testimonials() {
                 </div>
               </div>
               {testimonial.isPending && (
-                <p className="testimonial-card__pending-note">Testimonial in progress — more case studies launching soon.</p>
+                <p className="testimonial-card__pending-note">Testimonial in progress - more case studies launching soon.</p>
               )}
             </div>
           ))}

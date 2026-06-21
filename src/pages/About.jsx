@@ -70,7 +70,7 @@ export default function About() {
           <div className="about-story__content">
             <p>
               I started as a digital marketing intern, learning the ropes of SEO, paid ads,
-              and content creation from scratch. But I was not content with just theory — I
+              and content creation from scratch. But I was not content with just theory. I
               wanted real results.
             </p>
             <p>
@@ -80,19 +80,19 @@ export default function About() {
               result is documented.
             </p>
             <p>
-              Then I built Probiota Innovations — a full B2B manufacturing and export website
+              Then I built Probiota Innovations, a full B2B manufacturing and export website
               in React JS from scratch. It generated 10+ qualified B2B leads. That was the
               moment I knew this growth system works.
             </p>
             <p>
               This same system is now deployed for B2B brands in the US, UK, Australia, Canada, and
               Gulf countries: a conversion-focused website, SEO & GEO content, LinkedIn
-              authority, and paid ads — everything a business needs to turn online presence
+              authority, and paid ads: everything a business needs to turn online presence
               into qualified leads.
             </p>
             <p>
-              The foundation of this system comes from the Digital Deepak Internship Program — one of India&#39;s most rigorous
-              digital marketing training programs — and hands-on experience as a Sales and Digital
+              The foundation of this system comes from the Digital Deepak Internship Program (one of India&#39;s most rigorous
+              digital marketing training programs) and hands-on experience as a Sales and Digital
               Marketing professional at Competence Consulting.
             </p>
             <a

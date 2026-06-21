@@ -8,13 +8,13 @@ import './CaseStudies.css';
 const otherCases = [
   {
     title: 'EdTech Startup Lead Gen',
-    image: '[ Client Work Preview — Coming Soon ]',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
     metrics: ['20% increase in MQLs', 'GA4 conversion tracking setup'],
     industry: 'EdTech',
   },
   {
     title: 'Local B2B Service Provider',
-    image: '[ Client Work Preview — Coming Soon ]',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
     metrics: ['#1 ranking for local service keyword', '30+ qualified leads/mo'],
     industry: 'Business Services',
   },
@@ -35,7 +35,7 @@ export default function CaseStudies() {
         <title>B2B Lead Generation & Website Case Studies | Moksh</title>
         <meta
           name="description"
-          content="See exactly how I built Probiota Innovations in React JS and generated 10+ B2B leads — and learn how this exact system works to scale your B2B business online."
+          content="See exactly how I built Probiota Innovations in React JS and generated 10+ B2B leads - and learn how this exact system works to scale your B2B business online."
         />
       </Helmet>
 
@@ -46,7 +46,7 @@ export default function CaseStudies() {
             Real Results. <span className="text-gold">Real Growth.</span>
           </>
         }
-        subtitle="See how I build B2B websites and growth systems that generate qualified leads — starting with Probiota Innovations."
+        subtitle="See how I build B2B websites and growth systems that generate qualified leads - starting with Probiota Innovations."
         primaryCTA={{ to: '/free-audit', label: 'Book Free Audit' }}
       />
 
@@ -57,7 +57,7 @@ export default function CaseStudies() {
           <h2 className="section-title">Probiota Innovations</h2>
           <div className="case-full__layout">
             <div className="case-full__image img-placeholder">
-              [ Client Work Preview — Coming Soon ]
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Client Work Preview" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
             </div>
             <div className="case-full__content">
               <h3>Client Background</h3>
@@ -123,18 +123,18 @@ export default function CaseStudies() {
       {/* Coming Soon */}
       <section className="coming-soon-section" id="upcoming-cases">
         <div className="container">
-          <p className="section-label">More Coming Soon</p>
+          <p className="section-label">View All Projects</p>
           <h2 className="section-title">Upcoming Case Studies</h2>
           <div className="case-studies-grid">
             <CaseStudyCard
               comingSoon
               tag="SaaS"
-              title="B2B SaaS Platform — Website & Lead Gen"
+              title="B2B SaaS Platform - Website & Lead Gen"
             />
             <CaseStudyCard
               comingSoon
               tag="Cybersecurity"
-              title="Cybersecurity MSP — Website & SEO System"
+              title="Cybersecurity MSP - Website & SEO System"
             />
           </div>
         </div>

@@ -9,7 +9,7 @@ const servicesData = [
   {
     icon: '⟨/⟩',
     title: 'Website Build',
-    price: 'Custom Quote — Starting from $2,500',
+    price: 'Custom Quote: Starting from $2,500',
     description: 'Conversion-focused React JS website with GA4 event tracking, contact or quote form, SEO-optimized pages, and fully mobile responsive design.',
     deliverables: [
       'Custom React JS website (5–8 pages)',
@@ -19,12 +19,12 @@ const servicesData = [
       'SEO-optimized page structure',
       'Deployed to live URL you control',
     ],
-    timeline: 'Timeline: 4–6 weeks — strategy, build, QA, and launch.',
+    timeline: 'Timeline: 4–6 weeks for strategy, build, QA, and launch.',
   },
   {
     icon: '◎',
     title: 'SEO + GEO System',
-    price: 'Custom Quote — From $1,200/mo',
+    price: 'Custom Quote: From $1,200/mo',
     description: 'Blog content strategy, keyword targeting, and GEO phrase optimization for ChatGPT, Perplexity, and Google SGE visibility.',
     deliverables: [
       'Monthly blog content strategy',
@@ -39,7 +39,7 @@ const servicesData = [
   {
     icon: 'in',
     title: 'LinkedIn Content',
-    price: 'Custom Quote — From $800/mo',
+    price: 'Custom Quote: From $800/mo',
     description: '4x high-impact LinkedIn posts per month plus daily outbound engagement and weekly performance review.',
     deliverables: [
       'Founder story & authority posts',
@@ -54,7 +54,7 @@ const servicesData = [
   {
     icon: '▶',
     title: 'Meta & Google Ads',
-    price: 'Custom Quote — From $1,000/mo',
+    price: 'Custom Quote: From $1,000/mo',
     description: 'Campaign setup, ad copy, audience targeting, and CTR/CPL optimization across Meta Ads and Google Ads platforms.',
     deliverables: [
       'Campaign setup & structure',
@@ -69,8 +69,8 @@ const servicesData = [
   {
     icon: '☎',
     title: 'Free Growth Audit',
-    price: 'Free — 30 minutes',
-    description: 'Full teardown of your website UX, SEO gaps, ads performance, LinkedIn presence, and GA4 setup. No pitch — just a clear action plan.',
+    price: 'Free: 30 minutes',
+    description: 'Full teardown of your website UX, SEO gaps, ads performance, LinkedIn presence, and GA4 setup. No pitch, just a clear action plan.',
     deliverables: [
       'Website UX & conversion review',
       'SEO & GEO gap analysis',
@@ -139,7 +139,7 @@ export default function Services() {
             <span className="text-gold">B2B Brands</span>
           </>
         }
-        subtitle="Conversion-focused React JS websites, SEO & GEO content systems, LinkedIn authority content, and Meta & Google Ads — everything a B2B brand needs to generate qualified leads."
+        subtitle="Conversion-focused React JS websites, SEO & GEO content systems, LinkedIn authority content, and Meta & Google Ads: everything a B2B brand needs to generate qualified leads."
         primaryCTA={{ to: '/free-audit', label: 'Book Free Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'See Results' }}
       />
