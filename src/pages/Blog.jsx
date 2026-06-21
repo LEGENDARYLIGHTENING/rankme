@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
@@ -22,10 +22,21 @@ const hubDescriptions = {
 
 export default function Blog() {
   const [activeFilter, setActiveFilter] = useState('All');
+  const [currentPage, setCurrentPage] = useState(1);
+  const postsPerPage = 9;
 
   const filtered = activeFilter === 'All'
     ? blogPosts
     : blogPosts.filter((p) => p.tag === activeFilter || (activeFilter === 'More Niches' && !allTags.includes(p.tag)));
+
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = filtered.slice(indexOfFirstPost, indexOfLastPost);
+  const totalPages = Math.ceil(filtered.length / postsPerPage);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [activeFilter]);
 
   return (
     <>
@@ -73,7 +84,7 @@ export default function Blog() {
 
           {/* Blog Grid */}
           <div className="blog-grid">
-            {filtered.map((post, i) => (
+            {currentPosts.map((post, i) => (
               <Link to={`/blog/${post.slug}`} key={i} className="blog-card" style={{ textDecoration: 'none', color: 'inherit' }}>
                 <div className="blog-card__image img-placeholder" style={{ minHeight: '200px' }}>
                   <img src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?auto=format&fit=crop&w=800&q=80" alt={post.title} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
@@ -90,6 +101,31 @@ export default function Blog() {
               </Link>
             ))}
           </div>
+
+          {/* Pagination Controls */}
+          {totalPages > 1 && (
+            <div className="pagination" style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', marginTop: '3rem' }}>
+              <button 
+                onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+                disabled={currentPage === 1}
+                className="btn btn--secondary"
+                style={{ padding: '0.5rem 1rem', opacity: currentPage === 1 ? 0.5 : 1 }}
+              >
+                Previous
+              </button>
+              <span style={{ display: 'flex', alignItems: 'center', padding: '0 1rem', color: 'var(--color-text-muted)' }}>
+                Page {currentPage} of {totalPages}
+              </span>
+              <button 
+                onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+                disabled={currentPage === totalPages}
+                className="btn btn--secondary"
+                style={{ padding: '0.5rem 1rem', opacity: currentPage === totalPages ? 0.5 : 1 }}
+              >
+                Next
+              </button>
+            </div>
+          )}
 
           {/* Sidebar CTA */}
           <div className="blog-cta-sidebar" id="blog-cta">

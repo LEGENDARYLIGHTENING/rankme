@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams, Navigate, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import ReactMarkdown from 'react-markdown';
 import HeroSection from '../components/HeroSection';
@@ -16,6 +16,11 @@ export default function BlogPost() {
 
   // Look up metadata from our generated JSON index
   const postMeta = blogIndex.find((b) => b.slug === slug);
+
+  // Find related posts for internal linking
+  const relatedPosts = postMeta 
+    ? blogIndex.filter((b) => b.tag === postMeta.tag && b.slug !== slug).slice(0, 3)
+    : [];
 
   useEffect(() => {
     if (!postMeta) return;
@@ -78,6 +83,24 @@ export default function BlogPost() {
           ) : (
             <div className="markdown-prose">
               <ReactMarkdown>{content}</ReactMarkdown>
+            </div>
+          )}
+
+          {/* Internal Linking / Related Posts */}
+          {!loading && relatedPosts.length > 0 && (
+            <div className="related-posts" style={{ marginTop: '4rem', borderTop: '1px solid var(--color-border)', paddingTop: '2rem' }}>
+              <h3 style={{ marginBottom: '1.5rem', color: 'var(--color-text)' }}>Related Posts</h3>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem' }}>
+                {relatedPosts.map((post) => (
+                  <Link to={`/blog/${post.slug}`} key={post.slug} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                    <div className="img-placeholder" style={{ height: '120px', borderRadius: '4px' }}>
+                      <img src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?auto=format&fit=crop&w=800&q=80" alt={post.title} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
+                    </div>
+                    <h4 style={{ fontSize: '1rem', margin: 0, color: 'var(--color-text)' }}>{post.title}</h4>
+                    <span style={{ fontSize: '0.875rem', color: 'var(--color-text-muted)' }}>{post.readTime}</span>
+                  </Link>
+                ))}
+              </div>
             </div>
           )}
         </div>

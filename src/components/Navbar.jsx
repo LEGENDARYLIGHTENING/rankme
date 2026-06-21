@@ -32,8 +32,8 @@ export default function Navbar() {
     <>
       <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`} id="main-nav">
         <div className="navbar__inner">
-          <Link to="/" className="navbar__logo" style={{ textDecoration: 'none' }}>
-            <span style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--color-text)', letterSpacing: '-0.5px' }}>Moksh<span style={{ color: 'var(--color-gold)' }}>.</span></span>
+          <Link to="/" className="navbar__logo">
+            <img src="/Copilot_20260620_230305.png" alt="Moksh Logo" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
           </Link>
 
           <div className="navbar__links">
