@@ -7,114 +7,94 @@ import './Services.css';
 
 const servicesData = [
   {
-    icon: '⟨/⟩',
-    title: 'Website Build',
-    price: 'Custom Quote: Starting from $2,500',
-    description: 'Conversion-focused React JS website with GA4 event tracking, contact or quote form, SEO-optimized pages, and fully mobile responsive design.',
-    deliverables: [
-      'Custom React JS website (5–8 pages)',
-      'GA4 event tracking setup',
-      'Contact or quote capture form',
-      'Mobile responsive across all devices',
-      'SEO-optimized page structure',
-      'Deployed to live URL you control',
-    ],
-    timeline: 'Timeline: 4–6 weeks for strategy, build, QA, and launch.',
-  },
-  {
     icon: '◎',
-    title: 'SEO + GEO System',
-    price: 'Custom Quote: From $1,200/mo',
-    description: 'Blog content strategy, keyword targeting, and GEO phrase optimization for ChatGPT, Perplexity, and Google SGE visibility.',
+    title: 'Strategic Positioning & Messaging',
+    description: 'We translate complex industrial, technical, and clinical processes into clear, high-converting B2B positioning copy. We map out your digital acquisition roadmap so you become the obvious partner for enterprise contracts.',
     deliverables: [
-      'Monthly blog content strategy',
-      'Keyword research & targeting',
-      'GEO phrase optimization',
-      'On-page SEO improvements',
-      'Search console monitoring',
-      'Monthly ranking reports',
+      'B2B competitive audits & positioning matrices',
+      'Value proposition design & messaging frameworks',
+      'Commercial copy & objection-handling structures',
+      'Lead qualification pathways & script briefs',
     ],
-    timeline: 'Monthly retainer',
+    timeline: 'Completed in Week 1 of engagement',
   },
   {
-    icon: 'in',
-    title: 'LinkedIn Content',
-    price: 'Custom Quote: From $800/mo',
-    description: '4x high-impact LinkedIn posts per month plus daily outbound engagement and weekly performance review.',
+    icon: '⟨/⟩',
+    title: 'Custom Growth Infrastructure',
+    description: 'We design and code bespoke, high-performance web platforms using React and Next.js, integrating secure PostgreSQL database layers and Cloudflare enterprise network rules to guarantee speeds under 1.2s globally.',
     deliverables: [
-      'Founder story & authority posts',
-      'Thought leadership content',
-      'Lead-generation hook posts',
-      'Content calendar planning',
-      'Engagement strategy',
-      'Monthly performance review',
+      'Custom React JS & Next.js web application architecture',
+      'PostgreSQL data schemas & lead capture integrations',
+      'GA4 analytics custom event tracking pipeline',
+      'Cloudflare enterprise security & deployment rules',
     ],
-    timeline: 'Monthly retainer',
+    timeline: 'Completed in 7–14 days sprint',
   },
   {
-    icon: '▶',
-    title: 'Meta & Google Ads',
-    price: 'Custom Quote: From $1,000/mo',
-    description: 'Campaign setup, ad copy, audience targeting, and CTR/CPL optimization across Meta Ads and Google Ads platforms.',
+    icon: '🔍',
+    title: 'SEO + GEO Visibility (Search Dominance)',
+    description: 'We optimize your digital footprint for traditional Google search and generative AI engines like ChatGPT, Claude, and Perplexity. We target bottom-of-funnel keyword problems that represent immediate buying intent.',
     deliverables: [
-      'Campaign setup & structure',
-      'Ad copy & creative direction',
-      'Audience targeting & segmentation',
-      'CTR & CPL optimization',
-      'A/B testing strategy',
-      'Monthly performance reports',
+      'Bottom-of-funnel, high-intent keyword mapping',
+      'Generative Engine Optimization (GEO) semantic structure',
+      'Google Search Console setup, sitemaps & crawl audits',
+      'High-authority, long-form content planning (4,000–8,000 words)',
     ],
-    timeline: 'Monthly retainer',
+    timeline: 'Ongoing retainer integration',
   },
   {
-    icon: '☎',
-    title: 'Free Growth Audit',
-    price: 'Free: 30 minutes',
-    description: 'Full teardown of your website UX, SEO gaps, ads performance, LinkedIn presence, and GA4 setup. No pitch, just a clear action plan.',
+    icon: '✍',
+    title: 'Organic Demand & Executive Authority',
+    description: 'We shorten your sales cycle by building authority and trust before the first discovery call. By planning and scripting specialized executive LinkedIn posts and B2B articles, we drive high-intent organic inbound.',
     deliverables: [
-      'Website UX & conversion review',
-      'SEO & GEO gap analysis',
-      'Ads performance assessment',
-      'LinkedIn presence review',
-      'GA4 & analytics check',
-      'Priority action list',
+      'LinkedIn executive thought leadership content mapping',
+      'B2B research studies & quarterly report generation',
+      'Authority internal linking structures & blog publishing',
+      'PR & partner network citation development',
     ],
-    timeline: '30-minute call',
+    timeline: 'Ongoing retainer integration',
+  },
+  {
+    icon: '📊',
+    title: 'Conversion Rate Systems & CRO',
+    description: 'We perform deep user interaction audits and optimize lead-capture layouts. We run structural A/B tests and form field optimizations to maximize qualified pipelines without increasing ad budgets.',
+    deliverables: [
+      'Friction teardowns on lead entry & checkout paths',
+      'Dynamic, qualified lead-form field restructuring',
+      'GA4 custom behavioral tracking & logging checks',
+      'Speed optimization audits & database latency tuning',
+    ],
+    timeline: 'Ongoing retainer optimization',
   },
 ];
 
-const comparisonData = [
-  { type: 'Website Build', model: 'One-time', price: 'From $2,500', timeline: '4–6 weeks' },
-  { type: 'SEO + GEO System', model: 'Monthly Retainer', price: 'From $1,200/mo', timeline: 'Ongoing' },
-  { type: 'LinkedIn Content', model: 'Monthly Retainer', price: 'From $800/mo', timeline: 'Ongoing' },
-  { type: 'Meta & Google Ads', model: 'Monthly Retainer', price: 'From $1,000/mo', timeline: 'Ongoing' },
-  { type: 'Free Growth Audit', model: 'Free Audit', price: 'Free', timeline: '30 minutes' },
+const technicalStack = [
+  { category: 'Frontend Architecture', tools: 'React, Next.js, Vite, HTML5, Vanilla CSS, TailwindCSS (optional)' },
+  { category: 'Backend & Database', tools: 'PostgreSQL, Node.js, Express, REST APIs, Supabase, Vercel Serverless' },
+  { category: 'Security & Deployment', tools: 'Vercel, Cloudflare, SSL/TLS, custom security headers, DDoS mitigation' },
+  { category: 'Analytics & Optimization', tools: 'GA4 custom tracking, Google Search Console, Hotjar, SEO Gets, SEO/GEO schemas' },
 ];
 
 const faqs = [
   {
-    question: 'What does your process look like from start to finish?',
-    answer: 'It starts with a free 30-minute growth audit where I review your current digital presence. From there, I build your website in 7–14 days and optionally move into a monthly retainer covering SEO, GEO, LinkedIn, and ads management.',
+    question: 'How do you price your engagements?',
+    answer: 'We do not sell cheap, commodity-level freelancer services or flat-rate packages. Every B2B growth infrastructure project is priced custom based on scope, technical complexity, and your pipeline goals. Typically, engagements begin with a custom diagnostic audit, leading to a development sprint and transition into an ongoing growth retainer.',
   },
   {
-    question: 'How do you price your services?',
-    answer: 'Website builds start at $900 as a one-time project. SEO, GEO, LinkedIn, and ads services are monthly retainers starting from $400–$600/month depending on the scope. Every engagement begins with a free audit.',
+    question: 'Why do you build custom React/Next.js platforms instead of basic template sites?',
+    answer: 'Premium B2B enterprises and manufacturers require speed, custom database routing, secure lead data management, and strict technical SEO compliance. Template site-builders limit page performance and indexing controls. Our Next.js architectures ensure load times under 1.2s, which directly reduces bounce rates and optimizes lead capture.',
   },
   {
-    question: 'How long does it take to see results?',
-    answer: 'Website builds are delivered in 7–14 days. SEO and GEO typically show measurable results within 60–90 days. LinkedIn content builds authority over 4–8 weeks. Paid ads can generate leads within the first week of launch.',
+    question: 'What is Generative Engine Optimization (GEO) and why is it included?',
+    answer: 'Generative Engine Optimization (GEO) is the process of structuring your website content and technical markup so your brand is recommended when procurement teams and executives ask AI tools (like ChatGPT, Claude, and Perplexity) for vendor recommendations. We optimize your code for LLM search parameters from day one.',
   },
   {
-    question: 'Do you work with clients remotely?',
-    answer: 'Yes, 100%. I work with clients across the US, UK, Australia, Canada, and Gulf countries. All communication happens via Zoom, email, and Slack or WhatsApp.',
+    question: 'Do we sign NDAs before discussing technical specifications?',
+    answer: 'Absolutely. We operate as an MSME-registered enterprise (Moksh Productions) and sign mutual NDAs before reviewing proprietary formulas, design patents, supply chain channels, or internal CRM metrics.',
   },
   {
-    question: 'What industries do you specialize in?',
-    answer: 'I specialize in B2B companies including SaaS & Tech Startups, Nutraceuticals & Wellness brands, and B2B Manufacturers & Exporters.',
-  },
-  {
-    question: 'What if I only need a website and not the retainer?',
-    answer: 'That is completely fine. The website build is a standalone one-time project. You can always add retainer services later when you are ready to scale your lead generation.',
+    question: 'How do we collaborate across international timezones?',
+    answer: 'We manage B2B collaborations across the US, UK, Australia, Canada, UAE, Saudi Arabia, and Qatar. We align our workflows to ensure timely communication via weekly reports, Zoom strategy sessions, and Slack or WhatsApp updates.',
   },
 ];
 
@@ -124,32 +104,31 @@ export default function Services() {
   return (
     <>
       <Helmet>
-        <title>B2B Website Build, SEO, GEO & Ads Services | Moksh</title>
+        <title>B2B Growth Infrastructure & Capabilities | Rankur</title>
         <meta
           name="description"
-          content="Conversion-focused React JS websites, SEO and GEO content systems, LinkedIn authority strategies, and targeted Ads for B2B brands in the US, UK, AU, and Gulf."
+          content="Explore our five growth pillars: B2B positioning, custom React web infrastructure, SEO/GEO search visibility, organic thought leadership, and conversion optimization systems."
         />
       </Helmet>
 
       <HeroSection
-        label="Services"
+        label="Capabilities"
         title={
           <>
-            Growth Systems for{' '}
-            <span className="text-gold">B2B Brands</span>
+            Outcomes-First <span className="text-gold">Growth Infrastructure</span>
           </>
         }
-        subtitle="Conversion-focused React JS websites, SEO & GEO content systems, LinkedIn authority content, and Meta & Google Ads: everything a B2B brand needs to generate qualified leads."
-        primaryCTA={{ to: '/free-audit', label: 'Book Free Audit' }}
-        secondaryCTA={{ to: '/case-studies', label: 'See Results' }}
+        subtitle="We build, write, and optimize the digital platforms required to establish search dominance, position your brand as a market leader, and drive enterprise pipeline."
+        primaryCTA={{ to: '/free-audit', label: 'Request custom Audit' }}
+        secondaryCTA={{ to: '/case-studies', label: 'See Proof Portfolio' }}
       />
 
-      {/* Full Services */}
+      {/* Pillars breakdown */}
       <section className="section" id="services-full">
         <div className="container">
-          <p className="section-label">Full Breakdown</p>
-          <h2 className="section-title">What You Get</h2>
-          <div className="services-page__grid">
+          <p className="section-label">Our Pillars</p>
+          <h2 className="section-title">The B2B Growth Engine</h2>
+          <div className="services-page__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
             {servicesData.map((service, i) => (
               <ServiceCard key={i} {...service} />
             ))}
@@ -157,31 +136,22 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Comparison Table */}
-      <section className="comparison-section" id="pricing-comparison">
+      {/* Technical Execution Stack */}
+      <section className="tech-stack-section" style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)' }}>
         <div className="container">
-          <p className="section-label">Pricing Overview</p>
-          <h2 className="section-title">One-Time vs Retainer vs Audit</h2>
-          <table className="comparison-table">
-            <thead>
-              <tr>
-                <th>Service</th>
-                <th>Model</th>
-                <th>Price</th>
-                <th>Timeline</th>
-              </tr>
-            </thead>
-            <tbody>
-              {comparisonData.map((row, i) => (
-                <tr key={i}>
-                  <td className="comparison-table__type">{row.type}</td>
-                  <td>{row.model}</td>
-                  <td>{row.price}</td>
-                  <td>{row.timeline}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <p className="section-label">Execution Stack</p>
+          <h2 className="section-title">The Technology Powering Our Strategy</h2>
+          <p className="section-subtitle" style={{ marginBottom: 'var(--space-3xl)' }}>
+            We combine commercial B2B positioning with professional coding, secure deployment, and custom analytics setup.
+          </p>
+          <div className="tools-grid">
+            {technicalStack.map((tech, i) => (
+              <div key={i} className="tool-item" style={{ flexDirection: 'column', alignItems: 'flex-start', gap: 'var(--space-xs)', padding: 'var(--space-xl)' }}>
+                <span style={{ fontSize: '0.82rem', color: 'var(--color-gold)', fontWeight: 'var(--font-weight-bold)' }}>{tech.category}</span>
+                <span style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)', lineHeight: '1.5' }}>{tech.tools}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -189,8 +159,8 @@ export default function Services() {
       <section className="faq-section" id="services-faq">
         <div className="container">
           <p className="section-label">FAQ</p>
-          <h2 className="section-title">Common Questions</h2>
-          <div className="faq-list">
+          <h2 className="section-title">Common Consulting Questions</h2>
+          <div className="faq-list" style={{ marginTop: 'var(--space-2xl)' }}>
             {faqs.map((faq, i) => (
               <div key={i} className="faq-item">
                 <div

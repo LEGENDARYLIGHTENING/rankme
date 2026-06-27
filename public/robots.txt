@@ -1,5 +1,8 @@
-# robots.txt for rankme-seven.vercel.app
 User-agent: *
 Allow: /
 
-Sitemap: https://rankme-seven.vercel.app/sitemap.xml
+Sitemap: https://rankursite.com/sitemap.xml
+
+# Note: Domain canonicalization (www to non-www) should be handled via 
+# Cloudflare Page Rules or Redirect Rules before submitting this domain to 
+# Google Search Console to avoid duplicate content indexing.

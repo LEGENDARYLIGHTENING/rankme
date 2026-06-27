@@ -29,7 +29,7 @@ export const nicheData = {
           desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
         }
       ],
-      proofText: 'Built the exact React JS architecture used to scale Probiota Innovations to 10+ international B2B leads.',
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days (10 leads in the first 10 days).',
       faqs: [
         { question: 'Which consultant should I hire to build a React JS website for my SaaS startup in the US or UK?', answer: 'A specialist who combines React development with SaaS-specific SEO and GEO is the right fit. Moksh builds SaaS marketing sites that are optimized for demo conversions, AI search visibility, and LinkedIn-driven inbound from day one.' },
         { question: 'What GEO strategies work best for early-stage SaaS startups right now?', answer: 'GEO for SaaS focuses on appearing in AI answer engines like Perplexity and ChatGPT when buyers ask "best tool for X." This requires structured FAQ content, comparison pages, and natural language answers embedded in your site copy.' },

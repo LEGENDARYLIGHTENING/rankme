@@ -14,6 +14,7 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import FreeAudit from './pages/FreeAudit';
 import Contact from './pages/Contact';
+import Philosophy from './pages/Philosophy';
 
 /* Niche Template */
 import NichePage from './pages/NichePage';
@@ -21,11 +22,56 @@ import NichePage from './pages/NichePage';
 /* Niche Data */
 import { nicheData } from './data/nicheData';
 
+import { Helmet } from 'react-helmet-async';
 import './App.css';
+
+const globalSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://rankursite.com/#organization",
+      "name": "Rankur",
+      "url": "https://rankursite.com",
+      "logo": "https://rankursite.com/Copilot_20260621_183745.png",
+      "sameAs": [
+        "https://www.linkedin.com/company/moksh-productions"
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://rankursite.com/#service",
+      "name": "Rankur | B2B Growth Infrastructure Studio",
+      "url": "https://rankursite.com",
+      "parentOrganization": {
+        "@id": "https://rankursite.com/#organization"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://rankursite.com/#founder",
+      "name": "Moksh Parjapati",
+      "jobTitle": "Founder, Rankur",
+      "url": "https://rankursite.com/about",
+      "sameAs": [
+        "https://linkedin.com/in/moksh-parjapati"
+      ],
+      "worksFor": {
+        "@id": "https://rankursite.com/#organization"
+      }
+    }
+  ]
+};
 
 function App() {
   return (
     <div className="app-container">
+      <Helmet>
+        <link rel="canonical" href="https://rankursite.com" />
+        <script type="application/ld+json">
+          {JSON.stringify(globalSchema)}
+        </script>
+      </Helmet>
       <ScrollToTop />
       <Navbar />
       <main className="main-content">
@@ -34,6 +80,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/about" element={<About />} />
+          <Route path="/philosophy" element={<Philosophy />} />
           <Route path="/certifications" element={<Certifications />} />
           <Route path="/process" element={<Process />} />
           <Route path="/blog" element={<Blog />} />

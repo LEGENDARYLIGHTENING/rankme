@@ -1,139 +1,168 @@
 import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import CTABlock from '../components/CTABlock';
 import './About.css';
 
-const skills = [
-  'React JS', 'WordPress', 'SEO', 'GEO', 'GA4',
-  'Meta Ads Manager', 'Google Ads', 'LinkedIn Strategy',
-  'Copywriting', 'CRO', 'Content Marketing', 'Canva', 'Adobe Suite',
-];
-
-const tools = [
-  'Meta Ads Manager', 'Google Ads', 'Google Search Console',
-  'Keywords Everywhere', 'SEO Gets', 'WordPress', 'GA4',
-  'Canva', 'Adobe Photoshop & Illustrator', 'MS Office (Advanced Excel)',
-  'Python (Foundational)',
-];
-
 const certifications = [
-  { name: 'GA4 Certification', issuer: 'Google' },
-  { name: 'Digital Marketing Mastery', issuer: 'Digital Deepak Internship Program' },
-  { name: 'SEO Fundamentals', issuer: 'Industry Certification' },
-  { name: 'GEO Practitioner', issuer: 'Placeholder Issuer' },
-  { name: 'LinkedIn Marketing', issuer: 'Placeholder Issuer' },
+  { name: 'Google Analytics 4 (GA4) Certification', issuer: 'Google' },
+  { name: 'Advanced Conversion Optimization & Tracking Masterclass', issuer: 'ConversionXL Institute' },
+  { name: 'B2B Digital Sourcing & Channel Integration', issuer: 'Alibaba Channel Operations Partner' },
 ];
 
-const impactItems = [
-  { value: '1,000+', label: 'Leads generated across Gut & Beyond and Probiota campaigns' },
-  { value: '50K+', label: 'Followers built for Gut & Beyond' },
-  { value: '20M+', label: 'Reach achieved via Gut & Beyond campaigns' },
-  { value: '$1,000+', label: 'Affiliate Revenue generated for Gut & Beyond' },
-  { value: '200+', label: 'Paying Customers converted for Gut & Beyond' },
+const corporateCredentials = [
+  { label: 'Parent Corporation', value: 'Moksh Productions' },
+  { label: 'Registration Status', value: 'MSME-Registered Enterprise (India)' },
+  { label: 'Contract Integrity', value: 'Mutual NDA Protected Audits & Agreements' },
+  { label: 'Operating Markets', value: 'US, UK, Australia, Canada, UAE, Saudi Arabia, Qatar' },
 ];
 
-const markets = [
-  'United States', 'United Kingdom', 'Australia',
-  'Canada', 'UAE', 'Saudi Arabia', 'Qatar',
+const credentialsLedger = [
+  {
+    title: 'Nutraceutical Platform (Probiota Innovations)',
+    evidence: 'Designed, wrote, and deployed custom React web application. Built lead database pipelines and SEO frameworks that generated 10+ high-value global inquiries in the first 10 days post-launch.',
+  },
+  {
+    title: 'Brand Positioning & Strategy (Gut & Beyond)',
+    evidence: 'Structured digital messaging architecture, UX alignment, and organic search campaigns for leading wellness brands.',
+  },
+  {
+    title: 'Global Export Channels (Competence Consulting E-Commerce LLP)',
+    evidence: 'Managed channel partnerships, digital workflows, and global B2B buyer sourcing structures via official Alibaba channels.',
+  },
+  {
+    title: 'Acquisition Funnels & Campaigns (Glitchy)',
+    evidence: 'Developed custom landing pages, GA4 custom conversion tracking, and high-performing lead generation campaigns.',
+  },
 ];
 
 export default function About() {
   return (
     <>
       <Helmet>
-        <title>About Moksh | B2B Growth Consultant & React Developer</title>
+        <title>Meet Moksh | Founder & B2B Growth Consultant | Rankur</title>
         <meta
           name="description"
-          content="Performance marketer and B2B growth consultant. Over 1,000 leads generated across Gut & Beyond and Probiota campaigns. GA4 certified. React JS developer. Serving US, UK, Australia, Canada, and Gulf clients."
+          content="Moksh, Founder of Rankur and Moksh Productions. Discover how we build custom B2B web infrastructure, organic SEO, and AI search presence."
         />
       </Helmet>
 
       <HeroSection
-        label="About"
+        label="Meet the Founder"
         title={
           <>
-            Performance Marketer.{' '}
-            <span className="text-gold">B2B Growth Consultant.</span>
+            Founder-Led <span className="text-gold">Growth Engineering</span>
           </>
         }
-        subtitle="A proven growth system that generates qualified leads for B2B brands across international markets through high-converting websites."
-        primaryCTA={{ to: '/free-audit', label: 'Book Free Audit' }}
-        secondaryCTA={{ to: '/case-studies', label: 'See My Work' }}
+        subtitle="I build custom web infrastructure, search dominance strategies, and conversion systems based on the exact principles we use to scale our own ventures."
+        primaryCTA={{ to: '/free-audit', label: 'Apply for B2B Audit' }}
       />
 
       {/* Story */}
       <section className="about-story" id="my-story">
         <div className="container">
-          <p className="section-label">My Story</p>
-          <h2 className="section-title">From Intern to Growth Consultant</h2>
+          <p className="section-label">My Philosophy</p>
+          <h2 className="section-title">Bridging Code and Commercial Strategy</h2>
           <div className="about-story__content">
             <p>
-              I started as a digital marketing intern, learning the ropes of SEO, paid ads,
-              and content creation from scratch. But I was not content with just theory. I
-              wanted real results.
+              I started Moksh Productions with a clear vision: to build a portfolio of high-value ventures, from software platforms to technical services. 
+              Along the journey, I discovered that most B2B companies suffer from a massive disconnect: they hire developers who do not understand marketing, 
+              or copywriters who cannot deploy code.
             </p>
             <p>
-              I generated over 1,000 leads across campaigns for Gut & Beyond and Probiota Innovations,
-              scaled Instagram pages for Gut & Beyond to 50K+ followers with 20M+ cumulative reach,
-              and converted 200+ paying affiliate customers generating over $1,000 in commissions for
-              Gut & Beyond. Every number is real, every result is documented.
+              To solve this, I built <strong>Rankur</strong>. I mastered custom software engineering, technical SEO, and conversion path design. 
+              By aligning positioning, custom React/Next.js web builds, and search visibility (SEO + GEO), we build the digital infrastructure 
+              needed to capture enterprise contracts and overseas inquiries.
             </p>
             <p>
-              Then I built Probiota Innovations, a full B2B manufacturing and export website
-              in React JS from scratch. It generated 10+ qualified B2B leads. That was the
-              moment I knew this growth system works.
+              I do not believe in theoretical marketing. The positioning systems and technical architectures we deploy for Rankur\'s clients 
+              are the exact same growth engines we use to scale our own internal software, SaaS, and product ventures. 
+              This is not an agency built on sales pitches; it is a founder-led growth consultancy built on execution.
             </p>
-            <p>
-              This same system is now deployed for B2B brands in the US, UK, Australia, Canada, and
-              Gulf countries: a conversion-focused website, SEO & GEO content, LinkedIn
-              authority, and paid ads: everything a business needs to turn online presence
-              into qualified leads.
-            </p>
-            <p>
-              The foundation of this system comes from the Digital Deepak Internship Program (one of India&#39;s most rigorous
-              digital marketing training programs) and hands-on experience as a Sales and Digital
-              Marketing professional at Competence Consulting.
-            </p>
-            <a
-              href="https://moksh-portfolio-smoky.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="portfolio-link"
-            >
-              View Full Portfolio →
-            </a>
+            
+            {/* Founder Photo Block */}
+            <div className="img-placeholder" style={{ margin: 'var(--space-2xl) 0', borderRadius: 'var(--border-radius-lg)', height: '400px' }}>
+              <img 
+                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=1200&q=80" 
+                alt="Founder Moksh at Work" 
+                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} 
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Skills */}
-      <section className="skills-section" id="skills">
+      {/* Corporate Compliance */}
+      <section className="corporate-credentials-section" style={{ padding: 'var(--space-5xl) 0' }}>
         <div className="container">
-          <p className="section-label">Skills</p>
-          <h2 className="section-title">The Technical Stack Behind Your Pipeline.</h2>
-          <div className="skills-grid">
-            {skills.map((skill, i) => (
-              <div key={i} className="skill-tag">{skill}</div>
+          <p className="section-label">Corporate Security</p>
+          <h2 className="section-title">Compliance & Backing</h2>
+          <div className="about-story__content" style={{ marginBottom: 'var(--space-3xl)' }}>
+            <p>
+              Rankur operates as an official division of <strong>Moksh Productions</strong>, an MSME-registered enterprise in India. This backing guarantees contract compliance, operational security, and institutional accountability.
+            </p>
+          </div>
+          <div className="tools-grid" style={{ marginTop: 'var(--space-xl)' }}>
+            {corporateCredentials.map((cred, i) => (
+              <div key={i} className="tool-item" style={{ flexDirection: 'column', alignItems: 'flex-start', gap: 'var(--space-xs)', padding: 'var(--space-xl)' }}>
+                <span style={{ fontSize: '0.8rem', color: 'var(--color-gold)', fontWeight: 'var(--font-weight-bold)' }}>{cred.label}</span>
+                <span style={{ fontSize: '0.95rem', color: 'var(--color-white)', fontWeight: 'var(--font-weight-medium)' }}>{cred.value}</span>
+              </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Tools */}
-      <section className="tools-section" id="tools">
-        <div className="container">
-          <p className="section-label">Tools & Platforms</p>
-          <h2 className="section-title">My Tech Stack</h2>
-          <div className="tools-grid">
-            {tools.map((tool, i) => (
-              <div key={i} className="tool-item">{tool}</div>
-            ))}
+          
+          {/* MSME Badge Block */}
+          <div className="img-placeholder" style={{ margin: 'var(--space-2xl) auto 0 auto', borderRadius: 'var(--border-radius-lg)', height: '200px', maxWidth: '400px' }}>
+            <img 
+              src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=600&q=80" 
+              alt="MSME Registration and Compliance Backing Certificate" 
+              style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} 
+            />
           </div>
         </div>
       </section>
 
-      {/* Certifications */}
+      {/* Verified Experience Ledger */}
+      <section className="credentials-ledger-section" style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)' }}>
+        <div className="container">
+          <p className="section-label">Experience Ledger</p>
+          <h2 className="section-title">Evidence That Backs Our Work</h2>
+          <div className="about-story__content" style={{ marginBottom: 'var(--space-3xl)' }}>
+            <p>
+              We back our strategic growth assertions with real operational outcomes across manufacturing, wellness, technology, and e-commerce channel partnerships.
+            </p>
+          </div>
+          
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-xl)', marginTop: 'var(--space-xl)' }}>
+            {credentialsLedger.map((ledger, i) => (
+              <div key={i} style={{ backgroundColor: 'var(--color-card-bg)', border: '1px solid var(--color-border)', borderRadius: 'var(--border-radius-lg)', padding: 'var(--space-xl)' }}>
+                <h4 style={{ fontSize: '1.1rem', color: 'var(--color-gold)', marginBottom: 'var(--space-sm)', fontWeight: 'var(--font-weight-bold)' }}>{ledger.title}</h4>
+                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7', margin: 0 }}>{ledger.evidence}</p>
+              </div>
+            ))}
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--space-xl)', marginTop: 'var(--space-3xl)' }}>
+            {/* Experience Letter Placeholder */}
+            <div className="img-placeholder" style={{ borderRadius: 'var(--border-radius-lg)', height: '220px' }}>
+              <img 
+                src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=600&q=80" 
+                alt="Client Experience and Recommendation Letter Reference" 
+                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} 
+              />
+            </div>
+            {/* GA4 Certificate Placeholder */}
+            <div className="img-placeholder" style={{ borderRadius: 'var(--border-radius-lg)', height: '220px' }}>
+              <img 
+                src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=600&q=80" 
+                alt="Google Analytics GA4 Custom Certification Dashboard" 
+                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} 
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Certifications (Google etc) */}
       <section className="about-certs" id="about-certifications">
         <div className="container">
           <p className="section-label">Certifications</p>
@@ -144,35 +173,6 @@ export default function About() {
                 <p className="about-cert-card__name">{cert.name}</p>
                 <p className="about-cert-card__issuer">{cert.issuer}</p>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Impact Strip */}
-      <section className="section" id="about-impact">
-        <div className="container">
-          <p className="section-label">Quantified Impact</p>
-          <h2 className="section-title">Numbers That Speak</h2>
-          <div className="proof-strip__grid" style={{ marginTop: 'var(--space-2xl)' }}>
-            {impactItems.map((item, i) => (
-              <div key={i} className="proof-strip__item">
-                <span className="proof-strip__value">{item.value}</span>
-                <span className="proof-strip__label">{item.label}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Target Markets */}
-      <section className="markets-section" id="target-markets">
-        <div className="container">
-          <p className="section-label">Target Markets</p>
-          <h2 className="section-title">Where I Serve Clients</h2>
-          <div className="markets-grid">
-            {markets.map((market, i) => (
-              <div key={i} className="market-tag">{market}</div>
             ))}
           </div>
         </div>

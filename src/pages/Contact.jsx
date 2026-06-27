@@ -5,11 +5,11 @@ import './Contact.css';
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
-    company: '',
-    country: '',
-    niche: '',
-    budget: '',
-    description: '',
+    email: '',
+    website: '',
+    industry: '',
+    mainGoal: '',
+    additional: '',
   });
 
   const [errors, setErrors] = useState({});
@@ -19,7 +19,6 @@ export default function Contact() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
-    // Clear error when user types
     if (errors[name]) {
       setErrors((prev) => ({ ...prev, [name]: '' }));
     }
@@ -27,10 +26,11 @@ export default function Contact() {
 
   const validate = () => {
     const newErrors = {};
-    if (!formData.name.trim()) newErrors.name = 'Name is required';
-    if (!formData.company.trim()) newErrors.company = 'Company name is required';
-    if (!formData.budget) newErrors.budget = 'Please select a budget range';
-    if (!formData.description.trim()) newErrors.description = 'Please describe your project';
+    if (!formData.name.trim()) newErrors.name = 'Your name is required';
+    if (!formData.email.trim() || !formData.email.includes('@')) newErrors.email = 'A valid corporate email is required';
+    if (!formData.website.trim() || !formData.website.includes('.')) newErrors.website = 'A valid company website URL is required';
+    if (!formData.industry) newErrors.industry = 'Please select your industry';
+    if (!formData.mainGoal) newErrors.mainGoal = 'Please select your main goal';
     return newErrors;
   };
 
@@ -70,10 +70,10 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact Moksh | Book a Growth Call or Send a Brief</title>
+        <title>Contact Rankur | B2B Growth Infrastructure Consulting</title>
         <meta
           name="description"
-          content="Get in touch today to discuss your B2B website, SEO, GEO, LinkedIn, or ads project. Serving international clients in the US, UK, Australia, Canada, and Gulf."
+          content="Initiate a consultation with Moksh. Discuss brand positioning, custom React builds, international SEO, and GEO search presence."
         />
       </Helmet>
 
@@ -84,19 +84,20 @@ export default function Contact() {
             
             {/* Contact Info */}
             <div className="contact-info">
-              <p className="section-label">Get in Touch</p>
-              <h2>Let's Discuss Your Growth Goals</h2>
-              <p>
-                Whether you need a full React JS website build, an ongoing SEO & GEO system, 
-                or a complete digital teardown, I am ready to help. I reply to all inquiries 
-                within 24 hours.
+              <p className="section-label">Initiate Consultation</p>
+              <h2>Let's Discuss Your Pipeline Objectives</h2>
+              <p style={{ marginBottom: 'var(--space-xl)' }}>
+                We build growth platforms for ambitious B2B manufacturers, exporters, nutraceutical brands, and technology providers looking to win international market share.
+              </p>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7', marginBottom: 'var(--space-2xl)' }}>
+                Please fill out our qualification brief. Every inquiry is personally reviewed by founder Moksh, and we reply via email within 24 hours. Standard mutual NDAs are signed before sharing proprietary operational files or CRM dashboards.
               </p>
 
               <div className="contact-methods">
                 <div className="contact-method">
                   <div className="contact-method__icon">@</div>
                   <div className="contact-method__details">
-                    <span>Email Me</span>
+                    <span>Direct Inquiries</span>
                     <a href="mailto:parjapatiwork@gmail.com">parjapatiwork@gmail.com</a>
                   </div>
                 </div>
@@ -104,7 +105,7 @@ export default function Contact() {
                 <div className="contact-method">
                   <div className="contact-method__icon">in</div>
                   <div className="contact-method__details">
-                    <span>Connect</span>
+                    <span>Executive Connection</span>
                     <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                       LinkedIn Profile
                     </a>
@@ -112,12 +113,12 @@ export default function Contact() {
                 </div>
 
                 <div className="contact-method">
-                  <div className="contact-method__icon">P</div>
+                  <div className="contact-method__icon">M</div>
                   <div className="contact-method__details">
-                    <span>See My Work</span>
-                    <a href="https://moksh-portfolio-smoky.vercel.app/" target="_blank" rel="noopener noreferrer">
-                      moksh-portfolio-smoky.vercel.app
-                    </a>
+                    <span>Parent Corporation</span>
+                    <span style={{ fontSize: '1rem', color: 'var(--color-white)', fontWeight: 'var(--font-weight-medium)', textTransform: 'none', letterSpacing: 'normal' }}>
+                      Moksh Productions (MSME-Registered)
+                    </span>
                   </div>
                 </div>
               </div>
@@ -128,16 +129,16 @@ export default function Contact() {
               <form className="contact-form" onSubmit={handleSubmit} noValidate>
                 {submitted && submitStatus === 'success' ? (
                   <div style={{ textAlign: 'center', padding: 'var(--space-3xl) 0' }}>
-                    <h3 style={{ color: 'var(--color-gold)', marginBottom: 'var(--space-md)' }}>Message Received</h3>
-                    <p style={{ color: 'var(--color-gold)' }}>
-                      Your brief has been received. Moksh will respond within 24 hours.
+                    <h3 style={{ color: 'var(--color-gold)', marginBottom: 'var(--space-md)' }}>Brief Received</h3>
+                    <p style={{ color: 'var(--color-white)', lineHeight: '1.8' }}>
+                      Thank you. Moksh has received your brief and will contact you via email within 24 hours to schedule a Zoom consultation.
                     </p>
                   </div>
                 ) : submitStatus === 'error' ? (
                   <div style={{ textAlign: 'center', padding: 'var(--space-3xl) 0' }}>
                     <h3 style={{ color: 'var(--color-red)', marginBottom: 'var(--space-md)' }}>Submission Failed</h3>
-                    <p style={{ color: 'var(--color-red)' }}>
-                      Something went wrong. Please email directly at parjapatiwork@gmail.com.
+                    <p style={{ color: 'var(--color-white)' }}>
+                      Something went wrong. Please email directly at <a href="mailto:parjapatiwork@gmail.com" style={{ color: 'var(--color-gold)' }}>parjapatiwork@gmail.com</a>.
                     </p>
                   </div>
                 ) : (
@@ -151,107 +152,99 @@ export default function Contact() {
                         className="form-input"
                         value={formData.name}
                         onChange={handleChange}
-                        placeholder="John Doe"
+                        placeholder="Moksh"
                       />
                       {errors.name && <span className="form-error">{errors.name}</span>}
                     </div>
 
                     <div className="form-group">
-                      <label className="form-label" htmlFor="company">Company Name</label>
+                      <label className="form-label" htmlFor="email">Corporate Email</label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        className="form-input"
+                        value={formData.email}
+                        onChange={handleChange}
+                        placeholder="moksh@productions.com"
+                      />
+                      {errors.email && <span className="form-error">{errors.email}</span>}
+                    </div>
+
+                    <div className="form-group">
+                      <label className="form-label" htmlFor="website">Website URL</label>
                       <input
                         type="text"
-                        id="company"
-                        name="company"
+                        id="website"
+                        name="website"
                         className="form-input"
-                        value={formData.company}
+                        value={formData.website}
                         onChange={handleChange}
-                        placeholder="Acme Corp"
+                        placeholder="rankursite.com"
                       />
-                      {errors.company && <span className="form-error">{errors.company}</span>}
+                      {errors.website && <span className="form-error">{errors.website}</span>}
                     </div>
 
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-lg)' }}>
                       <div className="form-group">
-                        <label className="form-label" htmlFor="country">Country</label>
-                        <input
-                          type="text"
-                          id="country"
-                          name="country"
-                          className="form-input"
-                          value={formData.country}
+                        <label className="form-label" htmlFor="industry">Industry Vertical</label>
+                        <select
+                          id="industry"
+                          name="industry"
+                          className="form-select"
+                          value={formData.industry}
                           onChange={handleChange}
-                          placeholder="USA, UK, etc."
-                        />
+                        >
+                          <option value="">Select...</option>
+                          <option value="Nutraceutical">Nutraceutical</option>
+                          <option value="Manufacturing">Manufacturing</option>
+                          <option value="TechSaaS">SaaS & Tech</option>
+                          <option value="Industrial">Industrial Services</option>
+                          <option value="Other">Other B2B</option>
+                        </select>
+                        {errors.industry && <span className="form-error">{errors.industry}</span>}
                       </div>
 
                       <div className="form-group">
-                        <label className="form-label" htmlFor="niche">Niche / Industry</label>
-                        <input
-                          type="text"
-                          id="niche"
-                          name="niche"
-                          className="form-input"
-                          value={formData.niche}
+                        <label className="form-label" htmlFor="mainGoal">Main Goal</label>
+                        <select
+                          id="mainGoal"
+                          name="mainGoal"
+                          className="form-select"
+                          value={formData.mainGoal}
                           onChange={handleChange}
-                          placeholder="SaaS, Wellness, Manufacturing..."
-                        />
+                        >
+                          <option value="">Select...</option>
+                          <option value="Custom Web Build">Custom Web Build (React/Next.js)</option>
+                          <option value="SEO/GEO Visibility">SEO & GEO Visibility</option>
+                          <option value="Brand Positioning">Brand Positioning</option>
+                          <option value="Conversion Optimization">Conversion Optimization</option>
+                        </select>
+                        {errors.mainGoal && <span className="form-error">{errors.mainGoal}</span>}
                       </div>
                     </div>
 
                     <div className="form-group">
-                      <label className="form-label" htmlFor="budget">Monthly Budget Range (USD)</label>
-                      <select
-                        id="budget"
-                        name="budget"
-                        className="form-select"
-                        value={formData.budget}
-                        onChange={handleChange}
-                      >
-                        <option value="">Select a range...</option>
-                        <option value="under500">Under $500</option>
-                        <option value="500to1000">$500 – $1,000</option>
-                        <option value="1000to3000">$1,000 – $3,000</option>
-                        <option value="over3000">$3,000+</option>
-                      </select>
-                      {errors.budget && <span className="form-error">{errors.budget}</span>}
-                    </div>
-
-                    <div className="form-group">
-                      <label className="form-label" htmlFor="description">Project Description</label>
+                      <label className="form-label" htmlFor="additional">Additional Details (Optional)</label>
                       <textarea
-                        id="description"
-                        name="description"
+                        id="additional"
+                        name="additional"
                         className="form-textarea"
-                        value={formData.description}
+                        value={formData.additional}
                         onChange={handleChange}
-                        placeholder="Tell me about your current situation and what you're looking to achieve..."
+                        placeholder="Provide any details about your positioning, search presence gaps, or website redevelopment needs..."
                       ></textarea>
-                      {errors.description && <span className="form-error">{errors.description}</span>}
+                      {errors.additional && <span className="form-error">{errors.additional}</span>}
                     </div>
 
                     <button type="submit" className="btn btn--primary form-submit">
-                      Request Your Custom Growth Plan
+                      Submit Qualification Brief
                     </button>
                   </>
                 )}
               </form>
             </div>
             
-          </div>
-        </div>
-      </section>
-
-      {/* Calendly Section */}
-      <section className="contact-calendly" id="contact-calendly">
-        <div className="container">
-          <p className="section-label">Prefer to talk?</p>
-          <h2 className="section-title">Book a Call Directly</h2>
-          <div className="calendly-placeholder">
-            <div
-              className="calendly-inline-widget"
-              data-url="https://calendly.com/parjapatiwork/free-30-minute-growth-audit"
-              style={{ minWidth: '320px', height: '700px' }}
-            ></div>
           </div>
         </div>
       </section>

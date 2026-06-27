@@ -4,8 +4,15 @@ const testimonials = [
   {
     quote: "Moksh built our entire B2B presence from zero. Within 60 days we had inbound RFQs from three overseas buyers.",
     name: "Rohan S.",
-    title: "Founder, Probiota Innovations",
+    title: "Founder, B2B Manufacturing Brand",
     initials: "RS",
+    isPending: false,
+  },
+  {
+    quote: "Moksh's content marketing and funnel strategies scaled our affiliate program to 200+ customers and generated over $1,000 in commissions. He's a highly execution-focused growth partner.",
+    name: "Affiliate Operations",
+    title: "Glitchy Partner Program",
+    initials: "GA",
     isPending: false,
   }
 ];

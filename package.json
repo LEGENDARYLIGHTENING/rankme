@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predev": "node scripts/generate-blog-index.js",
+    "predev": "node scripts/generate-blog-index.js && node scripts/generate-sitemap.js",
     "dev": "vite",
-    "prebuild": "node scripts/generate-blog-index.js",
+    "prebuild": "node scripts/generate-blog-index.js && node scripts/generate-sitemap.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

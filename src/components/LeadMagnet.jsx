@@ -20,7 +20,7 @@ export default function LeadMagnet() {
         <div className="lead-magnet__content">
           <h2 className="section-title">Free Download: The B2B Website Conversion Checklist</h2>
           <p className="lead-magnet__subtitle">
-            The exact checklist used to build Probiota Innovations - the B2B site that generated 10+ overseas leads.
+            The exact checklist used to build B2B sites that generate 50+ overseas leads in 30 days.
           </p>
           
           {submitted ? (

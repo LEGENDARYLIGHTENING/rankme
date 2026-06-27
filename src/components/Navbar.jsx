@@ -4,11 +4,10 @@ import './Navbar.css';
 
 const navLinks = [
   { to: '/', label: 'Home' },
-  { to: '/services', label: 'Services' },
+  { to: '/about', label: 'Meet Moksh' },
+  { to: '/philosophy', label: 'Philosophy' },
+  { to: '/services', label: 'Capabilities' },
   { to: '/case-studies', label: 'Case Studies' },
-  { to: '/about', label: 'About' },
-  { to: '/process', label: 'Process' },
-  { to: '/certifications', label: 'Certifications' },
   { to: '/blog', label: 'Blog' },
   { to: '/contact', label: 'Contact' },
 ];
@@ -52,7 +51,7 @@ export default function Navbar() {
           </div>
 
           <Link to="/free-audit" className="btn btn--primary navbar__cta navbar__cta-desktop">
-            Free Audit
+            Growth Audit
           </Link>
 
           <button
@@ -83,7 +82,7 @@ export default function Navbar() {
         ))}
         <div className="navbar__mobile-cta">
           <Link to="/free-audit" className="btn btn--primary" style={{ width: '100%' }}>
-            Free Audit
+            Growth Audit
           </Link>
         </div>
       </div>

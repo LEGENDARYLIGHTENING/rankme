@@ -4,16 +4,19 @@ import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import './Blog.css';
 
-import blogPosts from '../data/blogs-index.json';
+import rawBlogPosts from '../data/blogs-index.json';
 
-// Dynamically generate all tags from the imported JSON
-const uniqueTags = [...new Set(blogPosts.map(p => p.tag))].filter(Boolean);
-const allTags = ['All', ...uniqueTags];
+// Filter out anything not in our approved taxonomy
+const approvedTags = ['Website Strategy', 'SEO+GEO', 'Lead Gen', 'Industry Notes'];
+const blogPosts = rawBlogPosts.filter(p => approvedTags.includes(p.tag) || p.tag === 'nutraceuticals and wellness brands'); // temporarily keeping old tags if they exist for safety, but we'll enforce taxonomy in UI
+
+const allTags = ['All', ...approvedTags];
 
 const hubDescriptions = {
-  'SaaS & Tech Startups': 'Everything you need to grow a SaaS business through SEO, GEO, LinkedIn, and conversion-focused website strategy. These posts are written for SaaS founders and growth teams in the US, UK, Australia, Canada, and Gulf.',
-  'nutraceuticals and wellness brands': 'Digital presence and performance marketing playbooks for high-ticket nutraceuticals and wellness brands. Learn how to drive international export leads and build consumer trust.',
-  'B2B Manufacturers & Exporters': 'Modernizing digital presence for B2B manufacturers and exporters. Learn how to build conversion-focused websites that capture international leads and quote requests.'
+  'Website Strategy': 'Architecting B2B websites that convert. Covering custom React builds, UX flow, and positioning alignment.',
+  'SEO+GEO': 'Dominating both traditional Google search and AI engines (ChatGPT, Perplexity) for high-intent B2B commercial queries.',
+  'Lead Gen': 'Tactics and pipelines to capture and qualify enterprise leads, including form optimization and analytics tracking.',
+  'Industry Notes': 'Insights and observations across specific B2B verticals including manufacturing, SaaS, and wellness.'
 };
 
 export default function Blog() {

@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './CTABlock.css';
 
@@ -9,6 +10,17 @@ export default function CTABlock({
   secondaryCTA,
   showCalendly = false,
 }) {
+  useEffect(() => {
+    if (showCalendly) {
+      const script = document.createElement('script');
+      script.src = 'https://assets.calendly.com/assets/external/widget.js';
+      script.async = true;
+      document.body.appendChild(script);
+      return () => {
+        document.body.removeChild(script);
+      };
+    }
+  }, [showCalendly]);
   return (
     <section className="cta-block" id="cta-section">
       <div className="container">
