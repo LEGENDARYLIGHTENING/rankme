@@ -78,10 +78,10 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>B2B Growth Infrastructure Studio | Moksh Productions</title>
+        <title>Rankur | B2B Growth Infrastructure Studio — SEO, GEO & Web Systems by Moksh Parjapati</title>
         <meta
           name="description"
-          content="We build the positioning, custom React web infrastructure, SEO/GEO search visibility, and conversion systems to make B2B enterprises the obvious choice."
+          content="Rankur builds high-performance B2B growth infrastructure — custom React websites, technical SEO, Generative Engine Optimization (GEO), and organic lead acquisition systems for companies targeting US, UK, Australia, Canada & Gulf markets. Founded by Moksh Parjapati under Moksh Productions (MSME-Registered)."
         />
       </Helmet>
 
