@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
@@ -65,10 +65,13 @@ const globalSchema = {
 };
 
 function App() {
+  const location = useLocation();
+  const canonicalUrl = `https://rankursite.com${location.pathname === '/' ? '' : location.pathname}`;
+
   return (
     <div className="app-container">
       <Helmet>
-        <link rel="canonical" href="https://rankursite.com" />
+        <link rel="canonical" href={canonicalUrl} />
         <script type="application/ld+json">
           {JSON.stringify(globalSchema)}
         </script>
