@@ -45,7 +45,7 @@ async function generateSitemap() {
 
   // Read dynamic blog posts if index exists
   try {
-    const dataPath = path.resolve(__dirname, '../src/data/blogIndex.json');
+    const dataPath = path.resolve(__dirname, '../src/data/blogs-index.json');
     if (fs.existsSync(dataPath)) {
       const blogIndex = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
       blogIndex.forEach(post => {
