@@ -27,6 +27,13 @@ const getTodayDate = () => {
   return date.toISOString().split('T')[0];
 };
 
+const getValidDate = (dateString) => {
+  if (!dateString) return getTodayDate();
+  const parsed = Date.parse(dateString);
+  if (isNaN(parsed)) return getTodayDate();
+  return new Date(parsed).toISOString().split('T')[0];
+};
+
 async function generateSitemap() {
   console.log('Generating sitemap...');
   
@@ -52,7 +59,7 @@ async function generateSitemap() {
         if (post.slug) {
           sitemapContent += `  <url>\n`;
           sitemapContent += `    <loc>${BASE_URL}/blog/${post.slug}</loc>\n`;
-          sitemapContent += `    <lastmod>${post.date || getTodayDate()}</lastmod>\n`;
+          sitemapContent += `    <lastmod>${getValidDate(post.date)}</lastmod>\n`;
           sitemapContent += `    <changefreq>monthly</changefreq>\n`;
           sitemapContent += `    <priority>0.7</priority>\n`;
           sitemapContent += `  </url>\n`;
