@@ -99,7 +99,7 @@ export default function Contact() {
                   <div className="contact-method__icon">@</div>
                   <div className="contact-method__details">
                     <span>Direct Inquiries</span>
-                    <a href="mailto:parjapatiwork@gmail.com">parjapatiwork@gmail.com</a>
+                    <a href="mailto:contact@rankursite.com">contact@rankursite.com</a>
                   </div>
                 </div>
                 
@@ -139,7 +139,7 @@ export default function Contact() {
                   <div style={{ textAlign: 'center', padding: 'var(--space-3xl) 0' }}>
                     <h3 style={{ color: 'var(--color-red)', marginBottom: 'var(--space-md)' }}>Submission Failed</h3>
                     <p style={{ color: 'var(--color-white)' }}>
-                      Something went wrong. Please email directly at <a href="mailto:parjapatiwork@gmail.com" style={{ color: 'var(--color-gold)' }}>parjapatiwork@gmail.com</a>.
+                      Something went wrong. Please email directly at <a href="mailto:contact@rankursite.com" style={{ color: 'var(--color-gold)' }}>contact@rankursite.com</a>.
                     </p>
                   </div>
                 ) : (

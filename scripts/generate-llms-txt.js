@@ -40,7 +40,7 @@ let llmsTxt = `# Rankur – B2B Growth Infrastructure Studio
 - Contract Security: Mutual NDA protected engagements
 - Tech Stack: React · Next.js · PostgreSQL · GA4 · JSON-LD · Cloudflare Edge
 - Markets Served: US · UK · Australia · Canada · UAE · Saudi Arabia · Qatar
-- Contact: parjapatiwork@gmail.com
+- Contact: contact@rankursite.com
 - Website: ${BASE_URL}
 
 ## Core Services
