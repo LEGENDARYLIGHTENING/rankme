@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import HeroSection from '../components/HeroSection';
 import './FreeAudit.css';
@@ -35,6 +36,7 @@ const trustMetrics = [
 ];
 
 export default function FreeAudit() {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -90,8 +92,7 @@ export default function FreeAudit() {
       });
       const result = await response.json();
       if (result.success) {
-        setSubmitStatus('success');
-        setSubmitted(true);
+        navigate('/thank-you');
       } else {
         setSubmitStatus('error');
       }
@@ -114,7 +115,8 @@ export default function FreeAudit() {
         label="Strategic Diagnostic"
         title={
           <>
-            Request a B2B Growth <span className="text-gold">Infrastructure Audit</span>
+            Request a B2B Growth <br />
+            <span className="text-gold">Infrastructure Audit</span>
           </>
         }
         subtitle="We manually review your technical SEO, load performance, brand positioning, and visibility in generative AI searches on ChatGPT and Perplexity. Aligned submissions receive a custom PDF teardown and direct invite."

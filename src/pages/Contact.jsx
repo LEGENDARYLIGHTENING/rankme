@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import './Contact.css';
 
 export default function Contact() {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -57,8 +59,7 @@ export default function Contact() {
       });
       const result = await response.json();
       if (result.success) {
-        setSubmitStatus('success');
-        setSubmitted(true);
+        navigate('/thank-you');
       } else {
         setSubmitStatus('error');
       }

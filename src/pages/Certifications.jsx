@@ -10,6 +10,7 @@ const certs = [
     issuer: 'Google',
     year: '2024',
     impact: 'Tracks every lead, form fill, and conversion event on your site, ensuring no opportunity is missed and every dollar spent is accounted for.',
+    link: 'https://skillshop.docebosaas.com/learn/courses/18609/google-analytics-certification-2026?hash=68065f5c06f16d1e2f97e157c19473356d171fc5&generated_by=12413115',
   },
   {
     badge: '★',
@@ -55,6 +56,11 @@ export default function Certifications() {
                 <p className="cert-card__issuer">{cert.issuer}</p>
                 <p className="cert-card__year">{cert.year}</p>
                 <p className="cert-card__impact">{cert.impact}</p>
+                {cert.link && (
+                  <a href={cert.link} target="_blank" rel="noopener noreferrer" className="cert-card__link">
+                    View Credential &rarr;
+                  </a>
+                )}
               </div>
             ))}
 

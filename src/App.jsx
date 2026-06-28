@@ -15,6 +15,7 @@ import BlogPost from './pages/BlogPost';
 import FreeAudit from './pages/FreeAudit';
 import Contact from './pages/Contact';
 import Philosophy from './pages/Philosophy';
+import ThankYou from './pages/ThankYou';
 
 /* Niche Template */
 import NichePage from './pages/NichePage';
@@ -87,6 +88,7 @@ function App() {
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/free-audit" element={<FreeAudit />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/thank-you" element={<ThankYou />} />
           
           {/* Niche Routes */}
           {Object.keys(nicheData).map((key) => (

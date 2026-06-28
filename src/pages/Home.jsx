@@ -119,8 +119,8 @@ export default function Home() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 'var(--space-3xl)', alignItems: 'center' }}>
             <div className="img-placeholder" style={{ borderRadius: 'var(--border-radius-lg)', height: '400px' }}>
               <img 
-                src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80" 
-                alt="Moksh - Lead B2B Growth Consultant" 
+                src="/founder-b2b-growth-infrastructure.png" 
+                alt="Moksh Parjapati - B2B Growth Infrastructure Consultant" 
                 style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} 
               />
             </div>

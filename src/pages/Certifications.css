@@ -100,6 +100,21 @@
   margin-bottom: var(--space-lg);
 }
 
+.cert-card__link {
+  display: inline-block;
+  margin-top: var(--space-md);
+  font-size: 0.85rem;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-gold);
+  text-decoration: none;
+  transition: opacity var(--transition-fast);
+}
+
+.cert-card__link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .certs-grid {
     grid-template-columns: 1fr;

@@ -51,7 +51,8 @@ export default function Philosophy() {
         label="Our Philosophy"
         title={
           <>
-            Six Beliefs That Shape <span className="text-gold">B2B Growth</span>
+            Six Beliefs That Shape <br />
+            <span className="text-gold">B2B Growth</span>
           </>
         }
         subtitle="We build digital acquisition pipelines for clients based on the exact same systems and philosophies we use to scale our own ventures."
