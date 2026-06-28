@@ -1,8 +1,35 @@
+# Core crawl rules
 User-agent: *
 Allow: /
 
-Sitemap: https://rankursite.com/sitemap.xml
+# AI / LLM crawlers (retrieval and citation allowed)
+User-agent: GPTBot
+Allow: /
 
-# Note: Domain canonicalization (www to non-www) should be handled via 
-# Cloudflare Page Rules or Redirect Rules before submitting this domain to 
-# Google Search Console to avoid duplicate content indexing.
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Gemini
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: OmgiliBot
+Allow: /
+
+# LLM guidance file for AI engines
+# Note: Pointing to both the user-specified llm.txt and the newer community standard llms.txt
+LLM: /llm.txt
+LLMs: /llms.txt
+
+Sitemap: https://rankursite.com/sitemap.xml
