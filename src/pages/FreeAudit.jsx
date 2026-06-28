@@ -163,7 +163,7 @@ export default function FreeAudit() {
               <div style={{ textAlign: 'center', padding: 'var(--space-3xl) 0' }}>
                 <h3 style={{ color: 'var(--color-red)', marginBottom: 'var(--space-md)' }}>Submission Failed</h3>
                 <p style={{ color: 'var(--color-white)' }}>
-                  Something went wrong. Please email your details directly to <a href="mailto:contact@rankursite.com" style={{ color: 'var(--color-gold)' }}>contact@rankursite.com</a>.
+                  Something went wrong. Please email your details directly to <a href="mailto:contactus@rankursite.com" style={{ color: 'var(--color-gold)' }}>contactus@rankursite.com</a>.
                 </p>
               </div>
             ) : (

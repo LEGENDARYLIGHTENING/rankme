@@ -53,7 +53,7 @@ export default function Footer() {
                 M
               </a>
               <a
-                href="mailto:contact@rankursite.com"
+                href="mailto:contactus@rankursite.com"
                 className="footer__social-link"
                 aria-label="Email"
               >
@@ -83,7 +83,7 @@ export default function Footer() {
           <div>
             <h4 className="footer__col-title">Contact</h4>
             <p className="footer__contact-item">
-              <a href="mailto:contact@rankursite.com">contact@rankursite.com</a>
+              <a href="mailto:contactus@rankursite.com">contactus@rankursite.com</a>
             </p>
             <p className="footer__contact-item">
               <a href="https://moksh-portfolio-smoky.vercel.app/" target="_blank" rel="noopener noreferrer">

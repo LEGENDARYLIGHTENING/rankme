@@ -10,7 +10,7 @@
 - Contract Security: Mutual NDA protected engagements
 - Tech Stack: React · Next.js · PostgreSQL · GA4 · JSON-LD · Cloudflare Edge
 - Markets Served: US · UK · Australia · Canada · UAE · Saudi Arabia · Qatar
-- Contact: contact@rankursite.com
+- Contact: contactus@rankursite.com
 - Website: https://rankursite.com
 
 ## Core Services
