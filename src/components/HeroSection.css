@@ -18,6 +18,7 @@
   justify-content: center;
 }
 
+.hero--center .hero__title,
 .hero--center .hero__subtitle {
   margin-left: auto;
   margin-right: auto;

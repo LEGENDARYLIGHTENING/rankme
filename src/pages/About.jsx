@@ -80,11 +80,11 @@ export default function About() {
             </p>
             
             {/* Founder Photo Block */}
-            <div className="img-placeholder" style={{ margin: 'var(--space-2xl) 0', borderRadius: 'var(--border-radius-lg)', height: '400px' }}>
+            <div className="img-placeholder" style={{ margin: 'var(--space-2xl) 0', borderRadius: 'var(--border-radius-lg)', overflow: 'hidden' }}>
               <img 
                 src="/moksh-parjapati-b2b-growth-consultant.jpeg" 
                 alt="Moksh Parjapati - B2B Growth Consultant and Rankur Founder" 
-                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit', objectPosition: 'top' }} 
+                style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 'inherit' }} 
               />
             </div>
           </div>
