@@ -150,3 +150,20 @@
     padding: var(--space-2xl);
   }
 }
+
+@media (max-width: 480px) {
+  .contact-form {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .contact-method__icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    flex-shrink: 0;
+  }
+
+  .contact-method__details a {
+    font-size: 0.95rem;
+  }
+}

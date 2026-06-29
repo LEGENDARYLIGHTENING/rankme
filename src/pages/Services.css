@@ -110,3 +110,15 @@
     overflow-x: auto;
   }
 }
+
+@media (max-width: 480px) {
+  .faq-item__answer {
+    padding-right: 0;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: var(--space-md);
+    font-size: 0.85rem;
+  }
+}

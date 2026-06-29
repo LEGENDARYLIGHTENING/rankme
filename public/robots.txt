@@ -27,9 +27,8 @@ Allow: /
 User-agent: OmgiliBot
 Allow: /
 
-# LLM guidance file for AI engines
-# Note: Pointing to both the user-specified llm.txt and the newer community standard llms.txt
-LLM: /llm.txt
-LLMs: /llms.txt
+# LLM guidance files for AI engines
+# Primary LLM context file (user-specified): https://rankursite.com/llm.txt
+# Community standard LLMs file: https://rankursite.com/llms.txt
 
 Sitemap: https://rankursite.com/sitemap.xml

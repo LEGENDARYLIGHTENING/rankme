@@ -80,3 +80,15 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .process-detail__step-num {
+    width: 64px;
+    height: 64px;
+    font-size: 1.4rem;
+  }
+
+  .process-detail__items {
+    grid-template-columns: 1fr;
+  }
+}

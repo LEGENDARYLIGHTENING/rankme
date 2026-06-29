@@ -133,3 +133,15 @@
     text-align: center;
   }
 }
+
+@media (max-width: 480px) {
+  .footer {
+    padding: var(--space-3xl) 0 var(--space-xl);
+  }
+
+  .footer__bottom-links {
+    flex-direction: column;
+    gap: var(--space-sm);
+    align-items: center;
+  }
+}

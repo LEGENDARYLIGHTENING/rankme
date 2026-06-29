@@ -159,3 +159,19 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 480px) {
+  .case-teaser__stats {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .niche-strip__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .proof-strip__item {
+    min-width: 120px;
+    flex: 0 1 calc(50% - var(--space-md));
+  }
+}

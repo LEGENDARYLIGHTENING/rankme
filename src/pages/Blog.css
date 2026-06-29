@@ -127,3 +127,14 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 480px) {
+  .blog-card__body {
+    padding: var(--space-lg);
+  }
+
+  .blog-filter {
+    padding: var(--space-xs) var(--space-md);
+    font-size: 0.75rem;
+  }
+}
