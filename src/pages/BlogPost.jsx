@@ -146,19 +146,19 @@ export default function BlogPost() {
                 "@type": "Person",
                 "name": "Moksh Parjapati",
                 "jobTitle": "Founder, Rankur",
-                "url": "https://rankursite.com/about"
+                "url": "https://www.rankursite.com/about"
               },
               "publisher": {
                 "@type": "Organization",
                 "name": "Rankur",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://rankursite.com/Copilot_20260621_183745.png"
+                  "url": "https://www.rankursite.com/Copilot_20260621_183745.png"
                 }
               },
               "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": `https://rankursite.com/blog/${postMeta.slug}`
+                "@id": `https://www.rankursite.com/blog/${postMeta.slug}`
               }
             },
             {
@@ -169,19 +169,19 @@ export default function BlogPost() {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://rankursite.com/"
+                  "item": "https://www.rankursite.com/"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Blog",
-                  "item": "https://rankursite.com/blog"
+                  "item": "https://www.rankursite.com/blog"
                 },
                 {
                   "@type": "ListItem",
                   "position": 3,
                   "name": postMeta.title,
-                  "item": `https://rankursite.com/blog/${postMeta.slug}`
+                  "item": `https://www.rankursite.com/blog/${postMeta.slug}`
                 }
               ]
             }

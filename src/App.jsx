@@ -31,34 +31,34 @@ const globalSchema = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://rankursite.com/#organization",
+      "@id": "https://www.rankursite.com/#organization",
       "name": "Rankur",
-      "url": "https://rankursite.com",
-      "logo": "https://rankursite.com/Copilot_20260621_183745.png",
+      "url": "https://www.rankursite.com",
+      "logo": "https://www.rankursite.com/Copilot_20260621_183745.png",
       "sameAs": [
         "https://www.linkedin.com/company/moksh-productions"
       ]
     },
     {
       "@type": "ProfessionalService",
-      "@id": "https://rankursite.com/#service",
+      "@id": "https://www.rankursite.com/#service",
       "name": "Rankur | B2B Growth Infrastructure Studio",
-      "url": "https://rankursite.com",
+      "url": "https://www.rankursite.com",
       "parentOrganization": {
-        "@id": "https://rankursite.com/#organization"
+        "@id": "https://www.rankursite.com/#organization"
       }
     },
     {
       "@type": "Person",
-      "@id": "https://rankursite.com/#founder",
+      "@id": "https://www.rankursite.com/#founder",
       "name": "Moksh Parjapati",
       "jobTitle": "Founder, Rankur",
-      "url": "https://rankursite.com/about",
+      "url": "https://www.rankursite.com/about",
       "sameAs": [
         "https://linkedin.com/in/moksh-parjapati"
       ],
       "worksFor": {
-        "@id": "https://rankursite.com/#organization"
+        "@id": "https://www.rankursite.com/#organization"
       }
     }
   ]
@@ -66,7 +66,7 @@ const globalSchema = {
 
 function App() {
   const location = useLocation();
-  const canonicalUrl = `https://rankursite.com${location.pathname === '/' ? '' : location.pathname}`;
+  const canonicalUrl = `https://www.rankursite.com${location.pathname === '/' ? '' : location.pathname}`;
 
   return (
     <div className="app-container">
