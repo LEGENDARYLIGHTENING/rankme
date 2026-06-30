@@ -43,8 +43,8 @@ Allow: /
 # ─────────────────────────────────────────
 # Sitemaps & LLM Context Files
 # ─────────────────────────────────────────
-Sitemap: https://www.rankursite.com/sitemap.xml
+Sitemap: https://rankursite.com/sitemap.xml
 
 # LLM guidance files for AI engines
-# Community standard: https://www.rankursite.com/llms.txt
-# Primary LLM context: https://www.rankursite.com/llm.txt
+# Community standard: https://rankursite.com/llms.txt
+# Primary LLM context: https://rankursite.com/llm.txt
