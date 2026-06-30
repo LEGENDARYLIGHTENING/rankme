@@ -66,7 +66,7 @@ const globalSchema = {
 
 function App() {
   const location = useLocation();
-  const canonicalUrl = `https://www.rankursite.com${location.pathname === '/' ? '' : location.pathname}`;
+  const canonicalUrl = `https://www.rankursite.com${location.pathname === '/' ? '/' : location.pathname}`;
 
   return (
     <div className="app-container">

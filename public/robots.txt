@@ -1,11 +1,15 @@
-# Core crawl rules
-User-agent: *
+# ─────────────────────────────────────────
+# Search Engine Crawlers
+# ─────────────────────────────────────────
+User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
 Allow: /
 
-# AI / LLM crawlers (retrieval and citation allowed)
+# ─────────────────────────────────────────
+# AI / LLM Crawlers (retrieval & citation)
+# ─────────────────────────────────────────
 User-agent: GPTBot
 Allow: /
 
@@ -30,8 +34,17 @@ Allow: /
 User-agent: OmgiliBot
 Allow: /
 
-# LLM guidance files for AI engines
-# Primary LLM context file: https://www.rankursite.com/llm.txt
-# Community standard LLMs file: https://www.rankursite.com/llms.txt
+# ─────────────────────────────────────────
+# All other bots (wildcard — must be last)
+# ─────────────────────────────────────────
+User-agent: *
+Allow: /
 
+# ─────────────────────────────────────────
+# Sitemaps & LLM Context Files
+# ─────────────────────────────────────────
 Sitemap: https://www.rankursite.com/sitemap.xml
+
+# LLM guidance files for AI engines
+# Community standard: https://www.rankursite.com/llms.txt
+# Primary LLM context: https://www.rankursite.com/llm.txt

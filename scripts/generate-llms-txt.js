@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 const blogIndexPath = path.join(__dirname, '../src/data/blogs-index.json');
 const publicDir = path.join(__dirname, '../public');
-const BASE_URL = 'https://rankursite.com';
+const BASE_URL = 'https://www.rankursite.com';
 
 if (!fs.existsSync(publicDir)) {
   fs.mkdirSync(publicDir, { recursive: true });
