@@ -2,6 +2,9 @@
 User-agent: *
 Allow: /
 
+User-agent: Bingbot
+Allow: /
+
 # AI / LLM crawlers (retrieval and citation allowed)
 User-agent: GPTBot
 Allow: /
