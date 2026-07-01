@@ -18,7 +18,8 @@ const routes = [
   '/process',
   '/blog',
   '/free-audit',
-  '/contact'
+  '/contact',
+  '/saas-websites'
 ];
 
 // Helper to format date

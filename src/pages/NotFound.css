@@ -1,0 +1,44 @@
+@import '../styles/variables.css';
+
+.not-found {
+  padding: calc(var(--nav-height) + var(--space-5xl)) 0 var(--space-5xl);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.not-found__container {
+  max-width: 600px;
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-4xl) var(--space-2xl);
+}
+
+.not-found__title {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-md);
+}
+
+.not-found__desc {
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2xl);
+  line-height: 1.6;
+}
+
+.not-found__btn {
+  display: inline-flex;
+}
+
+@media (max-width: 480px) {
+  .not-found__container {
+    padding: var(--space-2xl) var(--space-xl);
+  }
+  
+  .not-found__title {
+    font-size: 2rem;
+  }
+}

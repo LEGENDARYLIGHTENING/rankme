@@ -20,6 +20,9 @@ import ThankYou from './pages/ThankYou';
 /* Niche Template */
 import NichePage from './pages/NichePage';
 
+/* 404 Page */
+import NotFound from './pages/NotFound';
+
 /* Niche Data */
 import { nicheData } from './data/nicheData';
 
@@ -101,6 +104,9 @@ function App() {
               element={<NichePage {...nicheData[key].props} />} 
             />
           ))}
+
+          {/* 404 Catch-All */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />

@@ -1,4 +1,31 @@
 {
+  "redirects": [
+    {
+      "source": "/pricing",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/australia/:path*",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/uk/:path*",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/canada/:path*",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/",
+      "statusCode": 301
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
