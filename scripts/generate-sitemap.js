@@ -81,6 +81,29 @@ async function generateSitemap() {
   
   fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapContent);
   console.log('Sitemap generated at public/sitemap.xml');
+
+  // Generate urls.txt for easy manual indexing
+  let urlsTxtContent = '';
+  routes.forEach(route => {
+    urlsTxtContent += `${BASE_URL}${route === '/' ? '/' : route}\n`;
+  });
+
+  try {
+    const dataPath = path.resolve(__dirname, '../src/data/blogs-index.json');
+    if (fs.existsSync(dataPath)) {
+      const blogIndex = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+      blogIndex.forEach(post => {
+        if (post.slug) {
+          urlsTxtContent += `${BASE_URL}/blog/${post.slug}\n`;
+        }
+      });
+    }
+  } catch (error) {
+    console.warn('Could not read blog index for urls.txt generation:', error.message);
+  }
+
+  fs.writeFileSync(path.join(publicDir, 'urls.txt'), urlsTxtContent.trim() + '\n');
+  console.log('URLs list generated at public/urls.txt');
 }
 
 generateSitemap();
