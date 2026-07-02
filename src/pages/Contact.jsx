@@ -53,7 +53,7 @@ export default function Contact() {
           Accept: 'application/json',
         },
         body: JSON.stringify({
-          access_key: import.meta.env.VITE_WEB3FORMS_KEY,
+          access_key: import.meta.env.VITE_WEB3FORMS_KEY || '5517f453-049b-41fc-900d-e8254b555a53',
           ...formData,
         }),
       });
