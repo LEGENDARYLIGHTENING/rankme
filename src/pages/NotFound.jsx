@@ -1,9 +1,14 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import './NotFound.css';
 
 export default function NotFound() {
   return (
     <div className="not-found section">
+      <Helmet>
+        <title>404 - Page Not Found | Rankur</title>
+        <meta name="robots" content="noindex, nofollow" />
+      </Helmet>
       <div className="container not-found__container animate-in">
         <h1 className="not-found__title">
           <span className="text-gold">404</span> - Page Not Found

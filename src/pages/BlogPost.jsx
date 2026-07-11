@@ -45,6 +45,9 @@ export default function BlogPost() {
              if (standardMatch) text = text.substring(standardMatch[0].length);
           }
 
+          // Strip the first markdown H1 since HeroSection already renders the H1 title
+          text = text.replace(/^\s*#\s+[^\n]+\n+/, '');
+
           // Parse internal and external link placeholders dynamically
           text = text.replace(/\[Internal link:\s*([^-—\]]+)\s*[-—]\s*(?:anchor text:\s*)?([^\]]+)\]/gi, (match, pageDesc, anchorText) => {
             const desc = pageDesc.toLowerCase();
@@ -129,7 +132,7 @@ export default function BlogPost() {
   return (
     <>
       <Helmet>
-        <title>{postMeta.title} | Moksh B2B Growth Blog</title>
+        <title>{`${postMeta.title} | Moksh B2B Growth Blog`}</title>
         <meta name="description" content={postMeta.excerpt} />
         
         {/* Dynamic GEO JSON-LD Schema */}

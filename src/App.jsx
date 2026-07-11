@@ -1,27 +1,28 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
+import { lazy, Suspense } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
 /* Pages */
-import Home from './pages/Home';
-import Services from './pages/Services';
-import CaseStudies from './pages/CaseStudies';
-import About from './pages/About';
-import Certifications from './pages/Certifications';
-import Process from './pages/Process';
-import Blog from './pages/Blog';
-import BlogPost from './pages/BlogPost';
-import FreeAudit from './pages/FreeAudit';
-import Contact from './pages/Contact';
-import Philosophy from './pages/Philosophy';
-import ThankYou from './pages/ThankYou';
+const Home = lazy(() => import('./pages/Home'));
+const Services = lazy(() => import('./pages/Services'));
+const CaseStudies = lazy(() => import('./pages/CaseStudies'));
+const About = lazy(() => import('./pages/About'));
+const Certifications = lazy(() => import('./pages/Certifications'));
+const Process = lazy(() => import('./pages/Process'));
+const Blog = lazy(() => import('./pages/Blog'));
+const BlogPost = lazy(() => import('./pages/BlogPost'));
+const FreeAudit = lazy(() => import('./pages/FreeAudit'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Philosophy = lazy(() => import('./pages/Philosophy'));
+const ThankYou = lazy(() => import('./pages/ThankYou'));
 
 /* Niche Template */
-import NichePage from './pages/NichePage';
+const NichePage = lazy(() => import('./pages/NichePage'));
 
 /* 404 Page */
-import NotFound from './pages/NotFound';
+const NotFound = lazy(() => import('./pages/NotFound'));
 
 /* Niche Data */
 import { nicheData } from './data/nicheData';
@@ -69,7 +70,8 @@ const globalSchema = {
 
 function App() {
   const location = useLocation();
-  const canonicalUrl = `https://rankursite.com${location.pathname === '/' ? '/' : location.pathname}`;
+  const actualPath = location.pathname === '/home' ? '/' : location.pathname;
+  const canonicalUrl = `https://rankursite.com${actualPath === '/' ? '/' : actualPath}`;
 
   return (
     <div className="app-container">
@@ -82,9 +84,11 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <main className="main-content">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
+        <Suspense fallback={<div className="section container text-center" style={{ padding: '100px 0' }}>Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/services" element={<Services />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/about" element={<About />} />
           <Route path="/philosophy" element={<Philosophy />} />
@@ -108,6 +112,7 @@ function App() {
           {/* 404 Catch-All */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        </Suspense>
       </main>
       <Footer />
     </div>

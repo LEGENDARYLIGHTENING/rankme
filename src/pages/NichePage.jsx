@@ -17,11 +17,29 @@ export default function NichePage({
 }) {
   const [openFaq, setOpenFaq] = useState(null);
 
+  const faqSchema = faqs && faqs.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map(faq => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  } : null;
+
   return (
     <>
       <Helmet>
         <title>{seoTitle}</title>
         {seoDesc && <meta name="description" content={seoDesc} />}
+        {faqSchema && (
+          <script type="application/ld+json">
+            {JSON.stringify(faqSchema)}
+          </script>
+        )}
       </Helmet>
 
       <div className="niche-hero">
@@ -72,31 +90,40 @@ export default function NichePage({
       </section>
 
       {/* FAQ */}
-      <section className="faq-section" style={{ backgroundColor: 'var(--color-black)' }}>
-        <div className="container">
-          <p className="section-label">{niche} FAQ</p>
-          <h2 className="section-title">Common Questions</h2>
-          <div className="faq-list">
-            {faqs.map((faq, i) => (
-              <div key={i} className="faq-item" style={{ borderColor: 'var(--color-border)' }}>
-                <div
-                  className="faq-item__question"
-                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
-                >
-                  <h3 style={{ color: 'var(--color-gold)', margin: 0, fontSize: '1.2rem' }}>{faq.question}</h3>
-                  <span className={`faq-item__toggle ${openFaq === i ? 'faq-item__toggle--open' : ''}`}>
-                    +
-                  </span>
+      {faqs && faqs.length > 0 && (
+        <section className="faq-section" style={{ backgroundColor: 'var(--color-black)' }}>
+          <div className="container">
+            <p className="section-label">{niche} FAQ</p>
+            <h2 className="section-title">Common Questions</h2>
+            <div className="faq-list">
+              {faqs.map((faq, i) => (
+                <div key={i} className="faq-item" style={{ borderColor: 'var(--color-border)' }}>
+                  <button
+                    className="faq-item__question"
+                    onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                    aria-expanded={openFaq === i}
+                    aria-controls={`faq-answer-niche-${i}`}
+                    id={`faq-question-niche-${i}`}
+                    style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--color-gold)' }}
+                  >
+                    <span style={{ color: 'var(--color-gold)', fontWeight: 'var(--font-weight-medium)', fontSize: '1.1rem', textAlign: 'left' }}>{faq.question}</span>
+                    <span className={`faq-item__toggle ${openFaq === i ? 'faq-item__toggle--open' : ''}`}>
+                      +
+                    </span>
+                  </button>
+                  <p
+                    id={`faq-answer-niche-${i}`}
+                    className={`faq-item__answer ${openFaq === i ? 'faq-item__answer--visible' : ''}`}
+                    style={{ color: 'var(--color-white)' }}
+                  >
+                    {faq.answer}
+                  </p>
                 </div>
-                {openFaq === i && (
-                  <p className="faq-item__answer" style={{ color: 'var(--color-white)', marginTop: 'var(--space-md)' }}>{faq.answer}</p>
-                )}
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       <CTABlock />
     </>

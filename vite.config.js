@@ -12,12 +12,12 @@ let blogRoutes = []
 try {
   const blogIndex = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'src/data/blogs-index.json'), 'utf-8'))
   blogRoutes = blogIndex.map(blog => `/blog/${blog.slug}`)
-} catch (error) {
-  console.warn('Could not read blogs-index.json for prerendering routes.')
+} catch (err) {
+  console.warn('Could not read blogs-index.json for prerendering routes.', err)
 }
 
 const baseRoutes = [
-  '/services', '/case-studies', '/about', '/certifications', 
+  '/home', '/404', '/services', '/case-studies', '/about', '/certifications', 
   '/process', '/blog', '/free-audit', '/contact', '/saas-websites',
   '/philosophy', '/thank-you'
 ]
@@ -28,7 +28,7 @@ export default defineConfig({
     react(),
     prerender({
       routes: [...baseRoutes, ...blogRoutes],
-      renderer: '@prerenderer/renderer-jsdom',
+      renderer: '@prerenderer/renderer-puppeteer',
       rendererOptions: {
         maxConcurrentRoutes: 1,
         renderAfterTime: 1000,

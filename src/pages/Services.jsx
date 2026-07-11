@@ -96,10 +96,28 @@ const faqs = [
     question: 'How do we collaborate across international timezones?',
     answer: 'We manage B2B collaborations across the US, UK, Australia, Canada, UAE, Saudi Arabia, and Qatar. We align our workflows to ensure timely communication via weekly reports, Zoom strategy sessions, and Slack or WhatsApp updates.',
   },
+  {
+    question: "What's a realistic timeline from first call to a live, ranking website?",
+    answer: 'The full sprint — from kickoff to a live, technically optimized website — typically runs 7 to 14 days for the build phase. The first measurable SEO signals (indexed pages, GSC impressions) appear within 2–4 weeks post-launch. Meaningful organic lead inbound typically follows at 3–6 months, which is why every website engagement transitions into an ongoing retainer rather than stopping at launch.',
+  },
 ];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(faq => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+};
 
 export default function Services() {
   const [openFaq, setOpenFaq] = useState(null);
+
 
   return (
     <>
@@ -109,6 +127,9 @@ export default function Services() {
           name="description"
           content="Explore our five growth pillars: B2B positioning, custom React web infrastructure, SEO/GEO search visibility, organic thought leadership, and conversion optimization systems."
         />
+        <script type="application/ld+json">
+          {JSON.stringify(faqSchema)}
+        </script>
       </Helmet>
 
       <HeroSection
@@ -163,18 +184,24 @@ export default function Services() {
           <div className="faq-list" style={{ marginTop: 'var(--space-2xl)' }}>
             {faqs.map((faq, i) => (
               <div key={i} className="faq-item">
-                <div
+                <button
                   className="faq-item__question"
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  aria-expanded={openFaq === i}
+                  aria-controls={`faq-answer-${i}`}
+                  id={`faq-question-${i}`}
                 >
                   {faq.question}
                   <span className={`faq-item__toggle ${openFaq === i ? 'faq-item__toggle--open' : ''}`}>
                     +
                   </span>
-                </div>
-                {openFaq === i && (
-                  <p className="faq-item__answer">{faq.answer}</p>
-                )}
+                </button>
+                <p
+                  id={`faq-answer-${i}`}
+                  className={`faq-item__answer ${openFaq === i ? 'faq-item__answer--visible' : ''}`}
+                >
+                  {faq.answer}
+                </p>
               </div>
             ))}
           </div>

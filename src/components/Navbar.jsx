@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 const navLinks = [
@@ -15,7 +15,6 @@ const navLinks = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -23,15 +22,11 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  useEffect(() => {
-    setMenuOpen(false);
-  }, [location]);
-
   return (
     <>
       <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`} id="main-nav">
         <div className="navbar__inner">
-          <Link to="/" className="navbar__logo">
+          <Link to="/" className="navbar__logo" onClick={() => setMenuOpen(false)}>
             <img src="/Copilot_20260621_183745.png" alt="Moksh Logo" style={{ height: '60px', width: 'auto', objectFit: 'contain' }} />
           </Link>
 
@@ -76,12 +71,13 @@ export default function Navbar() {
               `navbar__mobile-link ${isActive ? 'navbar__mobile-link--active' : ''}`
             }
             end={link.to === '/'}
+            onClick={() => setMenuOpen(false)}
           >
             {link.label}
           </NavLink>
         ))}
         <div className="navbar__mobile-cta">
-          <Link to="/free-audit" className="btn btn--primary" style={{ width: '100%' }}>
+          <Link to="/free-audit" className="btn btn--primary" style={{ width: '100%' }} onClick={() => setMenuOpen(false)}>
             Growth Audit
           </Link>
         </div>

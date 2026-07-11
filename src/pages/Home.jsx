@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import ServiceCard from '../components/ServiceCard';
 import ProcessSteps from '../components/ProcessSteps';
@@ -75,9 +75,13 @@ const processSteps = [
 ];
 
 export default function Home() {
+  const location = useLocation();
+  const isHomeAlias = location.pathname === '/home';
+
   return (
     <>
       <Helmet>
+        {isHomeAlias && <meta name="robots" content="noindex, nofollow" />}
         <title>Rankur | B2B Growth Infrastructure Studio — SEO, GEO & Web Systems by Moksh Parjapati</title>
         <meta
           name="description"

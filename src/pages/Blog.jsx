@@ -33,10 +33,6 @@ export default function Blog() {
   const currentPosts = filtered.slice(indexOfFirstPost, indexOfLastPost);
   const totalPages = Math.ceil(filtered.length / postsPerPage);
 
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [activeFilter]);
-
   // Scroll to top when page changes
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -71,7 +67,10 @@ export default function Blog() {
               <button
                 key={tag}
                 className={`blog-filter ${activeFilter === tag ? 'blog-filter--active' : ''}`}
-                onClick={() => setActiveFilter(tag)}
+                onClick={() => {
+                  setActiveFilter(tag);
+                  setCurrentPage(1);
+                }}
               >
                 {tag}
               </button>

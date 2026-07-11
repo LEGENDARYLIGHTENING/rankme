@@ -15,7 +15,6 @@ export default function Contact() {
   });
 
   const [errors, setErrors] = useState({});
-  const [submitted, setSubmitted] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
 
   const handleChange = (e) => {
@@ -63,7 +62,8 @@ export default function Contact() {
       } else {
         setSubmitStatus('error');
       }
-    } catch (error) {
+    } catch (err) {
+      console.error(err);
       setSubmitStatus('error');
     }
   };
@@ -128,7 +128,7 @@ export default function Contact() {
             {/* Contact Form */}
             <div>
               <form className="contact-form" onSubmit={handleSubmit} noValidate>
-                {submitted && submitStatus === 'success' ? (
+                {submitStatus === 'success' ? (
                   <div style={{ textAlign: 'center', padding: 'var(--space-3xl) 0' }}>
                     <h3 style={{ color: 'var(--color-gold)', marginBottom: 'var(--space-md)' }}>Brief Received</h3>
                     <p style={{ color: 'var(--color-white)', lineHeight: '1.8' }}>

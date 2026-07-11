@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -18,8 +17,8 @@ if (!fs.existsSync(dataDir)) {
 let files = [];
 try {
   files = fs.readdirSync(blogsDir).filter(file => file.endsWith('.md'));
-} catch (error) {
-  console.warn(`[Warning] Could not read blogs directory at ${blogsDir}`);
+} catch (err) {
+  console.warn(`[Warning] Could not read blogs directory at ${blogsDir}`, err);
 }
 
 const nicheImagePools = {
@@ -231,7 +230,7 @@ const blogIndex = files.map((filename, index) => {
     filename,
     title,
     tag: rawTag,
-    date: data.Date || 'Published recently',
+    date: data.Date || fs.statSync(filePath).mtime.toISOString().split('T')[0],
     readTime,
     excerpt: cleanExcerpt,
     slug: data.Slug || data.slug || filename.replace('.md', ''),

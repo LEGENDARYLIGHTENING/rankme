@@ -47,7 +47,6 @@ export default function FreeAudit() {
   });
 
   const [errors, setErrors] = useState({});
-  const [submitted, setSubmitted] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
 
   const handleChange = (e) => {
@@ -96,7 +95,8 @@ export default function FreeAudit() {
       } else {
         setSubmitStatus('error');
       }
-    } catch (error) {
+    } catch (err) {
+      console.error(err);
       setSubmitStatus('error');
     }
   };
@@ -152,7 +152,7 @@ export default function FreeAudit() {
               All applications are protected under our standard mutual NDA. Aligned submissions will receive their PDF teardown in 2 business days.
             </p>
 
-            {submitted && submitStatus === 'success' ? (
+            {submitStatus === 'success' ? (
               <div style={{ textAlign: 'center', padding: 'var(--space-3xl) 0' }}>
                 <h3 style={{ color: 'var(--color-gold)', marginBottom: 'var(--space-md)' }}>Application Submitted</h3>
                 <p style={{ color: 'var(--color-white)', lineHeight: '1.8', maxWidth: '600px', margin: '0 auto' }}>

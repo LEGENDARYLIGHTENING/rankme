@@ -79,6 +79,13 @@
   align-items: center;
   justify-content: space-between;
   gap: var(--space-md);
+  /* Reset button styles */
+  background: none;
+  border: none;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+  font-family: inherit;
 }
 
 .faq-item__toggle {
@@ -92,12 +99,23 @@
   transform: rotate(45deg);
 }
 
+/* CSS-only collapse: always in DOM for crawlers, visually hidden when closed */
 .faq-item__answer {
   font-size: 0.9rem;
   color: var(--color-text-muted);
   line-height: 1.7;
-  margin-top: var(--space-md);
+  margin-top: 0;
   padding-right: var(--space-2xl);
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease, margin-top 0.3s ease;
+}
+
+.faq-item__answer--visible {
+  max-height: 500px;
+  opacity: 1;
+  margin-top: var(--space-md);
 }
 
 @media (max-width: 768px) {

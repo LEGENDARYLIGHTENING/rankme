@@ -7,7 +7,7 @@
     "predev": "node scripts/generate-blog-index.js && node scripts/generate-sitemap.js",
     "dev": "vite",
     "prebuild": "node scripts/generate-blog-index.js && node scripts/generate-sitemap.js",
-    "build": "vite build",
+    "build": "vite build && cp dist/home/index.html dist/index.html && rm -rf dist/home",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -21,6 +21,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@prerenderer/renderer-jsdom": "^1.1.9",
+    "@prerenderer/renderer-puppeteer": "^1.2.4",
     "@prerenderer/rollup-plugin": "^0.3.12",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
