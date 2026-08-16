@@ -35,7 +35,7 @@ export default function Footer() {
             </p>
             <div className="footer__socials">
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/moksh-parjapati"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__social-link"
@@ -84,6 +84,9 @@ export default function Footer() {
             <h4 className="footer__col-title">Contact</h4>
             <p className="footer__contact-item">
               <a href="mailto:contactus@rankursite.com">contactus@rankursite.com</a>
+            </p>
+            <p className="footer__contact-item">
+              <a href="tel:+919560076090">+91 95600 76090</a>
             </p>
             <p className="footer__contact-item">
               <a href="https://moksh-portfolio-smoky.vercel.app/" target="_blank" rel="noopener noreferrer">

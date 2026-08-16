@@ -103,6 +103,18 @@ export default function Home() {
         secondaryCTA={{ to: '/philosophy', label: 'Our Philosophy' }}
       />
 
+      {/* Trusted By Strip */}
+      <section className="trusted-by-strip" style={{ padding: 'var(--space-2xl) 0', borderBottom: '1px solid var(--color-border)', backgroundColor: 'var(--color-black)' }}>
+        <div className="container" style={{ textAlign: 'center' }}>
+          <p className="section-label" style={{ marginBottom: 'var(--space-lg)' }}>Trusted By Organizations Like</p>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 'var(--space-3xl)', flexWrap: 'wrap', opacity: 0.7 }}>
+            <a href="https://www.wafatrustindia.org/" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block' }}>
+              <img src="/wafa-trust-logo.jpeg" alt="Wafa Educational And Charitable Trust" style={{ height: '60px', width: 'auto', filter: 'grayscale(100%)', transition: 'filter 0.3s ease' }} onMouseOver={e => e.currentTarget.style.filter = 'none'} onMouseOut={e => e.currentTarget.style.filter = 'grayscale(100%)'} />
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Proof Strip */}
       <section className="proof-strip" id="proof-strip">
         <div className="container">

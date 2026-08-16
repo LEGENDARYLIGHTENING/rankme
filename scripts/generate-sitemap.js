@@ -22,6 +22,17 @@ const routes = [
   '/saas-websites'
 ];
 
+try {
+  const citiesPath = path.resolve(__dirname, '../cities.json');
+  if (fs.existsSync(citiesPath)) {
+    const cities = JSON.parse(fs.readFileSync(citiesPath, 'utf-8'));
+    cities.forEach(city => {
+      routes.push('/' + city.slug);
+    });
+  }
+} catch (error) {
+  console.warn('Could not read cities.json for sitemap generation:', error.message);
+}
 // Helper to format date
 const getTodayDate = () => {
   const date = new Date();

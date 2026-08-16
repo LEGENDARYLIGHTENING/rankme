@@ -26,6 +26,7 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 
 /* Niche Data */
 import { nicheData } from './data/nicheData';
+import { cityData } from './data/cityData';
 
 import { Helmet } from 'react-helmet-async';
 import './App.css';
@@ -106,6 +107,15 @@ function App() {
               key={key} 
               path={nicheData[key].path} 
               element={<NichePage {...nicheData[key].props} />} 
+            />
+          ))}
+
+          {/* City Local SEO Routes */}
+          {Object.keys(cityData).map((key) => (
+            <Route 
+              key={key} 
+              path={cityData[key].path} 
+              element={<NichePage {...cityData[key].props} />} 
             />
           ))}
 
