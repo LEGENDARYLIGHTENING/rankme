@@ -28,7 +28,7 @@ export default defineConfig({
     react(),
     prerender({
       routes: [...baseRoutes, ...blogRoutes],
-      renderer: '@prerenderer/renderer-puppeteer',
+      renderer: '@prerenderer/renderer-jsdom',
       rendererOptions: {
         maxConcurrentRoutes: 1,
         renderAfterTime: 1000,
