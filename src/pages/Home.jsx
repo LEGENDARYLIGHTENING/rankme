@@ -76,12 +76,9 @@ const processSteps = [
 
 export default function Home() {
   const location = useLocation();
-  const isHomeAlias = location.pathname === '/home';
-
   return (
     <>
       <Helmet>
-        {isHomeAlias && <meta name="robots" content="noindex, nofollow" />}
         <title>Rankur | B2B Growth Infrastructure Studio — SEO, GEO & Web Systems by Moksh Parjapati</title>
         <meta
           name="description"
