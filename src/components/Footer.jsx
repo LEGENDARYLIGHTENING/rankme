@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import './Footer.css';
 
 const footerNav = [
@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="footer__grid">
           <div className="footer__brand">
             <div className="footer__brand-name">
-              <Link to="/">
+              <Link href="/">
                 <img src="/Copilot_20260621_183745.png" alt="Moksh Logo" style={{ height: '70px', width: 'auto', objectFit: 'contain' }} />
               </Link>
             </div>
@@ -65,7 +65,7 @@ export default function Footer() {
           <div>
             <h4 className="footer__col-title">Navigate</h4>
             {footerNav.map((link) => (
-              <Link key={link.label} to={link.to} className="footer__link">
+              <Link key={link.label} href={link.to} className="footer__link">
                 {link.label}
               </Link>
             ))}
@@ -74,7 +74,7 @@ export default function Footer() {
           <div>
             <h4 className="footer__col-title">Services</h4>
             {footerServices.map((link) => (
-              <Link key={link.label} to={link.to} className="footer__link">
+              <Link key={link.label} href={link.to} className="footer__link">
                 {link.label}
               </Link>
             ))}
@@ -104,13 +104,13 @@ export default function Footer() {
             © {new Date().getFullYear()} Moksh. All rights reserved.
           </p>
           <div className="footer__bottom-links">
-            <Link to="/free-audit" className="footer__bottom-link">
+            <Link href="/free-audit" className="footer__bottom-link">
               Book Free Audit
             </Link>
-            <Link to="/contact" className="footer__bottom-link">
+            <Link href="/contact" className="footer__bottom-link">
               Contact
             </Link>
-            <Link to="/blog" className="footer__bottom-link">
+            <Link href="/blog" className="footer__bottom-link">
               Blog
             </Link>
           </div>

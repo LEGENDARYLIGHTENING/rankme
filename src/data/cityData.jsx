@@ -2348,5 +2348,9781 @@ export const cityData = {
         }
       ]
     }
+  },
+  "tokyo": {
+    path: '/tokyo',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Tokyo | Rankur",
+      seoDesc: "Tokyo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Tokyo B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Tokyo</span></>,
+      heroSubtitle: "Tokyo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Tokyo often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Tokyo enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Tokyo B2B companies need specialized web architecture?",
+          answer: "Tokyo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Tokyo?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Tokyo and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Tokyo, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "delhi": {
+    path: '/delhi',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Delhi | Rankur",
+      seoDesc: "Delhi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Delhi B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Delhi</span></>,
+      heroSubtitle: "Delhi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Delhi often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Delhi enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Delhi B2B companies need specialized web architecture?",
+          answer: "Delhi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Delhi?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Delhi and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Delhi, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "shanghai": {
+    path: '/shanghai',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Shanghai | Rankur",
+      seoDesc: "Shanghai's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Shanghai B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Shanghai</span></>,
+      heroSubtitle: "Shanghai's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Shanghai often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Shanghai enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Shanghai B2B companies need specialized web architecture?",
+          answer: "Shanghai's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Shanghai?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Shanghai and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Shanghai, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "sao-paulo": {
+    path: '/sao-paulo',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Sao Paulo | Rankur",
+      seoDesc: "Sao Paulo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Sao Paulo B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Sao Paulo</span></>,
+      heroSubtitle: "Sao Paulo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Sao Paulo often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Sao Paulo enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Sao Paulo B2B companies need specialized web architecture?",
+          answer: "Sao Paulo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Sao Paulo?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Sao Paulo and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Sao Paulo, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "mexico-city": {
+    path: '/mexico-city',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Mexico City | Rankur",
+      seoDesc: "Mexico City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Mexico City B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Mexico City</span></>,
+      heroSubtitle: "Mexico City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Mexico City often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Mexico City enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Mexico City B2B companies need specialized web architecture?",
+          answer: "Mexico City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Mexico City?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Mexico City and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Mexico City, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "cairo": {
+    path: '/cairo',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Cairo | Rankur",
+      seoDesc: "Cairo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Cairo B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Cairo</span></>,
+      heroSubtitle: "Cairo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Cairo often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Cairo enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Cairo B2B companies need specialized web architecture?",
+          answer: "Cairo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Cairo?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Cairo and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Cairo, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "mumbai": {
+    path: '/mumbai',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Mumbai | Rankur",
+      seoDesc: "Mumbai's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Mumbai B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Mumbai</span></>,
+      heroSubtitle: "Mumbai's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Mumbai often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Mumbai enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Mumbai B2B companies need specialized web architecture?",
+          answer: "Mumbai's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Mumbai?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Mumbai and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Mumbai, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "beijing": {
+    path: '/beijing',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Beijing | Rankur",
+      seoDesc: "Beijing's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Beijing B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Beijing</span></>,
+      heroSubtitle: "Beijing's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Beijing often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Beijing enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Beijing B2B companies need specialized web architecture?",
+          answer: "Beijing's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Beijing?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Beijing and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Beijing, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "dhaka": {
+    path: '/dhaka',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Dhaka | Rankur",
+      seoDesc: "Dhaka's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Dhaka B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Dhaka</span></>,
+      heroSubtitle: "Dhaka's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Dhaka often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Dhaka enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Dhaka B2B companies need specialized web architecture?",
+          answer: "Dhaka's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Dhaka?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Dhaka and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Dhaka, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "osaka": {
+    path: '/osaka',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Osaka | Rankur",
+      seoDesc: "Osaka's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Osaka B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Osaka</span></>,
+      heroSubtitle: "Osaka's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Osaka often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Osaka enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Osaka B2B companies need specialized web architecture?",
+          answer: "Osaka's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Osaka?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Osaka and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Osaka, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "karachi": {
+    path: '/karachi',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Karachi | Rankur",
+      seoDesc: "Karachi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Karachi B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Karachi</span></>,
+      heroSubtitle: "Karachi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Karachi often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Karachi enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Karachi B2B companies need specialized web architecture?",
+          answer: "Karachi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Karachi?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Karachi and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Karachi, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "chongqing": {
+    path: '/chongqing',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Chongqing | Rankur",
+      seoDesc: "Chongqing's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Chongqing B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Chongqing</span></>,
+      heroSubtitle: "Chongqing's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Chongqing often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Chongqing enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Chongqing B2B companies need specialized web architecture?",
+          answer: "Chongqing's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Chongqing?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Chongqing and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Chongqing, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "istanbul": {
+    path: '/istanbul',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Istanbul | Rankur",
+      seoDesc: "Istanbul's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Istanbul B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Istanbul</span></>,
+      heroSubtitle: "Istanbul's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Istanbul often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Istanbul enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Istanbul B2B companies need specialized web architecture?",
+          answer: "Istanbul's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Istanbul?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Istanbul and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Istanbul, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "buenos-aires": {
+    path: '/buenos-aires',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Buenos Aires | Rankur",
+      seoDesc: "Buenos Aires's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Buenos Aires B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Buenos Aires</span></>,
+      heroSubtitle: "Buenos Aires's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Buenos Aires often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Buenos Aires enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Buenos Aires B2B companies need specialized web architecture?",
+          answer: "Buenos Aires's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Buenos Aires?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Buenos Aires and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Buenos Aires, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "kolkata": {
+    path: '/kolkata',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Kolkata | Rankur",
+      seoDesc: "Kolkata's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Kolkata B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Kolkata</span></>,
+      heroSubtitle: "Kolkata's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Kolkata often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Kolkata enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Kolkata B2B companies need specialized web architecture?",
+          answer: "Kolkata's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Kolkata?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Kolkata and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Kolkata, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "kinshasa": {
+    path: '/kinshasa',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Kinshasa | Rankur",
+      seoDesc: "Kinshasa's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Kinshasa B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Kinshasa</span></>,
+      heroSubtitle: "Kinshasa's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Kinshasa often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Kinshasa enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Kinshasa B2B companies need specialized web architecture?",
+          answer: "Kinshasa's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Kinshasa?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Kinshasa and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Kinshasa, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "lagos": {
+    path: '/lagos',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Lagos | Rankur",
+      seoDesc: "Lagos's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Lagos B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Lagos</span></>,
+      heroSubtitle: "Lagos's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Lagos often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Lagos enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Lagos B2B companies need specialized web architecture?",
+          answer: "Lagos's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Lagos?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Lagos and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Lagos, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "manila": {
+    path: '/manila',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Manila | Rankur",
+      seoDesc: "Manila's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Manila B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Manila</span></>,
+      heroSubtitle: "Manila's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Manila often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Manila enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Manila B2B companies need specialized web architecture?",
+          answer: "Manila's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Manila?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Manila and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Manila, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "rio-de-janeiro": {
+    path: '/rio-de-janeiro',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Rio de Janeiro | Rankur",
+      seoDesc: "Rio de Janeiro's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Rio de Janeiro B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Rio de Janeiro</span></>,
+      heroSubtitle: "Rio de Janeiro's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Rio de Janeiro often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Rio de Janeiro enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Rio de Janeiro B2B companies need specialized web architecture?",
+          answer: "Rio de Janeiro's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Rio de Janeiro?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Rio de Janeiro and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Rio de Janeiro, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "guangzhou": {
+    path: '/guangzhou',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Guangzhou | Rankur",
+      seoDesc: "Guangzhou's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Guangzhou B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Guangzhou</span></>,
+      heroSubtitle: "Guangzhou's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Guangzhou often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Guangzhou enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Guangzhou B2B companies need specialized web architecture?",
+          answer: "Guangzhou's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Guangzhou?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Guangzhou and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Guangzhou, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "lahore": {
+    path: '/lahore',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Lahore | Rankur",
+      seoDesc: "Lahore's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Lahore B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Lahore</span></>,
+      heroSubtitle: "Lahore's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Lahore often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Lahore enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Lahore B2B companies need specialized web architecture?",
+          answer: "Lahore's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Lahore?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Lahore and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Lahore, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "shenzhen": {
+    path: '/shenzhen',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Shenzhen | Rankur",
+      seoDesc: "Shenzhen's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Shenzhen B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Shenzhen</span></>,
+      heroSubtitle: "Shenzhen's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Shenzhen often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Shenzhen enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Shenzhen B2B companies need specialized web architecture?",
+          answer: "Shenzhen's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Shenzhen?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Shenzhen and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Shenzhen, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "bangalore": {
+    path: '/bangalore',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Bangalore | Rankur",
+      seoDesc: "Bangalore's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Bangalore B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Bangalore</span></>,
+      heroSubtitle: "Bangalore's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Bangalore often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Bangalore enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Bangalore B2B companies need specialized web architecture?",
+          answer: "Bangalore's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Bangalore?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Bangalore and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Bangalore, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "moscow": {
+    path: '/moscow',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Moscow | Rankur",
+      seoDesc: "Moscow's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Moscow B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Moscow</span></>,
+      heroSubtitle: "Moscow's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Moscow often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Moscow enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Moscow B2B companies need specialized web architecture?",
+          answer: "Moscow's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Moscow?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Moscow and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Moscow, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "tianjin": {
+    path: '/tianjin',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Tianjin | Rankur",
+      seoDesc: "Tianjin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Tianjin B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Tianjin</span></>,
+      heroSubtitle: "Tianjin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Tianjin often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Tianjin enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Tianjin B2B companies need specialized web architecture?",
+          answer: "Tianjin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Tianjin?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Tianjin and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Tianjin, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "jakarta": {
+    path: '/jakarta',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Jakarta | Rankur",
+      seoDesc: "Jakarta's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Jakarta B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Jakarta</span></>,
+      heroSubtitle: "Jakarta's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Jakarta often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Jakarta enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Jakarta B2B companies need specialized web architecture?",
+          answer: "Jakarta's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Jakarta?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Jakarta and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Jakarta, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "seoul": {
+    path: '/seoul',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Seoul | Rankur",
+      seoDesc: "Seoul's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Seoul B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Seoul</span></>,
+      heroSubtitle: "Seoul's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Seoul often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Seoul enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Seoul B2B companies need specialized web architecture?",
+          answer: "Seoul's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Seoul?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Seoul and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Seoul, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "bogota": {
+    path: '/bogota',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Bogota | Rankur",
+      seoDesc: "Bogota's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Bogota B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Bogota</span></>,
+      heroSubtitle: "Bogota's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Bogota often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Bogota enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Bogota B2B companies need specialized web architecture?",
+          answer: "Bogota's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Bogota?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Bogota and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Bogota, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "chengdu": {
+    path: '/chengdu',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Chengdu | Rankur",
+      seoDesc: "Chengdu's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Chengdu B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Chengdu</span></>,
+      heroSubtitle: "Chengdu's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Chengdu often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Chengdu enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Chengdu B2B companies need specialized web architecture?",
+          answer: "Chengdu's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Chengdu?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Chengdu and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Chengdu, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "tehran": {
+    path: '/tehran',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Tehran | Rankur",
+      seoDesc: "Tehran's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Tehran B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Tehran</span></>,
+      heroSubtitle: "Tehran's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Tehran often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Tehran enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Tehran B2B companies need specialized web architecture?",
+          answer: "Tehran's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Tehran?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Tehran and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Tehran, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "ho-chi-minh-city": {
+    path: '/ho-chi-minh-city',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Ho Chi Minh City | Rankur",
+      seoDesc: "Ho Chi Minh City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Ho Chi Minh City B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Ho Chi Minh City</span></>,
+      heroSubtitle: "Ho Chi Minh City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Ho Chi Minh City often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Ho Chi Minh City enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Ho Chi Minh City B2B companies need specialized web architecture?",
+          answer: "Ho Chi Minh City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Ho Chi Minh City?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Ho Chi Minh City and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Ho Chi Minh City, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "hong-kong": {
+    path: '/hong-kong',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Hong Kong | Rankur",
+      seoDesc: "Hong Kong's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Hong Kong B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Hong Kong</span></>,
+      heroSubtitle: "Hong Kong's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Hong Kong often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Hong Kong enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Hong Kong B2B companies need specialized web architecture?",
+          answer: "Hong Kong's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Hong Kong?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Hong Kong and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Hong Kong, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "baghdad": {
+    path: '/baghdad',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Baghdad | Rankur",
+      seoDesc: "Baghdad's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Baghdad B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Baghdad</span></>,
+      heroSubtitle: "Baghdad's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Baghdad often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Baghdad enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Baghdad B2B companies need specialized web architecture?",
+          answer: "Baghdad's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Baghdad?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Baghdad and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Baghdad, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "wuhan": {
+    path: '/wuhan',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Wuhan | Rankur",
+      seoDesc: "Wuhan's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Wuhan B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Wuhan</span></>,
+      heroSubtitle: "Wuhan's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Wuhan often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Wuhan enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Wuhan B2B companies need specialized web architecture?",
+          answer: "Wuhan's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Wuhan?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Wuhan and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Wuhan, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "hanoi": {
+    path: '/hanoi',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Hanoi | Rankur",
+      seoDesc: "Hanoi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Hanoi B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Hanoi</span></>,
+      heroSubtitle: "Hanoi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Hanoi often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Hanoi enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Hanoi B2B companies need specialized web architecture?",
+          answer: "Hanoi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Hanoi?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Hanoi and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Hanoi, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "lima": {
+    path: '/lima',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Lima | Rankur",
+      seoDesc: "Lima's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Lima B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Lima</span></>,
+      heroSubtitle: "Lima's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Lima often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Lima enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Lima B2B companies need specialized web architecture?",
+          answer: "Lima's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Lima?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Lima and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Lima, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "santiago": {
+    path: '/santiago',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Santiago | Rankur",
+      seoDesc: "Santiago's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Santiago B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Santiago</span></>,
+      heroSubtitle: "Santiago's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Santiago often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Santiago enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Santiago B2B companies need specialized web architecture?",
+          answer: "Santiago's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Santiago?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Santiago and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Santiago, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "kuala-lumpur": {
+    path: '/kuala-lumpur',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Kuala Lumpur | Rankur",
+      seoDesc: "Kuala Lumpur's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Kuala Lumpur B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Kuala Lumpur</span></>,
+      heroSubtitle: "Kuala Lumpur's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Kuala Lumpur often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Kuala Lumpur enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Kuala Lumpur B2B companies need specialized web architecture?",
+          answer: "Kuala Lumpur's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Kuala Lumpur?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Kuala Lumpur and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Kuala Lumpur, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "riyadh": {
+    path: '/riyadh',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Riyadh | Rankur",
+      seoDesc: "Riyadh's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Riyadh B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Riyadh</span></>,
+      heroSubtitle: "Riyadh's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Riyadh often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Riyadh enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Riyadh B2B companies need specialized web architecture?",
+          answer: "Riyadh's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Riyadh?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Riyadh and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Riyadh, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "miami": {
+    path: '/miami',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Miami | Rankur",
+      seoDesc: "Miami's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Miami B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Miami</span></>,
+      heroSubtitle: "Miami's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Miami often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Miami enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Miami B2B companies need specialized web architecture?",
+          answer: "Miami's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Miami?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Miami and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Miami, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "dallas": {
+    path: '/dallas',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Dallas | Rankur",
+      seoDesc: "Dallas's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Dallas B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Dallas</span></>,
+      heroSubtitle: "Dallas's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Dallas often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Dallas enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Dallas B2B companies need specialized web architecture?",
+          answer: "Dallas's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Dallas?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Dallas and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Dallas, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "houston": {
+    path: '/houston',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Houston | Rankur",
+      seoDesc: "Houston's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Houston B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Houston</span></>,
+      heroSubtitle: "Houston's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Houston often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Houston enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Houston B2B companies need specialized web architecture?",
+          answer: "Houston's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Houston?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Houston and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Houston, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "philadelphia": {
+    path: '/philadelphia',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Philadelphia | Rankur",
+      seoDesc: "Philadelphia's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Philadelphia B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Philadelphia</span></>,
+      heroSubtitle: "Philadelphia's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Philadelphia often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Philadelphia enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Philadelphia B2B companies need specialized web architecture?",
+          answer: "Philadelphia's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Philadelphia?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Philadelphia and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Philadelphia, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "atlanta": {
+    path: '/atlanta',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Atlanta | Rankur",
+      seoDesc: "Atlanta's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Atlanta B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Atlanta</span></>,
+      heroSubtitle: "Atlanta's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Atlanta often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Atlanta enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Atlanta B2B companies need specialized web architecture?",
+          answer: "Atlanta's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Atlanta?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Atlanta and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Atlanta, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "washington": {
+    path: '/washington',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Washington | Rankur",
+      seoDesc: "Washington's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Washington B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Washington</span></>,
+      heroSubtitle: "Washington's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Washington often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Washington enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Washington B2B companies need specialized web architecture?",
+          answer: "Washington's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Washington?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Washington and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Washington, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "boston": {
+    path: '/boston',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Boston | Rankur",
+      seoDesc: "Boston's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Boston B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Boston</span></>,
+      heroSubtitle: "Boston's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Boston often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Boston enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Boston B2B companies need specialized web architecture?",
+          answer: "Boston's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Boston?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Boston and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Boston, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "phoenix": {
+    path: '/phoenix',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Phoenix | Rankur",
+      seoDesc: "Phoenix's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Phoenix B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Phoenix</span></>,
+      heroSubtitle: "Phoenix's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Phoenix often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Phoenix enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Phoenix B2B companies need specialized web architecture?",
+          answer: "Phoenix's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Phoenix?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Phoenix and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Phoenix, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "seattle": {
+    path: '/seattle',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Seattle | Rankur",
+      seoDesc: "Seattle's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Seattle B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Seattle</span></>,
+      heroSubtitle: "Seattle's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Seattle often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Seattle enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Seattle B2B companies need specialized web architecture?",
+          answer: "Seattle's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Seattle?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Seattle and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Seattle, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "detroit": {
+    path: '/detroit',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Detroit | Rankur",
+      seoDesc: "Detroit's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Detroit B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Detroit</span></>,
+      heroSubtitle: "Detroit's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Detroit often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Detroit enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Detroit B2B companies need specialized web architecture?",
+          answer: "Detroit's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Detroit?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Detroit and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Detroit, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "montreal": {
+    path: '/montreal',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Montreal | Rankur",
+      seoDesc: "Montreal's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Montreal B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Montreal</span></>,
+      heroSubtitle: "Montreal's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Montreal often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Montreal enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Montreal B2B companies need specialized web architecture?",
+          answer: "Montreal's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Montreal?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Montreal and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Montreal, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "berlin": {
+    path: '/berlin',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Berlin | Rankur",
+      seoDesc: "Berlin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Berlin B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Berlin</span></>,
+      heroSubtitle: "Berlin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Berlin often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Berlin enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Berlin B2B companies need specialized web architecture?",
+          answer: "Berlin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Berlin?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Berlin and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Berlin, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "madrid": {
+    path: '/madrid',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Madrid | Rankur",
+      seoDesc: "Madrid's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Madrid B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Madrid</span></>,
+      heroSubtitle: "Madrid's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Madrid often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Madrid enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Madrid B2B companies need specialized web architecture?",
+          answer: "Madrid's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Madrid?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Madrid and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Madrid, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "rome": {
+    path: '/rome',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Rome | Rankur",
+      seoDesc: "Rome's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Rome B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Rome</span></>,
+      heroSubtitle: "Rome's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Rome often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Rome enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Rome B2B companies need specialized web architecture?",
+          answer: "Rome's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Rome?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Rome and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Rome, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "paris": {
+    path: '/paris',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Paris | Rankur",
+      seoDesc: "Paris's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Paris B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Paris</span></>,
+      heroSubtitle: "Paris's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Paris often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Paris enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Paris B2B companies need specialized web architecture?",
+          answer: "Paris's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Paris?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Paris and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Paris, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "vienna": {
+    path: '/vienna',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Vienna | Rankur",
+      seoDesc: "Vienna's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Vienna B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Vienna</span></>,
+      heroSubtitle: "Vienna's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Vienna often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Vienna enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Vienna B2B companies need specialized web architecture?",
+          answer: "Vienna's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Vienna?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Vienna and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Vienna, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "hamburg": {
+    path: '/hamburg',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Hamburg | Rankur",
+      seoDesc: "Hamburg's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Hamburg B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Hamburg</span></>,
+      heroSubtitle: "Hamburg's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Hamburg often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Hamburg enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Hamburg B2B companies need specialized web architecture?",
+          answer: "Hamburg's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Hamburg?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Hamburg and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Hamburg, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "warsaw": {
+    path: '/warsaw',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Warsaw | Rankur",
+      seoDesc: "Warsaw's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Warsaw B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Warsaw</span></>,
+      heroSubtitle: "Warsaw's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Warsaw often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Warsaw enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Warsaw B2B companies need specialized web architecture?",
+          answer: "Warsaw's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Warsaw?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Warsaw and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Warsaw, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "budapest": {
+    path: '/budapest',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Budapest | Rankur",
+      seoDesc: "Budapest's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Budapest B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Budapest</span></>,
+      heroSubtitle: "Budapest's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Budapest often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Budapest enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Budapest B2B companies need specialized web architecture?",
+          answer: "Budapest's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Budapest?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Budapest and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Budapest, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "barcelona": {
+    path: '/barcelona',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Barcelona | Rankur",
+      seoDesc: "Barcelona's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Barcelona B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Barcelona</span></>,
+      heroSubtitle: "Barcelona's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Barcelona often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Barcelona enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Barcelona B2B companies need specialized web architecture?",
+          answer: "Barcelona's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Barcelona?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Barcelona and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Barcelona, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "munich": {
+    path: '/munich',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Munich | Rankur",
+      seoDesc: "Munich's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Munich B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Munich</span></>,
+      heroSubtitle: "Munich's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Munich often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Munich enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Munich B2B companies need specialized web architecture?",
+          answer: "Munich's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Munich?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Munich and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Munich, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "milan": {
+    path: '/milan',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Milan | Rankur",
+      seoDesc: "Milan's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Milan B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Milan</span></>,
+      heroSubtitle: "Milan's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Milan often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Milan enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Milan B2B companies need specialized web architecture?",
+          answer: "Milan's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Milan?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Milan and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Milan, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "prague": {
+    path: '/prague',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Prague | Rankur",
+      seoDesc: "Prague's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Prague B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Prague</span></>,
+      heroSubtitle: "Prague's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Prague often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Prague enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Prague B2B companies need specialized web architecture?",
+          answer: "Prague's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Prague?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Prague and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Prague, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "sofia": {
+    path: '/sofia',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Sofia | Rankur",
+      seoDesc: "Sofia's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Sofia B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Sofia</span></>,
+      heroSubtitle: "Sofia's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Sofia often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Sofia enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Sofia B2B companies need specialized web architecture?",
+          answer: "Sofia's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Sofia?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Sofia and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Sofia, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "brussels": {
+    path: '/brussels',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Brussels | Rankur",
+      seoDesc: "Brussels's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Brussels B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Brussels</span></>,
+      heroSubtitle: "Brussels's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Brussels often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Brussels enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Brussels B2B companies need specialized web architecture?",
+          answer: "Brussels's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Brussels?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Brussels and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Brussels, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "birmingham": {
+    path: '/birmingham',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Birmingham | Rankur",
+      seoDesc: "Birmingham's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Birmingham B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Birmingham</span></>,
+      heroSubtitle: "Birmingham's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Birmingham often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Birmingham enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Birmingham B2B companies need specialized web architecture?",
+          answer: "Birmingham's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Birmingham?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Birmingham and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Birmingham, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "cologne": {
+    path: '/cologne',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Cologne | Rankur",
+      seoDesc: "Cologne's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Cologne B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Cologne</span></>,
+      heroSubtitle: "Cologne's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Cologne often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Cologne enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Cologne B2B companies need specialized web architecture?",
+          answer: "Cologne's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Cologne?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Cologne and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Cologne, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "naples": {
+    path: '/naples',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Naples | Rankur",
+      seoDesc: "Naples's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Naples B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Naples</span></>,
+      heroSubtitle: "Naples's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Naples often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Naples enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Naples B2B companies need specialized web architecture?",
+          answer: "Naples's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Naples?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Naples and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Naples, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "stockholm": {
+    path: '/stockholm',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Stockholm | Rankur",
+      seoDesc: "Stockholm's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Stockholm B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Stockholm</span></>,
+      heroSubtitle: "Stockholm's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Stockholm often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Stockholm enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Stockholm B2B companies need specialized web architecture?",
+          answer: "Stockholm's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Stockholm?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Stockholm and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Stockholm, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "turin": {
+    path: '/turin',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Turin | Rankur",
+      seoDesc: "Turin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Turin B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Turin</span></>,
+      heroSubtitle: "Turin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Turin often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Turin enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Turin B2B companies need specialized web architecture?",
+          answer: "Turin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Turin?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Turin and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Turin, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "marseille": {
+    path: '/marseille',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Marseille | Rankur",
+      seoDesc: "Marseille's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Marseille B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Marseille</span></>,
+      heroSubtitle: "Marseille's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Marseille often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Marseille enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Marseille B2B companies need specialized web architecture?",
+          answer: "Marseille's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Marseille?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Marseille and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Marseille, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "amsterdam": {
+    path: '/amsterdam',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Amsterdam | Rankur",
+      seoDesc: "Amsterdam's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Amsterdam B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Amsterdam</span></>,
+      heroSubtitle: "Amsterdam's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Amsterdam often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Amsterdam enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Amsterdam B2B companies need specialized web architecture?",
+          answer: "Amsterdam's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Amsterdam?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Amsterdam and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Amsterdam, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "zagreb": {
+    path: '/zagreb',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Zagreb | Rankur",
+      seoDesc: "Zagreb's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Zagreb B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Zagreb</span></>,
+      heroSubtitle: "Zagreb's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Zagreb often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Zagreb enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Zagreb B2B companies need specialized web architecture?",
+          answer: "Zagreb's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Zagreb?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Zagreb and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Zagreb, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "frankfurt": {
+    path: '/frankfurt',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Frankfurt | Rankur",
+      seoDesc: "Frankfurt's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Frankfurt B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Frankfurt</span></>,
+      heroSubtitle: "Frankfurt's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Frankfurt often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Frankfurt enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Frankfurt B2B companies need specialized web architecture?",
+          answer: "Frankfurt's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Frankfurt?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Frankfurt and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Frankfurt, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "oslo": {
+    path: '/oslo',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Oslo | Rankur",
+      seoDesc: "Oslo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Oslo B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Oslo</span></>,
+      heroSubtitle: "Oslo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Oslo often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Oslo enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Oslo B2B companies need specialized web architecture?",
+          answer: "Oslo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Oslo?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Oslo and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Oslo, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "helsinki": {
+    path: '/helsinki',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Helsinki | Rankur",
+      seoDesc: "Helsinki's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Helsinki B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Helsinki</span></>,
+      heroSubtitle: "Helsinki's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Helsinki often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Helsinki enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Helsinki B2B companies need specialized web architecture?",
+          answer: "Helsinki's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Helsinki?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Helsinki and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Helsinki, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "copenhagen": {
+    path: '/copenhagen',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Copenhagen | Rankur",
+      seoDesc: "Copenhagen's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Copenhagen B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Copenhagen</span></>,
+      heroSubtitle: "Copenhagen's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Copenhagen often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Copenhagen enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Copenhagen B2B companies need specialized web architecture?",
+          answer: "Copenhagen's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Copenhagen?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Copenhagen and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Copenhagen, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "zurich": {
+    path: '/zurich',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Zurich | Rankur",
+      seoDesc: "Zurich's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Zurich B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Zurich</span></>,
+      heroSubtitle: "Zurich's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Zurich often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Zurich enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Zurich B2B companies need specialized web architecture?",
+          answer: "Zurich's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Zurich?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Zurich and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Zurich, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "geneva": {
+    path: '/geneva',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Geneva | Rankur",
+      seoDesc: "Geneva's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Geneva B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Geneva</span></>,
+      heroSubtitle: "Geneva's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Geneva often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Geneva enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Geneva B2B companies need specialized web architecture?",
+          answer: "Geneva's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Geneva?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Geneva and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Geneva, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "lisbon": {
+    path: '/lisbon',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Lisbon | Rankur",
+      seoDesc: "Lisbon's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Lisbon B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Lisbon</span></>,
+      heroSubtitle: "Lisbon's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Lisbon often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Lisbon enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Lisbon B2B companies need specialized web architecture?",
+          answer: "Lisbon's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Lisbon?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Lisbon and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Lisbon, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "porto": {
+    path: '/porto',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Porto | Rankur",
+      seoDesc: "Porto's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Porto B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Porto</span></>,
+      heroSubtitle: "Porto's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Porto often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Porto enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Porto B2B companies need specialized web architecture?",
+          answer: "Porto's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Porto?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Porto and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Porto, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "auckland": {
+    path: '/auckland',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Auckland | Rankur",
+      seoDesc: "Auckland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Auckland B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Auckland</span></>,
+      heroSubtitle: "Auckland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Auckland often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Auckland enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Auckland B2B companies need specialized web architecture?",
+          answer: "Auckland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Auckland?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Auckland and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Auckland, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "wellington": {
+    path: '/wellington',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Wellington | Rankur",
+      seoDesc: "Wellington's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Wellington B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Wellington</span></>,
+      heroSubtitle: "Wellington's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Wellington often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Wellington enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Wellington B2B companies need specialized web architecture?",
+          answer: "Wellington's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Wellington?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Wellington and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Wellington, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "christchurch": {
+    path: '/christchurch',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Christchurch | Rankur",
+      seoDesc: "Christchurch's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Christchurch B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Christchurch</span></>,
+      heroSubtitle: "Christchurch's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Christchurch often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Christchurch enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Christchurch B2B companies need specialized web architecture?",
+          answer: "Christchurch's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Christchurch?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Christchurch and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Christchurch, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "brisbane": {
+    path: '/brisbane',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Brisbane | Rankur",
+      seoDesc: "Brisbane's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Brisbane B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Brisbane</span></>,
+      heroSubtitle: "Brisbane's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Brisbane often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Brisbane enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Brisbane B2B companies need specialized web architecture?",
+          answer: "Brisbane's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Brisbane?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Brisbane and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Brisbane, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "perth": {
+    path: '/perth',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Perth | Rankur",
+      seoDesc: "Perth's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Perth B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Perth</span></>,
+      heroSubtitle: "Perth's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Perth often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Perth enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Perth B2B companies need specialized web architecture?",
+          answer: "Perth's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Perth?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Perth and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Perth, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "adelaide": {
+    path: '/adelaide',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Adelaide | Rankur",
+      seoDesc: "Adelaide's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Adelaide B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Adelaide</span></>,
+      heroSubtitle: "Adelaide's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Adelaide often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Adelaide enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Adelaide B2B companies need specialized web architecture?",
+          answer: "Adelaide's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Adelaide?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Adelaide and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Adelaide, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "hobart": {
+    path: '/hobart',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Hobart | Rankur",
+      seoDesc: "Hobart's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Hobart B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Hobart</span></>,
+      heroSubtitle: "Hobart's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Hobart often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Hobart enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Hobart B2B companies need specialized web architecture?",
+          answer: "Hobart's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Hobart?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Hobart and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Hobart, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "darwin": {
+    path: '/darwin',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Darwin | Rankur",
+      seoDesc: "Darwin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Darwin B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Darwin</span></>,
+      heroSubtitle: "Darwin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Darwin often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Darwin enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Darwin B2B companies need specialized web architecture?",
+          answer: "Darwin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Darwin?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Darwin and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Darwin, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "canberra": {
+    path: '/canberra',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Canberra | Rankur",
+      seoDesc: "Canberra's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Canberra B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Canberra</span></>,
+      heroSubtitle: "Canberra's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Canberra often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Canberra enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Canberra B2B companies need specialized web architecture?",
+          answer: "Canberra's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Canberra?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Canberra and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Canberra, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "gold-coast": {
+    path: '/gold-coast',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Gold Coast | Rankur",
+      seoDesc: "Gold Coast's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Gold Coast B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Gold Coast</span></>,
+      heroSubtitle: "Gold Coast's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Gold Coast often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Gold Coast enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Gold Coast B2B companies need specialized web architecture?",
+          answer: "Gold Coast's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Gold Coast?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Gold Coast and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Gold Coast, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "cape-town": {
+    path: '/cape-town',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Cape Town | Rankur",
+      seoDesc: "Cape Town's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Cape Town B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Cape Town</span></>,
+      heroSubtitle: "Cape Town's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Cape Town often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Cape Town enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Cape Town B2B companies need specialized web architecture?",
+          answer: "Cape Town's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Cape Town?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Cape Town and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Cape Town, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "johannesburg": {
+    path: '/johannesburg',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Johannesburg | Rankur",
+      seoDesc: "Johannesburg's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Johannesburg B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Johannesburg</span></>,
+      heroSubtitle: "Johannesburg's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Johannesburg often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Johannesburg enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Johannesburg B2B companies need specialized web architecture?",
+          answer: "Johannesburg's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Johannesburg?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Johannesburg and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Johannesburg, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "durban": {
+    path: '/durban',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Durban | Rankur",
+      seoDesc: "Durban's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Durban B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Durban</span></>,
+      heroSubtitle: "Durban's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Durban often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Durban enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Durban B2B companies need specialized web architecture?",
+          answer: "Durban's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Durban?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Durban and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Durban, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "pretoria": {
+    path: '/pretoria',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Pretoria | Rankur",
+      seoDesc: "Pretoria's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Pretoria B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Pretoria</span></>,
+      heroSubtitle: "Pretoria's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Pretoria often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Pretoria enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Pretoria B2B companies need specialized web architecture?",
+          answer: "Pretoria's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Pretoria?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Pretoria and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Pretoria, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "nairobi": {
+    path: '/nairobi',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Nairobi | Rankur",
+      seoDesc: "Nairobi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Nairobi B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Nairobi</span></>,
+      heroSubtitle: "Nairobi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Nairobi often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Nairobi enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Nairobi B2B companies need specialized web architecture?",
+          answer: "Nairobi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Nairobi?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Nairobi and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Nairobi, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "accra": {
+    path: '/accra',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Accra | Rankur",
+      seoDesc: "Accra's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Accra B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Accra</span></>,
+      heroSubtitle: "Accra's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Accra often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Accra enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Accra B2B companies need specialized web architecture?",
+          answer: "Accra's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Accra?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Accra and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Accra, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "casablanca": {
+    path: '/casablanca',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Casablanca | Rankur",
+      seoDesc: "Casablanca's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Casablanca B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Casablanca</span></>,
+      heroSubtitle: "Casablanca's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Casablanca often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Casablanca enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Casablanca B2B companies need specialized web architecture?",
+          answer: "Casablanca's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Casablanca?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Casablanca and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Casablanca, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "algiers": {
+    path: '/algiers',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Algiers | Rankur",
+      seoDesc: "Algiers's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Algiers B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Algiers</span></>,
+      heroSubtitle: "Algiers's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Algiers often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Algiers enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Algiers B2B companies need specialized web architecture?",
+          answer: "Algiers's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Algiers?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Algiers and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Algiers, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "tunis": {
+    path: '/tunis',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Tunis | Rankur",
+      seoDesc: "Tunis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Tunis B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Tunis</span></>,
+      heroSubtitle: "Tunis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Tunis often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Tunis enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Tunis B2B companies need specialized web architecture?",
+          answer: "Tunis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Tunis?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Tunis and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Tunis, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "dakar": {
+    path: '/dakar',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Dakar | Rankur",
+      seoDesc: "Dakar's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Dakar B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Dakar</span></>,
+      heroSubtitle: "Dakar's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Dakar often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Dakar enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Dakar B2B companies need specialized web architecture?",
+          answer: "Dakar's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Dakar?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Dakar and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Dakar, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "bangkok": {
+    path: '/bangkok',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Bangkok | Rankur",
+      seoDesc: "Bangkok's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Bangkok B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Bangkok</span></>,
+      heroSubtitle: "Bangkok's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Bangkok often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Bangkok enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Bangkok B2B companies need specialized web architecture?",
+          answer: "Bangkok's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Bangkok?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Bangkok and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Bangkok, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "taipei": {
+    path: '/taipei',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Taipei | Rankur",
+      seoDesc: "Taipei's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Taipei B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Taipei</span></>,
+      heroSubtitle: "Taipei's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Taipei often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Taipei enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Taipei B2B companies need specialized web architecture?",
+          answer: "Taipei's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Taipei?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Taipei and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Taipei, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "kyoto": {
+    path: '/kyoto',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Kyoto | Rankur",
+      seoDesc: "Kyoto's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Kyoto B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Kyoto</span></>,
+      heroSubtitle: "Kyoto's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Kyoto often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Kyoto enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Kyoto B2B companies need specialized web architecture?",
+          answer: "Kyoto's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Kyoto?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Kyoto and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Kyoto, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "fukuoka": {
+    path: '/fukuoka',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Fukuoka | Rankur",
+      seoDesc: "Fukuoka's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Fukuoka B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Fukuoka</span></>,
+      heroSubtitle: "Fukuoka's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Fukuoka often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Fukuoka enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Fukuoka B2B companies need specialized web architecture?",
+          answer: "Fukuoka's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Fukuoka?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Fukuoka and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Fukuoka, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "sapporo": {
+    path: '/sapporo',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Sapporo | Rankur",
+      seoDesc: "Sapporo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Sapporo B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Sapporo</span></>,
+      heroSubtitle: "Sapporo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Sapporo often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Sapporo enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Sapporo B2B companies need specialized web architecture?",
+          answer: "Sapporo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Sapporo?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Sapporo and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Sapporo, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "busan": {
+    path: '/busan',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Busan | Rankur",
+      seoDesc: "Busan's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Busan B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Busan</span></>,
+      heroSubtitle: "Busan's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Busan often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Busan enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Busan B2B companies need specialized web architecture?",
+          answer: "Busan's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Busan?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Busan and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Busan, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "incheon": {
+    path: '/incheon',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Incheon | Rankur",
+      seoDesc: "Incheon's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Incheon B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Incheon</span></>,
+      heroSubtitle: "Incheon's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Incheon often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Incheon enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Incheon B2B companies need specialized web architecture?",
+          answer: "Incheon's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Incheon?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Incheon and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Incheon, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "daegu": {
+    path: '/daegu',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Daegu | Rankur",
+      seoDesc: "Daegu's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Daegu B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Daegu</span></>,
+      heroSubtitle: "Daegu's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Daegu often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Daegu enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Daegu B2B companies need specialized web architecture?",
+          answer: "Daegu's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Daegu?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Daegu and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Daegu, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "kaohsiung": {
+    path: '/kaohsiung',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Kaohsiung | Rankur",
+      seoDesc: "Kaohsiung's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Kaohsiung B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Kaohsiung</span></>,
+      heroSubtitle: "Kaohsiung's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Kaohsiung often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Kaohsiung enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Kaohsiung B2B companies need specialized web architecture?",
+          answer: "Kaohsiung's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Kaohsiung?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Kaohsiung and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Kaohsiung, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "taichung": {
+    path: '/taichung',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Taichung | Rankur",
+      seoDesc: "Taichung's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Taichung B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Taichung</span></>,
+      heroSubtitle: "Taichung's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Taichung often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Taichung enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Taichung B2B companies need specialized web architecture?",
+          answer: "Taichung's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Taichung?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Taichung and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Taichung, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "pune": {
+    path: '/pune',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Pune | Rankur",
+      seoDesc: "Pune's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Pune B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Pune</span></>,
+      heroSubtitle: "Pune's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Pune often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Pune enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Pune B2B companies need specialized web architecture?",
+          answer: "Pune's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Pune?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Pune and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Pune, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "surat": {
+    path: '/surat',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Surat | Rankur",
+      seoDesc: "Surat's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Surat B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Surat</span></>,
+      heroSubtitle: "Surat's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Surat often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Surat enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Surat B2B companies need specialized web architecture?",
+          answer: "Surat's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Surat?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Surat and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Surat, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "jaipur": {
+    path: '/jaipur',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Jaipur | Rankur",
+      seoDesc: "Jaipur's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Jaipur B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Jaipur</span></>,
+      heroSubtitle: "Jaipur's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Jaipur often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Jaipur enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Jaipur B2B companies need specialized web architecture?",
+          answer: "Jaipur's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Jaipur?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Jaipur and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Jaipur, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "lucknow": {
+    path: '/lucknow',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Lucknow | Rankur",
+      seoDesc: "Lucknow's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Lucknow B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Lucknow</span></>,
+      heroSubtitle: "Lucknow's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Lucknow often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Lucknow enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Lucknow B2B companies need specialized web architecture?",
+          answer: "Lucknow's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Lucknow?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Lucknow and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Lucknow, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "kanpur": {
+    path: '/kanpur',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Kanpur | Rankur",
+      seoDesc: "Kanpur's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Kanpur B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Kanpur</span></>,
+      heroSubtitle: "Kanpur's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Kanpur often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Kanpur enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Kanpur B2B companies need specialized web architecture?",
+          answer: "Kanpur's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Kanpur?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Kanpur and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Kanpur, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "nagpur": {
+    path: '/nagpur',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Nagpur | Rankur",
+      seoDesc: "Nagpur's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Nagpur B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Nagpur</span></>,
+      heroSubtitle: "Nagpur's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Nagpur often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Nagpur enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Nagpur B2B companies need specialized web architecture?",
+          answer: "Nagpur's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Nagpur?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Nagpur and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Nagpur, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "indore": {
+    path: '/indore',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Indore | Rankur",
+      seoDesc: "Indore's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Indore B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Indore</span></>,
+      heroSubtitle: "Indore's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Indore often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Indore enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Indore B2B companies need specialized web architecture?",
+          answer: "Indore's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Indore?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Indore and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Indore, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "thane": {
+    path: '/thane',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Thane | Rankur",
+      seoDesc: "Thane's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Thane B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Thane</span></>,
+      heroSubtitle: "Thane's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Thane often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Thane enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Thane B2B companies need specialized web architecture?",
+          answer: "Thane's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Thane?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Thane and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Thane, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "bhopal": {
+    path: '/bhopal',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Bhopal | Rankur",
+      seoDesc: "Bhopal's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Bhopal B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Bhopal</span></>,
+      heroSubtitle: "Bhopal's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Bhopal often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Bhopal enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Bhopal B2B companies need specialized web architecture?",
+          answer: "Bhopal's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Bhopal?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Bhopal and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Bhopal, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "visakhapatnam": {
+    path: '/visakhapatnam',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Visakhapatnam | Rankur",
+      seoDesc: "Visakhapatnam's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Visakhapatnam B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Visakhapatnam</span></>,
+      heroSubtitle: "Visakhapatnam's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Visakhapatnam often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Visakhapatnam enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Visakhapatnam B2B companies need specialized web architecture?",
+          answer: "Visakhapatnam's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Visakhapatnam?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Visakhapatnam and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Visakhapatnam, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "san-jose": {
+    path: '/san-jose',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in San Jose | Rankur",
+      seoDesc: "San Jose's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "San Jose B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">San Jose</span></>,
+      heroSubtitle: "San Jose's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in San Jose often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for San Jose enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do San Jose B2B companies need specialized web architecture?",
+          answer: "San Jose's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in San Jose?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in San Jose and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in San Jose, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "austin": {
+    path: '/austin',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Austin | Rankur",
+      seoDesc: "Austin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Austin B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Austin</span></>,
+      heroSubtitle: "Austin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Austin often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Austin enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Austin B2B companies need specialized web architecture?",
+          answer: "Austin's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Austin?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Austin and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Austin, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "jacksonville": {
+    path: '/jacksonville',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Jacksonville | Rankur",
+      seoDesc: "Jacksonville's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Jacksonville B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Jacksonville</span></>,
+      heroSubtitle: "Jacksonville's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Jacksonville often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Jacksonville enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Jacksonville B2B companies need specialized web architecture?",
+          answer: "Jacksonville's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Jacksonville?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Jacksonville and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Jacksonville, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "fort-worth": {
+    path: '/fort-worth',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Fort Worth | Rankur",
+      seoDesc: "Fort Worth's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Fort Worth B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Fort Worth</span></>,
+      heroSubtitle: "Fort Worth's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Fort Worth often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Fort Worth enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Fort Worth B2B companies need specialized web architecture?",
+          answer: "Fort Worth's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Fort Worth?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Fort Worth and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Fort Worth, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "columbus": {
+    path: '/columbus',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Columbus | Rankur",
+      seoDesc: "Columbus's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Columbus B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Columbus</span></>,
+      heroSubtitle: "Columbus's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Columbus often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Columbus enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Columbus B2B companies need specialized web architecture?",
+          answer: "Columbus's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Columbus?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Columbus and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Columbus, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "charlotte": {
+    path: '/charlotte',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Charlotte | Rankur",
+      seoDesc: "Charlotte's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Charlotte B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Charlotte</span></>,
+      heroSubtitle: "Charlotte's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Charlotte often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Charlotte enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Charlotte B2B companies need specialized web architecture?",
+          answer: "Charlotte's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Charlotte?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Charlotte and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Charlotte, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "indianapolis": {
+    path: '/indianapolis',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Indianapolis | Rankur",
+      seoDesc: "Indianapolis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Indianapolis B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Indianapolis</span></>,
+      heroSubtitle: "Indianapolis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Indianapolis often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Indianapolis enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Indianapolis B2B companies need specialized web architecture?",
+          answer: "Indianapolis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Indianapolis?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Indianapolis and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Indianapolis, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "san-francisco": {
+    path: '/san-francisco',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in San Francisco | Rankur",
+      seoDesc: "San Francisco's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "San Francisco B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">San Francisco</span></>,
+      heroSubtitle: "San Francisco's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in San Francisco often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for San Francisco enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do San Francisco B2B companies need specialized web architecture?",
+          answer: "San Francisco's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in San Francisco?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in San Francisco and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in San Francisco, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "denver": {
+    path: '/denver',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Denver | Rankur",
+      seoDesc: "Denver's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Denver B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Denver</span></>,
+      heroSubtitle: "Denver's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Denver often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Denver enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Denver B2B companies need specialized web architecture?",
+          answer: "Denver's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Denver?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Denver and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Denver, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "oklahoma-city": {
+    path: '/oklahoma-city',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Oklahoma City | Rankur",
+      seoDesc: "Oklahoma City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Oklahoma City B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Oklahoma City</span></>,
+      heroSubtitle: "Oklahoma City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Oklahoma City often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Oklahoma City enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Oklahoma City B2B companies need specialized web architecture?",
+          answer: "Oklahoma City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Oklahoma City?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Oklahoma City and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Oklahoma City, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "nashville": {
+    path: '/nashville',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Nashville | Rankur",
+      seoDesc: "Nashville's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Nashville B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Nashville</span></>,
+      heroSubtitle: "Nashville's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Nashville often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Nashville enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Nashville B2B companies need specialized web architecture?",
+          answer: "Nashville's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Nashville?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Nashville and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Nashville, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "el-paso": {
+    path: '/el-paso',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in El Paso | Rankur",
+      seoDesc: "El Paso's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "El Paso B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">El Paso</span></>,
+      heroSubtitle: "El Paso's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in El Paso often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for El Paso enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do El Paso B2B companies need specialized web architecture?",
+          answer: "El Paso's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in El Paso?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in El Paso and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in El Paso, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "portland": {
+    path: '/portland',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Portland | Rankur",
+      seoDesc: "Portland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Portland B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Portland</span></>,
+      heroSubtitle: "Portland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Portland often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Portland enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Portland B2B companies need specialized web architecture?",
+          answer: "Portland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Portland?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Portland and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Portland, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "las-vegas": {
+    path: '/las-vegas',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Las Vegas | Rankur",
+      seoDesc: "Las Vegas's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Las Vegas B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Las Vegas</span></>,
+      heroSubtitle: "Las Vegas's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Las Vegas often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Las Vegas enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Las Vegas B2B companies need specialized web architecture?",
+          answer: "Las Vegas's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Las Vegas?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Las Vegas and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Las Vegas, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "memphis": {
+    path: '/memphis',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Memphis | Rankur",
+      seoDesc: "Memphis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Memphis B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Memphis</span></>,
+      heroSubtitle: "Memphis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Memphis often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Memphis enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Memphis B2B companies need specialized web architecture?",
+          answer: "Memphis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Memphis?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Memphis and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Memphis, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "louisville": {
+    path: '/louisville',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Louisville | Rankur",
+      seoDesc: "Louisville's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Louisville B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Louisville</span></>,
+      heroSubtitle: "Louisville's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Louisville often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Louisville enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Louisville B2B companies need specialized web architecture?",
+          answer: "Louisville's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Louisville?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Louisville and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Louisville, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "baltimore": {
+    path: '/baltimore',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Baltimore | Rankur",
+      seoDesc: "Baltimore's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Baltimore B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Baltimore</span></>,
+      heroSubtitle: "Baltimore's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Baltimore often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Baltimore enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Baltimore B2B companies need specialized web architecture?",
+          answer: "Baltimore's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Baltimore?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Baltimore and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Baltimore, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "milwaukee": {
+    path: '/milwaukee',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Milwaukee | Rankur",
+      seoDesc: "Milwaukee's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Milwaukee B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Milwaukee</span></>,
+      heroSubtitle: "Milwaukee's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Milwaukee often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Milwaukee enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Milwaukee B2B companies need specialized web architecture?",
+          answer: "Milwaukee's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Milwaukee?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Milwaukee and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Milwaukee, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "albuquerque": {
+    path: '/albuquerque',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Albuquerque | Rankur",
+      seoDesc: "Albuquerque's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Albuquerque B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Albuquerque</span></>,
+      heroSubtitle: "Albuquerque's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Albuquerque often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Albuquerque enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Albuquerque B2B companies need specialized web architecture?",
+          answer: "Albuquerque's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Albuquerque?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Albuquerque and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Albuquerque, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "tucson": {
+    path: '/tucson',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Tucson | Rankur",
+      seoDesc: "Tucson's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Tucson B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Tucson</span></>,
+      heroSubtitle: "Tucson's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Tucson often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Tucson enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Tucson B2B companies need specialized web architecture?",
+          answer: "Tucson's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Tucson?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Tucson and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Tucson, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "fresno": {
+    path: '/fresno',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Fresno | Rankur",
+      seoDesc: "Fresno's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Fresno B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Fresno</span></>,
+      heroSubtitle: "Fresno's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Fresno often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Fresno enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Fresno B2B companies need specialized web architecture?",
+          answer: "Fresno's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Fresno?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Fresno and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Fresno, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "sacramento": {
+    path: '/sacramento',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Sacramento | Rankur",
+      seoDesc: "Sacramento's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Sacramento B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Sacramento</span></>,
+      heroSubtitle: "Sacramento's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Sacramento often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Sacramento enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Sacramento B2B companies need specialized web architecture?",
+          answer: "Sacramento's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Sacramento?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Sacramento and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Sacramento, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "kansas-city": {
+    path: '/kansas-city',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Kansas City | Rankur",
+      seoDesc: "Kansas City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Kansas City B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Kansas City</span></>,
+      heroSubtitle: "Kansas City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Kansas City often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Kansas City enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Kansas City B2B companies need specialized web architecture?",
+          answer: "Kansas City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Kansas City?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Kansas City and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Kansas City, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "mesa": {
+    path: '/mesa',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Mesa | Rankur",
+      seoDesc: "Mesa's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Mesa B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Mesa</span></>,
+      heroSubtitle: "Mesa's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Mesa often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Mesa enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Mesa B2B companies need specialized web architecture?",
+          answer: "Mesa's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Mesa?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Mesa and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Mesa, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "omaha": {
+    path: '/omaha',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Omaha | Rankur",
+      seoDesc: "Omaha's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Omaha B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Omaha</span></>,
+      heroSubtitle: "Omaha's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Omaha often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Omaha enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Omaha B2B companies need specialized web architecture?",
+          answer: "Omaha's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Omaha?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Omaha and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Omaha, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "colorado-springs": {
+    path: '/colorado-springs',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Colorado Springs | Rankur",
+      seoDesc: "Colorado Springs's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Colorado Springs B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Colorado Springs</span></>,
+      heroSubtitle: "Colorado Springs's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Colorado Springs often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Colorado Springs enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Colorado Springs B2B companies need specialized web architecture?",
+          answer: "Colorado Springs's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Colorado Springs?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Colorado Springs and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Colorado Springs, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "raleigh": {
+    path: '/raleigh',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Raleigh | Rankur",
+      seoDesc: "Raleigh's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Raleigh B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Raleigh</span></>,
+      heroSubtitle: "Raleigh's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Raleigh often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Raleigh enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Raleigh B2B companies need specialized web architecture?",
+          answer: "Raleigh's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Raleigh?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Raleigh and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Raleigh, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "long-beach": {
+    path: '/long-beach',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Long Beach | Rankur",
+      seoDesc: "Long Beach's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Long Beach B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Long Beach</span></>,
+      heroSubtitle: "Long Beach's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Long Beach often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Long Beach enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Long Beach B2B companies need specialized web architecture?",
+          answer: "Long Beach's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Long Beach?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Long Beach and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Long Beach, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "virginia-beach": {
+    path: '/virginia-beach',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Virginia Beach | Rankur",
+      seoDesc: "Virginia Beach's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Virginia Beach B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Virginia Beach</span></>,
+      heroSubtitle: "Virginia Beach's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Virginia Beach often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Virginia Beach enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Virginia Beach B2B companies need specialized web architecture?",
+          answer: "Virginia Beach's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Virginia Beach?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Virginia Beach and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Virginia Beach, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "oakland": {
+    path: '/oakland',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Oakland | Rankur",
+      seoDesc: "Oakland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Oakland B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Oakland</span></>,
+      heroSubtitle: "Oakland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Oakland often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Oakland enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Oakland B2B companies need specialized web architecture?",
+          answer: "Oakland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Oakland?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Oakland and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Oakland, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "minneapolis": {
+    path: '/minneapolis',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Minneapolis | Rankur",
+      seoDesc: "Minneapolis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Minneapolis B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Minneapolis</span></>,
+      heroSubtitle: "Minneapolis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Minneapolis often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Minneapolis enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Minneapolis B2B companies need specialized web architecture?",
+          answer: "Minneapolis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Minneapolis?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Minneapolis and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Minneapolis, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "tulsa": {
+    path: '/tulsa',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Tulsa | Rankur",
+      seoDesc: "Tulsa's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Tulsa B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Tulsa</span></>,
+      heroSubtitle: "Tulsa's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Tulsa often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Tulsa enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Tulsa B2B companies need specialized web architecture?",
+          answer: "Tulsa's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Tulsa?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Tulsa and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Tulsa, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "bakersfield": {
+    path: '/bakersfield',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Bakersfield | Rankur",
+      seoDesc: "Bakersfield's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Bakersfield B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Bakersfield</span></>,
+      heroSubtitle: "Bakersfield's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Bakersfield often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Bakersfield enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Bakersfield B2B companies need specialized web architecture?",
+          answer: "Bakersfield's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Bakersfield?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Bakersfield and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Bakersfield, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "wichita": {
+    path: '/wichita',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Wichita | Rankur",
+      seoDesc: "Wichita's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Wichita B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Wichita</span></>,
+      heroSubtitle: "Wichita's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Wichita often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Wichita enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Wichita B2B companies need specialized web architecture?",
+          answer: "Wichita's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Wichita?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Wichita and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Wichita, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "arlington": {
+    path: '/arlington',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Arlington | Rankur",
+      seoDesc: "Arlington's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Arlington B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Arlington</span></>,
+      heroSubtitle: "Arlington's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Arlington often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Arlington enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Arlington B2B companies need specialized web architecture?",
+          answer: "Arlington's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Arlington?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Arlington and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Arlington, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "aurora": {
+    path: '/aurora',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Aurora | Rankur",
+      seoDesc: "Aurora's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Aurora B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Aurora</span></>,
+      heroSubtitle: "Aurora's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Aurora often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Aurora enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Aurora B2B companies need specialized web architecture?",
+          answer: "Aurora's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Aurora?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Aurora and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Aurora, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "tampa": {
+    path: '/tampa',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Tampa | Rankur",
+      seoDesc: "Tampa's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Tampa B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Tampa</span></>,
+      heroSubtitle: "Tampa's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Tampa often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Tampa enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Tampa B2B companies need specialized web architecture?",
+          answer: "Tampa's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Tampa?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Tampa and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Tampa, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "new-orleans": {
+    path: '/new-orleans',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in New Orleans | Rankur",
+      seoDesc: "New Orleans's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "New Orleans B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">New Orleans</span></>,
+      heroSubtitle: "New Orleans's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in New Orleans often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for New Orleans enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do New Orleans B2B companies need specialized web architecture?",
+          answer: "New Orleans's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in New Orleans?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in New Orleans and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in New Orleans, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "cleveland": {
+    path: '/cleveland',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Cleveland | Rankur",
+      seoDesc: "Cleveland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Cleveland B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Cleveland</span></>,
+      heroSubtitle: "Cleveland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Cleveland often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Cleveland enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Cleveland B2B companies need specialized web architecture?",
+          answer: "Cleveland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Cleveland?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Cleveland and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Cleveland, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "honolulu": {
+    path: '/honolulu',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Honolulu | Rankur",
+      seoDesc: "Honolulu's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Honolulu B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Honolulu</span></>,
+      heroSubtitle: "Honolulu's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Honolulu often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Honolulu enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Honolulu B2B companies need specialized web architecture?",
+          answer: "Honolulu's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Honolulu?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Honolulu and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Honolulu, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "anaheim": {
+    path: '/anaheim',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Anaheim | Rankur",
+      seoDesc: "Anaheim's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Anaheim B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Anaheim</span></>,
+      heroSubtitle: "Anaheim's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Anaheim often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Anaheim enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Anaheim B2B companies need specialized web architecture?",
+          answer: "Anaheim's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Anaheim?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Anaheim and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Anaheim, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "lexington": {
+    path: '/lexington',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Lexington | Rankur",
+      seoDesc: "Lexington's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Lexington B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Lexington</span></>,
+      heroSubtitle: "Lexington's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Lexington often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Lexington enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Lexington B2B companies need specialized web architecture?",
+          answer: "Lexington's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Lexington?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Lexington and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Lexington, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "stockton": {
+    path: '/stockton',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Stockton | Rankur",
+      seoDesc: "Stockton's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Stockton B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Stockton</span></>,
+      heroSubtitle: "Stockton's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Stockton often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Stockton enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Stockton B2B companies need specialized web architecture?",
+          answer: "Stockton's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Stockton?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Stockton and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Stockton, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "corpus-christi": {
+    path: '/corpus-christi',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Corpus Christi | Rankur",
+      seoDesc: "Corpus Christi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Corpus Christi B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Corpus Christi</span></>,
+      heroSubtitle: "Corpus Christi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Corpus Christi often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Corpus Christi enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Corpus Christi B2B companies need specialized web architecture?",
+          answer: "Corpus Christi's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Corpus Christi?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Corpus Christi and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Corpus Christi, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "henderson": {
+    path: '/henderson',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Henderson | Rankur",
+      seoDesc: "Henderson's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Henderson B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Henderson</span></>,
+      heroSubtitle: "Henderson's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Henderson often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Henderson enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Henderson B2B companies need specialized web architecture?",
+          answer: "Henderson's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Henderson?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Henderson and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Henderson, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "riverside": {
+    path: '/riverside',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Riverside | Rankur",
+      seoDesc: "Riverside's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Riverside B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Riverside</span></>,
+      heroSubtitle: "Riverside's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Riverside often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Riverside enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Riverside B2B companies need specialized web architecture?",
+          answer: "Riverside's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Riverside?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Riverside and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Riverside, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "newark": {
+    path: '/newark',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Newark | Rankur",
+      seoDesc: "Newark's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Newark B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Newark</span></>,
+      heroSubtitle: "Newark's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Newark often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Newark enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Newark B2B companies need specialized web architecture?",
+          answer: "Newark's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Newark?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Newark and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Newark, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "saint-paul": {
+    path: '/saint-paul',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Saint Paul | Rankur",
+      seoDesc: "Saint Paul's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Saint Paul B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Saint Paul</span></>,
+      heroSubtitle: "Saint Paul's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Saint Paul often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Saint Paul enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Saint Paul B2B companies need specialized web architecture?",
+          answer: "Saint Paul's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Saint Paul?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Saint Paul and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Saint Paul, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "santa-ana": {
+    path: '/santa-ana',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Santa Ana | Rankur",
+      seoDesc: "Santa Ana's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Santa Ana B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Santa Ana</span></>,
+      heroSubtitle: "Santa Ana's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Santa Ana often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Santa Ana enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Santa Ana B2B companies need specialized web architecture?",
+          answer: "Santa Ana's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Santa Ana?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Santa Ana and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Santa Ana, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "cincinnati": {
+    path: '/cincinnati',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Cincinnati | Rankur",
+      seoDesc: "Cincinnati's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Cincinnati B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Cincinnati</span></>,
+      heroSubtitle: "Cincinnati's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Cincinnati often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Cincinnati enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Cincinnati B2B companies need specialized web architecture?",
+          answer: "Cincinnati's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Cincinnati?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Cincinnati and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Cincinnati, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "irvine": {
+    path: '/irvine',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Irvine | Rankur",
+      seoDesc: "Irvine's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Irvine B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Irvine</span></>,
+      heroSubtitle: "Irvine's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Irvine often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Irvine enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Irvine B2B companies need specialized web architecture?",
+          answer: "Irvine's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Irvine?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Irvine and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Irvine, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "orlando": {
+    path: '/orlando',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Orlando | Rankur",
+      seoDesc: "Orlando's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Orlando B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Orlando</span></>,
+      heroSubtitle: "Orlando's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Orlando often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Orlando enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Orlando B2B companies need specialized web architecture?",
+          answer: "Orlando's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Orlando?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Orlando and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Orlando, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "pittsburgh": {
+    path: '/pittsburgh',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Pittsburgh | Rankur",
+      seoDesc: "Pittsburgh's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Pittsburgh B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Pittsburgh</span></>,
+      heroSubtitle: "Pittsburgh's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Pittsburgh often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Pittsburgh enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Pittsburgh B2B companies need specialized web architecture?",
+          answer: "Pittsburgh's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Pittsburgh?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Pittsburgh and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Pittsburgh, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "st-louis": {
+    path: '/st-louis',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in St. Louis | Rankur",
+      seoDesc: "St. Louis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "St. Louis B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">St. Louis</span></>,
+      heroSubtitle: "St. Louis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in St. Louis often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for St. Louis enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do St. Louis B2B companies need specialized web architecture?",
+          answer: "St. Louis's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in St. Louis?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in St. Louis and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in St. Louis, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "greensboro": {
+    path: '/greensboro',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Greensboro | Rankur",
+      seoDesc: "Greensboro's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Greensboro B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Greensboro</span></>,
+      heroSubtitle: "Greensboro's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Greensboro often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Greensboro enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Greensboro B2B companies need specialized web architecture?",
+          answer: "Greensboro's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Greensboro?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Greensboro and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Greensboro, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "jersey-city": {
+    path: '/jersey-city',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Jersey City | Rankur",
+      seoDesc: "Jersey City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Jersey City B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Jersey City</span></>,
+      heroSubtitle: "Jersey City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Jersey City often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Jersey City enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Jersey City B2B companies need specialized web architecture?",
+          answer: "Jersey City's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Jersey City?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Jersey City and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Jersey City, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "anchorage": {
+    path: '/anchorage',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Anchorage | Rankur",
+      seoDesc: "Anchorage's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Anchorage B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Anchorage</span></>,
+      heroSubtitle: "Anchorage's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Anchorage often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Anchorage enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Anchorage B2B companies need specialized web architecture?",
+          answer: "Anchorage's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Anchorage?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Anchorage and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Anchorage, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "lincoln": {
+    path: '/lincoln',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Lincoln | Rankur",
+      seoDesc: "Lincoln's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Lincoln B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Lincoln</span></>,
+      heroSubtitle: "Lincoln's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Lincoln often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Lincoln enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Lincoln B2B companies need specialized web architecture?",
+          answer: "Lincoln's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Lincoln?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Lincoln and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Lincoln, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "plano": {
+    path: '/plano',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Plano | Rankur",
+      seoDesc: "Plano's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Plano B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Plano</span></>,
+      heroSubtitle: "Plano's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Plano often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Plano enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Plano B2B companies need specialized web architecture?",
+          answer: "Plano's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Plano?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Plano and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Plano, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "durham": {
+    path: '/durham',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Durham | Rankur",
+      seoDesc: "Durham's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Durham B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Durham</span></>,
+      heroSubtitle: "Durham's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Durham often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Durham enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Durham B2B companies need specialized web architecture?",
+          answer: "Durham's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Durham?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Durham and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Durham, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "buffalo": {
+    path: '/buffalo',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Buffalo | Rankur",
+      seoDesc: "Buffalo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Buffalo B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Buffalo</span></>,
+      heroSubtitle: "Buffalo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Buffalo often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Buffalo enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Buffalo B2B companies need specialized web architecture?",
+          answer: "Buffalo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Buffalo?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Buffalo and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Buffalo, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "chandler": {
+    path: '/chandler',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Chandler | Rankur",
+      seoDesc: "Chandler's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Chandler B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Chandler</span></>,
+      heroSubtitle: "Chandler's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Chandler often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Chandler enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Chandler B2B companies need specialized web architecture?",
+          answer: "Chandler's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Chandler?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Chandler and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Chandler, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "chula-vista": {
+    path: '/chula-vista',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Chula Vista | Rankur",
+      seoDesc: "Chula Vista's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Chula Vista B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Chula Vista</span></>,
+      heroSubtitle: "Chula Vista's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Chula Vista often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Chula Vista enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Chula Vista B2B companies need specialized web architecture?",
+          answer: "Chula Vista's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Chula Vista?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Chula Vista and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Chula Vista, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "toledo": {
+    path: '/toledo',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Toledo | Rankur",
+      seoDesc: "Toledo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Toledo B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Toledo</span></>,
+      heroSubtitle: "Toledo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Toledo often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Toledo enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Toledo B2B companies need specialized web architecture?",
+          answer: "Toledo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Toledo?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Toledo and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Toledo, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "madison": {
+    path: '/madison',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Madison | Rankur",
+      seoDesc: "Madison's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Madison B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Madison</span></>,
+      heroSubtitle: "Madison's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Madison often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Madison enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Madison B2B companies need specialized web architecture?",
+          answer: "Madison's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Madison?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Madison and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Madison, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "gilbert": {
+    path: '/gilbert',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Gilbert | Rankur",
+      seoDesc: "Gilbert's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Gilbert B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Gilbert</span></>,
+      heroSubtitle: "Gilbert's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Gilbert often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Gilbert enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Gilbert B2B companies need specialized web architecture?",
+          answer: "Gilbert's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Gilbert?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Gilbert and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Gilbert, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "reno": {
+    path: '/reno',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Reno | Rankur",
+      seoDesc: "Reno's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Reno B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Reno</span></>,
+      heroSubtitle: "Reno's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Reno often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Reno enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Reno B2B companies need specialized web architecture?",
+          answer: "Reno's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Reno?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Reno and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Reno, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "fort-wayne": {
+    path: '/fort-wayne',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Fort Wayne | Rankur",
+      seoDesc: "Fort Wayne's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Fort Wayne B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Fort Wayne</span></>,
+      heroSubtitle: "Fort Wayne's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Fort Wayne often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Fort Wayne enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Fort Wayne B2B companies need specialized web architecture?",
+          answer: "Fort Wayne's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Fort Wayne?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Fort Wayne and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Fort Wayne, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "north-las-vegas": {
+    path: '/north-las-vegas',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in North Las Vegas | Rankur",
+      seoDesc: "North Las Vegas's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "North Las Vegas B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">North Las Vegas</span></>,
+      heroSubtitle: "North Las Vegas's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in North Las Vegas often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for North Las Vegas enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do North Las Vegas B2B companies need specialized web architecture?",
+          answer: "North Las Vegas's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in North Las Vegas?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in North Las Vegas and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in North Las Vegas, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "st-petersburg": {
+    path: '/st-petersburg',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in St. Petersburg | Rankur",
+      seoDesc: "St. Petersburg's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "St. Petersburg B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">St. Petersburg</span></>,
+      heroSubtitle: "St. Petersburg's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in St. Petersburg often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for St. Petersburg enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do St. Petersburg B2B companies need specialized web architecture?",
+          answer: "St. Petersburg's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in St. Petersburg?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in St. Petersburg and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in St. Petersburg, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "lubbock": {
+    path: '/lubbock',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Lubbock | Rankur",
+      seoDesc: "Lubbock's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Lubbock B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Lubbock</span></>,
+      heroSubtitle: "Lubbock's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Lubbock often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Lubbock enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Lubbock B2B companies need specialized web architecture?",
+          answer: "Lubbock's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Lubbock?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Lubbock and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Lubbock, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "garland": {
+    path: '/garland',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Garland | Rankur",
+      seoDesc: "Garland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Garland B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Garland</span></>,
+      heroSubtitle: "Garland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Garland often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Garland enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Garland B2B companies need specialized web architecture?",
+          answer: "Garland's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Garland?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Garland and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Garland, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "laredo": {
+    path: '/laredo',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Laredo | Rankur",
+      seoDesc: "Laredo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Laredo B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Laredo</span></>,
+      heroSubtitle: "Laredo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Laredo often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Laredo enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Laredo B2B companies need specialized web architecture?",
+          answer: "Laredo's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Laredo?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Laredo and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Laredo, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "irving": {
+    path: '/irving',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Irving | Rankur",
+      seoDesc: "Irving's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Irving B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Irving</span></>,
+      heroSubtitle: "Irving's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Irving often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Irving enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Irving B2B companies need specialized web architecture?",
+          answer: "Irving's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Irving?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Irving and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Irving, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "chesapeake": {
+    path: '/chesapeake',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Chesapeake | Rankur",
+      seoDesc: "Chesapeake's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Chesapeake B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Chesapeake</span></>,
+      heroSubtitle: "Chesapeake's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Chesapeake often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Chesapeake enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Chesapeake B2B companies need specialized web architecture?",
+          answer: "Chesapeake's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Chesapeake?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Chesapeake and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Chesapeake, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "glendale": {
+    path: '/glendale',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Glendale | Rankur",
+      seoDesc: "Glendale's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Glendale B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Glendale</span></>,
+      heroSubtitle: "Glendale's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Glendale often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Glendale enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Glendale B2B companies need specialized web architecture?",
+          answer: "Glendale's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Glendale?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Glendale and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Glendale, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "winston-salem": {
+    path: '/winston-salem',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Winston-Salem | Rankur",
+      seoDesc: "Winston-Salem's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Winston-Salem B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Winston-Salem</span></>,
+      heroSubtitle: "Winston-Salem's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Winston-Salem often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Winston-Salem enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Winston-Salem B2B companies need specialized web architecture?",
+          answer: "Winston-Salem's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Winston-Salem?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Winston-Salem and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Winston-Salem, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "scottsdale": {
+    path: '/scottsdale',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Scottsdale | Rankur",
+      seoDesc: "Scottsdale's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Scottsdale B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Scottsdale</span></>,
+      heroSubtitle: "Scottsdale's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Scottsdale often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Scottsdale enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Scottsdale B2B companies need specialized web architecture?",
+          answer: "Scottsdale's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Scottsdale?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Scottsdale and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Scottsdale, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "fremont": {
+    path: '/fremont',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Fremont | Rankur",
+      seoDesc: "Fremont's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Fremont B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Fremont</span></>,
+      heroSubtitle: "Fremont's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Fremont often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Fremont enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Fremont B2B companies need specialized web architecture?",
+          answer: "Fremont's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Fremont?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Fremont and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Fremont, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "richmond": {
+    path: '/richmond',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Richmond | Rankur",
+      seoDesc: "Richmond's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Richmond B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Richmond</span></>,
+      heroSubtitle: "Richmond's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Richmond often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Richmond enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Richmond B2B companies need specialized web architecture?",
+          answer: "Richmond's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Richmond?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Richmond and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Richmond, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "boise": {
+    path: '/boise',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Boise | Rankur",
+      seoDesc: "Boise's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Boise B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Boise</span></>,
+      heroSubtitle: "Boise's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Boise often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Boise enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Boise B2B companies need specialized web architecture?",
+          answer: "Boise's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Boise?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Boise and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Boise, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "baton-rouge": {
+    path: '/baton-rouge',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Baton Rouge | Rankur",
+      seoDesc: "Baton Rouge's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Baton Rouge B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Baton Rouge</span></>,
+      heroSubtitle: "Baton Rouge's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Baton Rouge often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Baton Rouge enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Baton Rouge B2B companies need specialized web architecture?",
+          answer: "Baton Rouge's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Baton Rouge?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Baton Rouge and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Baton Rouge, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "des-moines": {
+    path: '/des-moines',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Des Moines | Rankur",
+      seoDesc: "Des Moines's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Des Moines B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Des Moines</span></>,
+      heroSubtitle: "Des Moines's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Des Moines often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Des Moines enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Des Moines B2B companies need specialized web architecture?",
+          answer: "Des Moines's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Des Moines?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Des Moines and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Des Moines, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "spokane": {
+    path: '/spokane',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Spokane | Rankur",
+      seoDesc: "Spokane's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Spokane B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Spokane</span></>,
+      heroSubtitle: "Spokane's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Spokane often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Spokane enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Spokane B2B companies need specialized web architecture?",
+          answer: "Spokane's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Spokane?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Spokane and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Spokane, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "san-bernardino": {
+    path: '/san-bernardino',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in San Bernardino | Rankur",
+      seoDesc: "San Bernardino's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "San Bernardino B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">San Bernardino</span></>,
+      heroSubtitle: "San Bernardino's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in San Bernardino often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for San Bernardino enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do San Bernardino B2B companies need specialized web architecture?",
+          answer: "San Bernardino's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in San Bernardino?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in San Bernardino and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in San Bernardino, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "modesto": {
+    path: '/modesto',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Modesto | Rankur",
+      seoDesc: "Modesto's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Modesto B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Modesto</span></>,
+      heroSubtitle: "Modesto's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Modesto often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Modesto enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Modesto B2B companies need specialized web architecture?",
+          answer: "Modesto's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Modesto?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Modesto and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Modesto, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "tacoma": {
+    path: '/tacoma',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Tacoma | Rankur",
+      seoDesc: "Tacoma's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Tacoma B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Tacoma</span></>,
+      heroSubtitle: "Tacoma's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Tacoma often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Tacoma enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Tacoma B2B companies need specialized web architecture?",
+          answer: "Tacoma's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Tacoma?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Tacoma and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Tacoma, as well as across broader national and international queries."
+        }
+      ]
+    }
+  },
+  "fontana": {
+    path: '/fontana',
+    props: {
+      seoTitle: "B2B Web Design & Growth Consultant in Fontana | Rankur",
+      seoDesc: "Fontana's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. Rankur builds B2B digital infrastructure to solve exactly this.",
+      niche: "Fontana B2B",
+      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Fontana</span></>,
+      heroSubtitle: "Fontana's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms.",
+      problemText: [
+        "B2B companies in Fontana often lack the generative SEO and technical foundation required to capture high-intent enterprise pipeline.",
+        "Many local companies list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
+        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline."
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Conversion-Focused Architecture',
+          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs for Fontana enterprises.'
+        },
+        {
+          icon: '◎',
+          title: 'High-Intent SEO',
+          desc: 'Targeting bottom-of-funnel keywords to capture local and national enterprise buyers ready to switch.'
+        },
+        {
+          icon: '▶',
+          title: 'Retargeting Ecosystem',
+          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
+        }
+      ],
+      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      faqs: [
+        {
+          question: "Why do Fontana B2B companies need specialized web architecture?",
+          answer: "Fontana's commercial ecosystem requires highly resilient digital infrastructure to support growing enterprise demands. The local market rewards technically rigorous B2B platforms. This makes enterprise-grade performance non-negotiable."
+        },
+        {
+          question: "How quickly can you have a new B2B marketing site live in Fontana?",
+          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You're not waiting 6 weeks for a basic handoff."
+        },
+        {
+          question: "Will this help us rank locally in Fontana and nationally?",
+          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Fontana, as well as across broader national and international queries."
+        }
+      ]
+    }
   }
 };

@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { usePathname } from 'next/navigation';
 import { lazy, Suspense } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -27,8 +27,9 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 /* Niche Data */
 import { nicheData } from './data/nicheData';
 import { cityData } from './data/cityData';
+import { countryData } from './data/countryData';
 
-import { Helmet } from 'react-helmet-async';
+
 import './App.css';
 
 const globalSchema = {
@@ -70,18 +71,13 @@ const globalSchema = {
 };
 
 function App() {
-  const location = useLocation();
-  const actualPath = location.pathname === '/home' ? '/' : location.pathname;
+  const location = usePathname();
+  const actualPath = pathname === '/home' ? '/' : pathname;
   const canonicalUrl = `https://rankursite.com${actualPath === '/' ? '/' : actualPath}`;
 
   return (
     <div className="app-container">
-      <Helmet>
-        <link rel="canonical" href={canonicalUrl} />
-        <script type="application/ld+json">
-          {JSON.stringify(globalSchema)}
-        </script>
-      </Helmet>
+      
       <ScrollToTop />
       <Navbar />
       <main className="main-content">
@@ -110,13 +106,22 @@ function App() {
             />
           ))}
 
-          {/* City Local SEO Routes */}
-          {Object.keys(cityData).map((key) => (
-            <Route 
-              key={key} 
-              path={cityData[key].path} 
-              element={<NichePage {...cityData[key].props} />} 
-            />
+          {/* Programmatic SEO Hubs (Cities & Countries) */}
+          {[...Object.values(cityData), ...Object.values(countryData)].map((region, idx) => (
+            <Route key={`region-${idx}`} path={region.path}>
+              <Route index element={<NichePage {...region.props} />} />
+              <Route path="services" element={<Services />} />
+              <Route path="case-studies" element={<CaseStudies />} />
+              <Route path="about" element={<About />} />
+              <Route path="philosophy" element={<Philosophy />} />
+              <Route path="certifications" element={<Certifications />} />
+              <Route path="process" element={<Process />} />
+              <Route path="blog" element={<Blog />} />
+              <Route path="blog/:slug" element={<BlogPost />} />
+              <Route path="free-audit" element={<FreeAudit />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="thank-you" element={<ThankYou />} />
+            </Route>
           ))}
 
           {/* 404 Catch-All */}

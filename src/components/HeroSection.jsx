@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import './HeroSection.css';
 
 export default function HeroSection({
@@ -19,12 +19,12 @@ export default function HeroSection({
         )}
         <div className="hero__actions animate-in animate-delay-3">
           {primaryCTA && (
-            <Link to={primaryCTA.to} className="btn btn--primary">
+            <Link href={primaryCTA.to} className="btn btn--primary">
               {primaryCTA.label}
             </Link>
           )}
           {secondaryCTA && (
-            <Link to={secondaryCTA.to} className="btn btn--secondary">
+            <Link href={secondaryCTA.to} className="btn btn--secondary">
               {secondaryCTA.label}
             </Link>
           )}

@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 const BASE_URL = 'https://rankursite.com';
 
 // Define static routes
-const routes = [
+const coreRoutes = [
   '/',
   '/services',
   '/case-studies',
@@ -22,18 +22,6 @@ const routes = [
   '/saas-websites'
 ];
 
-try {
-  const citiesPath = path.resolve(__dirname, '../cities.json');
-  if (fs.existsSync(citiesPath)) {
-    const cities = JSON.parse(fs.readFileSync(citiesPath, 'utf-8'));
-    cities.forEach(city => {
-      routes.push('/' + city.slug);
-    });
-  }
-} catch (error) {
-  console.warn('Could not read cities.json for sitemap generation:', error.message);
-}
-// Helper to format date
 const getTodayDate = () => {
   const date = new Date();
   return date.toISOString().split('T')[0];
@@ -46,74 +34,120 @@ const getValidDate = (dateString) => {
   return new Date(parsed).toISOString().split('T')[0];
 };
 
+function generateXml(urls) {
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+  for (const item of urls) {
+    xml += `  <url>\n    <loc>${item.url}</loc>\n`;
+    if (item.lastModified) xml += `    <lastmod>${item.lastModified}</lastmod>\n`;
+    if (item.changeFrequency) xml += `    <changefreq>${item.changeFrequency}</changefreq>\n`;
+    if (item.priority) xml += `    <priority>${item.priority}</priority>\n`;
+    xml += `  </url>\n`;
+  }
+  xml += `</urlset>`;
+  return xml;
+}
+
 async function generateSitemap() {
-  console.log('Generating sitemap...');
+  console.log('Generating chunked sitemaps...');
   
-  let sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  sitemapContent += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+  const publicDir = path.resolve(__dirname, '../public');
+  const sitemapDir = path.join(publicDir, 'sitemap');
+  
+  if (!fs.existsSync(publicDir)) {
+    fs.mkdirSync(publicDir, { recursive: true });
+  }
+  if (!fs.existsSync(sitemapDir)) {
+    fs.mkdirSync(sitemapDir, { recursive: true });
+  }
 
-  // Add static routes
-  routes.forEach(route => {
-    sitemapContent += `  <url>\n`;
-    sitemapContent += `    <loc>${BASE_URL}${route}</loc>\n`;
-    sitemapContent += `    <lastmod>${getTodayDate()}</lastmod>\n`;
-    sitemapContent += `    <changefreq>${route === '/' ? 'weekly' : 'monthly'}</changefreq>\n`;
-    sitemapContent += `    <priority>${route === '/' ? '1.0' : '0.8'}</priority>\n`;
-    sitemapContent += `  </url>\n`;
+  const sitemaps = ['core', 'blogs'];
+  let allUrlsTxtContent = '';
+
+  // 1. Generate Core Sitemap
+  const coreUrls = coreRoutes.map(route => {
+    allUrlsTxtContent += `${BASE_URL}${route === '/' ? '/' : route}\n`;
+    return {
+      url: `${BASE_URL}${route}`,
+      lastModified: getTodayDate(),
+      changeFrequency: route === '/' ? 'weekly' : 'monthly',
+      priority: route === '/' ? '1.0' : '0.8'
+    };
   });
+  fs.writeFileSync(path.join(sitemapDir, 'core.xml'), generateXml(coreUrls));
 
-  // Read dynamic blog posts if index exists
+  // 2. Generate Blogs Sitemap
+  let blogUrls = [];
   try {
     const dataPath = path.resolve(__dirname, '../src/data/blogs-index.json');
     if (fs.existsSync(dataPath)) {
       const blogIndex = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
-      blogIndex.forEach(post => {
-        if (post.slug) {
-          sitemapContent += `  <url>\n`;
-          sitemapContent += `    <loc>${BASE_URL}/blog/${post.slug}</loc>\n`;
-          sitemapContent += `    <lastmod>${getValidDate(post.date)}</lastmod>\n`;
-          sitemapContent += `    <changefreq>monthly</changefreq>\n`;
-          sitemapContent += `    <priority>0.7</priority>\n`;
-          sitemapContent += `  </url>\n`;
-        }
+      blogUrls = blogIndex.filter(post => post.slug).map(post => {
+        allUrlsTxtContent += `${BASE_URL}/blog/${post.slug}\n`;
+        return {
+          url: `${BASE_URL}/blog/${post.slug}`,
+          lastModified: getValidDate(post.date),
+          changeFrequency: 'monthly',
+          priority: '0.7'
+        };
       });
     }
   } catch (error) {
     console.warn('Could not read blog index for sitemap generation:', error.message);
   }
+  fs.writeFileSync(path.join(sitemapDir, 'blogs.xml'), generateXml(blogUrls));
 
-  sitemapContent += `</urlset>`;
-
-  // Write to public directory
-  const publicDir = path.resolve(__dirname, '../public');
-  if (!fs.existsSync(publicDir)) {
-    fs.mkdirSync(publicDir, { recursive: true });
-  }
+  // 3. Generate Cities / Countries Sitemaps
+  // We'll read both cities.json and countries.json to maintain backwards compatibility 
+  // with any existing city pages, plus the new countries.
+  const targetRegions = [];
   
-  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapContent);
-  console.log('Sitemap generated at public/sitemap.xml');
-
-  // Generate urls.txt for easy manual indexing
-  let urlsTxtContent = '';
-  routes.forEach(route => {
-    urlsTxtContent += `${BASE_URL}${route === '/' ? '/' : route}\n`;
-  });
+  try {
+    const citiesPath = path.resolve(__dirname, '../cities.json');
+    if (fs.existsSync(citiesPath)) {
+      const cities = JSON.parse(fs.readFileSync(citiesPath, 'utf-8'));
+      targetRegions.push(...cities);
+    }
+  } catch (error) {}
 
   try {
-    const dataPath = path.resolve(__dirname, '../src/data/blogs-index.json');
-    if (fs.existsSync(dataPath)) {
-      const blogIndex = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
-      blogIndex.forEach(post => {
-        if (post.slug) {
-          urlsTxtContent += `${BASE_URL}/blog/${post.slug}\n`;
-        }
-      });
+    const countriesPath = path.resolve(__dirname, '../countries.json');
+    if (fs.existsSync(countriesPath)) {
+      const countries = JSON.parse(fs.readFileSync(countriesPath, 'utf-8'));
+      targetRegions.push(...countries);
     }
-  } catch (error) {
-    console.warn('Could not read blog index for urls.txt generation:', error.message);
-  }
+  } catch (error) {}
 
-  fs.writeFileSync(path.join(publicDir, 'urls.txt'), urlsTxtContent.trim() + '\n');
+  // Generate a sitemap chunk for each region (city or country)
+  targetRegions.forEach(region => {
+    if (region.slug) {
+      const regionRoutes = coreRoutes.map(route => {
+        const fullUrl = `${BASE_URL}/${region.slug}${route === '/' ? '' : route}`;
+        allUrlsTxtContent += `${fullUrl}\n`;
+        return {
+          url: fullUrl,
+          lastModified: getTodayDate(),
+          changeFrequency: 'weekly',
+          priority: '0.7'
+        };
+      });
+      
+      fs.writeFileSync(path.join(sitemapDir, `${region.slug}.xml`), generateXml(regionRoutes));
+      sitemaps.push(region.slug);
+    }
+  });
+
+  // 4. Generate Sitemap Index
+  let sitemapIndexXml = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+  for (const id of sitemaps) {
+    sitemapIndexXml += `  <sitemap>\n    <loc>${BASE_URL}/sitemap/${id}.xml</loc>\n  </sitemap>\n`;
+  }
+  sitemapIndexXml += `</sitemapindex>`;
+  
+  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapIndexXml);
+  console.log('Sitemap Index generated at public/sitemap.xml');
+
+  // Generate urls.txt for easy manual indexing
+  fs.writeFileSync(path.join(publicDir, 'urls.txt'), allUrlsTxtContent.trim() + '\n');
   console.log('URLs list generated at public/urls.txt');
 }
 

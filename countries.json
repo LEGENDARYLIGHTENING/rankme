@@ -1,0 +1,79 @@
+[
+  {
+    "country": "United States",
+    "slug": "usa",
+    "primaryKeyword": "B2B Web Design & Growth Consultant in the USA",
+    "localEcosystemIntro": "The United States represents the world's most competitive and dense B2B software, enterprise tech, and manufacturing ecosystem. Coast-to-coast venture capital and deep-tech innovation require digital infrastructure that demonstrates absolute market leadership and enterprise-grade performance from day one.",
+    "localPainPoint": "American B2B firms frequently struggle to translate high-touch, complex sales processes into seamless self-serve web experiences that convert without sacrificing the premium brand perception expected by Fortune 500 buyers."
+  },
+  {
+    "country": "United Kingdom",
+    "slug": "uk",
+    "primaryKeyword": "B2B Web Design & Growth Consultant in the UK",
+    "localEcosystemIntro": "The UK's global fintech, enterprise software, and professional services density creates one of Europe's most rigorous B2B digital environments. The mix of scale-ups and multinational HQs in London and beyond demands technically rigorous, conversion-optimized platforms that signal both innovation and institutional credibility.",
+    "localPainPoint": "UK enterprise software and fintech firms frequently struggle to balance regulatory compliance signaling with modern technical SEO and generative engine visibility, limiting their international pipeline."
+  },
+  {
+    "country": "Canada",
+    "slug": "canada",
+    "primaryKeyword": "B2B Web Design & Growth Consultant in Canada",
+    "localEcosystemIntro": "Canada's financial tech, AI research density, and industrial software clusters serve both domestic and broad North American markets. This competitive B2B environment demands technically sophisticated, high-conversion digital experiences that can rival larger global competitors.",
+    "localPainPoint": "Canadian B2B companies often struggle to differentiate their web presence and technical SEO from U.S. competitors while still conveying Canadian operational strengths and reliability."
+  },
+  {
+    "country": "Australia",
+    "slug": "australia",
+    "primaryKeyword": "B2B Web Design & Growth Consultant in Australia",
+    "localEcosystemIntro": "Australia's position as a primary financial, professional services, and resources technology hub creates intense demand for high-performance B2B digital experiences. The Asia-Pacific orientation rewards platforms that demonstrate both local authority and regional scalability.",
+    "localPainPoint": "Australian enterprise software and industrial tech firms frequently underinvest in generative engine optimization, allowing competitors to capture AI-driven discovery from broader APAC buyers."
+  },
+  {
+    "country": "New Zealand",
+    "slug": "new-zealand",
+    "primaryKeyword": "B2B Web Design & Growth Consultant in New Zealand",
+    "localEcosystemIntro": "New Zealand's rapidly expanding SaaS and agritech ecosystem punches above its weight globally. The market's export-driven B2B companies require scalable, performance-first web infrastructure that converts both local enterprises and international buyers.",
+    "localPainPoint": "Kiwi B2B companies often face challenges scaling their technical SEO beyond domestic markets, limiting pipeline growth from larger enterprise buyers in Australia and North America."
+  },
+  {
+    "country": "Ireland",
+    "slug": "ireland",
+    "primaryKeyword": "B2B Web Design & Growth Consultant in Ireland",
+    "localEcosystemIntro": "Ireland's status as the European headquarters for global tech giants has fostered a highly sophisticated ecosystem of B2B SaaS, cybersecurity, and fintech platforms. The environment demands digital infrastructure that meets stringent EU data standards while driving high-intent conversions.",
+    "localPainPoint": "Irish B2B startups and mid-market firms frequently maintain web architectures that fail to rank for competitive pan-European technical queries or support modern generative search discovery."
+  },
+  {
+    "country": "United Arab Emirates",
+    "slug": "uae",
+    "primaryKeyword": "B2B Web Design & Growth Consultant in the UAE",
+    "localEcosystemIntro": "The UAE's position as the premier logistics, trade, and free-zone commercial hub in the Gulf creates intense demand for B2B platforms optimized for multi-national buyers. The concentration of trading houses and industrial services rewards high-performance, conversion-first digital infrastructure.",
+    "localPainPoint": "UAE trading and industrial service companies frequently struggle to establish technical SEO authority that ranks for both regional Arabic and international English high-intent enterprise queries."
+  },
+  {
+    "country": "Saudi Arabia",
+    "slug": "saudi-arabia",
+    "primaryKeyword": "B2B Web Design & Growth Consultant in Saudi Arabia",
+    "localEcosystemIntro": "Saudi Arabia's Vision 2030-driven transformation of industrial, logistics, and digital infrastructure creates urgent demand for modern B2B platforms. The Kingdom's rapid commercial expansion rewards scalable, performance-engineered digital experiences serving both domestic giga-projects and international partners.",
+    "localPainPoint": "Saudi industrial and enterprise software companies frequently lack mature technical SEO and GEO strategies needed to capture high-intent search from both local and international project buyers."
+  },
+  {
+    "country": "Qatar",
+    "slug": "qatar",
+    "primaryKeyword": "B2B Web Design & Growth Consultant in Qatar",
+    "localEcosystemIntro": "Qatar's focused investments in energy-tech, fintech, and advanced infrastructure produce specialized demand for B2B platforms that signal institutional-grade reliability. The market rewards precise, high-authority web experiences optimized for long sales cycles and government procurement.",
+    "localPainPoint": "Qatari industrial and software firms often underutilize programmatic SEO, limiting their visibility among regional and international buyers researching strategic technology partners."
+  },
+  {
+    "country": "Singapore",
+    "slug": "singapore",
+    "primaryKeyword": "B2B Web Design & Growth Consultant in Singapore",
+    "localEcosystemIntro": "Singapore serves as the central node for Asian fintech, supply chain tech, and enterprise software. The highly competitive, multinational commercial culture requires B2B platforms capable of communicating complex operational capabilities to global buyers with absolute precision.",
+    "localPainPoint": "Singaporean B2B firms often prioritize aesthetic design over the deep technical SEO and conversion architecture needed to dominate high-intent enterprise search traffic across the APAC region."
+  },
+  {
+    "country": "Germany",
+    "slug": "germany",
+    "primaryKeyword": "B2B Web Design & Growth Consultant in Germany",
+    "localEcosystemIntro": "Germany's powerhouse industrial manufacturing (Mittelstand), automotive tech, and enterprise software sectors demand B2B platforms that reflect engineering excellence. The market rewards robust, secure, and performance-engineered digital infrastructure.",
+    "localPainPoint": "German industrial and SaaS companies frequently maintain outdated, traditional web architectures that fail to support modern generative engine optimization or capture international digital transformation searches."
+  }
+]

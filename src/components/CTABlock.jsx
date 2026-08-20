@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import './CTABlock.css';
 
 export default function CTABlock({
@@ -16,11 +16,11 @@ export default function CTABlock({
           <h2 className="cta-block__title">{title}</h2>
           <p className="cta-block__subtitle">{subtitle}</p>
           <div className="cta-block__actions">
-            <Link to={primaryCTA.to} className="btn btn--primary">
+            <Link href={primaryCTA.to} className="btn btn--primary">
               {primaryCTA.label}
             </Link>
             {secondaryCTA && (
-              <Link to={secondaryCTA.to} className="btn btn--secondary">
+              <Link href={secondaryCTA.to} className="btn btn--secondary">
                 {secondaryCTA.label}
               </Link>
             )}
