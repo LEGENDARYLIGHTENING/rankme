@@ -13,6 +13,8 @@ export default function NichePage({
   heroTitle,
   heroSubtitle,
   problemText,
+  marketOpportunity,
+  competitiveLandscape,
   solutions,
   proofText,
   faqs
@@ -102,6 +104,30 @@ export default function NichePage({
           </div>
         </div>
       </section>
+
+      {/* Market Opportunity Section */}
+      {marketOpportunity && (
+        <section className="niche-market">
+          <div className="container">
+             <h2 className="section-title">The {niche} Market Opportunity</h2>
+             <div className="niche-market__content" style={{ marginTop: '1.5rem', lineHeight: '1.8' }}>
+                <p>{marketOpportunity}</p>
+             </div>
+          </div>
+        </section>
+      )}
+
+      {/* Competitive Landscape Section */}
+      {competitiveLandscape && (
+        <section className="niche-competition" style={{ backgroundColor: 'var(--color-black)', padding: '4rem 0' }}>
+          <div className="container">
+             <h2 className="section-title">Navigating the Local Competition</h2>
+             <div className="niche-competition__content" style={{ marginTop: '1.5rem', lineHeight: '1.8' }}>
+                <p>{competitiveLandscape}</p>
+             </div>
+          </div>
+        </section>
+      )}
 
       {/* Solution Section */}
       <section className="niche-solution">

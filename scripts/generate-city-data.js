@@ -50,9 +50,11 @@ cities.forEach((city, index) => {
         "Many local ${city.city} companies list product features instead of solving core commercial pain points. They lack proper SEO architecture to capture high-intent search traffic.",
         "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
       ],
-      solutions: ${JSON.stringify(solutions)},
+      solutions: ${city.localSolutions ? JSON.stringify(city.localSolutions) : JSON.stringify(solutions)},
+      marketOpportunity: ${city.marketOpportunity ? JSON.stringify(city.marketOpportunity) : "null"},
+      competitiveLandscape: ${city.competitiveLandscape ? JSON.stringify(city.competitiveLandscape) : "null"},
       proofText: 'Built the exact React JS infrastructure used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
-      faqs: [
+      faqs: ${city.localFaqs ? JSON.stringify(city.localFaqs) : `[
         {
           question: "Why do ${city.city} B2B companies need specialized web architecture?",
           answer: ${JSON.stringify(city.localEcosystemIntro + " This makes enterprise-grade performance and positioning non-negotiable for " + city.city + " brands.")}
@@ -65,7 +67,7 @@ cities.forEach((city, index) => {
           question: "Will this help us rank locally in ${city.city} and internationally?",
           answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in ${city.city}, as well as across broader national and international queries."
         }
-      ]
+      ]`}
     }
   }${index < cities.length - 1 ? ',' : ''}\n`;
 });
