@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 import HeroSection from '../components/HeroSection';
 import CTABlock from '../components/CTABlock';
+import Breadcrumbs from '../components/Breadcrumbs';
 import './NichePage.css';
 
 export default function NichePage({
@@ -31,9 +32,54 @@ export default function NichePage({
     })),
   } : null;
 
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ProfessionalService',
+    name: `Rankur | B2B Growth Infrastructure - ${niche}`,
+    description: seoDesc,
+    areaServed: {
+      '@type': 'AdministrativeArea',
+      name: niche,
+    },
+    provider: {
+      '@type': 'Organization',
+      name: 'Rankur (Moksh Productions)',
+      url: 'https://rankursite.com',
+    },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'B2B Growth Services',
+      itemListElement: (solutions || []).map((s) => ({
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: s.title,
+          description: s.desc,
+        },
+      })),
+    },
+  };
+
+  const breadcrumbItems = [
+    { label: 'Home', href: '/' },
+    { label: 'Locations', href: '/locations' },
+    { label: niche },
+  ];
+
   return (
     <>
-      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+
+      <Breadcrumbs items={breadcrumbItems} />
 
       <div className="niche-hero">
         <HeroSection

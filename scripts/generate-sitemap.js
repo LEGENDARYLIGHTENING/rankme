@@ -13,6 +13,7 @@ const coreRoutes = [
   '/services',
   '/case-studies',
   '/about',
+  '/locations',
   '/philosophy',
   '/certifications',
   '/process',

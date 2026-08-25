@@ -5,6 +5,7 @@ const footerNav = [
   { to: '/', label: 'Home' },
   { to: '/services', label: 'Services' },
   { to: '/case-studies', label: 'Case Studies' },
+  { to: '/locations', label: 'Global Markets' },
   { to: '/about', label: 'About' },
   { to: '/process', label: 'Process' },
   { to: '/certifications', label: 'Certifications' },
@@ -18,11 +19,21 @@ const footerServices = [
   { to: '/free-audit', label: 'Free Growth Audit' },
 ];
 
+const footerMarkets = [
+  { to: '/usa', label: 'United States' },
+  { to: '/uk', label: 'United Kingdom' },
+  { to: '/canada', label: 'Canada' },
+  { to: '/australia', label: 'Australia' },
+  { to: '/uae', label: 'United Arab Emirates' },
+  { to: '/saudi-arabia', label: 'Saudi Arabia' },
+  { to: '/locations', label: 'All 260+ Cities →' },
+];
+
 export default function Footer() {
   return (
     <footer className="footer" id="site-footer">
       <div className="container">
-        <div className="footer__grid">
+        <div className="footer__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))' }}>
           <div className="footer__brand">
             <div className="footer__brand-name">
               <Link href="/">
@@ -72,9 +83,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="footer__col-title">Services</h4>
-            {footerServices.map((link) => (
-              <Link key={link.label} href={link.to} className="footer__link">
+            <h4 className="footer__col-title">Target Markets</h4>
+            {footerMarkets.map((link) => (
+              <Link key={link.label} href={link.to} className="footer__link" style={link.to === '/locations' ? { color: 'var(--color-gold)', fontWeight: 'bold' } : {}}>
                 {link.label}
               </Link>
             ))}
@@ -104,6 +115,9 @@ export default function Footer() {
             © {new Date().getFullYear()} Moksh. All rights reserved.
           </p>
           <div className="footer__bottom-links">
+            <Link href="/locations" className="footer__bottom-link" style={{ color: 'var(--color-gold)' }}>
+              Locations Directory
+            </Link>
             <Link href="/free-audit" className="footer__bottom-link">
               Book Free Audit
             </Link>
