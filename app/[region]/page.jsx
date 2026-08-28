@@ -19,11 +19,26 @@ export async function generateMetadata({ params }) {
   const canonicalUrl = `https://rankursite.com/${resolvedParams.region}`;
   const trimmedDesc = props.seoDesc ? (props.seoDesc.length > 155 ? props.seoDesc.substring(0, 152) + '...' : props.seoDesc) : '';
 
+  const countrySilos = ['usa', 'uk', 'canada', 'australia', 'uae', 'saudi-arabia'];
+  const isCountrySilo = countrySilos.includes(resolvedParams.region);
+
+  const languages = isCountrySilo
+    ? {
+        'en-US': 'https://rankursite.com/usa',
+        'en-GB': 'https://rankursite.com/uk',
+        'en-CA': 'https://rankursite.com/canada',
+        'en-AU': 'https://rankursite.com/australia',
+        'en-AE': 'https://rankursite.com/uae',
+        'x-default': 'https://rankursite.com/usa',
+      }
+    : undefined;
+
   return {
     title: props.seoTitle || `B2B Web Design & Growth Consultant in ${props.niche}`,
     description: trimmedDesc,
     alternates: {
       canonical: canonicalUrl,
+      ...(languages ? { languages } : {}),
     },
     openGraph: {
       title: props.seoTitle || `B2B Web Design & Growth Consultant in ${props.niche}`,

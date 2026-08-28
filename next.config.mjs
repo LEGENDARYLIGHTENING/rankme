@@ -3,10 +3,15 @@ const nextConfig = {
   reactStrictMode: true,
   async redirects() {
     return [
-      // Redirect city contact sub-routes to central contact page
+      // Redirect city contact & service sub-routes to central hub pages
       {
         source: '/:region/contact',
         destination: '/contact',
+        permanent: true,
+      },
+      {
+        source: '/:region/services',
+        destination: '/services',
         permanent: true,
       },
       // Redirect duplicate slug pairs to canonical US / Country slugs

@@ -17,18 +17,26 @@ export async function generateMetadata({ params }) {
   const description = rawDesc.length > 155 ? rawDesc.substring(0, 152) + '...' : rawDesc;
   const canonicalUrl = `https://rankursite.com/${resolvedParams.region}`;
 
+  const countrySilos = ['usa', 'uk', 'canada', 'australia', 'uae', 'saudi-arabia'];
+  const isCountrySilo = countrySilos.includes(resolvedParams.region);
+
+  const languages = isCountrySilo
+    ? {
+        'en-US': 'https://rankursite.com/usa',
+        'en-GB': 'https://rankursite.com/uk',
+        'en-CA': 'https://rankursite.com/canada',
+        'en-AU': 'https://rankursite.com/australia',
+        'en-AE': 'https://rankursite.com/uae',
+        'x-default': 'https://rankursite.com/usa',
+      }
+    : undefined;
+
   return {
     title,
     description,
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        'en-US': `https://rankursite.com/${resolvedParams.region}`,
-        'en-GB': 'https://rankursite.com/uk',
-        'en-CA': 'https://rankursite.com/canada',
-        'en-AU': 'https://rankursite.com/australia',
-        'en-AE': 'https://rankursite.com/uae',
-      },
+      ...(languages ? { languages } : {}),
     },
     openGraph: {
       title,

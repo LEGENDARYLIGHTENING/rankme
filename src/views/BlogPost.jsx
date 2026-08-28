@@ -131,9 +131,39 @@ export default function BlogPost() {
     return <Navigate to="/blog" replace />;
   }
 
+  // Article / BlogPosting Schema
+  const articleSchema = postMeta ? {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: postMeta.title,
+    description: postMeta.excerpt,
+    image: postMeta.image,
+    url: `https://rankursite.com/blog/${postMeta.slug}`,
+    author: {
+      '@type': 'Person',
+      name: 'Moksh Parjapati',
+      jobTitle: 'Founder & B2B Growth Strategist',
+      url: 'https://linkedin.com/in/moksh-parjapati',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Rankur',
+      url: 'https://rankursite.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://rankursite.com/Copilot_20260621_183745.png',
+      },
+    },
+  } : null;
+
   return (
     <>
-      
+      {articleSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
+      )}
 
       <HeroSection
         label={postMeta.tag}
