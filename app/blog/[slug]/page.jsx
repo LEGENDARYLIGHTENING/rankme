@@ -86,6 +86,21 @@ function processMarkdownContent(text) {
   return text;
 }
 
+export async function generateMetadata({ params }) {
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug;
+  const post = blogIndex.find(b => b.slug === slug);
+  if (!post) return {};
+  const url = `https://rankursite.com/blog/${post.slug}`;
+  return {
+    title: post.title,
+    description: post.excerpt,
+    alternates: { canonical: url },
+    openGraph: { title: post.title, description: post.excerpt, url, type: 'article', images: post.image ? [post.image] : [] },
+    twitter: { card: 'summary_large_image', title: post.title, description: post.excerpt },
+  };
+}
+
 export default async function Page({ params }) {
   const resolvedParams = await params;
   const slug = resolvedParams.slug;
