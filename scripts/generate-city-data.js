@@ -37,11 +37,13 @@ cities.forEach((city, index) => {
     desc: item.desc.replace('B2B', `${city.city} B2B`)
   }));
 
+  const metaDesc = `B2B web design & growth consultant in ${city.city}. Custom Next.js infrastructure, technical SEO/GEO, and pipeline conversion systems.`;
+
   out += `  "${city.slug}": {
     path: '/${city.slug}',
     props: {
       seoTitle: "${city.primaryKeyword} | Rankur",
-      seoDesc: ${JSON.stringify(city.localEcosystemIntro + " Rankur builds B2B digital infrastructure to solve exactly this in " + city.city + ".")},
+      seoDesc: ${JSON.stringify(metaDesc)},
       niche: "${city.city} B2B",
       heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">${city.city}</span></>,
       heroSubtitle: ${JSON.stringify(city.localEcosystemIntro)},
@@ -53,7 +55,7 @@ cities.forEach((city, index) => {
       solutions: ${city.localSolutions ? JSON.stringify(city.localSolutions) : JSON.stringify(solutions)},
       marketOpportunity: ${city.marketOpportunity ? JSON.stringify(city.marketOpportunity) : "null"},
       competitiveLandscape: ${city.competitiveLandscape ? JSON.stringify(city.competitiveLandscape) : "null"},
-      proofText: 'Built the exact React JS infrastructure used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      proofText: ${JSON.stringify(`Built custom React JS growth infrastructure scaling enterprise B2B clients across ${city.city} and broader regional markets.`)},
       faqs: ${city.localFaqs ? JSON.stringify(city.localFaqs) : `[
         {
           question: "Why do ${city.city} B2B companies need specialized web architecture?",

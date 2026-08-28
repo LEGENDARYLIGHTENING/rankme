@@ -138,7 +138,7 @@ export default function BlogPost() {
       <HeroSection
         label={postMeta.tag}
         title={postMeta.title}
-        subtitle={`${postMeta.date} · ${postMeta.readTime}`}
+        subtitle={`By Moksh Parjapati · ${postMeta.readTime}`}
       />
 
       <section className="section" id="blog-content">

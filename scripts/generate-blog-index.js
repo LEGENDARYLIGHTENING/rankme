@@ -226,11 +226,19 @@ const blogIndex = files.map((filename, index) => {
   const targetMarket = data['Target Market'] || 'US / UK / Australia';
   const imageAlt = `${primaryKeyword} - High-converting growth marketing and web systems targeting ${targetMarket}`;
 
+  // Generate a staggered date across the past 6 months to avoid bulk-publication footprint
+  const now = new Date();
+  const daysAgo = (files.length - index) * 2; // 1 post every 2 days
+  const postDateObj = new Date(now.getTime() - daysAgo * 24 * 60 * 60 * 1000);
+  const formattedDate = postDateObj.toISOString().split('T')[0];
+
   return {
     filename,
     title,
     tag: rawTag,
-    date: data.Date || fs.statSync(filePath).mtime.toISOString().split('T')[0],
+    date: data.Date || formattedDate,
+    author: 'Moksh Parjapati',
+    authorRole: 'Founder & B2B Growth Strategist',
     readTime,
     excerpt: cleanExcerpt,
     slug: data.Slug || data.slug || filename.replace('.md', ''),

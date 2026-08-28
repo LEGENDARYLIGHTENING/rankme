@@ -26,7 +26,7 @@ const footerMarkets = [
   { to: '/australia', label: 'Australia' },
   { to: '/uae', label: 'United Arab Emirates' },
   { to: '/saudi-arabia', label: 'Saudi Arabia' },
-  { to: '/locations', label: 'All 260+ Cities →' },
+  { to: '/locations', label: '100 Target Cities →' },
 ];
 
 export default function Footer() {
