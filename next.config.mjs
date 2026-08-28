@@ -3,17 +3,18 @@ const nextConfig = {
   reactStrictMode: true,
   async redirects() {
     return [
-      // Redirect city contact & service sub-routes to central hub pages
-      {
-        source: '/:region/contact',
-        destination: '/contact',
-        permanent: true,
-      },
-      {
-        source: '/:region/services',
-        destination: '/services',
-        permanent: true,
-      },
+      // Collapse every region-scoped sub-route into its single global page.
+      // These previously generated ~960 byte-identical duplicate pages.
+      { source: '/:region/contact', destination: '/contact', permanent: true },
+      { source: '/:region/services', destination: '/services', permanent: true },
+      { source: '/:region/about', destination: '/about', permanent: true },
+      { source: '/:region/blog', destination: '/blog', permanent: true },
+      { source: '/:region/case-studies', destination: '/case-studies', permanent: true },
+      { source: '/:region/certifications', destination: '/certifications', permanent: true },
+      { source: '/:region/philosophy', destination: '/philosophy', permanent: true },
+      { source: '/:region/process', destination: '/process', permanent: true },
+      { source: '/:region/free-audit', destination: '/free-audit', permanent: true },
+      { source: '/:region/thank-you', destination: '/thank-you', permanent: true },
       // Redirect duplicate slug pairs to canonical US / Country slugs
       { source: '/miami', destination: '/miami-us', permanent: true },
       { source: '/dallas', destination: '/dallas-us', permanent: true },

@@ -12,6 +12,7 @@ export default function NichePage({
   niche,
   heroTitle,
   heroSubtitle,
+  marketContext,
   problemText,
   marketOpportunity,
   competitiveLandscape,
@@ -105,13 +106,14 @@ export default function NichePage({
         </div>
       </section>
 
-      {/* Market Opportunity Section */}
-      {marketOpportunity && (
+      {/* Market Section */}
+      {(marketContext || marketOpportunity) && (
         <section className="niche-market">
           <div className="container">
-             <h2 className="section-title">The {niche} Market Opportunity</h2>
+             <h2 className="section-title">The {niche} Market</h2>
              <div className="niche-market__content" style={{ marginTop: '1.5rem', lineHeight: '1.8' }}>
-                <p>{marketOpportunity}</p>
+                {marketContext && <p>{marketContext}</p>}
+                {marketOpportunity && <p style={{ marginTop: marketContext ? '1.25rem' : 0 }}>{marketOpportunity}</p>}
              </div>
           </div>
         </section>
@@ -121,7 +123,7 @@ export default function NichePage({
       {competitiveLandscape && (
         <section className="niche-competition" style={{ backgroundColor: 'var(--color-black)', padding: '4rem 0' }}>
           <div className="container">
-             <h2 className="section-title">Navigating the Local Competition</h2>
+             <h2 className="section-title">Who You're Up Against Locally</h2>
              <div className="niche-competition__content" style={{ marginTop: '1.5rem', lineHeight: '1.8' }}>
                 <p>{competitiveLandscape}</p>
              </div>
@@ -149,8 +151,11 @@ export default function NichePage({
       {/* Proof Banner */}
       <section className="niche-proof">
         <div className="container">
-          <h2>1,000+ Leads Generated across B2B and e-commerce campaigns</h2>
+          <h2>Websites built to turn visitors into real sales conversations</h2>
           <p>{proofText}</p>
+          <p style={{ marginTop: '0.75rem', fontWeight: 'var(--font-weight-medium)', color: 'var(--color-gold)' }}>
+            Every build is backed by a 100% money-back guarantee.
+          </p>
         </div>
       </section>
 

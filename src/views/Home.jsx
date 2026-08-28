@@ -9,48 +9,48 @@ import Testimonials from '../components/Testimonials';
 import './Home.css';
 
 const proofItems = [
-  { value: 'React / Next.js', label: 'B2B Growth Infrastructure' },
-  { value: 'GA4 Custom', label: 'Conversion Funnel Analytics' },
-  { value: 'SEO + GEO', label: 'AI & Google Search Visibility' },
-  { value: '10 Days', label: 'Fastest Lead Inflow Post-Launch' },
-  { value: '50+ Leads', label: 'First-Month Verified B2B Results' },
+  { value: 'Custom Built', label: 'Fast React & Next.js websites' },
+  { value: 'GA4 Tracking', label: 'See exactly where leads come from' },
+  { value: 'Google + AI', label: 'Found on Google, ChatGPT & Perplexity' },
+  { value: '~10 Days', label: 'From kickoff to your first inbound lead' },
+  { value: '50+ Leads', label: 'Generated for B2B clients' },
 ];
 
 const capabilities = [
   {
     icon: '◎',
-    title: 'Strategic Positioning & Messaging',
-    description: 'We translate complex technical, industrial, and clinical capabilities into highly persuasive commercial messaging. We position your brand so you cease competing on price and become the obvious partner for enterprise buyers.',
-    deliverables: ['Competitor positioning audits', 'Value proposition design', 'B2B copy & sales frameworks'],
-    timeline: 'Completed in Week 1',
+    title: 'Clear Positioning & Messaging',
+    description: 'Most B2B sites list features and compete on price. I help you say what you actually do, for whom, and why it matters — so buyers see you as the obvious choice, not just another vendor.',
+    deliverables: ['A look at what competitors say', 'A sharp value proposition', 'Copy that speaks to real buyers'],
+    timeline: 'Done in week 1',
   },
   {
     icon: '⟨/⟩',
-    title: 'Custom Growth Infrastructure',
-    description: 'We design and code bespoke, high-performance web applications using React and Next.js, with secure PostgreSQL database integrations and Cloudflare enterprise security to ensure loading speeds under 1.2s globally.',
-    deliverables: ['Custom Next.js & React builds', 'PostgreSQL lead capture pipelines', 'GA4 conversion event setup'],
-    timeline: 'Delivered in 7–14 days',
+    title: 'Fast, Custom Websites',
+    description: 'I design and build your site from scratch in React and Next.js — fast, secure, and easy to update. No slow templates, no bloated page builders. It loads in under 1.2 seconds anywhere in the world.',
+    deliverables: ['Custom Next.js & React build', 'Lead capture that flows to your inbox', 'Analytics wired up from day one'],
+    timeline: 'Live in 7–14 days',
   },
   {
     icon: '🔍',
-    title: 'SEO + GEO Visibility (Search Dominance)',
-    description: 'We optimize your digital footprint for both traditional Google search rankings and AI-driven engines like ChatGPT, Claude, and Perplexity (GEO). We target commercial, high-intent buyer problems, not vanity metrics.',
-    deliverables: ['Bottom-of-funnel keyword mapping', 'LLM retrieval optimization', 'Technical SEO architecture'],
-    timeline: 'Ongoing validation retentions',
+    title: 'Getting Found on Google & AI Search',
+    description: 'I set your site up to rank when buyers search for what you sell — on Google, and now inside ChatGPT, Claude, and Perplexity too. The focus is high-intent buyer searches, not vanity traffic.',
+    deliverables: ['The searches your buyers actually make', 'Content built to be quoted by AI', 'Technical SEO done right'],
+    timeline: 'Ongoing',
   },
   {
     icon: '✍',
-    title: 'Organic Demand & Executive Authority',
-    description: 'We construct authority networks through specialized executive thought leadership. By writing and publishing highly technical B2B articles and LinkedIn content, we establish trust before the first discovery call.',
-    deliverables: ['LinkedIn content frameworks', 'Quarterly industry research reports', 'B2B content publishing pipelines'],
-    timeline: 'Ongoing retainer support',
+    title: 'Content That Builds Trust',
+    description: 'Buyers check you out long before they call. I write and publish clear, useful B2B articles and LinkedIn posts in your voice, so you build credibility before the first conversation.',
+    deliverables: ['A simple LinkedIn content plan', 'Practical articles worth reading', 'A steady publishing rhythm'],
+    timeline: 'Ongoing',
   },
   {
     icon: '📊',
-    title: 'Conversion Rate Systems & CRO',
-    description: 'We audit user interactions, form layout structures, and navigation paths to remove lead capture bottlenecks. We optimize existing traffic pathways to maximize pipeline volume without increasing ad spend.',
-    deliverables: ['UX friction teardowns', 'Lead form field optimization', 'GA4 behavioral custom mapping'],
-    timeline: 'Continuous performance optimization',
+    title: 'Turning Visitors Into Leads',
+    description: 'Traffic is worthless if nobody gets in touch. I find where people drop off — confusing pages, clunky forms, dead ends — and fix it, so more of the visitors you already have turn into leads.',
+    deliverables: ['A teardown of where visitors leave', 'Simpler, higher-converting forms', 'Clear tracking of what works'],
+    timeline: 'Ongoing',
   },
 ];
 
@@ -63,16 +63,16 @@ const niches = [
 
 const processSteps = [
   {
-    title: 'Diagnostic Audit & Qualification',
-    description: 'Submit your growth parameters. We manually audit your site speed, semantic schema structure, and search gaps, delivering a tailored video audit of immediate opportunities.',
+    title: '1. Free Audit',
+    description: 'Tell me about your business and goals. I review your current site — speed, search visibility, and where you\'re losing leads — and send back a short video walking through what I\'d fix first.',
   },
   {
-    title: 'Infrastructure Sprint',
-    description: 'We design, write, and engineer your custom React/Next.js infrastructure and setup conversion tracking, completing the core build inside 7–14 days.',
+    title: '2. Build Sprint',
+    description: 'I design, write, and build your new site and set up lead tracking. The core build is done in 7–14 days, and you\'re involved at every step — no black box.',
   },
   {
-    title: 'Pipeline Retainer',
-    description: 'We run ongoing authority programs: technical SEO, GEO semantic updates, LinkedIn content systems, CRO experiments, and quarterly research reports.',
+    title: '3. Ongoing Growth',
+    description: 'Once you\'re live, I keep the leads coming: search and AI visibility, LinkedIn content, and steady improvements to turn more visitors into sales conversations.',
   },
 ];
 
@@ -84,16 +84,16 @@ export default function Home() {
 
       {/* Hero */}
       <HeroSection
-        label="B2B Growth Infrastructure Studio"
+        label="B2B Web Design & Lead Generation"
         title={
           <>
-            Helping Ambitious B2B Companies Become the{' '}
-            <span className="text-gold">Obvious Choice</span> in Their Market
+            I Build B2B Websites That{' '}
+            <span className="text-gold">Bring In Real Leads</span>
           </>
         }
-        subtitle="Through strategic brand positioning, custom web engineering (React/Next.js), search dominance (SEO + GEO), and custom conversion systems, we build platforms that turn international search traffic into qualified pipeline."
-        primaryCTA={{ to: '/free-audit', label: 'Request a Custom B2B Audit' }}
-        secondaryCTA={{ to: '/philosophy', label: 'Our Philosophy' }}
+        subtitle="I design fast, modern websites for B2B founders and set them up to rank on Google — so the right buyers find you and get in touch. Most sites go live in about 7 days, backed by a 100% money-back guarantee."
+        primaryCTA={{ to: '/free-audit', label: 'Get a Free Website Audit' }}
+        secondaryCTA={{ to: '/philosophy', label: 'How I Work' }}
       />
 
       {/* Trusted By Strip */}
@@ -137,10 +137,10 @@ export default function Home() {
               <p className="section-label">Founder-Led Consultancy</p>
               <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-lg) 0' }}>Every Engagement Personally Led by Moksh</h2>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)' }}>
-                Unlike agencies that win contracts and delegate them to junior account managers, Rankur operates on a founder-led consulting model. Every strategy, messaging framework, search pipeline, and database schema is personally shaped and executed by me.
+                Most agencies win your business, then hand it to a junior account manager. I don't work that way. Your positioning, your copy, your site, and your search setup are all done by me — the person you actually talked to.
               </p>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-lg)' }}>
-                This means you work directly with the founder on your brand alignment, technical architecture, and market positioning—ensuring your growth infrastructure is both technically bulletproof and commercially persuasive.
+                It means fewer middlemen, faster decisions, and a website that's both well built and says the right thing to the right buyer.
               </p>
               <Link href="/about" className="btn btn--secondary">
                 Read My Story →
@@ -153,10 +153,10 @@ export default function Home() {
       {/* Services Overview */}
       <section className="services-overview" id="services-overview">
         <div className="container">
-          <p className="section-label">Capabilities</p>
-          <h2 className="section-title">Growth Infrastructure Pillars</h2>
+          <p className="section-label">What I Do</p>
+          <h2 className="section-title">How I Help You Get More Leads</h2>
           <p className="section-subtitle">
-            Every pillar is engineered to address commercial bottlenecks, build digital authority, and generate predictable pipelines for complex B2B buying journeys.
+            Five things that take a B2B website from a brochure nobody visits to a steady source of sales conversations.
           </p>
           <div className="services-overview__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
             {capabilities.map((service, i) => (
@@ -208,8 +208,8 @@ export default function Home() {
       {/* Niche Strip */}
       <section className="niche-strip" id="niche-strip">
         <div className="container">
-          <p className="section-label">Who We Support</p>
-          <h2 className="section-title">Industrial & High-Trust Verticals</h2>
+          <p className="section-label">Who I Work With</p>
+          <h2 className="section-title">B2B Founders in High-Trust Industries</h2>
           <div className="niche-strip__grid">
             {niches.map((niche, i) => (
               <Link key={i} href={niche.to} className="niche-strip__item">
@@ -223,8 +223,8 @@ export default function Home() {
       {/* Process */}
       <section className="home-process" id="home-process" style={{ backgroundColor: 'var(--color-dark-surface)' }}>
         <div className="container">
-          <p className="section-label">How We Partner</p>
-          <h2 className="section-title">The Three-Step Integration Process</h2>
+          <p className="section-label">How We Work Together</p>
+          <h2 className="section-title">Three Simple Steps</h2>
           <div className="home-process__steps">
             <ProcessSteps steps={processSteps} />
           </div>
@@ -234,16 +234,16 @@ export default function Home() {
       {/* Lead Qualification CTA / Lead Magnet */}
       <section className="home-cta-block" style={{ padding: 'var(--space-5xl) 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '800px' }}>
-          <p className="section-label">Custom Assessment</p>
-          <h2 className="section-title">Is Your B2B Brand structured to rank when buyers ask AI?</h2>
+          <p className="section-label">Free Audit</p>
+          <h2 className="section-title">Want to know why your website isn't bringing in leads?</h2>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: '1.8', marginBottom: 'var(--space-2xl)' }}>
-            We manually review your technical SEO schema, load performance, brand positioning, and visibility in AI search outputs on ChatGPT and Perplexity. Apply for your custom B2B audit below.
+            Send me your site and I'll record a short video walking through what's holding it back — your speed, how you show up on Google and AI search, and where visitors are slipping away. No cost, no pitch.
           </p>
           <Link href="/free-audit" className="btn btn--primary" style={{ padding: 'var(--space-md) var(--space-3xl)' }}>
-            Request Growth Infrastructure Audit
+            Get My Free Audit
           </Link>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '0.85rem', marginTop: 'var(--space-md)' }}>
-            Note: All submissions are manually evaluated. We only schedule calls with qualified mid-market businesses.
+            I read every submission personally and only take on a handful of B2B founders at a time. Every build is backed by a 100% money-back guarantee.
           </p>
         </div>
       </section>

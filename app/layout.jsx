@@ -3,10 +3,10 @@ import Navbar from '../src/components/Navbar';
 import Footer from '../src/components/Footer';
 
 export const metadata = {
-  title: 'Rankur | B2B Growth Infrastructure Studio',
-  description: 'B2B Growth Consultant & Performance Marketer. I build high-converting websites and growth systems.',
+  title: 'B2B Web Design & Lead Generation for Founders | Rankur',
+  description: 'I build fast, custom B2B websites that rank on Google and turn visitors into leads — most live in about 7 days, backed by a 100% money-back guarantee.',
   openGraph: {
-    title: 'Rankur | B2B Growth Infrastructure Studio',
+    title: 'B2B Web Design & Lead Generation for Founders | Rankur',
     url: 'https://rankursite.com',
     siteName: 'Rankur',
     images: [

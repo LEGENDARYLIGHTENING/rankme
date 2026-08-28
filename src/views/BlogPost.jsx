@@ -1,138 +1,11 @@
-"use client";
-import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { usePathname, useParams } from 'next/navigation';
-
 import ReactMarkdown from 'react-markdown';
 import HeroSection from '../components/HeroSection';
-import rawBlogIndex from '../data/blogs-index.json';
 import './BlogPost.css';
 
-// Filter out the nutraceuticals category completely
-const blogIndex = rawBlogIndex.filter(b => b.tag !== 'nutraceuticals and wellness brands');
-
-// Lazily map all markdown files in the blogs directory as raw text
-const markdownFiles = import.meta.glob('../../blogs/*.md', { query: '?raw' });
-
-export default function BlogPost() {
-  const { slug } = useParams();
-  const [content, setContent] = useState('');
-  const [loading, setLoading] = useState(true);
-
-  // Look up metadata from our generated JSON index
-  const postMeta = blogIndex.find((b) => b.slug === slug);
-
-  // Find related posts for internal linking
-  const relatedPosts = postMeta 
-    ? blogIndex.filter((b) => b.tag === postMeta.tag && b.slug !== slug).slice(0, 3)
-    : [];
-
-  useEffect(() => {
-    if (!postMeta) return;
-
-    const loadContent = async () => {
-      const filePath = `../../blogs/${postMeta.filename}`;
-      if (markdownFiles[filePath]) {
-        try {
-          const rawModule = await markdownFiles[filePath]();
-          let text = rawModule.default || rawModule;
-
-          // Strip the frontmatter and placeholder headers so they don't render on the page
-          const headerMatch = text.match(/^(?:#\s*Blog\s*\d+\s*of\s*\d+\s*)?---\n[\s\S]*?\n---\s*/i);
-          if (headerMatch) {
-            text = text.substring(headerMatch[0].length);
-          } else {
-             // Fallback if no '# Blog X of Y' but standard frontmatter
-             const standardMatch = text.match(/^---\n[\s\S]*?\n---\s*/);
-             if (standardMatch) text = text.substring(standardMatch[0].length);
-          }
-
-          // Strip the first markdown H1 since HeroSection already renders the H1 title
-          text = text.replace(/^\s*#\s+[^\n]+\n+/, '');
-
-          // Parse internal and external link placeholders dynamically
-          text = text.replace(/\[Internal link:\s*([^-—\]]+)\s*[-—]\s*(?:anchor text:\s*)?([^\]]+)\]/gi, (match, pageDesc, anchorText) => {
-            const desc = pageDesc.toLowerCase();
-            let url = '/services';
-            if (desc.includes('audit') || desc.includes('consultation') || desc.includes('booking')) {
-              url = '/free-audit';
-            } else if (desc.includes('probiota') || desc.includes('case')) {
-              url = '/case-studies';
-            } else if (desc.includes('contact')) {
-              url = '/contact';
-            } else if (desc.includes('about')) {
-              url = '/about';
-            }
-            return `[${anchorText.trim()}](${url})`;
-          });
-
-          text = text.replace(/\[External link:\s*([^-—\]]+)\s*[-—]\s*([^\]]+)\]/gi, (match, topic, source) => {
-            const t = topic.toLowerCase();
-            const s = source.toLowerCase();
-            let url = 'https://www.google.com';
-            
-            if (t.includes('web vitals') || s.includes('google search central')) {
-              url = 'https://developers.google.com/search/docs/appearance/core-web-vitals';
-            } else if (t.includes('schema') || s.includes('schema.org')) {
-              url = 'https://schema.org';
-            } else if (s.includes('gartner') || s.includes('forrester')) {
-              url = 'https://www.gartner.com';
-            } else if (s.includes('linkedin')) {
-              url = 'https://business.linkedin.com';
-            } else if (s.includes('gov.uk') || t.includes('uk export')) {
-              url = 'https://www.gov.uk/government/organisations/export-control-joint-unit';
-            } else if (t.includes('us import') || s.includes('usitc') || s.includes('ustr')) {
-              url = 'https://www.usitc.gov';
-            } else if (s.includes('nist') || s.includes('iso')) {
-              url = 'https://www.iso.org';
-            } else if (s.includes('profitwell') || s.includes('churnzero') || t.includes('churn')) {
-              url = 'https://www.profitwell.com';
-            } else if (s.includes('hubspot') || s.includes('unbounce') || t.includes('conversion')) {
-              url = 'https://www.hubspot.com';
-            } else if (s.includes('openview')) {
-              url = 'https://openviewpartners.com';
-            } else if (s.includes('kpmg') || s.includes('idc')) {
-              url = 'https://home.kpmg';
-            }
-            
-            return `[${source.trim()}](${url})`;
-          });
-
-          // Replace "1.5 hours" / "1.5 hrs" claims with a more realistic "7 days"
-          text = text.replace(/1\.5\s*hours?/gi, '7 days');
-          text = text.replace(/1\.5\s*hrs?/gi, '7 days');
-
-          // Anonymize brand names and replace with generic versions
-          text = text.replace(/Probiota\s*Innovations/gi, 'B2B Manufacturing Client');
-          text = text.replace(/Probiota/gi, 'B2B Manufacturing Client');
-          text = text.replace(/Gut\s*&\s*Beyond/gi, 'E-commerce Affiliate Partner');
-          text = text.replace(/Atlanta\s*Systems/gi, 'a global industrial group');
-
-          // Hype the leads stats in blog content dynamically
-          text = text.replace(/10\+\s*qualified\s*B2B\s*leads/gi, '50+ qualified B2B leads (including 10 in the first 10 days)');
-          text = text.replace(/10\+\s*B2B\s*leads/gi, '50+ B2B leads');
-
-          setContent(text);
-        } catch (error) {
-          console.error("Failed to load markdown content", error);
-          setContent("Error loading blog content.");
-        }
-      } else {
-        setContent("Content not found.");
-      }
-      setLoading(false);
-    };
-
-    loadContent();
-  }, [postMeta]);
-
-  // If URL slug is invalid, redirect to blog index
-  if (!postMeta) {
-    return <Navigate to="/blog" replace />;
-  }
-
+export default function BlogPost({ postMeta, content, relatedPosts }) {
   // Article / BlogPosting Schema
-  const articleSchema = postMeta ? {
+  const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: postMeta.title,
@@ -156,16 +29,14 @@ export default function BlogPost() {
         url: 'https://rankursite.com/Copilot_20260621_183745.png',
       },
     },
-  } : null;
+  };
 
   return (
     <>
-      {articleSchema && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
-      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
 
       <HeroSection
         label={postMeta.tag}
@@ -175,23 +46,17 @@ export default function BlogPost() {
 
       <section className="section" id="blog-content">
         <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
-          {loading ? (
-            <div style={{ textAlign: 'center', padding: 'var(--space-4xl) 0', color: 'var(--color-text-muted)' }}>
-              Loading article...
-            </div>
-          ) : (
-            <div className="markdown-prose">
-              {postMeta.image && (
-                <div className="blog-post__featured-image img-placeholder" style={{ marginBottom: '2.5rem', height: '380px', width: '100%', overflow: 'hidden' }}>
-                  <img src={postMeta.image} alt={postMeta.imageAlt} title={postMeta.imageAlt} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
-                </div>
-              )}
-              <ReactMarkdown>{content}</ReactMarkdown>
-            </div>
-          )}
+          <div className="markdown-prose">
+            {postMeta.image && (
+              <div className="blog-post__featured-image img-placeholder" style={{ marginBottom: '2.5rem', height: '380px', width: '100%', overflow: 'hidden' }}>
+                <img src={postMeta.image} alt={postMeta.imageAlt} title={postMeta.imageAlt} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
+              </div>
+            )}
+            <ReactMarkdown>{content}</ReactMarkdown>
+          </div>
 
           {/* Internal Linking / Related Posts */}
-          {!loading && relatedPosts.length > 0 && (
+          {relatedPosts && relatedPosts.length > 0 && (
             <div className="related-posts" style={{ marginTop: '4rem', borderTop: '1px solid var(--color-border)', paddingTop: '2rem' }}>
               <h3 style={{ marginBottom: '1.5rem', color: 'var(--color-text)' }}>Related Posts</h3>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem' }}>

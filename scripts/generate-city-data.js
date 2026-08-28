@@ -6,9 +6,53 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const citiesPath = path.join(__dirname, '../cities.json');
+const keywordsPath = path.join(__dirname, '../src/data/cityKeywords.json');
 const outPath = path.join(__dirname, '../src/data/cityData.jsx');
 
 const cities = JSON.parse(fs.readFileSync(citiesPath, 'utf8'));
+const cityKeywords = fs.existsSync(keywordsPath)
+  ? JSON.parse(fs.readFileSync(keywordsPath, 'utf8'))
+  : {};
+
+// Escape a plain string for safe embedding inside generated JSX text.
+const esc = (s) => JSON.stringify(String(s));
+
+// Build the FAQ set from the real, high-intent questions buyers actually ask
+// (from Grok research), personalised per city + its strongest local sector.
+// Real questions + useful answers = better Google rich results AND AI-search citations.
+function buildFaqs(cityName, sector) {
+  const sectorLabel = sector || 'B2B';
+  return [
+    {
+      question: `How much does a B2B website cost in ${cityName}?`,
+      answer: `Every project is quoted on scope, and you get one fixed price up front — no hourly billing and no surprise invoices. Book a free audit and I'll send a clear quote for your ${cityName} site within a day.`
+    },
+    {
+      question: `How long does it take to build and launch?`,
+      answer: `Most ${cityName} B2B sites go live in about 7 days, with larger builds taking 7–14. You see progress the whole way through — it's not a black box.`
+    },
+    {
+      question: `Will the new site actually rank on Google?`,
+      answer: `That's the point of it. I build on a fast, clean technical foundation and target the exact searches your ${cityName} buyers use, so you show up when they're looking — not just look nice.`
+    },
+    {
+      question: `Do you handle SEO and lead generation, or just design?`,
+      answer: `Both. The design, the search setup, and the lead capture are one job. A site nobody finds and nobody contacts isn't worth building.`
+    },
+    {
+      question: `Have you worked with ${sectorLabel} companies?`,
+      answer: `Yes. ${sectorLabel.charAt(0).toUpperCase() + sectorLabel.slice(1)} is one of the strongest B2B sectors in ${cityName}, and I build sites that speak to how those buyers actually evaluate vendors — clear, credible, and fast.`
+    },
+    {
+      question: `What if I'm not happy with the result?`,
+      answer: `Every build is backed by a 100% money-back guarantee. If it isn't right, you don't pay — that's how confident I am in the work.`
+    },
+    {
+      question: `Can the site help me get found in ChatGPT and Perplexity?`,
+      answer: `Yes. I structure your content and data so AI search engines can read and cite it, which is fast becoming how B2B buyers research vendors before they ever click.`
+    }
+  ];
+}
 
 const solutionPacks = [
   [
@@ -37,39 +81,44 @@ cities.forEach((city, index) => {
     desc: item.desc.replace('B2B', `${city.city} B2B`)
   }));
 
-  const metaDesc = `B2B web design & growth consultant in ${city.city}. Custom Next.js infrastructure, technical SEO/GEO, and pipeline conversion systems.`;
+  const sector = (cityKeywords[city.slug] && cityKeywords[city.slug].primarySector) || 'B2B';
+
+  // Meta description: natural search phrasing + the guarantee, kept under 155 chars.
+  const metaDesc = `B2B web design in ${city.city} that ranks on Google and turns visitors into leads. Custom-built, live in ~7 days, 100% money-back guarantee.`;
+
+  // Title uses the natural head term ("web design {city}") + a B2B intent modifier.
+  const seoTitle = `B2B Web Design in ${city.city} | Rankur`;
+
+  // Plain, founder-first hero that matches how a buyer actually searches,
+  // instead of opening with an encyclopedia intro about the city.
+  const heroSubtitle = `You run a B2B company in ${city.city}, and your website should be bringing in leads — not just sitting there. I build fast, modern sites that rank on Google and turn visitors into real sales conversations. Most go live in about 7 days.`;
+
+  // Problem opener in the buyer's own words (Grok buyer_language), then the
+  // unique local pain point, then a plain payoff line.
+  const problemOpener = `If your website looks outdated, doesn't show up on Google, or just isn't bringing in leads, you're not alone — most ${city.city} B2B sites have the same three problems.`;
+
+  const faqs = buildFaqs(city.city, sector);
 
   out += `  "${city.slug}": {
     path: '/${city.slug}',
     props: {
-      seoTitle: "${city.primaryKeyword} | Rankur",
-      seoDesc: ${JSON.stringify(metaDesc)},
+      seoTitle: ${esc(seoTitle)},
+      seoDesc: ${esc(metaDesc)},
       niche: "${city.city} B2B",
-      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">${city.city}</span></>,
-      heroSubtitle: ${JSON.stringify(city.localEcosystemIntro)},
+      sector: ${esc(sector)},
+      heroTitle: <>B2B Web Design &amp; Growth Consultant in <span className="text-gold">${city.city}</span></>,
+      heroSubtitle: ${esc(heroSubtitle)},
+      marketContext: ${esc(city.localEcosystemIntro)},
       problemText: [
-        ${JSON.stringify(city.localPainPoint)},
-        "Many local ${city.city} companies list product features instead of solving core commercial pain points. They lack proper SEO architecture to capture high-intent search traffic.",
-        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
+        ${esc(problemOpener)},
+        ${esc(city.localPainPoint)},
+        "So visitors leave, ads cost more than they should, and the sales pipeline stays empty. It doesn't have to be that way."
       ],
       solutions: ${city.localSolutions ? JSON.stringify(city.localSolutions) : JSON.stringify(solutions)},
-      marketOpportunity: ${city.marketOpportunity ? JSON.stringify(city.marketOpportunity) : "null"},
-      competitiveLandscape: ${city.competitiveLandscape ? JSON.stringify(city.competitiveLandscape) : "null"},
-      proofText: ${JSON.stringify(`Built custom React JS growth infrastructure scaling enterprise B2B clients across ${city.city} and broader regional markets.`)},
-      faqs: ${city.localFaqs ? JSON.stringify(city.localFaqs) : `[
-        {
-          question: "Why do ${city.city} B2B companies need specialized web architecture?",
-          answer: ${JSON.stringify(city.localEcosystemIntro + " This makes enterprise-grade performance and positioning non-negotiable for " + city.city + " brands.")}
-        },
-        {
-          question: "How quickly can you have a new B2B marketing site live in ${city.city}?",
-          answer: "Our core sprint is 7–14 days. That includes architecture, messaging alignment, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
-        },
-        {
-          question: "Will this help us rank locally in ${city.city} and internationally?",
-          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in ${city.city}, as well as across broader national and international queries."
-        }
-      ]`}
+      marketOpportunity: ${city.marketOpportunity ? esc(city.marketOpportunity) : "null"},
+      competitiveLandscape: ${city.competitiveLandscape ? esc(city.competitiveLandscape) : "null"},
+      proofText: ${esc(`I build custom websites and lead systems for B2B founders in ${city.city} and beyond.`)},
+      faqs: ${JSON.stringify(faqs)}
     }
   }${index < cities.length - 1 ? ',' : ''}\n`;
 });

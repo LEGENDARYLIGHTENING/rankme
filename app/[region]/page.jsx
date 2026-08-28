@@ -1,8 +1,14 @@
+import { notFound } from 'next/navigation';
 import { cityData } from '../../src/data/cityData.jsx';
 import { countryData } from '../../src/data/countryData.jsx';
 import NichePage from '../../src/views/NichePage';
 
 const allRegions = { ...cityData, ...countryData };
+
+// Only the slugs returned by generateStaticParams are valid routes.
+// Any other slug (pruned city, typo, stale backlink) returns a real 404
+// instead of a 200 "soft 404" empty shell.
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   return Object.keys(allRegions).map((slug) => ({
@@ -70,7 +76,7 @@ export async function generateMetadata({ params }) {
 export default async function Page({ params }) {
   const resolvedParams = await params;
   const regionData = allRegions[resolvedParams.region];
-  if (!regionData) return null;
+  if (!regionData) notFound();
   return <NichePage {...regionData.props} />;
 }
 

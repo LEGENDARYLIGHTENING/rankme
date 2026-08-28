@@ -1,0 +1,257 @@
+{
+  "atlanta-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "miami-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "portland-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "minneapolis-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "detroit-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "raleigh-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "charlotte-us": {
+    "primarySector": "industrial & business services"
+  },
+  "nashville-us": {
+    "primarySector": "wellness & health"
+  },
+  "columbus-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "san-jose-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "jacksonville-us": {
+    "primarySector": "industrial & business services"
+  },
+  "fort-worth-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "indianapolis-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "oklahoma-city-us": {
+    "primarySector": "industrial & business services"
+  },
+  "el-paso-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "las-vegas-us": {
+    "primarySector": "industrial & business services"
+  },
+  "memphis-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "louisville-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "baltimore-us": {
+    "primarySector": "industrial & business services"
+  },
+  "milwaukee-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "albuquerque-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "tucson-us": {
+    "primarySector": "industrial & business services"
+  },
+  "fresno-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "sacramento-us": {
+    "primarySector": "industrial & business services"
+  },
+  "kansas-city-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "mesa-us": {
+    "primarySector": "industrial & business services"
+  },
+  "omaha-us": {
+    "primarySector": "industrial & business services"
+  },
+  "colorado-springs-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "long-beach-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "virginia-beach-us": {
+    "primarySector": "industrial & business services"
+  },
+  "oakland-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "tulsa-us": {
+    "primarySector": "industrial & business services"
+  },
+  "bakersfield-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "wichita-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "arlington-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "aurora-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "tampa-us": {
+    "primarySector": "industrial & business services"
+  },
+  "new-orleans-us": {
+    "primarySector": "industrial & business services"
+  },
+  "cleveland-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "honolulu-us": {
+    "primarySector": "industrial & business services"
+  },
+  "anaheim-us": {
+    "primarySector": "industrial & business services"
+  },
+  "lexington-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "stockton-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "corpus-christi-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "henderson-us": {
+    "primarySector": "industrial & business services"
+  },
+  "riverside-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "newark-us": {
+    "primarySector": "industrial & business services"
+  },
+  "cincinnati-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "irvine-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "orlando-us": {
+    "primarySector": "industrial & business services"
+  },
+  "greensboro-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "jersey-city-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "lincoln-us": {
+    "primarySector": "industrial & business services"
+  },
+  "plano-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "durham-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "buffalo-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "chandler-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "chula-vista-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "toledo-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "madison-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "gilbert-us": {
+    "primarySector": "industrial & business services"
+  },
+  "reno-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "fort-wayne-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "north-las-vegas-us": {
+    "primarySector": "industrial & business services"
+  },
+  "st-petersburg-us": {
+    "primarySector": "industrial & business services"
+  },
+  "lubbock-us": {
+    "primarySector": "industrial & business services"
+  },
+  "garland-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "laredo-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "irving-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "chesapeake-us": {
+    "primarySector": "industrial & business services"
+  },
+  "glendale-us": {
+    "primarySector": "industrial & business services"
+  },
+  "winston-salem-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "scottsdale-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "fremont-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "richmond-us": {
+    "primarySector": "industrial & business services"
+  },
+  "boise-us": {
+    "primarySector": "SaaS & tech"
+  },
+  "baton-rouge-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "des-moines-us": {
+    "primarySector": "industrial & business services"
+  },
+  "spokane-us": {
+    "primarySector": "industrial & business services"
+  },
+  "san-bernardino-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "san-antonio-us": {
+    "primarySector": "industrial & business services"
+  },
+  "st-paul-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "hialeah-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "rochester-us": {
+    "primarySector": "manufacturing & export"
+  },
+  "fayetteville-us": {
+    "primarySector": "industrial & business services"
+  }
+}

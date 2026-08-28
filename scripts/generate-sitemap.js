@@ -82,7 +82,11 @@ async function generateSitemap() {
     const dataPath = path.resolve(__dirname, '../src/data/blogs-index.json');
     if (fs.existsSync(dataPath)) {
       const blogIndex = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
-      blogUrls = blogIndex.filter(post => post.slug).map(post => {
+      // Exclude nutraceutical posts: BlogPost.jsx filters them out, so they
+      // 404 (dynamicParams=false) and must not appear in the sitemap.
+      blogUrls = blogIndex
+        .filter(post => post.slug && post.tag !== 'nutraceuticals and wellness brands')
+        .map(post => {
         allUrlsTxtContent += `${BASE_URL}/blog/${post.slug}\n`;
         return {
           url: `${BASE_URL}/blog/${post.slug}`,
@@ -97,9 +101,7 @@ async function generateSitemap() {
   }
   fs.writeFileSync(path.join(sitemapDir, 'blogs.xml'), generateXml(blogUrls));
 
-  // 3. Generate Cities / Countries Sitemaps
-  // We'll read both cities.json and countries.json to maintain backwards compatibility 
-  // with any existing city pages, plus the new countries.
+  // 3. Generate Locations (Cities/Countries) Sitemap
   const targetRegions = [];
   
   try {
@@ -118,24 +120,20 @@ async function generateSitemap() {
     }
   } catch (error) {}
 
-  // Generate a sitemap chunk for each region (city or country)
-  targetRegions.forEach(region => {
-    if (region.slug) {
-      const fullUrl = `${BASE_URL}/${region.slug}`;
-      allUrlsTxtContent += `${fullUrl}\n`;
-      const regionUrls = [
-        {
-          url: fullUrl,
-          lastModified: getTodayDate(),
-          changeFrequency: 'weekly',
-          priority: '0.8'
-        }
-      ];
-      
-      fs.writeFileSync(path.join(sitemapDir, `${region.slug}.xml`), generateXml(regionUrls));
-      sitemaps.push(region.slug);
-    }
+  // Group all region URLs into a single sitemap chunk
+  const regionUrls = targetRegions.filter(region => region.slug).map(region => {
+    const fullUrl = `${BASE_URL}/${region.slug}`;
+    allUrlsTxtContent += `${fullUrl}\n`;
+    return {
+      url: fullUrl,
+      lastModified: getTodayDate(),
+      changeFrequency: 'weekly',
+      priority: '0.8'
+    };
   });
+  
+  fs.writeFileSync(path.join(sitemapDir, 'locations.xml'), generateXml(regionUrls));
+  sitemaps.push('locations');
 
   // 4. Generate Sitemap Index
   let sitemapIndexXml = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
