@@ -138,6 +138,8 @@ export default function BlogPost() {
     headline: postMeta.title,
     description: postMeta.excerpt,
     image: postMeta.image,
+    datePublished: '2026-08-25',
+    dateModified: '2026-08-25',
     url: `https://rankursite.com/blog/${postMeta.slug}`,
     author: {
       '@type': 'Person',
