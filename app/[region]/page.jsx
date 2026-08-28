@@ -29,6 +29,7 @@ export async function generateMetadata({ params }) {
         'en-CA': 'https://rankursite.com/canada',
         'en-AU': 'https://rankursite.com/australia',
         'en-AE': 'https://rankursite.com/uae',
+        'en-SA': 'https://rankursite.com/saudi-arabia',
         'x-default': 'https://rankursite.com/usa',
       }
     : undefined;

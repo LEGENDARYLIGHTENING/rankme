@@ -121,18 +121,18 @@ async function generateSitemap() {
   // Generate a sitemap chunk for each region (city or country)
   targetRegions.forEach(region => {
     if (region.slug) {
-      const regionRoutes = coreRoutes.map(route => {
-        const fullUrl = `${BASE_URL}/${region.slug}${route === '/' ? '' : route}`;
-        allUrlsTxtContent += `${fullUrl}\n`;
-        return {
+      const fullUrl = `${BASE_URL}/${region.slug}`;
+      allUrlsTxtContent += `${fullUrl}\n`;
+      const regionUrls = [
+        {
           url: fullUrl,
           lastModified: getTodayDate(),
           changeFrequency: 'weekly',
-          priority: '0.7'
-        };
-      });
+          priority: '0.8'
+        }
+      ];
       
-      fs.writeFileSync(path.join(sitemapDir, `${region.slug}.xml`), generateXml(regionRoutes));
+      fs.writeFileSync(path.join(sitemapDir, `${region.slug}.xml`), generateXml(regionUrls));
       sitemaps.push(region.slug);
     }
   });
