@@ -39,7 +39,7 @@ We executed a complete architectural pivot:
 ---
 
 ### ACTION (The Link & Next Steps)
-If your digital presence is still built on bloated legacy software, you're not just losing SEO rankings—you're losing market share in the generative search era.
+If your digital presence is still built on bloated legacy software, you're not just losing SEO rankings-you're losing market share in the generative search era.
 
 👉 Read our full deep dive on how we build these systems: [Using AI in B2B Website Development for Better UX](https://rankursite.com/blog/using-ai-in-b2b-website-development-better-ux)
 

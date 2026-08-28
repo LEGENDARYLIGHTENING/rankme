@@ -27,7 +27,7 @@ When your website and CRM are isolated, you lose more than just time; you lose c
 
 An enterprise buyer's journey is complex. They might read three blog posts, download a technical spec sheet, view your pricing page, and finally fill out an RFQ form. If your website is not deeply integrated with your CRM, your sales team only sees the final form submission. They are completely blind to the behavioral intent that preceded it.
 
-Effective **CRM website integration B2B leads** ensures that the entire digital footprint of the prospect is passed to the sales rep. When the rep makes the first call, they aren't asking "What are you looking for?"—they already know exactly which product pages the prospect spent 10 minutes analyzing. This intelligence is the difference between a cold follow-up and a strategic consultation.
+Effective **CRM website integration B2B leads** ensures that the entire digital footprint of the prospect is passed to the sales rep. When the rep makes the first call, they aren't asking "What are you looking for?"-they already know exactly which product pages the prospect spent 10 minutes analyzing. This intelligence is the difference between a cold follow-up and a strategic consultation.
 
 ## Architecting the Seamless Lead Flow
 
@@ -87,7 +87,7 @@ We executed a complete headless migration using React and Next.js, shifting the 
 
 1. **Entity Graph Injection:** We mapped their exact 5-axis CNC capabilities to `Product` and `Service` schema, explicitly linking to aerospace standards. This allowed AI Generative Engines (like Perplexity) to mathematically verify their capabilities.
 2. **The Friction Funnel:** We replaced their generic "Contact Us" form with a dynamic, multi-step React form that required the user to input CAD file types, expected tolerances, and compliance requirements before submission. 
-3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method—front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
+3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method-front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
 
 **The Measurable Outcome:**
 Within 90 days of deploying this highly technical, buyer-centric infrastructure, the client's organic traffic from top-tier aerospace firms (identified via IP tracking) increased by 314%. More importantly, the strategic friction in the lead capture process eliminated low-budget inquiries entirely. The sales team stopped chasing dead leads and focused strictly on 7-figure pipeline opportunities. 

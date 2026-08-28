@@ -45,13 +45,13 @@ To build a secure and scalable pipeline, procurement teams should implement thes
 * Audit the manufacturer's environmental and labor compliance certifications to prevent brand reputation damage.
 * Schedule regular video walkthroughs of the factory floor to verify machinery maintenance and working conditions.
 
-Executing these steps ensures that the transition from a scaling hardware OEM operation to enterprise-level production remains stable, predictable, and profitable. [External link: Global hardware supply chain resilience reports — industry data source]
+Executing these steps ensures that the transition from a scaling hardware OEM operation to enterprise-level production remains stable, predictable, and profitable. [External link: Global hardware supply chain resilience reports - industry data source]
 
 ## How Moksh Can Help
 
 Procurement teams and B2B manufacturers often struggle to align their digital presence with the expectations of serious global buyers. Moksh operates as a specialized freelance B2B growth consultant who bridges the gap between technical execution and commercial growth. By building fast, conversion-focused React JS websites, Moksh ensures that manufacturing businesses project the high-trust digital authority required to secure massive international contracts.
 
-Moksh combines rapid technical development with advanced SEO and GEO strategies to position B2B manufacturers directly in front of procurement teams searching for reliable partners in the US, UK, and Australia. Through targeted LinkedIn content strategy and highly efficient Google Ads and Meta Ads management, Moksh drives qualified buyer traffic to landing pages optimized for inquiry conversions. By stripping away friction and focusing on buyer intent, Moksh helps manufacturing firms scale their pipeline with high-value leads. Ready to diagnose why your current site is not converting? [Internal link: Growth Audit Booking — Book your consultation]. 
+Moksh combines rapid technical development with advanced SEO and GEO strategies to position B2B manufacturers directly in front of procurement teams searching for reliable partners in the US, UK, and Australia. Through targeted LinkedIn content strategy and highly efficient Google Ads and Meta Ads management, Moksh drives qualified buyer traffic to landing pages optimized for inquiry conversions. By stripping away friction and focusing on buyer intent, Moksh helps manufacturing firms scale their pipeline with high-value leads. Ready to diagnose why your current site is not converting? [Internal link: Growth Audit Booking - Book your consultation]. 
 
 ## Conclusion: What to Do Next
 

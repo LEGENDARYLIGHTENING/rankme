@@ -29,7 +29,7 @@ const servicesData = [
       'GA4 analytics custom event tracking pipeline',
       'Cloudflare enterprise security & deployment rules',
     ],
-    timeline: 'Completed in 7–14 days sprint',
+    timeline: 'Completed in 7-14 days sprint',
   },
   {
     icon: '🔍',
@@ -39,7 +39,7 @@ const servicesData = [
       'Bottom-of-funnel, high-intent keyword mapping',
       'Generative Engine Optimization (GEO) semantic structure',
       'Google Search Console setup, sitemaps & crawl audits',
-      'High-authority, long-form content planning (4,000–8,000 words)',
+      'High-authority, long-form content planning (4,000-8,000 words)',
     ],
     timeline: 'Ongoing retainer integration',
   },
@@ -99,7 +99,7 @@ const faqs = [
   },
   {
     question: "What's a realistic timeline from first call to a live, ranking website?",
-    answer: 'The full sprint — from kickoff to a live, technically optimized website — typically runs 7 to 14 days for the build phase. The first measurable SEO signals (indexed pages, GSC impressions) appear within 2–4 weeks post-launch. Meaningful organic lead inbound typically follows at 3–6 months, which is why every website engagement transitions into an ongoing retainer rather than stopping at launch.',
+    answer: 'The full sprint - from kickoff to a live, technically optimized website - typically runs 7 to 14 days for the build phase. The first measurable SEO signals (indexed pages, GSC impressions) appear within 2-4 weeks post-launch. Meaningful organic lead inbound typically follows at 3-6 months, which is why every website engagement transitions into an ongoing retainer rather than stopping at launch.',
   },
 ];
 

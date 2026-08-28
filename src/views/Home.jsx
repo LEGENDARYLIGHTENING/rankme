@@ -20,21 +20,21 @@ const capabilities = [
   {
     icon: '◎',
     title: 'Clear Positioning & Messaging',
-    description: 'Most B2B sites list features and compete on price. I help you say what you actually do, for whom, and why it matters — so buyers see you as the obvious choice, not just another vendor.',
+    description: 'Most B2B sites list features and compete on price. I help you say what you actually do, for whom, and why it matters - so buyers see you as the obvious choice, not just another vendor.',
     deliverables: ['A look at what competitors say', 'A sharp value proposition', 'Copy that speaks to real buyers'],
     timeline: 'Done in week 1',
   },
   {
     icon: '⟨/⟩',
     title: 'Fast, Custom Websites',
-    description: 'I design and build your site from scratch in React and Next.js — fast, secure, and easy to update. No slow templates, no bloated page builders. It loads in under 1.2 seconds anywhere in the world.',
+    description: 'I design and build your site from scratch in React and Next.js - fast, secure, and easy to update. No slow templates, no bloated page builders. It loads in under 1.2 seconds anywhere in the world.',
     deliverables: ['Custom Next.js & React build', 'Lead capture that flows to your inbox', 'Analytics wired up from day one'],
-    timeline: 'Live in 7–14 days',
+    timeline: 'Live in 7-14 days',
   },
   {
     icon: '🔍',
     title: 'Getting Found on Google & AI Search',
-    description: 'I set your site up to rank when buyers search for what you sell — on Google, and now inside ChatGPT, Claude, and Perplexity too. The focus is high-intent buyer searches, not vanity traffic.',
+    description: 'I set your site up to rank when buyers search for what you sell - on Google, and now inside ChatGPT, Claude, and Perplexity too. The focus is high-intent buyer searches, not vanity traffic.',
     deliverables: ['The searches your buyers actually make', 'Content built to be quoted by AI', 'Technical SEO done right'],
     timeline: 'Ongoing',
   },
@@ -48,7 +48,7 @@ const capabilities = [
   {
     icon: '📊',
     title: 'Turning Visitors Into Leads',
-    description: 'Traffic is worthless if nobody gets in touch. I find where people drop off — confusing pages, clunky forms, dead ends — and fix it, so more of the visitors you already have turn into leads.',
+    description: 'Traffic is worthless if nobody gets in touch. I find where people drop off - confusing pages, clunky forms, dead ends - and fix it, so more of the visitors you already have turn into leads.',
     deliverables: ['A teardown of where visitors leave', 'Simpler, higher-converting forms', 'Clear tracking of what works'],
     timeline: 'Ongoing',
   },
@@ -64,11 +64,11 @@ const niches = [
 const processSteps = [
   {
     title: '1. Free Audit',
-    description: 'Tell me about your business and goals. I review your current site — speed, search visibility, and where you\'re losing leads — and send back a short video walking through what I\'d fix first.',
+    description: 'Tell me about your business and goals. I review your current site - speed, search visibility, and where you\'re losing leads - and send back a short video walking through what I\'d fix first.',
   },
   {
     title: '2. Build Sprint',
-    description: 'I design, write, and build your new site and set up lead tracking. The core build is done in 7–14 days, and you\'re involved at every step — no black box.',
+    description: 'I design, write, and build your new site and set up lead tracking. The core build is done in 7-14 days, and you\'re involved at every step - no black box.',
   },
   {
     title: '3. Ongoing Growth',
@@ -91,7 +91,7 @@ export default function Home() {
             <span className="text-gold">Bring In Real Leads</span>
           </>
         }
-        subtitle="I design fast, modern websites for B2B founders and set them up to rank on Google — so the right buyers find you and get in touch. Most sites go live in about 7 days, backed by a 100% money-back guarantee."
+        subtitle="I design fast, modern websites for B2B founders and set them up to rank on Google - so the right buyers find you and get in touch. Most sites go live in about 7 days, backed by a 100% money-back guarantee."
         primaryCTA={{ to: '/free-audit', label: 'Get a Free Website Audit' }}
         secondaryCTA={{ to: '/philosophy', label: 'How I Work' }}
       />
@@ -137,7 +137,7 @@ export default function Home() {
               <p className="section-label">Founder-Led Consultancy</p>
               <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-lg) 0' }}>Every Engagement Personally Led by Moksh</h2>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)' }}>
-                Most agencies win your business, then hand it to a junior account manager. I don't work that way. Your positioning, your copy, your site, and your search setup are all done by me — the person you actually talked to.
+                Most agencies win your business, then hand it to a junior account manager. I don't work that way. Your positioning, your copy, your site, and your search setup are all done by me - the person you actually talked to.
               </p>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-lg)' }}>
                 It means fewer middlemen, faster decisions, and a website that's both well built and says the right thing to the right buyer.
@@ -237,7 +237,7 @@ export default function Home() {
           <p className="section-label">Free Audit</p>
           <h2 className="section-title">Want to know why your website isn't bringing in leads?</h2>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: '1.8', marginBottom: 'var(--space-2xl)' }}>
-            Send me your site and I'll record a short video walking through what's holding it back — your speed, how you show up on Google and AI search, and where visitors are slipping away. No cost, no pitch.
+            Send me your site and I'll record a short video walking through what's holding it back - your speed, how you show up on Google and AI search, and where visitors are slipping away. No cost, no pitch.
           </p>
           <Link href="/free-audit" className="btn btn--primary" style={{ padding: 'var(--space-md) var(--space-3xl)' }}>
             Get My Free Audit

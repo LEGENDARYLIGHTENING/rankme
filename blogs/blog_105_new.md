@@ -13,7 +13,7 @@ Niche Tag: SEO+GEO
 
 **By Moksh, Founder of Rankur**
 
-If you run a B2B service business—whether it's an IT consulting firm in India, a contract manufacturing broker in the UAE, or a specialized engineering agency in Eastern Europe—your ultimate growth goal is likely the same: securing high-ticket contracts in the United States and the United Kingdom. 
+If you run a B2B service business-whether it's an IT consulting firm in India, a contract manufacturing broker in the UAE, or a specialized engineering agency in Eastern Europe-your ultimate growth goal is likely the same: securing high-ticket contracts in the United States and the United Kingdom. 
 
 The economic leverage of earning in USD or GBP while operating in a lower-cost geography is massive. However, capturing that pipeline is notoriously difficult. When a US procurement director searches for an enterprise service provider, they have an inherent geopolitical bias. They default to local providers because proximity implies lower risk. 
 
@@ -89,7 +89,7 @@ We executed a complete headless migration using React and Next.js, shifting the 
 
 1. **Entity Graph Injection:** We mapped their exact 5-axis CNC capabilities to `Product` and `Service` schema, explicitly linking to aerospace standards. This allowed AI Generative Engines (like Perplexity) to mathematically verify their capabilities.
 2. **The Friction Funnel:** We replaced their generic "Contact Us" form with a dynamic, multi-step React form that required the user to input CAD file types, expected tolerances, and compliance requirements before submission. 
-3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method—front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
+3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method-front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
 
 **The Measurable Outcome:**
 Within 90 days of deploying this highly technical, buyer-centric infrastructure, the client's organic traffic from top-tier aerospace firms (identified via IP tracking) increased by 314%. More importantly, the strategic friction in the lead capture process eliminated low-budget inquiries entirely. The sales team stopped chasing dead leads and focused strictly on 7-figure pipeline opportunities. 

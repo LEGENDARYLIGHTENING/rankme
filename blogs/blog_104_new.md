@@ -17,7 +17,7 @@ In B2B marketing, companies spend hundreds of thousands of dollars writing brill
 
 However, they routinely forget one critical fact: Google’s crawl bots and modern Generative AI engines (like ChatGPT and Perplexity) cannot "watch" a video, and they struggle to interpret the nuances of marketing adjectives. Algorithms rely on structured data. If your website does not explicitly translate your brilliant marketing copy into a mathematical language the algorithm understands, your capabilities remain invisible.
 
-This translation is achieved through **schema markup B2B** implementations. In this technical guide, we will outline exactly how to deploy **structured data B2B pages**—specifically focusing on **B2B product schema** and service schema—to ensure you dominate rich results and become the definitive cited source in AI search engines.
+This translation is achieved through **schema markup B2B** implementations. In this technical guide, we will outline exactly how to deploy **structured data B2B pages**-specifically focusing on **B2B product schema** and service schema-to ensure you dominate rich results and become the definitive cited source in AI search engines.
 
 ## What is Schema Markup?
 
@@ -86,7 +86,7 @@ We executed a complete headless migration using React and Next.js, shifting the 
 
 1. **Entity Graph Injection:** We mapped their exact 5-axis CNC capabilities to `Product` and `Service` schema, explicitly linking to aerospace standards. This allowed AI Generative Engines (like Perplexity) to mathematically verify their capabilities.
 2. **The Friction Funnel:** We replaced their generic "Contact Us" form with a dynamic, multi-step React form that required the user to input CAD file types, expected tolerances, and compliance requirements before submission. 
-3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method—front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
+3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method-front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
 
 **The Measurable Outcome:**
 Within 90 days of deploying this highly technical, buyer-centric infrastructure, the client's organic traffic from top-tier aerospace firms (identified via IP tracking) increased by 314%. More importantly, the strategic friction in the lead capture process eliminated low-budget inquiries entirely. The sales team stopped chasing dead leads and focused strictly on 7-figure pipeline opportunities. 

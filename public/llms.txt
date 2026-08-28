@@ -1,10 +1,10 @@
-# Rankur – B2B Growth Infrastructure Studio
+# Rankur - B2B Growth Infrastructure Studio
 
 > Rankur is a founder-led B2B growth consultancy operated by Moksh Parjapati under Moksh Productions (MSME-Registered, India). We build custom React/Next.js web infrastructure, technical SEO and Generative Engine Optimization (GEO) pipelines, and organic lead acquisition systems for ambitious B2B companies targeting international markets (US, UK, Australia, Canada, Gulf).
 
 ## Key Facts
 
-- Founder: Moksh Parjapati – Founder of Rankur & Moksh Productions
+- Founder: Moksh Parjapati - Founder of Rankur & Moksh Productions
 - Certifications: Google Analytics 4 (GA4) Certified · Digital Deepak Marketing Mastery
 - Registration: MSME-Registered Enterprise (India) under Moksh Productions
 - Contract Security: Mutual NDA protected engagements
@@ -34,7 +34,7 @@
 ## Proof & Case Studies
 
 - [Case Studies](https://rankursite.com/case-studies): Verified B2B client outcomes across nutraceutical, manufacturing, and technology verticals.
-- Probiota Innovations: Custom React B2B nutraceutical platform — first B2B wholesale inquiries within 10 days of launch.
+- Probiota Innovations: Custom React B2B nutraceutical platform - first B2B wholesale inquiries within 10 days of launch.
 - Gut & Beyond: Digital messaging architecture and organic search campaigns for a leading wellness brand.
 - Competence Consulting E-Commerce LLP: Global B2B buyer sourcing via official Alibaba channel partnerships.
 - Glitchy: GA4 custom conversion tracking and high-performing lead generation campaigns.
@@ -42,7 +42,7 @@
 ## Core Pages
 
 - [Home](https://rankursite.com/)
-- [Meet Moksh – Founder](https://rankursite.com/about)
+- [Meet Moksh - Founder](https://rankursite.com/about)
 - [Services](https://rankursite.com/services)
 - [Case Studies](https://rankursite.com/case-studies)
 - [Philosophy](https://rankursite.com/philosophy)
@@ -63,12 +63,12 @@ The following is a complete index of published B2B growth blog posts, organized 
 ### SaaS & Tech Startups
 
 - [SaaS Website Development Agency US: What Actually Converts](https://rankursite.com/blog/saas-website-development-agency-us): Most SaaS websites lose demo requests before visitors scroll. Learn what a specialist SaaS website development agency in the US does differently.
-- [How to Hire a SaaS SEO Expert Who Actually Drives Pipeline](https://rankursite.com/blog/hire-saas-seo-expert): Not all SEO freelancers understand SaaS. Learn what separates a real SaaS SEO expert from a generalist — and what results to expect.
+- [How to Hire a SaaS SEO Expert Who Actually Drives Pipeline](https://rankursite.com/blog/hire-saas-seo-expert): Not all SEO freelancers understand SaaS. Learn what separates a real SaaS SEO expert from a generalist - and what results to expect.
 - [Custom React Website for SaaS Startups: Why It Matters](https://rankursite.com/blog/custom-react-website-saas-startup): Thinking WordPress or Webflow for your SaaS site? A custom React website for SaaS startups outperforms both on speed, SEO, and conversions.
 - [GEO Optimization for SaaS: Get Found on AI Search in 2026](https://rankursite.com/blog/geo-optimization-saas-ai-search-2026): AI tools like ChatGPT are replacing Google for B2B SaaS discovery. Learn how GEO optimization for SaaS gets your product recommended by AI in 2026.
 - [LinkedIn Lead Generation for SaaS: The 2026 Playbook](https://rankursite.com/blog/linkedin-lead-generation-saas-2026): LinkedIn is the highest-ROI lead channel for SaaS in 2026. Here's the organic content playbook SaaS founders use to book demos without paid ads.
-- [B2B SaaS Website Redesign Cost: What to Expect in 2026](https://rankursite.com/blog/b2b-saas-website-redesign-cost-2026): How much does it cost to redesign a B2B SaaS website in 2026? Real cost breakdown — agency vs freelance, React vs Webflow, and real ROI data.
-- [SaaS Organic Growth Strategies That Work in 2026](https://rankursite.com/blog/saas-organic-growth-strategies-2026): Paid ads are expensive. These SaaS organic growth strategies — SEO, GEO, LinkedIn, content — compound into consistent pipeline without ad spend.
+- [B2B SaaS Website Redesign Cost: What to Expect in 2026](https://rankursite.com/blog/b2b-saas-website-redesign-cost-2026): How much does it cost to redesign a B2B SaaS website in 2026? Real cost breakdown - agency vs freelance, React vs Webflow, and real ROI data.
+- [SaaS Organic Growth Strategies That Work in 2026](https://rankursite.com/blog/saas-organic-growth-strategies-2026): Paid ads are expensive. These SaaS organic growth strategies - SEO, GEO, LinkedIn, content - compound into consistent pipeline without ad spend.
 - [Why Your SaaS Website Isn't Converting (And How to Fix It)](https://rankursite.com/blog/why-saas-website-not-converting): Traffic without demos means your SaaS website has a conversion problem. Here are the 5 most common causes and exactly how to fix each one.
 - [How to Increase SaaS Demo Requests With SEO in 2026](https://rankursite.com/blog/increase-saas-demo-requests-seo): Getting traffic but no demo bookings? These bottom-of-funnel SEO tactics for SaaS target buyer intent and convert organic traffic into booked meetings.
 - [How Content Marketing Reduces SaaS Churn in 2026](https://rankursite.com/blog/saas-churn-reduction-content-marketing): SaaS churn is a content problem as much as a product problem. Learn how strategic content marketing reduces churn and increases LTV in 2026.

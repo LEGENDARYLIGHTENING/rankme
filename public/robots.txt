@@ -35,7 +35,7 @@ User-agent: OmgiliBot
 Allow: /
 
 # ─────────────────────────────────────────
-# All other bots (wildcard — must be last)
+# All other bots (wildcard - must be last)
 # ─────────────────────────────────────────
 User-agent: *
 Allow: /

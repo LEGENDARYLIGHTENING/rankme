@@ -35,7 +35,7 @@ You cannot simply push Arabic text into a Left-to-Right (LTR) English layout. Do
 
 ### Implementing CSS Logical Properties
 
-To execute a flawless **international B2B website localization**, your development team must build the site using modern CSS logical properties (e.g., `margin-inline-start` instead of `margin-left`). This allows the entire layout—including grids, flexboxes, and padding—to dynamically mirror itself when the user switches the language toggle from English to Arabic.
+To execute a flawless **international B2B website localization**, your development team must build the site using modern CSS logical properties (e.g., `margin-inline-start` instead of `margin-left`). This allows the entire layout-including grids, flexboxes, and padding-to dynamically mirror itself when the user switches the language toggle from English to Arabic.
 
 This technical fluidity is a massive trust signal. It proves to the buyer that your company possesses the operational sophistication to handle international complexities. 
 
@@ -69,7 +69,7 @@ Do not force a UAE buyer to sift through US-centric content to find what they ne
 
 ## The Mobile-First Imperative in the GCC
 
-The Gulf region boasts some of the highest smartphone penetration rates in the world. Even in complex B2B procurement, the initial research phase—often conducted by junior analysts or executives on the go—happens on mobile devices.
+The Gulf region boasts some of the highest smartphone penetration rates in the world. Even in complex B2B procurement, the initial research phase-often conducted by junior analysts or executives on the go-happens on mobile devices.
 
 If your RTL Arabic layout breaks on an iPhone screen, you lose the deal before you even know the buyer exists. 
 
@@ -87,7 +87,7 @@ We executed a complete headless migration using React and Next.js, shifting the 
 
 1. **Entity Graph Injection:** We mapped their exact 5-axis CNC capabilities to `Product` and `Service` schema, explicitly linking to aerospace standards. This allowed AI Generative Engines (like Perplexity) to mathematically verify their capabilities.
 2. **The Friction Funnel:** We replaced their generic "Contact Us" form with a dynamic, multi-step React form that required the user to input CAD file types, expected tolerances, and compliance requirements before submission. 
-3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method—front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
+3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method-front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
 
 **The Measurable Outcome:**
 Within 90 days of deploying this highly technical, buyer-centric infrastructure, the client's organic traffic from top-tier aerospace firms (identified via IP tracking) increased by 314%. More importantly, the strategic friction in the lead capture process eliminated low-budget inquiries entirely. The sales team stopped chasing dead leads and focused strictly on 7-figure pipeline opportunities. 
@@ -104,4 +104,4 @@ Optimize your contact flow for the region:
 
 For a comprehensive look at how we structure high-converting digital ecosystems, review our [B2B Growth Services](/services).
 
-Expanding into the Middle East is highly lucrative, but it requires a digital infrastructure that honors the language, culture, and technical requirements of the region. By investing in a true multilingual strategy—combining RTL technical perfection, localized trust signals, and regional SEO—you transition from being just another foreign vendor to a trusted, localized partner.
+Expanding into the Middle East is highly lucrative, but it requires a digital infrastructure that honors the language, culture, and technical requirements of the region. By investing in a true multilingual strategy-combining RTL technical perfection, localized trust signals, and regional SEO-you transition from being just another foreign vendor to a trusted, localized partner.

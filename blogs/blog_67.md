@@ -23,7 +23,7 @@ At the same time, Generative Engine Optimization (GEO) is changing how B2B buyer
 
 Top-tier supplement distributors US and UK operators do not build brands; they scale brands that already have proven momentum. When pitching a distribution partner, you must present hard data showing strong customer retention, high online conversion rates, and a growing organic search presence. 
 
-Your wholesale nutraceuticals pitch must treat the distributor as an investor. Across B2B service sites, buyers demand clear proof of competence before engaging. For example, [Internal link: Probiota Innovations case study — Probiota Innovations] utilized a fast, high-converting React JS site to immediately communicate professionalism and capture qualified B2B leads. Similarly, your brand’s website must possess dedicated, password-protected wholesale portals and comprehensive product sell-sheets that make it effortless for a distributor's sales team to understand and pitch your products to retail buyers.
+Your wholesale nutraceuticals pitch must treat the distributor as an investor. Across B2B service sites, buyers demand clear proof of competence before engaging. For example, [Internal link: Probiota Innovations case study - Probiota Innovations] utilized a fast, high-converting React JS site to immediately communicate professionalism and capture qualified B2B leads. Similarly, your brand’s website must possess dedicated, password-protected wholesale portals and comprehensive product sell-sheets that make it effortless for a distributor's sales team to understand and pitch your products to retail buyers.
 
 ## Locating and Vetting the Right Partners
 

@@ -25,7 +25,7 @@ function processMarkdownContent(text) {
 
   text = text.replace(/^\s*#\s+[^\n]+\n+/, '');
 
-  text = text.replace(/\[Internal link:\s*([^-—\]]+)\s*[-—]\s*(?:anchor text:\s*)?([^\]]+)\]/gi, (match, pageDesc, anchorText) => {
+  text = text.replace(/\[Internal link:\s*([^--\]]+)\s*[--]\s*(?:anchor text:\s*)?([^\]]+)\]/gi, (match, pageDesc, anchorText) => {
     const desc = pageDesc.toLowerCase();
     let url = '/services';
     if (desc.includes('audit') || desc.includes('consultation') || desc.includes('booking')) {
@@ -40,7 +40,7 @@ function processMarkdownContent(text) {
     return `[${anchorText.trim()}](${url})`;
   });
 
-  text = text.replace(/\[External link:\s*([^-—\]]+)\s*[-—]\s*([^\]]+)\]/gi, (match, topic, source) => {
+  text = text.replace(/\[External link:\s*([^--\]]+)\s*[--]\s*([^\]]+)\]/gi, (match, topic, source) => {
     const t = topic.toLowerCase();
     const s = source.toLowerCase();
     let url = 'https://www.google.com';

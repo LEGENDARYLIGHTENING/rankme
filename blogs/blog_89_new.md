@@ -15,7 +15,7 @@ Niche Tag: Website Strategy
 
 The fastest way to burn through a $50,000 B2B marketing budget is to run highly targeted LinkedIn ads or Google Search campaigns and direct all that expensive traffic to your homepage.
 
-A homepage is a directory. It is designed to route various stakeholders—job seekers, investors, junior analysts, and executives—to different parts of your digital ecosystem. When an enterprise buyer clicks an ad for a specific solution (e.g., "Industrial IoT Sensors") and lands on a homepage that talks generically about "Digital Transformation," they experience massive cognitive friction. They bounce, and your ad spend is wasted.
+A homepage is a directory. It is designed to route various stakeholders-job seekers, investors, junior analysts, and executives-to different parts of your digital ecosystem. When an enterprise buyer clicks an ad for a specific solution (e.g., "Industrial IoT Sensors") and lands on a homepage that talks generically about "Digital Transformation," they experience massive cognitive friction. They bounce, and your ad spend is wasted.
 
 To capture high-ticket pipeline, you must implement a rigorous **B2B landing page strategy** focused specifically on product and capability categories. In this guide, we will break down the exact architecture of a high-converting **product category B2B landing page** and how to align it with enterprise buyer intent.
 
@@ -84,7 +84,7 @@ We executed a complete headless migration using React and Next.js, shifting the 
 
 1. **Entity Graph Injection:** We mapped their exact 5-axis CNC capabilities to `Product` and `Service` schema, explicitly linking to aerospace standards. This allowed AI Generative Engines (like Perplexity) to mathematically verify their capabilities.
 2. **The Friction Funnel:** We replaced their generic "Contact Us" form with a dynamic, multi-step React form that required the user to input CAD file types, expected tolerances, and compliance requirements before submission. 
-3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method—front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
+3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method-front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
 
 **The Measurable Outcome:**
 Within 90 days of deploying this highly technical, buyer-centric infrastructure, the client's organic traffic from top-tier aerospace firms (identified via IP tracking) increased by 314%. More importantly, the strategic friction in the lead capture process eliminated low-budget inquiries entirely. The sales team stopped chasing dead leads and focused strictly on 7-figure pipeline opportunities. 

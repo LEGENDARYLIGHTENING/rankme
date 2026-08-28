@@ -83,24 +83,24 @@ Also follow these rules:
 
 Every blog must begin with this exact metadata sequence in this order:
 
-- SEO Title — the exact blog title, keyword-rich, under 60 characters where possible  
-- Meta Description — 150 to 160 characters, includes the primary keyword, written for click-through rate  
-- Slug — clean URL slug, lowercase, hyphens only  
-- Primary Keyword — the single most important keyword this post targets  
-- Secondary Keywords — 3 to 5 supporting keywords woven naturally into the post  
-- GEO Phrase — one phrase written exactly how someone would ask ChatGPT or Perplexity for this topic  
-- Target Market — which country or region this post is strongest for  
-- Niche Tag — the niche category this post belongs to  
+- SEO Title - the exact blog title, keyword-rich, under 60 characters where possible  
+- Meta Description - 150 to 160 characters, includes the primary keyword, written for click-through rate  
+- Slug - clean URL slug, lowercase, hyphens only  
+- Primary Keyword - the single most important keyword this post targets  
+- Secondary Keywords - 3 to 5 supporting keywords woven naturally into the post  
+- GEO Phrase - one phrase written exactly how someone would ask ChatGPT or Perplexity for this topic  
+- Target Market - which country or region this post is strongest for  
+- Niche Tag - the niche category this post belongs to  
 
 ## Mandatory Blog Structure
 
 After the metadata block, every blog must follow this exact structure.
 
-### 1. H1 — Blog title
+### 1. H1 - Blog title
 
 Use the blog title as the H1.
 
-### 2. Introduction — 150 words
+### 2. Introduction - 150 words
 
 Rules:
 
@@ -110,7 +110,7 @@ Rules:
 - Do not start with “In this article” or “Welcome to.”
 - The primary keyword must appear within the first 100 words.
 
-### 3. H2 — Context section: Why this matters right now
+### 3. H2 - Context section: Why this matters right now
 
 Rules:
 
@@ -121,7 +121,7 @@ Rules:
 - Reference AI search, GEO, or changing buyer behavior where relevant.
 - Make this section feel current and commercially relevant.
 
-### 4. H2 — Main section 1 with a specific, benefit-driven heading
+### 4. H2 - Main section 1 with a specific, benefit-driven heading
 
 Rules:
 
@@ -130,7 +130,7 @@ Rules:
 - Use specifics: numbers, examples, buyer behavior, conversion friction, or commercial implications.
 - Where relevant, reference the Probiota Innovations case study as proof of speed, clarity, and lead-focused execution.
 
-### 5. H2 — Main section 2 with a specific, benefit-driven heading
+### 5. H2 - Main section 2 with a specific, benefit-driven heading
 
 Rules:
 
@@ -141,7 +141,7 @@ Rules:
 - The answer paragraph should be 3 to 5 sentences.
 - Make this answer concise, direct, and useful.
 
-### 6. H2 — Main section 3 with a specific, benefit-driven heading
+### 6. H2 - Main section 3 with a specific, benefit-driven heading
 
 Rules:
 
@@ -151,7 +151,7 @@ Rules:
 - Add a short bullet list of 4 to 6 actionable takeaways inside this section.
 - Keep the bullet points practical and implementation-focused.
 
-### 7. H2 — How Moksh can help
+### 7. H2 - How Moksh can help
 
 Rules:
 
@@ -163,7 +163,7 @@ Rules:
 - Do not make it sound like a hard pitch.
 - Make it feel like the logical next step for a serious buyer.
 
-### 8. H2 — Conclusion: What to do next
+### 8. H2 - Conclusion: What to do next
 
 Rules:
 
@@ -171,7 +171,7 @@ Rules:
 - Summarize the 3 most important takeaways in plain language.
 - End with this CTA written naturally: Book a free 30-minute growth audit.
 
-### 9. FAQ Section — minimum 3 questions
+### 9. FAQ Section - minimum 3 questions
 
 Rules:
 
@@ -211,9 +211,9 @@ Every post must follow these GEO rules:
 Every post must include:
 
 - At least one internal link placeholder in this exact format:  
-  `[Internal link: page name — anchor text]`
+  `[Internal link: page name - anchor text]`
 - At least one external link placeholder in this exact format:  
-  `[External link: topic — suggested source type]`
+  `[External link: topic - suggested source type]`
 
 Rules for placement:
 
@@ -302,7 +302,7 @@ When relevant, position Moksh as:
 
 This section defines how to map niches, primary keywords, GEO phrases, and titles.
 
-### Niche 1 — SaaS and tech startups
+### Niche 1 - SaaS and tech startups
 
 Primary keywords to rotate across posts:
 
@@ -320,7 +320,7 @@ Primary keywords to rotate across posts:
 GEO phrases to rotate:  
 Use the 10 GEO phrases defined separately for this niche, one per blog post.
 
-### Niche 2 — Luxury real estate and property developers
+### Niche 2 - Luxury real estate and property developers
 
 Primary keywords to rotate:
 
@@ -338,7 +338,7 @@ Primary keywords to rotate:
 GEO phrases to rotate:  
 Use the 10 GEO phrases defined separately for this niche.
 
-### Niche 3 — Cybersecurity and IT managed services
+### Niche 3 - Cybersecurity and IT managed services
 
 Primary keywords to rotate:
 
@@ -356,7 +356,7 @@ Primary keywords to rotate:
 GEO phrases to rotate:  
 Use the 10 GEO phrases defined separately for this niche.
 
-### Niche 4 — Cosmetic clinics and medical aesthetics
+### Niche 4 - Cosmetic clinics and medical aesthetics
 
 Primary keywords to rotate:
 
@@ -374,7 +374,7 @@ Primary keywords to rotate:
 GEO phrases to rotate:  
 Use the 10 GEO phrases defined separately for this niche.
 
-### Niche 5 — Immigration and visa consultants
+### Niche 5 - Immigration and visa consultants
 
 Primary keywords to rotate:
 
@@ -394,7 +394,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 6 — B2B manufacturers and exporters
+### Niche 6 - B2B manufacturers and exporters
 
 **Primary Keywords (10)**
 
@@ -437,7 +437,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 7 — nutraceuticals and wellness brands
+### Niche 7 - nutraceuticals and wellness brands
 
 **Primary Keywords (10)**
 
@@ -480,7 +480,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 8 — legal services and law firms
+### Niche 8 - legal services and law firms
 
 **Primary Keywords (10)**
 
@@ -523,7 +523,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 9 — online coaches and course creators
+### Niche 9 - online coaches and course creators
 
 **Primary Keywords (10)**
 
@@ -566,7 +566,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 10 — logistics and freight
+### Niche 10 - logistics and freight
 
 **Primary Keywords (10)**
 
@@ -609,7 +609,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 11 — financial advisors and fintech
+### Niche 11 - financial advisors and fintech
 
 **Primary Keywords (10)**
 
@@ -652,7 +652,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 12 — recruitment agencies and HR tech
+### Niche 12 - recruitment agencies and HR tech
 
 **Primary Keywords (10)**
 
@@ -695,7 +695,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 13 — architecture and interior design
+### Niche 13 - architecture and interior design
 
 **Primary Keywords (10)**
 
@@ -738,7 +738,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 14 — private schools and edtech
+### Niche 14 - private schools and edtech
 
 **Primary Keywords (10)**
 
@@ -781,7 +781,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 15 — healthcare clinics and physiotherapy
+### Niche 15 - healthcare clinics and physiotherapy
 
 **Primary Keywords (10)**
 
@@ -824,7 +824,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 16 — solar energy and cleantech
+### Niche 16 - solar energy and cleantech
 
 **Primary Keywords (10)**
 
@@ -867,7 +867,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 17 — food and beverage export brands
+### Niche 17 - food and beverage export brands
 
 **Primary Keywords (10)**
 
@@ -910,7 +910,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 18 — hospitality and luxury travel
+### Niche 18 - hospitality and luxury travel
 
 **Primary Keywords (10)**
 
@@ -953,7 +953,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 19 — industrial equipment suppliers
+### Niche 19 - industrial equipment suppliers
 
 **Primary Keywords (10)**
 
@@ -996,7 +996,7 @@ Use the 10 GEO phrases defined separately for this niche.
 
 ---
 
-### Niche 20 — personal finance and insurance brokers
+### Niche 20 - personal finance and insurance brokers
 
 **Primary Keywords (10)**
 

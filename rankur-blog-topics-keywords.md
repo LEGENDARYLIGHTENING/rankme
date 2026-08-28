@@ -1,4 +1,4 @@
-# Rankur — 200 Blog Topics & Keywords
+# Rankur - 200 Blog Topics & Keywords
 
 10 Pillars: Website Strategy | SEO for B2B | GEO/AI Search | Organic Lead Generation | LinkedIn Thought Leadership | Conversion Optimization | Manufacturer & Exporter Growth | Nutraceutical & Wellness Growth | SaaS & Tech Growth | Trust, Positioning & Authority
 
@@ -648,7 +648,7 @@ Keywords: B2B authority playbook, long term B2B positioning, sustainable authori
 
 ## Notes on Usage
 
-- Existing 30 blog posts are already live, organized under old categories (SaaS & Tech Startups, B2B Manufacturers & Exporters, Nutraceuticals and Wellness Brands). These topics above are NOT duplicates of those — check before assigning to avoid overlap.
+- Existing 30 blog posts are already live, organized under old categories (SaaS & Tech Startups, B2B Manufacturers & Exporters, Nutraceuticals and Wellness Brands). These topics above are NOT duplicates of those - check before assigning to avoid overlap.
 - New site taxonomy: Website Strategy | SEO+GEO | Lead Gen | Industry Notes
 - Mapping pillars above to new taxonomy:
   - Pillar 1 (Website Strategy) → Website Strategy
@@ -656,4 +656,4 @@ Keywords: B2B authority playbook, long term B2B positioning, sustainable authori
   - Pillars 4, 5, 6 (Organic Lead Gen, LinkedIn, CRO) → Lead Gen
   - Pillars 7, 8, 9 (Manufacturer, Nutraceutical, SaaS) → Industry Notes
   - Pillar 10 (Trust/Positioning/Authority) → split between Lead Gen and Industry Notes depending on topic specificity, or treat as supporting content linked across all categories
-- Verified proof points only — do not invent numbers: Probiota Innovations (website build + SEO/GEO, real qualified leads), Gut & Beyond (Brand Manager role), Competence Consulting/Alibaba channel partner (experience letter available), Glitchy (contributed to qualified lead gen and revenue growth — phrase conservatively)
+- Verified proof points only - do not invent numbers: Probiota Innovations (website build + SEO/GEO, real qualified leads), Gut & Beyond (Brand Manager role), Competence Consulting/Alibaba channel partner (experience letter available), Glitchy (contributed to qualified lead gen and revenue growth - phrase conservatively)

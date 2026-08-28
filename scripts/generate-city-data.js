@@ -25,15 +25,15 @@ function buildFaqs(cityName, sector) {
   return [
     {
       question: `How much does a B2B website cost in ${cityName}?`,
-      answer: `Every project is quoted on scope, and you get one fixed price up front — no hourly billing and no surprise invoices. Book a free audit and I'll send a clear quote for your ${cityName} site within a day.`
+      answer: `Every project is quoted on scope, and you get one fixed price up front - no hourly billing and no surprise invoices. Book a free audit and I'll send a clear quote for your ${cityName} site within a day.`
     },
     {
       question: `How long does it take to build and launch?`,
-      answer: `Most ${cityName} B2B sites go live in about 7 days, with larger builds taking 7–14. You see progress the whole way through — it's not a black box.`
+      answer: `Most ${cityName} B2B sites go live in about 7 days, with larger builds taking 7-14. You see progress the whole way through - it's not a black box.`
     },
     {
       question: `Will the new site actually rank on Google?`,
-      answer: `That's the point of it. I build on a fast, clean technical foundation and target the exact searches your ${cityName} buyers use, so you show up when they're looking — not just look nice.`
+      answer: `That's the point of it. I build on a fast, clean technical foundation and target the exact searches your ${cityName} buyers use, so you show up when they're looking - not just look nice.`
     },
     {
       question: `Do you handle SEO and lead generation, or just design?`,
@@ -41,11 +41,11 @@ function buildFaqs(cityName, sector) {
     },
     {
       question: `Have you worked with ${sectorLabel} companies?`,
-      answer: `Yes. ${sectorLabel.charAt(0).toUpperCase() + sectorLabel.slice(1)} is one of the strongest B2B sectors in ${cityName}, and I build sites that speak to how those buyers actually evaluate vendors — clear, credible, and fast.`
+      answer: `Yes. ${sectorLabel.charAt(0).toUpperCase() + sectorLabel.slice(1)} is one of the strongest B2B sectors in ${cityName}, and I build sites that speak to how those buyers actually evaluate vendors - clear, credible, and fast.`
     },
     {
       question: `What if I'm not happy with the result?`,
-      answer: `Every build is backed by a 100% money-back guarantee. If it isn't right, you don't pay — that's how confident I am in the work.`
+      answer: `Every build is backed by a 100% money-back guarantee. If it isn't right, you don't pay - that's how confident I am in the work.`
     },
     {
       question: `Can the site help me get found in ChatGPT and Perplexity?`,
@@ -91,11 +91,11 @@ cities.forEach((city, index) => {
 
   // Plain, founder-first hero that matches how a buyer actually searches,
   // instead of opening with an encyclopedia intro about the city.
-  const heroSubtitle = `You run a B2B company in ${city.city}, and your website should be bringing in leads — not just sitting there. I build fast, modern sites that rank on Google and turn visitors into real sales conversations. Most go live in about 7 days.`;
+  const heroSubtitle = `You run a B2B company in ${city.city}, and your website should be bringing in leads - not just sitting there. I build fast, modern sites that rank on Google and turn visitors into real sales conversations. Most go live in about 7 days.`;
 
   // Problem opener in the buyer's own words (Grok buyer_language), then the
   // unique local pain point, then a plain payoff line.
-  const problemOpener = `If your website looks outdated, doesn't show up on Google, or just isn't bringing in leads, you're not alone — most ${city.city} B2B sites have the same three problems.`;
+  const problemOpener = `If your website looks outdated, doesn't show up on Google, or just isn't bringing in leads, you're not alone - most ${city.city} B2B sites have the same three problems.`;
 
   const faqs = buildFaqs(city.city, sector);
 

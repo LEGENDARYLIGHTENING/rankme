@@ -37,7 +37,7 @@ When the AI synthesizes this answer, it often includes the caveat. The buyer, te
 
 ## Optimizing the "Citation Title"
 
-When Perplexity or Google AI Overviews cite a source, they display a small hyperlinked footprint—usually a favicon and a truncated Title Tag. 
+When Perplexity or Google AI Overviews cite a source, they display a small hyperlinked footprint-usually a favicon and a truncated Title Tag. 
 
 In traditional SEO, you optimize your Title Tag for the primary keyword. In GEO, you must optimize your Title Tag to command a click within the context of a footnote. 
 
@@ -70,7 +70,7 @@ We executed a complete headless migration using React and Next.js, shifting the 
 
 1. **Entity Graph Injection:** We mapped their exact 5-axis CNC capabilities to `Product` and `Service` schema, explicitly linking to aerospace standards. This allowed AI Generative Engines (like Perplexity) to mathematically verify their capabilities.
 2. **The Friction Funnel:** We replaced their generic "Contact Us" form with a dynamic, multi-step React form that required the user to input CAD file types, expected tolerances, and compliance requirements before submission. 
-3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method—front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
+3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method-front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
 
 **The Measurable Outcome:**
 Within 90 days of deploying this highly technical, buyer-centric infrastructure, the client's organic traffic from top-tier aerospace firms (identified via IP tracking) increased by 314%. More importantly, the strategic friction in the lead capture process eliminated low-budget inquiries entirely. The sales team stopped chasing dead leads and focused strictly on 7-figure pipeline opportunities. 

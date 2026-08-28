@@ -54,7 +54,7 @@ countries.forEach((country, index) => {
         },
         {
           question: "How quickly can you have a new B2B marketing site live in ${country.country}?",
-          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
         },
         {
           question: "Will this help us rank nationally in ${country.country} and internationally?",

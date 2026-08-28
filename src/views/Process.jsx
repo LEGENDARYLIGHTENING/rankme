@@ -72,14 +72,14 @@ export default function Process() {
           <div className="process-detail__layout">
             <div className="process-detail__step-num" style={{ color: 'var(--color-red)' }}>2</div>
             <div className="process-detail__content">
-              <h3>Build Sprint (7–14 days)</h3>
+              <h3>Build Sprint (7-14 days)</h3>
               <p>
                 The build phase delivers a live, GA4-tracked, conversion-ready website 
                 with SEO-optimized pages and mobile responsive design, delivered as a live URL 
                 you fully control.
               </p>
               <div className="process-detail__items">
-                <div className="process-detail__item">Custom React JS website (5–8 pages)</div>
+                <div className="process-detail__item">Custom React JS website (5-8 pages)</div>
                 <div className="process-detail__item">SEO-optimized page structure</div>
                 <div className="process-detail__item">GA4 event tracking setup</div>
                 <div className="process-detail__item">Contact or quote capture form</div>

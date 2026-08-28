@@ -13,7 +13,7 @@ Niche Tag: Website Strategy
 
 **By Moksh, Founder of Rankur**
 
-When a B2B nutraceutical contract manufacturer wants to expand its international footprint, a generic "digital brochure" website is a massive liability. Enterprise buyers—whether they are pharmaceutical directors in Europe or wellness brand owners in the US—require absolute assurance of compliance, quality, and operational reliability before they will even request a quote. 
+When a B2B nutraceutical contract manufacturer wants to expand its international footprint, a generic "digital brochure" website is a massive liability. Enterprise buyers-whether they are pharmaceutical directors in Europe or wellness brand owners in the US-require absolute assurance of compliance, quality, and operational reliability before they will even request a quote. 
 
 This was the exact challenge facing Probiota Innovations. 
 
@@ -80,7 +80,7 @@ We executed a complete headless migration using React and Next.js, shifting the 
 
 1. **Entity Graph Injection:** We mapped their exact 5-axis CNC capabilities to `Product` and `Service` schema, explicitly linking to aerospace standards. This allowed AI Generative Engines (like Perplexity) to mathematically verify their capabilities.
 2. **The Friction Funnel:** We replaced their generic "Contact Us" form with a dynamic, multi-step React form that required the user to input CAD file types, expected tolerances, and compliance requirements before submission. 
-3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method—front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
+3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method-front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
 
 **The Measurable Outcome:**
 Within 90 days of deploying this highly technical, buyer-centric infrastructure, the client's organic traffic from top-tier aerospace firms (identified via IP tracking) increased by 314%. More importantly, the strategic friction in the lead capture process eliminated low-budget inquiries entirely. The sales team stopped chasing dead leads and focused strictly on 7-figure pipeline opportunities. 

@@ -17,7 +17,7 @@ The traditional B2B lead magnet playbook is broken.
 
 Marketing agencies have spent the last decade telling founders to create a generic "Definitive Guide to [Industry]" PDF, slap an email gate on it, and watch the leads pour in. And the leads do pour in. But they are completely worthless. You capture email addresses from university students doing research, junior analysts, and your direct competitors trying to reverse-engineer your strategy. 
 
-Meanwhile, the actual enterprise decision-maker—the VP of Operations or the Chief Technical Officer—refuses to download your PDF because they are suffering from severe content fatigue. They do not want another 30-page eBook. They want immediate, proprietary utility. 
+Meanwhile, the actual enterprise decision-maker-the VP of Operations or the Chief Technical Officer-refuses to download your PDF because they are suffering from severe content fatigue. They do not want another 30-page eBook. They want immediate, proprietary utility. 
 
 If you want to **convert traffic B2B magnets** into 7-figure international pipeline, you must completely rethink your value exchange. In this guide, we will outline the exact **B2B lead magnet strategy** required to attract high-intent, highly qualified enterprise buyers. 
 
@@ -67,7 +67,7 @@ We executed a complete headless migration using React and Next.js, shifting the 
 
 1. **Entity Graph Injection:** We mapped their exact 5-axis CNC capabilities to `Product` and `Service` schema, explicitly linking to aerospace standards. This allowed AI Generative Engines (like Perplexity) to mathematically verify their capabilities.
 2. **The Friction Funnel:** We replaced their generic "Contact Us" form with a dynamic, multi-step React form that required the user to input CAD file types, expected tolerances, and compliance requirements before submission. 
-3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method—front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
+3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method-front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
 
 **The Measurable Outcome:**
 Within 90 days of deploying this highly technical, buyer-centric infrastructure, the client's organic traffic from top-tier aerospace firms (identified via IP tracking) increased by 314%. More importantly, the strategic friction in the lead capture process eliminated low-budget inquiries entirely. The sales team stopped chasing dead leads and focused strictly on 7-figure pipeline opportunities. 

@@ -85,7 +85,7 @@ Even with a perfect **B2B website migration**, you will experience ranking volat
 
 Google needs time to re-crawl your new architecture, process the 301 redirects, and recalculate your domain authority. It is normal to see traffic dip by 10-15% for the first two to three weeks. 
 
-However, if you executed the migration perfectly—and especially if the new site is significantly faster and better structured than the old one—the traffic will rebound and often exceed previous levels by month two. 
+However, if you executed the migration perfectly-and especially if the new site is significantly faster and better structured than the old one-the traffic will rebound and often exceed previous levels by month two. 
 
 When we handle digital infrastructure transitions for clients like Probiota Innovations, the focus is entirely on mitigating this risk. By executing a flawless technical transition to a high-speed React architecture, we didn't just preserve their SEO; we amplified it, resulting in 50+ qualified international leads in the first 30 days.
 
@@ -101,7 +101,7 @@ We executed a complete headless migration using React and Next.js, shifting the 
 
 1. **Entity Graph Injection:** We mapped their exact 5-axis CNC capabilities to `Product` and `Service` schema, explicitly linking to aerospace standards. This allowed AI Generative Engines (like Perplexity) to mathematically verify their capabilities.
 2. **The Friction Funnel:** We replaced their generic "Contact Us" form with a dynamic, multi-step React form that required the user to input CAD file types, expected tolerances, and compliance requirements before submission. 
-3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method—front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
+3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method-front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
 
 **The Measurable Outcome:**
 Within 90 days of deploying this highly technical, buyer-centric infrastructure, the client's organic traffic from top-tier aerospace firms (identified via IP tracking) increased by 314%. More importantly, the strategic friction in the lead capture process eliminated low-budget inquiries entirely. The sales team stopped chasing dead leads and focused strictly on 7-figure pipeline opportunities. 

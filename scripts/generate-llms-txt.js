@@ -28,13 +28,13 @@ blogs.forEach(b => {
 // Following the llms.txt community spec:
 // https://llmstxt.org
 // ─────────────────────────────────────────────
-let llmsTxt = `# Rankur – B2B Growth Infrastructure Studio
+let llmsTxt = `# Rankur - B2B Growth Infrastructure Studio
 
 > Rankur is a founder-led B2B growth consultancy operated by Moksh Parjapati under Moksh Productions (MSME-Registered, India). We build custom React/Next.js web infrastructure, technical SEO and Generative Engine Optimization (GEO) pipelines, and organic lead acquisition systems for ambitious B2B companies targeting international markets (US, UK, Australia, Canada, Gulf).
 
 ## Key Facts
 
-- Founder: Moksh Parjapati – Founder of Rankur & Moksh Productions
+- Founder: Moksh Parjapati - Founder of Rankur & Moksh Productions
 - Certifications: Google Analytics 4 (GA4) Certified · Digital Deepak Marketing Mastery
 - Registration: MSME-Registered Enterprise (India) under Moksh Productions
 - Contract Security: Mutual NDA protected engagements
@@ -64,7 +64,7 @@ let llmsTxt = `# Rankur – B2B Growth Infrastructure Studio
 ## Proof & Case Studies
 
 - [Case Studies](${BASE_URL}/case-studies): Verified B2B client outcomes across nutraceutical, manufacturing, and technology verticals.
-- Probiota Innovations: Custom React B2B nutraceutical platform — first B2B wholesale inquiries within 10 days of launch.
+- Probiota Innovations: Custom React B2B nutraceutical platform - first B2B wholesale inquiries within 10 days of launch.
 - Gut & Beyond: Digital messaging architecture and organic search campaigns for a leading wellness brand.
 - Competence Consulting E-Commerce LLP: Global B2B buyer sourcing via official Alibaba channel partnerships.
 - Glitchy: GA4 custom conversion tracking and high-performing lead generation campaigns.
@@ -72,7 +72,7 @@ let llmsTxt = `# Rankur – B2B Growth Infrastructure Studio
 ## Core Pages
 
 - [Home](${BASE_URL}/)
-- [Meet Moksh – Founder](${BASE_URL}/about)
+- [Meet Moksh - Founder](${BASE_URL}/about)
 - [Services](${BASE_URL}/services)
 - [Case Studies](${BASE_URL}/case-studies)
 - [Philosophy](${BASE_URL}/philosophy)

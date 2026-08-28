@@ -41,7 +41,7 @@ For example, when we repositioned Probiota Innovations, we eliminated all vague 
 
 An international buyer cannot visit your physical office or tour your manufacturing facility easily. Your website is the sole proxy for your operational competence. 
 
-If your trust signals—certifications, ISO standards, compliance badges, and client logos—are buried on a generic "About Us" page, you are forcing the buyer to hunt for reasons to trust you. They won't. 
+If your trust signals-certifications, ISO standards, compliance badges, and client logos-are buried on a generic "About Us" page, you are forcing the buyer to hunt for reasons to trust you. They won't. 
 
 In **international B2B website troubleshooting**, the first thing we audit is the placement of evidence. Trust signals must be contextual. If you have a page dedicated to UK Export capabilities, that specific page must feature your UK-relevant compliance badges and a case study from a European client. Do not make the buyer search for proof; integrate it directly into the conversion path.
 
@@ -71,7 +71,7 @@ To **fix B2B website international leads**, you must map the entire cognitive jo
 
 1. **The Hook:** They land on your site. The hero section immediately confirms you solve their specific industry problem.
 2. **The Evidence:** As they scroll, they see verifiable proof (case studies, metrics, logos) that you have solved this exact problem for companies similar to theirs.
-3. **The Risk Mitigation:** They navigate to your capabilities or compliance pages. Here, they find localized information—FDA compliance for the US, GDPR standards for the EU, specific shipping incoterms. 
+3. **The Risk Mitigation:** They navigate to your capabilities or compliance pages. Here, they find localized information-FDA compliance for the US, GDPR standards for the EU, specific shipping incoterms. 
 4. **The Conversion:** They click your CTA, which leads to a professional, multi-step qualification form that respects their time and validates their intent.
 
 If any link in this chain is broken, the buyer abandons the process. 
@@ -88,7 +88,7 @@ We executed a complete headless migration using React and Next.js, shifting the 
 
 1. **Entity Graph Injection:** We mapped their exact 5-axis CNC capabilities to `Product` and `Service` schema, explicitly linking to aerospace standards. This allowed AI Generative Engines (like Perplexity) to mathematically verify their capabilities.
 2. **The Friction Funnel:** We replaced their generic "Contact Us" form with a dynamic, multi-step React form that required the user to input CAD file types, expected tolerances, and compliance requirements before submission. 
-3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method—front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
+3. **Semantic Hierarchy:** We rewrote their core service pages using the Inverted Pyramid method-front-loading factual, hyper-dense answers to common buyer objections within the first 150 words.
 
 **The Measurable Outcome:**
 Within 90 days of deploying this highly technical, buyer-centric infrastructure, the client's organic traffic from top-tier aerospace firms (identified via IP tracking) increased by 314%. More importantly, the strategic friction in the lead capture process eliminated low-budget inquiries entirely. The sales team stopped chasing dead leads and focused strictly on 7-figure pipeline opportunities. 

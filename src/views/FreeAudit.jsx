@@ -240,8 +240,8 @@ export default function FreeAudit() {
                   >
                     <option value="">Select budget range...</option>
                     <option value="under1k">Under $1,000 / month (Self-funded)</option>
-                    <option value="1kto3k">$1,000 – $3,000 / month</option>
-                    <option value="3kto5k">$3,000 – $5,000 / month</option>
+                    <option value="1kto3k">$1,000 - $3,000 / month</option>
+                    <option value="3kto5k">$3,000 - $5,000 / month</option>
                     <option value="over5k">$5,000+ / month (Mid-market & Enterprise)</option>
                   </select>
                   {errors.budget && <span className="form-error">{errors.budget}</span>}

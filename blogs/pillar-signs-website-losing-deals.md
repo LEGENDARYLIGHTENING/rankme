@@ -33,7 +33,7 @@ If a prospect in Dallas is searching for "Commercial HVAC maintenance in Dallas,
 *The fix:* Deploy a programmatic SEO strategy. A modern React architecture allows you to launch hundreds of hyper-targeted location and industry pages instantly, casting a massive net over high-intent search queries.
 
 ## 4. Broken Mobile Experiences
-You might think B2B buyers only use desktops. You are wrong. Research shows over 50% of B2B queries start on mobile devices—often during a commute or on a couch in the evening. 
+You might think B2B buyers only use desktops. You are wrong. Research shows over 50% of B2B queries start on mobile devices-often during a commute or on a couch in the evening. 
 
 If your navigation menu breaks on an iPhone or your text requires pinching and zooming, you appear amateurish. 
 

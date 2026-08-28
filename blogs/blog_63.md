@@ -23,7 +23,7 @@ In the era of AI search and Generative Engine Optimization (GEO), international 
 
 Before targeting the Middle East, brands must ensure their domestic compliance is flawless. For US companies, managing FDA supplement export protocols involves securing Certificates of Free Sale and ensuring manufacturing facilities are cGMP compliant. Without these foundational documents, foreign health ministries will categorically reject your products.
 
-Similarly, navigating EU supplement regulations requires precise adherence to the European Food Safety Authority (EFSA) standards, particularly concerning novel foods and permissible health claims. Many wellness brands fail internationally because they assume a label that is compliant in their home country will be accepted globally. In high-trust categories, buyers usually compare credibility signals—such as proper international certifications and flawless labeling—before they commit to distribution agreements. A single unapproved ingredient or exaggerated health claim can result in an entire shipment being destroyed at customs.
+Similarly, navigating EU supplement regulations requires precise adherence to the European Food Safety Authority (EFSA) standards, particularly concerning novel foods and permissible health claims. Many wellness brands fail internationally because they assume a label that is compliant in their home country will be accepted globally. In high-trust categories, buyers usually compare credibility signals-such as proper international certifications and flawless labeling-before they commit to distribution agreements. A single unapproved ingredient or exaggerated health claim can result in an entire shipment being destroyed at customs.
 
 ## Navigating the Gulf Market Regulations
 

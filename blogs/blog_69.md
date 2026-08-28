@@ -23,7 +23,7 @@ Simultaneously, Generative Engine Optimization (GEO) is changing the discovery p
 
 The most critical error in supplement ecommerce growth is viewing the initial sale as the finish line. True scaling occurs when your backend operations turn single-purchase buyers into monthly subscribers. Developing a robust wellness brand customer retention strategy is the only way to offset rising ad costs.
 
-Across high-performing B2B and direct-to-consumer funnels, reducing friction in the subscription process is vital. For example, [Internal link: Probiota Innovations case study — Probiota Innovations] showcased how a lightning-fast React JS website directly correlates with higher conversion rates and lead quality. When scaling, your website must flawlessly handle subscription portals, allowing customers to easily pause, skip, or modify their orders without needing to contact customer support. High friction in subscription management directly causes catastrophic churn rates.
+Across high-performing B2B and direct-to-consumer funnels, reducing friction in the subscription process is vital. For example, [Internal link: Probiota Innovations case study - Probiota Innovations] showcased how a lightning-fast React JS website directly correlates with higher conversion rates and lead quality. When scaling, your website must flawlessly handle subscription portals, allowing customers to easily pause, skip, or modify their orders without needing to contact customer support. High friction in subscription management directly causes catastrophic churn rates.
 
 ## Adapting to 2026 Market Dynamics
 

@@ -21,7 +21,7 @@ export const countryData = {
         },
         {
           question: "How quickly can you have a new B2B marketing site live in United States?",
-          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
         },
         {
           question: "Will this help us rank nationally in United States and internationally?",
@@ -52,7 +52,7 @@ export const countryData = {
         },
         {
           question: "How quickly can you have a new B2B marketing site live in United Kingdom?",
-          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
         },
         {
           question: "Will this help us rank nationally in United Kingdom and internationally?",
@@ -83,7 +83,7 @@ export const countryData = {
         },
         {
           question: "How quickly can you have a new B2B marketing site live in Canada?",
-          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
         },
         {
           question: "Will this help us rank nationally in Canada and internationally?",
@@ -114,7 +114,7 @@ export const countryData = {
         },
         {
           question: "How quickly can you have a new B2B marketing site live in Australia?",
-          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
         },
         {
           question: "Will this help us rank nationally in Australia and internationally?",
@@ -145,7 +145,7 @@ export const countryData = {
         },
         {
           question: "How quickly can you have a new B2B marketing site live in New Zealand?",
-          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
         },
         {
           question: "Will this help us rank nationally in New Zealand and internationally?",
@@ -176,7 +176,7 @@ export const countryData = {
         },
         {
           question: "How quickly can you have a new B2B marketing site live in Ireland?",
-          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
         },
         {
           question: "Will this help us rank nationally in Ireland and internationally?",
@@ -207,7 +207,7 @@ export const countryData = {
         },
         {
           question: "How quickly can you have a new B2B marketing site live in United Arab Emirates?",
-          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
         },
         {
           question: "Will this help us rank nationally in United Arab Emirates and internationally?",
@@ -238,7 +238,7 @@ export const countryData = {
         },
         {
           question: "How quickly can you have a new B2B marketing site live in Saudi Arabia?",
-          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
         },
         {
           question: "Will this help us rank nationally in Saudi Arabia and internationally?",
@@ -269,7 +269,7 @@ export const countryData = {
         },
         {
           question: "How quickly can you have a new B2B marketing site live in Qatar?",
-          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
         },
         {
           question: "Will this help us rank nationally in Qatar and internationally?",
@@ -300,7 +300,7 @@ export const countryData = {
         },
         {
           question: "How quickly can you have a new B2B marketing site live in Singapore?",
-          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
         },
         {
           question: "Will this help us rank nationally in Singapore and internationally?",
@@ -331,7 +331,7 @@ export const countryData = {
         },
         {
           question: "How quickly can you have a new B2B marketing site live in Germany?",
-          answer: "The core build sprint is 7–14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
         },
         {
           question: "Will this help us rank nationally in Germany and internationally?",

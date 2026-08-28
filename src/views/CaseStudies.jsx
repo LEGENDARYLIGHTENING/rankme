@@ -69,7 +69,7 @@ export default function CaseStudies() {
                   "Rankur built an incredible digital infrastructure for us. Within days, we were capturing international trade inquiries that previously slipped through the cracks."
                 </p>
                 <p style={{ margin: 'var(--space-xs) 0 0 0', fontWeight: 'var(--font-weight-bold)', color: 'var(--color-white)', fontSize: '0.9rem' }}>
-                  — Anshika Narula, Founder, Probiota Innovations
+                  - Anshika Narula, Founder, Probiota Innovations
                 </p>
               </div>
 
