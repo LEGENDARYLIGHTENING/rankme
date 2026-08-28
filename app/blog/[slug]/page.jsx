@@ -5,7 +5,7 @@ import BlogPost from '../../../src/views/BlogPost';
 import rawBlogIndex from '../../../src/data/blogs-index.json';
 
 const blogIndex = rawBlogIndex.filter(
-  (b) => b.slug && b.tag !== 'nutraceuticals and wellness brands'
+  (b) => b.slug
 );
 
 export const dynamicParams = false;

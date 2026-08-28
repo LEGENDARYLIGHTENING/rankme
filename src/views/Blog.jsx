@@ -7,11 +7,10 @@ import './Blog.css';
 
 import rawBlogPosts from '../data/blogs-index.json';
 
-// Filter out anything not in our approved taxonomy
-const approvedTags = ['Website Strategy', 'SEO+GEO', 'Lead Gen', 'Industry Notes'];
-const blogPosts = rawBlogPosts.filter(p => approvedTags.includes(p.tag) || p.tag === 'nutraceuticals and wellness brands'); // temporarily keeping old tags if they exist for safety, but we'll enforce taxonomy in UI
+const approvedTags = [...new Set(rawBlogPosts.map(p => p.tag))];
+const blogPosts = rawBlogPosts;
 
-const allTags = ['All', ...approvedTags];
+const allTags = ['All', ...approvedTags.filter(Boolean)];
 
 const hubDescriptions = {
   'Website Strategy': 'Architecting B2B websites that convert. Covering custom React builds, UX flow, and positioning alignment.',

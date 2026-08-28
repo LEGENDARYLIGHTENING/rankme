@@ -82,10 +82,9 @@ async function generateSitemap() {
     const dataPath = path.resolve(__dirname, '../src/data/blogs-index.json');
     if (fs.existsSync(dataPath)) {
       const blogIndex = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
-      // Exclude nutraceutical posts: BlogPost.jsx filters them out, so they
-      // 404 (dynamicParams=false) and must not appear in the sitemap.
+      // Include all blogs
       blogUrls = blogIndex
-        .filter(post => post.slug && post.tag !== 'nutraceuticals and wellness brands')
+        .filter(post => post.slug)
         .map(post => {
         allUrlsTxtContent += `${BASE_URL}/blog/${post.slug}\n`;
         return {
