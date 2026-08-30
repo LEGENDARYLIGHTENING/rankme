@@ -48,7 +48,7 @@ function generateXml(urls) {
 }
 
 async function generateSitemap() {
-  console.log('Generating chunked sitemaps...');
+  console.log('Generating NowFloats City-Wise Chunked Sitemaps...');
   
   const publicDir = path.resolve(__dirname, '../public');
   const sitemapDir = path.join(publicDir, 'sitemap');
@@ -60,14 +60,15 @@ async function generateSitemap() {
     fs.mkdirSync(sitemapDir, { recursive: true });
   }
 
-  const sitemaps = ['core', 'blogs', 'locations'];
+  const sitemapChunkIds = ['core', 'blogs'];
   let allUrlsTxtContent = '';
 
   // 1. Generate Core Sitemap
   const coreUrls = coreRoutes.map(route => {
-    allUrlsTxtContent += `${BASE_URL}${route === '/' ? '/' : route}\n`;
+    const fullUrl = `${BASE_URL}${route === '/' ? '' : route}`;
+    allUrlsTxtContent += `${fullUrl}\n`;
     return {
-      url: `${BASE_URL}${route}`,
+      url: fullUrl,
       lastModified: getTodayDate(),
       changeFrequency: route === '/' ? 'weekly' : 'monthly',
       priority: route === '/' ? '1.0' : '0.8'
@@ -75,7 +76,7 @@ async function generateSitemap() {
   });
   fs.writeFileSync(path.join(sitemapDir, 'core.xml'), generateXml(coreUrls));
 
-  // 2. Generate Blogs Sitemap
+  // 2. Generate Global Blogs Sitemap
   let blogUrls = [];
   let blogIndex = [];
   try {
@@ -85,9 +86,10 @@ async function generateSitemap() {
       blogUrls = blogIndex
         .filter(post => post.slug)
         .map(post => {
-          allUrlsTxtContent += `${BASE_URL}/blog/${post.slug}\n`;
+          const fullUrl = `${BASE_URL}/blog/${post.slug}`;
+          allUrlsTxtContent += `${fullUrl}\n`;
           return {
-            url: `${BASE_URL}/blog/${post.slug}`,
+            url: fullUrl,
             lastModified: getValidDate(post.date),
             changeFrequency: 'monthly',
             priority: '0.7'
@@ -99,105 +101,108 @@ async function generateSitemap() {
   }
   fs.writeFileSync(path.join(sitemapDir, 'blogs.xml'), generateXml(blogUrls));
 
-  // 3. Generate Locations (Cities/Countries) Sitemap
-  const targetRegions = [];
+  // 3. Load Cities & Services Datasets
   let citiesList = [];
+  let countriesList = [];
+  let servicesList = [];
+
   try {
     const citiesPath = path.resolve(__dirname, '../cities.json');
     if (fs.existsSync(citiesPath)) {
       citiesList = JSON.parse(fs.readFileSync(citiesPath, 'utf-8'));
-      targetRegions.push(...citiesList);
     }
   } catch (error) {}
 
   try {
     const countriesPath = path.resolve(__dirname, '../countries.json');
     if (fs.existsSync(countriesPath)) {
-      const countries = JSON.parse(fs.readFileSync(countriesPath, 'utf-8'));
-      targetRegions.push(...countries);
+      countriesList = JSON.parse(fs.readFileSync(countriesPath, 'utf-8'));
     }
   } catch (error) {}
 
-  const regionUrls = targetRegions.filter(region => region.slug).map(region => {
-    const fullUrl = `${BASE_URL}/${region.slug}`;
-    allUrlsTxtContent += `${fullUrl}\n`;
-    return {
-      url: fullUrl,
-      lastModified: getTodayDate(),
-      changeFrequency: 'weekly',
-      priority: '0.8'
-    };
-  });
-  fs.writeFileSync(path.join(sitemapDir, 'locations.xml'), generateXml(regionUrls));
-
-  // 4. Generate NowFloats Multi-Dimensional Matrix Sitemap (Services x Cities)
-  const matrixUrls = [];
   try {
     const servicesPath = path.resolve(__dirname, '../src/data/servicesData.json');
-
-    if (citiesList.length > 0 && fs.existsSync(servicesPath)) {
-      const servicesList = JSON.parse(fs.readFileSync(servicesPath, 'utf-8'));
-
-      citiesList.forEach(city => {
-        servicesList.forEach(service => {
-          const matrixUrl = `${BASE_URL}/${city.slug}/${service.slug}`;
-          allUrlsTxtContent += `${matrixUrl}\n`;
-          matrixUrls.push({
-            url: matrixUrl,
-            lastModified: getTodayDate(),
-            changeFrequency: 'weekly',
-            priority: '0.8'
-          });
-        });
-      });
+    if (fs.existsSync(servicesPath)) {
+      servicesList = JSON.parse(fs.readFileSync(servicesPath, 'utf-8'));
     }
-  } catch (error) {
-    console.warn('Could not generate matrix sitemap:', error.message);
-  }
+  } catch (error) {}
 
-  if (matrixUrls.length > 0) {
-    fs.writeFileSync(path.join(sitemapDir, 'matrix.xml'), generateXml(matrixUrls));
-    sitemaps.push('matrix');
-  }
+  // 4. Generate CITY-WISE Sitemaps (One dedicated XML file per city!)
+  console.log(`Generating dedicated city-wise sitemaps for ${citiesList.length} cities...`);
 
-  // 5. Generate NowFloats City-Blog Matrix Sitemap (/blog/[slug]/in/[city])
-  const cityBlogUrls = [];
-  try {
-    const topCities = citiesList.slice(0, 15); // Top 15 cities mapped for city-blogs
-    const topBlogs = blogIndex.filter(b => b.slug).slice(0, 30); // Top 30 blogs
+  citiesList.forEach(city => {
+    if (!city.slug) return;
 
-    topBlogs.forEach(blog => {
-      topCities.forEach(city => {
-        const cityBlogUrl = `${BASE_URL}/blog/${blog.slug}/in/${city.slug}`;
-        allUrlsTxtContent += `${cityBlogUrl}\n`;
-        cityBlogUrls.push({
-          url: cityBlogUrl,
-          lastModified: getTodayDate(),
-          changeFrequency: 'monthly',
-          priority: '0.7'
-        });
+    const cityUrls = [];
+    
+    // A. Main City Landing Page URL
+    const mainCityUrl = `${BASE_URL}/${city.slug}`;
+    allUrlsTxtContent += `${mainCityUrl}\n`;
+    cityUrls.push({
+      url: mainCityUrl,
+      lastModified: getTodayDate(),
+      changeFrequency: 'weekly',
+      priority: '0.9'
+    });
+
+    // B. Matrix Service-City URLs (10 Services x City)
+    servicesList.forEach(service => {
+      const matrixUrl = `${BASE_URL}/${city.slug}/${service.slug}`;
+      allUrlsTxtContent += `${matrixUrl}\n`;
+      cityUrls.push({
+        url: matrixUrl,
+        lastModified: getTodayDate(),
+        changeFrequency: 'weekly',
+        priority: '0.8'
       });
     });
-  } catch (error) {
-    console.warn('Could not generate city-blog sitemap:', error.message);
+
+    // C. Hyper-Localized City-Blog URLs for this specific city
+    const topBlogsForCity = blogIndex.filter(b => b.slug).slice(0, 15);
+    topBlogsForCity.forEach(blog => {
+      const cityBlogUrl = `${BASE_URL}/blog/${blog.slug}/in/${city.slug}`;
+      allUrlsTxtContent += `${cityBlogUrl}\n`;
+      cityUrls.push({
+        url: cityBlogUrl,
+        lastModified: getTodayDate(),
+        changeFrequency: 'monthly',
+        priority: '0.7'
+      });
+    });
+
+    // Save city-wise sitemap chunk (e.g. sitemap/city-austin-us.xml)
+    const chunkFileName = `city-${city.slug}.xml`;
+    fs.writeFileSync(path.join(sitemapDir, chunkFileName), generateXml(cityUrls));
+    sitemapChunkIds.push(`city-${city.slug}`);
+  });
+
+  // 5. Generate Country Sitemaps (sitemap/countries.xml)
+  if (countriesList.length > 0) {
+    const countryUrls = countriesList.filter(c => c.slug).map(country => {
+      const fullUrl = `${BASE_URL}/${country.slug}`;
+      allUrlsTxtContent += `${fullUrl}\n`;
+      return {
+        url: fullUrl,
+        lastModified: getTodayDate(),
+        changeFrequency: 'weekly',
+        priority: '0.8'
+      };
+    });
+    fs.writeFileSync(path.join(sitemapDir, 'countries.xml'), generateXml(countryUrls));
+    sitemapChunkIds.push('countries');
   }
 
-  if (cityBlogUrls.length > 0) {
-    fs.writeFileSync(path.join(sitemapDir, 'city_blogs.xml'), generateXml(cityBlogUrls));
-    sitemaps.push('city_blogs');
-  }
-
-  // 6. Generate Sitemap Index
+  // 6. Generate Master Sitemap Index (sitemap.xml)
   let sitemapIndexXml = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-  for (const id of sitemaps) {
-    sitemapIndexXml += `  <sitemap>\n    <loc>${BASE_URL}/sitemap/${id}.xml</loc>\n  </sitemap>\n`;
+  for (const chunkId of sitemapChunkIds) {
+    sitemapIndexXml += `  <sitemap>\n    <loc>${BASE_URL}/sitemap/${chunkId}.xml</loc>\n  </sitemap>\n`;
   }
   sitemapIndexXml += `</sitemapindex>`;
   
   fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapIndexXml);
-  console.log(`Sitemap Index generated at public/sitemap.xml with ${sitemaps.length} chunks.`);
+  console.log(`Master Sitemap Index generated at public/sitemap.xml referencing ${sitemapChunkIds.length} city-wise and core XML feeds.`);
 
-  // Generate urls.txt for easy manual indexing
+  // 7. Save urls.txt
   fs.writeFileSync(path.join(publicDir, 'urls.txt'), allUrlsTxtContent.trim() + '\n');
   console.log(`URLs list generated at public/urls.txt with ${allUrlsTxtContent.trim().split('\n').length} total URLs.`);
 }
