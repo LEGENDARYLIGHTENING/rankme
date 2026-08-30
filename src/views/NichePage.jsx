@@ -18,7 +18,8 @@ export default function NichePage({
   competitiveLandscape,
   solutions,
   proofText,
-  faqs
+  faqs,
+  featuredBlogs
 }) {
   const [openFaq, setOpenFaq] = useState(null);
 
@@ -159,6 +160,51 @@ export default function NichePage({
         </div>
       </section>
 
+      {/* Featured Founder Guides Section */}
+      {featuredBlogs && featuredBlogs.length > 0 && (
+        <section className="niche-blogs" style={{ backgroundColor: 'var(--color-bg-dark, #0d0f12)', padding: '4rem 0', borderTop: '1px solid var(--color-border)' }}>
+          <div className="container">
+            <p className="section-label">Founder Insights</p>
+            <h2 className="section-title">Recommended Growth Guides for {niche} Founders</h2>
+            <div className="niche-blogs__grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem', marginTop: '2rem' }}>
+              {featuredBlogs.map((post, i) => (
+                <a
+                  key={i}
+                  href={`/blog/${post.slug}`}
+                  className="niche-blog-card"
+                  style={{
+                    backgroundColor: 'var(--color-surface, #161920)',
+                    padding: '1.5rem',
+                    borderRadius: '8px',
+                    border: '1px solid var(--color-border)',
+                    textDecoration: 'none',
+                    transition: 'transform 0.2s, border-color 0.2s',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justify: 'space-between'
+                  }}
+                >
+                  <div>
+                    <span style={{ fontSize: '0.85rem', color: 'var(--color-gold)', fontWeight: '600', textTransform: 'uppercase' }}>
+                      {post.category || 'Strategy'}
+                    </span>
+                    <h3 style={{ fontSize: '1.15rem', color: 'var(--color-white)', marginTop: '0.5rem', marginBottom: '0.75rem', lineHeight: '1.4' }}>
+                      {post.title}
+                    </h3>
+                    <p style={{ fontSize: '0.9rem', color: '#9ca3af', lineHeight: '1.5' }}>
+                      {post.description ? (post.description.length > 110 ? post.description.substring(0, 107) + '...' : post.description) : ''}
+                    </p>
+                  </div>
+                  <span style={{ fontSize: '0.9rem', color: 'var(--color-gold)', fontWeight: '600', marginTop: '1rem', display: 'inline-flex', alignItems: 'center', gap: '0.25rem' }}>
+                    Read Guide &rarr;
+                  </span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* FAQ */}
       {faqs && faqs.length > 0 && (
         <section className="faq-section" style={{ backgroundColor: 'var(--color-black)' }}>
@@ -199,3 +245,4 @@ export default function NichePage({
     </>
   );
 }
+

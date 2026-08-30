@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "prebuild": "node scripts/generate-blog-index.js && node scripts/generate-city-data.js && node scripts/generate-sitemap.js",
+    "prebuild": "node scripts/generate-blog-index.js && node scripts/generate-city-data.js && node scripts/generate-sitemap.js && node scripts/ping-sitemaps.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "b2b-web-design",
+    "name": "B2B Web Design & Next.js Development",
+    "shortName": "B2B Web Design",
+    "icon": "⟨/⟩",
+    "headline": "High-Speed Next.js B2B Web Design Engineered for Sales Calls",
+    "description": "We replace heavy, slow legacy CMS templates with custom React & Next.js architectures that load in sub-500ms and double inbound sales pipeline.",
+    "deliverables": [
+      "Custom Next.js App Router Frontend",
+      "Sub-500ms Edge CDN Distribution",
+      "Dynamic Lead Qualification Wizards",
+      "100% IP & GitHub Source Code Ownership"
+    ]
+  },
+  {
+    "slug": "enterprise-seo-geo",
+    "name": "Enterprise SEO & Generative Engine Optimization (GEO)",
+    "shortName": "Enterprise SEO & GEO",
+    "icon": "◎",
+    "headline": "Dominate Google Blue Links & AI Search Citations (ChatGPT & Perplexity)",
+    "description": "We build structured JSON-LD entity graph schemas and factual Q&A blocks to ensure your B2B platform ranks #1 on Google and gets cited by ChatGPT, Perplexity, and Claude.",
+    "deliverables": [
+      "Entity Graph Schema Markup (JSON-LD)",
+      "Bottom-of-Funnel Commercial Keyword Target Map",
+      "GEO Citation Optimization for ChatGPT & Perplexity",
+      "Algorithm Update Resilience Architecture"
+    ]
+  },
+  {
+    "slug": "conversion-rate-optimization",
+    "name": "B2B Conversion Rate Optimization (CRO)",
+    "shortName": "Conversion Rate Optimization",
+    "icon": "▶",
+    "headline": "Eliminate Contact Form Abandonment & Double Sales Qualified Leads",
+    "description": "We audit and re-engineer user journey friction points, replacing long static forms with interactive React qualification wizards and instant calendar scheduling.",
+    "deliverables": [
+      "Contact Form Abandonment Elimination",
+      "Interactive Multi-Step Qualification Flow",
+      "Instant Calendly & CRM Calendar Routing",
+      "Trust Signal & Money-Back Guarantee Injection"
+    ]
+  },
+  {
+    "slug": "headless-cms-migration",
+    "name": "Headless CMS & Next.js Migration",
+    "shortName": "Headless CMS Migration",
+    "icon": "⚡",
+    "headline": "Migrate From Bloated WordPress/Webflow to Zero-Technical-Debt Next.js",
+    "description": "Decouple your content from slow monolithic CMS setups. Enjoy total marketer autonomy with headless Sanity or Contentful paired with Next.js Edge speed.",
+    "deliverables": [
+      "100% Flawless 301 Redirect Mapping",
+      "Zero Downtime Production Migration",
+      "Sanity / Contentful Headless CMS Integration",
+      "Plugin Dependency Liability Elimination"
+    ]
+  },
+  {
+    "slug": "saas-growth-infrastructure",
+    "name": "SaaS Website & Lead Growth Systems",
+    "shortName": "SaaS Growth Systems",
+    "icon": "📊",
+    "headline": "SaaS Websites Built to Scale Demo Bookings & Reduce CAC",
+    "description": "Engineered specifically for B2B SaaS founders looking to turn website traffic into qualified product demos and predictable annual recurring revenue (ARR).",
+    "deliverables": [
+      "Interactive Pricing Tier & Calculator Sliders",
+      "Product Feature & Competitor Comparison Pages",
+      "GA4 Multi-Touch Attribution Telemetry",
+      "HubSpot & Salesforce CRM Pipeline Synchronization"
+    ]
+  },
+  {
+    "slug": "industrial-export-seo",
+    "name": "Industrial Manufacturing & Export SEO",
+    "shortName": "Industrial & Export SEO",
+    "icon": "⚙",
+    "headline": "Capture International B2B Procurement Queries & Technical RFQs",
+    "description": "Optimizing industrial product catalogs, ISO compliance documentation, and technical machining capabilities for international B2B buyers.",
+    "deliverables": [
+      "Technical Machine Spec Schema Markup",
+      "Multi-Market Hreflang Localization",
+      "RFQ Form Friction Removal",
+      "Global Enterprise Buyer IP Targeting"
+    ]
+  },
+  {
+    "slug": "core-web-vitals-speed",
+    "name": "Core Web Vitals & Sub-500ms Speed Optimization",
+    "shortName": "Speed Optimization",
+    "icon": "🚀",
+    "headline": "Achieve 100/100 Google PageSpeed & Eliminate Mobile LCP Bounce",
+    "description": "Speed is a direct revenue driver. We eliminate main-thread render-blocking scripts, AVIF image bloat, and layout shifts to guarantee sub-500ms global load times.",
+    "deliverables": [
+      "Sub-500ms Mobile Largest Contentful Paint (LCP)",
+      "Zero Cumulative Layout Shift (CLS < 0.01)",
+      "Interaction to Next Paint (INP < 100ms)",
+      "Cloudflare Global Edge CDN Acceleration"
+    ]
+  },
+  {
+    "slug": "b2b-lead-funnel-analytics",
+    "name": "B2B Lead Funnel & GA4 Telemetry",
+    "shortName": "GA4 Analytics & Telemetry",
+    "icon": "🎯",
+    "headline": "Full-Funnel Lead Attribution & Conversion Tracking",
+    "description": "Stop guessing where your best leads come from. We install advanced GA4 event telemetry, custom conversion goals, and server-side tracking.",
+    "deliverables": [
+      "Custom GA4 Event & Lead Attribution Setup",
+      "Server-Side Conversion API (CAPI)",
+      "Form Field Drop-Off Heatmap Tracking",
+      "Executive Revenue Pipeline Dashboard"
+    ]
+  },
+  {
+    "slug": "b2b-content-clusters",
+    "name": "B2B Content Cluster & Authority Architecture",
+    "shortName": "Content Cluster Strategy",
+    "icon": "✍",
+    "headline": "Architect Defensible Topical Authority That Dominates Google & AI",
+    "description": "We map out high-intent buyer journey pillar pages and content clusters that establish undeniable authority and capture bottom-of-funnel decision-makers.",
+    "deliverables": [
+      "High-Intent Commercial Keyword Cluster Map",
+      "Pillar & Sub-Topic Interlinking Mesh",
+      "E-E-A-T Content Engineering Standards",
+      "AI Search Citation Optimization"
+    ]
+  },
+  {
+    "slug": "b2b-positioning-messaging",
+    "name": "B2B Positioning & Commercial Messaging",
+    "shortName": "B2B Positioning & Messaging",
+    "icon": "🔍",
+    "headline": "Eliminate Vague Marketing Fluff & Position as the Obvious Choice",
+    "description": "We rewrite your website value proposition to speak directly to founder and executive commercial pain points, cutting sales cycles in half.",
+    "deliverables": [
+      "Ruthless Above-the-Fold Messaging Refresh",
+      "Commercial Value Proposition Blueprint",
+      "Objection-Busting FAQ & Proof Architecture",
+      "100% Risk-Free Guarantee Positioning"
+    ]
+  }
+]

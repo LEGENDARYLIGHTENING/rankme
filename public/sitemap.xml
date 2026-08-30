@@ -9,4 +9,10 @@
   <sitemap>
     <loc>https://rankursite.com/sitemap/locations.xml</loc>
   </sitemap>
+  <sitemap>
+    <loc>https://rankursite.com/sitemap/matrix.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://rankursite.com/sitemap/city_blogs.xml</loc>
+  </sitemap>
 </sitemapindex>

@@ -7,7 +7,6 @@ const __dirname = path.dirname(__filename);
 
 const BASE_URL = 'https://rankursite.com';
 
-// Define static routes
 const coreRoutes = [
   '/',
   '/services',
@@ -61,7 +60,7 @@ async function generateSitemap() {
     fs.mkdirSync(sitemapDir, { recursive: true });
   }
 
-  const sitemaps = ['core', 'blogs'];
+  const sitemaps = ['core', 'blogs', 'locations'];
   let allUrlsTxtContent = '';
 
   // 1. Generate Core Sitemap
@@ -78,22 +77,22 @@ async function generateSitemap() {
 
   // 2. Generate Blogs Sitemap
   let blogUrls = [];
+  let blogIndex = [];
   try {
     const dataPath = path.resolve(__dirname, '../src/data/blogs-index.json');
     if (fs.existsSync(dataPath)) {
-      const blogIndex = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
-      // Include all blogs
+      blogIndex = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
       blogUrls = blogIndex
         .filter(post => post.slug)
         .map(post => {
-        allUrlsTxtContent += `${BASE_URL}/blog/${post.slug}\n`;
-        return {
-          url: `${BASE_URL}/blog/${post.slug}`,
-          lastModified: getValidDate(post.date),
-          changeFrequency: 'monthly',
-          priority: '0.7'
-        };
-      });
+          allUrlsTxtContent += `${BASE_URL}/blog/${post.slug}\n`;
+          return {
+            url: `${BASE_URL}/blog/${post.slug}`,
+            lastModified: getValidDate(post.date),
+            changeFrequency: 'monthly',
+            priority: '0.7'
+          };
+        });
     }
   } catch (error) {
     console.warn('Could not read blog index for sitemap generation:', error.message);
@@ -102,12 +101,12 @@ async function generateSitemap() {
 
   // 3. Generate Locations (Cities/Countries) Sitemap
   const targetRegions = [];
-  
+  let citiesList = [];
   try {
     const citiesPath = path.resolve(__dirname, '../cities.json');
     if (fs.existsSync(citiesPath)) {
-      const cities = JSON.parse(fs.readFileSync(citiesPath, 'utf-8'));
-      targetRegions.push(...cities);
+      citiesList = JSON.parse(fs.readFileSync(citiesPath, 'utf-8'));
+      targetRegions.push(...citiesList);
     }
   } catch (error) {}
 
@@ -119,7 +118,6 @@ async function generateSitemap() {
     }
   } catch (error) {}
 
-  // Group all region URLs into a single sitemap chunk
   const regionUrls = targetRegions.filter(region => region.slug).map(region => {
     const fullUrl = `${BASE_URL}/${region.slug}`;
     allUrlsTxtContent += `${fullUrl}\n`;
@@ -130,11 +128,66 @@ async function generateSitemap() {
       priority: '0.8'
     };
   });
-  
   fs.writeFileSync(path.join(sitemapDir, 'locations.xml'), generateXml(regionUrls));
-  sitemaps.push('locations');
 
-  // 4. Generate Sitemap Index
+  // 4. Generate NowFloats Multi-Dimensional Matrix Sitemap (Services x Cities)
+  const matrixUrls = [];
+  try {
+    const servicesPath = path.resolve(__dirname, '../src/data/servicesData.json');
+
+    if (citiesList.length > 0 && fs.existsSync(servicesPath)) {
+      const servicesList = JSON.parse(fs.readFileSync(servicesPath, 'utf-8'));
+
+      citiesList.forEach(city => {
+        servicesList.forEach(service => {
+          const matrixUrl = `${BASE_URL}/${city.slug}/${service.slug}`;
+          allUrlsTxtContent += `${matrixUrl}\n`;
+          matrixUrls.push({
+            url: matrixUrl,
+            lastModified: getTodayDate(),
+            changeFrequency: 'weekly',
+            priority: '0.8'
+          });
+        });
+      });
+    }
+  } catch (error) {
+    console.warn('Could not generate matrix sitemap:', error.message);
+  }
+
+  if (matrixUrls.length > 0) {
+    fs.writeFileSync(path.join(sitemapDir, 'matrix.xml'), generateXml(matrixUrls));
+    sitemaps.push('matrix');
+  }
+
+  // 5. Generate NowFloats City-Blog Matrix Sitemap (/blog/[slug]/in/[city])
+  const cityBlogUrls = [];
+  try {
+    const topCities = citiesList.slice(0, 15); // Top 15 cities mapped for city-blogs
+    const topBlogs = blogIndex.filter(b => b.slug).slice(0, 30); // Top 30 blogs
+
+    topBlogs.forEach(blog => {
+      topCities.forEach(city => {
+        const cityBlogUrl = `${BASE_URL}/blog/${blog.slug}/in/${city.slug}`;
+        allUrlsTxtContent += `${cityBlogUrl}\n`;
+        cityBlogUrls.push({
+          url: cityBlogUrl,
+          lastModified: getTodayDate(),
+          changeFrequency: 'monthly',
+          priority: '0.7'
+        });
+      });
+    });
+  } catch (error) {
+    console.warn('Could not generate city-blog sitemap:', error.message);
+  }
+
+  if (cityBlogUrls.length > 0) {
+    fs.writeFileSync(path.join(sitemapDir, 'city_blogs.xml'), generateXml(cityBlogUrls));
+    sitemaps.push('city_blogs');
+  }
+
+  // 6. Generate Sitemap Index
   let sitemapIndexXml = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
   for (const id of sitemaps) {
     sitemapIndexXml += `  <sitemap>\n    <loc>${BASE_URL}/sitemap/${id}.xml</loc>\n  </sitemap>\n`;
@@ -142,11 +195,11 @@ async function generateSitemap() {
   sitemapIndexXml += `</sitemapindex>`;
   
   fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapIndexXml);
-  console.log('Sitemap Index generated at public/sitemap.xml');
+  console.log(`Sitemap Index generated at public/sitemap.xml with ${sitemaps.length} chunks.`);
 
   // Generate urls.txt for easy manual indexing
   fs.writeFileSync(path.join(publicDir, 'urls.txt'), allUrlsTxtContent.trim() + '\n');
-  console.log('URLs list generated at public/urls.txt');
+  console.log(`URLs list generated at public/urls.txt with ${allUrlsTxtContent.trim().split('\n').length} total URLs.`);
 }
 
 generateSitemap();

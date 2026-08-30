@@ -7,6 +7,7 @@ const __dirname = path.dirname(__filename);
 
 const citiesPath = path.join(__dirname, '../cities.json');
 const keywordsPath = path.join(__dirname, '../src/data/cityKeywords.json');
+const blogsIndexPath = path.join(__dirname, '../src/data/blogs-index.json');
 const outPath = path.join(__dirname, '../src/data/cityData.jsx');
 
 const cities = JSON.parse(fs.readFileSync(citiesPath, 'utf8'));
@@ -14,12 +15,13 @@ const cityKeywords = fs.existsSync(keywordsPath)
   ? JSON.parse(fs.readFileSync(keywordsPath, 'utf8'))
   : {};
 
+const blogsIndex = fs.existsSync(blogsIndexPath)
+  ? JSON.parse(fs.readFileSync(blogsIndexPath, 'utf8'))
+  : [];
+
 // Escape a plain string for safe embedding inside generated JSX text.
 const esc = (s) => JSON.stringify(String(s));
 
-// Build the FAQ set from the real, high-intent questions buyers actually ask
-// (from Grok research), personalised per city + its strongest local sector.
-// Real questions + useful answers = better Google rich results AND AI-search citations.
 function buildFaqs(cityName, sector) {
   const sectorLabel = sector || 'B2B';
   return [
@@ -83,21 +85,27 @@ cities.forEach((city, index) => {
 
   const sector = (cityKeywords[city.slug] && cityKeywords[city.slug].primarySector) || 'B2B';
 
-  // Meta description: natural search phrasing + the guarantee, kept under 155 chars.
   const metaDesc = `B2B web design in ${city.city} that ranks on Google and turns visitors into leads. Custom-built, live in ~7 days, 100% money-back guarantee.`;
-
-  // Title uses the natural head term ("web design {city}") + a B2B intent modifier.
   const seoTitle = `B2B Web Design in ${city.city} | Rankur`;
-
-  // Plain, founder-first hero that matches how a buyer actually searches,
-  // instead of opening with an encyclopedia intro about the city.
   const heroSubtitle = `You run a B2B company in ${city.city}, and your website should be bringing in leads - not just sitting there. I build fast, modern sites that rank on Google and turn visitors into real sales conversations. Most go live in about 7 days.`;
-
-  // Problem opener in the buyer's own words (Grok buyer_language), then the
-  // unique local pain point, then a plain payoff line.
   const problemOpener = `If your website looks outdated, doesn't show up on Google, or just isn't bringing in leads, you're not alone - most ${city.city} B2B sites have the same three problems.`;
 
   const faqs = buildFaqs(city.city, sector);
+
+  // Allocate 4 distinct blogs to this city from blogsIndex
+  let featuredBlogs = [];
+  if (blogsIndex.length > 0) {
+    const startIndex = (index * 4) % blogsIndex.length;
+    for (let i = 0; i < 4; i++) {
+      const b = blogsIndex[(startIndex + i) % blogsIndex.length];
+      featuredBlogs.push({
+        title: b.title,
+        slug: b.slug,
+        category: b.tag || 'B2B Growth',
+        description: b.excerpt || ''
+      });
+    }
+  }
 
   out += `  "${city.slug}": {
     path: '/${city.slug}',
@@ -118,7 +126,8 @@ cities.forEach((city, index) => {
       marketOpportunity: ${city.marketOpportunity ? esc(city.marketOpportunity) : "null"},
       competitiveLandscape: ${city.competitiveLandscape ? esc(city.competitiveLandscape) : "null"},
       proofText: ${esc(`I build custom websites and lead systems for B2B founders in ${city.city} and beyond.`)},
-      faqs: ${JSON.stringify(faqs)}
+      faqs: ${JSON.stringify(faqs)},
+      featuredBlogs: ${JSON.stringify(featuredBlogs)}
     }
   }${index < cities.length - 1 ? ',' : ''}\n`;
 });
@@ -126,4 +135,4 @@ cities.forEach((city, index) => {
 out += `};\n`;
 
 fs.writeFileSync(outPath, out, 'utf8');
-console.log('Successfully updated src/data/cityData.jsx with enhanced content uniqueness');
+console.log('Successfully updated src/data/cityData.jsx with allocated blog posts per city.');
