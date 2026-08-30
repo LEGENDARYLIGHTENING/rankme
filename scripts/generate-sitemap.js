@@ -127,7 +127,7 @@ async function generateSitemap() {
     }
   } catch (error) {}
 
-  // 4. Generate CITY-WISE Sitemaps (One dedicated XML file per city!)
+  // 4. Generate DEDICATED CITY-WISE Sitemaps (City Hub + 10 Services + Local Blogs + Core Subpages)
   console.log(`Generating dedicated city-wise sitemaps for ${citiesList.length} cities...`);
 
   citiesList.forEach(city => {
@@ -153,7 +153,7 @@ async function generateSitemap() {
         url: matrixUrl,
         lastModified: getTodayDate(),
         changeFrequency: 'weekly',
-        priority: '0.8'
+        priority: '0.85'
       });
     });
 
@@ -166,13 +166,31 @@ async function generateSitemap() {
         url: cityBlogUrl,
         lastModified: getTodayDate(),
         changeFrequency: 'monthly',
+        priority: '0.75'
+      });
+    });
+
+    // D. Core Localized Subpages for City
+    const coreSubpages = ['services', 'free-audit', 'case-studies', 'about', 'contact'];
+    coreSubpages.forEach(sub => {
+      const subUrl = `${BASE_URL}/${city.slug}/${sub}`;
+      allUrlsTxtContent += `${subUrl}\n`;
+      cityUrls.push({
+        url: subUrl,
+        lastModified: getTodayDate(),
+        changeFrequency: 'weekly',
         priority: '0.7'
       });
     });
 
-    // Save city-wise sitemap chunk (e.g. sitemap/city-austin-us.xml)
-    const chunkFileName = `city-${city.slug}.xml`;
-    fs.writeFileSync(path.join(sitemapDir, chunkFileName), generateXml(cityUrls));
+    // Save city sitemaps under BOTH filenames: city-[slug].xml AND [slug].xml
+    const cityFileName = `city-${city.slug}.xml`;
+    const aliasFileName = `${city.slug}.xml`;
+
+    const xmlData = generateXml(cityUrls);
+    fs.writeFileSync(path.join(sitemapDir, cityFileName), xmlData);
+    fs.writeFileSync(path.join(sitemapDir, aliasFileName), xmlData);
+
     sitemapChunkIds.push(`city-${city.slug}`);
   });
 
