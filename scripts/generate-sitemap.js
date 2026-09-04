@@ -170,26 +170,10 @@ async function generateSitemap() {
       });
     });
 
-    // D. Core Localized Subpages for City
-    const coreSubpages = ['services', 'free-audit', 'case-studies', 'about', 'contact'];
-    coreSubpages.forEach(sub => {
-      const subUrl = `${BASE_URL}/${city.slug}/${sub}`;
-      allUrlsTxtContent += `${subUrl}\n`;
-      cityUrls.push({
-        url: subUrl,
-        lastModified: getTodayDate(),
-        changeFrequency: 'weekly',
-        priority: '0.7'
-      });
-    });
-
-    // Save city sitemaps under BOTH filenames: city-[slug].xml AND [slug].xml
+    // Save city sitemap: city-[slug].xml
     const cityFileName = `city-${city.slug}.xml`;
-    const aliasFileName = `${city.slug}.xml`;
-
     const xmlData = generateXml(cityUrls);
     fs.writeFileSync(path.join(sitemapDir, cityFileName), xmlData);
-    fs.writeFileSync(path.join(sitemapDir, aliasFileName), xmlData);
 
     sitemapChunkIds.push(`city-${city.slug}`);
   });

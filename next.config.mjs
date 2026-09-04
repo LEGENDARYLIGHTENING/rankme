@@ -3,6 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
   async redirects() {
     return [
+      // Legacy homepage alias redirect
+      { source: '/home', destination: '/', permanent: true },
+
       // Collapse every region-scoped sub-route into its single global page.
       // These previously generated ~960 byte-identical duplicate pages.
       { source: '/:region/contact', destination: '/contact', permanent: true },
@@ -41,6 +44,20 @@ const nextConfig = {
       { source: '/riyadh', destination: '/riyadh-saudi-arabia', permanent: true },
       { source: '/st-paul', destination: '/st-paul-us', permanent: true },
       { source: '/saint-paul', destination: '/st-paul-us', permanent: true },
+      // Orphan international cities → country hubs (rescued from 404)
+      { source: '/hamburg', destination: '/germany', permanent: true },
+      { source: '/frankfurt', destination: '/germany', permanent: true },
+      { source: '/amsterdam', destination: '/germany', permanent: true },
+      { source: '/brussels', destination: '/uk', permanent: true },
+      { source: '/cairo', destination: '/uae', permanent: true },
+      { source: '/istanbul', destination: '/uae', permanent: true },
+      { source: '/dubai-uae', destination: '/uae', permanent: true },
+      { source: '/bangalore', destination: '/singapore', permanent: true },
+      { source: '/delhi', destination: '/singapore', permanent: true },
+      { source: '/bangkok', destination: '/singapore', permanent: true },
+      { source: '/toronto-canada', destination: '/canada', permanent: true },
+      { source: '/lagos', destination: '/uk', permanent: true },
+      { source: '/manchester-uk', destination: '/uk', permanent: true },
     ];
   },
 };

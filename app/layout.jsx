@@ -3,6 +3,7 @@ import Navbar from '../src/components/Navbar';
 import Footer from '../src/components/Footer';
 
 export const metadata = {
+  metadataBase: new URL('https://rankursite.com'),
   title: 'B2B Web Design & Lead Generation for Founders | Rankur',
   description: 'I build fast, custom B2B websites that rank on Google and turn visitors into leads - most live in about 7 days, backed by a 100% money-back guarantee.',
   openGraph: {
@@ -28,7 +29,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/png" href="/Copilot_20260621_183745.png" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" href="/Copilot_20260621_183745.png" sizes="any" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />

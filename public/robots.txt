@@ -3,9 +3,21 @@
 # ─────────────────────────────────────────
 User-agent: Googlebot
 Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /dashboard/
+Disallow: /onboarding/
+Disallow: /settings/
+Disallow: /report/
 
 User-agent: Bingbot
 Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /dashboard/
+Disallow: /onboarding/
+Disallow: /settings/
+Disallow: /report/
 
 # ─────────────────────────────────────────
 # AI / LLM Crawlers (retrieval & citation)
@@ -39,6 +51,12 @@ Allow: /
 # ─────────────────────────────────────────
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /dashboard/
+Disallow: /onboarding/
+Disallow: /settings/
+Disallow: /report/
 
 # ─────────────────────────────────────────
 # Sitemaps & LLM Context Files

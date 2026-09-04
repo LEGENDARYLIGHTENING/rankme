@@ -31,3 +31,5 @@ dist-ssr
 .env.production.local
 promotions/
 Rankur_Social_Media_Campaign.zip
+*.tsbuildinfo
+Performance/
