@@ -175,6 +175,14 @@ async function generateSitemap() {
     const xmlData = generateXml(cityUrls);
     fs.writeFileSync(path.join(sitemapDir, cityFileName), xmlData);
 
+    // Write city aliases so /sitemap/[city].xml, /sitemap/[city-us].xml resolve directly
+    fs.writeFileSync(path.join(sitemapDir, `${city.slug}.xml`), xmlData);
+    if (city.slug.endsWith('-us')) {
+      const shortCity = city.slug.replace(/-us$/, '');
+      fs.writeFileSync(path.join(sitemapDir, `${shortCity}.xml`), xmlData);
+      fs.writeFileSync(path.join(sitemapDir, `city-${shortCity}.xml`), xmlData);
+    }
+
     sitemapChunkIds.push(`city-${city.slug}`);
   });
 
@@ -192,6 +200,19 @@ async function generateSitemap() {
     });
     fs.writeFileSync(path.join(sitemapDir, 'countries.xml'), generateXml(countryUrls));
     sitemapChunkIds.push('countries');
+
+    // Also write individual country XMLs so /sitemap/uk.xml, /sitemap/usa.xml resolve directly
+    countriesList.filter(c => c.slug).forEach(country => {
+      const singleCountryUrl = [{
+        url: `${BASE_URL}/${country.slug}`,
+        lastModified: getTodayDate(),
+        changeFrequency: 'weekly',
+        priority: '0.8'
+      }];
+      const countryXml = generateXml(singleCountryUrl);
+      fs.writeFileSync(path.join(sitemapDir, `${country.slug}.xml`), countryXml);
+      fs.writeFileSync(path.join(sitemapDir, `country-${country.slug}.xml`), countryXml);
+    });
   }
 
   // 6. Generate Master Sitemap Index (sitemap.xml)
