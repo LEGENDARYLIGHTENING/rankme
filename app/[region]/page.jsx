@@ -22,19 +22,7 @@ function resolveRegionData(slug) {
 }
 
 export async function generateStaticParams() {
-  const params = [];
-  const keys = Object.keys(allRegions);
-
-  for (const key of keys) {
-    params.push({ region: key });
-    // Also generate short alias static params if key ends with suffix
-    const stripped = key.replace(/-(us|uk|canada|australia|uae|saudi-arabia)$/, '');
-    if (stripped !== key && !allRegions[stripped]) {
-      params.push({ region: stripped });
-    }
-  }
-
-  return params;
+  return Object.keys(allRegions).map(key => ({ region: key }));
 }
 
 export async function generateMetadata({ params }) {

@@ -4,6 +4,9 @@ import Footer from '../src/components/Footer';
 
 export const metadata = {
   metadataBase: new URL('https://rankursite.com'),
+  alternates: {
+    canonical: 'https://rankursite.com',
+  },
   title: 'B2B Web Design & Lead Generation for Founders | Rankur',
   description: 'I build fast, custom B2B websites that rank on Google and turn visitors into leads - most live in about 7 days, backed by a 100% money-back guarantee.',
   openGraph: {

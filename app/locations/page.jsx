@@ -5,6 +5,9 @@ import countries from '../../countries.json';
 export const metadata = {
   title: 'Global B2B Locations & Target Markets Directory | Rankur',
   description: 'Explore Rankur’s global B2B growth consultancy locations across Tier-1 markets in the USA, UK, Canada, Australia, UAE, Saudi Arabia, Europe, and Asia.',
+  alternates: {
+    canonical: 'https://rankursite.com/locations',
+  },
 };
 
 export default function LocationsPage() {
@@ -37,8 +40,8 @@ export default function LocationsPage() {
                 </p>
                 <div style={{ display: 'flex', gap: 'var(--space-sm)', flexWrap: 'wrap', fontSize: '0.8rem' }}>
                   <Link href={`/${c.slug}`} style={{ color: 'var(--color-white)', opacity: 0.8 }}>Overview</Link> • 
-                  <Link href={`/${c.slug}/services`} style={{ color: 'var(--color-white)', opacity: 0.8 }}>Services</Link> • 
-                  <Link href={`/${c.slug}/case-studies`} style={{ color: 'var(--color-white)', opacity: 0.8 }}>Case Studies</Link>
+                  <Link href="/services" style={{ color: 'var(--color-white)', opacity: 0.8 }}>Services</Link> • 
+                  <Link href="/case-studies" style={{ color: 'var(--color-white)', opacity: 0.8 }}>Case Studies</Link>
                 </div>
               </div>
             ))}
@@ -57,7 +60,7 @@ export default function LocationsPage() {
                   📍 {city.city} ({city.country})
                 </Link>
                 <div style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>
-                  <Link href={`/${city.slug}/services`} style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Services</Link> | <Link href={`/${city.slug}/contact`} style={{ color: 'var(--color-text-muted)', textDecoration: 'none' }}>Contact</Link>
+                  <Link href={`/${city.slug}/b2b-web-design`} style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Web Design</Link> | <Link href="/contact" style={{ color: 'var(--color-text-muted)', textDecoration: 'none' }}>Contact</Link>
                 </div>
               </div>
             ))}
