@@ -93,7 +93,7 @@ export async function generateMetadata({ params }) {
   if (!post) return {};
   const url = `https://rankursite.com/blog/${post.slug}`;
   return {
-    title: post.title,
+    title: `${post.title} | Rankur`,
     description: post.excerpt,
     alternates: { canonical: url },
     openGraph: { title: post.title, description: post.excerpt, url, type: 'article', images: post.image ? [post.image] : [] },
@@ -124,5 +124,42 @@ export default async function Page({ params }) {
     .filter((b) => b.tag === postMeta.tag && b.slug !== slug)
     .slice(0, 3);
 
-  return <BlogPost postMeta={postMeta} content={content} relatedPosts={relatedPosts} />;
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: postMeta.title,
+    description: postMeta.excerpt,
+    image: postMeta.image || 'https://rankursite.com/og-image.jpg',
+    datePublished: postMeta.date || '2026-01-01',
+    dateModified: postMeta.date || '2026-01-01',
+    author: {
+      '@type': 'Person',
+      name: postMeta.author || 'Moksh Parjapati',
+      jobTitle: postMeta.authorRole || 'Founder & B2B Growth Strategist',
+      url: 'https://rankursite.com/about',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Rankur',
+      url: 'https://rankursite.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://rankursite.com/logo-banner-dark.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://rankursite.com/blog/${slug}`,
+    },
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <BlogPost postMeta={postMeta} content={content} relatedPosts={relatedPosts} />
+    </>
+  );
 }

@@ -1,61 +1,82 @@
-import { notFound } from 'next/navigation';
-import { cityData } from '../../src/data/cityData.jsx';
+import { notFound, redirect } from 'next/navigation';
 import { countryData } from '../../src/data/countryData.jsx';
 import NichePage from '../../src/views/NichePage';
 
-const allRegions = { ...cityData, ...countryData };
-
-// Enable dynamic params so short city aliases (e.g. /austin, /charlotte, /columbus) resolve seamlessly
 export const dynamicParams = true;
 
-function resolveRegionData(slug) {
-  if (allRegions[slug]) return { key: slug, data: allRegions[slug] };
+const countryKeys = Object.keys(countryData);
 
-  const suffixes = ['-us', '-uk', '-canada', '-australia', '-uae', '-saudi-arabia'];
-  for (const suf of suffixes) {
-    if (allRegions[`${slug}${suf}`]) {
-      return { key: `${slug}${suf}`, data: allRegions[`${slug}${suf}`] };
-    }
-  }
+function resolveCountryTarget(slug) {
+  if (countryData[slug]) return slug;
+
+  // Map country aliases
+  if (slug === 'united-states' || slug === 'us') return 'usa';
+  if (slug === 'united-kingdom' || slug === 'great-britain') return 'uk';
+
+  // Map legacy city suffixes directly to their authoritative national silos
+  if (slug.endsWith('-us')) return 'usa';
+  if (slug.endsWith('-uk')) return 'uk';
+  if (slug.endsWith('-canada')) return 'canada';
+  if (slug.endsWith('-australia')) return 'australia';
+  if (slug.endsWith('-uae')) return 'uae';
+  if (slug.endsWith('-saudi-arabia')) return 'saudi-arabia';
+  if (slug.endsWith('-germany')) return 'germany';
+  if (slug.endsWith('-singapore')) return 'singapore';
+
+  // European / German cities
+  if (['hamburg', 'frankfurt', 'berlin', 'munich'].includes(slug)) return 'germany';
+  if (['brussels', 'amsterdam', 'dublin', 'london', 'belfast', 'manchester', 'bristol'].includes(slug)) return 'uk';
+  if (['toronto', 'montreal', 'calgary', 'vancouver'].includes(slug)) return 'canada';
+  if (['sydney', 'melbourne', 'brisbane', 'perth', 'canberra', 'adelaide'].includes(slug)) return 'australia';
+  if (['dubai', 'abu-dhabi'].includes(slug)) return 'uae';
+  if (['riyadh', 'jeddah'].includes(slug)) return 'saudi-arabia';
 
   return null;
 }
 
 export async function generateStaticParams() {
-  return Object.keys(allRegions).map(key => ({ region: key }));
+  // Statically pre-render only the authoritative, high-value country hubs
+  return countryKeys.map(key => ({ region: key }));
 }
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
-  const regionMatch = resolveRegionData(resolvedParams.region);
-  if (!regionMatch) return {};
+  const slug = resolvedParams.region;
 
-  const { key, data: regionData } = regionMatch;
+  if (!countryData[slug]) {
+    // If not a direct country hub, don't index; canonicalize to parent or let redirect handle it
+    const target = resolveCountryTarget(slug);
+    if (target) {
+      return {
+        alternates: {
+          canonical: `https://rankursite.com/${target}`,
+        },
+      };
+    }
+    return {};
+  }
+
+  const regionData = countryData[slug];
   const { props } = regionData;
-  const canonicalUrl = `https://rankursite.com/${key}`;
+  const canonicalUrl = `https://rankursite.com/${slug}`;
   const trimmedDesc = props.seoDesc ? (props.seoDesc.length > 155 ? props.seoDesc.substring(0, 152) + '...' : props.seoDesc) : '';
 
-  const countrySilos = ['usa', 'uk', 'canada', 'australia', 'uae', 'saudi-arabia'];
-  const isCountrySilo = countrySilos.includes(key);
-
-  const languages = isCountrySilo
-    ? {
-        'en-US': 'https://rankursite.com/usa',
-        'en-GB': 'https://rankursite.com/uk',
-        'en-CA': 'https://rankursite.com/canada',
-        'en-AU': 'https://rankursite.com/australia',
-        'en-AE': 'https://rankursite.com/uae',
-        'en-SA': 'https://rankursite.com/saudi-arabia',
-        'x-default': 'https://rankursite.com/usa',
-      }
-    : undefined;
+  const languages = {
+    'en-US': 'https://rankursite.com/usa',
+    'en-GB': 'https://rankursite.com/uk',
+    'en-CA': 'https://rankursite.com/canada',
+    'en-AU': 'https://rankursite.com/australia',
+    'en-AE': 'https://rankursite.com/uae',
+    'en-SA': 'https://rankursite.com/saudi-arabia',
+    'x-default': 'https://rankursite.com/usa',
+  };
 
   return {
     title: props.seoTitle || `B2B Web Design & Growth Consultant in ${props.niche}`,
     description: trimmedDesc,
     alternates: {
       canonical: canonicalUrl,
-      ...(languages ? { languages } : {}),
+      languages,
     },
     openGraph: {
       title: props.seoTitle || `B2B Web Design & Growth Consultant in ${props.niche}`,
@@ -85,46 +106,51 @@ export async function generateMetadata({ params }) {
 
 export default async function Page({ params }) {
   const resolvedParams = await params;
-  const regionMatch = resolveRegionData(resolvedParams.region);
-  if (!regionMatch) notFound();
+  const slug = resolvedParams.region;
 
-  const { key, data: regionData } = regionMatch;
-  const props = { ...regionData.props };
-
-  // Programmatic Injection of Local Intent Data
-  try {
-    const fs = require('fs');
-    const path = require('path');
-    const intentPath = path.join(process.cwd(), 'src/data/local-intent.json');
-    if (fs.existsSync(intentPath)) {
-      const intentData = JSON.parse(fs.readFileSync(intentPath, 'utf8'));
-      
-      const parts = key.split('-');
-      parts.pop(); // remove country suffix
-      const cityName = parts.map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' ');
-      
-      const localContext = intentData[cityName];
-
-      if (localContext) {
-        props.problemText = [
-          `If your website looks outdated, doesn't show up on Google, or just isn't bringing in leads, you're not alone. I talk to founders in ${cityName} every week who tell me: "${localContext.buyer_language[0]}" or "${localContext.buyer_language[1]}."`,
-          `The B2B market here is competitive, especially in ${localContext.top_sectors.join(', ')}. Many mid-market service providers still present digital experiences that feel regional rather than enterprise-ready.`,
-          `One of the biggest concerns I hear is: "${localContext.objections[0]}". But the reality is, a passive website is costing you way more in lost pipeline. So visitors leave, ads cost more than they should, and the sales pipeline stays empty. It doesn't have to be that way.`
-        ];
-
-        props.faqs = [
-          { question: localContext.real_questions[0] || `How much does a B2B website cost in ${cityName}?`, answer: `Every project is quoted on scope, and you get one fixed price up front - no hourly billing and no surprise invoices. Book a free audit and I'll send a clear quote for your ${cityName} site within a day.` },
-          { question: localContext.real_questions[1] || "How long does it take to build and launch?", answer: `Most ${cityName} B2B sites go live in about 7 days, with larger builds taking 7-14. You see progress the whole way through.` },
-          { question: localContext.real_questions[2] || "Will the new site actually rank on Google?", answer: `That's the point of it. I build on a fast, clean technical foundation and target the exact searches your ${cityName} buyers use.` },
-          { question: localContext.real_questions[3] || "Do you handle SEO and lead generation?", answer: `Both. The design, the search setup, and the lead capture are one job.` },
-          { question: `Have you worked with ${localContext.top_sectors[0] || 'B2B'} companies?`, answer: `Yes. ${localContext.top_sectors[0] || 'B2B'} is one of the strongest sectors in ${cityName}, and I build sites that speak to how those buyers actually evaluate vendors.` },
-          { question: localContext.real_questions[4] || "What if I'm not happy with the result?", answer: `Every build is backed by a 100% money-back guarantee. If it isn't right, you don't pay.` }
-        ];
-      }
+  // If this is not a direct country silo, permanently redirect to consolidated country hub or directory
+  if (!countryData[slug]) {
+    const targetCountry = resolveCountryTarget(slug);
+    if (targetCountry) {
+      redirect(`/${targetCountry}`);
     }
-  } catch (e) {
-    console.error("Error injecting local intent:", e);
+    redirect('/locations');
   }
 
-  return <NichePage {...props} />;
+  const regionData = countryData[slug];
+  const props = { ...regionData.props };
+
+  const countryJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ProfessionalService',
+    name: `Rankur B2B Growth Consultancy - ${props.niche}`,
+    url: `https://rankursite.com/${slug}`,
+    description: props.seoDesc,
+    founder: {
+      '@type': 'Person',
+      name: 'Moksh Parjapati',
+      jobTitle: 'Founder & B2B Growth Consultant',
+    },
+    areaServed: {
+      '@type': 'Country',
+      name: props.niche.replace(' B2B', ''),
+    },
+    serviceType: [
+      'B2B Web Design',
+      'Next.js Growth Systems',
+      'Technical SEO',
+      'Generative Engine Optimization (GEO)',
+      'Conversion Rate Optimization',
+    ],
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(countryJsonLd) }}
+      />
+      <NichePage {...props} />
+    </>
+  );
 }

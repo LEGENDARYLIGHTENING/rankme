@@ -11,11 +11,15 @@ export const metadata = {
   description: 'I build fast, custom B2B websites that rank on Google and turn visitors into leads - most live in about 7 days, backed by a 100% money-back guarantee.',
   openGraph: {
     title: 'B2B Web Design & Lead Generation for Founders | Rankur',
+    description: 'I build fast, custom B2B websites that rank on Google and turn visitors into leads - most live in about 7 days, backed by a 100% money-back guarantee.',
     url: 'https://rankursite.com',
     siteName: 'Rankur',
     images: [
       {
         url: 'https://rankursite.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Rankur - B2B Web Design & Lead Generation for Founders',
       },
     ],
     locale: 'en_US',
@@ -23,9 +27,80 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
+    title: 'B2B Web Design & Lead Generation for Founders | Rankur',
+    description: 'I build fast, custom B2B websites that rank on Google and turn visitors into leads - most live in about 7 days, backed by a 100% money-back guarantee.',
     creator: '@moksh_rankur',
     images: ['https://rankursite.com/twitter-image.jpg'],
   },
+};
+
+const masterSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': 'https://rankursite.com/#website',
+      url: 'https://rankursite.com',
+      name: 'Rankur',
+      description: 'High-speed Next.js B2B web infrastructure, GEO search optimization, and lead generation systems for founders.',
+      publisher: {
+        '@id': 'https://rankursite.com/#organization',
+      },
+      inLanguage: 'en-US',
+    },
+    {
+      '@type': 'Organization',
+      '@id': 'https://rankursite.com/#organization',
+      name: 'Rankur',
+      url: 'https://rankursite.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://rankursite.com/logo-banner-dark.png',
+      },
+      sameAs: [
+        'https://www.crunchbase.com/organization/rankur-a39c',
+        'https://twitter.com/moksh_rankur',
+      ],
+      founder: {
+        '@id': 'https://rankursite.com/#founder',
+      },
+    },
+    {
+      '@type': 'Person',
+      '@id': 'https://rankursite.com/#founder',
+      name: 'Moksh Parjapati',
+      jobTitle: 'Founder & B2B Growth Consultant',
+      url: 'https://rankursite.com/about',
+      worksFor: {
+        '@id': 'https://rankursite.com/#organization',
+      },
+      knowsAbout: [
+        'B2B Web Design',
+        'Next.js Engineering',
+        'Generative Engine Optimization (GEO)',
+        'Technical SEO',
+        'Conversion Rate Optimization',
+      ],
+      sameAs: [
+        'https://www.crunchbase.com/organization/rankur-a39c',
+        'https://twitter.com/moksh_rankur',
+      ],
+    },
+    {
+      '@type': 'ProfessionalService',
+      '@id': 'https://rankursite.com/#service',
+      name: 'Rankur - B2B Growth & Web Engineering',
+      url: 'https://rankursite.com',
+      priceRange: '$$$',
+      areaServed: ['US', 'GB', 'CA', 'AU', 'AE', 'DE'],
+      serviceType: [
+        'Custom React & Next.js Websites',
+        'B2B Conversion Rate Optimization',
+        'Generative Engine Optimization (GEO)',
+        'Technical SEO Auditing',
+      ],
+    },
+  ],
 };
 
 export default function RootLayout({ children }) {
@@ -37,6 +112,10 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(masterSchema) }}
+        />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-L49CTLKWYS"></script>
         <script
           dangerouslySetInnerHTML={{
