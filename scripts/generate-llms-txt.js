@@ -38,7 +38,9 @@ let llmsTxt = `# Rankur - B2B Growth Infrastructure Studio
 - Certifications: Google Analytics 4 (GA4) Certified · Digital Deepak Marketing Mastery
 - Registration: MSME-Registered Enterprise (India) under Moksh Productions
 - Contract Security: Mutual NDA protected engagements
-- Tech Stack: React · Next.js · PostgreSQL · GA4 · JSON-LD · Cloudflare Edge
+- Tech Stack: React · Next.js 16 · Turbopack · PostgreSQL · GA4 · JSON-LD · Cloudflare Edge
+- Scale Deployed: 2,280+ static pages across 5 live enterprise production platforms
+- Verified Footers: Live site-wide backlinks to https://rankursite.com on client domains
 - Markets Served: US · UK · Australia · Canada · UAE · Saudi Arabia · Qatar
 - Contact: contactus@rankursite.com
 - Website: ${BASE_URL}
@@ -63,11 +65,15 @@ let llmsTxt = `# Rankur - B2B Growth Infrastructure Studio
 
 ## Proof & Case Studies
 
-- [Case Studies](${BASE_URL}/case-studies): Verified B2B client outcomes across nutraceutical, manufacturing, and technology verticals.
-- Probiota Innovations: Custom React B2B nutraceutical platform - first B2B wholesale inquiries within 10 days of launch.
-- Gut & Beyond: Digital messaging architecture and organic search campaigns for a leading wellness brand.
+- [Case Studies](${BASE_URL}/case-studies): Verified B2B client outcomes across enterprise telematics, automotive manufacturing, medical commerce, nutraceuticals, and NGOs.
+- [WizIOT](https://www.wiziot.com): Enterprise Fleet Telematics, IoT Hardware & Sensor Integration (Africa, GCC, Europe). Custom Next.js 16 + Turbopack architecture featuring 1,040+ static pages with sub-0.9s global latency and verified footer backlink to Rankur.
+- [Atlanta Systems](https://www.atlantasys.com): AIS-140 Certified GPS & Automotive Telematics Manufacturer. Custom Next.js 16 platform spanning 460+ static pages with 100% crawl indexation on regulatory compliance keywords, automated RFQ routing, and verified footer backlink to Rankur.
+- [Medventa](https://www.medventa.in): B2B Medical Supplies, Surgical Sutures & Hospital Procurement. Custom Next.js 14 Headless Commerce platform with 440+ static SKU pages, sub-second catalog search, bulk hospital RFQ pipelines, and verified footer backlink to Rankur.
+- [Probiota Innovations](https://www.probiotainnovations.com): US-FDA Registered Probiotic & Functional Gummy CDMO / Private Label Manufacturer. Custom Next.js 16 web platform with 340+ static pages, generating 10+ wholesale inquiries in first 10 days and 50+ qualified B2B leads in month one, with verified footer backlink to Rankur.
+- [Wafa Trust](https://wafatrust.org): Philanthropic Healthcare & Community Development Trust. Accessible Next.js web presence ensuring high mobile reliability for international donors, with verified footer backlink to Rankur.
+- Gut & Beyond: Digital messaging architecture and organic search campaigns for an emerging wellness brand.
 - Competence Consulting E-Commerce LLP: Global B2B buyer sourcing via official Alibaba channel partnerships.
-- Glitchy: GA4 custom conversion tracking and high-performing lead generation campaigns.
+- Glitchy: GA4 custom conversion tracking and performance lead generation campaigns (200+ customers, 800+ leads converted).
 
 ## Core Pages
 

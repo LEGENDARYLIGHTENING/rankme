@@ -10,12 +10,28 @@ const pingUrls = [
   `http://www.bing.com/ping?sitemap=${encodeURIComponent(sitemapUrl)}`
 ];
 
+let completed = 0;
+const finish = () => {
+  completed++;
+  if (completed >= pingUrls.length) {
+    process.exit(0);
+  }
+};
+
 pingUrls.forEach(url => {
   const req = (url.startsWith('https') ? https : http).get(url, (res) => {
     console.log(`Pinged ${url} - Status Code: ${res.statusCode}`);
+    res.resume();
+    finish();
+  });
+
+  req.setTimeout(3000, () => {
+    req.destroy();
+    finish();
   });
 
   req.on('error', (err) => {
     console.log(`Ping to ${url} sent (network response handled).`);
+    finish();
   });
 });

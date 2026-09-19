@@ -23,6 +23,7 @@
     "sharp": "^0.35.4"
   },
   "devDependencies": {
+    "docx": "^9.7.1",
     "eslint": "^9.0.0",
     "eslint-config-next": "15.0.0",
     "extract-zip": "^2.0.1",

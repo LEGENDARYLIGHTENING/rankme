@@ -1,19 +1,75 @@
 "use client";
 
 import Link from 'next/link';
-import { usePathname, useParams } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import HeroSection from '../components/HeroSection';
+import ClientTrustBar from '../components/ClientTrustBar';
 import ServiceCard from '../components/ServiceCard';
 import ProcessSteps from '../components/ProcessSteps';
 import Testimonials from '../components/Testimonials';
 import './Home.css';
 
 const proofItems = [
-  { value: 'Custom Built', label: 'Fast React & Next.js websites' },
-  { value: 'GA4 Tracking', label: 'See exactly where leads come from' },
-  { value: 'Google + AI', label: 'Found on Google, ChatGPT & Perplexity' },
-  { value: '~10 Days', label: 'From kickoff to your first inbound lead' },
-  { value: '50+ Leads', label: 'Generated for B2B clients' },
+  { value: '2,280+', label: 'Static Pages in Active Production' },
+  { value: '5 Platforms', label: 'Verified Live Client Deployments' },
+  { value: 'Next.js 16', label: 'Cutting-Edge Web Architecture' },
+  { value: '< 1.2s', label: 'Sub-Second Global Page Load' },
+  { value: '50+ Leads', label: 'Captured in Month 1 Post-Launch' },
+];
+
+const verifiedShowcases = [
+  {
+    tag: 'IoT Telematics & Hardware',
+    title: 'WizIOT: Enterprise Fleet Telematics Platform',
+    domain: 'https://www.wiziot.com',
+    badge: '1,040+ Static Pages · Next.js 16',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80',
+    description: 'Engineered a monolithic-scale Next.js 16 web platform with 1,040+ static pages, optimized for enterprise fleet telematics and IoT sensor hardware across Africa, GCC, and Europe with zero crawl debt.',
+    stats: [
+      { value: '1,040+', label: 'Static Pages' },
+      { value: '< 0.9s', label: 'Global LCP' },
+      { value: '100%', label: 'Crawl Indexation' },
+    ],
+  },
+  {
+    tag: 'Automotive Manufacturing',
+    title: 'Atlanta Systems: AIS-140 Certified GPS Infrastructure',
+    domain: 'https://www.atlantasys.com',
+    badge: '460+ Static Pages · Next.js 16',
+    image: 'https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=800&q=80',
+    description: 'Designed and deployed 460+ static pages on Next.js 16 for an AIS-140 certified GPS telematics manufacturer, capturing high-intent procurement searches and automated RFQ pipeline.',
+    stats: [
+      { value: '460+', label: 'Static Pages' },
+      { value: 'AIS-140', label: 'Compliance SEO' },
+      { value: 'Direct RFQs', label: 'B2B Procurement' },
+    ],
+  },
+  {
+    tag: 'B2B Healthcare Commerce',
+    title: 'Medventa: Surgical Supplies & Hospital Procurement',
+    domain: 'https://www.medventa.in',
+    badge: '440+ Static Pages · Next.js 14',
+    image: 'https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80',
+    description: 'Built a custom Next.js 14 headless commerce catalog covering 440+ surgical suture and hospital supply SKUs with sub-second catalog search and bulk inquiry routing.',
+    stats: [
+      { value: '440+', label: 'Static Pages' },
+      { value: 'Headless', label: 'Next.js 14 Stack' },
+      { value: 'Sub-second', label: 'Catalog Search' },
+    ],
+  },
+  {
+    tag: 'Nutraceutical CDMO',
+    title: 'Probiota Innovations: FDA Probiotic Platform',
+    domain: 'https://www.probiotainnovations.com',
+    badge: '340+ Static Pages · Next.js 16',
+    image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&q=80',
+    description: 'Engineered a custom B2B web platform optimized for speed, US-FDA regulatory compliance, and overseas wholesale inquiries. Generated 10+ leads in 10 days and 50+ in month one.',
+    stats: [
+      { value: '340+', label: 'Static Pages' },
+      { value: '10 Days', label: 'To First Lead' },
+      { value: '50+ Leads', label: 'Month 1 Inflow' },
+    ],
+  },
 ];
 
 const capabilities = [
@@ -55,10 +111,11 @@ const capabilities = [
 ];
 
 const niches = [
-  { label: 'B2B Manufacturers & Exporters', to: '/case-studies' },
-  { label: 'Nutraceutical & Wellness Brands', to: '/case-studies' },
-  { label: 'SaaS & Technology Startups', to: '/saas-websites' },
-  { label: 'Industrial & Business Services', to: '/case-studies' },
+  { label: 'Fleet Telematics & IoT Hardware', to: '/case-studies#wiziot-case-study' },
+  { label: 'Automotive & AIS-140 Manufacturing', to: '/case-studies#atlanta-case-study' },
+  { label: 'B2B Medical Supplies & Hospitals', to: '/case-studies#medventa-case-study' },
+  { label: 'Nutraceutical & Wellness CDMO', to: '/case-studies#probiota-case-study' },
+  { label: 'SaaS & Enterprise Startups', to: '/saas-websites' },
 ];
 
 const processSteps = [
@@ -78,10 +135,9 @@ const processSteps = [
 
 export default function Home() {
   const location = usePathname();
+
   return (
     <>
-      
-
       {/* Hero */}
       <HeroSection
         label="B2B Web Design & Lead Generation"
@@ -96,17 +152,8 @@ export default function Home() {
         secondaryCTA={{ to: '/philosophy', label: 'How I Work' }}
       />
 
-      {/* Trusted By Strip */}
-      <section className="trusted-by-strip" style={{ padding: 'var(--space-2xl) 0', borderBottom: '1px solid var(--color-border)', backgroundColor: 'var(--color-black)' }}>
-        <div className="container" style={{ textAlign: 'center' }}>
-          <p className="section-label" style={{ marginBottom: 'var(--space-lg)' }}>Trusted By Organizations Like</p>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 'var(--space-3xl)', flexWrap: 'wrap', opacity: 0.7 }}>
-            <a href="https://www.wafatrustindia.org/" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block' }}>
-              <img src="/wafa-trust-logo.jpeg" alt="Wafa Educational And Charitable Trust" style={{ height: '60px', width: 'auto', filter: 'grayscale(100%)', transition: 'filter 0.3s ease' }} onMouseOver={e => e.currentTarget.style.filter = 'none'} onMouseOut={e => e.currentTarget.style.filter = 'grayscale(100%)'} />
-            </a>
-          </div>
-        </div>
-      </section>
+      {/* Client Logo Cloud & Verified Trust Bar */}
+      <ClientTrustBar />
 
       {/* Proof Strip */}
       <section className="proof-strip" id="proof-strip">
@@ -166,38 +213,61 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Case Study Teaser */}
-      <section className="case-teaser" id="case-teaser" style={{ backgroundColor: 'var(--color-dark-surface)' }}>
+      {/* Verified Case Study Showcase */}
+      <section className="case-teaser" id="case-teaser">
         <div className="container">
-          <p className="section-label">Featured Case Study</p>
-          <h2 className="section-title">Probiota Innovations</h2>
-          <div className="case-teaser__content">
-            <div className="img-placeholder">
-              <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&q=80" alt="Probiota Innovations B2B Website" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} />
-            </div>
-            <div className="case-teaser__info">
-              <h3>B2B Nutraceutical Platform & Lead Acquisition</h3>
-              <p>
-                Engineered a custom B2B web platform optimized for speed, regulatory compliance, and overseas wholesale inquiries. Deployed clean data-capture pipelines and international search optimization (SEO + GEO).
-              </p>
-              <div className="case-teaser__stats">
-                <div>
-                  <span className="case-teaser__stat-value">10 Days</span>
-                  <span className="case-teaser__stat-label">to First Inquiries</span>
+          <div className="case-teaser__header">
+            <p className="section-label">Verified Deployments</p>
+            <h2 className="section-title">Evidence-Backed Client Infrastructure</h2>
+            <p className="section-subtitle">
+              Real production platforms built and scaled by Rankur. Every site features a verified footer link back to rankursite.com.
+            </p>
+          </div>
+
+          <div className="case-teaser__showcase-grid">
+            {verifiedShowcases.map((cs, i) => (
+              <div key={i} className="case-showcase-card">
+                <div className="case-showcase-card__image-wrap">
+                  <img src={cs.image} alt={cs.title} />
+                  <span className="case-showcase-card__badge-pill">{cs.badge}</span>
                 </div>
-                <div>
-                  <span className="case-teaser__stat-value">React / Postgres</span>
-                  <span className="case-teaser__stat-label">Infrastructure Stack</span>
-                </div>
-                <div>
-                  <span className="case-teaser__stat-value">GA4 Custom</span>
-                  <span className="case-teaser__stat-label">Funnel Tracking</span>
+                <div className="case-showcase-card__body">
+                  <span className="case-showcase-card__tag">{cs.tag}</span>
+                  <h3 className="case-showcase-card__title">{cs.title}</h3>
+                  <p className="case-showcase-card__desc">{cs.description}</p>
+                  
+                  <div className="case-showcase-card__stats">
+                    {cs.stats.map((s, idx) => (
+                      <div key={idx} className="case-showcase-card__stat-item">
+                        <span className="case-showcase-card__stat-val">{s.value}</span>
+                        <span className="case-showcase-card__stat-lbl">{s.label}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="case-showcase-card__actions">
+                    <Link href="/case-studies" className="btn btn--secondary" style={{ padding: '0.45rem 1rem', fontSize: '0.82rem' }}>
+                      View Case Study →
+                    </Link>
+                    <a
+                      href={cs.domain}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="case-showcase-card__verify-link"
+                      title={`Verify backlink in footer of ${cs.domain}`}
+                    >
+                      Verify Footer Link ↗
+                    </a>
+                  </div>
                 </div>
               </div>
-              <Link href="/case-studies" className="btn btn--secondary">
-                View Proof Details →
-              </Link>
-            </div>
+            ))}
+          </div>
+
+          <div style={{ textAlign: 'center', marginTop: 'var(--space-3xl)' }}>
+            <Link href="/case-studies" className="btn btn--primary" style={{ padding: 'var(--space-md) var(--space-2xl)' }}>
+              Explore All Verified Case Studies →
+            </Link>
           </div>
         </div>
       </section>
@@ -221,7 +291,7 @@ export default function Home() {
       </section>
 
       {/* Process */}
-      <section className="home-process" id="home-process" style={{ backgroundColor: 'var(--color-dark-surface)' }}>
+      <section className="home-process" id="home-process">
         <div className="container">
           <p className="section-label">How We Work Together</p>
           <h2 className="section-title">Three Simple Steps</h2>

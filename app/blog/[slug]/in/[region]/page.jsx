@@ -59,7 +59,7 @@ export async function generateMetadata({ params }) {
   return {
     title: localizedTitle,
     description: localizedDesc,
-    alternates: { canonical: url },
+    alternates: { canonical: `https://rankursite.com/blog/${slug}` },
     openGraph: {
       title: localizedTitle,
       description: localizedDesc,

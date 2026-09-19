@@ -19,12 +19,24 @@ const corporateCredentials = [
 
 const credentialsLedger = [
   {
-    title: 'Nutraceutical Platform (Probiota Innovations)',
-    evidence: 'Designed, wrote, and deployed custom React web application. Built lead database pipelines and SEO frameworks that generated 10+ high-value global inquiries in the first 10 days post-launch.',
+    title: 'Enterprise Fleet Telematics Platform (WizIOT)',
+    evidence: 'Engineered monolithic Next.js 16 + Turbopack architecture spanning 1,040+ static pages across EMEA and GCC markets with sub-0.9s global latency and permanent footer backlink verification.',
   },
   {
-    title: 'Brand Positioning & Strategy (Gut & Beyond)',
-    evidence: 'Structured digital messaging architecture, UX alignment, and organic search campaigns for leading wellness brands.',
+    title: 'AIS-140 Certified GPS Telematics (Atlanta Systems)',
+    evidence: 'Designed and deployed 460+ static pages on Next.js 16 with 100% crawl indexation on government compliance keywords and automated RFQ pipeline.',
+  },
+  {
+    title: 'B2B Medical Supplies & Headless Commerce (Medventa)',
+    evidence: 'Engineered custom Next.js 14 headless commerce catalog with 440+ static SKU pages, sub-second surgical search, and institutional hospital procurement routing.',
+  },
+  {
+    title: 'Nutraceutical CDMO Platform (Probiota Innovations)',
+    evidence: 'Built 340+ page Next.js 16 web application with US-FDA compliance showcase, generating 10+ international inquiries in 10 days and 50+ qualified leads in month one.',
+  },
+  {
+    title: 'Philanthropic Healthcare & Community NGO (Wafa Trust)',
+    evidence: 'Structured high-accessibility Next.js web presence with sub-1.0s mobile performance, transparent donor audit reporting, and verified backlink verification.',
   },
   {
     title: 'Global Export Channels (Competence Consulting E-Commerce LLP)',
@@ -32,7 +44,7 @@ const credentialsLedger = [
   },
   {
     title: 'Acquisition Funnels & Campaigns (Glitchy)',
-    evidence: 'Developed custom landing pages, GA4 custom conversion tracking, and high-performing lead generation campaigns.',
+    evidence: 'Developed custom landing pages, GA4 custom conversion tracking, and high-performing lead generation campaigns converting 200+ customers.',
   },
 ];
 

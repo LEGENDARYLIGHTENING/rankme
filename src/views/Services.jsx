@@ -2,7 +2,9 @@
 import { useState } from 'react';
 
 import HeroSection from '../components/HeroSection';
+import ClientTrustBar from '../components/ClientTrustBar';
 import ServiceCard from '../components/ServiceCard';
+import Testimonials from '../components/Testimonials';
 import CTABlock from '../components/CTABlock';
 import './Services.css';
 
@@ -136,6 +138,9 @@ export default function Services() {
         secondaryCTA={{ to: '/case-studies', label: 'See Proof Portfolio' }}
       />
 
+      {/* Client Logo Cloud & Trust Bar */}
+      <ClientTrustBar />
+
       {/* Pillars breakdown */}
       <section className="section" id="services-full">
         <div className="container">
@@ -167,6 +172,9 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      {/* Executive Testimonials */}
+      <Testimonials />
 
       {/* FAQ */}
       <section className="faq-section" id="services-faq">

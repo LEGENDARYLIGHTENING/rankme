@@ -11,7 +11,13 @@ export function middleware(request) {
     return NextResponse.redirect(`${protocol}://${cleanHost}${url.pathname}${url.search}`, 301);
   }
 
-  // 2. Strip trailing slash (except root) to prevent duplicate content indexing
+  // 2. Redirect legacy /home and /home/ alias to root /
+  if (url.pathname === '/home' || url.pathname === '/home/') {
+    url.pathname = '/';
+    return NextResponse.redirect(url, 301);
+  }
+
+  // 3. Strip trailing slash (except root) to prevent duplicate content indexing
   if (url.pathname !== '/' && url.pathname.endsWith('/')) {
     url.pathname = url.pathname.slice(0, -1);
     return NextResponse.redirect(url, 301);

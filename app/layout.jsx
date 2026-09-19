@@ -4,9 +4,6 @@ import Footer from '../src/components/Footer';
 
 export const metadata = {
   metadataBase: new URL('https://rankursite.com'),
-  alternates: {
-    canonical: 'https://rankursite.com',
-  },
   title: 'B2B Web Design & Lead Generation for Founders | Rankur',
   description: 'I build fast, custom B2B websites that rank on Google and turn visitors into leads - most live in about 7 days, backed by a 100% money-back guarantee.',
   openGraph: {
@@ -64,6 +61,69 @@ const masterSchema = {
       founder: {
         '@id': 'https://rankursite.com/#founder',
       },
+      knowsAbout: [
+        'B2B Web Design',
+        'Next.js 16 Engineering',
+        'Generative Engine Optimization (GEO)',
+        'Technical SEO',
+        'Conversion Rate Optimization',
+        'Enterprise Fleet Telematics Infrastructure',
+        'AIS-140 GPS Compliance Architecture',
+        'B2B Healthcare Headless Commerce',
+        'Nutraceutical CDMO Digital Systems',
+      ],
+      workExample: [
+        {
+          '@type': 'WebSite',
+          '@id': 'https://www.wiziot.com/#website',
+          name: 'WizIOT',
+          url: 'https://www.wiziot.com',
+          description: 'Enterprise Fleet Telematics, IoT Hardware & Sensor Integration platform built on Next.js 16 + Turbopack (1,040+ static pages).',
+          creator: {
+            '@id': 'https://rankursite.com/#organization',
+          },
+        },
+        {
+          '@type': 'WebSite',
+          '@id': 'https://www.atlantasys.com/#website',
+          name: 'Atlanta Systems',
+          url: 'https://www.atlantasys.com',
+          description: 'AIS-140 Certified GPS & Automotive Telematics Manufacturer web infrastructure built on Next.js 16 (460+ static pages).',
+          creator: {
+            '@id': 'https://rankursite.com/#organization',
+          },
+        },
+        {
+          '@type': 'WebSite',
+          '@id': 'https://www.medventa.in/#website',
+          name: 'Medventa',
+          url: 'https://www.medventa.in',
+          description: 'B2B Medical Supplies, Surgical Sutures & Hospital Procurement headless commerce platform built on Next.js 14 (440+ static pages).',
+          creator: {
+            '@id': 'https://rankursite.com/#organization',
+          },
+        },
+        {
+          '@type': 'WebSite',
+          '@id': 'https://www.probiotainnovations.com/#website',
+          name: 'Probiota Innovations',
+          url: 'https://www.probiotainnovations.com',
+          description: 'US-FDA Registered Probiotic & Functional Gummy CDMO web platform built on Next.js 16 (340+ static pages).',
+          creator: {
+            '@id': 'https://rankursite.com/#organization',
+          },
+        },
+        {
+          '@type': 'WebSite',
+          '@id': 'https://wafatrust.org/#website',
+          name: 'Wafa Trust',
+          url: 'https://wafatrust.org',
+          description: 'Philanthropic Healthcare, Dialysis Support & Education NGO platform.',
+          creator: {
+            '@id': 'https://rankursite.com/#organization',
+          },
+        },
+      ],
     },
     {
       '@type': 'Person',
