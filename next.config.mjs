@@ -37,19 +37,19 @@ const nextConfig = {
       { source: '/blog/:slug/in/:region*', destination: '/blog/:slug', permanent: true },
 
       // Collapse all region-scoped core sub-routes into single canonical pages
-      { source: '/:region/contact', destination: '/contact', permanent: true },
-      { source: '/:region/services', destination: '/services', permanent: true },
-      { source: '/:region/about', destination: '/about', permanent: true },
-      { source: '/:region/blog', destination: '/blog', permanent: true },
-      { source: '/:region/case-studies', destination: '/case-studies', permanent: true },
-      { source: '/:region/certifications', destination: '/certifications', permanent: true },
-      { source: '/:region/philosophy', destination: '/philosophy', permanent: true },
-      { source: '/:region/process', destination: '/process', permanent: true },
-      { source: '/:region/free-audit', destination: '/free-audit', permanent: true },
-      { source: '/:region/thank-you', destination: '/thank-you', permanent: true },
+      { source: '/:region((?!blog|api|_next|sitemap|blog-images).*)/contact', destination: '/contact', permanent: true },
+      { source: '/:region((?!blog|api|_next|sitemap|blog-images).*)/services', destination: '/services', permanent: true },
+      { source: '/:region((?!blog|api|_next|sitemap|blog-images).*)/about', destination: '/about', permanent: true },
+      { source: '/:region((?!blog|api|_next|sitemap|blog-images).*)/blog', destination: '/blog', permanent: true },
+      { source: '/:region((?!blog|api|_next|sitemap|blog-images).*)/case-studies', destination: '/case-studies', permanent: true },
+      { source: '/:region((?!blog|api|_next|sitemap|blog-images).*)/certifications', destination: '/certifications', permanent: true },
+      { source: '/:region((?!blog|api|_next|sitemap|blog-images).*)/philosophy', destination: '/philosophy', permanent: true },
+      { source: '/:region((?!blog|api|_next|sitemap|blog-images).*)/process', destination: '/process', permanent: true },
+      { source: '/:region((?!blog|api|_next|sitemap|blog-images).*)/free-audit', destination: '/free-audit', permanent: true },
+      { source: '/:region((?!blog|api|_next|sitemap|blog-images).*)/thank-you', destination: '/thank-you', permanent: true },
 
       // Collapse all matrix city-service combinations to canonical /services
-      { source: '/:region((?!blog|api|_next).*)/:service', destination: '/services', permanent: true },
+      { source: '/:region((?!blog|api|_next|sitemap|blog-images).*)/:service', destination: '/services', permanent: true },
 
       // International city hubs -> authoritative national country silos
       { source: '/hamburg', destination: '/germany', permanent: true },

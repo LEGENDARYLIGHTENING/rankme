@@ -268,10 +268,33 @@ async function generateSitemap() {
 
   let generatedCitySitemapsCount = 0;
   for (const slug of citySlugs) {
-    const cityUrl = `${BASE_URL}/${slug}`;
+    let canonicalDestination = `${BASE_URL}/usa`;
+    const lower = slug.toLowerCase();
+    if (lower.includes('uk') || lower.includes('london') || lower.includes('manchester') || lower.includes('belfast') || lower.includes('bristol')) {
+      canonicalDestination = `${BASE_URL}/uk`;
+    } else if (lower.includes('canada') || lower.includes('toronto') || lower.includes('montreal') || lower.includes('calgary')) {
+      canonicalDestination = `${BASE_URL}/canada`;
+    } else if (lower.includes('australia') || lower.includes('sydney') || lower.includes('melbourne') || lower.includes('brisbane')) {
+      canonicalDestination = `${BASE_URL}/australia`;
+    } else if (lower.includes('uae') || lower.includes('dubai') || lower.includes('abu-dhabi')) {
+      canonicalDestination = `${BASE_URL}/uae`;
+    } else if (lower.includes('germany') || lower.includes('berlin') || lower.includes('munich') || lower.includes('frankfurt')) {
+      canonicalDestination = `${BASE_URL}/germany`;
+    } else if (lower.includes('saudi') || lower.includes('riyadh')) {
+      canonicalDestination = `${BASE_URL}/saudi-arabia`;
+    } else if (lower.includes('qatar')) {
+      canonicalDestination = `${BASE_URL}/qatar`;
+    } else if (lower.includes('singapore')) {
+      canonicalDestination = `${BASE_URL}/singapore`;
+    } else if (lower.includes('ireland')) {
+      canonicalDestination = `${BASE_URL}/ireland`;
+    } else if (lower.includes('new-zealand')) {
+      canonicalDestination = `${BASE_URL}/new-zealand`;
+    }
+
     const cityXml = generateXml([
       {
-        url: cityUrl,
+        url: canonicalDestination,
         lastModified: getTodayDate(),
         changeFrequency: 'weekly',
         priority: '0.7'
