@@ -4,11 +4,22 @@ import Footer from '../src/components/Footer';
 
 export const metadata = {
   metadataBase: new URL('https://rankursite.com'),
-  title: 'B2B Web Design & Lead Generation for Founders | Rankur',
-  description: 'I build fast, custom B2B websites that rank on Google and turn visitors into leads - most live in about 7 days, backed by a 100% money-back guarantee.',
+  title: {
+    default: 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
+    template: '%s',
+  },
+  description: 'I build fast, high-converting Next.js websites for B2B founders and optimize them to rank on Google and AI search engines (ChatGPT, Perplexity). Live in 7-14 days.',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/rankur-logo.png', sizes: 'any', type: 'image/png' },
+    ],
+    shortcut: '/favicon.svg',
+    apple: '/rankur-logo.png',
+  },
   openGraph: {
-    title: 'B2B Web Design & Lead Generation for Founders | Rankur',
-    description: 'I build fast, custom B2B websites that rank on Google and turn visitors into leads - most live in about 7 days, backed by a 100% money-back guarantee.',
+    title: 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
+    description: 'I build fast, high-converting Next.js websites for B2B founders and optimize them to rank on Google and AI search engines. Live in 7-14 days.',
     url: 'https://rankursite.com',
     siteName: 'Rankur',
     images: [
@@ -16,7 +27,7 @@ export const metadata = {
         url: 'https://rankursite.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Rankur - B2B Web Design & Lead Generation for Founders',
+        alt: 'Rankur - B2B SEO & Next.js Web Engineering',
       },
     ],
     locale: 'en_US',
@@ -24,8 +35,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'B2B Web Design & Lead Generation for Founders | Rankur',
-    description: 'I build fast, custom B2B websites that rank on Google and turn visitors into leads - most live in about 7 days, backed by a 100% money-back guarantee.',
+    title: 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
+    description: 'I build fast, high-converting Next.js websites for B2B founders and optimize them to rank on Google and AI search engines.',
     creator: '@moksh_rankur',
     images: ['https://rankursite.com/twitter-image.jpg'],
   },
@@ -168,7 +179,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="icon" type="image/png" href="/Copilot_20260621_183745.png" sizes="any" />
+        <link rel="icon" type="image/png" href="/rankur-logo.png" sizes="any" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />

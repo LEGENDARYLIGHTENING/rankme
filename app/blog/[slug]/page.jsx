@@ -92,12 +92,34 @@ export async function generateMetadata({ params }) {
   const post = blogIndex.find(b => b.slug === slug);
   if (!post) return {};
   const url = `https://rankursite.com/blog/${post.slug}`;
+  const imgUrl = post.image || 'https://rankursite.com/og-image.jpg';
   return {
     title: `${post.title} | Rankur`,
     description: post.excerpt,
     alternates: { canonical: url },
-    openGraph: { title: post.title, description: post.excerpt, url, type: 'article', images: post.image ? [post.image] : [] },
-    twitter: { card: 'summary_large_image', title: post.title, description: post.excerpt },
+    openGraph: {
+      title: `${post.title} | Rankur`,
+      description: post.excerpt,
+      url,
+      siteName: 'Rankur',
+      locale: 'en_US',
+      type: 'article',
+      images: [
+        {
+          url: imgUrl,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${post.title} | Rankur`,
+      description: post.excerpt,
+      creator: '@moksh_rankur',
+      images: [imgUrl],
+    },
   };
 }
 

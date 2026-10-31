@@ -1,10 +1,11 @@
 import FreeAudit from '../../src/views/FreeAudit';
+import { constructMetadata } from '../../src/utils/seo';
 
-export const metadata = {
-  title: 'Free B2B Website & SEO Audit | Rankur',
-  description: 'Request a free, comprehensive analysis of your website speed, technical SEO issues, mobile UX friction, and missed lead generation opportunities.',
-  alternates: { canonical: 'https://rankursite.com/free-audit' },
-};
+export const metadata = constructMetadata({
+  title: 'Free B2B Technical Website & SEO Audit | Rankur',
+  description: 'Request a free analysis of your website page speed, technical SEO issues, mobile UX friction, and Generative Engine Optimization (GEO) potential.',
+  canonical: '/free-audit',
+});
 
 const faqSchema = {
   '@context': 'https://schema.org',

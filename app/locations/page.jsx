@@ -1,13 +1,12 @@
 import Link from 'next/link';
 import countries from '../../countries.json';
+import { constructMetadata } from '../../src/utils/seo';
 
-export const metadata = {
+export const metadata = constructMetadata({
   title: 'Global B2B Target Markets & Regional Infrastructure | Rankur',
-  description: 'Explore Rankur’s global B2B growth consultancy hubs across Tier-1 markets in the USA, UK, Canada, Australia, Europe, UAE, and Asia-Pacific.',
-  alternates: {
-    canonical: 'https://rankursite.com/locations',
-  },
-};
+  description: 'Explore Rankur’s global B2B web engineering and SEO hubs across Tier-1 markets in the USA, UK, Canada, Australia, Europe, UAE, and Asia-Pacific.',
+  canonical: '/locations',
+});
 
 export default function LocationsPage() {
   return (
@@ -61,7 +60,7 @@ export default function LocationsPage() {
             Global Remote Engineering & Deployment
           </h3>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', lineHeight: '1.7', maxWidth: '850px', marginBottom: 'var(--space-md)' }}>
-            Whether your B2B enterprise is headquartered in Silicon Valley, London, Toronto, or Singapore, Rankur delivers fixed-price 7-to-14 day Next.js build sprints backed by a 100% money-back guarantee. All code is owned 100% by you with zero platform lock-in.
+            Whether your B2B enterprise is headquartered in Silicon Valley, London, Toronto, or Singapore, Rankur delivers fixed-price 7-to-14 day Next.js build sprints backed by guaranteed 90+ Core Web Vitals and milestone-based signoff. All code is owned 100% by you with zero platform lock-in.
           </p>
           <Link href="/free-audit" className="btn btn-primary" style={{ display: 'inline-block' }}>
             Book a Free 30-Minute Growth Audit

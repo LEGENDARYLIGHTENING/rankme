@@ -150,175 +150,20 @@ async function generateSitemap() {
   fs.writeFileSync(path.join(sitemapDir, 'blogs.xml'), generateXml(blogUrls));
   console.log(`✓ Generated sitemap/blogs.xml (${blogUrls.length} Canonical Articles)`);
 
-  // 5. Generate Legacy City Sitemaps to 100% resolve GSC "1 error" and "Couldn't fetch" status
-  const citiesPath = path.resolve(__dirname, '../cities.json');
-  let citySlugs = new Set();
-
-  try {
-    if (fs.existsSync(citiesPath)) {
-      const cities = JSON.parse(fs.readFileSync(citiesPath, 'utf-8'));
-      cities.forEach(city => {
-        if (city.slug) citySlugs.add(city.slug);
-      });
-    }
-  } catch (err) {
-    console.warn('Could not read cities.json:', err.message);
-  }
-
-  // Explicitly add all extra city sitemaps that were previously submitted in GSC
-  const extraGscCitySlugs = [
-    'seattle-us',
-    'san-francisco-us',
-    'austin-us',
-    'chicago-us',
-    'los-angeles-us',
-    'new-york-us',
-    'dubai-uae',
-    'sydney-australia',
-    'toronto-canada',
-    'london-uk',
-    'fayetteville-us',
-    'rochester-us',
-    'hialeah-us',
-    'st-paul-us',
-    'san-antonio-us',
-    'san-bernardino-us',
-    'spokane-us',
-    'des-moines-us',
-    'baton-rouge-us',
-    'boise-us',
-    'richmond-us',
-    'fremont-us',
-    'scottsdale-us',
-    'winston-salem-us',
-    'glendale-us',
-    'chesapeake-us',
-    'irving-us',
-    'laredo-us',
-    'garland-us',
-    'lubbock-us',
-    'st-petersburg-us',
-    'north-las-vegas-us',
-    'fort-wayne-us',
-    'reno-us',
-    'gilbert-us',
-    'madison-us',
-    'toledo-us',
-    'chula-vista-us',
-    'chandler-us',
-    'buffalo-us',
-    'durham-us',
-    'plano-us',
-    'lincoln-us',
-    'jersey-city-us',
-    'greensboro-us',
-    'orlando-us',
-    'irvine-us',
-    'cincinnati-us',
-    'newark-us',
-    'riverside-us',
-    'henderson-us',
-    'corpus-christi-us',
-    'stockton-us',
-    'lexington-us',
-    'anaheim-us',
-    'honolulu-us',
-    'cleveland-us',
-    'new-orleans-us',
-    'tampa-us',
-    'aurora-us',
-    'arlington-us',
-    'wichita-us',
-    'bakersfield-us',
-    'tulsa-us',
-    'oakland-us',
-    'virginia-beach-us',
-    'long-beach-us',
-    'colorado-springs-us',
-    'omaha-us',
-    'mesa-us',
-    'kansas-city-us',
-    'sacramento-us',
-    'fresno-us',
-    'tucson-us',
-    'albuquerque-us',
-    'milwaukee-us',
-    'baltimore-us',
-    'louisville-us',
-    'memphis-us',
-    'las-vegas-us',
-    'el-paso-us',
-    'oklahoma-city-us',
-    'indianapolis-us',
-    'fort-worth-us',
-    'jacksonville-us',
-    'san-jose-us',
-    'columbus-us',
-    'nashville-us',
-    'charlotte-us',
-    'raleigh-us',
-    'detroit-us',
-    'minneapolis-us',
-    'portland-us',
-    'miami-us',
-    'atlanta-us'
-  ];
-
-  extraGscCitySlugs.forEach(slug => citySlugs.add(slug));
-
-  let generatedCitySitemapsCount = 0;
-  for (const slug of citySlugs) {
-    let canonicalDestination = `${BASE_URL}/usa`;
-    const lower = slug.toLowerCase();
-    if (lower.includes('uk') || lower.includes('london') || lower.includes('manchester') || lower.includes('belfast') || lower.includes('bristol')) {
-      canonicalDestination = `${BASE_URL}/uk`;
-    } else if (lower.includes('canada') || lower.includes('toronto') || lower.includes('montreal') || lower.includes('calgary')) {
-      canonicalDestination = `${BASE_URL}/canada`;
-    } else if (lower.includes('australia') || lower.includes('sydney') || lower.includes('melbourne') || lower.includes('brisbane')) {
-      canonicalDestination = `${BASE_URL}/australia`;
-    } else if (lower.includes('uae') || lower.includes('dubai') || lower.includes('abu-dhabi')) {
-      canonicalDestination = `${BASE_URL}/uae`;
-    } else if (lower.includes('germany') || lower.includes('berlin') || lower.includes('munich') || lower.includes('frankfurt')) {
-      canonicalDestination = `${BASE_URL}/germany`;
-    } else if (lower.includes('saudi') || lower.includes('riyadh')) {
-      canonicalDestination = `${BASE_URL}/saudi-arabia`;
-    } else if (lower.includes('qatar')) {
-      canonicalDestination = `${BASE_URL}/qatar`;
-    } else if (lower.includes('singapore')) {
-      canonicalDestination = `${BASE_URL}/singapore`;
-    } else if (lower.includes('ireland')) {
-      canonicalDestination = `${BASE_URL}/ireland`;
-    } else if (lower.includes('new-zealand')) {
-      canonicalDestination = `${BASE_URL}/new-zealand`;
-    }
-
-    const cityXml = generateXml([
-      {
-        url: canonicalDestination,
-        lastModified: getTodayDate(),
-        changeFrequency: 'weekly',
-        priority: '0.7'
-      }
-    ]);
-    fs.writeFileSync(path.join(sitemapDir, `city-${slug}.xml`), cityXml);
-    generatedCitySitemapsCount++;
-  }
-  console.log(`✓ Generated ${generatedCitySitemapsCount} legacy city sitemaps (city-*.xml) to clear all GSC fetch errors!`);
-
-  // 6. Generate Master Root Sitemap Index
+  // 5. Generate Master Root Sitemap Index
   const masterSitemaps = [
     `${BASE_URL}/sitemap/core.xml`,
     `${BASE_URL}/sitemap/countries.xml`,
     `${BASE_URL}/sitemap/blogs.xml`
   ];
   fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), generateIndexXml(masterSitemaps));
-  console.log(`✓ Generated master public/sitemap.xml index pointing to 3 clean sitemaps`);
+  console.log(`✓ Generated master public/sitemap.xml index pointing to 3 clean authoritative sitemaps`);
 
-  // 7. Update public/urls.txt with verified indexable URLs
+  // 6. Update public/urls.txt with verified indexable URLs
   fs.writeFileSync(path.join(publicDir, 'urls.txt'), allValidUrls.join('\n') + '\n');
   console.log(`✓ Updated public/urls.txt with ${allValidUrls.length} valid canonical URLs`);
 
-  console.log('--- Sitemap Generation Complete: All GSC errors resolved with 100% 200 OK XML files ---');
+  console.log('--- Sitemap Generation Complete: High-authority sitemaps generated without crawl traps ---');
 }
 
 generateSitemap().catch(console.error);

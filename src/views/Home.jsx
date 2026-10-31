@@ -37,7 +37,7 @@ const verifiedShowcases = [
     domain: 'https://www.atlantasys.com',
     badge: '460+ Static Pages · Next.js 16',
     image: 'https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=800&q=80',
-    description: 'Designed and deployed 460+ static pages on Next.js 16 for an AIS-140 certified GPS telematics manufacturer, capturing high-intent procurement searches and automated RFQ pipeline.',
+    description: 'Co-led and architected for an in-house venture: an AIS-140 certified GPS telematics manufacturer web platform, capturing high-intent procurement searches and automated RFQ pipeline.',
     stats: [
       { value: '460+', label: 'Static Pages' },
       { value: 'AIS-140', label: 'Compliance SEO' },
@@ -63,7 +63,7 @@ const verifiedShowcases = [
     domain: 'https://www.probiotainnovations.com',
     badge: '340+ Static Pages · Next.js 16',
     image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&q=80',
-    description: 'Engineered a custom B2B web platform optimized for speed, US-FDA regulatory compliance, and overseas wholesale inquiries. Generated 10+ leads in 10 days and 50+ in month one.',
+    description: 'Engineered for my own venture: a custom B2B web platform optimized for speed, US-FDA regulatory compliance, and overseas wholesale inquiries. Generated 10+ leads in 10 days and 50+ in month one.',
     stats: [
       { value: '340+', label: 'Static Pages' },
       { value: '10 Days', label: 'To First Lead' },
@@ -140,16 +140,16 @@ export default function Home() {
     <>
       {/* Hero */}
       <HeroSection
-        label="B2B Web Design & Lead Generation"
+        label="B2B SEO Consultant & Web Engineering"
         title={
           <>
-            I Build B2B Websites That{' '}
-            <span className="text-gold">Bring In Real Leads</span>
+            I Build High-Speed B2B Websites That{' '}
+            <span className="text-gold">Rank & Bring In Real Leads</span>
           </>
         }
-        subtitle="I design fast, modern websites for B2B founders and set them up to rank on Google - so the right buyers find you and get in touch. Most sites go live in about 7 days, backed by a 100% money-back guarantee."
-        primaryCTA={{ to: '/free-audit', label: 'Get a Free Website Audit' }}
-        secondaryCTA={{ to: '/philosophy', label: 'How I Work' }}
+        subtitle="I engineer custom Next.js websites for B2B founders and optimize them to rank on Google and AI search engines (ChatGPT, Perplexity) - turning high-intent traffic into qualified sales inquiries. Live in 7-14 days with full production ownership."
+        primaryCTA={{ to: '/free-audit', label: 'Get a Free Technical Audit' }}
+        secondaryCTA={{ to: '/case-studies', label: 'Explore Verified Builds' }}
       />
 
       {/* Client Logo Cloud & Verified Trust Bar */}

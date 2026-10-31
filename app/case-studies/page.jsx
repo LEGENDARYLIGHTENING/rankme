@@ -1,10 +1,11 @@
 import CaseStudies from '../../src/views/CaseStudies';
+import { constructMetadata } from '../../src/utils/seo';
 
-export const metadata = {
-  title: 'Case Studies & Client Results | Rankur',
-  description: 'Real results from real B2B clients: see how our custom websites generated 50+ international qualified leads in 30 days and scaled pipeline.',
-  alternates: { canonical: 'https://rankursite.com/case-studies' },
-};
+export const metadata = constructMetadata({
+  title: 'Verified B2B Case Studies & Engineering Deployments | Rankur',
+  description: 'Verified production results: see how custom Next.js platforms scaled pipeline, sub-second LCP, and captured 50+ qualified B2B leads.',
+  canonical: '/case-studies',
+});
 
 export default function Page() {
   return <CaseStudies />;

@@ -84,21 +84,6 @@ To optimize a B2B pricing page:
 
 ---
 
-## Engineering Deep Dive: The Data-Driven Moat
-
-In a CRO audit for a B2B infrastructure software client, we discovered that 78% of their high-intent traffic was bouncing off their pricing page. 
-
-The client used a static pricing table with a generic "Contact Us" form modal that loaded via an external iframe script. The iframe caused a 2.8-second delay on mobile devices, and mobile users were hitting dead clicks on the submit button.
-
-### The Architectural Pivot
-We executed a complete rebuild of the pricing page using **Next.js Server Components**:
-
-1. **Sub-300ms Dynamic Rendering:** Replaced heavy iframe modals with native React modal states pre-rendered on the Edge network.
-2. **Interactive Tier Calculator:** Built a client-side React slider allowing enterprise prospects to select their team size and instantly see estimated tier investment and project timelines.
-3. **Contextual Trust Signal Injection:** Embedded 3 video testimonial snippets directly below the interactive pricing slider.
-
-### The Measurable Result
-Within 45 days of launching the new pricing architecture, page bounce rate dropped from **78% to 32%**, and direct quote requests increased by **184%**, adding over $290,000 in new qualified sales pipeline.
 
 ---
 

@@ -20,6 +20,9 @@ const usCities = [
 
 const nextConfig = {
   reactStrictMode: true,
+  experimental: {
+    cpus: 1,
+  },
   async redirects() {
     const cityRedirects = [];
 

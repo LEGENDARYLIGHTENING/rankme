@@ -169,7 +169,7 @@ const clientLogos = [
 
 export default function ClientTrustBar({
   title = "Powering Web Infrastructure for Verified Industry Leaders",
-  subtitle = "Directly verified live client platforms designed, engineered, and scaled by Rankur - featuring site-wide footer backlinks to rankursite.com."
+  subtitle = "Proprietary ventures and client platforms designed, engineered, and scaled on high-speed Next.js architecture by Rankur."
 }) {
   return (
     <section className="client-trust-bar" id="client-trust-bar">
@@ -191,7 +191,7 @@ export default function ClientTrustBar({
               target="_blank"
               rel="noopener noreferrer"
               className="client-trust-card"
-              title={`Visit ${client.name} - Check footer for 'Designed and built by Rankur'`}
+              title={`Visit live production deployment: ${client.name}`}
             >
               <div className="client-trust-card__logo-wrapper">
                 {client.renderLogo()}
@@ -201,7 +201,7 @@ export default function ClientTrustBar({
                 <span className="client-trust-card__niche">{client.niche}</span>
                 <span className="client-trust-card__badge">{client.badge}</span>
                 <span className="client-trust-card__verify-link">
-                  Verify Live Backlink ↗
+                  Inspect Live Deployment ↗
                 </span>
               </div>
             </a>

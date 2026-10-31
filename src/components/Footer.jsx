@@ -26,7 +26,7 @@ const footerMarkets = [
   { to: '/australia', label: 'Australia' },
   { to: '/uae', label: 'United Arab Emirates' },
   { to: '/saudi-arabia', label: 'Saudi Arabia' },
-  { to: '/locations', label: '100 Target Cities →' },
+  { to: '/locations', label: 'Tier-1 Market Silos →' },
 ];
 
 export default function Footer() {
@@ -37,12 +37,12 @@ export default function Footer() {
           <div className="footer__brand">
             <div className="footer__brand-name">
               <Link href="/">
-                <img src="/Copilot_20260621_183745.png" alt="Moksh Logo" style={{ height: '70px', width: 'auto', objectFit: 'contain' }} />
+                <img src="/rankur-logo.png" alt="Rankur - B2B Web Engineering & SEO" style={{ height: '70px', width: 'auto', objectFit: 'contain' }} />
               </Link>
             </div>
             <p className="footer__brand-desc">
-              B2B Growth Consultant &amp; Performance Marketer. I build high-converting websites
-              and growth systems for businesses in the US, UK, Australia, Canada, and Gulf.
+              B2B Growth Consultant &amp; Web Engineer. I build high-converting Next.js websites
+              and search systems for businesses across the US, UK, Australia, Canada, and Gulf.
             </p>
             <div className="footer__socials">
               <a
@@ -55,13 +55,13 @@ export default function Footer() {
                 in
               </a>
               <a
-                href="https://medium.com"
+                href="https://twitter.com/moksh_rankur"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__social-link"
-                aria-label="Medium"
+                aria-label="X (Twitter)"
               >
-                M
+                𝕏
               </a>
               <a
                 href="mailto:contactus@rankursite.com"
@@ -100,9 +100,9 @@ export default function Footer() {
               <a href="tel:+919560076090">+91 95600 76090</a>
             </p>
             <p className="footer__contact-item">
-              <a href="https://moksh-portfolio-smoky.vercel.app/" target="_blank" rel="noopener noreferrer">
-                Portfolio
-              </a>
+              <Link href="/case-studies" style={{ color: 'var(--color-text)', textDecoration: 'none' }}>
+                Verified Case Studies
+              </Link>
             </p>
             <p className="footer__contact-item">
               US · UK · AU · Canada · Gulf
@@ -112,11 +112,11 @@ export default function Footer() {
 
         <div className="footer__bottom">
           <p className="footer__copyright">
-            © {new Date().getFullYear()} Moksh. All rights reserved.
+            © {new Date().getFullYear()} Rankur (Moksh Productions). All rights reserved.
           </p>
           <div className="footer__bottom-links">
             <Link href="/locations" className="footer__bottom-link" style={{ color: 'var(--color-gold)' }}>
-              Locations Directory
+              Global Hubs
             </Link>
             <Link href="/free-audit" className="footer__bottom-link">
               Book Free Audit

@@ -10,7 +10,7 @@ const impactItems = [
   { value: '2,280+', label: 'Static Pages in Production' },
   { value: '5 Platforms', label: 'Verified Client Deployments' },
   { value: '< 0.9s', label: 'Sub-Second Global LCP' },
-  { value: '100%', label: 'Crawl Indexation Ratio' },
+  { value: '100%', label: 'Static Serverless Reliability' },
   { value: '50+ Leads', label: 'First Month Inbound Pipeline' },
 ];
 
@@ -24,7 +24,7 @@ export default function CaseStudies() {
             Outcome-First <span className="text-gold">B2B Performance</span>
           </>
         }
-        subtitle="We design, engineer, and scale high-performance digital infrastructure for high-trust B2B enterprises. Every platform listed below is live in production with verified site-wide footer backlinks to Rankur."
+        subtitle="We design, engineer, and scale high-performance Next.js digital infrastructure for high-trust B2B enterprises. Explore verified production deployments engineered and scaled by Rankur."
         primaryCTA={{ to: '/free-audit', label: 'Request custom Audit' }}
         secondaryCTA={{ to: '#wiziot-case-study', label: 'Explore Case Studies' }}
       />
@@ -32,7 +32,7 @@ export default function CaseStudies() {
       {/* Client Trust Bar */}
       <ClientTrustBar
         title="Live Production Client Ecosystem"
-        subtitle="Click any verified client platform below to inspect live infrastructure and verify Rankur's site-wide footer backlink in the wild."
+        subtitle="Click any verified platform below to inspect live production architecture, responsiveness, and performance."
       />
 
       {/* Quick Navigation Sticky Strip */}
@@ -119,7 +119,7 @@ export default function CaseStudies() {
               <div className="case-full__live-box">
                 <div className="case-full__live-box-text">
                   <span className="case-full__live-box-title">Inspect WizIOT in Production</span>
-                  <span className="case-full__live-box-subtitle">Permanent footer backlink: "This site was designed and built by Rankur"</span>
+                  <span className="case-full__live-box-subtitle">Live production deployment engineered by Rankur</span>
                 </div>
                 <a
                   href="https://www.wiziot.com"
@@ -180,7 +180,7 @@ export default function CaseStudies() {
 
               <h3>The Challenge & Context</h3>
               <p>
-                Atlanta Systems is a premier manufacturer of AIS-140 certified GPS trackers and automotive telematics hardware. In India and international export markets, commercial vehicle compliance requires rigorous governmental certification. They needed a high-performance web platform that establishes undeniable regulatory authority and funnels high-volume institutional RFQs.
+                Atlanta Systems is a leading manufacturer of AIS-140 certified GPS trackers and automotive telematics hardware. Co-led and architected from a digital infrastructure and SEO perspective by Moksh Parjapati for his own ventures, the platform establishes undeniable regulatory authority and funnels high-volume institutional RFQs.
               </p>
 
               <h3>Our Architecture & Solution</h3>
@@ -193,7 +193,7 @@ export default function CaseStudies() {
 
               <h3>Verified Results & Impact</h3>
               <ul>
-                <li><strong>460+ static pages indexed with 100% crawl accuracy</strong> across competitive government and commercial transport queries.</li>
+                <li><strong>460+ static pages deployed on Next.js 16</strong> across competitive government and commercial transport queries.</li>
                 <li>Eliminated page latency down to <strong>sub-1.1s</strong> globally, reducing bounce rates among mobile fleet managers.</li>
                 <li>Generated consistent institutional requests for quotations (RFQs) for bulk hardware deployments.</li>
               </ul>
@@ -202,7 +202,7 @@ export default function CaseStudies() {
               <div className="case-full__live-box">
                 <div className="case-full__live-box-text">
                   <span className="case-full__live-box-title">Inspect Atlanta Systems in Production</span>
-                  <span className="case-full__live-box-subtitle">Permanent footer backlink: "This site was designed and built by Rankur"</span>
+                  <span className="case-full__live-box-subtitle">Live production deployment engineered by Rankur</span>
                 </div>
                 <a
                   href="https://www.atlantasys.com"
@@ -216,7 +216,7 @@ export default function CaseStudies() {
 
               <div className="case-full__quote-block">
                 <p className="case-full__quote-text">
-                  "Building 460+ high-performance static pages with Next.js gave us instant 100% crawl indexation on AIS-140 certified GPS hardware terms. Rankur's technical SEO and conversion architecture streamlined our incoming enterprise RFQ pipeline."
+                  "Deploying 460+ high-performance static pages on Next.js gave us rapid search indexation on AIS-140 certified GPS hardware terms. Rankur's technical SEO and conversion architecture streamlined our incoming enterprise RFQ pipeline."
                 </p>
                 <p className="case-full__quote-author">
                   - Commercial & Operations Leadership, Atlanta Systems
@@ -285,7 +285,7 @@ export default function CaseStudies() {
               <div className="case-full__live-box">
                 <div className="case-full__live-box-text">
                   <span className="case-full__live-box-title">Inspect Medventa in Production</span>
-                  <span className="case-full__live-box-subtitle">Permanent footer backlink: "This site was designed and built by Rankur"</span>
+                  <span className="case-full__live-box-subtitle">Live production deployment engineered by Rankur</span>
                 </div>
                 <a
                   href="https://www.medventa.in"
@@ -346,7 +346,7 @@ export default function CaseStudies() {
 
               <h3>The Challenge & Context</h3>
               <p>
-                Probiota Innovations is a US-FDA registered probiotic, gummy, and functional supplement contract development and manufacturing organization (CDMO). They required an ultra-clean, compliant, and trustworthy digital platform to capture international wholesale buyer inquiries and private label supplement brand owners.
+                Probiota Innovations is a US-FDA registered probiotic, gummy, and functional supplement contract manufacturer (CDMO). Built and run by Moksh Parjapati for his own venture, this digital platform was engineered to capture overseas wholesale buyer inquiries and private-label contract manufacturing deals.
               </p>
 
               <h3>Our Architecture & Solution</h3>
@@ -368,7 +368,7 @@ export default function CaseStudies() {
               <div className="case-full__live-box">
                 <div className="case-full__live-box-text">
                   <span className="case-full__live-box-title">Inspect Probiota Innovations in Production</span>
-                  <span className="case-full__live-box-subtitle">Permanent footer backlink: "This site was designed and built by Rankur"</span>
+                  <span className="case-full__live-box-subtitle">Live production deployment engineered by Rankur</span>
                 </div>
                 <a
                   href="https://www.probiotainnovations.com"
@@ -443,14 +443,14 @@ export default function CaseStudies() {
               <ul>
                 <li>Enhanced donor engagement with a <strong>sub-1.0s mobile experience</strong> across international networks.</li>
                 <li>Clear programmatic presentation of healthcare dialysis centers and scholarship disbursements.</li>
-                <li>Permanent, verified site-wide footer citation confirming Rankur's engineering standard.</li>
+                <li>Production Next.js deployment built for global philanthropic accessibility.</li>
               </ul>
 
               {/* Live Verification Box */}
               <div className="case-full__live-box">
                 <div className="case-full__live-box-text">
                   <span className="case-full__live-box-title">Inspect Wafa Trust in Production</span>
-                  <span className="case-full__live-box-subtitle">Permanent live footer backlink connecting to Rankur</span>
+                  <span className="case-full__live-box-subtitle">Live production deployment engineered by Rankur</span>
                 </div>
                 <a
                   href="https://wafatrust.org"

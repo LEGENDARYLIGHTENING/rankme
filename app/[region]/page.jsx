@@ -2,7 +2,7 @@ import { notFound, redirect } from 'next/navigation';
 import { countryData } from '../../src/data/countryData.jsx';
 import NichePage from '../../src/views/NichePage';
 
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 const countryKeys = Object.keys(countryData);
 

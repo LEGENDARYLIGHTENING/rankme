@@ -93,21 +93,6 @@ To align content with SQLs:
 
 ---
 
-## Engineering Deep Dive: The Data-Driven Moat
-
-When auditing B2B client sites with high traffic but zero leads, we consistently find that the underlying architecture actively undermines user trust. 
-
-In a recent migration for a B2B SaaS platform generating 45,000 monthly visits, the client was averaging fewer than 3 demo requests per month. The site was built on a legacy WordPress stack bloated with 38 active plugins, resulting in a **4.8-second mobile Largest Contentful Paint (LCP)** and severe Cumulative Layout Shift (CLS).
-
-### The Architectural Pivot
-We executed a complete rebuild using **Next.js App Router** deployed on Vercel's global Edge network:
-
-1. **Sub-500ms Global Load Speed:** Shifting to static generation with incremental revalidation cut mobile load times to 410ms globally.
-2. **Schema & Entity Graph Injection:** We injected structured JSON-LD data mapping their core capabilities directly to enterprise search entities.
-3. **Intent-Based Routing:** We replaced generic CTA buttons with dynamic React qualification components that routed leads based on company size and urgency.
-
-### The Outcome
-Within 60 days of launch, total session count remained steady at 45,000, but **qualified demo bookings increased from 3 to 29 per month**—representing over $420,000 in new qualified ARR pipeline without spending a single dollar more on advertising.
 
 ---
 

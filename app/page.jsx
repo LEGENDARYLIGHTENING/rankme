@@ -1,12 +1,11 @@
 import Home from '../src/views/Home';
+import { constructMetadata } from '../src/utils/seo';
 
-export const metadata = {
-  title: 'B2B Web Design & Lead Generation for Founders | Rankur',
-  description: 'I build fast, custom B2B websites that rank on Google and turn visitors into leads - most live in about 7 days, backed by a 100% money-back guarantee.',
-  alternates: {
-    canonical: 'https://rankursite.com',
-  },
-};
+export const metadata = constructMetadata({
+  title: 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
+  description: 'I build fast, high-converting Next.js websites for B2B founders and optimize them to rank on Google and AI search engines (ChatGPT, Perplexity). Live in 7-14 days.',
+  canonical: 'https://rankursite.com',
+});
 
 export default function Page() {
   return <Home />;

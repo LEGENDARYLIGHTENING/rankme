@@ -3,17 +3,17 @@ import './Testimonials.css';
 
 const verifiedTestimonials = [
   {
-    quote: "Rankur engineered our Next.js 16 platform to handle 1,040+ static pages with sub-second speeds across Africa, GCC, and Europe. Our global fleet enterprise buyers and channel partners immediately noticed the difference in performance, indexing, and technical clarity.",
-    name: "Engineering & Technical Leadership",
+    quote: "Rankur engineered our Next.js 16 platform to handle 1,040+ static pages with sub-second speeds across Africa, GCC, and Europe. Our global fleet enterprise buyers and channel partners immediately noticed the difference in performance, indexing speed, and technical clarity.",
+    name: "Technical Leadership",
     title: "WizIOT Fleet Telematics & IoT Hardware",
-    initials: "WZ",
+    initials: "WI",
     company: "WizIOT",
     domain: "https://www.wiziot.com",
     metrics: "1,040+ Static Pages · Next.js 16 + Turbopack",
   },
   {
-    quote: "Building 460+ high-performance static pages with Next.js gave us instant 100% crawl indexation on AIS-140 certified GPS hardware terms. Rankur's technical SEO and conversion architecture streamlined our incoming enterprise RFQ pipeline and wholesale distributor inquiries.",
-    name: "Operations & Commercial Head",
+    quote: "Deploying 460+ high-performance static pages on Next.js gave us rapid search indexation on AIS-140 certified GPS hardware terms. Rankur's technical architecture streamlined our incoming enterprise RFQ pipeline and wholesale distributor inquiries.",
+    name: "Commercial & Operations Team",
     title: "Atlanta Systems - AIS-140 GPS Manufacturer",
     initials: "AS",
     company: "Atlanta Systems",
@@ -24,7 +24,7 @@ const verifiedTestimonials = [
     quote: "Our headless Next.js 14 medical catalog spans 440+ static product and suture SKUs with zero lag. Hospital procurement teams and wholesale healthcare buyers can instantly review clinical specifications and submit bulk RFQs without friction.",
     name: "Procurement & B2B Growth Lead",
     title: "Medventa Surgical Solutions",
-    initials: "MV",
+    initials: "MS",
     company: "Medventa",
     domain: "https://www.medventa.in",
     metrics: "440+ Static Pages · B2B Medical Commerce",
@@ -87,13 +87,13 @@ export default function Testimonials({
                   target="_blank"
                   rel="noopener noreferrer"
                   className="testimonial-card__verified-link"
-                  title={`Verify live production site: ${item.domain}`}
+                  title={`Inspect live production deployment: ${item.domain}`}
                 >
                   <span className="testimonial-card__verified-tag">
                     <span className="testimonial-card__verified-dot"></span>
-                    Verified Live Client · {item.company}
+                    Verified Platform · {item.company}
                   </span>
-                  <span>Verify Backlink ↗</span>
+                  <span>Inspect Platform ↗</span>
                 </a>
               </div>
             </div>
