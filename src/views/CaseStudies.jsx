@@ -4,66 +4,87 @@ import HeroSection from '../components/HeroSection';
 import ClientTrustBar from '../components/ClientTrustBar';
 import CTABlock from '../components/CTABlock';
 import Testimonials from '../components/Testimonials';
+import Guarantee from '../components/Guarantee';
+import psiMetrics from '../data/psiMetrics.json';
+import { APPROVED_TESTIMONIALS } from '../data/testimonials';
 import './CaseStudies.css';
 
-const impactItems = [
-  { value: '2,280+', label: 'Static Pages in Production' },
-  { value: '5 Platforms', label: 'Verified Client Deployments' },
-  { value: '< 0.9s', label: 'Sub-Second Global LCP' },
-  { value: '100%', label: 'Static Serverless Reliability' },
-  { value: '50+ Leads', label: 'First Month Inbound Pipeline' },
+const architecturalHighlights = [
+  { value: 'Next.js 16', label: 'Static & App Router Architecture' },
+  { value: '5 Platforms', label: 'Client Work & In-House Ventures' },
+  { value: 'Transparent', label: 'Venture Ownership Disclosed' },
+  { value: 'Clean Code', label: 'Full Repository Ownership' },
+  { value: 'Milestone', label: 'Scoped Proposal Sign-Off' },
 ];
 
+function getApprovedQuote(id) {
+  return APPROVED_TESTIMONIALS.find((t) => t.id === id) || null;
+}
+
+function PsiBlock({ id }) {
+  const m = psiMetrics[id];
+  if (!m || !m.ok) return null;
+  return (
+    <div style={{ margin: '1rem 0', padding: '0.85rem 1rem', borderRadius: '8px', border: '1px solid var(--color-border)', backgroundColor: 'rgba(255,255,255,0.02)' }}>
+      <strong style={{ color: 'var(--color-gold)', fontSize: '0.85rem' }}>
+        Measured Lab Performance ({m.caption}):
+      </strong>
+      <p style={{ margin: '0.35rem 0 0', fontSize: '0.88rem', color: 'var(--color-text-muted)' }}>
+        Performance Score: {m.performanceScore}/100 · FCP: {m.fcp} · LCP: {m.lcp} · CLS: {m.cls} · TBT: {m.tbt}
+      </p>
+    </div>
+  );
+}
+
 export default function CaseStudies() {
+  const wiziotQuote = getApprovedQuote('wiziot');
+  const atlantaQuote = getApprovedQuote('atlanta-systems');
+  const medventaQuote = getApprovedQuote('medventa');
+  const probiotaQuote = getApprovedQuote('probiota');
+  const wafaQuote = getApprovedQuote('wafa-trust');
+
   return (
     <>
       <HeroSection
-        label="Evidence & Case Studies"
+        label="Platforms I've Built"
         title={
           <>
-            Outcome-First <span className="text-gold">B2B Performance</span>
+            Client Projects &amp; <span className="text-gold">In-House Ventures</span>
           </>
         }
-        subtitle="We design, engineer, and scale high-performance Next.js digital infrastructure for high-trust B2B enterprises. Explore verified production deployments engineered and scaled by Rankur."
-        primaryCTA={{ to: '/free-audit', label: 'Request custom Audit' }}
-        secondaryCTA={{ to: '#wiziot-case-study', label: 'Explore Case Studies' }}
+        subtitle="A factual breakdown of the Next.js architectures I engineered for B2B clients and my own in-house ventures."
+        primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
+        secondaryCTA={{ to: '#wiziot-case-study', label: 'Explore Builds' }}
       />
 
-      {/* Client Trust Bar */}
       <ClientTrustBar
-        title="Live Production Client Ecosystem"
-        subtitle="Click any verified platform below to inspect live production architecture, responsiveness, and performance."
+        title="Platforms I've Built"
+        subtitle="Each platform below is clearly marked by whether it was a third-party client project or built/co-led for an in-house venture."
       />
 
-      {/* Quick Navigation Sticky Strip */}
       <nav className="case-studies-nav" aria-label="Case Studies Quick Navigation">
         <div className="container">
           <div className="case-studies-nav__pills">
             <a href="#wiziot-case-study" className="case-studies-nav__pill">
-              01. WizIOT (1,040+ Pages)
+              01. WizIOT (Client)
             </a>
             <a href="#atlanta-case-study" className="case-studies-nav__pill">
-              02. Atlanta Systems (460+ Pages)
+              02. Atlanta Systems (In-House Venture)
             </a>
             <a href="#medventa-case-study" className="case-studies-nav__pill">
-              03. Medventa (440+ Pages)
+              03. Medventa (Client)
             </a>
             <a href="#probiota-case-study" className="case-studies-nav__pill">
-              04. Probiota Innovations (340+ Pages)
+              04. Probiota Innovations (In-House Venture)
             </a>
             <a href="#wafa-case-study" className="case-studies-nav__pill">
-              05. Wafa Trust (Healthcare NGO)
-            </a>
-            <a href="#channel-growth-systems" className="case-studies-nav__pill">
-              06. Growth & Channel Systems
+              05. Wafa Trust (Client Archive)
             </a>
           </div>
         </div>
       </nav>
 
-      {/* =========================================================
-          Case Study 01: WizIOT
-          ========================================================= */}
+      {/* Case Study 01: WizIOT */}
       <section
         className="case-full"
         id="wiziot-case-study"
@@ -72,54 +93,50 @@ export default function CaseStudies() {
         <div className="container">
           <div className="case-full__verified-banner">
             <span className="case-full__verified-pulse"></span>
-            Verified Deployment · Live Production Infrastructure
+            Client Project · Live Website
           </div>
-          <p className="section-label">Case Study 01 · Enterprise IoT & Fleet Telematics Architecture</p>
+          <p className="section-label">Case Study 01 · Enterprise IoT &amp; Fleet Telematics</p>
           <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-md) 0' }}>
-            WizIOT: Monolithic Next.js 16 Platform Across EMEA & GCC
+            WizIOT: Fleet Telematics &amp; Hardware Platform
           </h2>
 
           <div className="case-full__layout">
             <div className="case-full__image">
               <img
-                src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
-                alt="WizIOT Enterprise IoT Fleet Telematics Platform Preview"
+                src="/case-studies/wiziot.webp"
+                alt="WizIOT enterprise fleet telematics homepage screenshot"
+                width={1200}
+                height={750}
+                loading="lazy"
               />
             </div>
 
             <div className="case-full__content">
               <div className="case-full__tech-pills">
-                <span className="case-full__tech-pill">Next.js 16 + Turbopack</span>
-                <span className="case-full__tech-pill">1,040+ Static Pages</span>
-                <span className="case-full__tech-pill">Cloudflare Edge</span>
+                <span className="case-full__tech-pill">Client Project</span>
+                <span className="case-full__tech-pill">Next.js 16 + App Router</span>
+                <span className="case-full__tech-pill">Edge Delivery</span>
                 <span className="case-full__tech-pill">Fleet Telematics Schema</span>
               </div>
 
-              <h3>The Challenge & Context</h3>
+              <h3>Context &amp; Scope</h3>
               <p>
-                WizIOT is an enterprise fleet telematics and IoT sensor hardware provider operating across Africa, the GCC, and Europe. They required an expansive, high-authority digital footprint capable of presenting complex IoT hardware protocols, fuel monitoring integrations, and cold-chain telematics without sacrificing page speed or indexing speed.
+                WizIOT provides enterprise fleet telematics and IoT hardware across GCC, African, and European markets. They needed a structured multi-vertical platform capable of presenting hardware protocols, fuel monitoring solutions, and cold-chain tracking clearly to procurement evaluators.
               </p>
 
-              <h3>Our Architecture & Solution</h3>
+              <h3>My Engineering Approach</h3>
               <ul>
-                <li>Architected a custom Next.js 16 static infrastructure with Turbopack, pre-rendering over 1,040+ static pages with zero runtime overhead.</li>
-                <li>Engineered hierarchical hardware specification templates and interactive sensor feature matrices for enterprise procurement teams.</li>
-                <li>Configured custom Cloudflare edge caching rules and international geo-routing to deliver sub-0.9s load times across UAE, Saudi Arabia, Kenya, and Europe.</li>
-                <li>Implemented comprehensive IoT Hardware and Fleet Telematics JSON-LD schema models to secure rich search results and generative AI retrieval.</li>
+                <li>Engineered a static-first Next.js 16 frontend organized by industry vertical and platform capability.</li>
+                <li>Built structured hardware specification templates and demo request pathways for commercial fleet operators.</li>
+                <li>Configured clean JSON-LD schema and technical metadata across solution routes.</li>
               </ul>
 
-              <h3>Verified Results & Impact</h3>
-              <ul>
-                <li><strong>1,040+ static pages deployed</strong> and indexed in Google Search Console with zero crawl budget waste or pagination debt.</li>
-                <li>Achieved a global Largest Contentful Paint (LCP) under <strong>0.9 seconds</strong> across international corporate networks.</li>
-                <li>Established direct inbound inquiry routing for commercial fleet operators and regional telematics distributors.</li>
-              </ul>
+              <PsiBlock id="wiziot" />
 
-              {/* Live Verification Box */}
               <div className="case-full__live-box">
                 <div className="case-full__live-box-text">
-                  <span className="case-full__live-box-title">Inspect WizIOT in Production</span>
-                  <span className="case-full__live-box-subtitle">Live production deployment engineered by Rankur</span>
+                  <span className="case-full__live-box-title">WizIOT Live Website</span>
+                  <span className="case-full__live-box-subtitle">External client site</span>
                 </div>
                 <a
                   href="https://www.wiziot.com"
@@ -127,26 +144,22 @@ export default function CaseStudies() {
                   rel="noopener noreferrer"
                   className="case-full__verify-btn"
                 >
-                  Visit WizIOT.com ↗
+                  Visit site &#8599;
                 </a>
               </div>
 
-              <div className="case-full__quote-block">
-                <p className="case-full__quote-text">
-                  "Rankur engineered our Next.js 16 platform to handle 1,040+ static pages with sub-second speeds across Africa, GCC, and Europe. Our global fleet enterprise buyers and channel partners immediately noticed the difference in performance and technical clarity."
-                </p>
-                <p className="case-full__quote-author">
-                  - Engineering & Technical Leadership, WizIOT Telematics
-                </p>
-              </div>
+              {wiziotQuote && (
+                <div className="case-full__quote-block">
+                  <p className="case-full__quote-text">&ldquo;{wiziotQuote.quote}&rdquo;</p>
+                  <p className="case-full__quote-author">&mdash; {wiziotQuote.name}, {wiziotQuote.role}</p>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </section>
 
-      {/* =========================================================
-          Case Study 02: Atlanta Systems
-          ========================================================= */}
+      {/* Case Study 02: Atlanta Systems */}
       <section
         className="case-full"
         id="atlanta-case-study"
@@ -155,54 +168,49 @@ export default function CaseStudies() {
         <div className="container">
           <div className="case-full__verified-banner">
             <span className="case-full__verified-pulse"></span>
-            Verified Deployment · Live Production Infrastructure
+            Co-led for an in-house venture
           </div>
-          <p className="section-label">Case Study 02 · Automotive Telematics & AIS-140 GPS Manufacturing</p>
+          <p className="section-label">Case Study 02 · AIS-140 GPS &amp; Automotive Telematics</p>
           <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-md) 0' }}>
             Atlanta Systems: AIS-140 Telematics Manufacturing Platform
           </h2>
 
           <div className="case-full__layout">
-            <div className="case-full__image">
-              <img
-                src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=800&q=80"
-                alt="Atlanta Systems AIS-140 Certified GPS Telematics Platform Preview"
-              />
+            <div className="case-full__image" style={{ flexDirection: 'column', gap: '0.75rem', padding: '2rem', textAlign: 'center' }}>
+              <span style={{ color: 'var(--color-gold)', fontSize: '1.35rem', fontWeight: 700 }}>
+                Atlanta Systems
+              </span>
+              <span style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', maxWidth: '340px' }}>
+                Co-led for an in-house venture. Live domain uses Cloudflare bot verification; desktop screenshot pending manual capture.
+              </span>
             </div>
 
             <div className="case-full__content">
               <div className="case-full__tech-pills">
-                <span className="case-full__tech-pill">Next.js 16 + Webpack</span>
-                <span className="case-full__tech-pill">460+ Static Pages</span>
-                <span className="case-full__tech-pill">AIS-140 Compliance SEO</span>
-                <span className="case-full__tech-pill">B2B RFQ Automation</span>
+                <span className="case-full__tech-pill">Co-led In-House Venture</span>
+                <span className="case-full__tech-pill">Next.js 16</span>
+                <span className="case-full__tech-pill">AIS-140 Compliance Pages</span>
+                <span className="case-full__tech-pill">B2B RFQ Routing</span>
               </div>
 
-              <h3>The Challenge & Context</h3>
+              <h3>Disclosure &amp; Context</h3>
               <p>
-                Atlanta Systems is a leading manufacturer of AIS-140 certified GPS trackers and automotive telematics hardware. Co-led and architected from a digital infrastructure and SEO perspective by Moksh Parjapati for his own ventures, the platform establishes undeniable regulatory authority and funnels high-volume institutional RFQs.
+                Atlanta Systems manufactures AIS-140 certified GPS trackers and automotive telematics hardware. I co-led and built the digital infrastructure and SEO architecture for this in-house venture rather than as an arm&apos;s-length outside vendor.
               </p>
 
-              <h3>Our Architecture & Solution</h3>
+              <h3>My Engineering Approach</h3>
               <ul>
-                <li>Engineered 460+ high-performance static pages on custom Next.js 16, optimized for technical specification downloads and device compliance records.</li>
-                <li>Mapped out and built dedicated keyword silos targeting AIS-140 certification, emergency response support (IRNSS/NavIC), and state transport regulatory requirements.</li>
-                <li>Created frictionless digital RFQ submission pathways with instant lead qualification and CRM webhooks.</li>
-                <li>Standardized device schema markup across automotive OBD trackers, dashcam telematics, and heavy-equipment asset trackers.</li>
+                <li>Engineered static Next.js hardware specification pages covering AIS-140 certification, IRNSS/NavIC support, and regulatory documentation.</li>
+                <li>Structured direct institutional RFQ forms with clear hardware category selection.</li>
+                <li>Applied product and organization schema markup across OBD trackers, dashcams, and fleet hardware SKUs.</li>
               </ul>
 
-              <h3>Verified Results & Impact</h3>
-              <ul>
-                <li><strong>460+ static pages deployed on Next.js 16</strong> across competitive government and commercial transport queries.</li>
-                <li>Eliminated page latency down to <strong>sub-1.1s</strong> globally, reducing bounce rates among mobile fleet managers.</li>
-                <li>Generated consistent institutional requests for quotations (RFQs) for bulk hardware deployments.</li>
-              </ul>
+              <PsiBlock id="atlanta-systems" />
 
-              {/* Live Verification Box */}
               <div className="case-full__live-box">
                 <div className="case-full__live-box-text">
-                  <span className="case-full__live-box-title">Inspect Atlanta Systems in Production</span>
-                  <span className="case-full__live-box-subtitle">Live production deployment engineered by Rankur</span>
+                  <span className="case-full__live-box-title">Atlanta Systems Website</span>
+                  <span className="case-full__live-box-subtitle">Co-led for an in-house venture</span>
                 </div>
                 <a
                   href="https://www.atlantasys.com"
@@ -210,26 +218,22 @@ export default function CaseStudies() {
                   rel="noopener noreferrer"
                   className="case-full__verify-btn"
                 >
-                  Visit AtlantaSys.com ↗
+                  Visit site &#8599;
                 </a>
               </div>
 
-              <div className="case-full__quote-block">
-                <p className="case-full__quote-text">
-                  "Deploying 460+ high-performance static pages on Next.js gave us rapid search indexation on AIS-140 certified GPS hardware terms. Rankur's technical SEO and conversion architecture streamlined our incoming enterprise RFQ pipeline."
-                </p>
-                <p className="case-full__quote-author">
-                  - Commercial & Operations Leadership, Atlanta Systems
-                </p>
-              </div>
+              {atlantaQuote && (
+                <div className="case-full__quote-block">
+                  <p className="case-full__quote-text">&ldquo;{atlantaQuote.quote}&rdquo;</p>
+                  <p className="case-full__quote-author">&mdash; {atlantaQuote.name}, {atlantaQuote.role}</p>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </section>
 
-      {/* =========================================================
-          Case Study 03: Medventa
-          ========================================================= */}
+      {/* Case Study 03: Medventa */}
       <section
         className="case-full"
         id="medventa-case-study"
@@ -238,54 +242,50 @@ export default function CaseStudies() {
         <div className="container">
           <div className="case-full__verified-banner">
             <span className="case-full__verified-pulse"></span>
-            Verified Deployment · Live Production Infrastructure
+            Client Project · Live Website
           </div>
-          <p className="section-label">Case Study 03 · B2B Medical Supplies & Headless Surgical Commerce</p>
+          <p className="section-label">Case Study 03 · B2B Medical Supplies &amp; Hospital Catalog</p>
           <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-md) 0' }}>
-            Medventa: 440+ Page Headless Medical Procurement Platform
+            Medventa: Headless Medical Procurement Platform
           </h2>
 
           <div className="case-full__layout">
             <div className="case-full__image">
               <img
-                src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80"
-                alt="Medventa B2B Medical Supplies Platform Preview"
+                src="/case-studies/medventa.webp"
+                alt="Medventa headless medical catalog homepage screenshot"
+                width={1200}
+                height={750}
+                loading="lazy"
               />
             </div>
 
             <div className="case-full__content">
               <div className="case-full__tech-pills">
-                <span className="case-full__tech-pill">Next.js 14 Headless Commerce</span>
-                <span className="case-full__tech-pill">440+ Static SKU Pages</span>
-                <span className="case-full__tech-pill">Sub-Second Catalog Search</span>
-                <span className="case-full__tech-pill">Bulk Hospital RFQ Engine</span>
+                <span className="case-full__tech-pill">Client Project</span>
+                <span className="case-full__tech-pill">Next.js 14 Headless Catalog</span>
+                <span className="case-full__tech-pill">Structured SKU Filters</span>
+                <span className="case-full__tech-pill">Hospital RFQ Workflow</span>
               </div>
 
-              <h3>The Challenge & Context</h3>
+              <h3>Context &amp; Scope</h3>
               <p>
-                Medventa is a specialized B2B manufacturer and distributor of surgical sutures, operating theater disposables, and hospital consumables. B2B medical procurement officers demand instant access to technical needle gauges, tensile strength charts, and sterile packaging specs. Slow legacy e-commerce stores fail to convert hospital purchase committees.
+                Medventa supplies surgical sutures and hospital consumables to medical procurement officers who need straightforward access to needle gauges, suture dimensions, packaging specs, and bulk quote requests without slow consumer checkout clutter.
               </p>
 
-              <h3>Our Architecture & Solution</h3>
+              <h3>My Engineering Approach</h3>
               <ul>
-                <li>Designed and deployed a custom Next.js 14 headless commerce catalog covering 440+ medical supply and surgical suture SKUs.</li>
-                <li>Built client-side instant category filtering and needle/suture dimension calculators for surgeons and hospital purchase managers.</li>
-                <li>Implemented an automated institutional RFQ cart allowing bulk procurement inquiries without conventional retail checkout friction.</li>
-                <li>Structured medical device schema markup adhering to strict healthcare search standards and regulatory parameters.</li>
+                <li>Built a headless Next.js 14 medical catalog organized cleanly by surgical category and product spec.</li>
+                <li>Added client-side category search and institutional RFQ inquiry routing without retail cart friction.</li>
+                <li>Applied structured schema markup cleanly across category and product pages.</li>
               </ul>
 
-              <h3>Verified Results & Impact</h3>
-              <ul>
-                <li><strong>440+ medical product pages live</strong> in production with sub-second catalog navigation speed.</li>
-                <li>Enabled procurement officers to request institutional quotes in less than 45 seconds from any mobile device.</li>
-                <li>Significantly improved visibility for bottom-of-funnel surgical supplies keywords across tier-1 healthcare facilities.</li>
-              </ul>
+              <PsiBlock id="medventa" />
 
-              {/* Live Verification Box */}
               <div className="case-full__live-box">
                 <div className="case-full__live-box-text">
-                  <span className="case-full__live-box-title">Inspect Medventa in Production</span>
-                  <span className="case-full__live-box-subtitle">Live production deployment engineered by Rankur</span>
+                  <span className="case-full__live-box-title">Medventa Live Website</span>
+                  <span className="case-full__live-box-subtitle">External client site</span>
                 </div>
                 <a
                   href="https://www.medventa.in"
@@ -293,26 +293,22 @@ export default function CaseStudies() {
                   rel="noopener noreferrer"
                   className="case-full__verify-btn"
                 >
-                  Visit Medventa.in ↗
+                  Visit site &#8599;
                 </a>
               </div>
 
-              <div className="case-full__quote-block">
-                <p className="case-full__quote-text">
-                  "Our headless Next.js 14 medical catalog spans 440+ static product and suture SKUs with zero lag. Hospital procurement teams and wholesale healthcare buyers can instantly review clinical specifications and submit bulk RFQs without friction."
-                </p>
-                <p className="case-full__quote-author">
-                  - Procurement & Growth Lead, Medventa Surgical
-                </p>
-              </div>
+              {medventaQuote && (
+                <div className="case-full__quote-block">
+                  <p className="case-full__quote-text">&ldquo;{medventaQuote.quote}&rdquo;</p>
+                  <p className="case-full__quote-author">&mdash; {medventaQuote.name}, {medventaQuote.role}</p>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </section>
 
-      {/* =========================================================
-          Case Study 04: Probiota Innovations
-          ========================================================= */}
+      {/* Case Study 04: Probiota Innovations */}
       <section
         className="case-full"
         id="probiota-case-study"
@@ -321,54 +317,50 @@ export default function CaseStudies() {
         <div className="container">
           <div className="case-full__verified-banner">
             <span className="case-full__verified-pulse"></span>
-            Verified Deployment · Live Production Infrastructure
+            Built in-house · In-House Venture
           </div>
-          <p className="section-label">Case Study 04 · US-FDA Registered Nutraceutical CDMO & Lead Acquisition</p>
+          <p className="section-label">Case Study 04 · Nutraceutical CDMO Manufacturing</p>
           <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-md) 0' }}>
-            Probiota Innovations: Digital Pipeline for Global Nutraceuticals
+            Probiota Innovations: CDMO Web Platform
           </h2>
 
           <div className="case-full__layout">
             <div className="case-full__image">
               <img
-                src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&q=80"
-                alt="Probiota Innovations Nutraceutical Platform Preview"
+                src="/case-studies/probiota.webp"
+                alt="Probiota Innovations CDMO website homepage screenshot"
+                width={1200}
+                height={750}
+                loading="lazy"
               />
             </div>
 
             <div className="case-full__content">
               <div className="case-full__tech-pills">
+                <span className="case-full__tech-pill">Built In-House</span>
                 <span className="case-full__tech-pill">Next.js 16 Custom Build</span>
-                <span className="case-full__tech-pill">340+ Static Pages</span>
-                <span className="case-full__tech-pill">US-FDA Compliance Framework</span>
-                <span className="case-full__tech-pill">GA4 Funnel Architecture</span>
+                <span className="case-full__tech-pill">CDMO Spec Pages</span>
+                <span className="case-full__tech-pill">GA4 Event Tracking</span>
               </div>
 
-              <h3>The Challenge & Context</h3>
+              <h3>Disclosure &amp; Context</h3>
               <p>
-                Probiota Innovations is a US-FDA registered probiotic, gummy, and functional supplement contract manufacturer (CDMO). Built and run by Moksh Parjapati for his own venture, this digital platform was engineered to capture overseas wholesale buyer inquiries and private-label contract manufacturing deals.
+                Probiota Innovations is a probiotic and functional gummy contract manufacturer (CDMO) built for my own in-house venture. I engineered the platform to organize formulation capabilities, regulatory documentation, and wholesale manufacturing inquiries.
               </p>
 
-              <h3>Our Architecture & Solution</h3>
+              <h3>My Engineering Approach</h3>
               <ul>
-                <li>Designed and coded a custom Next.js 16 platform from scratch spanning 340+ static pages with sub-1.0s global load times.</li>
-                <li>Created structured dosage form matrices, minimum order quantity (MOQ) guides, and compliance documentation vaults.</li>
-                <li>Deployed technical SEO schemas and semantic content formats optimized for both Google and generative AI queries (GEO).</li>
-                <li>Configured custom GA4 event tracking to measure ingredient specification downloads and sample kit requests.</li>
+                <li>Built a custom static Next.js 16 codebase from scratch without bloated theme templates.</li>
+                <li>Created structured dosage format pages, capability breakdowns, and private-label inquiry flows.</li>
+                <li>Configured GA4 conversion event tracking on inquiry forms and key buyer documentation views.</li>
               </ul>
 
-              <h3>Verified Results & Impact</h3>
-              <ul>
-                <li>Captured <strong>10+ qualified international wholesale inquiries</strong> within the first 10 days of launching the platform.</li>
-                <li>Scaled lead inflow to <strong>50+ verified B2B opportunities</strong> in the first month post-launch.</li>
-                <li>Delivered and deployed the complete custom code repository within a rapid 7-day development sprint.</li>
-              </ul>
+              <PsiBlock id="probiota" />
 
-              {/* Live Verification Box */}
               <div className="case-full__live-box">
                 <div className="case-full__live-box-text">
-                  <span className="case-full__live-box-title">Inspect Probiota Innovations in Production</span>
-                  <span className="case-full__live-box-subtitle">Live production deployment engineered by Rankur</span>
+                  <span className="case-full__live-box-title">Probiota Innovations Website</span>
+                  <span className="case-full__live-box-subtitle">Built in-house for my own venture</span>
                 </div>
                 <a
                   href="https://www.probiotainnovations.com"
@@ -376,26 +368,24 @@ export default function CaseStudies() {
                   rel="noopener noreferrer"
                   className="case-full__verify-btn"
                 >
-                  Visit ProbiotaInnovations.com ↗
+                  Visit site &#8599;
                 </a>
               </div>
 
-              <div className="case-full__quote-block">
-                <p className="case-full__quote-text">
-                  "Rankur built an incredible digital infrastructure for us. Within days, we were capturing international trade inquiries that previously slipped through the cracks. The site is fast, modern, and establishes immediate trust."
-                </p>
-                <p className="case-full__quote-author">
-                  - Anshika Narula, Founder, Probiota Innovations
-                </p>
-              </div>
+              {probiotaQuote && (
+                <div className="case-full__quote-block">
+                  <p className="case-full__quote-text">&ldquo;{probiotaQuote.quote}&rdquo;</p>
+                  <p className="case-full__quote-author">
+                    &mdash; {probiotaQuote.name}, {probiotaQuote.role} (In-house venture)
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </section>
 
-      {/* =========================================================
-          Case Study 05: Wafa Trust
-          ========================================================= */}
+      {/* Case Study 05: Wafa Trust */}
       <section
         className="case-full"
         id="wafa-case-study"
@@ -404,144 +394,72 @@ export default function CaseStudies() {
         <div className="container">
           <div className="case-full__verified-banner">
             <span className="case-full__verified-pulse"></span>
-            Verified Deployment · Live Production Infrastructure
+            Historical Client Project · Domain Offline
           </div>
-          <p className="section-label">Case Study 05 · Philanthropic Healthcare & Community Development NGO</p>
+          <p className="section-label">Case Study 05 · Healthcare &amp; Community NGO</p>
           <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-md) 0' }}>
-            Wafa Trust: Accessible Digital Presence for Philanthropic Impact
+            Wafa Trust: Accessible NGO Web Build
           </h2>
 
           <div className="case-full__layout">
-            <div className="case-full__image">
+            <div className="case-full__image" style={{ flexDirection: 'column', gap: '1rem', padding: '2rem', textAlign: 'center' }}>
               <img
-                src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=800&q=80"
-                alt="Wafa Educational and Charitable Trust Healthcare Initiative Preview"
+                src="/wafa-trust-logo.jpeg"
+                alt="Wafa Educational And Charitable Trust logo"
+                style={{ width: '96px', height: '96px', objectFit: 'contain', borderRadius: '8px' }}
               />
+              <span style={{ color: 'var(--color-text-muted)', fontSize: '0.88rem', maxWidth: '340px' }}>
+                Archive note: `wafatrust.org` does not currently resolve in DNS (`NXDOMAIN`). External live link disabled until domain is restored.
+              </span>
             </div>
 
             <div className="case-full__content">
               <div className="case-full__tech-pills">
-                <span className="case-full__tech-pill">Next.js Infrastructure</span>
-                <span className="case-full__tech-pill">Philanthropic Healthcare</span>
-                <span className="case-full__tech-pill">100% Mobile Optimized</span>
-                <span className="case-full__tech-pill">Donor Trust Framework</span>
+                <span className="case-full__tech-pill">Client Project (Archive)</span>
+                <span className="case-full__tech-pill">Next.js Frontend</span>
+                <span className="case-full__tech-pill">Accessible Mobile Layout</span>
               </div>
 
-              <h3>The Challenge & Context</h3>
+              <h3>Context &amp; Scope</h3>
               <p>
-                Wafa Educational and Charitable Trust coordinates vital healthcare, dialysis support, and educational programs. In the philanthropic sector, institutional donors and overseas patrons demand absolute transparency, verified impact documentation, and instant mobile responsiveness.
+                Wafa Educational and Charitable Trust manages community healthcare and scholarship programs. I built a lightweight Next.js web presence focused on clean mobile readability and clear program summaries for donors.
               </p>
 
-              <h3>Our Architecture & Solution</h3>
+              <h3>My Engineering Approach</h3>
               <ul>
-                <li>Engineered a modern, clean web architecture prioritizing fast load times on constrained mobile connections.</li>
-                <li>Structured clear initiative reports, verified financial audits, and transparent patient support statistics.</li>
-                <li>Optimized donation discovery pathways and contact channels to facilitate seamless patron contributions.</li>
+                <li>Delivered a responsive mobile-first Next.js layout with lightweight assets.</li>
+                <li>Organized philanthropic program documentation and transparent donation contact pathways.</li>
               </ul>
 
-              <h3>Verified Results & Impact</h3>
-              <ul>
-                <li>Enhanced donor engagement with a <strong>sub-1.0s mobile experience</strong> across international networks.</li>
-                <li>Clear programmatic presentation of healthcare dialysis centers and scholarship disbursements.</li>
-                <li>Production Next.js deployment built for global philanthropic accessibility.</li>
-              </ul>
-
-              {/* Live Verification Box */}
-              <div className="case-full__live-box">
-                <div className="case-full__live-box-text">
-                  <span className="case-full__live-box-title">Inspect Wafa Trust in Production</span>
-                  <span className="case-full__live-box-subtitle">Live production deployment engineered by Rankur</span>
+              {wafaQuote && (
+                <div className="case-full__quote-block">
+                  <p className="case-full__quote-text">&ldquo;{wafaQuote.quote}&rdquo;</p>
+                  <p className="case-full__quote-author">&mdash; {wafaQuote.name}, {wafaQuote.role}</p>
                 </div>
-                <a
-                  href="https://wafatrust.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="case-full__verify-btn"
-                >
-                  Visit WafaTrust.org ↗
-                </a>
-              </div>
-
-              <div className="case-full__quote-block">
-                <p className="case-full__quote-text">
-                  "Rankur structured a modern, highly accessible web platform that gives our healthcare and education initiatives the trust and transparency our international donors expect. Load times and mobile reliability are exceptional."
-                </p>
-                <p className="case-full__quote-author">
-                  - Executive Leadership, Wafa Educational & Charitable Trust
-                </p>
-              </div>
+              )}
             </div>
           </div>
         </div>
       </section>
 
-      {/* =========================================================
-          Secondary Growth & Channel Systems
-          ========================================================= */}
-      <section
-        className="case-full"
-        id="channel-growth-systems"
-        style={{ borderBottom: '1px solid var(--color-border)', padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)' }}
-      >
+      <section className="impact-section" id="delivery-standards">
         <div className="container">
-          <p className="section-label">Additional Growth Engagements</p>
-          <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-xl) 0' }}>
-            Channel Partnerships & Performance Systems
-          </h2>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 'var(--space-2xl)' }}>
-            {/* Competence Consulting */}
-            <div style={{ background: 'var(--color-card-bg)', border: '1px solid var(--color-border)', borderRadius: 'var(--border-radius-lg)', padding: 'var(--space-2xl)' }}>
-              <span style={{ fontSize: '0.75rem', color: 'var(--color-gold)', fontWeight: 'var(--font-weight-bold)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
-                B2B Sourcing & Export Operations
-              </span>
-              <h3 style={{ fontSize: '1.25rem', margin: 'var(--space-sm) 0 var(--space-md)', color: 'var(--color-white)' }}>
-                Competence Consulting: Alibaba Channel Sourcing
-              </h3>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', lineHeight: '1.7', marginBottom: 'var(--space-md)' }}>
-                Configured operational sourcing workflows and digital verification pipelines for cross-border export transactions via official Alibaba channel integrations, structuring RFQ capture systems for mid-market manufacturers.
-              </p>
-              <div style={{ padding: 'var(--space-sm) 0', borderTop: '1px solid rgba(255, 255, 255, 0.05)', color: 'var(--color-gold)', fontSize: '0.82rem', fontWeight: 'bold' }}>
-                Alibaba Channel Verification Standard
-              </div>
-            </div>
-
-            {/* Glitchy */}
-            <div style={{ background: 'var(--color-card-bg)', border: '1px solid var(--color-border)', borderRadius: 'var(--border-radius-lg)', padding: 'var(--space-2xl)' }}>
-              <span style={{ fontSize: '0.75rem', color: 'var(--color-gold)', fontWeight: 'var(--font-weight-bold)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
-                Conversion Systems & Lead Funnels
-              </span>
-              <h3 style={{ fontSize: '1.25rem', margin: 'var(--space-sm) 0 var(--space-md)', color: 'var(--color-white)' }}>
-                Glitchy: Lead Generation & Conversion Engines
-              </h3>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', lineHeight: '1.7', marginBottom: 'var(--space-md)' }}>
-                Engineered custom responsive bridge landing pages with optimized redirection logic, converting 200+ qualified paying customers and capturing 800+ cold leads and 100+ warm leads for email campaigns.
-              </p>
-              <div style={{ padding: 'var(--space-sm) 0', borderTop: '1px solid rgba(255, 255, 255, 0.05)', color: 'var(--color-gold)', fontSize: '0.82rem', fontWeight: 'bold' }}>
-                200+ Customers · 800+ Leads Converted
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Quantified Impact Strip */}
-      <section className="impact-section" id="quantified-impact">
-        <div className="container">
-          <p className="section-label">Quantified Impact</p>
-          <h2 className="section-title">Verified Numbers Across Our Builds</h2>
+          <p className="section-label">Delivery Basis</p>
+          <h2 className="section-title">How Builds Are Structured</h2>
           <div className="impact-grid">
-            {impactItems.map((item, i) => (
+            {architecturalHighlights.map((item, i) => (
               <div key={i} className="impact-item">
                 <span className="impact-value">{item.value}</span>
                 <span className="impact-label">{item.label}</span>
               </div>
             ))}
           </div>
+          <p style={{ textAlign: 'center', color: 'var(--color-text-muted)', fontSize: '0.9rem', marginTop: 'var(--space-2xl)' }}>
+            <Guarantee />
+          </p>
         </div>
       </section>
 
-      {/* Testimonials */}
       <Testimonials />
 
       <CTABlock />

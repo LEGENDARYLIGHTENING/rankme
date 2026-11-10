@@ -70,6 +70,9 @@ async function runPrebuildChecks() {
     if (/B2B\s+Manufacturing\s+Client/i.test(c)) {
       fail(`[B4] Anonymous B2B Manufacturing Client string in blogs/${f}`);
     }
+    if (/money-back guarantee|Verify Footer Link|footer backlink/i.test(c)) {
+      fail(`[C5/C6] Unverified guarantee or backlink phrasing in blogs/${f}`);
+    }
     const fmDate = c.match(/^Date:\s*(\d{4}-\d{2}-\d{2})/m);
     if (!fmDate || fmDate[1] < '2026-01-01') {
       fail(`[B2] Invalid or backdated frontmatter Date in blogs/${f}: ${fmDate ? fmDate[1] : 'MISSING'}`);
@@ -293,9 +296,45 @@ async function runPrebuildChecks() {
   if (/googletagmanager\.com\/gtag\/js/.test(layoutSrc)) {
     fail('[T7] Unconditional GA4 script still embedded in app/layout.jsx (must be consent-gated)');
   }
+
+  // Phase 4 (C1-C8): Trust, Disclosures, Screenshots, Guarantee, Backlinks, Voice & CTA
+  for (const deadFile of ['src/data/local-intent.json', 'scripts/merge-intent.cjs']) {
+    if (fs.existsSync(path.join(rootDir, deadFile))) {
+      fail(`[C5/C7] Dead intent/template data file still exists: ${deadFile}`);
+    }
+  }
+
+  const phase4Files = walkFiles(path.join(rootDir, 'src'), ['.js', '.jsx', '.json']);
+  for (const pf of phase4Files) {
+    const rel = path.relative(rootDir, pf);
+    if (rel === 'src\\data\\blogs-index.json' || rel === 'src/data/blogs-index.json' || rel.endsWith('psiMetrics.json')) continue;
+    const c = fs.readFileSync(pf, 'utf8');
+    if (/unsplash\.com/i.test(c)) fail(`[C4] Unsplash stock photo still referenced in ${rel}`);
+    if (/money-back guarantee|100% Risk-Free Guarantee/i.test(c)) fail(`[C5] Unverified money-back guarantee still in ${rel}`);
+    if (/Verify Footer Link|site-wide backlink|Verify Backlink|Verify backlink in footer/i.test(c)) fail(`[C6] Link-scheme backlink phrasing still in ${rel}`);
+    if (/B2B\s+Manufacturing\s+Client/i.test(c)) fail(`[C1/B4] Anonymous B2B Manufacturing Client string still in ${rel}`);
+    if (/100% Crawl Indexation|< 0\.9s|< 1\.2s|50\+ Leads|10 Days To First Lead/i.test(c)) fail(`[C2] Unproven metric claim still in ${rel}`);
+  }
+
+  const testimonialsSrc = fs.readFileSync(path.join(rootDir, 'src/components/Testimonials.jsx'), 'utf8');
+  if (!testimonialsSrc.includes('APPROVED_TESTIMONIALS') && !testimonialsSrc.includes('testimonials')) {
+    fail('[C3] Testimonials.jsx must source data from src/data/testimonials.js');
+  }
+  const caseStudiesSrc = fs.readFileSync(path.join(rootDir, 'src/views/CaseStudies.jsx'), 'utf8');
+  const trustBarSrc = fs.readFileSync(path.join(rootDir, 'src/components/ClientTrustBar.jsx'), 'utf8');
+  const homeSrc = fs.readFileSync(path.join(rootDir, 'src/views/Home.jsx'), 'utf8');
+  for (const [lbl, txt] of [['Home.jsx', homeSrc], ['CaseStudies.jsx', caseStudiesSrc], ['ClientTrustBar.jsx', trustBarSrc]]) {
+    if (!/Co-led for an in-house venture/i.test(txt)) fail(`[C1] Missing Atlanta Systems in-house disclosure in ${lbl}`);
+    if (!/in-house/i.test(txt)) fail(`[C1] Missing Probiota in-house disclosure in ${lbl}`);
+  }
+  for (const shot of ['wiziot.webp', 'medventa.webp', 'probiota.webp']) {
+    if (!fs.existsSync(path.join(rootDir, 'public/case-studies', shot))) {
+      fail(`[C4] Missing real case-study screenshot: public/case-studies/${shot}`);
+    }
+  }
 }
 
-function checkBuiltHtmlFile(filePath, relLabel, { allowPhase4Legacy = false } = {}) {
+function checkBuiltHtmlFile(filePath, relLabel) {
   const html = fs.readFileSync(filePath, 'utf8');
 
   if (html.includes('&amp;amp;')) {
@@ -304,11 +343,8 @@ function checkBuiltHtmlFile(filePath, relLabel, { allowPhase4Legacy = false } = 
   if (/\[Internal link:|\[External link:/i.test(html)) {
     fail(`[B1] Template placeholder in built HTML: ${relLabel}`);
   }
-  if (/View Money Services|85\+ City Hubs/i.test(html)) {
-    fail(`[B7] Forbidden doorway/CTA string in built HTML: ${relLabel}`);
-  }
-  if (!allowPhase4Legacy && /B2B Manufacturing Client|unsplash\.com/i.test(html)) {
-    fail(`[B4/B5/C4] Forbidden Unsplash hotlink or anonymous client claim in built HTML: ${relLabel}`);
+  if (/View Money Services|85\+ City Hubs|B2B Manufacturing Client|unsplash\.com|money-back guarantee|Verify Footer Link|footer backlink/i.test(html)) {
+    fail(`[B4/B5/B7/C4/C5/C6] Forbidden string in built HTML: ${relLabel}`);
   }
 
   // Head-only checks (canonical, og:url, title, og:title, desc, og:image)
@@ -445,8 +481,7 @@ async function runPostbuildChecks() {
       fail(`[T2] Missing built core HTML page: ${relHtml}`);
       continue;
     }
-    const allowPhase4Legacy = ['index.html', 'case-studies.html', 'saas-websites.html'].includes(relHtml);
-    checkBuiltHtmlFile(p, relHtml, { allowPhase4Legacy });
+    checkBuiltHtmlFile(p, relHtml);
     const html = fs.readFileSync(p, 'utf8');
 
     // T7: No unconditional GA4 script in SSR HTML

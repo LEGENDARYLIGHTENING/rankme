@@ -83,7 +83,7 @@ When a prospect reaches your pricing page or contact form, that is the moment of
 ### Social Proof Placement Strategy
 * **Hero Section:** Place recognizable client logos directly beneath the primary H1 headline.
 * **Beside Contact Forms:** Place a 1-sentence mini case study with hard metrics (linking directly to verifiable project details) right next to the email input field.
-* **Near Pricing:** Display SOC 2, ISO, or money-back guarantee badges directly beside payment or quote request buttons.
+* **Near Pricing:** Display verified compliance badges (where held) and written SLA or commercial delivery terms directly beside payment or quote request buttons.
 
 ---
 

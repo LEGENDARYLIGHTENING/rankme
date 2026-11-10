@@ -2,56 +2,68 @@ export const nicheData = {
   saas: {
     path: '/saas-websites',
     props: {
-      seoTitle: 'B2B SaaS Website Design & Lead Gen | React Expert',
-      seoDesc: 'B2B SaaS website design and lead generation. I build React JS marketing sites optimized for demo conversions, AI search visibility, and inbound pipeline.',
+      seoTitle: 'B2B SaaS Website Engineering & SEO | Rankur',
+      seoDesc:
+        'Custom React and Next.js marketing websites built for B2B SaaS startups targeting clear positioning, demo conversions, and clean search indexing.',
       niche: 'SaaS',
-      heroTitle: <>B2B SaaS Websites That <span className="text-gold">Drive Demos</span></>,
-      heroSubtitle: 'Most SaaS websites are built for features. I build SaaS websites optimized for pipeline, using React JS, SEO, and targeted ads.',
+      heroTitle: (
+        <>
+          B2B SaaS Websites Engineered to <span className="text-gold">Convert Demos</span>
+        </>
+      ),
+      heroSubtitle:
+        'Most SaaS websites read like an internal changelog. I engineer Next.js marketing platforms structured around buyer evaluation, technical SEO, and demo conversion clarity.',
       problemText: [
-        'SaaS companies often build beautiful websites that completely fail at one thing: generating qualified demo requests.',
-        'They list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic. And their paid ads send traffic to generic homepages instead of high-converting landing pages.',
-        'The result? High bounce rates, expensive CPLs, and an empty sales pipeline.'
+        'Many SaaS teams ship visually clean marketing sites that fail at turning technical buyer traffic into booked product demos.',
+        'Product pages often bury core workflows behind jargon, skip comparison and integration search architecture, and overload forms with friction.',
+        'I build fast static-first Next.js frontends with focused positioning copy, structured schema, and transparent inquiry workflows.',
       ],
       solutions: [
         {
           icon: '⟨/⟩',
           title: 'Conversion-Focused Architecture',
-          desc: 'Clear pathways from feature pages to demo requests, optimized for reducing friction and increasing MQLs.'
+          desc: 'Clear pathways from feature and integration pages to demo booking with low-friction forms and GA4 event telemetry.',
         },
         {
           icon: '◎',
-          title: 'High-Intent SEO',
-          desc: 'Targeting bottom-of-funnel keywords (e.g., "[competitor] alternatives") to capture buyers ready to switch.'
+          title: 'High-Intent Technical SEO',
+          desc: 'Targeting bottom-of-funnel comparison, category, and integration queries without generating repetitive thin URLs.',
         },
         {
           icon: '▶',
-          title: 'Retargeting Ecosystem',
-          desc: 'Meta and LinkedIn ads designed specifically to nurture unconverted website visitors back into the pipeline.'
-        }
+          title: 'Clean Migration & Speed',
+          desc: 'Moving off heavy CMS templates to custom React/Next.js codebases you own completely in GitHub.',
+        },
       ],
-      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days (10 leads in the first 10 days).',
+      proofText:
+        'Built using the same static-generation Next.js patterns I applied on WizIOT (client enterprise telematics), Medventa (client medical procurement catalog), Atlanta Systems (co-led for an in-house venture), and Probiota Innovations (built in-house).',
       faqs: [
         {
-          question: 'I already have a Webflow site - why would I rebuild in React?',
-          answer: 'If you\'re seriously targeting enterprise demo requests, Webflow will cap you. It limits custom database integrations (CRM routing, lead scoring), imposes performance ceilings that hurt Core Web Vitals, and locks you out of the server-side GEO structuring that gets you cited in AI answers. A React build gives you full control over all of that from day one.'
+          question: 'Why rebuild a Webflow or WordPress SaaS site in Next.js?',
+          answer:
+            'When you need full ownership of code, lean JavaScript payloads, clean custom forms or database workflows, automated prebuild SEO validation, and zero plugin bloat, custom Next.js eliminates template constraints cleanly.',
         },
         {
-          question: 'How quickly can you have a new SaaS marketing site live?',
-          answer: 'The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment. You\'re not waiting 6 weeks for a basic Webflow handoff.'
+          question: 'How are timelines and scopes structured?',
+          answer:
+            'Every build follows a written proposal defining deliverable milestones, review rounds, and milestone-based sign-off criteria agreed before work starts.',
         },
         {
-          question: 'What does "demo conversion optimization" actually mean in practice?',
-          answer: 'It means every structural decision on the page - headline hierarchy, CTA placement, form field count, social proof positioning - is made based on what gets a B2B buyer to book a demo, not what looks impressive in a portfolio screenshot. We run friction teardowns on every form and lead path before launch.'
+          question: 'What does conversion optimization mean on a SaaS marketing site?',
+          answer:
+            'It means aligning headline specificity, navigation clarity, proof placement, and form fields to what an evaluating buyer needs before booking a demo — backed by consent-clean GA4 event measurement.',
         },
         {
-          question: 'Will this help me show up in ChatGPT or Perplexity when someone searches for my category?',
-          answer: 'That\'s the GEO component. We structure your FAQ content, comparison pages, and service descriptions in natural language formats that AI answer engines can extract and cite. It\'s not guaranteed - no one can promise that - but it\'s the correct technical approach to make it likely.'
+          question: 'Will structured markup help my product appear in AI assistants?',
+          answer:
+            'Structured Organization, Service, and matching visible FAQ markup plus clear factual pages help both traditional search engines and AI systems extract accurate context about your software, though no consultant can ethically promise guaranteed rankings.',
         },
         {
-          question: 'Do you work with pre-revenue SaaS or only funded companies?',
-          answer: 'Both. Pre-revenue startups typically benefit most from the positioning and SEO architecture work. The investment scales with your current stage - a pre-seed team doesn\'t need the same scope as a Series A company, and we price accordingly.'
-        }
-      ]
-    }
+          question: 'Do you work with early-stage SaaS as well as established companies?',
+          answer:
+            'Yes. Scope scales strictly with what your team needs — from a focused positioning and landing system up to full multi-page marketing and documentation architecture.',
+        },
+      ],
+    },
   },
 };

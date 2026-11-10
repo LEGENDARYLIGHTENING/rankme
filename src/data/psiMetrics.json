@@ -1,0 +1,27 @@
+{
+  "wiziot": {
+    "ok": false,
+    "url": "https://www.wiziot.com",
+    "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+  },
+  "atlanta-systems": {
+    "ok": false,
+    "url": "https://www.atlantasys.com",
+    "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+  },
+  "medventa": {
+    "ok": false,
+    "url": "https://www.medventa.in",
+    "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+  },
+  "probiota": {
+    "ok": false,
+    "url": "https://www.probiotainnovations.com",
+    "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+  },
+  "wafa-trust": {
+    "ok": false,
+    "url": "https://wafatrust.org",
+    "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+  }
+}

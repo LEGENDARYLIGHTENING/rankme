@@ -1,73 +1,90 @@
 "use client";
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import HeroSection from '../components/HeroSection';
 import ClientTrustBar from '../components/ClientTrustBar';
 import ServiceCard from '../components/ServiceCard';
 import ProcessSteps from '../components/ProcessSteps';
 import Testimonials from '../components/Testimonials';
+import Guarantee from '../components/Guarantee';
+import psiMetrics from '../data/psiMetrics.json';
 import './Home.css';
 
 const proofItems = [
-  { value: '2,280+', label: 'Static Pages in Active Production' },
-  { value: '5 Platforms', label: 'Verified Live Client Deployments' },
-  { value: 'Next.js 16', label: 'Cutting-Edge Web Architecture' },
-  { value: '< 1.2s', label: 'Sub-Second Global Page Load' },
-  { value: '50+ Leads', label: 'Captured in Month 1 Post-Launch' },
+  { value: 'Next.js 16', label: 'Static & App Router Architecture' },
+  { value: '5 Platforms', label: 'Client Work & In-House Ventures' },
+  { value: 'GA4 Certified', label: 'Consent-Clean Event Telemetry' },
+  { value: '100%', label: 'Client Codebase Ownership' },
+  { value: 'Direct', label: 'Founder-Led Execution' },
 ];
 
-const verifiedShowcases = [
+const portfolioShowcases = [
   {
+    id: 'wiziot',
+    ownership: 'Client Project',
     tag: 'IoT Telematics & Hardware',
     title: 'WizIOT: Enterprise Fleet Telematics Platform',
     domain: 'https://www.wiziot.com',
-    badge: '1,040+ Static Pages · Next.js 16',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80',
-    description: 'Engineered a monolithic-scale Next.js 16 web platform with 1,040+ static pages, optimized for enterprise fleet telematics and IoT sensor hardware across Africa, GCC, and Europe with zero crawl debt.',
-    stats: [
-      { value: '1,040+', label: 'Static Pages' },
-      { value: '< 0.9s', label: 'Global LCP' },
-      { value: '100%', label: 'Crawl Indexation' },
+    badge: 'Client Project · Next.js 16',
+    image: '/case-studies/wiziot.webp',
+    alt: 'WizIOT website desktop homepage screenshot',
+    description:
+      'Custom Next.js App Router platform structured for enterprise fleet telematics and IoT hardware buyers across GCC, Africa, and Europe.',
+    architecturalNotes: [
+      { value: 'Next.js 16', label: 'App Router' },
+      { value: 'Static HTML', label: 'Edge Delivery' },
+      { value: 'RFQ Flows', label: 'Buyer Capture' },
     ],
   },
   {
+    id: 'atlanta-systems',
+    ownership: 'Co-led for an in-house venture',
     tag: 'Automotive Manufacturing',
-    title: 'Atlanta Systems: AIS-140 Certified GPS Infrastructure',
+    title: 'Atlanta Systems: AIS-140 GPS Hardware Infrastructure',
     domain: 'https://www.atlantasys.com',
-    badge: '460+ Static Pages · Next.js 16',
-    image: 'https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=800&q=80',
-    description: 'Co-led and architected for an in-house venture: an AIS-140 certified GPS telematics manufacturer web platform, capturing high-intent procurement searches and automated RFQ pipeline.',
-    stats: [
-      { value: '460+', label: 'Static Pages' },
-      { value: 'AIS-140', label: 'Compliance SEO' },
-      { value: 'Direct RFQs', label: 'B2B Procurement' },
+    badge: 'Co-led for an in-house venture · Next.js 16',
+    image: null, // NEEDS-MOKSH (C4): Domain behind Cloudflare bot verification; add real approved desktop screenshot.
+    alt: 'Atlanta Systems platform preview placeholder',
+    description:
+      'Co-led and architected for an in-house automotive telematics venture covering AIS-140 hardware specifications and commercial RFQ workflows.',
+    architecturalNotes: [
+      { value: 'Next.js 16', label: 'Custom Build' },
+      { value: 'AIS-140', label: 'Product Specs' },
+      { value: 'RFQ Pipeline', label: 'Procurement Forms' },
     ],
   },
   {
+    id: 'medventa',
+    ownership: 'Client Project',
     tag: 'B2B Healthcare Commerce',
-    title: 'Medventa: Surgical Supplies & Hospital Procurement',
+    title: 'Medventa: Surgical Supplies & Hospital Catalog',
     domain: 'https://www.medventa.in',
-    badge: '440+ Static Pages · Next.js 14',
-    image: 'https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80',
-    description: 'Built a custom Next.js 14 headless commerce catalog covering 440+ surgical suture and hospital supply SKUs with sub-second catalog search and bulk inquiry routing.',
-    stats: [
-      { value: '440+', label: 'Static Pages' },
-      { value: 'Headless', label: 'Next.js 14 Stack' },
-      { value: 'Sub-second', label: 'Catalog Search' },
+    badge: 'Client Project · Next.js 14',
+    image: '/case-studies/medventa.webp',
+    alt: 'Medventa surgical supplies website homepage screenshot',
+    description:
+      'Custom Next.js headless medical procurement catalog presenting surgical sutures and hospital consumables with direct institutional quote requests.',
+    architecturalNotes: [
+      { value: 'Next.js 14', label: 'Headless Stack' },
+      { value: 'SKU Catalog', label: 'Structured Specs' },
+      { value: 'Bulk RFQ', label: 'Hospital Inquiry' },
     ],
   },
   {
+    id: 'probiota',
+    ownership: 'Built in-house',
     tag: 'Nutraceutical CDMO',
-    title: 'Probiota Innovations: FDA Probiotic Platform',
+    title: 'Probiota Innovations: Probiotic & Gummy CDMO',
     domain: 'https://www.probiotainnovations.com',
-    badge: '340+ Static Pages · Next.js 16',
-    image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&q=80',
-    description: 'Engineered for my own venture: a custom B2B web platform optimized for speed, US-FDA regulatory compliance, and overseas wholesale inquiries. Generated 10+ leads in 10 days and 50+ in month one.',
-    stats: [
-      { value: '340+', label: 'Static Pages' },
-      { value: '10 Days', label: 'To First Lead' },
-      { value: '50+ Leads', label: 'Month 1 Inflow' },
+    badge: 'Built in-house · Next.js 16',
+    image: '/case-studies/probiota.webp',
+    alt: 'Probiota Innovations CDMO website homepage screenshot',
+    description:
+      'Engineered for my own in-house nutraceutical venture to present dosage capabilities, regulatory documentation, and wholesale manufacturing inquiries.',
+    architecturalNotes: [
+      { value: 'Next.js 16', label: 'Static Architecture' },
+      { value: 'CDMO Docs', label: 'MOQ & Compliance' },
+      { value: 'Wholesale', label: 'Buyer Capture' },
     ],
   },
 ];
@@ -76,86 +93,89 @@ const capabilities = [
   {
     icon: '◎',
     title: 'Clear Positioning & Messaging',
-    description: 'Most B2B sites list features and compete on price. I help you say what you actually do, for whom, and why it matters - so buyers see you as the obvious choice, not just another vendor.',
-    deliverables: ['A look at what competitors say', 'A sharp value proposition', 'Copy that speaks to real buyers'],
-    timeline: 'Done in week 1',
+    description:
+      'Most B2B sites list vague slogans instead of buyer answers. I clarify what you build, who it serves, and how evaluation buyers take the next step.',
+    deliverables: ['Competitor messaging teardown', 'Focused value proposition', 'Straightforward buyer copy'],
+    timeline: 'Discovery milestone',
   },
   {
     icon: '⟨/⟩',
-    title: 'Fast, Custom Websites',
-    description: 'I design and build your site from scratch in React and Next.js - fast, secure, and easy to update. No slow templates, no bloated page builders. It loads in under 1.2 seconds anywhere in the world.',
-    deliverables: ['Custom Next.js & React build', 'Lead capture that flows to your inbox', 'Analytics wired up from day one'],
-    timeline: 'Live in 7-14 days',
+    title: 'Fast, Custom Next.js Websites',
+    description:
+      'I build maintainable sites from scratch in React and Next.js — lean bundles, semantic markup, and full GitHub source code ownership with zero CMS bloat.',
+    deliverables: ['Custom Next.js & React build', 'Validated, bot-protected forms', 'Consent-clean analytics setup'],
+    timeline: 'Milestone-based sign-off',
   },
   {
     icon: '🔍',
-    title: 'Getting Found on Google & AI Search',
-    description: 'I set your site up to rank when buyers search for what you sell - on Google, and now inside ChatGPT, Claude, and Perplexity too. The focus is high-intent buyer searches, not vanity traffic.',
-    deliverables: ['The searches your buyers actually make', 'Content built to be quoted by AI', 'Technical SEO done right'],
-    timeline: 'Ongoing',
+    title: 'Technical SEO & AI Citation Readiness',
+    description:
+      'I clean up canonical conflicts, thin doorway sprawl, and bloated sitemaps while structuring entity schema and factual Q&As for search engines and AI answers.',
+    deliverables: ['301 migration protection', 'Schema & metadata hygiene', 'Prebuild SEO validation checks'],
+    timeline: 'Integrated per scope',
   },
   {
     icon: '✍',
-    title: 'Content That Builds Trust',
-    description: 'Buyers check you out long before they call. I write and publish clear, useful B2B articles and LinkedIn posts in your voice, so you build credibility before the first conversation.',
-    deliverables: ['A simple LinkedIn content plan', 'Practical articles worth reading', 'A steady publishing rhythm'],
-    timeline: 'Ongoing',
+    title: 'Focused Editorial & Topic Hubs',
+    description:
+      'Instead of publishing scaled filler posts, I organize helpful comparison guides and technical articles inside clear category hubs that earn buyer trust.',
+    deliverables: ['Category hub structure', 'High-intent buyer guides', 'Internal linking cleanup'],
+    timeline: 'Ongoing or per batch',
   },
   {
     icon: '📊',
-    title: 'Turning Visitors Into Leads',
-    description: 'Traffic is worthless if nobody gets in touch. I find where people drop off - confusing pages, clunky forms, dead ends - and fix it, so more of the visitors you already have turn into leads.',
-    deliverables: ['A teardown of where visitors leave', 'Simpler, higher-converting forms', 'Clear tracking of what works'],
-    timeline: 'Ongoing',
+    title: 'Conversion Flow Optimization',
+    description:
+      'I spot where visitors hit friction — buried CTAs, broken mobile layouts, unclear promises, unmeasured forms — and simplify the path to real conversations.',
+    deliverables: ['UX & form friction audit', 'Clear inquiry qualification', 'Consent-gated GA4 telemetry'],
+    timeline: 'Included in builds',
   },
 ];
 
 const niches = [
   { label: 'Fleet Telematics & IoT Hardware', to: '/case-studies#wiziot-case-study' },
-  { label: 'Automotive & AIS-140 Manufacturing', to: '/case-studies#atlanta-case-study' },
+  { label: 'Automotive & AIS-140 Hardware', to: '/case-studies#atlanta-case-study' },
   { label: 'B2B Medical Supplies & Hospitals', to: '/case-studies#medventa-case-study' },
   { label: 'Nutraceutical & Wellness CDMO', to: '/case-studies#probiota-case-study' },
-  { label: 'SaaS & Enterprise Startups', to: '/saas-websites' },
+  { label: 'B2B SaaS & Software Teams', to: '/saas-websites' },
 ];
 
 const processSteps = [
   {
-    title: '1. Free Audit',
-    description: 'Tell me about your business and goals. I review your current site - speed, search visibility, and where you\'re losing leads - and send back a short video walking through what I\'d fix first.',
+    title: '1. Manual Site Audit',
+    description:
+      'Submit your URL and goals. I review page speed, crawl/index bloat, metadata hygiene, and conversion friction — returning written priority findings within 2 business days.',
   },
   {
-    title: '2. Build Sprint',
-    description: 'I design, write, and build your new site and set up lead tracking. The core build is done in 7-14 days, and you\'re involved at every step - no black box.',
+    title: '2. Milestone Build',
+    description:
+      'Approved scope is engineered cleanly in React and Next.js with automated SEO checks, written deliverable sign-off, and full code ownership transferred to your GitHub.',
   },
   {
-    title: '3. Ongoing Growth',
-    description: 'Once you\'re live, I keep the leads coming: search and AI visibility, LinkedIn content, and steady improvements to turn more visitors into sales conversations.',
+    title: '3. Measurement & Iteration',
+    description:
+      'Post-launch, Google Search Console indexing and consent-clean GA4 conversion telemetry guide targeted copy, technical, and conversion refinements.',
   },
 ];
 
 export default function Home() {
-  const location = usePathname();
-
   return (
     <>
-      {/* Hero */}
       <HeroSection
         label="B2B SEO Consultant & Web Engineering"
         title={
           <>
-            I Build High-Speed B2B Websites That{' '}
-            <span className="text-gold">Rank & Bring In Real Leads</span>
+            I Build Custom B2B Websites Engineered to{' '}
+            <span className="text-gold">Rank &amp; Convert</span>
           </>
         }
-        subtitle="I engineer custom Next.js websites for B2B founders and optimize them to rank on Google and AI search engines (ChatGPT, Perplexity) - turning high-intent traffic into qualified sales inquiries. Live in 7-14 days with full production ownership."
-        primaryCTA={{ to: '/free-audit', label: 'Get a Free Technical Audit' }}
-        secondaryCTA={{ to: '/case-studies', label: 'Explore Verified Builds' }}
+        subtitle="I build maintainable React and Next.js websites for B2B founders and structure them for Google search, AI answer visibility, and qualified sales inquiries — with full source code ownership."
+        primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
+        secondaryCTA={{ to: '/case-studies', label: 'View Platforms Built' }}
       />
 
-      {/* Client Logo Cloud & Verified Trust Bar */}
       <ClientTrustBar />
 
-      {/* Proof Strip */}
       <section className="proof-strip" id="proof-strip">
         <div className="container">
           <div className="proof-strip__grid">
@@ -169,41 +189,43 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Meet the Founder (Home Intro) */}
       <section className="home-founder" style={{ padding: 'var(--space-5xl) 0' }}>
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 'var(--space-3xl)', alignItems: 'center' }}>
-            <div className="img-placeholder" style={{ borderRadius: 'var(--border-radius-lg)', height: '400px' }}>
-              <img 
-                src="/founder-b2b-growth-infrastructure.png" 
-                alt="Moksh Parjapati - B2B Growth Infrastructure Consultant" 
-                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} 
+            <div className="img-placeholder" style={{ borderRadius: 'var(--border-radius-lg)', overflow: 'hidden' }}>
+              <img
+                src="/founder-b2b-growth-infrastructure.png"
+                alt="Moksh Parjapati, Founder of Rankur"
+                width={800}
+                height={800}
+                style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 'inherit' }}
               />
             </div>
             <div className="founder-intro-content">
               <p className="section-label">Founder-Led Consultancy</p>
-              <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-lg) 0' }}>Every Engagement Personally Led by Moksh</h2>
+              <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-lg) 0' }}>
+                Direct Execution by Moksh Parjapati
+              </h2>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)' }}>
-                Most agencies win your business, then hand it to a junior account manager. I don't work that way. Your positioning, your copy, your site, and your search setup are all done by me - the person you actually talked to.
+                Many agencies win a contract and hand the work to junior account managers or bloated page-builder themes. Everything on a Rankur engagement — positioning, technical SEO hygiene, Next.js frontend engineering, and analytics setup — runs directly through me.
               </p>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-lg)' }}>
-                It means fewer middlemen, faster decisions, and a website that's both well built and says the right thing to the right buyer.
+                You get direct communication, realistic claims, clean maintainable code in your own repository, and transparent terms agreed up front.
               </p>
               <Link href="/about" className="btn btn--secondary">
-                Read My Story →
+                About Moksh &rarr;
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Services Overview */}
       <section className="services-overview" id="services-overview">
         <div className="container">
           <p className="section-label">What I Do</p>
-          <h2 className="section-title">How I Help You Get More Leads</h2>
+          <h2 className="section-title">How I Help B2B Teams</h2>
           <p className="section-subtitle">
-            Five things that take a B2B website from a brochure nobody visits to a steady source of sales conversations.
+            Five focused areas that turn a slow, disorganized brochure site into a clean, search-ready B2B platform.
           </p>
           <div className="services-overview__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
             {capabilities.map((service, i) => (
@@ -213,73 +235,102 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Verified Case Study Showcase */}
       <section className="case-teaser" id="case-teaser">
         <div className="container">
           <div className="case-teaser__header">
-            <p className="section-label">Verified Deployments</p>
-            <h2 className="section-title">Evidence-Backed Client Infrastructure</h2>
+            <p className="section-label">Platforms I&apos;ve Built</p>
+            <h2 className="section-title">Client Builds &amp; In-House Ventures</h2>
             <p className="section-subtitle">
-              Real production platforms built and scaled by Rankur. Every site features a verified footer link back to rankursite.com.
+              Production websites built with Next.js, clearly labeled by client vs. in-house venture relationship.
             </p>
           </div>
 
           <div className="case-teaser__showcase-grid">
-            {verifiedShowcases.map((cs, i) => (
-              <div key={i} className="case-showcase-card">
-                <div className="case-showcase-card__image-wrap">
-                  <img src={cs.image} alt={cs.title} />
-                  <span className="case-showcase-card__badge-pill">{cs.badge}</span>
-                </div>
-                <div className="case-showcase-card__body">
-                  <span className="case-showcase-card__tag">{cs.tag}</span>
-                  <h3 className="case-showcase-card__title">{cs.title}</h3>
-                  <p className="case-showcase-card__desc">{cs.description}</p>
-                  
-                  <div className="case-showcase-card__stats">
-                    {cs.stats.map((s, idx) => (
-                      <div key={idx} className="case-showcase-card__stat-item">
-                        <span className="case-showcase-card__stat-val">{s.value}</span>
-                        <span className="case-showcase-card__stat-lbl">{s.label}</span>
+            {portfolioShowcases.map((cs) => {
+              const psi = psiMetrics[cs.id];
+              return (
+                <div key={cs.id} className="case-showcase-card">
+                  <div className="case-showcase-card__image-wrap">
+                    {cs.image ? (
+                      <img src={cs.image} alt={cs.alt} width={1200} height={750} loading="lazy" />
+                    ) : (
+                      <div
+                        style={{
+                          width: '100%',
+                          height: '100%',
+                          background: 'linear-gradient(135deg, #12151c 0%, #1c222e 100%)',
+                          display: 'flex',
+                          flexDirection: 'column',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          padding: '1.5rem',
+                          textAlign: 'center',
+                        }}
+                      >
+                        <span style={{ color: 'var(--color-gold)', fontWeight: 700, fontSize: '1.15rem' }}>
+                          Atlanta Systems
+                        </span>
+                        <span style={{ color: 'var(--color-text-muted)', fontSize: '0.82rem', marginTop: '0.35rem' }}>
+                          Screenshot pending (Cloudflare check on automated capture)
+                        </span>
                       </div>
-                    ))}
+                    )}
+                    <span className="case-showcase-card__badge-pill">{cs.badge}</span>
                   </div>
+                  <div className="case-showcase-card__body">
+                    <span className="case-showcase-card__tag">{cs.tag}</span>
+                    <h3 className="case-showcase-card__title">{cs.title}</h3>
+                    <p className="case-showcase-card__desc">{cs.description}</p>
 
-                  <div className="case-showcase-card__actions">
-                    <Link href="/case-studies" className="btn btn--secondary" style={{ padding: '0.45rem 1rem', fontSize: '0.82rem' }}>
-                      View Case Study →
-                    </Link>
-                    <a
-                      href={cs.domain}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="case-showcase-card__verify-link"
-                      title={`Verify backlink in footer of ${cs.domain}`}
-                    >
-                      Verify Footer Link ↗
-                    </a>
+                    <div className="case-showcase-card__stats">
+                      {cs.architecturalNotes.map((s, idx) => (
+                        <div key={idx} className="case-showcase-card__stat-item">
+                          <span className="case-showcase-card__stat-val">{s.value}</span>
+                          <span className="case-showcase-card__stat-lbl">{s.label}</span>
+                        </div>
+                      ))}
+                    </div>
+
+                    {psi?.ok && (
+                      <p style={{ fontSize: '0.78rem', color: 'var(--color-text-muted)', marginTop: '0.5rem' }}>
+                        Mobile Score: {psi.performanceScore}/100 · LCP {psi.lcp} · ({psi.caption})
+                      </p>
+                    )}
+
+                    <div className="case-showcase-card__actions">
+                      <Link href="/case-studies" className="btn btn--secondary" style={{ padding: '0.45rem 1rem', fontSize: '0.82rem' }}>
+                        View Case Study &rarr;
+                      </Link>
+                      <a
+                        href={cs.domain}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="case-showcase-card__verify-link"
+                        title={`Visit ${cs.domain}`}
+                      >
+                        Visit site &#8599;
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
           <div style={{ textAlign: 'center', marginTop: 'var(--space-3xl)' }}>
             <Link href="/case-studies" className="btn btn--primary" style={{ padding: 'var(--space-md) var(--space-2xl)' }}>
-              Explore All Verified Case Studies →
+              Explore Case Studies &rarr;
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Testimonials */}
       <Testimonials />
 
-      {/* Niche Strip */}
       <section className="niche-strip" id="niche-strip">
         <div className="container">
           <p className="section-label">Who I Work With</p>
-          <h2 className="section-title">B2B Founders in High-Trust Industries</h2>
+          <h2 className="section-title">B2B Founders in Technical &amp; Commercial Sectors</h2>
           <div className="niche-strip__grid">
             {niches.map((niche, i) => (
               <Link key={i} href={niche.to} className="niche-strip__item">
@@ -290,30 +341,28 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Process */}
       <section className="home-process" id="home-process">
         <div className="container">
-          <p className="section-label">How We Work Together</p>
-          <h2 className="section-title">Three Simple Steps</h2>
+          <p className="section-label">How I Work</p>
+          <h2 className="section-title">Three Straightforward Steps</h2>
           <div className="home-process__steps">
             <ProcessSteps steps={processSteps} />
           </div>
         </div>
       </section>
 
-      {/* Lead Qualification CTA / Lead Magnet */}
       <section className="home-cta-block" style={{ padding: 'var(--space-5xl) 0', textAlign: 'center' }}>
         <div className="container" style={{ maxWidth: '800px' }}>
           <p className="section-label">Free Audit</p>
-          <h2 className="section-title">Want to know why your website isn't bringing in leads?</h2>
+          <h2 className="section-title">Want to see what is holding your website back?</h2>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: '1.8', marginBottom: 'var(--space-2xl)' }}>
-            Send me your site and I'll record a short video walking through what's holding it back - your speed, how you show up on Google and AI search, and where visitors are slipping away. No cost, no pitch.
+            Submit your URL for a manual review of your Core Web Vitals, technical SEO hygiene, messaging clarity, and form friction — delivered as a prioritized written brief within 2 business days.
           </p>
           <Link href="/free-audit" className="btn btn--primary" style={{ padding: 'var(--space-md) var(--space-3xl)' }}>
-            Get My Free Audit
+            Request Free Audit
           </Link>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '0.85rem', marginTop: 'var(--space-md)' }}>
-            I read every submission personally and only take on a handful of B2B founders at a time. Every build is backed by a 100% money-back guarantee.
+            <Guarantee />
           </p>
         </div>
       </section>

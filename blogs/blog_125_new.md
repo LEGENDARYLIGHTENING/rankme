@@ -77,9 +77,9 @@ High-intent visitors bounce from B2B pricing pages when pricing is completely hi
 ### How do you optimize a B2B pricing page for enterprise conversions?
 To optimize a B2B pricing page:
 1. Provide realistic baseline starting prices for different company tiers.
-2. Reiterate commercial outcomes and guarantees alongside pricing tables.
+2. Reiterate commercial outcomes and clear scope terms alongside pricing tables.
 3. List explicit deliverables to eliminate hidden fee anxieties.
-4. Place client logos and money-back guarantees directly next to quote request buttons.
+4. Place consented client logos and written delivery terms directly next to quote request buttons.
 
 ---
 

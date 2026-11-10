@@ -4,6 +4,7 @@ import { useState } from 'react';
 import HeroSection from '../components/HeroSection';
 import CTABlock from '../components/CTABlock';
 import Breadcrumbs from '../components/Breadcrumbs';
+import Guarantee from '../components/Guarantee';
 import './NichePage.css';
 
 export default function NichePage({
@@ -66,7 +67,7 @@ export default function NichePage({
 
   const breadcrumbItems = [
     { label: 'Home', href: '/' },
-    { label: 'Locations', href: '/locations' },
+    { label: 'Markets', href: '/locations' },
     { label: niche },
   ];
 
@@ -87,10 +88,10 @@ export default function NichePage({
 
       <div className="niche-hero">
         <HeroSection
-          label={`${niche} Growth Specialist`}
+          label={`${niche} Engineering & SEO`}
           title={heroTitle}
           subtitle={heroSubtitle}
-          primaryCTA={{ to: '/free-audit', label: 'Book Free Audit' }}
+          primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         />
       </div>
 
@@ -155,7 +156,7 @@ export default function NichePage({
           <h2>Websites built to turn visitors into real sales conversations</h2>
           <p>{proofText}</p>
           <p style={{ marginTop: '0.75rem', fontWeight: 'var(--font-weight-medium)', color: 'var(--color-gold)' }}>
-            Every build is backed by a 100% money-back guarantee.
+            <Guarantee />
           </p>
         </div>
       </section>

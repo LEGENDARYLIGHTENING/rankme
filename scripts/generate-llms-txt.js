@@ -64,7 +64,7 @@ let llmsTxt = `# Rankur - B2B Web Engineering & Technical SEO
 - [Atlanta Systems](https://www.atlantasys.com): Co-led for an in-house venture — AIS-140 Certified GPS & Automotive Telematics Manufacturer. Custom Next.js platform with automated RFQ routing.
 - [Medventa](https://www.medventa.in): Client project — B2B Medical Supplies, Surgical Sutures & Hospital Procurement. Custom Next.js headless catalog platform.
 - [Probiota Innovations](https://www.probiotainnovations.com): Engineered for my own in-house venture — Probiotic & Functional Gummy CDMO / Private Label Manufacturing platform.
-- [Wafa Trust](https://wafatrust.org): Client project — Philanthropic Healthcare & Community Development Trust built with Next.js for accessible mobile browsing.
+- Wafa Trust: Historical client project — Philanthropic Healthcare & Community Development Trust Next.js web build (domain currently offline).
 
 ## Core Pages
 
@@ -79,6 +79,8 @@ let llmsTxt = `# Rankur - B2B Web Engineering & Technical SEO
 - [Blog](${BASE_URL}/blog)
 - [Request a Free Audit](${BASE_URL}/free-audit)
 - [Contact](${BASE_URL}/contact)
+- [Privacy Policy](${BASE_URL}/privacy)
+- [Terms of Service](${BASE_URL}/terms)
 
 ## Sitemap
 
