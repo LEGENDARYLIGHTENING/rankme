@@ -7,6 +7,15 @@ const __dirname = path.dirname(__filename);
 
 const BASE_URL = 'https://rankursite.com';
 
+const INDEXABLE_COUNTRY_SLUGS = new Set([
+  'usa',
+  'uk',
+  'canada',
+  'australia',
+  'uae',
+  'saudi-arabia',
+]);
+
 const coreRoutes = [
   '/',
   '/services',
@@ -86,13 +95,14 @@ async function generateSitemap() {
   fs.writeFileSync(path.join(sitemapDir, 'core.xml'), generateXml(coreUrls));
   console.log(`✓ Generated sitemap/core.xml (${coreUrls.length} URLs)`);
 
-  // 2. Generate Authoritative Country Silos Sitemap
+  // 2. Generate Authoritative Country Silos Sitemap (only indexed active hubs)
   let countryUrls = [];
   const countriesPath = path.resolve(__dirname, '../countries.json');
   let countriesList = [];
   try {
     if (fs.existsSync(countriesPath)) {
-      countriesList = JSON.parse(fs.readFileSync(countriesPath, 'utf-8'));
+      const allCountries = JSON.parse(fs.readFileSync(countriesPath, 'utf-8'));
+      countriesList = allCountries.filter(c => INDEXABLE_COUNTRY_SLUGS.has(c.slug));
       countryUrls = countriesList.map(c => {
         const fullUrl = `${BASE_URL}/${c.slug}`;
         allValidUrls.push(fullUrl);

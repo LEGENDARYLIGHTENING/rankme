@@ -1,0 +1,302 @@
+[
+  {
+    "source": "/home",
+    "destination": "/",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/:slug/in/:region*",
+    "destination": "/blog/:slug",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(usa|uk|canada|australia|new-zealand|ireland|uae|saudi-arabia|qatar|singapore|germany|albuquerque|albuquerque-us|anaheim|anaheim-us|anchorage|anchorage-us|arlington|arlington-us|atlanta|atlanta-us|aurora|aurora-us|austin|austin-us|bakersfield|bakersfield-us|baltimore|baltimore-us|baton-rouge|baton-rouge-us|boise|boise-us|boston|boston-us|buffalo|buffalo-us|chandler|chandler-us|charlotte)/:subpage(services|blog|about|process|certifications|contact|case-studies|philosophy|free-audit|saas-websites|thank-you)",
+    "destination": "/:subpage",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(charlotte-us|chesapeake|chesapeake-us|chicago|chicago-us|chula-vista|chula-vista-us|cincinnati|cincinnati-us|cleveland|cleveland-us|colorado-springs|colorado-springs-us|columbus|columbus-us|corpus-christi|corpus-christi-us|dallas|dallas-us|denver|denver-us|des-moines|des-moines-us|detroit|detroit-us|durham|durham-us|el-paso|el-paso-us|fayetteville|fayetteville-us|fontana|fontana-us|fort-wayne|fort-wayne-us|fort-worth|fort-worth-us|fremont|fremont-us|fresno)/:subpage(services|blog|about|process|certifications|contact|case-studies|philosophy|free-audit|saas-websites|thank-you)",
+    "destination": "/:subpage",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(fresno-us|garland|garland-us|gilbert|gilbert-us|glendale|glendale-us|greensboro|greensboro-us|henderson|henderson-us|hialeah|hialeah-us|honolulu|honolulu-us|houston|houston-us|indianapolis|indianapolis-us|irvine|irvine-us|irving|irving-us|jacksonville|jacksonville-us|jersey-city|jersey-city-us|kansas-city|kansas-city-us|laredo|laredo-us|las-vegas|las-vegas-us|lexington|lexington-us|lincoln|lincoln-us|long-beach|long-beach-us|los-angeles)/:subpage(services|blog|about|process|certifications|contact|case-studies|philosophy|free-audit|saas-websites|thank-you)",
+    "destination": "/:subpage",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(los-angeles-us|louisville|louisville-us|lubbock|lubbock-us|madison|madison-us|memphis|memphis-us|mesa|mesa-us|miami|miami-us|milwaukee|milwaukee-us|minneapolis|minneapolis-us|modesto|modesto-us|nashville|nashville-us|new-orleans|new-orleans-us|new-york|new-york-us|newark|newark-us|north-las-vegas|north-las-vegas-us|oakland|oakland-us|oklahoma-city|oklahoma-city-us|omaha|omaha-us|orlando|orlando-us|philadelphia|philadelphia-us|phoenix)/:subpage(services|blog|about|process|certifications|contact|case-studies|philosophy|free-audit|saas-websites|thank-you)",
+    "destination": "/:subpage",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(phoenix-us|pittsburgh|pittsburgh-us|plano|plano-us|portland|portland-us|raleigh|raleigh-us|reno|reno-us|richmond|richmond-us|riverside|riverside-us|rochester|rochester-us|sacramento|sacramento-us|saint-paul|saint-paul-us|salt-lake-city|salt-lake-city-us|san-antonio|san-antonio-us|san-bernardino|san-bernardino-us|san-diego|san-diego-us|san-francisco|san-francisco-us|san-jose|san-jose-us|santa-ana|santa-ana-us|scottsdale|scottsdale-us|seattle|seattle-us|spokane)/:subpage(services|blog|about|process|certifications|contact|case-studies|philosophy|free-audit|saas-websites|thank-you)",
+    "destination": "/:subpage",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(spokane-us|st-louis|st-louis-us|st-paul|st-paul-us|st-petersburg|st-petersburg-us|stockton|stockton-us|tacoma|tacoma-us|tampa|tampa-us|toledo|toledo-us|tucson|tucson-us|tulsa|tulsa-us|united-states|us|virginia-beach|virginia-beach-us|washington|washington-us|wichita|wichita-us|winston-salem|winston-salem-us|belfast|belfast-uk|birmingham|birmingham-uk|bristol|bristol-uk|brussels|cambridge|cambridge-uk|edinburgh|edinburgh-uk)/:subpage(services|blog|about|process|certifications|contact|case-studies|philosophy|free-audit|saas-websites|thank-you)",
+    "destination": "/:subpage",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(glasgow|glasgow-uk|great-britain|lagos|leeds|leeds-uk|london|london-uk|manchester|manchester-uk|oxford|oxford-uk|united-kingdom|adelaide|adelaide-australia|brisbane|brisbane-australia|canberra|darwin|gold-coast|hobart|melbourne|melbourne-australia|perth|perth-australia|sydney|sydney-australia|calgary|calgary-canada|montreal|montreal-canada|ottawa|ottawa-canada|toronto|toronto-canada|vancouver|vancouver-canada|abu-dhabi|abu-dhabi-uae|cairo)/:subpage(services|blog|about|process|certifications|contact|case-studies|philosophy|free-audit|saas-websites|thank-you)",
+    "destination": "/:subpage",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(dubai|dubai-uae|istanbul|dammam|dammam-saudi-arabia|jeddah|jeddah-saudi-arabia|riyadh|riyadh-saudi-arabia|accra|algiers|baghdad|barcelona|beijing|bhopal|bogota|budapest|buenos-aires|busan|cape-town|casablanca|chengdu|chongqing|copenhagen|daegu|dakar|dhaka|durban|fukuoka|geneva|guangzhou|hanoi|helsinki|ho-chi-minh-city|hong-kong|incheon|indore|jaipur|jakarta|johannesburg)/:subpage(services|blog|about|process|certifications|contact|case-studies|philosophy|free-audit|saas-websites|thank-you)",
+    "destination": "/:subpage",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(kanpur|kaohsiung|karachi|kinshasa|kolkata|kuala-lumpur|kyoto|lahore|lima|lisbon|lucknow|madrid|manila|marseille|mexico-city|milan|moscow|mumbai|nagpur|nairobi|naples|osaka|oslo|paris|porto|prague|pretoria|pune|rio-de-janeiro|rome|santiago|sao-paulo|sapporo|seoul|shanghai|shenzhen|sofia|stockholm|surat|taichung)/:subpage(services|blog|about|process|certifications|contact|case-studies|philosophy|free-audit|saas-websites|thank-you)",
+    "destination": "/:subpage",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(taipei|tehran|thane|tianjin|tokyo|tunis|turin|vienna|visakhapatnam|warsaw|wuhan|zagreb|zurich|bangalore|bangkok|delhi|amsterdam|berlin|cologne|frankfurt|hamburg|munich|auckland|christchurch|wellington|cork|dublin|doha)/:subpage(services|blog|about|process|certifications|contact|case-studies|philosophy|free-audit|saas-websites|thank-you)",
+    "destination": "/:subpage",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(usa|uk|canada|australia|new-zealand|ireland|uae|saudi-arabia|qatar|singapore|germany|albuquerque|albuquerque-us|anaheim|anaheim-us|anchorage|anchorage-us|arlington|arlington-us|atlanta|atlanta-us|aurora|aurora-us|austin|austin-us|bakersfield|bakersfield-us|baltimore|baltimore-us|baton-rouge|baton-rouge-us|boise|boise-us|boston|boston-us|buffalo|buffalo-us|chandler|chandler-us|charlotte)/:service(b2b-web-design|enterprise-seo-geo|conversion-rate-optimization|headless-cms-migration|saas-growth-infrastructure|industrial-export-seo|core-web-vitals-speed|b2b-lead-funnel-analytics|b2b-content-clusters|b2b-positioning-messaging)",
+    "destination": "/services",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(charlotte-us|chesapeake|chesapeake-us|chicago|chicago-us|chula-vista|chula-vista-us|cincinnati|cincinnati-us|cleveland|cleveland-us|colorado-springs|colorado-springs-us|columbus|columbus-us|corpus-christi|corpus-christi-us|dallas|dallas-us|denver|denver-us|des-moines|des-moines-us|detroit|detroit-us|durham|durham-us|el-paso|el-paso-us|fayetteville|fayetteville-us|fontana|fontana-us|fort-wayne|fort-wayne-us|fort-worth|fort-worth-us|fremont|fremont-us|fresno)/:service(b2b-web-design|enterprise-seo-geo|conversion-rate-optimization|headless-cms-migration|saas-growth-infrastructure|industrial-export-seo|core-web-vitals-speed|b2b-lead-funnel-analytics|b2b-content-clusters|b2b-positioning-messaging)",
+    "destination": "/services",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(fresno-us|garland|garland-us|gilbert|gilbert-us|glendale|glendale-us|greensboro|greensboro-us|henderson|henderson-us|hialeah|hialeah-us|honolulu|honolulu-us|houston|houston-us|indianapolis|indianapolis-us|irvine|irvine-us|irving|irving-us|jacksonville|jacksonville-us|jersey-city|jersey-city-us|kansas-city|kansas-city-us|laredo|laredo-us|las-vegas|las-vegas-us|lexington|lexington-us|lincoln|lincoln-us|long-beach|long-beach-us|los-angeles)/:service(b2b-web-design|enterprise-seo-geo|conversion-rate-optimization|headless-cms-migration|saas-growth-infrastructure|industrial-export-seo|core-web-vitals-speed|b2b-lead-funnel-analytics|b2b-content-clusters|b2b-positioning-messaging)",
+    "destination": "/services",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(los-angeles-us|louisville|louisville-us|lubbock|lubbock-us|madison|madison-us|memphis|memphis-us|mesa|mesa-us|miami|miami-us|milwaukee|milwaukee-us|minneapolis|minneapolis-us|modesto|modesto-us|nashville|nashville-us|new-orleans|new-orleans-us|new-york|new-york-us|newark|newark-us|north-las-vegas|north-las-vegas-us|oakland|oakland-us|oklahoma-city|oklahoma-city-us|omaha|omaha-us|orlando|orlando-us|philadelphia|philadelphia-us|phoenix)/:service(b2b-web-design|enterprise-seo-geo|conversion-rate-optimization|headless-cms-migration|saas-growth-infrastructure|industrial-export-seo|core-web-vitals-speed|b2b-lead-funnel-analytics|b2b-content-clusters|b2b-positioning-messaging)",
+    "destination": "/services",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(phoenix-us|pittsburgh|pittsburgh-us|plano|plano-us|portland|portland-us|raleigh|raleigh-us|reno|reno-us|richmond|richmond-us|riverside|riverside-us|rochester|rochester-us|sacramento|sacramento-us|saint-paul|saint-paul-us|salt-lake-city|salt-lake-city-us|san-antonio|san-antonio-us|san-bernardino|san-bernardino-us|san-diego|san-diego-us|san-francisco|san-francisco-us|san-jose|san-jose-us|santa-ana|santa-ana-us|scottsdale|scottsdale-us|seattle|seattle-us|spokane)/:service(b2b-web-design|enterprise-seo-geo|conversion-rate-optimization|headless-cms-migration|saas-growth-infrastructure|industrial-export-seo|core-web-vitals-speed|b2b-lead-funnel-analytics|b2b-content-clusters|b2b-positioning-messaging)",
+    "destination": "/services",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(spokane-us|st-louis|st-louis-us|st-paul|st-paul-us|st-petersburg|st-petersburg-us|stockton|stockton-us|tacoma|tacoma-us|tampa|tampa-us|toledo|toledo-us|tucson|tucson-us|tulsa|tulsa-us|united-states|us|virginia-beach|virginia-beach-us|washington|washington-us|wichita|wichita-us|winston-salem|winston-salem-us|belfast|belfast-uk|birmingham|birmingham-uk|bristol|bristol-uk|brussels|cambridge|cambridge-uk|edinburgh|edinburgh-uk)/:service(b2b-web-design|enterprise-seo-geo|conversion-rate-optimization|headless-cms-migration|saas-growth-infrastructure|industrial-export-seo|core-web-vitals-speed|b2b-lead-funnel-analytics|b2b-content-clusters|b2b-positioning-messaging)",
+    "destination": "/services",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(glasgow|glasgow-uk|great-britain|lagos|leeds|leeds-uk|london|london-uk|manchester|manchester-uk|oxford|oxford-uk|united-kingdom|adelaide|adelaide-australia|brisbane|brisbane-australia|canberra|darwin|gold-coast|hobart|melbourne|melbourne-australia|perth|perth-australia|sydney|sydney-australia|calgary|calgary-canada|montreal|montreal-canada|ottawa|ottawa-canada|toronto|toronto-canada|vancouver|vancouver-canada|abu-dhabi|abu-dhabi-uae|cairo)/:service(b2b-web-design|enterprise-seo-geo|conversion-rate-optimization|headless-cms-migration|saas-growth-infrastructure|industrial-export-seo|core-web-vitals-speed|b2b-lead-funnel-analytics|b2b-content-clusters|b2b-positioning-messaging)",
+    "destination": "/services",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(dubai|dubai-uae|istanbul|dammam|dammam-saudi-arabia|jeddah|jeddah-saudi-arabia|riyadh|riyadh-saudi-arabia|accra|algiers|baghdad|barcelona|beijing|bhopal|bogota|budapest|buenos-aires|busan|cape-town|casablanca|chengdu|chongqing|copenhagen|daegu|dakar|dhaka|durban|fukuoka|geneva|guangzhou|hanoi|helsinki|ho-chi-minh-city|hong-kong|incheon|indore|jaipur|jakarta|johannesburg)/:service(b2b-web-design|enterprise-seo-geo|conversion-rate-optimization|headless-cms-migration|saas-growth-infrastructure|industrial-export-seo|core-web-vitals-speed|b2b-lead-funnel-analytics|b2b-content-clusters|b2b-positioning-messaging)",
+    "destination": "/services",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(kanpur|kaohsiung|karachi|kinshasa|kolkata|kuala-lumpur|kyoto|lahore|lima|lisbon|lucknow|madrid|manila|marseille|mexico-city|milan|moscow|mumbai|nagpur|nairobi|naples|osaka|oslo|paris|porto|prague|pretoria|pune|rio-de-janeiro|rome|santiago|sao-paulo|sapporo|seoul|shanghai|shenzhen|sofia|stockholm|surat|taichung)/:service(b2b-web-design|enterprise-seo-geo|conversion-rate-optimization|headless-cms-migration|saas-growth-infrastructure|industrial-export-seo|core-web-vitals-speed|b2b-lead-funnel-analytics|b2b-content-clusters|b2b-positioning-messaging)",
+    "destination": "/services",
+    "statusCode": 301
+  },
+  {
+    "source": "/:region(taipei|tehran|thane|tianjin|tokyo|tunis|turin|vienna|visakhapatnam|warsaw|wuhan|zagreb|zurich|bangalore|bangkok|delhi|amsterdam|berlin|cologne|frankfurt|hamburg|munich|auckland|christchurch|wellington|cork|dublin|doha)/:service(b2b-web-design|enterprise-seo-geo|conversion-rate-optimization|headless-cms-migration|saas-growth-infrastructure|industrial-export-seo|core-web-vitals-speed|b2b-lead-funnel-analytics|b2b-content-clusters|b2b-positioning-messaging)",
+    "destination": "/services",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(adelaide|adelaide-australia|brisbane|brisbane-australia|canberra|darwin|gold-coast|hobart|melbourne|melbourne-australia|perth|perth-australia|sydney|sydney-australia)",
+    "destination": "/australia",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(calgary|calgary-canada|montreal|montreal-canada|ottawa|ottawa-canada|toronto|toronto-canada|vancouver|vancouver-canada)",
+    "destination": "/canada",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(amsterdam|berlin|cologne|frankfurt|hamburg|munich)",
+    "destination": "/germany",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(cork|dublin)",
+    "destination": "/ireland",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(accra|algiers|baghdad|barcelona|beijing|bhopal|bogota|budapest|buenos-aires|busan|cape-town|casablanca|chengdu|chongqing|copenhagen|daegu|dakar|dhaka|durban|fukuoka|geneva|guangzhou|hanoi|helsinki|ho-chi-minh-city|hong-kong|incheon|indore|jaipur|jakarta|johannesburg|kanpur|kaohsiung|karachi|kinshasa|kolkata|kuala-lumpur|kyoto|lahore|lima)",
+    "destination": "/locations",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(lisbon|lucknow|madrid|manila|marseille|mexico-city|milan|moscow|mumbai|nagpur|nairobi|naples|osaka|oslo|paris|porto|prague|pretoria|pune|rio-de-janeiro|rome|santiago|sao-paulo|sapporo|seoul|shanghai|shenzhen|sofia|stockholm|surat|taichung|taipei|tehran|thane|tianjin|tokyo|tunis|turin|vienna|visakhapatnam)",
+    "destination": "/locations",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(warsaw|wuhan|zagreb|zurich)",
+    "destination": "/locations",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(auckland|christchurch|wellington)",
+    "destination": "/new-zealand",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(doha)",
+    "destination": "/qatar",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(dammam|dammam-saudi-arabia|jeddah|jeddah-saudi-arabia|riyadh|riyadh-saudi-arabia)",
+    "destination": "/saudi-arabia",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(bangalore|bangkok|delhi)",
+    "destination": "/singapore",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(abu-dhabi|abu-dhabi-uae|cairo|dubai|dubai-uae|istanbul)",
+    "destination": "/uae",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(belfast|belfast-uk|birmingham|birmingham-uk|bristol|bristol-uk|brussels|cambridge|cambridge-uk|edinburgh|edinburgh-uk|glasgow|glasgow-uk|great-britain|lagos|leeds|leeds-uk|london|london-uk|manchester|manchester-uk|oxford|oxford-uk|united-kingdom)",
+    "destination": "/uk",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(albuquerque|albuquerque-us|anaheim|anaheim-us|anchorage|anchorage-us|arlington|arlington-us|atlanta|atlanta-us|aurora|aurora-us|austin|austin-us|bakersfield|bakersfield-us|baltimore|baltimore-us|baton-rouge|baton-rouge-us|boise|boise-us|boston|boston-us|buffalo|buffalo-us|chandler|chandler-us|charlotte|charlotte-us|chesapeake|chesapeake-us|chicago|chicago-us|chula-vista|chula-vista-us|cincinnati|cincinnati-us|cleveland|cleveland-us)",
+    "destination": "/usa",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(colorado-springs|colorado-springs-us|columbus|columbus-us|corpus-christi|corpus-christi-us|dallas|dallas-us|denver|denver-us|des-moines|des-moines-us|detroit|detroit-us|durham|durham-us|el-paso|el-paso-us|fayetteville|fayetteville-us|fontana|fontana-us|fort-wayne|fort-wayne-us|fort-worth|fort-worth-us|fremont|fremont-us|fresno|fresno-us|garland|garland-us|gilbert|gilbert-us|glendale|glendale-us|greensboro|greensboro-us|henderson|henderson-us)",
+    "destination": "/usa",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(hialeah|hialeah-us|honolulu|honolulu-us|houston|houston-us|indianapolis|indianapolis-us|irvine|irvine-us|irving|irving-us|jacksonville|jacksonville-us|jersey-city|jersey-city-us|kansas-city|kansas-city-us|laredo|laredo-us|las-vegas|las-vegas-us|lexington|lexington-us|lincoln|lincoln-us|long-beach|long-beach-us|los-angeles|los-angeles-us|louisville|louisville-us|lubbock|lubbock-us|madison|madison-us|memphis|memphis-us|mesa|mesa-us)",
+    "destination": "/usa",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(miami|miami-us|milwaukee|milwaukee-us|minneapolis|minneapolis-us|modesto|modesto-us|nashville|nashville-us|new-orleans|new-orleans-us|new-york|new-york-us|newark|newark-us|north-las-vegas|north-las-vegas-us|oakland|oakland-us|oklahoma-city|oklahoma-city-us|omaha|omaha-us|orlando|orlando-us|philadelphia|philadelphia-us|phoenix|phoenix-us|pittsburgh|pittsburgh-us|plano|plano-us|portland|portland-us|raleigh|raleigh-us|reno|reno-us)",
+    "destination": "/usa",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(richmond|richmond-us|riverside|riverside-us|rochester|rochester-us|sacramento|sacramento-us|saint-paul|saint-paul-us|salt-lake-city|salt-lake-city-us|san-antonio|san-antonio-us|san-bernardino|san-bernardino-us|san-diego|san-diego-us|san-francisco|san-francisco-us|san-jose|san-jose-us|santa-ana|santa-ana-us|scottsdale|scottsdale-us|seattle|seattle-us|spokane|spokane-us|st-louis|st-louis-us|st-paul|st-paul-us|st-petersburg|st-petersburg-us|stockton|stockton-us|tacoma|tacoma-us)",
+    "destination": "/usa",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(tampa|tampa-us|toledo|toledo-us|tucson|tucson-us|tulsa|tulsa-us|united-states|us|virginia-beach|virginia-beach-us|washington|washington-us|wichita|wichita-us|winston-salem|winston-salem-us)",
+    "destination": "/usa",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(adelaide|adelaide-australia|brisbane|brisbane-australia|canberra|darwin|gold-coast|hobart|melbourne|melbourne-australia|perth|perth-australia|sydney|sydney-australia)/:rest+",
+    "destination": "/australia",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(calgary|calgary-canada|montreal|montreal-canada|ottawa|ottawa-canada|toronto|toronto-canada|vancouver|vancouver-canada)/:rest+",
+    "destination": "/canada",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(amsterdam|berlin|cologne|frankfurt|hamburg|munich)/:rest+",
+    "destination": "/germany",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(cork|dublin)/:rest+",
+    "destination": "/ireland",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(accra|algiers|baghdad|barcelona|beijing|bhopal|bogota|budapest|buenos-aires|busan|cape-town|casablanca|chengdu|chongqing|copenhagen|daegu|dakar|dhaka|durban|fukuoka|geneva|guangzhou|hanoi|helsinki|ho-chi-minh-city|hong-kong|incheon|indore|jaipur|jakarta|johannesburg|kanpur|kaohsiung|karachi|kinshasa|kolkata|kuala-lumpur|kyoto|lahore|lima)/:rest+",
+    "destination": "/locations",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(lisbon|lucknow|madrid|manila|marseille|mexico-city|milan|moscow|mumbai|nagpur|nairobi|naples|osaka|oslo|paris|porto|prague|pretoria|pune|rio-de-janeiro|rome|santiago|sao-paulo|sapporo|seoul|shanghai|shenzhen|sofia|stockholm|surat|taichung|taipei|tehran|thane|tianjin|tokyo|tunis|turin|vienna|visakhapatnam)/:rest+",
+    "destination": "/locations",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(warsaw|wuhan|zagreb|zurich)/:rest+",
+    "destination": "/locations",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(auckland|christchurch|wellington)/:rest+",
+    "destination": "/new-zealand",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(doha)/:rest+",
+    "destination": "/qatar",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(dammam|dammam-saudi-arabia|jeddah|jeddah-saudi-arabia|riyadh|riyadh-saudi-arabia)/:rest+",
+    "destination": "/saudi-arabia",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(bangalore|bangkok|delhi)/:rest+",
+    "destination": "/singapore",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(abu-dhabi|abu-dhabi-uae|cairo|dubai|dubai-uae|istanbul)/:rest+",
+    "destination": "/uae",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(belfast|belfast-uk|birmingham|birmingham-uk|bristol|bristol-uk|brussels|cambridge|cambridge-uk|edinburgh|edinburgh-uk|glasgow|glasgow-uk|great-britain|lagos|leeds|leeds-uk|london|london-uk|manchester|manchester-uk|oxford|oxford-uk|united-kingdom)/:rest+",
+    "destination": "/uk",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(albuquerque|albuquerque-us|anaheim|anaheim-us|anchorage|anchorage-us|arlington|arlington-us|atlanta|atlanta-us|aurora|aurora-us|austin|austin-us|bakersfield|bakersfield-us|baltimore|baltimore-us|baton-rouge|baton-rouge-us|boise|boise-us|boston|boston-us|buffalo|buffalo-us|chandler|chandler-us|charlotte|charlotte-us|chesapeake|chesapeake-us|chicago|chicago-us|chula-vista|chula-vista-us|cincinnati|cincinnati-us|cleveland|cleveland-us)/:rest+",
+    "destination": "/usa",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(colorado-springs|colorado-springs-us|columbus|columbus-us|corpus-christi|corpus-christi-us|dallas|dallas-us|denver|denver-us|des-moines|des-moines-us|detroit|detroit-us|durham|durham-us|el-paso|el-paso-us|fayetteville|fayetteville-us|fontana|fontana-us|fort-wayne|fort-wayne-us|fort-worth|fort-worth-us|fremont|fremont-us|fresno|fresno-us|garland|garland-us|gilbert|gilbert-us|glendale|glendale-us|greensboro|greensboro-us|henderson|henderson-us)/:rest+",
+    "destination": "/usa",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(hialeah|hialeah-us|honolulu|honolulu-us|houston|houston-us|indianapolis|indianapolis-us|irvine|irvine-us|irving|irving-us|jacksonville|jacksonville-us|jersey-city|jersey-city-us|kansas-city|kansas-city-us|laredo|laredo-us|las-vegas|las-vegas-us|lexington|lexington-us|lincoln|lincoln-us|long-beach|long-beach-us|los-angeles|los-angeles-us|louisville|louisville-us|lubbock|lubbock-us|madison|madison-us|memphis|memphis-us|mesa|mesa-us)/:rest+",
+    "destination": "/usa",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(miami|miami-us|milwaukee|milwaukee-us|minneapolis|minneapolis-us|modesto|modesto-us|nashville|nashville-us|new-orleans|new-orleans-us|new-york|new-york-us|newark|newark-us|north-las-vegas|north-las-vegas-us|oakland|oakland-us|oklahoma-city|oklahoma-city-us|omaha|omaha-us|orlando|orlando-us|philadelphia|philadelphia-us|phoenix|phoenix-us|pittsburgh|pittsburgh-us|plano|plano-us|portland|portland-us|raleigh|raleigh-us|reno|reno-us)/:rest+",
+    "destination": "/usa",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(richmond|richmond-us|riverside|riverside-us|rochester|rochester-us|sacramento|sacramento-us|saint-paul|saint-paul-us|salt-lake-city|salt-lake-city-us|san-antonio|san-antonio-us|san-bernardino|san-bernardino-us|san-diego|san-diego-us|san-francisco|san-francisco-us|san-jose|san-jose-us|santa-ana|santa-ana-us|scottsdale|scottsdale-us|seattle|seattle-us|spokane|spokane-us|st-louis|st-louis-us|st-paul|st-paul-us|st-petersburg|st-petersburg-us|stockton|stockton-us|tacoma|tacoma-us)/:rest+",
+    "destination": "/usa",
+    "statusCode": 301
+  },
+  {
+    "source": "/:city(tampa|tampa-us|toledo|toledo-us|tucson|tucson-us|tulsa|tulsa-us|united-states|us|virginia-beach|virginia-beach-us|washington|washington-us|wichita|wichita-us|winston-salem|winston-salem-us)/:rest+",
+    "destination": "/usa",
+    "statusCode": 301
+  }
+]

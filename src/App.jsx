@@ -26,7 +26,6 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 
 /* Niche Data */
 import { nicheData } from './data/nicheData';
-import { cityData } from './data/cityData';
 import { countryData } from './data/countryData';
 
 
@@ -106,8 +105,8 @@ function App() {
             />
           ))}
 
-          {/* Programmatic SEO Hubs (Cities & Countries) */}
-          {[...Object.values(cityData), ...Object.values(countryData)].map((region, idx) => (
+          {/* Country Hubs */}
+          {Object.values(countryData).map((region, idx) => (
             <Route key={`region-${idx}`} path={region.path}>
               <Route index element={<NichePage {...region.props} />} />
               <Route path="services" element={<Services />} />

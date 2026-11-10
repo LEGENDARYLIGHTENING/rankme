@@ -152,6 +152,68 @@ async function runPrebuildChecks() {
       }
     }
   }
+
+  // Phase 2 (L1-L3): Dead city artifacts removed, 301-only redirects, sitemap & country copy hygiene
+  const deadPaths = [
+    'src/data/cityData.jsx',
+    'src/data/cityKeywords.json',
+    'cities.json',
+    'scripts/build-city-keywords.js',
+    'scripts/build-region-dir.js',
+    'scripts/generate-city-data.js',
+    'scripts/expand-cities.js',
+    'scripts/enrich-blog-internal-links.js',
+    'public/sitemap/new-zealand.xml',
+    'public/sitemap/ireland.xml',
+    'public/sitemap/qatar.xml',
+    'public/sitemap/singapore.xml',
+    'public/sitemap/germany.xml',
+  ];
+  for (const rel of deadPaths) {
+    if (fs.existsSync(path.join(rootDir, rel))) {
+      fail(`[L1/L2] Deprecated city/noindex-sitemap file still exists: ${rel}`);
+    }
+  }
+
+  const nextCfg = fs.readFileSync(path.join(rootDir, 'next.config.mjs'), 'utf8');
+  if (/permanent\s*:\s*true/.test(nextCfg)) {
+    fail('[L1] next.config.mjs still uses permanent: true (emits 308 instead of 301)');
+  }
+
+  const legacyRedirects = JSON.parse(fs.readFileSync(path.join(rootDir, 'src/data/legacyRedirects.json'), 'utf8'));
+  const vercelCfg = JSON.parse(fs.readFileSync(path.join(rootDir, 'vercel.json'), 'utf8'));
+  if (!Array.isArray(vercelCfg.redirects) || vercelCfg.redirects.length !== legacyRedirects.length) {
+    fail('[L1] vercel.json redirects out of sync with src/data/legacyRedirects.json');
+  } else {
+    for (const r of vercelCfg.redirects) {
+      if (r.permanent !== undefined || r.statusCode !== 301) {
+        fail(`[L1] Redirect must use statusCode: 301 (no permanent flag): ${r.source}`);
+      }
+    }
+    const wildcardCatch = vercelCfg.redirects.find((r) => /\.\*\)\/:service/.test(r.source));
+    if (wildcardCatch) {
+      fail('[L1/S4] Wildcard /:region/:service catch-all still present in redirects');
+    }
+  }
+
+  for (const rel of ['src/components/Footer.jsx', 'app/locations/page.jsx']) {
+    const c = fs.readFileSync(path.join(rootDir, rel), 'utf8');
+    if (/Tier-1 Market Silos|Global Hubs|Market Silo\s*→|guaranteed 90\+ Core Web Vitals/i.test(c)) {
+      fail(`[L2] Deprecated location/market phrasing in ${rel}`);
+    }
+  }
+
+  const countriesXml = fs.readFileSync(path.join(rootDir, 'public/sitemap/countries.xml'), 'utf8');
+  const countryLocs = [...countriesXml.matchAll(/<loc>https:\/\/rankursite\.com\/([^<]+)<\/loc>/g)].map((m) => m[1]);
+  const expectedCountries = ['usa', 'uk', 'canada', 'australia', 'uae', 'saudi-arabia'];
+  if (countryLocs.length !== expectedCountries.length || expectedCountries.some((c) => !countryLocs.includes(c))) {
+    fail(`[L2] sitemap/countries.xml must contain only the 6 active hubs, got: ${countryLocs.join(', ')}`);
+  }
+
+  const countryDataSrc = fs.readFileSync(path.join(rootDir, 'src/data/countryData.jsx'), 'utf8');
+  if (/across United States|across United Kingdom|across United Arab Emirates|Many national companies across|B2B manufacturing client|Fortune 500/i.test(countryDataSrc)) {
+    fail('[L3] Grammar defect or templated/unverified claim found in src/data/countryData.jsx');
+  }
 }
 
 function checkBuiltHtmlFile(filePath, relLabel) {
@@ -236,6 +298,48 @@ async function runPostbuildChecks() {
   }
   for (const f of htmlFiles) {
     checkBuiltHtmlFile(f, path.relative(nextAppDir, f));
+  }
+
+  // Phase 2 (L1-L3) postbuild HTML verification:
+  for (const staleCity of ['el-paso-us', 'atlanta-us', 'london-uk', 'dubai-uae']) {
+    if (fs.existsSync(path.join(nextAppDir, `${staleCity}.html`))) {
+      fail(`[L1] City doorway HTML should not be built: ${staleCity}.html`);
+    }
+  }
+
+  const locationsHtmlPath = path.join(nextAppDir, 'locations.html');
+  if (!fs.existsSync(locationsHtmlPath)) {
+    fail('[L2] Missing built locations.html');
+  } else {
+    checkBuiltHtmlFile(locationsHtmlPath, 'locations.html');
+    const locHtml = fs.readFileSync(locationsHtmlPath, 'utf8');
+    for (const heldBack of ['new-zealand', 'ireland', 'qatar', 'singapore', 'germany']) {
+      if (locHtml.includes(`href="/${heldBack}"`)) {
+        fail(`[L2] /locations still links to noindex country /${heldBack}`);
+      }
+    }
+  }
+
+  const activeCountries = ['usa', 'uk', 'canada', 'australia', 'uae', 'saudi-arabia'];
+  const heldBackCountries = ['new-zealand', 'ireland', 'qatar', 'singapore', 'germany'];
+
+  for (const c of [...activeCountries, ...heldBackCountries]) {
+    const cPath = path.join(nextAppDir, `${c}.html`);
+    if (!fs.existsSync(cPath)) {
+      fail(`[L3] Missing built country HTML: ${c}.html`);
+      continue;
+    }
+    checkBuiltHtmlFile(cPath, `${c}.html`);
+    const cHtml = fs.readFileSync(cPath, 'utf8');
+    const robotsMatch = cHtml.match(/<meta[^>]*name=["']robots["'][^>]*content=["']([^"']+)["']/i);
+    const robotsVal = robotsMatch ? robotsMatch[1].toLowerCase() : '';
+    if (heldBackCountries.includes(c)) {
+      if (!robotsVal.includes('noindex') || !robotsVal.includes('follow')) {
+        fail(`[L3] ${c}.html must have noindex, follow in meta robots, got: "${robotsVal}"`);
+      }
+    } else if (robotsVal.includes('noindex')) {
+      fail(`[L3] Active country ${c}.html must be indexable, got: "${robotsVal}"`);
+    }
   }
 }
 

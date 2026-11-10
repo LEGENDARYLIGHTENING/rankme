@@ -26,7 +26,7 @@ const footerMarkets = [
   { to: '/australia', label: 'Australia' },
   { to: '/uae', label: 'United Arab Emirates' },
   { to: '/saudi-arabia', label: 'Saudi Arabia' },
-  { to: '/locations', label: 'Tier-1 Market Silos →' },
+  { to: '/locations', label: 'All Markets' },
 ];
 
 export default function Footer() {
@@ -115,9 +115,6 @@ export default function Footer() {
             © {new Date().getFullYear()} Rankur (Moksh Productions). All rights reserved.
           </p>
           <div className="footer__bottom-links">
-            <Link href="/locations" className="footer__bottom-link" style={{ color: 'var(--color-gold)' }}>
-              Global Hubs
-            </Link>
             <Link href="/free-audit" className="footer__bottom-link">
               Book Free Audit
             </Link>

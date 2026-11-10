@@ -2,17 +2,22 @@ import fs from 'fs';
 import path from 'path';
 
 const VALID_SITEMAP_SLUGS = new Set([
-  'core', 'countries', 'blogs',
-  'usa', 'uk', 'canada', 'australia', 'new-zealand',
-  'ireland', 'uae', 'saudi-arabia', 'qatar', 'singapore', 'germany'
+  'core',
+  'countries',
+  'blogs',
+  'usa',
+  'uk',
+  'canada',
+  'australia',
+  'uae',
+  'saudi-arabia',
 ]);
 
 export async function GET(request, { params }) {
   const resolvedParams = await params;
-  let rawFilename = resolvedParams.filename || '';
+  const rawFilename = resolvedParams.filename || '';
 
-  // Clean filename extension
-  let cleanName = rawFilename.replace(/\.xml$/i, '').toLowerCase();
+  const cleanName = rawFilename.replace(/\.xml$/i, '').toLowerCase();
   const sitemapDir = path.join(process.cwd(), 'public', 'sitemap');
 
   if (!VALID_SITEMAP_SLUGS.has(cleanName)) {

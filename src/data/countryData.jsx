@@ -1,343 +1,618 @@
+export const INDEXABLE_COUNTRIES = new Set([
+  'usa',
+  'uk',
+  'canada',
+  'australia',
+  'uae',
+  'saudi-arabia',
+]);
+
 export const countryData = {
-  "usa": {
+  usa: {
     path: '/usa',
     props: {
-      seoTitle: "B2B Web Design & Growth Consultant in the USA | Rankur",
-      seoDesc: "The United States represents the world's most competitive and dense B2B software, enterprise tech, and manufacturing ecosystem. Coast-to-coast venture capital and deep-tech innovation require digital infrastructure that demonstrates absolute market leadership and enterprise-grade performance from day one. Rankur builds B2B digital infrastructure to solve exactly this across United States.",
-      niche: "United States B2B",
-      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">United States</span></>,
-      heroSubtitle: "The United States represents the world's most competitive and dense B2B software, enterprise tech, and manufacturing ecosystem. Coast-to-coast venture capital and deep-tech innovation require digital infrastructure that demonstrates absolute market leadership and enterprise-grade performance from day one.",
+      seoTitle: 'B2B Web Design & SEO Consultant in the USA | Rankur',
+      seoDesc:
+        'Custom Next.js engineering and technical SEO for US B2B software, industrial, and export firms. Built for clean search structure and lead conversion.',
+      niche: 'United States B2B',
+      heroTitle: (
+        <>
+          B2B Web Design &amp; Technical SEO in <span className="text-gold">the USA</span>
+        </>
+      ),
+      heroSubtitle:
+        'For US SaaS, industrial manufacturing, and B2B service teams whose buyers compare technical documentation, speed, and clarity before booking a call.',
       problemText: [
-        "American B2B firms frequently struggle to translate high-touch, complex sales processes into seamless self-serve web experiences that convert without sacrificing the premium brand perception expected by Fortune 500 buyers.",
-        "Many national companies across United States list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
-        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
+        'US B2B buyers routinely shortlist three to five vendors online before ever talking to sales. Slow marketing sites bolted onto heavy theme builders lose those technical evaluations early.',
+        'Many growing American software and industrial teams publish broad blog posts while neglecting product architecture, schema markup, and clean bottom-of-funnel inquiry flows.',
+        'I build lean Next.js marketing platforms with clear technical positioning, structured entity data, and focused lead capture designed for multi-stakeholder US procurement.',
       ],
-      solutions: [{"icon":"⟨/⟩","title":"Enterprise React & Next.js Builds","desc":"Custom high-speed React web infrastructure engineered for top-tier conversion rates and sub-second load times."},{"icon":"◎","title":"High-Intent B2B SEO & GEO","desc":"Capturing commercial problem-based searches across traditional Google ranking and Generative Engine Optimization (ChatGPT & Perplexity)."},{"icon":"▶","title":"Conversion Rate Engineering","desc":"Removing user friction and form drop-offs to maximize qualified sales discovery pipeline volume."}],
-      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Next.js Marketing Architecture',
+          desc: 'Custom static and server-rendered React codebases deployed on edge networks without CMS plugin bloat.',
+        },
+        {
+          icon: '◎',
+          title: 'Commercial SEO & AI Citation Readiness',
+          desc: 'Clean URL hierarchies, JSON-LD entity schema, and comparison-ready service pages built for US buyer queries.',
+        },
+        {
+          icon: '▶',
+          title: 'Low-Friction Lead & RFQ Flows',
+          desc: 'Direct, transparent qualification forms paired with clean GA4 conversion event tracking so sales receives real context.',
+        },
+      ],
+      proofText:
+        'Built with the same static-generation Next.js stack I used on WizIOT (international fleet telematics), Medventa (medical supply catalog), Atlanta Systems (co-led for an in-house automotive telematics venture), and Probiota Innovations (built in-house).',
       faqs: [
         {
-          question: "Why do United States B2B companies need specialized web architecture?",
-          answer: "The United States represents the world's most competitive and dense B2B software, enterprise tech, and manufacturing ecosystem. Coast-to-coast venture capital and deep-tech innovation require digital infrastructure that demonstrates absolute market leadership and enterprise-grade performance from day one. This makes enterprise-grade performance non-negotiable for United States brands."
+          question: 'How do you work with US B2B teams remotely?',
+          answer:
+            'I collaborate asynchronously over Linear/Slack or email with scheduled overlap windows for US Eastern and Pacific time zones, shipping code directly into your GitHub repository with milestone sign-off.',
         },
         {
-          question: "How quickly can you have a new B2B marketing site live in United States?",
-          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          question: 'Can you replace an existing WordPress or Webflow site without losing US search rankings?',
+          answer:
+            'Yes. Every migration starts with a full URL inventory and explicit HTTP 301 redirect map before launch, preserving inbound links and existing indexed pages.',
         },
         {
-          question: "Will this help us rank nationally in United States and internationally?",
-          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in United States, as well as across broader international queries."
-        }
-      ]
-    }
+          question: 'Who owns the code and content once the site launches?',
+          answer:
+            'You retain full ownership of the codebase, repository history, domain DNS, analytics accounts, and written content with zero proprietary platform lock-in.',
+        },
+      ],
+    },
   },
-  "uk": {
+  uk: {
     path: '/uk',
     props: {
-      seoTitle: "B2B Web Design & Growth Consultant in the UK | Rankur",
-      seoDesc: "The UK's global fintech, enterprise software, and professional services density creates one of Europe's most rigorous B2B digital environments. The mix of scale-ups and multinational HQs in London and beyond demands technically rigorous, conversion-optimized platforms that signal both innovation and institutional credibility. Rankur builds B2B digital infrastructure to solve exactly this across United Kingdom.",
-      niche: "United Kingdom B2B",
-      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">United Kingdom</span></>,
-      heroSubtitle: "The UK's global fintech, enterprise software, and professional services density creates one of Europe's most rigorous B2B digital environments. The mix of scale-ups and multinational HQs in London and beyond demands technically rigorous, conversion-optimized platforms that signal both innovation and institutional credibility.",
+      seoTitle: 'B2B Web Design & SEO Consultant in the UK | Rankur',
+      seoDesc:
+        'Custom Next.js websites and technical SEO for UK fintech, B2B SaaS, and engineering firms seeking clear positioning and search visibility.',
+      niche: 'United Kingdom B2B',
+      heroTitle: (
+        <>
+          B2B Web Design &amp; Technical SEO in <span className="text-gold">the UK</span>
+        </>
+      ),
+      heroSubtitle:
+        'Helping UK B2B software, fintech, and industrial firms present institutional clarity, clean compliance messaging, and search-ready site architecture.',
       problemText: [
-        "UK enterprise software and fintech firms frequently struggle to balance regulatory compliance signaling with modern technical SEO and generative engine visibility, limiting their international pipeline.",
-        "Many national companies across United Kingdom list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
-        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
+        'UK enterprise buyers and procurement leads in London, Manchester, and regional industrial corridors scrutinize credibility, plain-English specificity, and privacy hygiene carefully.',
+        'Overstated US-style hype copy often backfires in British B2B evaluations, while legacy agency websites bury core technical capabilities behind slow client-side JavaScript.',
+        'I engineer straightforward, transparent Next.js platforms with accurate claims, consent-aware analytics, and technical SEO structured around commercial UK search intent.',
       ],
-      solutions: [{"icon":"📊","title":"Pipeline Funnel Analytics (GA4)","desc":"Custom GA4 telemetry and multi-touch attribution setup to track high-value enterprise lead conversions."},{"icon":"✍","title":"Executive Thought Leadership","desc":"Technical United Kingdom B2B authority content and publication pipelines to establish immediate market dominance."},{"icon":"⚡","title":"Edge Performance & Cloudflare Security","desc":"Global CDN distribution and DDoS defense ensuring 99.99% uptime and sub-1.2s response times globally."}],
-      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      solutions: [
+        {
+          icon: '📊',
+          title: 'Consent-Clean GA4 Measurement',
+          desc: 'Practical event and funnel telemetry wired with UK privacy notice hygiene and clear attribution.',
+        },
+        {
+          icon: '✍',
+          title: 'Credible B2B Technical Messaging',
+          desc: 'Clear capability pages written for technical directors and procurement teams rather than vague marketing slogans.',
+        },
+        {
+          icon: '⚡',
+          title: 'Static Next.js Speed & Security Headers',
+          desc: 'Prerendered HTML pages, strict HTTP security headers, and lean asset bundles built for rapid loading.',
+        },
+      ],
+      proofText:
+        'Every UK engagement follows the same production engineering approach behind WizIOT (telematics serving GCC, African, and European buyers), Medventa, and Wafa Trust.',
       faqs: [
         {
-          question: "Why do United Kingdom B2B companies need specialized web architecture?",
-          answer: "The UK's global fintech, enterprise software, and professional services density creates one of Europe's most rigorous B2B digital environments. The mix of scale-ups and multinational HQs in London and beyond demands technically rigorous, conversion-optimized platforms that signal both innovation and institutional credibility. This makes enterprise-grade performance non-negotiable for United Kingdom brands."
+          question: 'How does UK privacy and cookie consent work in your builds?',
+          answer:
+            'I include baseline privacy and terms templates for your legal review and configure analytics tags so tracking scripts respect explicit user consent.',
         },
         {
-          question: "How quickly can you have a new B2B marketing site live in United Kingdom?",
-          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          question: 'Do you write copy suited to UK B2B buyers?',
+          answer:
+            'Yes. Copy focuses on concrete technical capabilities, clear deliverables, and factual proof rather than inflated superlatives.',
         },
         {
-          question: "Will this help us rank nationally in United Kingdom and internationally?",
-          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in United Kingdom, as well as across broader international queries."
-        }
-      ]
-    }
+          question: 'How is billing and delivery structured for UK clients?',
+          answer:
+            'Projects are scoped with written deliverables and milestone-based sign-off terms agreed in the proposal prior to kickoff.',
+        },
+      ],
+    },
   },
-  "canada": {
+  canada: {
     path: '/canada',
     props: {
-      seoTitle: "B2B Web Design & Growth Consultant in Canada | Rankur",
-      seoDesc: "Canada's financial tech, AI research density, and industrial software clusters serve both domestic and broad North American markets. This competitive B2B environment demands technically sophisticated, high-conversion digital experiences that can rival larger global competitors. Rankur builds B2B digital infrastructure to solve exactly this across Canada.",
-      niche: "Canada B2B",
-      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Canada</span></>,
-      heroSubtitle: "Canada's financial tech, AI research density, and industrial software clusters serve both domestic and broad North American markets. This competitive B2B environment demands technically sophisticated, high-conversion digital experiences that can rival larger global competitors.",
+      seoTitle: 'B2B Web Design & SEO Consultant in Canada | Rankur',
+      seoDesc:
+        'Custom Next.js web engineering and technical SEO for Canadian B2B SaaS, manufacturing, and export companies targeting North America.',
+      niche: 'Canadian B2B',
+      heroTitle: (
+        <>
+          B2B Web Design &amp; Technical SEO in <span className="text-gold">Canada</span>
+        </>
+      ),
+      heroSubtitle:
+        'Built for Canadian B2B software, industrial, and service firms competing for both domestic corporate accounts and cross-border US contracts.',
       problemText: [
-        "Canadian B2B companies often struggle to differentiate their web presence and technical SEO from U.S. competitors while still conveying Canadian operational strengths and reliability.",
-        "Many national companies across Canada list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
-        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
+        'Canadian B2B companies often compete head-to-head with larger US vendors in search results while needing to highlight Canadian compliance, bilingual readiness, or regional service coverage.',
+        'Shared templates make strong mid-market engineering firms look smaller than they are, and disorganized URL structures dilute search authority across overlapping product pages.',
+        'I design structured Next.js sites with intentional international targeting (`hreflang` where needed), crisp product architecture, and direct inquiry workflows.',
       ],
-      solutions: [{"icon":"⟨/⟩","title":"Enterprise React & Next.js Builds","desc":"Custom high-speed React web infrastructure engineered for top-tier conversion rates and sub-second load times."},{"icon":"◎","title":"High-Intent B2B SEO & GEO","desc":"Capturing commercial problem-based searches across traditional Google ranking and Generative Engine Optimization (ChatGPT & Perplexity)."},{"icon":"▶","title":"Conversion Rate Engineering","desc":"Removing user friction and form drop-offs to maximize qualified sales discovery pipeline volume."}],
-      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Cross-Border North American SEO',
+          desc: 'Structured keyword mapping and optional `en-CA` / `en-US` targeting so domestic and US buyers reach the right pages.',
+        },
+        {
+          icon: '⚙',
+          title: 'Industrial & SaaS Product Catalogs',
+          desc: 'Cleanly organized capability, specification, and solution pages that scale without turning into thin doorway spam.',
+        },
+        {
+          icon: '◎',
+          title: 'Technical SEO Audits & Cleanup',
+          desc: 'Fixing canonical conflicts, bloated sitemaps, and metadata inheritance issues that hold back organic growth.',
+        },
+      ],
+      proofText:
+        'Draws directly on production Next.js architectures built for WizIOT, Medventa, Atlanta Systems (co-led in-house), Probiota Innovations (built in-house), and Wafa Trust.',
       faqs: [
         {
-          question: "Why do Canada B2B companies need specialized web architecture?",
-          answer: "Canada's financial tech, AI research density, and industrial software clusters serve both domestic and broad North American markets. This competitive B2B environment demands technically sophisticated, high-conversion digital experiences that can rival larger global competitors. This makes enterprise-grade performance non-negotiable for Canada brands."
+          question: 'Can one site rank effectively in both Canada and the United States?',
+          answer:
+            'Yes, when positioned cleanly with clear regional pages or international SEO configuration rather than duplicate city doorway pages.',
         },
         {
-          question: "How quickly can you have a new B2B marketing site live in Canada?",
-          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          question: 'Do you support CASL-compliant lead forms and privacy links?',
+          answer:
+            'Yes. Forms include clear consent notices and anti-spam honeypots tied cleanly to your CRM or email routing.',
         },
         {
-          question: "Will this help us rank nationally in Canada and internationally?",
-          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Canada, as well as across broader international queries."
-        }
-      ]
-    }
+          question: 'What happens if our internal team takes over maintenance later?',
+          answer:
+            'The repository uses standard Next.js conventions, documented environment variables, and automated prebuild SEO checks so internal developers can maintain it safely.',
+        },
+      ],
+    },
   },
-  "australia": {
+  australia: {
     path: '/australia',
     props: {
-      seoTitle: "B2B Web Design & Growth Consultant in Australia | Rankur",
-      seoDesc: "Australia's position as a primary financial, professional services, and resources technology hub creates intense demand for high-performance B2B digital experiences. The Asia-Pacific orientation rewards platforms that demonstrate both local authority and regional scalability. Rankur builds B2B digital infrastructure to solve exactly this across Australia.",
-      niche: "Australia B2B",
-      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Australia</span></>,
-      heroSubtitle: "Australia's position as a primary financial, professional services, and resources technology hub creates intense demand for high-performance B2B digital experiences. The Asia-Pacific orientation rewards platforms that demonstrate both local authority and regional scalability.",
+      seoTitle: 'B2B Web Design & SEO in Australia | Rankur',
+      seoDesc:
+        'Custom Next.js web builds and technical SEO for Australian B2B tech, industrial, and APAC-facing service companies.',
+      niche: 'Australian B2B',
+      heroTitle: (
+        <>
+          B2B Web Design &amp; Technical SEO in <span className="text-gold">Australia</span>
+        </>
+      ),
+      heroSubtitle:
+        'Practical, fast-loading web platforms and technical SEO for Australian SaaS, resources-tech, and industrial B2B operators across Sydney, Melbourne, Perth, and APAC.',
       problemText: [
-        "Australian enterprise software and industrial tech firms frequently underinvest in generative engine optimization, allowing competitors to capture AI-driven discovery from broader APAC buyers.",
-        "Many national companies across Australia list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
-        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
+        'Australian B2B teams frequently serve clients across wide domestic time zones and regional APAC hubs where bloated sites hosted far from local edge nodes feel sluggish.',
+        'Search demand in specialized Australian industrial and enterprise verticals rewards fewer, deeper technical resource pages rather than generic thin content.',
+        'I build edge-cached Next.js platforms paired with structured data, clear case study proof, and focused inquiry forms tailored to high-ACV B2B buyers.',
       ],
-      solutions: [{"icon":"📊","title":"Pipeline Funnel Analytics (GA4)","desc":"Custom GA4 telemetry and multi-touch attribution setup to track high-value enterprise lead conversions."},{"icon":"✍","title":"Executive Thought Leadership","desc":"Technical Australia B2B authority content and publication pipelines to establish immediate market dominance."},{"icon":"⚡","title":"Edge Performance & Cloudflare Security","desc":"Global CDN distribution and DDoS defense ensuring 99.99% uptime and sub-1.2s response times globally."}],
-      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      solutions: [
+        {
+          icon: '⚡',
+          title: 'Edge-Delivered Static Frontends',
+          desc: 'Pre-rendered Next.js pages served from APAC edge POPs for responsive browsing on both desktop and mobile.',
+        },
+        {
+          icon: '◎',
+          title: 'Search Intent & Entity Consolidation',
+          desc: 'Trimming redundant doorway URLs in favor of authoritative capability, case study, and comparison pages.',
+        },
+        {
+          icon: '▶',
+          title: 'Conversion & Pipeline Clarity',
+          desc: 'Direct, transparent calls to action and form routing built to convert researched buyers into booked conversations.',
+        },
+      ],
+      proofText:
+        'Built on production engineering experience from WizIOT, Medventa, Atlanta Systems (co-led in-house), Probiota Innovations (built in-house), and Wafa Trust.',
       faqs: [
         {
-          question: "Why do Australia B2B companies need specialized web architecture?",
-          answer: "Australia's position as a primary financial, professional services, and resources technology hub creates intense demand for high-performance B2B digital experiences. The Asia-Pacific orientation rewards platforms that demonstrate both local authority and regional scalability. This makes enterprise-grade performance non-negotiable for Australia brands."
+          question: 'How do time-zone handoffs work with Australian teams?',
+          answer:
+            'From India (IST), working hours overlap directly with late morning through afternoon in Perth, Sydney, Melbourne, and Brisbane for real-time reviews.',
         },
         {
-          question: "How quickly can you have a new B2B marketing site live in Australia?",
-          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          question: 'Can you audit and clean up an existing site with index bloat?',
+          answer:
+            'Yes. I audit indexed vs. thin pages, design safe `301` consolidation rules, and add automated build-time metadata checks.',
         },
         {
-          question: "Will this help us rank nationally in Australia and internationally?",
-          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Australia, as well as across broader international queries."
-        }
-      ]
-    }
-  },
-  "new-zealand": {
-    path: '/new-zealand',
-    props: {
-      seoTitle: "B2B Web Design & Growth Consultant in New Zealand | Rankur",
-      seoDesc: "New Zealand's rapidly expanding SaaS and agritech ecosystem punches above its weight globally. The market's export-driven B2B companies require scalable, performance-first web infrastructure that converts both local enterprises and international buyers. Rankur builds B2B digital infrastructure to solve exactly this across New Zealand.",
-      niche: "New Zealand B2B",
-      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">New Zealand</span></>,
-      heroSubtitle: "New Zealand's rapidly expanding SaaS and agritech ecosystem punches above its weight globally. The market's export-driven B2B companies require scalable, performance-first web infrastructure that converts both local enterprises and international buyers.",
-      problemText: [
-        "Kiwi B2B companies often face challenges scaling their technical SEO beyond domestic markets, limiting pipeline growth from larger enterprise buyers in Australia and North America.",
-        "Many national companies across New Zealand list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
-        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
+          question: 'Are builds tied to a recurring retainer?',
+          answer:
+            'No forced lock-in. Core web engineering engagements run on scoped project proposals with milestone-based sign-off.',
+        },
       ],
-      solutions: [{"icon":"⟨/⟩","title":"Enterprise React & Next.js Builds","desc":"Custom high-speed React web infrastructure engineered for top-tier conversion rates and sub-second load times."},{"icon":"◎","title":"High-Intent B2B SEO & GEO","desc":"Capturing commercial problem-based searches across traditional Google ranking and Generative Engine Optimization (ChatGPT & Perplexity)."},{"icon":"▶","title":"Conversion Rate Engineering","desc":"Removing user friction and form drop-offs to maximize qualified sales discovery pipeline volume."}],
-      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
-      faqs: [
-        {
-          question: "Why do New Zealand B2B companies need specialized web architecture?",
-          answer: "New Zealand's rapidly expanding SaaS and agritech ecosystem punches above its weight globally. The market's export-driven B2B companies require scalable, performance-first web infrastructure that converts both local enterprises and international buyers. This makes enterprise-grade performance non-negotiable for New Zealand brands."
-        },
-        {
-          question: "How quickly can you have a new B2B marketing site live in New Zealand?",
-          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
-        },
-        {
-          question: "Will this help us rank nationally in New Zealand and internationally?",
-          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in New Zealand, as well as across broader international queries."
-        }
-      ]
-    }
+    },
   },
-  "ireland": {
-    path: '/ireland',
-    props: {
-      seoTitle: "B2B Web Design & Growth Consultant in Ireland | Rankur",
-      seoDesc: "Ireland's status as the European headquarters for global tech giants has fostered a highly sophisticated ecosystem of B2B SaaS, cybersecurity, and fintech platforms. The environment demands digital infrastructure that meets stringent EU data standards while driving high-intent conversions. Rankur builds B2B digital infrastructure to solve exactly this across Ireland.",
-      niche: "Ireland B2B",
-      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Ireland</span></>,
-      heroSubtitle: "Ireland's status as the European headquarters for global tech giants has fostered a highly sophisticated ecosystem of B2B SaaS, cybersecurity, and fintech platforms. The environment demands digital infrastructure that meets stringent EU data standards while driving high-intent conversions.",
-      problemText: [
-        "Irish B2B startups and mid-market firms frequently maintain web architectures that fail to rank for competitive pan-European technical queries or support modern generative search discovery.",
-        "Many national companies across Ireland list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
-        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
-      ],
-      solutions: [{"icon":"📊","title":"Pipeline Funnel Analytics (GA4)","desc":"Custom GA4 telemetry and multi-touch attribution setup to track high-value enterprise lead conversions."},{"icon":"✍","title":"Executive Thought Leadership","desc":"Technical Ireland B2B authority content and publication pipelines to establish immediate market dominance."},{"icon":"⚡","title":"Edge Performance & Cloudflare Security","desc":"Global CDN distribution and DDoS defense ensuring 99.99% uptime and sub-1.2s response times globally."}],
-      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
-      faqs: [
-        {
-          question: "Why do Ireland B2B companies need specialized web architecture?",
-          answer: "Ireland's status as the European headquarters for global tech giants has fostered a highly sophisticated ecosystem of B2B SaaS, cybersecurity, and fintech platforms. The environment demands digital infrastructure that meets stringent EU data standards while driving high-intent conversions. This makes enterprise-grade performance non-negotiable for Ireland brands."
-        },
-        {
-          question: "How quickly can you have a new B2B marketing site live in Ireland?",
-          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
-        },
-        {
-          question: "Will this help us rank nationally in Ireland and internationally?",
-          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Ireland, as well as across broader international queries."
-        }
-      ]
-    }
-  },
-  "uae": {
+  uae: {
     path: '/uae',
     props: {
-      seoTitle: "B2B Web Design & Growth Consultant in the UAE | Rankur",
-      seoDesc: "The UAE's position as the premier logistics, trade, and free-zone commercial hub in the Gulf creates intense demand for B2B platforms optimized for multi-national buyers. The concentration of trading houses and industrial services rewards high-performance, conversion-first digital infrastructure. Rankur builds B2B digital infrastructure to solve exactly this across United Arab Emirates.",
-      niche: "United Arab Emirates B2B",
-      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">United Arab Emirates</span></>,
-      heroSubtitle: "The UAE's position as the premier logistics, trade, and free-zone commercial hub in the Gulf creates intense demand for B2B platforms optimized for multi-national buyers. The concentration of trading houses and industrial services rewards high-performance, conversion-first digital infrastructure.",
+      seoTitle: 'B2B Web Design & SEO Consultant in the UAE | Rankur',
+      seoDesc:
+        'Custom Next.js web architecture and technical SEO for UAE trading, logistics, and B2B technology firms serving Gulf enterprise buyers.',
+      niche: 'United Arab Emirates B2B',
+      heroTitle: (
+        <>
+          B2B Web Design &amp; Technical SEO in <span className="text-gold">the UAE</span>
+        </>
+      ),
+      heroSubtitle:
+        'Built for UAE B2B trading, logistics, telematics, and technology firms connecting with enterprise and free-zone procurement across Dubai, Abu Dhabi, and the wider Gulf.',
       problemText: [
-        "UAE trading and industrial service companies frequently struggle to establish technical SEO authority that ranks for both regional Arabic and international English high-intent enterprise queries.",
-        "Many national companies across United Arab Emirates list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
-        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
+        'Gulf procurement teams and multinational distributors in Dubai and Abu Dhabi evaluate vendor websites as a proxy for operational reliability and technical seriousness.',
+        'Heavy corporate brochure sites with stock imagery and broken mobile navigation create doubt early, especially when buyers compare spec sheets on mobile connections.',
+        'I engineer crisp Next.js platforms with clear technical positioning, fast static catalogs, and direct RFQ pipelines suited to UAE and GCC commercial buyers.',
       ],
-      solutions: [{"icon":"⟨/⟩","title":"Enterprise React & Next.js Builds","desc":"Custom high-speed React web infrastructure engineered for top-tier conversion rates and sub-second load times."},{"icon":"◎","title":"High-Intent B2B SEO & GEO","desc":"Capturing commercial problem-based searches across traditional Google ranking and Generative Engine Optimization (ChatGPT & Perplexity)."},{"icon":"▶","title":"Conversion Rate Engineering","desc":"Removing user friction and form drop-offs to maximize qualified sales discovery pipeline volume."}],
-      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Enterprise-Grade Frontend Craft',
+          desc: 'Clean visual hierarchy, real platform previews, and structured specification layouts that earn procurement trust.',
+        },
+        {
+          icon: '⚙',
+          title: 'B2B Catalog & RFQ Pipelines',
+          desc: 'Fast static SKU and capability pages paired with straightforward Request-for-Quote forms and WhatsApp/email routing.',
+        },
+        {
+          icon: '◎',
+          title: 'GCC Regional Search Structure',
+          desc: 'Targeted national hubs, schema markup, and clean technical SEO built without repetitive city-spam pages.',
+        },
+      ],
+      proofText:
+        'Directly informed by building WizIOT (enterprise fleet telematics serving GCC, Africa, and Europe), alongside Medventa, Atlanta Systems (co-led in-house), Probiota Innovations (built in-house), and Wafa Trust.',
       faqs: [
         {
-          question: "Why do United Arab Emirates B2B companies need specialized web architecture?",
-          answer: "The UAE's position as the premier logistics, trade, and free-zone commercial hub in the Gulf creates intense demand for B2B platforms optimized for multi-national buyers. The concentration of trading houses and industrial services rewards high-performance, conversion-first digital infrastructure. This makes enterprise-grade performance non-negotiable for United Arab Emirates brands."
+          question: 'Have you built B2B platforms targeting GCC buyers?',
+          answer:
+            'Yes. WizIOT was engineered with Next.js to present fleet telematics and IoT sensor solutions across GCC, African, and European markets.',
         },
         {
-          question: "How quickly can you have a new B2B marketing site live in United Arab Emirates?",
-          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          question: 'Can the site support both corporate and wholesale RFQ workflows?',
+          answer:
+            'Yes. Forms and catalog layouts can route wholesale buyers directly with structured product, quantity, and compliance fields.',
         },
         {
-          question: "Will this help us rank nationally in United Arab Emirates and internationally?",
-          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in United Arab Emirates, as well as across broader international queries."
-        }
-      ]
-    }
+          question: 'Do your sites work smoothly on mobile for busy Gulf executives?',
+          answer:
+            'Yes. Pages are statically generated with lightweight assets and tested against mobile Core Web Vitals targets.',
+        },
+      ],
+    },
   },
-  "saudi-arabia": {
+  'saudi-arabia': {
     path: '/saudi-arabia',
     props: {
-      seoTitle: "B2B Web Design & Growth Consultant in Saudi Arabia | Rankur",
-      seoDesc: "Saudi Arabia's Vision 2030-driven transformation of industrial, logistics, and digital infrastructure creates urgent demand for modern B2B platforms. The Kingdom's rapid commercial expansion rewards scalable, performance-engineered digital experiences serving both domestic giga-projects and international partners. Rankur builds B2B digital infrastructure to solve exactly this across Saudi Arabia.",
-      niche: "Saudi Arabia B2B",
-      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Saudi Arabia</span></>,
-      heroSubtitle: "Saudi Arabia's Vision 2030-driven transformation of industrial, logistics, and digital infrastructure creates urgent demand for modern B2B platforms. The Kingdom's rapid commercial expansion rewards scalable, performance-engineered digital experiences serving both domestic giga-projects and international partners.",
+      seoTitle: 'B2B Web Design & SEO in Saudi Arabia | Rankur',
+      seoDesc:
+        'Custom Next.js web platforms and technical SEO for Saudi industrial, logistics, and enterprise B2B teams serving Vision 2030 demand.',
+      niche: 'Saudi Arabia B2B',
+      heroTitle: (
+        <>
+          B2B Web Design &amp; Technical SEO in <span className="text-gold">Saudi Arabia</span>
+        </>
+      ),
+      heroSubtitle:
+        'Supporting industrial suppliers, infrastructure contractors, and B2B software firms across Riyadh, Jeddah, and Dammam competing for enterprise and infrastructure mandates.',
       problemText: [
-        "Saudi industrial and enterprise software companies frequently lack mature technical SEO and GEO strategies needed to capture high-intent search from both local and international project buyers.",
-        "Many national companies across Saudi Arabia list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
-        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
+        'As capital projects and industrial expansion accelerate across Saudi Arabia, major buyers and JV partners verify vendor capabilities, compliance credentials, and technical fit online first.',
+        'Outdated corporate portals with slow asset loading, broken internal links, and vague marketing copy fail to surface key manufacturing or software capabilities in search.',
+        'I build reliable, static-first Next.js websites with structured service catalogs, transparent technical proof, and direct RFQ intake built for Kingdom B2B evaluations.',
       ],
-      solutions: [{"icon":"📊","title":"Pipeline Funnel Analytics (GA4)","desc":"Custom GA4 telemetry and multi-touch attribution setup to track high-value enterprise lead conversions."},{"icon":"✍","title":"Executive Thought Leadership","desc":"Technical Saudi Arabia B2B authority content and publication pipelines to establish immediate market dominance."},{"icon":"⚡","title":"Edge Performance & Cloudflare Security","desc":"Global CDN distribution and DDoS defense ensuring 99.99% uptime and sub-1.2s response times globally."}],
-      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      solutions: [
+        {
+          icon: '⚙',
+          title: 'Industrial Capability & Spec Pages',
+          desc: 'Structured product, engineering, and certification documentation written for technical procurement reviewers.',
+        },
+        {
+          icon: '◎',
+          title: 'Technical SEO & Schema Markup',
+          desc: 'Accurate `Organization`, `Service`, and catalog structured data so both search engines and AI assistants parse your capabilities cleanly.',
+        },
+        {
+          icon: '📊',
+          title: 'Pipeline & RFQ Attribution',
+          desc: 'GA4 event tracking and clean lead submission forms wired to capture concrete buyer requirements.',
+        },
+      ],
+      proofText:
+        'Backed by production work across GCC-serving enterprise telematics (WizIOT), medical supply catalogs (Medventa), and technical manufacturing platforms.',
       faqs: [
         {
-          question: "Why do Saudi Arabia B2B companies need specialized web architecture?",
-          answer: "Saudi Arabia's Vision 2030-driven transformation of industrial, logistics, and digital infrastructure creates urgent demand for modern B2B platforms. The Kingdom's rapid commercial expansion rewards scalable, performance-engineered digital experiences serving both domestic giga-projects and international partners. This makes enterprise-grade performance non-negotiable for Saudi Arabia brands."
+          question: 'Can you help industrial or trading firms modernize legacy websites?',
+          answer:
+            'Yes. I migrate outdated CMS websites to modern static/Next.js builds with explicit 301 redirect protection for existing URLs.',
         },
         {
-          question: "How quickly can you have a new B2B marketing site live in Saudi Arabia?",
-          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          question: 'Can the architecture prepare for future Arabic localization?',
+          answer:
+            'Yes. Clean route prefixes and `hreflang` alternates can be structured from the start so an Arabic version integrates cleanly when translated.',
         },
         {
-          question: "Will this help us rank nationally in Saudi Arabia and internationally?",
-          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Saudi Arabia, as well as across broader international queries."
-        }
-      ]
-    }
+          question: 'How do we get started on a Saudi market build?',
+          answer:
+            'Request a free site audit or reach out via the contact page to review your current search footprint and scope options.',
+        },
+      ],
+    },
   },
-  "qatar": {
+
+  // ───────────────────────────────────────────────────────────────────────────
+  // NEEDS-MOKSH (L3): Held at noindex, follow and excluded from sitemaps and
+  // /locations until unique, locally grounded market copy is supplied.
+  // ───────────────────────────────────────────────────────────────────────────
+  'new-zealand': {
+    path: '/new-zealand',
+    props: {
+      seoTitle: 'B2B Web Design & SEO in New Zealand | Rankur',
+      seoDesc:
+        'Custom Next.js engineering and technical SEO for New Zealand B2B software and export companies targeting ANZ and global markets.',
+      niche: 'New Zealand B2B',
+      heroTitle: (
+        <>
+          B2B Web Design &amp; Technical SEO in <span className="text-gold">New Zealand</span>
+        </>
+      ),
+      heroSubtitle:
+        'Clean, high-speed Next.js web architecture and technical SEO for New Zealand export-oriented B2B and SaaS teams.',
+      problemText: [
+        'New Zealand B2B companies frequently balance domestic market clarity with export growth into Australia, North America, and Europe.',
+        'Legacy websites built on heavy visual themes slow down mobile buyers and leave international search visibility on the table.',
+        'I focus on lean engineering, structured commercial pages, and straightforward conversion paths without fabricated claims.',
+      ],
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Lean Next.js Engineering',
+          desc: 'Static and hybrid React frontends engineered for speed and low maintenance overhead.',
+        },
+        {
+          icon: '◎',
+          title: 'Technical SEO Hygiene',
+          desc: 'Clean canonical tags, schema validation, and non-bloated sitemaps for sustainable search indexing.',
+        },
+        {
+          icon: '▶',
+          title: 'Direct Lead Conversion Flows',
+          desc: 'Clear inquiry and audit forms tracked cleanly in GA4.',
+        },
+      ],
+      proofText:
+        'Built using the same production Next.js stack applied across WizIOT, Medventa, Atlanta Systems (co-led in-house), Probiota Innovations (built in-house), and Wafa Trust.',
+      faqs: [
+        {
+          question: 'Do you work with New Zealand SaaS and export businesses remotely?',
+          answer:
+            'Yes, projects run asynchronously with clear written milestones and overlapping time-zone check-ins.',
+        },
+        {
+          question: 'How are deliverables verified before final payment?',
+          answer:
+            'Engagements use milestone-based sign-off with acceptance terms agreed in the proposal.',
+        },
+      ],
+    },
+  },
+  ireland: {
+    path: '/ireland',
+    props: {
+      seoTitle: 'B2B Web Design & SEO in Ireland | Rankur',
+      seoDesc:
+        'Custom Next.js web engineering and technical SEO for Irish B2B SaaS and technology firms targeting EU and international buyers.',
+      niche: 'Ireland B2B',
+      heroTitle: (
+        <>
+          B2B Web Design &amp; Technical SEO in <span className="text-gold">Ireland</span>
+        </>
+      ),
+      heroSubtitle:
+        'Fast, privacy-aware Next.js websites and technical SEO structure for Irish B2B software and technology teams.',
+      problemText: [
+        'Irish B2B SaaS and engineering businesses compete across both European and transatlantic markets where technical clarity and privacy standards matter.',
+        'Legacy CMS sites with fragmented URLs and unclear product hierarchy dilute organic authority across core commercial keywords.',
+        'I engineer lightweight Next.js marketing platforms with clean schema, explicit metadata, and consent-clean measurement.',
+      ],
+      solutions: [
+        {
+          icon: '⚡',
+          title: 'Next.js Performance & Clean Code',
+          desc: 'Maintainable React architectures shipped cleanly with prebuild SEO verification.',
+        },
+        {
+          icon: '◎',
+          title: 'Commercial Search Structure',
+          desc: 'Focused landing and documentation layouts built around real B2B buyer questions.',
+        },
+        {
+          icon: '📊',
+          title: 'Consent-Clean Analytics',
+          desc: 'GA4 event setup aligned with privacy notices and transparent data handling.',
+        },
+      ],
+      proofText:
+        'Uses the production Next.js engineering patterns established across WizIOT, Medventa, Atlanta Systems (co-led in-house), Probiota Innovations (built in-house), and Wafa Trust.',
+      faqs: [
+        {
+          question: 'Can you migrate an existing site for an Irish B2B company?',
+          answer:
+            'Yes, with explicit 301 redirect rules covering every legacy route prior to DNS cutover.',
+        },
+        {
+          question: 'Do clients retain full GitHub repository ownership?',
+          answer:
+            'Yes, all source code and deployment configurations remain 100% yours.',
+        },
+      ],
+    },
+  },
+  qatar: {
     path: '/qatar',
     props: {
-      seoTitle: "B2B Web Design & Growth Consultant in Qatar | Rankur",
-      seoDesc: "Qatar's focused investments in energy-tech, fintech, and advanced infrastructure produce specialized demand for B2B platforms that signal institutional-grade reliability. The market rewards precise, high-authority web experiences optimized for long sales cycles and government procurement. Rankur builds B2B digital infrastructure to solve exactly this across Qatar.",
-      niche: "Qatar B2B",
-      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Qatar</span></>,
-      heroSubtitle: "Qatar's focused investments in energy-tech, fintech, and advanced infrastructure produce specialized demand for B2B platforms that signal institutional-grade reliability. The market rewards precise, high-authority web experiences optimized for long sales cycles and government procurement.",
+      seoTitle: 'B2B Web Design & SEO in Qatar | Rankur',
+      seoDesc:
+        'Custom Next.js web architecture and technical SEO for Qatari B2B engineering, logistics, and software enterprises.',
+      niche: 'Qatar B2B',
+      heroTitle: (
+        <>
+          B2B Web Design &amp; Technical SEO in <span className="text-gold">Qatar</span>
+        </>
+      ),
+      heroSubtitle:
+        'Reliable, fast-loading Next.js web platforms for Qatari B2B enterprises, logistics operators, and technology providers.',
       problemText: [
-        "Qatari industrial and software firms often underutilize programmatic SEO, limiting their visibility among regional and international buyers researching strategic technology partners.",
-        "Many national companies across Qatar list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
-        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
+        'B2B procurement teams in Qatar expect clear technical specifications, responsive mobile pages, and verifiable company credentials.',
+        'Outdated brochure websites hide core capabilities inside heavy downloads or slow themes that struggle on mobile review.',
+        'I build structured Next.js sites designed for clean inspection, structured search indexing, and straightforward inquiry capture.',
       ],
-      solutions: [{"icon":"⟨/⟩","title":"Enterprise React & Next.js Builds","desc":"Custom high-speed React web infrastructure engineered for top-tier conversion rates and sub-second load times."},{"icon":"◎","title":"High-Intent B2B SEO & GEO","desc":"Capturing commercial problem-based searches across traditional Google ranking and Generative Engine Optimization (ChatGPT & Perplexity)."},{"icon":"▶","title":"Conversion Rate Engineering","desc":"Removing user friction and form drop-offs to maximize qualified sales discovery pipeline volume."}],
-      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Custom Next.js Platforms',
+          desc: 'Static and hybrid React frontends tailored to B2B capability showcases and catalogs.',
+        },
+        {
+          icon: '◎',
+          title: 'Structured Data & Technical SEO',
+          desc: 'Clean metadata, canonical URLs, and schema markup built for search accuracy.',
+        },
+        {
+          icon: '▶',
+          title: 'Clear RFQ Inquiry Flows',
+          desc: 'Focused contact and quote forms configured with spam filtering and GA4 event tracking.',
+        },
+      ],
+      proofText:
+        'Grounded in production Next.js work including WizIOT (serving GCC, African, and European telematics markets) and Medventa.',
       faqs: [
         {
-          question: "Why do Qatar B2B companies need specialized web architecture?",
-          answer: "Qatar's focused investments in energy-tech, fintech, and advanced infrastructure produce specialized demand for B2B platforms that signal institutional-grade reliability. The market rewards precise, high-authority web experiences optimized for long sales cycles and government procurement. This makes enterprise-grade performance non-negotiable for Qatar brands."
+          question: 'How do engagements work for companies based in Qatar?',
+          answer:
+            'Communication runs directly with the founder on overlapping GST/IST hours, governed by written milestone proposals.',
         },
         {
-          question: "How quickly can you have a new B2B marketing site live in Qatar?",
-          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          question: 'What stack do you build on?',
+          answer:
+            'Custom Next.js (App Router) with structured JSON-LD schema and clean deployment on edge hosting such as Vercel.',
         },
-        {
-          question: "Will this help us rank nationally in Qatar and internationally?",
-          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Qatar, as well as across broader international queries."
-        }
-      ]
-    }
+      ],
+    },
   },
-  "singapore": {
+  singapore: {
     path: '/singapore',
     props: {
-      seoTitle: "B2B Web Design & Growth Consultant in Singapore | Rankur",
-      seoDesc: "Singapore serves as the central node for Asian fintech, supply chain tech, and enterprise software. The highly competitive, multinational commercial culture requires B2B platforms capable of communicating complex operational capabilities to global buyers with absolute precision. Rankur builds B2B digital infrastructure to solve exactly this across Singapore.",
-      niche: "Singapore B2B",
-      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Singapore</span></>,
-      heroSubtitle: "Singapore serves as the central node for Asian fintech, supply chain tech, and enterprise software. The highly competitive, multinational commercial culture requires B2B platforms capable of communicating complex operational capabilities to global buyers with absolute precision.",
+      seoTitle: 'B2B Web Design & SEO in Singapore | Rankur',
+      seoDesc:
+        'Custom Next.js web builds and technical SEO for Singaporean B2B fintech, logistics, and SaaS teams across APAC.',
+      niche: 'Singapore B2B',
+      heroTitle: (
+        <>
+          B2B Web Design &amp; Technical SEO in <span className="text-gold">Singapore</span>
+        </>
+      ),
+      heroSubtitle:
+        'Technical web engineering and search architecture for Singapore B2B fintech, logistics, and software teams operating regionally.',
       problemText: [
-        "Singaporean B2B firms often prioritize aesthetic design over the deep technical SEO and conversion architecture needed to dominate high-intent enterprise search traffic across the APAC region.",
-        "Many national companies across Singapore list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
-        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
+        'Singapore acts as an APAC headquarters hub where B2B teams frequently pitch regional multinational buyers across finance, supply chain, and software.',
+        'Marketing sites often suffer from generic visual templates or unorganized multi-region pages that cannibalize search visibility.',
+        'I build focused, fast Next.js platforms with clear positioning, structured schema, and clean inquiry capture.',
       ],
-      solutions: [{"icon":"📊","title":"Pipeline Funnel Analytics (GA4)","desc":"Custom GA4 telemetry and multi-touch attribution setup to track high-value enterprise lead conversions."},{"icon":"✍","title":"Executive Thought Leadership","desc":"Technical Singapore B2B authority content and publication pipelines to establish immediate market dominance."},{"icon":"⚡","title":"Edge Performance & Cloudflare Security","desc":"Global CDN distribution and DDoS defense ensuring 99.99% uptime and sub-1.2s response times globally."}],
-      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      solutions: [
+        {
+          icon: '📊',
+          title: 'GA4 Pipeline Telemetry',
+          desc: 'Clear conversion event tracking across key pages and contact forms.',
+        },
+        {
+          icon: '✍',
+          title: 'Direct Commercial Copy',
+          desc: 'Concise capability and case study framing built for technical decision makers.',
+        },
+        {
+          icon: '⚡',
+          title: 'Fast Static Delivery',
+          desc: 'Lightweight Next.js bundles served via edge CDN for consistent mobile and desktop loading.',
+        },
+      ],
+      proofText:
+        'Uses the same production Next.js engineering approach applied on WizIOT, Medventa, Atlanta Systems (co-led in-house), Probiota Innovations (built in-house), and Wafa Trust.',
       faqs: [
         {
-          question: "Why do Singapore B2B companies need specialized web architecture?",
-          answer: "Singapore serves as the central node for Asian fintech, supply chain tech, and enterprise software. The highly competitive, multinational commercial culture requires B2B platforms capable of communicating complex operational capabilities to global buyers with absolute precision. This makes enterprise-grade performance non-negotiable for Singapore brands."
+          question: 'Can you help consolidate duplicate regional or city pages?',
+          answer:
+            'Yes. I audit index bloat, set up HTTP 301 consolidation rules, and refocus authority on core national and service pages.',
         },
         {
-          question: "How quickly can you have a new B2B marketing site live in Singapore?",
-          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          question: 'Do you support custom B2B SaaS or API documentation layouts?',
+          answer:
+            'Yes. Next.js handles marketing sites, structured resource hubs, and clean documentation routes in one codebase.',
         },
-        {
-          question: "Will this help us rank nationally in Singapore and internationally?",
-          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Singapore, as well as across broader international queries."
-        }
-      ]
-    }
+      ],
+    },
   },
-  "germany": {
+  germany: {
     path: '/germany',
     props: {
-      seoTitle: "B2B Web Design & Growth Consultant in Germany | Rankur",
-      seoDesc: "Germany's powerhouse industrial manufacturing (Mittelstand), automotive tech, and enterprise software sectors demand B2B platforms that reflect engineering excellence. The market rewards robust, secure, and performance-engineered digital infrastructure. Rankur builds B2B digital infrastructure to solve exactly this across Germany.",
-      niche: "Germany B2B",
-      heroTitle: <>B2B Web Design & Growth Consultant in <span className="text-gold">Germany</span></>,
-      heroSubtitle: "Germany's powerhouse industrial manufacturing (Mittelstand), automotive tech, and enterprise software sectors demand B2B platforms that reflect engineering excellence. The market rewards robust, secure, and performance-engineered digital infrastructure.",
+      seoTitle: 'B2B Web Design & SEO in Germany | Rankur',
+      seoDesc:
+        'Custom Next.js web engineering and technical SEO for German B2B industrial, manufacturing, and software companies.',
+      niche: 'Germany B2B',
+      heroTitle: (
+        <>
+          B2B Web Design &amp; Technical SEO in <span className="text-gold">Germany</span>
+        </>
+      ),
+      heroSubtitle:
+        'Engineering-first Next.js websites and technical SEO structure for German industrial manufacturing and B2B technology firms.',
       problemText: [
-        "German industrial and SaaS companies frequently maintain outdated, traditional web architectures that fail to support modern generative engine optimization or capture international digital transformation searches.",
-        "Many national companies across Germany list features instead of solving pain points. They lack proper SEO architecture to capture high-intent search traffic.",
-        "The result? High bounce rates, expensive CPLs, and an empty sales pipeline in competitive markets."
+        'German industrial and B2B software buyers value concrete engineering detail, fast technical access, and strict privacy compliance over exaggerated marketing slogans.',
+        'Older corporate CMS deployments frequently ship slow JavaScript bundles and miss clean structured data.',
+        'I build lightweight Next.js architectures with clear technical messaging, privacy-aware analytics, and clean search hygiene.',
       ],
-      solutions: [{"icon":"⟨/⟩","title":"Enterprise React & Next.js Builds","desc":"Custom high-speed React web infrastructure engineered for top-tier conversion rates and sub-second load times."},{"icon":"◎","title":"High-Intent B2B SEO & GEO","desc":"Capturing commercial problem-based searches across traditional Google ranking and Generative Engine Optimization (ChatGPT & Perplexity)."},{"icon":"▶","title":"Conversion Rate Engineering","desc":"Removing user friction and form drop-offs to maximize qualified sales discovery pipeline volume."}],
-      proofText: 'Built the exact React JS architecture used to scale our B2B manufacturing client to 50+ international B2B leads in the first 30 days.',
+      solutions: [
+        {
+          icon: '⟨/⟩',
+          title: 'Engineering-Led Web Builds',
+          desc: 'Clean React and Next.js codebases built without bloated third-party page builders.',
+        },
+        {
+          icon: '◎',
+          title: 'Structured Data & Technical SEO',
+          desc: 'Accurate JSON-LD entities, clean canonicals, and non-duplicated metadata across all routes.',
+        },
+        {
+          icon: '▶',
+          title: 'GDPR-Aware Measurement',
+          desc: 'Privacy notices, consent-respecting tracking, and straightforward contact routing.',
+        },
+      ],
+      proofText:
+        'Informed by production Next.js platforms built across industrial/telematics (WizIOT, Atlanta Systems [co-led in-house]) and medical B2B catalogs (Medventa).',
       faqs: [
         {
-          question: "Why do Germany B2B companies need specialized web architecture?",
-          answer: "Germany's powerhouse industrial manufacturing (Mittelstand), automotive tech, and enterprise software sectors demand B2B platforms that reflect engineering excellence. The market rewards robust, secure, and performance-engineered digital infrastructure. This makes enterprise-grade performance non-negotiable for Germany brands."
+          question: 'Do you keep marketing claims conservative and factual for DACH buyers?',
+          answer:
+            'Yes. All copy avoids unverified statistics or hype, focusing on real engineering capabilities and documented projects.',
         },
         {
-          question: "How quickly can you have a new B2B marketing site live in Germany?",
-          answer: "The core build sprint is 7-14 days. That includes architecture, copy integration, SEO/GEO technical setup, GA4 custom event tracking, and Cloudflare deployment."
+          question: 'Can English B2B sites prepare cleanly for later German localization?',
+          answer:
+            'Yes, route and metadata structure is designed to support clean `hreflang` pairing when localized copy is added.',
         },
-        {
-          question: "Will this help us rank nationally in Germany and internationally?",
-          answer: "Yes. We build programmatic SEO structures and Generative Engine Optimization (GEO) that help you capture high-intent buyers searching in Germany, as well as across broader international queries."
-        }
-      ]
-    }
-  }
+      ],
+    },
+  },
 };
