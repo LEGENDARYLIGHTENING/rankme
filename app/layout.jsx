@@ -1,6 +1,7 @@
 import '../src/styles/global.css';
 import Navbar from '../src/components/Navbar';
 import Footer from '../src/components/Footer';
+import ConsentBanner from '../src/components/ConsentBanner';
 
 export const metadata = {
   metadataBase: new URL('https://rankursite.com'),
@@ -8,7 +9,8 @@ export const metadata = {
     default: 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
     template: '%s',
   },
-  description: 'I build fast, high-converting Next.js websites for B2B founders and optimize them to rank on Google and AI search engines (ChatGPT, Perplexity). Live in 7-14 days.',
+  description:
+    'I build fast, custom Next.js websites for B2B founders and structure them for Google search, AI answer visibility, and qualified pipeline leads.',
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
@@ -19,7 +21,8 @@ export const metadata = {
   },
   openGraph: {
     title: 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
-    description: 'I build fast, high-converting Next.js websites for B2B founders and optimize them to rank on Google and AI search engines. Live in 7-14 days.',
+    description:
+      'I build fast, custom Next.js websites for B2B founders and structure them for Google search, AI answer visibility, and qualified pipeline leads.',
     url: 'https://rankursite.com',
     siteName: 'Rankur',
     images: [
@@ -36,7 +39,8 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
-    description: 'I build fast, high-converting Next.js websites for B2B founders and optimize them to rank on Google and AI search engines.',
+    description:
+      'I build fast, custom Next.js websites for B2B founders and structure them for Google search, AI answer visibility, and qualified pipeline leads.',
     creator: '@moksh_rankur',
     images: ['https://rankursite.com/twitter-image.jpg'],
   },
@@ -187,17 +191,6 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(masterSchema) }}
         />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L49CTLKWYS"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){ dataLayer.push(arguments); }
-              gtag('js', new Date());
-              gtag('config', 'G-L49CTLKWYS');
-            `,
-          }}
-        />
       </head>
       <body>
         <div className="app-container">
@@ -207,7 +200,7 @@ export default function RootLayout({ children }) {
           </main>
           <Footer />
         </div>
-        <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <ConsentBanner />
       </body>
     </html>
   );

@@ -22,8 +22,11 @@ function decodeHtmlEntities(s) {
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
     .replace(/&#x27;/g, "'")
-    .replace(/&#39;/g, "'");
+    .replace(/&#39;/g, "'")
+    .replace(/&ndash;/g, '–')
+    .replace(/&mdash;/g, '—');
 }
 
 function walkFiles(dir, exts, out = []) {
@@ -214,9 +217,85 @@ async function runPrebuildChecks() {
   if (/across United States|across United Kingdom|across United Arab Emirates|Many national companies across|B2B manufacturing client|Fortune 500/i.test(countryDataSrc)) {
     fail('[L3] Grammar defect or templated/unverified claim found in src/data/countryData.jsx');
   }
+
+  // Phase 3 (T1-T7): Layout, <Seo> hygiene, Nav/Links, Credentials, Crawlability FAQs, Legal & Consent
+  const publicFiles = fs.readdirSync(path.join(rootDir, 'public'));
+  for (const pf of publicFiles) {
+    if (/^Copilot_/i.test(pf)) {
+      fail(`[T1] Legacy Copilot template asset still in public/: ${pf}`);
+    }
+  }
+  for (const deadVite of ['src/App.jsx', 'src/main.jsx', 'src/App.css']) {
+    if (fs.existsSync(path.join(rootDir, deadVite))) {
+      fail(`[T1] Legacy Vite entry file still exists: ${deadVite}`);
+    }
+  }
+
+  const navSrc = fs.readFileSync(path.join(rootDir, 'src/components/Navbar.jsx'), 'utf8');
+  if (/Meet Moksh|Capabilities|Growth Audit/.test(navSrc)) {
+    fail('[T3] Deprecated nav labels still present in Navbar.jsx');
+  }
+  if ((navSrc.match(/navLinks\.map/g) || []).length !== 1) {
+    fail('[T1] Navbar.jsx must render navLinks only once in the DOM');
+  }
+
+  // T3/T4/T5 across app/ & src/
+  const codeFiles = [
+    ...walkFiles(path.join(rootDir, 'app'), ['.js', '.jsx', '.ts', '.tsx']),
+    ...walkFiles(path.join(rootDir, 'src'), ['.js', '.jsx', '.ts', '.tsx']),
+  ];
+  for (const cf of codeFiles) {
+    const rel = path.relative(rootDir, cf);
+    const c = fs.readFileSync(cf, 'utf8');
+    if (/medium\.com/i.test(c) || /moksh-portfolio-smoky\.vercel\.app/i.test(c)) {
+      fail(`[T3] Deprecated medium.com or vercel.app reference in ${rel}`);
+    }
+    if (/openFaq\s*===\s*i\s*&&/.test(c)) {
+      fail(`[T6] Conditionally unmounted FAQ answer (openFaq === i &&) in ${rel}`);
+    }
+  }
+
+  const contactSrc = fs.readFileSync(path.join(rootDir, 'src/views/Contact.jsx'), 'utf8');
+  if (/href=["']https?:\/\/(?:www\.)?linkedin\.com["']/i.test(contactSrc)) {
+    fail('[T3] Bare linkedin.com root URL still in Contact.jsx');
+  }
+  const freeAuditSrc = fs.readFileSync(path.join(rootDir, 'src/views/FreeAudit.jsx'), 'utf8');
+  for (const [label, src] of [['Contact.jsx', contactSrc], ['FreeAudit.jsx', freeAuditSrc]]) {
+    if (!/name=["']botcheck["']/.test(src)) fail(`[T7] Missing Web3Forms botcheck honeypot in ${label}`);
+    if (!/href=["']\/privacy["']/.test(src) || !/href=["']\/terms["']/.test(src)) {
+      fail(`[T7] Missing /privacy and /terms consent links in ${label}`);
+    }
+  }
+
+  const aboutSrc = fs.readFileSync(path.join(rootDir, 'src/views/About.jsx'), 'utf8');
+  if (/Rankur\\'s|ConversionXL|Alibaba|unsplash\.com/i.test(aboutSrc)) {
+    fail('[T4/T5] Escaped apostrophe, unverified cert, or Unsplash stock photo still in About.jsx');
+  }
+  const certsSrc = fs.readFileSync(path.join(rootDir, 'src/views/Certifications.jsx'), 'utf8');
+  if (!aboutSrc.includes('credentials') || !certsSrc.includes('credentials')) {
+    fail('[T5] About.jsx and Certifications.jsx must share src/data/credentials.js');
+  }
+  const certsPageSrc = fs.readFileSync(path.join(rootDir, 'app/certifications/page.jsx'), 'utf8');
+  if (/Next\.js development|technical SEO/i.test(certsPageSrc)) {
+    fail('[T5] app/certifications/page.jsx still claims unverified Next.js/technical SEO certs');
+  }
+
+  for (const legal of ['app/privacy/page.jsx', 'app/terms/page.jsx']) {
+    const lp = path.join(rootDir, legal);
+    if (!fs.existsSync(lp)) {
+      fail(`[T7] Missing legal route: ${legal}`);
+    } else if (!fs.readFileSync(lp, 'utf8').includes('Draft — legal review required before publishing')) {
+      fail(`[T7] Missing Draft legal review disclaimer on ${legal}`);
+    }
+  }
+
+  const layoutSrc = fs.readFileSync(path.join(rootDir, 'app/layout.jsx'), 'utf8');
+  if (/googletagmanager\.com\/gtag\/js/.test(layoutSrc)) {
+    fail('[T7] Unconditional GA4 script still embedded in app/layout.jsx (must be consent-gated)');
+  }
 }
 
-function checkBuiltHtmlFile(filePath, relLabel) {
+function checkBuiltHtmlFile(filePath, relLabel, { allowPhase4Legacy = false } = {}) {
   const html = fs.readFileSync(filePath, 'utf8');
 
   if (html.includes('&amp;amp;')) {
@@ -225,8 +304,11 @@ function checkBuiltHtmlFile(filePath, relLabel) {
   if (/\[Internal link:|\[External link:/i.test(html)) {
     fail(`[B1] Template placeholder in built HTML: ${relLabel}`);
   }
-  if (/View Money Services|85\+ City Hubs|B2B Manufacturing Client|unsplash\.com/i.test(html)) {
-    fail(`[B4/B5/B7] Forbidden string in built HTML: ${relLabel}`);
+  if (/View Money Services|85\+ City Hubs/i.test(html)) {
+    fail(`[B7] Forbidden doorway/CTA string in built HTML: ${relLabel}`);
+  }
+  if (!allowPhase4Legacy && /B2B Manufacturing Client|unsplash\.com/i.test(html)) {
+    fail(`[B4/B5/C4] Forbidden Unsplash hotlink or anonymous client claim in built HTML: ${relLabel}`);
   }
 
   // Head-only checks (canonical, og:url, title, og:title, desc, og:image)
@@ -339,6 +421,83 @@ async function runPostbuildChecks() {
       }
     } else if (robotsVal.includes('noindex')) {
       fail(`[L3] Active country ${c}.html must be indexable, got: "${robotsVal}"`);
+    }
+  }
+
+  // Phase 3 (T1-T7) postbuild verification across ALL core marketing pages
+  const coreHtmlPages = [
+    'index.html',
+    'about.html',
+    'services.html',
+    'case-studies.html',
+    'certifications.html',
+    'process.html',
+    'philosophy.html',
+    'free-audit.html',
+    'contact.html',
+    'saas-websites.html',
+    'privacy.html',
+    'terms.html',
+  ];
+  for (const relHtml of coreHtmlPages) {
+    const p = path.join(nextAppDir, relHtml);
+    if (!fs.existsSync(p)) {
+      fail(`[T2] Missing built core HTML page: ${relHtml}`);
+      continue;
+    }
+    const allowPhase4Legacy = ['index.html', 'case-studies.html', 'saas-websites.html'].includes(relHtml);
+    checkBuiltHtmlFile(p, relHtml, { allowPhase4Legacy });
+    const html = fs.readFileSync(p, 'utf8');
+
+    // T7: No unconditional GA4 script in SSR HTML
+    if (/googletagmanager\.com\/gtag\/js/i.test(html)) {
+      fail(`[T7] Unconditional gtag.js script found in SSR HTML of ${relHtml}`);
+    }
+
+    // T1: Single header nav (each link href appears only once inside <header>...</header>)
+    const headerMatch = html.match(/<header[\s\S]*?<\/header>/i);
+    if (!headerMatch) {
+      fail(`[T1] Missing <header> element in ${relHtml}`);
+    } else {
+      const aboutLinks = (headerMatch[0].match(/href="\/about"/g) || []).length;
+      if (aboutLinks !== 1) {
+        fail(`[T1] Header nav rendered /about ${aboutLinks} times in ${relHtml} (expected 1)`);
+      }
+    }
+
+    // T6: If FAQPage JSON-LD exists on page, every Q & A must appear in visible HTML
+    const ldScripts = [...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)];
+    const bodyWithoutScripts = decodeHtmlEntities(html.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' '));
+    for (const m of ldScripts) {
+      try {
+        const parsed = JSON.parse(m[1]);
+        if (parsed['@type'] === 'FAQPage' && Array.isArray(parsed.mainEntity)) {
+          for (const qa of parsed.mainEntity) {
+            const q = String(qa.name || '').trim();
+            const a = String(qa.acceptedAnswer?.text || '').trim();
+            if (q && !bodyWithoutScripts.includes(q)) {
+              fail(`[T6] FAQPage schema question missing in visible HTML on ${relHtml}: "${q}"`);
+            }
+            if (a && !bodyWithoutScripts.includes(a)) {
+              fail(`[T6] FAQPage schema answer missing in visible HTML on ${relHtml}: "${a.slice(0, 50)}..."`);
+            }
+          }
+        }
+      } catch {
+        fail(`[S5] Invalid JSON-LD syntax in ${relHtml}`);
+      }
+    }
+  }
+
+  // Verify thank-you.html has noindex,nofollow
+  const tyPath = path.join(nextAppDir, 'thank-you.html');
+  if (!fs.existsSync(tyPath)) {
+    fail('[T2] Missing built thank-you.html');
+  } else {
+    const tyHtml = fs.readFileSync(tyPath, 'utf8');
+    const tyRobots = (tyHtml.match(/<meta[^>]*name=["']robots["'][^>]*content=["']([^"']+)["']/i) || ['', ''])[1].toLowerCase();
+    if (!tyRobots.includes('noindex') || !tyRobots.includes('nofollow')) {
+      fail(`[T2] thank-you.html must have noindex, nofollow; got "${tyRobots}"`);
     }
   }
 }

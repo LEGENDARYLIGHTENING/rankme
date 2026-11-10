@@ -28,7 +28,9 @@ const coreRoutes = [
   '/blog',
   '/free-audit',
   '/contact',
-  '/saas-websites'
+  '/saas-websites',
+  '/privacy',
+  '/terms'
 ];
 
 const getTodayDate = () => {

@@ -6,109 +6,121 @@ import ClientTrustBar from '../components/ClientTrustBar';
 import ServiceCard from '../components/ServiceCard';
 import Testimonials from '../components/Testimonials';
 import CTABlock from '../components/CTABlock';
+import { SeoJsonLd } from '../components/Seo';
 import './Services.css';
 
 const servicesData = [
   {
     icon: '◎',
     title: 'Strategic Positioning & Messaging',
-    description: 'We translate complex industrial, technical, and clinical processes into clear, high-converting B2B positioning copy. We map out your digital acquisition roadmap so you become the obvious partner for enterprise contracts.',
+    description:
+      'I translate complex manufacturing, software, and clinical workflows into straightforward commercial web copy aligned to executive buying evaluation.',
     deliverables: [
-      'B2B competitive audits & positioning matrices',
-      'Value proposition design & messaging frameworks',
-      'Commercial copy & objection-handling structures',
-      'Lead qualification pathways & script briefs',
+      'Competitor messaging teardown',
+      'Above-the-fold positioning clarity pass',
+      'Commercial capability & spec sheet structure',
+      'Lead qualification pathways & objection-handling FAQs',
     ],
-    timeline: 'Completed in Week 1 of engagement',
+    timeline: 'Scoped during discovery milestone',
   },
   {
     icon: '⟨/⟩',
-    title: 'Custom Growth Infrastructure',
-    description: 'We design and code bespoke, high-performance web platforms using React and Next.js, integrating secure PostgreSQL database layers and Cloudflare enterprise network rules to guarantee speeds under 1.2s globally.',
+    title: 'Custom Next.js Web Engineering',
+    description:
+      'I design and build clean React and Next.js websites deployed on edge networks without bloated visual builders or fragile plugin stacks.',
     deliverables: [
-      'Custom React JS & Next.js web application architecture',
-      'PostgreSQL data schemas & lead capture integrations',
-      'GA4 analytics custom event tracking pipeline',
-      'Cloudflare enterprise security & deployment rules',
+      'Custom React & Next.js App Router frontend',
+      'Consent-clean GA4 conversion event tracking',
+      'Accessible semantic markup & responsive layouts',
+      'Full GitHub repository ownership transferred to you',
     ],
-    timeline: 'Completed in 7-14 days sprint',
+    timeline: 'Milestone-based sign-off, terms in proposal',
   },
   {
     icon: '🔍',
-    title: 'SEO + GEO Visibility (Search Dominance)',
-    description: 'We optimize your digital footprint for traditional Google search and generative AI engines like ChatGPT, Claude, and Perplexity. We target bottom-of-funnel keyword problems that represent immediate buying intent.',
+    title: 'Technical SEO & GEO Architecture',
+    description:
+      'I audit and fix crawl bloat, canonical conflicts, thin doorway routes, schema hygiene, and clear factual structure for Google and AI search engines.',
     deliverables: [
-      'Bottom-of-funnel, high-intent keyword mapping',
-      'Generative Engine Optimization (GEO) semantic structure',
-      'Google Search Console setup, sitemaps & crawl audits',
-      'High-authority, long-form content planning (4,000-8,000 words)',
+      '301 redirect preservation for legacy URLs',
+      'Prebuild SEO checks enforcing canonical & meta limits',
+      'Cleaned sitemaps matching real indexable routes',
+      'Structured JSON-LD entity and FAQ schema markup',
     ],
-    timeline: 'Ongoing retainer integration',
+    timeline: 'Integrated into every website build or audit',
   },
   {
     icon: '✍',
-    title: 'Organic Demand & Executive Authority',
-    description: 'We shorten your sales cycle by building authority and trust before the first discovery call. By planning and scripting specialized executive LinkedIn posts and B2B articles, we drive high-intent organic inbound.',
+    title: 'B2B Content & Comparison Architecture',
+    description:
+      'I replace repetitive filler posts with focused commercial comparison pages, technical guides, and clear internal linking across core topic hubs.',
     deliverables: [
-      'LinkedIn executive thought leadership content mapping',
-      'B2B research studies & quarterly report generation',
-      'Authority internal linking structures & blog publishing',
-      'PR & partner network citation development',
+      'Editorial content pruning & noindex/triage workflows',
+      'Category hub and contextual internal link architecture',
+      'Solution and technical buyer evaluation guides',
+      'Zero unsourced stats or placeholder copy',
     ],
-    timeline: 'Ongoing retainer integration',
+    timeline: 'Scoped per content roadmap',
   },
   {
     icon: '📊',
-    title: 'Conversion Rate Systems & CRO',
-    description: 'We perform deep user interaction audits and optimize lead-capture layouts. We run structural A/B tests and form field optimizations to maximize qualified pipelines without increasing ad budgets.',
+    title: 'Conversion Flow & Form Optimization',
+    description:
+      'I remove form friction, fix dead or confusing CTAs, add anti-spam protections, and make inquiry handoffs measurable without inflating traffic spend.',
     deliverables: [
-      'Friction teardowns on lead entry & checkout paths',
-      'Dynamic, qualified lead-form field restructuring',
-      'GA4 custom behavioral tracking & logging checks',
-      'Speed optimization audits & database latency tuning',
+      'Lead & RFQ form friction teardowns',
+      'Consent & privacy notice integration',
+      'Honeypot spam protection & confirmation routing',
+      'Consent-gated GA4 lead event measurement',
     ],
-    timeline: 'Ongoing retainer optimization',
+    timeline: 'Included in builds and CRO scopes',
   },
 ];
 
 const technicalStack = [
-  { category: 'Frontend Architecture', tools: 'React, Next.js, Vite, HTML5, Vanilla CSS, TailwindCSS (optional)' },
-  { category: 'Backend & Database', tools: 'PostgreSQL, Node.js, Express, REST APIs, Supabase, Vercel Serverless' },
-  { category: 'Security & Deployment', tools: 'Vercel, Cloudflare, SSL/TLS, custom security headers, DDoS mitigation' },
-  { category: 'Analytics & Optimization', tools: 'GA4 custom tracking, Google Search Console, Hotjar, SEO Gets, SEO/GEO schemas' },
+  { category: 'Frontend Architecture', tools: 'React, Next.js (App Router), HTML5, Modular CSS' },
+  { category: 'Backend & Integrations', tools: 'Node.js, PostgreSQL, REST APIs, Supabase, Web3Forms' },
+  { category: 'Hosting & Security', tools: 'Vercel Edge, HTTPS/HSTS, Security Headers, 301 Redirect Maps' },
+  { category: 'Analytics & Verification', tools: 'GA4 (consent-gated), Google Search Console, Automated SEO CI Checks' },
 ];
 
 const faqs = [
   {
-    question: 'How do you price your engagements?',
-    answer: 'We do not sell cheap, commodity-level freelancer services or flat-rate packages. Every B2B growth infrastructure project is priced custom based on scope, technical complexity, and your pipeline goals. Typically, engagements begin with a custom diagnostic audit, leading to a development sprint and transition into an ongoing growth retainer.',
+    question: 'How do you price B2B web engineering and SEO engagements?',
+    answer:
+      'Projects are scoped per deliverable after a technical audit, using written proposals and milestone-based sign-off terms rather than generic bundled templates.',
   },
   {
-    question: 'Why do you build custom React/Next.js platforms instead of basic template sites?',
-    answer: 'Premium B2B enterprises and manufacturers require speed, custom database routing, secure lead data management, and strict technical SEO compliance. Template site-builders limit page performance and indexing controls. Our Next.js architectures ensure load times under 1.2s, which directly reduces bounce rates and optimizes lead capture.',
+    question: 'Why build on custom React and Next.js instead of template themes?',
+    answer:
+      'Custom Next.js gives full control over bundle size, clean semantic HTML, explicit metadata inheritance, prebuild validation, and zero plugin vulnerability bloat.',
   },
   {
-    question: 'What is Generative Engine Optimization (GEO) and why is it included?',
-    answer: 'Generative Engine Optimization (GEO) is the process of structuring your website content and technical markup so your brand is recommended when procurement teams and executives ask AI tools (like ChatGPT, Claude, and Perplexity) for vendor recommendations. We optimize your code for LLM search parameters from day one.',
+    question: 'What does Generative Engine Optimization (GEO) mean in practice?',
+    answer:
+      'In practice, GEO means clear entity schema markup, factual non-hyped service copy, clean Q&A structure matching visible page content, and crawlable static HTML so both search engines and AI systems parse your capabilities accurately.',
   },
   {
-    question: 'Do we sign NDAs before discussing technical specifications?',
-    answer: 'Absolutely. We operate as an MSME-registered enterprise (Moksh Productions) and sign mutual NDAs before reviewing proprietary formulas, design patents, supply chain channels, or internal CRM metrics.',
+    question: 'Do you sign mutual NDAs before reviewing internal specs?',
+    answer:
+      'Yes. I operate under Moksh Productions (India) and sign mutual non-disclosure agreements before inspecting proprietary documentation or Search Console metrics.',
   },
   {
-    question: 'How do we collaborate across international timezones?',
-    answer: 'We manage B2B collaborations across the US, UK, Australia, Canada, UAE, Saudi Arabia, and Qatar. We align our workflows to ensure timely communication via weekly reports, Zoom strategy sessions, and Slack or WhatsApp updates.',
+    question: 'Which international markets do you support?',
+    answer:
+      'I work remotely with B2B teams across the United States, United Kingdom, Canada, Australia, UAE, and Saudi Arabia.',
   },
   {
-    question: "What's a realistic timeline from first call to a live, ranking website?",
-    answer: 'The full sprint - from kickoff to a live, technically optimized website - typically runs 7 to 14 days for the build phase. The first measurable SEO signals (indexed pages, GSC impressions) appear within 2-4 weeks post-launch. Meaningful organic lead inbound typically follows at 3-6 months, which is why every website engagement transitions into an ongoing retainer rather than stopping at launch.',
+    question: 'How long does it take to see search movement after technical cleanup?',
+    answer:
+      'Technical crawl and index cleanup reflects in Search Console over the weeks following deployment, while competitive commercial keyword gains compound over subsequent months depending on domain authority and market competition.',
   },
 ];
 
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  mainEntity: faqs.map(faq => ({
+  mainEntity: faqs.map((faq) => ({
     '@type': 'Question',
     name: faq.question,
     acceptedAnswer: {
@@ -121,31 +133,28 @@ const faqSchema = {
 export default function Services() {
   const [openFaq, setOpenFaq] = useState(null);
 
-
   return (
     <>
-      
+      <SeoJsonLd data={faqSchema} />
 
       <HeroSection
-        label="Capabilities"
+        label="Services"
         title={
           <>
-            Outcomes-First <span className="text-gold">Growth Infrastructure</span>
+            Engineering-Led <span className="text-gold">Web &amp; SEO Systems</span>
           </>
         }
-        subtitle="We build, write, and optimize the digital platforms required to establish search dominance, position your brand as a market leader, and drive enterprise pipeline."
-        primaryCTA={{ to: '/free-audit', label: 'Request custom Audit' }}
-        secondaryCTA={{ to: '/case-studies', label: 'See Proof Portfolio' }}
+        subtitle="I build fast Next.js platforms, fix technical SEO debt, and structure clear B2B conversion flows."
+        primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
+        secondaryCTA={{ to: '/case-studies', label: 'View Case Studies' }}
       />
 
-      {/* Client Logo Cloud & Trust Bar */}
       <ClientTrustBar />
 
-      {/* Pillars breakdown */}
       <section className="section" id="services-full">
         <div className="container">
-          <p className="section-label">Our Pillars</p>
-          <h2 className="section-title">The B2B Growth Engine</h2>
+          <p className="section-label">Core Offerings</p>
+          <h2 className="section-title">How I Build &amp; Optimize B2B Sites</h2>
           <div className="services-page__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
             {servicesData.map((service, i) => (
               <ServiceCard key={i} {...service} />
@@ -154,13 +163,12 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Technical Execution Stack */}
       <section className="tech-stack-section" style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)' }}>
         <div className="container">
           <p className="section-label">Execution Stack</p>
-          <h2 className="section-title">The Technology Powering Our Strategy</h2>
+          <h2 className="section-title">Core Technologies Used</h2>
           <p className="section-subtitle" style={{ marginBottom: 'var(--space-3xl)' }}>
-            We combine commercial B2B positioning with professional coding, secure deployment, and custom analytics setup.
+            Combining structured commercial messaging with clean React/Next.js code, explicit redirects, and consent-clean telemetry.
           </p>
           <div className="tools-grid">
             {technicalStack.map((tech, i) => (
@@ -173,10 +181,8 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Executive Testimonials */}
       <Testimonials />
 
-      {/* FAQ */}
       <section className="faq-section" id="services-faq">
         <div className="container">
           <p className="section-label">FAQ</p>
@@ -185,13 +191,14 @@ export default function Services() {
             {faqs.map((faq, i) => (
               <div key={i} className="faq-item">
                 <button
+                  type="button"
                   className="faq-item__question"
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   aria-expanded={openFaq === i}
                   aria-controls={`faq-answer-${i}`}
                   id={`faq-question-${i}`}
                 >
-                  {faq.question}
+                  <span>{faq.question}</span>
                   <span className={`faq-item__toggle ${openFaq === i ? 'faq-item__toggle--open' : ''}`}>
                     +
                   </span>

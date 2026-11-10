@@ -2,110 +2,92 @@
 
 import HeroSection from '../components/HeroSection';
 import CTABlock from '../components/CTABlock';
+import { VERIFIED_CREDENTIALS } from '../data/credentials';
 import './About.css';
 
-const certifications = [
-  { name: 'Google Analytics 4 (GA4) Certification', issuer: 'Google' },
-  { name: 'Advanced Conversion Optimization & Tracking Masterclass', issuer: 'ConversionXL Institute' },
-  { name: 'B2B Digital Sourcing & Channel Integration', issuer: 'Alibaba Channel Operations Partner' },
-];
-
 const corporateCredentials = [
-  { label: 'Parent Corporation', value: 'Moksh Productions' },
+  { label: 'Operating Entity', value: 'Moksh Productions' },
   { label: 'Registration Status', value: 'MSME-Registered Enterprise (India)' },
-  { label: 'Contract Integrity', value: 'Mutual NDA Protected Audits & Agreements' },
-  { label: 'Operating Markets', value: 'US, UK, Australia, Canada, UAE, Saudi Arabia, Qatar' },
+  { label: 'Contract Security', value: 'Mutual NDA Available Before Audit & Scoping' },
+  { label: 'Operating Markets', value: 'US, UK, Canada, Australia, UAE, Saudi Arabia' },
 ];
 
-const credentialsLedger = [
+// NEEDS-MOKSH (T4): Add real scans of MSME registration, signed recommendation letter, and GA4 certificate when supplied.
+const platformsLedger = [
   {
-    title: 'Enterprise Fleet Telematics Platform (WizIOT)',
-    evidence: 'Engineered monolithic Next.js 16 + Turbopack architecture spanning 1,040+ static pages across EMEA and GCC markets with sub-0.9s global latency and permanent footer backlink verification.',
+    title: 'WizIOT — Client Project',
+    evidence:
+      'Custom Next.js platform built for an enterprise fleet telematics and IoT hardware company serving buyers across GCC, Africa, and Europe.',
   },
   {
-    title: 'AIS-140 Certified GPS Telematics (Atlanta Systems)',
-    evidence: 'Designed and deployed 460+ static pages on Next.js 16 with 100% crawl indexation on government compliance keywords and automated RFQ pipeline.',
+    title: 'Atlanta Systems — Co-led for an In-House Venture',
+    evidence:
+      'AIS-140 GPS and automotive telematics manufacturing site engineered on Next.js with structured capability pages and automated RFQ capture.',
   },
   {
-    title: 'B2B Medical Supplies & Headless Commerce (Medventa)',
-    evidence: 'Engineered custom Next.js 14 headless commerce catalog with 440+ static SKU pages, sub-second surgical search, and institutional hospital procurement routing.',
+    title: 'Medventa — Client Project',
+    evidence:
+      'Headless Next.js B2B catalog for surgical supplies and hospital procurement teams with streamlined product inquiry workflows.',
   },
   {
-    title: 'Nutraceutical CDMO Platform (Probiota Innovations)',
-    evidence: 'Built 340+ page Next.js 16 web application with US-FDA compliance showcase, generating 10+ international inquiries in 10 days and 50+ qualified leads in month one.',
+    title: 'Probiota Innovations — Built for My Own In-House Venture',
+    evidence:
+      'Next.js B2B manufacturing and private-label nutraceutical site structured for wholesale supplement formulation inquiries.',
   },
   {
-    title: 'Philanthropic Healthcare & Community NGO (Wafa Trust)',
-    evidence: 'Structured high-accessibility Next.js web presence with sub-1.0s mobile performance, transparent donor audit reporting, and verified backlink verification.',
-  },
-  {
-    title: 'Global Export Channels (Competence Consulting E-Commerce LLP)',
-    evidence: 'Managed channel partnerships, digital workflows, and global B2B buyer sourcing structures via official Alibaba channels.',
-  },
-  {
-    title: 'Acquisition Funnels & Campaigns (Glitchy)',
-    evidence: 'Developed custom landing pages, GA4 custom conversion tracking, and high-performing lead generation campaigns converting 200+ customers.',
+    title: 'Wafa Trust — Client Project',
+    evidence:
+      'Accessible Next.js website built for a philanthropic healthcare and community development trust.',
   },
 ];
 
 export default function About() {
   return (
     <>
-      
-
       <HeroSection
-        label="Meet the Founder"
+        label="About Moksh"
         title={
           <>
-            Founder-Led <span className="text-gold">Growth Engineering</span>
+            Founder-Led <span className="text-gold">Web &amp; SEO Engineering</span>
           </>
         }
-        subtitle="I build custom web infrastructure, search dominance strategies, and conversion systems based on the exact principles we use to scale our own ventures."
-        primaryCTA={{ to: '/free-audit', label: 'Apply for B2B Audit' }}
+        subtitle="I build custom Next.js web platforms, technical SEO structures, and clean conversion flows based on systems tested across my own ventures and client work."
+        primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
       />
 
-      {/* Story */}
       <section className="about-story" id="my-story">
         <div className="container">
-          <p className="section-label">My Philosophy</p>
-          <h2 className="section-title">Bridging Code and Commercial Strategy</h2>
+          <p className="section-label">Background</p>
+          <h2 className="section-title">Bridging Engineering and Commercial Search Strategy</h2>
           <div className="about-story__content">
             <p>
-              I started Moksh Productions with a clear vision: to build a portfolio of high-value ventures, from software platforms to technical services. 
-              Along the journey, I discovered that most B2B companies suffer from a massive disconnect: they hire developers who do not understand marketing, 
-              or copywriters who cannot deploy code.
+              I started Moksh Productions to build software platforms and technical web products. Along the way, I repeatedly saw B2B teams stuck between agencies: developers who treat SEO and messaging as afterthoughts, or marketers who ship bloated templates held back by slow code and duplicate URLs.
             </p>
             <p>
-              To solve this, I built <strong>Rankur</strong>. I mastered custom software engineering, technical SEO, and conversion path design. 
-              By aligning positioning, custom React/Next.js web builds, and search visibility (SEO + GEO), we build the digital infrastructure 
-              needed to capture enterprise contracts and overseas inquiries.
+              I founded <strong>Rankur</strong> to handle positioning, React/Next.js frontend engineering, technical SEO, and analytics measurement under one roof cleanly.
             </p>
             <p>
-              I do not believe in theoretical marketing. The positioning systems and technical architectures we deploy for Rankur\'s clients 
-              are the exact same growth engines we use to scale our own internal software, SaaS, and product ventures. 
-              This is not an agency built on sales pitches; it is a founder-led growth consultancy built on execution.
+              The architectures and search structures I build for Rankur client builds follow the same engineering discipline I apply to my own internal products and ventures — prioritizing verifiable craft over inflated agency slogans.
             </p>
-            
-            {/* Founder Photo Block */}
+
             <div className="img-placeholder" style={{ margin: 'var(--space-2xl) 0', borderRadius: 'var(--border-radius-lg)', overflow: 'hidden' }}>
-              <img 
-                src="/moksh-parjapati-b2b-growth-consultant.jpeg" 
-                alt="Moksh Parjapati - B2B Growth Consultant and Rankur Founder" 
-                style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 'inherit' }} 
+              <img
+                src="/moksh-parjapati-b2b-growth-consultant.jpeg"
+                alt="Moksh Parjapati, Founder of Rankur"
+                style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 'inherit' }}
               />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Corporate Compliance */}
       <section className="corporate-credentials-section" style={{ padding: 'var(--space-5xl) 0' }}>
         <div className="container">
-          <p className="section-label">Corporate Security</p>
-          <h2 className="section-title">Compliance & Backing</h2>
+          <p className="section-label">Operating Structure</p>
+          <h2 className="section-title">Business Entity &amp; Terms</h2>
           <div className="about-story__content" style={{ marginBottom: 'var(--space-3xl)' }}>
             <p>
-              Rankur operates as an official division of <strong>Moksh Productions</strong>, an MSME-registered enterprise in India. This backing guarantees contract compliance, operational security, and institutional accountability.
+              Rankur operates as an engineering and SEO consultancy under <strong>Moksh Productions</strong> in India, with written milestone proposals and mutual NDA options available upon request.
             </p>
           </div>
           <div className="tools-grid" style={{ marginTop: 'var(--space-xl)' }}>
@@ -116,69 +98,49 @@ export default function About() {
               </div>
             ))}
           </div>
-          
-          {/* MSME Badge Block */}
-          <div className="img-placeholder" style={{ margin: 'var(--space-2xl) auto 0 auto', borderRadius: 'var(--border-radius-lg)', height: '200px', maxWidth: '400px' }}>
-            <img 
-              src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=600&q=80" 
-              alt="MSME Registration and Compliance Backing Certificate" 
-              style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} 
-            />
-          </div>
         </div>
       </section>
 
-      {/* Verified Experience Ledger */}
       <section className="credentials-ledger-section" style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)' }}>
         <div className="container">
-          <p className="section-label">Experience Ledger</p>
-          <h2 className="section-title">Evidence That Backs Our Work</h2>
+          <p className="section-label">Platforms Built</p>
+          <h2 className="section-title">Production Work &amp; Venture Disclosure</h2>
           <div className="about-story__content" style={{ marginBottom: 'var(--space-3xl)' }}>
             <p>
-              We back our strategic growth assertions with real operational outcomes across manufacturing, wellness, technology, and e-commerce channel partnerships.
+              Below is the production ledger of client builds and in-house ventures developed using the same Next.js architecture, clearly distinguishing third-party clients from ventures I co-led or founded.
             </p>
           </div>
-          
+
           <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-xl)', marginTop: 'var(--space-xl)' }}>
-            {credentialsLedger.map((ledger, i) => (
+            {platformsLedger.map((ledger, i) => (
               <div key={i} style={{ backgroundColor: 'var(--color-card-bg)', border: '1px solid var(--color-border)', borderRadius: 'var(--border-radius-lg)', padding: 'var(--space-xl)' }}>
                 <h4 style={{ fontSize: '1.1rem', color: 'var(--color-gold)', marginBottom: 'var(--space-sm)', fontWeight: 'var(--font-weight-bold)' }}>{ledger.title}</h4>
                 <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7', margin: 0 }}>{ledger.evidence}</p>
               </div>
             ))}
           </div>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--space-xl)', marginTop: 'var(--space-3xl)' }}>
-            {/* Experience Letter Placeholder */}
-            <div className="img-placeholder" style={{ borderRadius: 'var(--border-radius-lg)', height: '220px' }}>
-              <img 
-                src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=600&q=80" 
-                alt="Client Experience and Recommendation Letter Reference" 
-                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} 
-              />
-            </div>
-            {/* GA4 Certificate Placeholder */}
-            <div className="img-placeholder" style={{ borderRadius: 'var(--border-radius-lg)', height: '220px' }}>
-              <img 
-                src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=600&q=80" 
-                alt="Google Analytics GA4 Custom Certification Dashboard" 
-                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }} 
-              />
-            </div>
-          </div>
         </div>
       </section>
 
-      {/* Certifications (Google etc) */}
       <section className="about-certs" id="about-certifications">
         <div className="container">
-          <p className="section-label">Certifications</p>
-          <h2 className="section-title">Credentials That Back Results</h2>
+          <p className="section-label">Credentials</p>
+          <h2 className="section-title">Verified Certifications &amp; Training</h2>
           <div className="about-certs__grid">
-            {certifications.map((cert, i) => (
-              <div key={i} className="about-cert-card">
+            {VERIFIED_CREDENTIALS.map((cert) => (
+              <div key={cert.id} className="about-cert-card">
                 <p className="about-cert-card__name">{cert.name}</p>
                 <p className="about-cert-card__issuer">{cert.issuer}</p>
+                {cert.verifyUrl && (
+                  <a
+                    href={cert.verifyUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: 'var(--color-gold)', fontSize: '0.85rem', display: 'inline-block', marginTop: 'var(--space-sm)' }}
+                  >
+                    Verify Credential &rarr;
+                  </a>
+                )}
               </div>
             ))}
           </div>

@@ -1,9 +1,10 @@
 import Process from '../../src/views/Process';
-import { constructMetadata } from '../../src/utils/seo';
+import { constructMetadata } from '../../src/components/Seo';
 
 export const metadata = constructMetadata({
-  title: 'Our 7-14 Day Next.js Sprint Process | Rankur',
-  description: 'From discovery and positioning to custom Next.js engineering, technical SEO, and conversion tracking — our rapid delivery process.',
+  title: 'How I Work: Audit, Build & Growth Process | Rankur',
+  description:
+    'From initial technical SEO audit to custom Next.js build, GA4 telemetry, and milestone-based sign-off — see how projects run.',
   canonical: '/process',
 });
 

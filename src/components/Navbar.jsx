@@ -6,9 +6,9 @@ import './Navbar.css';
 
 const navLinks = [
   { to: '/', label: 'Home' },
-  { to: '/about', label: 'Meet Moksh' },
+  { to: '/about', label: 'About' },
   { to: '/philosophy', label: 'Philosophy' },
-  { to: '/services', label: 'Capabilities' },
+  { to: '/services', label: 'Services' },
   { to: '/case-studies', label: 'Case Studies' },
   { to: '/blog', label: 'Blog' },
   { to: '/contact', label: 'Contact' },
@@ -25,60 +25,67 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  return (
-    <>
-      <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`} id="main-nav">
-        <div className="navbar__inner">
-          <Link href="/" className="navbar__logo" onClick={() => setMenuOpen(false)}>
-            <img src="/rankur-logo.png" alt="Rankur - B2B Web Engineering & SEO" style={{ height: '60px', width: 'auto', objectFit: 'contain' }} />
-          </Link>
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [pathname]);
 
+  return (
+    <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`} id="main-nav">
+      <div className="navbar__inner">
+        <Link href="/" className="navbar__logo" aria-label="Rankur home" onClick={() => setMenuOpen(false)}>
+          <img
+            src="/rankur-logo.png"
+            alt="Rankur"
+            width={160}
+            height={44}
+            className="navbar__logo-img"
+          />
+        </Link>
+
+        <nav
+          id="main-nav-menu"
+          aria-label="Primary navigation"
+          className={`navbar__menu ${menuOpen ? 'navbar__menu--open' : ''}`}
+        >
           <div className="navbar__links">
-            {navLinks.map((link) => (
-              <Link
-                key={link.to}
-                href={link.to}
-                className={`navbar__link ${(link.to === '/' ? pathname === '/' : pathname?.startsWith(link.to)) ? 'navbar__link--active' : ''}`}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const isActive = link.to === '/' ? pathname === '/' : pathname?.startsWith(link.to);
+              return (
+                <Link
+                  key={link.to}
+                  href={link.to}
+                  className={`navbar__link ${isActive ? 'navbar__link--active' : ''}`}
+                  onClick={() => setMenuOpen(false)}
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
           </div>
 
-          <Link href="/free-audit" className="btn btn--primary navbar__cta navbar__cta-desktop">
-            Growth Audit
-          </Link>
-
-          <button
-            className={`navbar__toggle ${menuOpen ? 'navbar__toggle--open' : ''}`}
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Toggle menu"
-            id="nav-toggle"
-          >
-            <span className="navbar__toggle-bar"></span>
-            <span className="navbar__toggle-bar"></span>
-            <span className="navbar__toggle-bar"></span>
-          </button>
-        </div>
-      </nav>
-
-      <div className={`navbar__mobile-menu ${menuOpen ? 'navbar__mobile-menu--open' : ''}`}>
-        {navLinks.map((link) => (
           <Link
-            key={link.to}
-            href={link.to}
-            className={`navbar__mobile-link ${(link.to === '/' ? pathname === '/' : pathname?.startsWith(link.to)) ? 'navbar__mobile-link--active' : ''}`}
+            href="/free-audit"
+            className="btn btn--primary navbar__cta"
             onClick={() => setMenuOpen(false)}
           >
-            {link.label}
+            Free Audit
           </Link>
-        ))}
-        <div className="navbar__mobile-cta">
-          <Link href="/free-audit" className="btn btn--primary" style={{ width: '100%' }} onClick={() => setMenuOpen(false)}>
-            Growth Audit
-          </Link>
-        </div>
+        </nav>
+
+        <button
+          type="button"
+          className={`navbar__toggle ${menuOpen ? 'navbar__toggle--open' : ''}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+          aria-expanded={menuOpen}
+          aria-controls="main-nav-menu"
+          id="nav-toggle"
+        >
+          <span className="navbar__toggle-bar"></span>
+          <span className="navbar__toggle-bar"></span>
+          <span className="navbar__toggle-bar"></span>
+        </button>
       </div>
-    </>
+    </header>
   );
 }

@@ -1,9 +1,10 @@
 import Home from '../src/views/Home';
-import { constructMetadata } from '../src/utils/seo';
+import { constructMetadata } from '../src/components/Seo';
 
 export const metadata = constructMetadata({
   title: 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
-  description: 'I build fast, high-converting Next.js websites for B2B founders and optimize them to rank on Google and AI search engines (ChatGPT, Perplexity). Live in 7-14 days.',
+  description:
+    'I build fast, custom Next.js websites for B2B founders and structure them for Google search, AI answer visibility, and qualified pipeline leads.',
   canonical: 'https://rankursite.com',
 });
 

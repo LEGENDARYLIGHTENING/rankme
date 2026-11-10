@@ -5,7 +5,7 @@ const footerNav = [
   { to: '/', label: 'Home' },
   { to: '/services', label: 'Services' },
   { to: '/case-studies', label: 'Case Studies' },
-  { to: '/locations', label: 'Global Markets' },
+  { to: '/locations', label: 'Markets' },
   { to: '/about', label: 'About' },
   { to: '/process', label: 'Process' },
   { to: '/certifications', label: 'Certifications' },
@@ -16,7 +16,7 @@ const footerServices = [
   { to: '/services', label: 'SEO & GEO' },
   { to: '/services', label: 'LinkedIn Content' },
   { to: '/services', label: 'Meta & Google Ads' },
-  { to: '/free-audit', label: 'Free Growth Audit' },
+  { to: '/free-audit', label: 'Free Audit' },
 ];
 
 const footerMarkets = [
@@ -50,7 +50,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__social-link"
-                aria-label="LinkedIn"
+                aria-label="Moksh Parjapati on LinkedIn"
               >
                 in
               </a>
@@ -59,14 +59,14 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__social-link"
-                aria-label="X (Twitter)"
+                aria-label="Rankur on X (Twitter)"
               >
                 𝕏
               </a>
               <a
                 href="mailto:contactus@rankursite.com"
                 className="footer__social-link"
-                aria-label="Email"
+                aria-label="Email Rankur"
               >
                 @
               </a>
@@ -101,7 +101,7 @@ export default function Footer() {
             </p>
             <p className="footer__contact-item">
               <Link href="/case-studies" style={{ color: 'var(--color-text)', textDecoration: 'none' }}>
-                Verified Case Studies
+                Case Studies
               </Link>
             </p>
             <p className="footer__contact-item">
@@ -116,13 +116,19 @@ export default function Footer() {
           </p>
           <div className="footer__bottom-links">
             <Link href="/free-audit" className="footer__bottom-link">
-              Book Free Audit
+              Free Audit
             </Link>
             <Link href="/contact" className="footer__bottom-link">
               Contact
             </Link>
             <Link href="/blog" className="footer__bottom-link">
               Blog
+            </Link>
+            <Link href="/privacy" className="footer__bottom-link">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="footer__bottom-link">
+              Terms of Service
             </Link>
           </div>
         </div>

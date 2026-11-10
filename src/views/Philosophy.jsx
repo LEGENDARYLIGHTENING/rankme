@@ -7,59 +7,56 @@ import './Philosophy.css';
 const beliefs = [
   {
     num: '01',
-    title: 'Marketing must generate revenue, not just clicks.',
-    desc: 'Traffic and impressions are vanity metrics that pay zero bills. We design positioning models, technical structures, and search strategies that align directly with high-value pipeline, booked discovery calls, and closed contracts.',
+    title: 'Websites must support pipeline, not vanity metrics.',
+    desc: 'Impressions without buyer clarity pay zero bills. I design technical structures and commercial copy focused on real product evaluation and inquiries.',
   },
   {
     num: '02',
-    title: 'Websites are active salespeople, not digital brochures.',
-    desc: 'If your site is merely a passive corporate profile, it is costing you pipeline. Your website must actively qualify leads, answer commercial objections, establish credentials, and guide high-intent buyers to take action.',
+    title: 'Websites qualify buyers before the first call.',
+    desc: 'B2B buyers research quietly before contacting sales. Your site should explain technical specifications, proof, and engagement terms clearly without marketing fluff.',
   },
   {
     num: '03',
-    title: 'SEO should answer high-intent buying questions.',
-    desc: 'We do not target generic, high-volume keywords that drive irrelevant blog traffic. We build content around the exact commercial problems, technical integration queries, and vendor-comparison phrases your buyers search when ready to buy.',
+    title: 'SEO should target commercial buyer questions cleanly.',
+    desc: 'Publishing scaled filler keywords hurts credibility. Focused technical hubs, clean canonicals, and helpful buyer guides build sustainable authority.',
   },
   {
     num: '04',
-    title: 'AI Search (GEO) is the new search battleground.',
-    desc: 'Procurement teams and B2B executives increasingly ask ChatGPT, Claude, and Perplexity for supplier recommendations. If your brand\'s semantic structure, schema tags, and technical references are not optimized for LLM indexing, your business is invisible.',
+    title: 'Structured clarity helps both search engines and AI answers.',
+    desc: 'Consistent JSON-LD schema, factual Q&A blocks aligned to visible content, and non-hyped positioning make it straightforward for search engines and AI systems to parse what you do.',
   },
   {
     num: '05',
-    title: 'Trust is cumulative.',
-    desc: 'Every UI pixel, every piece of copy, every database validation, and every proof document either establishes authority or chips away at it. We optimize for radical transparency, presenting verified MSME registrations, recommendation letters, and real-world case studies.',
+    title: 'Verifiable trust comes from honest documentation.',
+    desc: 'Every inflated badge, unconsented testimonial initial, or fabricated number damages buyer trust. I prefer conservative claims, live sites you can inspect, and clear venture disclosure.',
   },
   {
     num: '06',
-    title: 'Data beats opinions.',
-    desc: 'We do not run marketing campaigns based on gut feelings. We build with GA4 custom event flows and database tracking to measure user interaction at a granular level, ensuring every dollar spent is fully accountable.',
+    title: 'Clean telemetry beats assumptions.',
+    desc: 'Privacy-respecting GA4 events and Search Console index tracking ground iterative improvements in actual behavior.',
   },
 ];
 
 export default function Philosophy() {
   return (
     <>
-      
-
       <HeroSection
-        label="Our Philosophy"
+        label="Philosophy"
         title={
           <>
-            Six Beliefs That Shape <br />
-            <span className="text-gold">B2B Growth</span>
+            Six Principles Shaping My <br />
+            <span className="text-gold">Web &amp; SEO Work</span>
           </>
         }
-        subtitle="We build digital acquisition pipelines for clients based on the exact same systems and philosophies we use to scale our own ventures."
-        primaryCTA={{ to: '/free-audit', label: 'Apply for Growth Audit' }}
+        subtitle="I build client web systems using the same transparent, engineering-led approach I apply to my own platforms."
+        primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         center
       />
 
-      {/* Beliefs Grid */}
       <section className="philosophy-section">
         <div className="container">
-          <p className="section-label">How We Think</p>
-          <h2 className="section-title">The Principles of B2B Growth Infrastructure</h2>
+          <p className="section-label">How I Think</p>
+          <h2 className="section-title">Engineering Principles</h2>
           <div className="philosophy-grid">
             {beliefs.map((belief, i) => (
               <div key={i} className="philosophy-card">
@@ -74,21 +71,16 @@ export default function Philosophy() {
         </div>
       </section>
 
-      {/* The Ecosystem Philosophy */}
       <section className="ecosystem-philosophies" style={{ backgroundColor: 'var(--color-dark-surface)', padding: 'var(--space-5xl) 0' }}>
         <div className="container">
           <div className="about-story__content" style={{ maxWidth: '850px' }}>
-            <p className="section-label">Proven Systems</p>
-            <h2 className="section-title">Venture-Backed Methodology</h2>
+            <p className="section-label">Operator Mindset</p>
+            <h2 className="section-title">Built on Real Shipping Discipline</h2>
             <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', fontSize: '1rem', marginBottom: 'var(--space-lg)' }}>
-              Rankur operates as a specialized division under <strong>Moksh Productions</strong>. 
-              We do not treat client growth as a theoretical experiment. The positioning structures, React/Next.js architectures, 
-              and Generative Engine SEO models we implement for our B2B clients are the exact same systems we engineer to launch 
-              and scale our own internal software, SaaS, and technology products.
+              Rankur operates under <strong>Moksh Productions</strong>. The React and Next.js engineering patterns, technical SEO checks, and clear qualification flows I ship for clients come from building real platforms and operating in-house ventures.
             </p>
             <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', fontSize: '1rem' }}>
-              By testing and refining our methods on our own commercial ventures first, we eliminate the guesswork. 
-              You benefit from a battle-tested pipeline designed by operators who have their own capital on the line.
+              Milestone-based sign-off and full GitHub source code ownership keep engagements transparent from kickoff to handoff.
             </p>
           </div>
         </div>

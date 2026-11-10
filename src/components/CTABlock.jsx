@@ -2,10 +2,10 @@ import Link from 'next/link';
 import './CTABlock.css';
 
 export default function CTABlock({
-  label = 'Ready to Grow?',
-  title = 'Book Your Free 30-Minute Growth Audit',
-  subtitle = 'Get a complete teardown of your website, SEO, ads, and lead generation - no pitch, just a clear action plan.',
-  primaryCTA = { to: '/free-audit', label: 'Book Free Audit' },
+  label = 'Ready to Start?',
+  title = 'Request a Free Site & Technical SEO Audit',
+  subtitle = 'Get a manual review of your page speed, search structure, and lead conversion bottlenecks — no sales pressure, just a prioritized action list.',
+  primaryCTA = { to: '/free-audit', label: 'Request Free Audit' },
   secondaryCTA,
 }) {
   return (

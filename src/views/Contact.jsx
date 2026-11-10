@@ -1,7 +1,7 @@
 "use client";
 import { useState } from 'react';
 import Link from 'next/link';
-import { usePathname, useParams, useRouter } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 
 import './Contact.css';
 
@@ -14,14 +14,16 @@ export default function Contact() {
     industry: '',
     mainGoal: '',
     additional: '',
+    consent: false,
+    botcheck: false,
   });
 
   const [errors, setErrors] = useState({});
   const [submitStatus, setSubmitStatus] = useState(null);
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    const { name, type, value, checked } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: type === 'checkbox' ? checked : value }));
     if (errors[name]) {
       setErrors((prev) => ({ ...prev, [name]: '' }));
     }
@@ -30,17 +32,19 @@ export default function Contact() {
   const validate = () => {
     const newErrors = {};
     if (!formData.name.trim()) newErrors.name = 'Your name is required';
-    if (!formData.email.trim() || !formData.email.includes('@')) newErrors.email = 'A valid corporate email is required';
-    if (!formData.website.trim() || !formData.website.includes('.')) newErrors.website = 'A valid company website URL is required';
+    if (!formData.email.trim() || !formData.email.includes('@')) newErrors.email = 'A valid work email is required';
+    if (!formData.website.trim() || !formData.website.includes('.')) newErrors.website = 'A valid website URL is required';
     if (!formData.industry) newErrors.industry = 'Please select your industry';
-    if (!formData.mainGoal) newErrors.mainGoal = 'Please select your main goal';
+    if (!formData.mainGoal) newErrors.mainGoal = 'Please select your primary goal';
+    if (!formData.consent) newErrors.consent = 'Please accept the Privacy Policy and Terms to submit';
     return newErrors;
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (formData.botcheck) return;
+
     const newErrors = validate();
-    
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
       return;
@@ -55,11 +59,21 @@ export default function Contact() {
         },
         body: JSON.stringify({
           access_key: '5517f453-049b-41fc-900d-e8254b555a53',
-          ...formData,
+          subject: 'New Contact Inquiry — Rankur',
+          name: formData.name,
+          email: formData.email,
+          website: formData.website,
+          industry: formData.industry,
+          mainGoal: formData.mainGoal,
+          additional: formData.additional,
+          botcheck: '',
         }),
       });
       const result = await response.json();
       if (result.success) {
+        if (typeof window !== 'undefined' && window.gtag) {
+          window.gtag('event', 'contact_form_submit', { main_goal: formData.mainGoal });
+        }
         router.push('/thank-you');
       } else {
         setSubmitStatus('error');
@@ -71,180 +85,201 @@ export default function Contact() {
   };
 
   return (
-    <>
-      
+    <section className="section" style={{ paddingTop: 'calc(var(--nav-height) + var(--space-5xl))' }}>
+      <div className="container">
+        <div className="contact-layout">
+          <div className="contact-info">
+            <p className="section-label">Contact</p>
+            <h1>Let&apos;s Discuss Your Site &amp; Search Goals</h1>
+            <p style={{ marginBottom: 'var(--space-xl)' }}>
+              I build custom Next.js web platforms and technical SEO structures for B2B SaaS teams, manufacturers, and export brands.
+            </p>
+            <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7', marginBottom: 'var(--space-2xl)' }}>
+              Submit the project brief below. Every inquiry goes directly to founder Moksh Parjapati, and I reply by email within 2 business days. Mutual NDAs can be signed prior to sharing sensitive metrics.
+            </p>
 
-      {/* Main Contact Section */}
-      <section className="section" style={{ paddingTop: 'calc(var(--nav-height) + var(--space-5xl))' }}>
-        <div className="container">
-          <div className="contact-layout">
-            
-            {/* Contact Info */}
-            <div className="contact-info">
-              <p className="section-label">Initiate Consultation</p>
-              <h2>Let's Discuss Your Pipeline Objectives</h2>
-              <p style={{ marginBottom: 'var(--space-xl)' }}>
-                We build growth platforms for ambitious B2B manufacturers, exporters, nutraceutical brands, and technology providers looking to win international market share.
-              </p>
-              <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7', marginBottom: 'var(--space-2xl)' }}>
-                Please fill out our qualification brief. Every inquiry is personally reviewed by founder Moksh, and we reply via email within 24 hours. Standard mutual NDAs are signed before sharing proprietary operational files or CRM dashboards.
-              </p>
-
-              <div className="contact-methods">
-                <div className="contact-method">
-                  <div className="contact-method__icon">@</div>
-                  <div className="contact-method__details">
-                    <span>Direct Inquiries</span>
-                    <a href="mailto:contactus@rankursite.com">contactus@rankursite.com</a>
-                  </div>
+            <div className="contact-methods">
+              <div className="contact-method">
+                <div className="contact-method__icon" aria-hidden="true">@</div>
+                <div className="contact-method__details">
+                  <span>Direct Email</span>
+                  <a href="mailto:contactus@rankursite.com">contactus@rankursite.com</a>
                 </div>
-                
-                <div className="contact-method">
-                  <div className="contact-method__icon">in</div>
-                  <div className="contact-method__details">
-                    <span>Executive Connection</span>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                      LinkedIn Profile
-                    </a>
-                  </div>
-                </div>
+              </div>
 
-                <div className="contact-method">
-                  <div className="contact-method__icon">M</div>
-                  <div className="contact-method__details">
-                    <span>Parent Corporation</span>
-                    <span style={{ fontSize: '1rem', color: 'var(--color-white)', fontWeight: 'var(--font-weight-medium)', textTransform: 'none', letterSpacing: 'normal' }}>
-                      Moksh Productions (MSME-Registered)
-                    </span>
-                  </div>
+              <div className="contact-method">
+                <div className="contact-method__icon" aria-hidden="true">in</div>
+                <div className="contact-method__details">
+                  <span>Founder Profile</span>
+                  <a
+                    href="https://linkedin.com/in/moksh-parjapati"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Moksh Parjapati on LinkedIn"
+                  >
+                    linkedin.com/in/moksh-parjapati
+                  </a>
+                </div>
+              </div>
+
+              <div className="contact-method">
+                <div className="contact-method__icon" aria-hidden="true">M</div>
+                <div className="contact-method__details">
+                  <span>Operating Entity</span>
+                  <span style={{ fontSize: '1rem', color: 'var(--color-white)', fontWeight: 'var(--font-weight-medium)', textTransform: 'none', letterSpacing: 'normal' }}>
+                    Moksh Productions (India)
+                  </span>
                 </div>
               </div>
             </div>
+          </div>
 
-            {/* Contact Form */}
-            <div>
-              <form className="contact-form" onSubmit={handleSubmit} noValidate>
-                {submitStatus === 'success' ? (
-                  <div style={{ textAlign: 'center', padding: 'var(--space-3xl) 0' }}>
-                    <h3 style={{ color: 'var(--color-gold)', marginBottom: 'var(--space-md)' }}>Brief Received</h3>
-                    <p style={{ color: 'var(--color-white)', lineHeight: '1.8' }}>
-                      Thank you. Moksh has received your brief and will contact you via email within 24 hours to schedule a Zoom consultation.
-                    </p>
+          <div>
+            <form className="contact-form" onSubmit={handleSubmit} noValidate>
+              <input
+                type="checkbox"
+                name="botcheck"
+                checked={formData.botcheck}
+                onChange={handleChange}
+                className="sr-only"
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+              />
+
+              {submitStatus === 'error' ? (
+                <div style={{ textAlign: 'center', padding: 'var(--space-3xl) 0' }}>
+                  <h2 style={{ color: 'var(--color-red)', marginBottom: 'var(--space-md)' }}>Submission Failed</h2>
+                  <p style={{ color: 'var(--color-white)' }}>
+                    Something went wrong. Please email directly at{' '}
+                    <a href="mailto:contactus@rankursite.com" style={{ color: 'var(--color-gold)' }}>
+                      contactus@rankursite.com
+                    </a>
+                    .
+                  </p>
+                </div>
+              ) : (
+                <>
+                  <div className="form-group">
+                    <label className="form-label" htmlFor="name">Your Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      className="form-input"
+                      value={formData.name}
+                      onChange={handleChange}
+                      placeholder="Full name"
+                    />
+                    {errors.name && <span className="form-error">{errors.name}</span>}
                   </div>
-                ) : submitStatus === 'error' ? (
-                  <div style={{ textAlign: 'center', padding: 'var(--space-3xl) 0' }}>
-                    <h3 style={{ color: 'var(--color-red)', marginBottom: 'var(--space-md)' }}>Submission Failed</h3>
-                    <p style={{ color: 'var(--color-white)' }}>
-                      Something went wrong. Please email directly at <a href="mailto:contactus@rankursite.com" style={{ color: 'var(--color-gold)' }}>contactus@rankursite.com</a>.
-                    </p>
+
+                  <div className="form-group">
+                    <label className="form-label" htmlFor="email">Work Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      className="form-input"
+                      value={formData.email}
+                      onChange={handleChange}
+                      placeholder="you@company.com"
+                    />
+                    {errors.email && <span className="form-error">{errors.email}</span>}
                   </div>
-                ) : (
-                  <>
+
+                  <div className="form-group">
+                    <label className="form-label" htmlFor="website">Website URL</label>
+                    <input
+                      type="text"
+                      id="website"
+                      name="website"
+                      className="form-input"
+                      value={formData.website}
+                      onChange={handleChange}
+                      placeholder="https://yourcompany.com"
+                    />
+                    {errors.website && <span className="form-error">{errors.website}</span>}
+                  </div>
+
+                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-lg)' }}>
                     <div className="form-group">
-                      <label className="form-label" htmlFor="name">Your Name</label>
+                      <label className="form-label" htmlFor="industry">Industry Vertical</label>
+                      <select
+                        id="industry"
+                        name="industry"
+                        className="form-select"
+                        value={formData.industry}
+                        onChange={handleChange}
+                      >
+                        <option value="">Select...</option>
+                        <option value="Nutraceutical">Nutraceutical</option>
+                        <option value="Manufacturing">Manufacturing</option>
+                        <option value="TechSaaS">SaaS &amp; Tech</option>
+                        <option value="Industrial">Industrial Services</option>
+                        <option value="Other">Other B2B</option>
+                      </select>
+                      {errors.industry && <span className="form-error">{errors.industry}</span>}
+                    </div>
+
+                    <div className="form-group">
+                      <label className="form-label" htmlFor="mainGoal">Main Goal</label>
+                      <select
+                        id="mainGoal"
+                        name="mainGoal"
+                        className="form-select"
+                        value={formData.mainGoal}
+                        onChange={handleChange}
+                      >
+                        <option value="">Select...</option>
+                        <option value="Custom Web Build">Custom Web Build (React/Next.js)</option>
+                        <option value="SEO/GEO Visibility">Technical SEO &amp; GEO</option>
+                        <option value="Brand Positioning">Positioning &amp; Copy</option>
+                        <option value="Conversion Optimization">Conversion Optimization</option>
+                      </select>
+                      {errors.mainGoal && <span className="form-error">{errors.mainGoal}</span>}
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label" htmlFor="additional">Additional Details (Optional)</label>
+                    <textarea
+                      id="additional"
+                      name="additional"
+                      className="form-textarea"
+                      value={formData.additional}
+                      onChange={handleChange}
+                      placeholder="Describe your positioning gaps, crawl/index issues, or Next.js rebuild timeline..."
+                    ></textarea>
+                    {errors.additional && <span className="form-error">{errors.additional}</span>}
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-consent" htmlFor="contact-consent">
                       <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-input"
-                        value={formData.name}
+                        type="checkbox"
+                        id="contact-consent"
+                        name="consent"
+                        checked={formData.consent}
                         onChange={handleChange}
-                        placeholder="Moksh"
                       />
-                      {errors.name && <span className="form-error">{errors.name}</span>}
-                    </div>
+                      <span>
+                        I agree to the <Link href="/privacy">Privacy Policy</Link> and{' '}
+                        <Link href="/terms">Terms of Service</Link>.
+                      </span>
+                    </label>
+                    {errors.consent && <span className="form-error">{errors.consent}</span>}
+                  </div>
 
-                    <div className="form-group">
-                      <label className="form-label" htmlFor="email">Corporate Email</label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-input"
-                        value={formData.email}
-                        onChange={handleChange}
-                        placeholder="moksh@productions.com"
-                      />
-                      {errors.email && <span className="form-error">{errors.email}</span>}
-                    </div>
-
-                    <div className="form-group">
-                      <label className="form-label" htmlFor="website">Website URL</label>
-                      <input
-                        type="text"
-                        id="website"
-                        name="website"
-                        className="form-input"
-                        value={formData.website}
-                        onChange={handleChange}
-                        placeholder="rankursite.com"
-                      />
-                      {errors.website && <span className="form-error">{errors.website}</span>}
-                    </div>
-
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-lg)' }}>
-                      <div className="form-group">
-                        <label className="form-label" htmlFor="industry">Industry Vertical</label>
-                        <select
-                          id="industry"
-                          name="industry"
-                          className="form-select"
-                          value={formData.industry}
-                          onChange={handleChange}
-                        >
-                          <option value="">Select...</option>
-                          <option value="Nutraceutical">Nutraceutical</option>
-                          <option value="Manufacturing">Manufacturing</option>
-                          <option value="TechSaaS">SaaS & Tech</option>
-                          <option value="Industrial">Industrial Services</option>
-                          <option value="Other">Other B2B</option>
-                        </select>
-                        {errors.industry && <span className="form-error">{errors.industry}</span>}
-                      </div>
-
-                      <div className="form-group">
-                        <label className="form-label" htmlFor="mainGoal">Main Goal</label>
-                        <select
-                          id="mainGoal"
-                          name="mainGoal"
-                          className="form-select"
-                          value={formData.mainGoal}
-                          onChange={handleChange}
-                        >
-                          <option value="">Select...</option>
-                          <option value="Custom Web Build">Custom Web Build (React/Next.js)</option>
-                          <option value="SEO/GEO Visibility">SEO & GEO Visibility</option>
-                          <option value="Brand Positioning">Brand Positioning</option>
-                          <option value="Conversion Optimization">Conversion Optimization</option>
-                        </select>
-                        {errors.mainGoal && <span className="form-error">{errors.mainGoal}</span>}
-                      </div>
-                    </div>
-
-                    <div className="form-group">
-                      <label className="form-label" htmlFor="additional">Additional Details (Optional)</label>
-                      <textarea
-                        id="additional"
-                        name="additional"
-                        className="form-textarea"
-                        value={formData.additional}
-                        onChange={handleChange}
-                        placeholder="Provide any details about your positioning, search presence gaps, or website redevelopment needs..."
-                      ></textarea>
-                      {errors.additional && <span className="form-error">{errors.additional}</span>}
-                    </div>
-
-                    <button type="submit" className="btn btn--primary form-submit">
-                      Submit Qualification Brief
-                    </button>
-                  </>
-                )}
-              </form>
-            </div>
-            
+                  <button type="submit" className="btn btn--primary form-submit">
+                    Submit Inquiry
+                  </button>
+                </>
+              )}
+            </form>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }

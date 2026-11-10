@@ -1,9 +1,10 @@
 import CaseStudies from '../../src/views/CaseStudies';
-import { constructMetadata } from '../../src/utils/seo';
+import { constructMetadata } from '../../src/components/Seo';
 
 export const metadata = constructMetadata({
-  title: 'Verified B2B Case Studies & Engineering Deployments | Rankur',
-  description: 'Verified production results: see how custom Next.js platforms scaled pipeline, sub-second LCP, and captured 50+ qualified B2B leads.',
+  title: 'B2B Case Studies & Engineering Portfolio | Rankur',
+  description:
+    'Explore live B2B Next.js web platforms built for client and in-house ventures across fleet telematics, medical commerce, and nutraceuticals.',
   canonical: '/case-studies',
 });
 

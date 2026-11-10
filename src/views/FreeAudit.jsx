@@ -1,40 +1,41 @@
 "use client";
 import { useState } from 'react';
 import Link from 'next/link';
-import { usePathname, useParams, useRouter } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 
 import HeroSection from '../components/HeroSection';
+import { AUDIT_FAQS } from '../data/auditFaqs';
 import './FreeAudit.css';
-import './Contact.css'; // Leverage standard form styling
+import './Contact.css';
 
 const auditSteps = [
   {
     icon: '📋',
-    title: '1. Apply & Qualify',
-    desc: 'Submit your website parameters and commercial goals via our qualification form. We manually filter requests to ensure we only review aligned B2B brands.',
+    title: '1. Submit Site Details',
+    desc: 'Share your URL, vertical, and main conversion or search bottlenecks so I know what to inspect.',
   },
   {
     icon: '🔍',
-    title: '2. Custom Review',
-    desc: 'Moksh reviews your digital presence: page speed, positioning copy, technical SEO metadata, and AI search engine visibility across Perplexity and ChatGPT.',
+    title: '2. Manual Technical Review',
+    desc: 'I check Core Web Vitals, crawl/index bloat, canonical structure, positioning clarity, and form friction.',
   },
   {
     icon: '📄',
-    title: '3. PDF Audit Delivery',
-    desc: 'You receive a personalized PDF strategy brief detailing your conversion bottlenecks, search authority gaps, and high-priority optimization tasks.',
+    title: '3. Written Priority Teardown',
+    desc: 'Receive a concise prioritized brief covering what is broken and which fixes matter most — within 2 business days.',
   },
   {
     icon: '📞',
-    title: '4. Strategy Call',
-    desc: 'If the opportunities are significant, you receive a direct invite link to schedule a 30-minute strategic Zoom call with Moksh to map out the pipeline roadmap.',
+    title: '4. Optional Discussion',
+    desc: 'If helpful, we can review the findings together by email or call. Zero sales pressure.',
   },
 ];
 
 const trustMetrics = [
-  { value: 'React / Next.js', label: 'B2B Growth Infrastructure' },
-  { value: 'MSME-Registered', label: 'Moksh Productions Division' },
-  { value: 'NDA Guaranteed', label: 'Confidential Audits & Code' },
-  { value: 'GA4 Certified', label: 'Advanced Funnel Tracking' },
+  { value: 'Next.js 16', label: 'Modern React Architecture' },
+  { value: 'Moksh Productions', label: 'Operating Entity (India)' },
+  { value: 'Mutual NDA', label: 'Available Prior to Sharing Files' },
+  { value: 'GA4 Certified', label: 'Clean Event Measurement' },
 ];
 
 export default function FreeAudit() {
@@ -46,14 +47,17 @@ export default function FreeAudit() {
     industry: '',
     budget: '',
     challenges: '',
+    consent: false,
+    botcheck: false,
   });
 
   const [errors, setErrors] = useState({});
   const [submitStatus, setSubmitStatus] = useState(null);
+  const [openFaq, setOpenFaq] = useState(null);
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    const { name, type, value, checked } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: type === 'checkbox' ? checked : value }));
     if (errors[name]) {
       setErrors((prev) => ({ ...prev, [name]: '' }));
     }
@@ -62,18 +66,20 @@ export default function FreeAudit() {
   const validate = () => {
     const newErrors = {};
     if (!formData.name.trim()) newErrors.name = 'Your name is required';
-    if (!formData.email.trim() || !formData.email.includes('@')) newErrors.email = 'A valid corporate email is required';
-    if (!formData.website.trim() || !formData.website.includes('.')) newErrors.website = 'A valid company website URL is required';
+    if (!formData.email.trim() || !formData.email.includes('@')) newErrors.email = 'A valid work email is required';
+    if (!formData.website.trim() || !formData.website.includes('.')) newErrors.website = 'A valid website URL is required';
     if (!formData.industry) newErrors.industry = 'Please select your industry';
-    if (!formData.budget) newErrors.budget = 'Please select your monthly budget range';
-    if (!formData.challenges.trim()) newErrors.challenges = 'Please describe your main growth challenge';
+    if (!formData.budget) newErrors.budget = 'Please select an approximate scope range';
+    if (!formData.challenges.trim()) newErrors.challenges = 'Please describe your primary site or SEO challenge';
+    if (!formData.consent) newErrors.consent = 'Please accept the Privacy Policy and Terms to submit';
     return newErrors;
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const newErrors = validate();
+    if (formData.botcheck) return;
 
+    const newErrors = validate();
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
       return;
@@ -88,11 +94,21 @@ export default function FreeAudit() {
         },
         body: JSON.stringify({
           access_key: '5517f453-049b-41fc-900d-e8254b555a53',
-          ...formData,
+          subject: 'New Free Audit Request — Rankur',
+          name: formData.name,
+          email: formData.email,
+          website: formData.website,
+          industry: formData.industry,
+          budget: formData.budget,
+          challenges: formData.challenges,
+          botcheck: '',
         }),
       });
       const result = await response.json();
       if (result.success) {
+        if (typeof window !== 'undefined' && window.gtag) {
+          window.gtag('event', 'audit_form_submit', { industry: formData.industry });
+        }
         router.push('/thank-you');
       } else {
         setSubmitStatus('error');
@@ -105,27 +121,24 @@ export default function FreeAudit() {
 
   return (
     <>
-      
-
       <HeroSection
-        label="Strategic Diagnostic"
+        label="Free Audit"
         title={
           <>
-            Request a B2B Growth <br />
-            <span className="text-gold">Infrastructure Audit</span>
+            Request a Free <br />
+            <span className="text-gold">B2B Site &amp; SEO Audit</span>
           </>
         }
-        subtitle="We manually review your technical SEO, load performance, brand positioning, and visibility in generative AI searches on ChatGPT and Perplexity. Aligned submissions receive a custom PDF teardown and direct invite."
+        subtitle="I manually inspect your Core Web Vitals, technical SEO metadata, crawl bloat, messaging clarity, and lead form friction — delivered within 2 business days."
         center
       />
 
-      {/* Audit Process explanation */}
       <section className="audit-what" id="audit-process">
         <div className="container">
           <p className="section-label">How It Works</p>
-          <h2 className="section-title">A Premium, Hand-Crafted Diagnostic Process</h2>
+          <h2 className="section-title">Manual Technical Inspection</h2>
           <p className="section-subtitle" style={{ marginBottom: 'var(--space-3xl)' }}>
-            We do not use automated, generic SEO scanners. We evaluate your digital footprint manually to identify real commercial bottlenecks.
+            No generic automated scraper reports. Every site is reviewed personally for architectural and commercial gaps.
           </p>
           <div className="audit-what__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))' }}>
             {auditSteps.map((step, i) => (
@@ -139,31 +152,40 @@ export default function FreeAudit() {
         </div>
       </section>
 
-      {/* Lead qualification Form */}
       <section className="audit-form-section" style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)' }}>
         <div className="container" style={{ maxWidth: '750px' }}>
           <div className="contact-form">
-            <h3 style={{ fontSize: '1.4rem', color: 'var(--color-white)', marginBottom: 'var(--space-sm)', textAlign: 'center' }}>B2B Infrastructure Qualification Form</h3>
+            <h2 style={{ fontSize: '1.4rem', color: 'var(--color-white)', marginBottom: 'var(--space-sm)', textAlign: 'center' }}>
+              Audit Request Form
+            </h2>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', textAlign: 'center', marginBottom: 'var(--space-2xl)', lineHeight: '1.6' }}>
-              All applications are protected under our standard mutual NDA. Aligned submissions will receive their PDF teardown in 2 business days.
+              Mutual NDA options are available prior to sharing internal files. Written findings are sent within 2 business days.
             </p>
 
-            {submitStatus === 'success' ? (
-              <div style={{ textAlign: 'center', padding: 'var(--space-3xl) 0' }}>
-                <h3 style={{ color: 'var(--color-gold)', marginBottom: 'var(--space-md)' }}>Application Submitted</h3>
-                <p style={{ color: 'var(--color-white)', lineHeight: '1.8', maxWidth: '600px', margin: '0 auto' }}>
-                  Thank you. Moksh will personally review your positioning strategy, core web speed parameters, and AI search visibility. Your custom diagnostic PDF will be delivered to your email within 48 hours. Direct Zoom scheduling is unlocked after manual review.
-                </p>
-              </div>
-            ) : submitStatus === 'error' ? (
+            {submitStatus === 'error' ? (
               <div style={{ textAlign: 'center', padding: 'var(--space-3xl) 0' }}>
                 <h3 style={{ color: 'var(--color-red)', marginBottom: 'var(--space-md)' }}>Submission Failed</h3>
                 <p style={{ color: 'var(--color-white)' }}>
-                  Something went wrong. Please email your details directly to <a href="mailto:contactus@rankursite.com" style={{ color: 'var(--color-gold)' }}>contactus@rankursite.com</a>.
+                  Something went wrong. Please email your details directly to{' '}
+                  <a href="mailto:contactus@rankursite.com" style={{ color: 'var(--color-gold)' }}>
+                    contactus@rankursite.com
+                  </a>
+                  .
                 </p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} noValidate>
+                <input
+                  type="checkbox"
+                  name="botcheck"
+                  checked={formData.botcheck}
+                  onChange={handleChange}
+                  className="sr-only"
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                />
+
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--space-lg)' }}>
                   <div className="form-group">
                     <label className="form-label" htmlFor="name">Your Name</label>
@@ -174,13 +196,13 @@ export default function FreeAudit() {
                       className="form-input"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="Moksh"
+                      placeholder="Full name"
                     />
                     {errors.name && <span className="form-error">{errors.name}</span>}
                   </div>
 
                   <div className="form-group">
-                    <label className="form-label" htmlFor="email">Corporate Email</label>
+                    <label className="form-label" htmlFor="email">Work Email</label>
                     <input
                       type="email"
                       id="email"
@@ -188,7 +210,7 @@ export default function FreeAudit() {
                       className="form-input"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="moksh@productions.com"
+                      placeholder="you@company.com"
                     />
                     {errors.email && <span className="form-error">{errors.email}</span>}
                   </div>
@@ -204,7 +226,7 @@ export default function FreeAudit() {
                       className="form-input"
                       value={formData.website}
                       onChange={handleChange}
-                      placeholder="rankursite.com"
+                      placeholder="https://yourcompany.com"
                     />
                     {errors.website && <span className="form-error">{errors.website}</span>}
                   </div>
@@ -219,18 +241,18 @@ export default function FreeAudit() {
                       onChange={handleChange}
                     >
                       <option value="">Select industry...</option>
-                      <option value="Nutraceutical">Nutraceutical & Wellness</option>
-                      <option value="Manufacturing">B2B Manufacturing & Export</option>
-                      <option value="TechSaaS">SaaS & Technology Startup</option>
+                      <option value="Nutraceutical">Nutraceutical &amp; Wellness</option>
+                      <option value="Manufacturing">B2B Manufacturing &amp; Export</option>
+                      <option value="TechSaaS">SaaS &amp; Technology</option>
                       <option value="Industrial">Industrial Services</option>
-                      <option value="Other">Other B2B / High-Trust Vertical</option>
+                      <option value="Other">Other B2B</option>
                     </select>
                     {errors.industry && <span className="form-error">{errors.industry}</span>}
                   </div>
                 </div>
 
                 <div className="form-group">
-                  <label className="form-label" htmlFor="budget">Monthly Growth Infrastructure Budget (USD)</label>
+                  <label className="form-label" htmlFor="budget">Estimated Project Budget Range (USD)</label>
                   <select
                     id="budget"
                     name="budget"
@@ -238,30 +260,47 @@ export default function FreeAudit() {
                     value={formData.budget}
                     onChange={handleChange}
                   >
-                    <option value="">Select budget range...</option>
-                    <option value="under1k">Under $1,000 / month (Self-funded)</option>
-                    <option value="1kto3k">$1,000 - $3,000 / month</option>
-                    <option value="3kto5k">$3,000 - $5,000 / month</option>
-                    <option value="over5k">$5,000+ / month (Mid-market & Enterprise)</option>
+                    <option value="">Select range...</option>
+                    <option value="audit-only">Audit Only (Evaluating Next Steps)</option>
+                    <option value="under-3k">Under $3,000 Project Scope</option>
+                    <option value="3k-to-7k">$3,000 – $7,000 Project Scope</option>
+                    <option value="over-7k">$7,000+ Full Rebuild &amp; SEO Scope</option>
                   </select>
                   {errors.budget && <span className="form-error">{errors.budget}</span>}
                 </div>
 
                 <div className="form-group">
-                  <label className="form-label" htmlFor="challenges">Primary Search & Pipeline Obstacles</label>
+                  <label className="form-label" htmlFor="challenges">Primary Website &amp; SEO Obstacles</label>
                   <textarea
                     id="challenges"
                     name="challenges"
                     className="form-textarea"
                     value={formData.challenges}
                     onChange={handleChange}
-                    placeholder="E.g., We have traffic but no inquiries; we are launching an off-plan development and need high-trust international SEO; we want to rank on Perplexity AI queries..."
+                    placeholder="E.g., index bloat, slow mobile LCP, unclear B2B positioning, or WordPress migration risks..."
                   ></textarea>
                   {errors.challenges && <span className="form-error">{errors.challenges}</span>}
                 </div>
 
+                <div className="form-group">
+                  <label className="form-consent" htmlFor="audit-consent">
+                    <input
+                      type="checkbox"
+                      id="audit-consent"
+                      name="consent"
+                      checked={formData.consent}
+                      onChange={handleChange}
+                    />
+                    <span>
+                      I agree to the <Link href="/privacy">Privacy Policy</Link> and{' '}
+                      <Link href="/terms">Terms of Service</Link>.
+                    </span>
+                  </label>
+                  {errors.consent && <span className="form-error">{errors.consent}</span>}
+                </div>
+
                 <button type="submit" className="btn btn--primary form-submit" style={{ marginTop: 'var(--space-md)' }}>
-                  Request B2B Growth Infrastructure Audit
+                  Request Free Audit
                 </button>
               </form>
             )}
@@ -269,11 +308,42 @@ export default function FreeAudit() {
         </div>
       </section>
 
-      {/* Trust Grid */}
+      <section className="faq-section" id="audit-faq" style={{ padding: 'var(--space-5xl) 0' }}>
+        <div className="container">
+          <p className="section-label">FAQ</p>
+          <h2 className="section-title">Free Audit Questions</h2>
+          <div className="faq-list" style={{ marginTop: 'var(--space-2xl)', maxWidth: '800px' }}>
+            {AUDIT_FAQS.map((faq, i) => (
+              <div key={i} className="faq-item">
+                <button
+                  type="button"
+                  className="faq-item__question"
+                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  aria-expanded={openFaq === i}
+                  aria-controls={`audit-faq-answer-${i}`}
+                  id={`audit-faq-question-${i}`}
+                >
+                  <span>{faq.question}</span>
+                  <span className={`faq-item__toggle ${openFaq === i ? 'faq-item__toggle--open' : ''}`}>
+                    +
+                  </span>
+                </button>
+                <p
+                  id={`audit-faq-answer-${i}`}
+                  className={`faq-item__answer ${openFaq === i ? 'faq-item__answer--visible' : ''}`}
+                >
+                  {faq.answer}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="audit-trust" id="audit-trust">
         <div className="container">
-          <p className="section-label">Trust Markers</p>
-          <h2 className="section-title">Engineered and Backed by Moksh Productions</h2>
+          <p className="section-label">Operating Basis</p>
+          <h2 className="section-title">Operated by Moksh Productions</h2>
           <div className="audit-trust__grid">
             {trustMetrics.map((item, i) => (
               <div key={i} className="audit-trust__item" style={{ border: '1px solid var(--color-border)', borderRadius: 'var(--border-radius-lg)', backgroundColor: 'var(--color-card-bg)' }}>

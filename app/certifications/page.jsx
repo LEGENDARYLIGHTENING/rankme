@@ -1,9 +1,10 @@
 import Certifications from '../../src/views/Certifications';
-import { constructMetadata } from '../../src/utils/seo';
+import { constructMetadata } from '../../src/components/Seo';
 
 export const metadata = constructMetadata({
-  title: 'Technical Certifications & Industry Credentials | Rankur',
-  description: 'Verified certifications in Google Analytics 4, technical SEO, Next.js development, and performance optimization powering our B2B builds.',
+  title: 'Certifications & Credentials | Rankur',
+  description:
+    'View verified credentials including Google Analytics 4 (GA4) certification and foundational digital marketing training.',
   canonical: '/certifications',
 });
 

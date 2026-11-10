@@ -1,0 +1,106 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import Script from 'next/script';
+
+const CONSENT_KEY = 'rankur_cookie_consent_v1';
+const GA_MEASUREMENT_ID = 'G-L49CTLKWYS';
+
+export default function ConsentBanner() {
+  const [consent, setConsent] = useState(null); // null = undecided/loading
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+    try {
+      const saved = window.localStorage.getItem(CONSENT_KEY);
+      if (saved === 'accepted' || saved === 'declined') {
+        setConsent(saved);
+      }
+    } catch {
+      // Ignore storage failures in restricted contexts
+    }
+  }, []);
+
+  const handleChoice = (choice) => {
+    setConsent(choice);
+    try {
+      window.localStorage.setItem(CONSENT_KEY, choice);
+    } catch {
+      // Ignore storage errors
+    }
+    if (choice === 'accepted' && typeof window !== 'undefined' && window.gtag) {
+      window.gtag('consent', 'update', {
+        analytics_storage: 'granted',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+      });
+    }
+  };
+
+  return (
+    <>
+      {consent === 'accepted' && (
+        <>
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+            strategy="afterInteractive"
+          />
+          <Script id="rankur-ga4-init" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              window.gtag = gtag;
+              gtag('consent', 'default', {
+                analytics_storage: 'granted',
+                ad_storage: 'denied',
+                ad_user_data: 'denied',
+                ad_personalization: 'denied'
+              });
+              gtag('js', new Date());
+              gtag('config', '${GA_MEASUREMENT_ID}', { anonymize_ip: true });
+            `}
+          </Script>
+        </>
+      )}
+
+      {mounted && consent === null && (
+        <aside
+          className="consent-banner"
+          role="dialog"
+          aria-live="polite"
+          aria-label="Cookie consent notice"
+        >
+          <div className="consent-banner__inner">
+            <p className="consent-banner__text">
+              I only load Google Analytics 4 measurement cookies if you accept analytics cookies. Read the{' '}
+              <Link href="/privacy" className="consent-banner__link">
+                Privacy Policy
+              </Link>
+              .
+            </p>
+            <div className="consent-banner__actions">
+              <button
+                type="button"
+                className="btn btn--secondary consent-banner__btn"
+                onClick={() => handleChoice('declined')}
+              >
+                Decline
+              </button>
+              <button
+                type="button"
+                className="btn btn--primary consent-banner__btn"
+                onClick={() => handleChoice('accepted')}
+              >
+                Accept Analytics
+              </button>
+            </div>
+          </div>
+        </aside>
+      )}
+    </>
+  );
+}
+
