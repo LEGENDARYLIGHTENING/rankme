@@ -1,76 +1,112 @@
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const blogsDir = path.join(__dirname, '../blogs');
-const outputFilePath = path.join(__dirname, '../src/data/blogs-index.json');
+const rootDir = path.join(__dirname, '..');
+const blogsDir = path.join(rootDir, 'blogs');
+const outputFilePath = path.join(rootDir, 'src/data/blogs-index.json');
 
-// Ensure data dir exists
-const dataDir = path.join(__dirname, '../src/data');
+const dataDir = path.join(rootDir, 'src/data');
 if (!fs.existsSync(dataDir)) {
   fs.mkdirSync(dataDir, { recursive: true });
 }
 
 let files = [];
 try {
-  files = fs.readdirSync(blogsDir).filter(file => file.endsWith('.md'));
+  files = fs.readdirSync(blogsDir).filter(file => file.endsWith('.md')).sort();
 } catch (err) {
   console.warn(`[Warning] Could not read blogs directory at ${blogsDir}`, err);
 }
 
-const nicheImagePools = {
-  saas: [
-    'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80'
-  ],
-  manufacturing: [
-    'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1565891741441-64926e441838?auto=format&fit=crop&w=800&q=80'
-  ],
-  default: [
-    'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80'
-  ]
-};
+// Single git log pass for real first-commit & last-modified timestamps (B2)
+const gitAddedMap = new Map();
+const gitModifiedMap = new Map();
+try {
+  const revOut = execSync('git log --reverse --diff-filter=A --follow --name-only --format=COMMIT_DATE:%aI -- blogs', {
+    cwd: rootDir,
+    maxBuffer: 50 * 1024 * 1024,
+  }).toString();
+  let curDate = null;
+  for (const line of revOut.split(/\r?\n/)) {
+    if (line.startsWith('COMMIT_DATE:')) curDate = line.slice(12).trim();
+    else if (line.startsWith('blogs/') && line.endsWith('.md')) {
+      const f = line.slice(6);
+      if (!gitAddedMap.has(f)) gitAddedMap.set(f, curDate);
+    }
+  }
 
-function normalizeTag(tag) {
-  if (!tag) return 'default';
-  const lower = tag.toLowerCase();
-  if (lower.includes('saas') || lower.includes('tech')) return 'saas';
-  if (lower.includes('manufactur') || lower.includes('industrial') || lower.includes('export')) return 'manufacturing';
-  return 'default';
+  const modOut = execSync('git log --name-only --format=COMMIT_DATE:%aI -- blogs', {
+    cwd: rootDir,
+    maxBuffer: 50 * 1024 * 1024,
+  }).toString();
+  curDate = null;
+  for (const line of modOut.split(/\r?\n/)) {
+    if (line.startsWith('COMMIT_DATE:')) curDate = line.slice(12).trim();
+    else if (line.startsWith('blogs/') && line.endsWith('.md')) {
+      const f = line.slice(6);
+      if (!gitModifiedMap.has(f)) gitModifiedMap.set(f, curDate);
+    }
+  }
+} catch (e) {
+  console.warn('[Warning] Git history lookup partial/unavailable; falling back to frontmatter Date.', e.message);
 }
 
-const blogIndex = files.map((filename, index) => {
+// Canonical taxonomy normalization (B6) + local 1200x630 category images (B5)
+const TAXONOMY_MAP = {
+  'saas & tech startups': { tag: 'SaaS & Tech Startups', slug: 'saas-tech-startups', image: '/blog-images/hub-saas-tech.webp' },
+  'seo+geo': { tag: 'SEO & AI Search', slug: 'seo-ai-search', image: '/blog-images/hub-seo-geo.webp' },
+  'seo & ai search': { tag: 'SEO & AI Search', slug: 'seo-ai-search', image: '/blog-images/hub-seo-geo.webp' },
+  'b2b manufacturers & exporters': { tag: 'B2B Manufacturers & Exporters', slug: 'b2b-manufacturers-exporters', image: '/blog-images/hub-manufacturing.webp' },
+  'nutraceuticals and wellness brands': { tag: 'Nutraceuticals & Wellness Brands', slug: 'nutraceuticals-wellness-brands', image: '/blog-images/hub-nutraceuticals.webp' },
+  'nutraceuticals & wellness brands': { tag: 'Nutraceuticals & Wellness Brands', slug: 'nutraceuticals-wellness-brands', image: '/blog-images/hub-nutraceuticals.webp' },
+  'conversions & leads': { tag: 'Conversions & Leads', slug: 'conversions-leads', image: '/blog-images/hub-conversions.webp' },
+  'organic lead generation': { tag: 'Organic Lead Generation', slug: 'organic-lead-generation', image: '/blog-images/hub-organic-lead-gen.webp' },
+  'lead generation': { tag: 'Organic Lead Generation', slug: 'organic-lead-generation', image: '/blog-images/hub-organic-lead-gen.webp' },
+  'tech & speed': { tag: 'Tech & Speed', slug: 'tech-speed', image: '/blog-images/hub-tech-speed.webp' },
+  'website strategy': { tag: 'Website Strategy', slug: 'website-strategy', image: '/blog-images/hub-website-strategy.webp' },
+  'b2b strategy': { tag: 'Website Strategy', slug: 'website-strategy', image: '/blog-images/hub-website-strategy.webp' },
+  'cost & roi': { tag: 'Cost & ROI', slug: 'cost-roi', image: '/blog-images/hub-cost-roi.webp' },
+  'hiring & agency': { tag: 'Hiring & Agency', slug: 'hiring-agency', image: '/blog-images/hub-hiring-agency.webp' },
+  'founder-led marketing': { tag: 'Founder-Led Marketing', slug: 'founder-led-marketing', image: '/blog-images/hub-founder-linkedin.webp' },
+  'linkedin thought leadership': { tag: 'Founder-Led Marketing', slug: 'founder-led-marketing', image: '/blog-images/hub-founder-linkedin.webp' },
+  'case studies': { tag: 'Case Studies', slug: 'case-studies', image: '/blog-images/hub-case-studies.webp' },
+};
+
+function classifyLane(normalizedTag, title, pk, body) {
+  const hay = `${normalizedTag} ${title} ${pk}`.toLowerCase();
+  if (/nutraceutical|supplement|probiotic|wellness|gummy|cdmo|white label supplement/.test(hay)) {
+    return 'nutraceuticals/B2B export';
+  }
+  if (/manufactur|exporter|export compliance|oem|industrial|factory|sourcing|supplier|iso 13485|as9100|tariffs|ais-140/.test(hay)) {
+    return 'B2B manufacturers/exporters';
+  }
+  if (/saas|react|next\.js|nextjs|software|tech startup|web engineering|website speed|core web vitals|seo|geo|ai search|ai overview|conversion|demo request|b2b website/.test(hay) && normalizedTag !== 'Hiring & Agency' && normalizedTag !== 'Cost & ROI') {
+    return 'SaaS/tech';
+  }
+  return 'off-lane';
+}
+
+const blogIndex = files.map((filename) => {
   const filePath = path.join(blogsDir, filename);
   const fileContent = fs.readFileSync(filePath, 'utf-8');
-  
-  // Normalize line endings to LF
   const normalizedContent = fileContent.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
-  
+
   let data = {};
-  
-  // Split into lines to identify garbage lines at the start
   const lines = normalizedContent.split('\n');
   let startIndex = 0;
-  
+
   while (startIndex < lines.length) {
     const line = lines[startIndex].trim();
     if (
       line === '' ||
       /^#?\s*Blog\s*\d+(\s*of\s*\d+)?/i.test(line) ||
       /^═+$/.test(line) ||
-      (line.startsWith('---') && line.length > 5) || // filter line divider like '--------'
-      /^[═\-*\s]+$/.test(line) // any lines containing only dashes, equal signs, asterisks, spaces
+      (line.startsWith('---') && line.length > 5) ||
+      /^[═\-*\s]+$/.test(line)
     ) {
       startIndex++;
     } else {
@@ -80,7 +116,42 @@ const blogIndex = files.map((filename, index) => {
 
   let contentLines = [];
   const hasStrictFencing = lines[startIndex]?.trim() === '---';
-  
+
+  function parseLineByLine(startIdx) {
+    let i = startIdx;
+    const knownKeys = [
+      'seo title', 'meta description', 'slug', 'primary keyword',
+      'secondary keywords', 'geo phrase', 'target market', 'niche tag', 'date'
+    ];
+    while (i < lines.length) {
+      const line = lines[i].trim();
+      if (line === '') {
+        i++;
+        continue;
+      }
+      const idx = line.indexOf(':');
+      if (idx > 0) {
+        const rawKey = line.substring(0, idx).trim();
+        const rawValue = line.substring(idx + 1).trim();
+        const key = rawKey.replace(/\*/g, '').trim();
+        const value = rawValue.replace(/\*/g, '').trim();
+        const lowerKey = key.toLowerCase();
+        if (knownKeys.includes(lowerKey) || (i - startIdx < 15 && /^[A-Za-z][a-zA-Z\s]+$/.test(key))) {
+          data[key] = value;
+          if (lowerKey === 'seo title') data['SEO Title'] = value;
+          if (lowerKey === 'meta description') data['Meta Description'] = value;
+          if (lowerKey === 'slug') data['Slug'] = value;
+          if (lowerKey === 'niche tag') data['Niche Tag'] = value;
+          if (lowerKey === 'date') data['Date'] = value;
+          i++;
+          continue;
+        }
+      }
+      break;
+    }
+    contentLines = lines.slice(i);
+  }
+
   if (hasStrictFencing) {
     let closingIndex = -1;
     for (let i = startIndex + 1; i < lines.length; i++) {
@@ -89,164 +160,104 @@ const blogIndex = files.map((filename, index) => {
         break;
       }
     }
-    
     if (closingIndex !== -1) {
-      // Mode A: Parse strict frontmatter
       const fmLines = lines.slice(startIndex + 1, closingIndex);
       fmLines.forEach(line => {
         const idx = line.indexOf(':');
         if (idx > 0) {
-          const rawKey = line.substring(0, idx).trim();
-          const rawValue = line.substring(idx + 1).trim();
-          const key = rawKey.replace(/\*/g, '').trim();
-          const value = rawValue.replace(/\*/g, '').trim();
+          const key = line.substring(0, idx).replace(/\*/g, '').trim();
+          const value = line.substring(idx + 1).replace(/\*/g, '').trim();
           data[key] = value;
           const lowerKey = key.toLowerCase();
           if (lowerKey === 'seo title') data['SEO Title'] = value;
           if (lowerKey === 'meta description') data['Meta Description'] = value;
           if (lowerKey === 'slug') data['Slug'] = value;
           if (lowerKey === 'niche tag') data['Niche Tag'] = value;
+          if (lowerKey === 'date') data['Date'] = value;
         }
       });
       contentLines = lines.slice(closingIndex + 1);
     } else {
-      // Opening '---' but no closing '---'. Fallback to Mode B line-by-line parsing
       parseLineByLine(startIndex + 1);
     }
   } else {
-    // Mode B: Parse line-by-line starting at startIndex
     parseLineByLine(startIndex);
   }
 
-  function parseLineByLine(startIdx) {
-    let i = startIdx;
-    const knownKeys = [
-      'seo title', 'meta description', 'slug', 'primary keyword', 
-      'secondary keywords', 'geo phrase', 'target market', 'niche tag', 'date'
-    ];
-    
-    while (i < lines.length) {
-      const line = lines[i].trim();
-      if (line === '') {
-        i++;
-        continue;
-      }
-      
-      // Check if this line is a key: value pair
-      const idx = line.indexOf(':');
-      if (idx > 0) {
-        const rawKey = line.substring(0, idx).trim();
-        const rawValue = line.substring(idx + 1).trim();
-        const key = rawKey.replace(/\*/g, '').trim();
-        const value = rawValue.replace(/\*/g, '').trim();
-        const lowerKey = key.toLowerCase();
-        
-        // If it matches a known key, or it's within the first few lines of Mode B parsing
-        if (knownKeys.includes(lowerKey) || (i - startIdx < 15 && /^[A-Za-z][a-zA-Z\s]+$/.test(key))) {
-          data[key] = value;
-          // Normalized keys
-          if (lowerKey === 'seo title') data['SEO Title'] = value;
-          if (lowerKey === 'meta description') data['Meta Description'] = value;
-          if (lowerKey === 'slug') data['Slug'] = value;
-          if (lowerKey === 'niche tag') data['Niche Tag'] = value;
-          i++;
-          continue;
-        }
-      }
-      
-      // If it is not a key: value pair, or it's a heading/prose, we stop the frontmatter block
-      break;
-    }
-    contentLines = lines.slice(i);
-  }
+  const content = contentLines.join('\n').trim();
+  const rawTitle = data['SEO Title'] || data.title;
+  const isTitleParsed = rawTitle && !/^blog_\d+$/i.test(rawTitle);
+  const title = isTitleParsed ? rawTitle : filename.replace('.md', '');
 
-  let content = contentLines.join('\n').trim();
-
-  // Search harder for SEO Title in the first 20 lines if not found
-  if (!data['SEO Title'] && !data.title) {
-    for (let i = 0; i < Math.min(20, lines.length); i++) {
-      const line = lines[i].trim();
-      const matchTitle = line.match(/^(?:SEO\s+Title|Title)\s*:\s*(.+)$/i);
-      if (matchTitle) {
-        data['SEO Title'] = matchTitle[1].trim();
-        break;
-      }
-    }
-  }
-
-  // Search harder for Meta Description in the first 20 lines if not found
-  if (!data['Meta Description'] && !data.excerpt) {
-    for (let i = 0; i < Math.min(20, lines.length); i++) {
-      const line = lines[i].trim();
-      const matchDesc = line.match(/^(?:Meta\s+Description|Description|Excerpt)\s*:\s*(.+)$/i);
-      if (matchDesc) {
-        data['Meta Description'] = matchDesc[1].trim();
-        break;
-      }
-    }
-  }
-
-  // Clean fallback excerpt by stripping leaked generation lines
   let cleanExcerpt = data['Meta Description'] || data.excerpt;
   if (!cleanExcerpt) {
     const cleanContentText = content
       .split('\n')
       .filter(line => {
         const l = line.trim();
-        return l !== '' &&
-               !/^#?\s*Blog\s*\d+/i.test(l) &&
-               !/^[═\-*\s]+$/.test(l) &&
-               !/^(SEO Title|Meta Description|Slug|Primary Keyword|Secondary Keywords|GEO Phrase|Target Market|Niche Tag|Date)/i.test(l);
+        return l !== '' && !/^#/.test(l) && !/^[═\-*\s]+$/.test(l);
       })
       .join(' ');
     cleanExcerpt = cleanContentText.substring(0, 150).trim();
-    if (cleanExcerpt.length > 0) {
-      cleanExcerpt += '...';
-    } else {
-      cleanExcerpt = 'Click to read full post...';
-    }
+    if (cleanExcerpt.length > 0) cleanExcerpt += '...';
   }
 
-  // Clean title from fallback filename
-  const rawTitle = data['SEO Title'] || data.title;
-  const isTitleParsed = rawTitle && !/^blog_\d+$/i.test(rawTitle);
-  const title = isTitleParsed ? rawTitle : filename.replace('.md', '');
-
-  // Estimate read time (assuming ~200 words per minute)
-  const wordCount = content.split(/\s+/).length;
+  const wordCount = content.split(/\s+/).filter(Boolean).length;
   const readTime = Math.max(1, Math.ceil(wordCount / 200)) + ' min read';
 
-  const rawTag = data['Niche Tag'] || 'More Niches';
-  const tagGroup = normalizeTag(rawTag);
-  const pool = nicheImagePools[tagGroup] || nicheImagePools.default;
-  const image = pool[index % pool.length];
+  const rawTag = (data['Niche Tag'] || 'Website Strategy').trim();
+  const taxInfo = TAXONOMY_MAP[rawTag.toLowerCase()] || {
+    tag: rawTag,
+    slug: rawTag.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+    image: '/blog-images/hub-website-strategy.webp',
+  };
 
-  // Dynamic alt text filled with metadata and primary keywords
-  const primaryKeyword = data['Primary Keyword'] || title;
-  const targetMarket = data['Target Market'] || 'US / UK / Australia';
-  const imageAlt = `${primaryKeyword} - High-converting growth marketing and web systems targeting ${targetMarket}`;
+  // Real dates from frontmatter / git history (B2: never invent dates)
+  const gitPub = gitAddedMap.get(filename);
+  const gitMod = gitModifiedMap.get(filename);
+  const fmDate = data['Date'] && /^\d{4}-\d{2}-\d{2}/.test(data['Date']) ? data['Date'].slice(0, 10) : null;
+  const datePublished = fmDate || (gitPub ? gitPub.slice(0, 10) : null);
+  const dateModified = gitMod ? gitMod.slice(0, 10) : datePublished;
 
-  // Generate a staggered date across the past 6 months to avoid bulk-publication footprint
-  const now = new Date();
-  const daysAgo = (files.length - index) * 2; // 1 post every 2 days
-  const postDateObj = new Date(now.getTime() - daysAgo * 24 * 60 * 60 * 1000);
-  const formattedDate = postDateObj.toISOString().split('T')[0];
+  const primaryKeyword = (data['Primary Keyword'] || title).trim();
+  const lane = classifyLane(taxInfo.tag, title, primaryKeyword, content);
 
   return {
     filename,
     title,
-    tag: rawTag,
-    date: data.Date || formattedDate,
+    tag: taxInfo.tag,
+    categorySlug: taxInfo.slug,
+    lane,
+    date: datePublished,
+    datePublished,
+    dateModified,
     author: 'Moksh Parjapati',
     authorRole: 'Founder & B2B Growth Strategist',
     readTime,
+    wordCount,
     excerpt: cleanExcerpt,
     slug: data.Slug || data.slug || filename.replace('.md', ''),
-    image,
-    imageAlt,
+    image: taxInfo.image,
+    imageWidth: 1200,
+    imageHeight: 630,
+    imageAlt: title,
     primaryKeyword,
-    targetMarket
+    targetMarket: data['Target Market'] || 'US / UK / Australia',
   };
+});
+
+// Sort: non-_new authored pillars & original posts first (by numeric or date), preserving clear browse order
+blogIndex.sort((a, b) => {
+  const aNew = a.filename.includes('_new') ? 1 : 0;
+  const bNew = b.filename.includes('_new') ? 1 : 0;
+  if (aNew !== bNew) return aNew - bNew;
+  const aPillar = a.filename.startsWith('pillar-') ? 0 : 1;
+  const bPillar = b.filename.startsWith('pillar-') ? 0 : 1;
+  if (aPillar !== bPillar && aNew === 0) return aPillar - bPillar;
+  const numA = parseInt(a.filename.match(/\d+/)?.[0] || '9999', 10);
+  const numB = parseInt(b.filename.match(/\d+/)?.[0] || '9999', 10);
+  if (numA !== numB) return numA - numB;
+  return a.filename.localeCompare(b.filename);
 });
 
 fs.writeFileSync(outputFilePath, JSON.stringify(blogIndex, null, 2));

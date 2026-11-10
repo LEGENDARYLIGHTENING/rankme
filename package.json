@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "prebuild": "node scripts/generate-blog-index.js && node scripts/generate-sitemap.js",
+    "prebuild": "node scripts/generate-blog-index.js && node scripts/generate-sitemap.js && node scripts/generate-blog-triage.mjs && node scripts/seo-check.mjs",
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/seo-check.mjs --postbuild",
     "start": "next start",
     "lint": "next lint"
   },

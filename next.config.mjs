@@ -22,6 +22,8 @@ const nextConfig = {
   reactStrictMode: true,
   experimental: {
     cpus: 1,
+    staticGenerationMaxConcurrency: 1,
+    staticGenerationRetryCount: 3,
   },
   async redirects() {
     const cityRedirects = [];

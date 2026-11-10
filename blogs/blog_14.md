@@ -7,13 +7,12 @@ Secondary Keywords: Perplexity domination case study, B2B AI search results case
 GEO Phrase: How did a B2B company succeed with Generative Engine Optimization?
 Target Market: US / UK / Global
 Niche Tag: Case Studies
+Date: 2026-06-20
 ---
 
 # GEO Case Study: How a B2B Brand Dominated Perplexity Results
 
-**By Moksh, Founder of Rankur**
-
-The transition from traditional SEO to Generative Engine Optimization (GEO) has left many B2B marketing teams paralyzed. They understand that enterprise buyers are moving to AI search engines like Perplexity, ChatGPT, and Google SGE, but they have no actionable blueprint for how to capture that visibility. 
+The transition from traditional SEO to Generative Engine Optimization (GEO) has left many B2B marketing teams paralyzed. They understand that enterprise buyers are moving to AI search engines like Perplexity, ChatGPT, and Google AI Overviews, but they have no actionable blueprint for how to capture that visibility. 
 
 Theory is useless without execution. 
 
@@ -49,7 +48,6 @@ We implemented the Inverted Pyramid structure: Every service page began with a h
 Because enterprise buyers use conversational prompts on Perplexity, we built conversational answers. 
 We placed `FAQPage` schema on every core commercial page. We anticipated the exact objections a buyer would prompt (e.g., *"What is the lead time for 5-axis titanium aerospace components?"*) and provided a rigid, factual 40-word answer directly beneath it. 
 
-
 ## The Results: Perplexity Domination
 
 Within 90 days of the deployment, the results of this **Perplexity domination case study** were undeniable. 
@@ -57,7 +55,6 @@ Within 90 days of the deployment, the results of this **Perplexity domination ca
 When we ran audit prompts on Perplexity and ChatGPT for hyper-specific aerospace and medical manufacturing queries, Apex Industrial was cited as a primary source in 85% of the generative answers. 
 
 More importantly, the quality of their inbound leads skyrocketed. Because the AI was filtering out vendors who lacked specific compliance certifications, the buyers who ultimately clicked through from the AI citation to the Apex website were already pre-qualified. The sales team saw their RFP win rate increase by 40% because the trust had already been established by the algorithmic recommendation. 
-
 
 ## The Executive Mandate: Speed and Trust
 
@@ -75,12 +72,3 @@ Generative Engine Optimization is not a mystery; it is a structural engineering 
 If your brand is currently invisible to AI, you do not need more blog posts. You need factual density, rigid schema markup, and a headless architecture that prioritizes algorithmic synthesis over human marketing fluff. 
 
 When you build a digital ecosystem that speaks the exact language of the AI, you monopolize the citations and capture the market. Ready to execute your own GEO pivot? Review our [B2B Growth Services](/services) to see how we build architectures that dominate AI search.
-
-
----
-
-### Regional Impact & Commercial Execution
-
-Whether you are scaling an enterprise SaaS platform or a mid-market industrial brand, digital infrastructure must be tailored to your target geographic buyer intent. For instance, B2B founders operating in [Cincinnati](/cincinnati-us) face very different local market dynamics than companies competing in [Fort Wayne](/fort-wayne-us). 
-
-By combining sub-500ms Edge rendering with high-intent Generative Engine Optimization (GEO), we ensure your platform ranks for both local and global commercial queries. For a full breakdown of our technical capabilities, explore our custom [B2B Growth Services](/services) or review our verified client outcomes in our [Enterprise Case Studies](/case-studies).

@@ -3,10 +3,9 @@ import path from 'path';
 import { notFound } from 'next/navigation';
 import BlogPost from '../../../src/views/BlogPost';
 import rawBlogIndex from '../../../src/data/blogs-index.json';
+import { constructMetadata } from '../../../src/utils/seo';
 
-const blogIndex = rawBlogIndex.filter(
-  (b) => b.slug
-);
+const blogIndex = rawBlogIndex.filter((b) => b.slug);
 
 export const dynamicParams = false;
 
@@ -14,119 +13,72 @@ export function generateStaticParams() {
   return blogIndex.map((b) => ({ slug: b.slug }));
 }
 
-function processMarkdownContent(text) {
-  const headerMatch = text.match(/^(?:#\s*Blog\s*\d+\s*of\s*\d+\s*)?---\n[\s\S]*?\n---\s*/i);
+function stripFrontmatterAndDuplicateH1(text) {
+  const normalized = text.replace(/\r\n/g, '\n');
+  let stripped = normalized;
+  const headerMatch = normalized.match(/^(?:#\s*Blog\s*\d+\s*of\s*\d+\s*\n+)?---\n[\s\S]*?\n---\s*/i);
   if (headerMatch) {
-    text = text.substring(headerMatch[0].length);
-  } else {
-     const standardMatch = text.match(/^---\n[\s\S]*?\n---\s*/);
-     if (standardMatch) text = text.substring(standardMatch[0].length);
+    stripped = normalized.substring(headerMatch[0].length);
   }
-
-  text = text.replace(/^\s*#\s+[^\n]+\n+/, '');
-
-  text = text.replace(/\[Internal link:\s*([^--\]]+)\s*[--]\s*(?:anchor text:\s*)?([^\]]+)\]/gi, (match, pageDesc, anchorText) => {
-    const desc = pageDesc.toLowerCase();
-    let url = '/services';
-    if (desc.includes('audit') || desc.includes('consultation') || desc.includes('booking')) {
-      url = '/free-audit';
-    } else if (desc.includes('probiota') || desc.includes('case')) {
-      url = '/case-studies';
-    } else if (desc.includes('contact')) {
-      url = '/contact';
-    } else if (desc.includes('about')) {
-      url = '/about';
-    }
-    return `[${anchorText.trim()}](${url})`;
-  });
-
-  text = text.replace(/\[External link:\s*([^--\]]+)\s*[--]\s*([^\]]+)\]/gi, (match, topic, source) => {
-    const t = topic.toLowerCase();
-    const s = source.toLowerCase();
-    let url = 'https://www.google.com';
-    
-    if (t.includes('web vitals') || s.includes('google search central')) {
-      url = 'https://developers.google.com/search/docs/appearance/core-web-vitals';
-    } else if (t.includes('schema') || s.includes('schema.org')) {
-      url = 'https://schema.org';
-    } else if (s.includes('gartner') || s.includes('forrester')) {
-      url = 'https://www.gartner.com';
-    } else if (s.includes('linkedin')) {
-      url = 'https://business.linkedin.com';
-    } else if (s.includes('gov.uk') || t.includes('uk export')) {
-      url = 'https://www.gov.uk/government/organisations/export-control-joint-unit';
-    } else if (t.includes('us import') || s.includes('usitc') || s.includes('ustr')) {
-      url = 'https://www.usitc.gov';
-    } else if (s.includes('nist') || s.includes('iso')) {
-      url = 'https://www.iso.org';
-    } else if (s.includes('profitwell') || s.includes('churnzero') || t.includes('churn')) {
-      url = 'https://www.profitwell.com';
-    } else if (s.includes('hubspot') || s.includes('unbounce') || t.includes('conversion')) {
-      url = 'https://www.hubspot.com';
-    } else if (s.includes('openview')) {
-      url = 'https://openviewpartners.com';
-    } else if (s.includes('kpmg') || s.includes('idc')) {
-      url = 'https://home.kpmg';
-    }
-    
-    return `[${source.trim()}](${url})`;
-  });
-
-  text = text.replace(/1\.5\s*hours?/gi, '7 days');
-  text = text.replace(/1\.5\s*hrs?/gi, '7 days');
-
-  text = text.replace(/Probiota\s*Innovations/gi, 'B2B Manufacturing Client');
-  text = text.replace(/Probiota/gi, 'B2B Manufacturing Client');
-  text = text.replace(/Gut\s*&\s*Beyond/gi, 'E-commerce Affiliate Partner');
-  text = text.replace(/Atlanta\s*Systems/gi, 'a global industrial group');
-
-  text = text.replace(/10\+\s*qualified\s*B2B\s*leads/gi, '50+ qualified B2B leads (including 10 in the first 10 days)');
-  text = text.replace(/10\+\s*B2B\s*leads/gi, '50+ B2B leads');
-
-  return text;
+  // Remove leading H1 since HeroSection renders the single authoritative H1 on the page
+  stripped = stripped.replace(/^\s*#\s+[^\n]+\n+/, '');
+  return stripped.trim();
 }
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const slug = resolvedParams.slug;
-  const post = blogIndex.find(b => b.slug === slug);
+  const post = blogIndex.find((b) => b.slug === slug);
   if (!post) return {};
-  const url = `https://rankursite.com/blog/${post.slug}`;
-  const imgUrl = post.image || 'https://rankursite.com/og-image.jpg';
-  return {
+
+  return constructMetadata({
     title: `${post.title} | Rankur`,
     description: post.excerpt,
-    alternates: { canonical: url },
-    openGraph: {
-      title: `${post.title} | Rankur`,
-      description: post.excerpt,
-      url,
-      siteName: 'Rankur',
-      locale: 'en_US',
-      type: 'article',
-      images: [
-        {
-          url: imgUrl,
-          width: 1200,
-          height: 630,
-          alt: post.title,
-        },
-      ],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: `${post.title} | Rankur`,
-      description: post.excerpt,
-      creator: '@moksh_rankur',
-      images: [imgUrl],
-    },
-  };
+    canonical: `/blog/${post.slug}`,
+    image: post.image || '/og-image.jpg',
+    imageWidth: post.imageWidth || 1200,
+    imageHeight: post.imageHeight || 630,
+    imageAlt: post.title,
+    type: 'article',
+    noIndex: false,
+  });
+}
+
+function getDeterministicRelatedPosts(slug, postMeta) {
+  const sameCategory = blogIndex.filter((b) => b.categorySlug === postMeta.categorySlug);
+  const picked = [];
+  const seen = new Set([slug]);
+
+  if (sameCategory.length > 1) {
+    const idx = sameCategory.findIndex((b) => b.slug === slug);
+    for (let offset = 1; offset <= 4 && picked.length < 4; offset++) {
+      const candidate = sameCategory[(idx + offset) % sameCategory.length];
+      if (candidate && !seen.has(candidate.slug)) {
+        seen.add(candidate.slug);
+        picked.push(candidate);
+      }
+    }
+  }
+
+  // Fallback / top-up from global circular index if category has fewer than 5 posts
+  if (picked.length < 4) {
+    const gIdx = blogIndex.findIndex((b) => b.slug === slug);
+    for (let offset = 1; offset <= blogIndex.length && picked.length < 4; offset++) {
+      const candidate = blogIndex[(gIdx + offset) % blogIndex.length];
+      if (candidate && !seen.has(candidate.slug)) {
+        seen.add(candidate.slug);
+        picked.push(candidate);
+      }
+    }
+  }
+
+  return picked;
 }
 
 export default async function Page({ params }) {
   const resolvedParams = await params;
   const slug = resolvedParams.slug;
-  
+
   const postMeta = blogIndex.find((b) => b.slug === slug);
   if (!postMeta) {
     notFound();
@@ -136,24 +88,28 @@ export default async function Page({ params }) {
   let content = '';
   try {
     const rawContent = fs.readFileSync(filePath, 'utf-8');
-    content = processMarkdownContent(rawContent);
+    content = stripFrontmatterAndDuplicateH1(rawContent);
   } catch (error) {
     console.error(`Failed to read markdown file at ${filePath}`, error);
     notFound();
   }
 
-  const relatedPosts = blogIndex
-    .filter((b) => b.tag === postMeta.tag && b.slug !== slug)
-    .slice(0, 3);
+  const relatedPosts = getDeterministicRelatedPosts(slug, postMeta);
+
+  const datePublished = postMeta.datePublished || postMeta.date;
+  const dateModified = postMeta.dateModified || datePublished;
+  const imageUrl = postMeta.image?.startsWith('http')
+    ? postMeta.image
+    : `https://rankursite.com${postMeta.image || '/og-image.jpg'}`;
 
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: postMeta.title,
     description: postMeta.excerpt,
-    image: postMeta.image || 'https://rankursite.com/og-image.jpg',
-    datePublished: postMeta.date || '2026-01-01',
-    dateModified: postMeta.date || '2026-01-01',
+    image: imageUrl,
+    ...(datePublished ? { datePublished } : {}),
+    ...(dateModified ? { dateModified } : {}),
     author: {
       '@type': 'Person',
       name: postMeta.author || 'Moksh Parjapati',
@@ -166,7 +122,7 @@ export default async function Page({ params }) {
       url: 'https://rankursite.com',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://rankursite.com/logo-banner-dark.png',
+        url: 'https://rankursite.com/rankur-logo.png',
       },
     },
     mainEntityOfPage: {
@@ -194,6 +150,12 @@ export default async function Page({ params }) {
       {
         '@type': 'ListItem',
         position: 3,
+        name: postMeta.tag,
+        item: `https://rankursite.com/blog/category/${postMeta.categorySlug}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 4,
         name: postMeta.title,
         item: `https://rankursite.com/blog/${slug}`,
       },

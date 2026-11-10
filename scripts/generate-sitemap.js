@@ -125,30 +125,44 @@ async function generateSitemap() {
   }
   console.log(`✓ Generated ${countriesList.length} individual country sitemaps (uk.xml, usa.xml, etc.)`);
 
-  // 4. Generate Canonical Blogs Sitemap
+  // 4. Generate Canonical Blogs Sitemap (Category Hubs + Articles)
   let blogUrls = [];
   try {
     const dataPath = path.resolve(__dirname, '../src/data/blogs-index.json');
     if (fs.existsSync(dataPath)) {
       const blogIndex = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
-      blogUrls = blogIndex
+
+      // Category hub URLs
+      const catSlugs = [...new Set(blogIndex.map(p => p.categorySlug).filter(Boolean))];
+      for (const cSlug of catSlugs) {
+        const catUrl = `${BASE_URL}/blog/category/${cSlug}`;
+        allValidUrls.push(catUrl);
+        blogUrls.push({
+          url: catUrl,
+          lastModified: getTodayDate(),
+          changeFrequency: 'weekly',
+          priority: '0.75'
+        });
+      }
+
+      blogIndex
         .filter(post => post.slug)
-        .map(post => {
+        .forEach(post => {
           const fullUrl = `${BASE_URL}/blog/${post.slug}`;
           allValidUrls.push(fullUrl);
-          return {
+          blogUrls.push({
             url: fullUrl,
-            lastModified: getValidDate(post.date),
+            lastModified: getValidDate(post.dateModified || post.datePublished || post.date),
             changeFrequency: 'monthly',
             priority: '0.7'
-          };
+          });
         });
     }
   } catch (error) {
     console.warn('Could not read blog index for sitemap generation:', error.message);
   }
   fs.writeFileSync(path.join(sitemapDir, 'blogs.xml'), generateXml(blogUrls));
-  console.log(`✓ Generated sitemap/blogs.xml (${blogUrls.length} Canonical Articles)`);
+  console.log(`✓ Generated sitemap/blogs.xml (${blogUrls.length} Canonical Blog & Category URLs)`);
 
   // 5. Generate Master Root Sitemap Index
   const masterSitemaps = [
