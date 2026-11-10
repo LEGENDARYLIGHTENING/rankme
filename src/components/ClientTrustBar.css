@@ -165,8 +165,8 @@
   align-items: center;
   justify-content: center;
   gap: 0.25rem;
-  font-size: 0.68rem;
-  color: #718096;
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
   margin-top: var(--space-xs);
   transition: color var(--transition-fast);
 }

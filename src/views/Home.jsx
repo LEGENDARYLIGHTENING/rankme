@@ -191,13 +191,13 @@ export default function Home() {
 
       <section className="home-founder" style={{ padding: 'var(--space-5xl) 0' }}>
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 'var(--space-3xl)', alignItems: 'center' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 'var(--space-3xl)', alignItems: 'center' }}>
             <div className="img-placeholder" style={{ borderRadius: 'var(--border-radius-lg)', overflow: 'hidden' }}>
               <img
-                src="/founder-b2b-growth-infrastructure.png"
+                src="/founder-b2b-growth-infrastructure.webp"
                 alt="Moksh Parjapati, Founder of Rankur"
-                width={800}
-                height={800}
+                width={720}
+                height={720}
                 style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 'inherit' }}
               />
             </div>
@@ -227,7 +227,7 @@ export default function Home() {
           <p className="section-subtitle">
             Five focused areas that turn a slow, disorganized brochure site into a clean, search-ready B2B platform.
           </p>
-          <div className="services-overview__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
+          <div className="services-overview__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))' }}>
             {capabilities.map((service, i) => (
               <ServiceCard key={i} {...service} />
             ))}

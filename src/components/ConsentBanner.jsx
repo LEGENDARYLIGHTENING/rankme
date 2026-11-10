@@ -23,6 +23,21 @@ export default function ConsentBanner() {
     }
   }, []);
 
+  useEffect(() => {
+    if (consent !== 'accepted') return undefined;
+    const handleAuditClick = (e) => {
+      const link = e.target?.closest?.('a[href="/free-audit"]');
+      if (link && typeof window !== 'undefined' && window.gtag) {
+        window.gtag('event', 'audit_cta_click', {
+          link_text: (link.textContent || '').trim(),
+          source_path: window.location.pathname,
+        });
+      }
+    };
+    document.addEventListener('click', handleAuditClick);
+    return () => document.removeEventListener('click', handleAuditClick);
+  }, [consent]);
+
   const handleChoice = (choice) => {
     setConsent(choice);
     try {

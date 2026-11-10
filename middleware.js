@@ -1,26 +1,28 @@
 import { NextResponse } from 'next/server';
 
 export function middleware(request) {
-  const url = request.nextUrl.clone();
+  const { pathname, search } = request.nextUrl;
   const hostname = request.headers.get('host') || '';
 
-  // 1. Force non-WWW canonical domain (301 Permanent Redirect)
+  const strippedPath =
+    pathname !== '/' && pathname.endsWith('/') ? pathname.slice(0, -1) : pathname;
+
+  // 1. Force non-WWW canonical domain + strip trailing slash in one 301 hop
   if (hostname.toLowerCase().startsWith('www.')) {
     const cleanHost = hostname.replace(/^www\./i, '');
-    const protocol = request.headers.get('x-forwarded-proto') || 'https';
-    return NextResponse.redirect(`${protocol}://${cleanHost}${url.pathname}${url.search}`, 301);
+    const protocol =
+      hostname.includes('localhost') || hostname.includes('127.0.0.1') ? 'http' : 'https';
+    return NextResponse.redirect(`${protocol}://${cleanHost}${strippedPath}${search}`, 301);
   }
 
   // 2. Redirect legacy /home and /home/ alias to root /
-  if (url.pathname === '/home' || url.pathname === '/home/') {
-    url.pathname = '/';
-    return NextResponse.redirect(url, 301);
+  if (pathname === '/home' || pathname === '/home/') {
+    return NextResponse.redirect(new URL(`/${search}`, request.url), 301);
   }
 
-  // 3. Strip trailing slash (except root) to prevent duplicate content indexing
-  if (url.pathname !== '/' && url.pathname.endsWith('/')) {
-    url.pathname = url.pathname.slice(0, -1);
-    return NextResponse.redirect(url, 301);
+  // 3. Strip trailing slash (except root) with explicit 301
+  if (pathname !== '/' && pathname.endsWith('/')) {
+    return NextResponse.redirect(new URL(`${strippedPath}${search}`, request.url), 301);
   }
 
   return NextResponse.next();

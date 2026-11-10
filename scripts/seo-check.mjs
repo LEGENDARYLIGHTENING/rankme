@@ -332,6 +332,46 @@ async function runPrebuildChecks() {
       fail(`[C4] Missing real case-study screenshot: public/case-studies/${shot}`);
     }
   }
+
+  // Phase 5 (S1-S8): Robots, Schema, Asset Size, Favicon/Manifest, Security Headers
+  const robotsTxt = fs.readFileSync(path.join(rootDir, 'public/robots.txt'), 'utf8');
+  if (!/Allow:\s*\/_next\/static\//i.test(robotsTxt)) {
+    fail('[S1] public/robots.txt must explicitly Allow: /_next/static/');
+  }
+  if (/^\s*Disallow:\s*\/_next\/\s*$/im.test(robotsTxt)) {
+    fail('[S1] public/robots.txt must not block /_next/ globally');
+  }
+
+  const favSvg = fs.readFileSync(path.join(rootDir, 'public/favicon.svg'), 'utf8');
+  if (!favSvg.includes('>R</text>') || favSvg.includes('>P</text>')) {
+    fail('[S7] public/favicon.svg must render R (not P)');
+  }
+  const manifestPath = path.join(rootDir, 'public/manifest.webmanifest');
+  if (!fs.existsSync(manifestPath)) {
+    fail('[S7] Missing public/manifest.webmanifest');
+  } else {
+    JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+  }
+
+  const logoSize = fs.statSync(path.join(rootDir, 'public/rankur-logo.png')).size;
+  if (logoSize > 102400) {
+    fail(`[S6] public/rankur-logo.png is too heavy (${logoSize} bytes > 102400)`);
+  }
+
+  if (!layoutSrc.includes("legalName: 'Moksh Productions'") || layoutSrc.includes('wafatrust.org')) {
+    fail('[S5] app/layout.jsx masterSchema missing Moksh Productions legalName or still cites offline wafatrust.org');
+  }
+
+  const nextCfgLatest = fs.readFileSync(path.join(rootDir, 'next.config.mjs'), 'utf8');
+  const vercelLatest = JSON.parse(fs.readFileSync(path.join(rootDir, 'vercel.json'), 'utf8'));
+  if (!nextCfgLatest.includes('skipTrailingSlashRedirect: true')) {
+    fail('[S3/L1] next.config.mjs must enable skipTrailingSlashRedirect: true so middleware returns 301 instead of 308');
+  }
+  for (const hKey of ['Strict-Transport-Security', 'X-Content-Type-Options', 'X-Frame-Options', 'Referrer-Policy', 'Permissions-Policy', 'Content-Security-Policy']) {
+    if (!nextCfgLatest.includes(hKey)) fail(`[S8] next.config.mjs missing header ${hKey}`);
+    const vHas = (vercelLatest.headers?.[0]?.headers || []).some((h) => h.key === hKey);
+    if (!vHas) fail(`[S8] vercel.json missing header ${hKey}`);
+  }
 }
 
 function checkBuiltHtmlFile(filePath, relLabel) {
@@ -533,6 +573,51 @@ async function runPostbuildChecks() {
     const tyRobots = (tyHtml.match(/<meta[^>]*name=["']robots["'][^>]*content=["']([^"']+)["']/i) || ['', ''])[1].toLowerCase();
     if (!tyRobots.includes('noindex') || !tyRobots.includes('nofollow')) {
       fail(`[T2] thank-you.html must have noindex, nofollow; got "${tyRobots}"`);
+    }
+  }
+
+  // S4: _not-found.html must have noindex
+  const nfPath = path.join(nextAppDir, '_not-found.html');
+  if (!fs.existsSync(nfPath) || !/noindex/i.test(fs.readFileSync(nfPath, 'utf8'))) {
+    fail('[S4] Missing _not-found.html or missing noindex meta');
+  }
+
+  // S2: Reconcile exact Sitemap XML count === Built indexable marketing page count
+  const sitemapFiles = ['core.xml', 'countries.xml', 'blogs.xml'];
+  const sitemapSet = new Set();
+  for (const sm of sitemapFiles) {
+    const smPath = path.join(rootDir, 'public/sitemap', sm);
+    const smXml = fs.readFileSync(smPath, 'utf8');
+    for (const m of smXml.matchAll(/<loc>(https:\/\/rankursite\.com[^<]*)<\/loc>/g)) {
+      sitemapSet.add(m[1]);
+    }
+  }
+
+  const allBuiltHtml = walkFiles(nextAppDir, ['.html']);
+  const indexableBuiltSet = new Set();
+  const excludedPrefixes = ['dashboard', 'onboarding', 'settings', 'report', '_not-found', '_global-error', 'thank-you', 'blog/page', 'blog\\page'];
+  const noindexCountries = new Set(['new-zealand.html', 'ireland.html', 'qatar.html', 'singapore.html', 'germany.html']);
+
+  for (const full of allBuiltHtml) {
+    const rel = path.relative(nextAppDir, full).replace(/\\/g, '/');
+    if (noindexCountries.has(rel)) continue;
+    if (excludedPrefixes.some((p) => rel === p || rel.startsWith(`${p}/`) || rel === `${p}.html`)) continue;
+    const html = fs.readFileSync(full, 'utf8');
+    const rMatch = html.match(/<meta[^>]*name=["']robots["'][^>]*content=["']([^"']+)["']/i);
+    if (rMatch && /noindex/i.test(rMatch[1])) continue;
+    const route = rel === 'index.html' ? '' : '/' + rel.replace(/\.html$/, '');
+    indexableBuiltSet.add(`https://rankursite.com${route}`);
+  }
+
+  console.log(`Reconciliation -> Sitemap XML URLs: ${sitemapSet.size} | Built indexable pages: ${indexableBuiltSet.size}`);
+  for (const u of sitemapSet) {
+    if (!indexableBuiltSet.has(u)) {
+      fail(`[S2] Sitemap URL not built/indexable: ${u}`);
+    }
+  }
+  for (const u of indexableBuiltSet) {
+    if (!sitemapSet.has(u)) {
+      fail(`[S2] Built indexable page missing from sitemaps: ${u}`);
     }
   }
 }

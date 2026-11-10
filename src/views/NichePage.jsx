@@ -39,17 +39,15 @@ export default function NichePage({
 
   const serviceSchema = {
     '@context': 'https://schema.org',
-    '@type': 'ProfessionalService',
-    name: `Rankur | B2B Growth Infrastructure - ${niche}`,
+    '@type': 'Service',
+    name: `Rankur — B2B Web & Technical SEO (${niche})`,
     description: seoDesc,
     areaServed: {
       '@type': 'AdministrativeArea',
       name: niche,
     },
     provider: {
-      '@type': 'Organization',
-      name: 'Rankur (Moksh Productions)',
-      url: 'https://rankursite.com',
+      '@id': 'https://rankursite.com/#organization',
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',

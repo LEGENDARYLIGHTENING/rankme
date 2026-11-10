@@ -52,7 +52,7 @@ export default function LocationsPage() {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 300px), 1fr))',
             gap: 'var(--space-xl)',
             marginBottom: 'var(--space-4xl)',
           }}

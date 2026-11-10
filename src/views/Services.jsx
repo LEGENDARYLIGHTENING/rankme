@@ -155,7 +155,7 @@ export default function Services() {
         <div className="container">
           <p className="section-label">Core Offerings</p>
           <h2 className="section-title">How I Build &amp; Optimize B2B Sites</h2>
-          <div className="services-page__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
+          <div className="services-page__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))' }}>
             {servicesData.map((service, i) => (
               <ServiceCard key={i} {...service} />
             ))}

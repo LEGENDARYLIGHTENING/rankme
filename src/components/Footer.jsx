@@ -36,8 +36,8 @@ export default function Footer() {
         <div className="footer__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))' }}>
           <div className="footer__brand">
             <div className="footer__brand-name">
-              <Link href="/">
-                <img src="/rankur-logo.png" alt="Rankur - B2B Web Engineering & SEO" style={{ height: '70px', width: 'auto', objectFit: 'contain' }} />
+              <Link href="/" aria-label="Rankur home">
+                <img src="/rankur-logo.png" alt="Rankur" width={105} height={70} style={{ height: '70px', width: 'auto', objectFit: 'contain' }} />
               </Link>
             </div>
             <p className="footer__brand-desc">
@@ -74,7 +74,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="footer__col-title">Navigate</h4>
+            <p className="footer__col-title">Navigate</p>
             {footerNav.map((link) => (
               <Link key={link.label} href={link.to} className="footer__link">
                 {link.label}
@@ -83,7 +83,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="footer__col-title">Target Markets</h4>
+            <p className="footer__col-title">Target Markets</p>
             {footerMarkets.map((link) => (
               <Link key={link.label} href={link.to} className="footer__link" style={link.to === '/locations' ? { color: 'var(--color-gold)', fontWeight: 'bold' } : {}}>
                 {link.label}
@@ -92,7 +92,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="footer__col-title">Contact</h4>
+            <p className="footer__col-title">Contact</p>
             <p className="footer__contact-item">
               <a href="mailto:contactus@rankursite.com">contactus@rankursite.com</a>
             </p>

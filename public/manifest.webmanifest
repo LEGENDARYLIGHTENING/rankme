@@ -1,0 +1,22 @@
+{
+  "name": "Rankur — B2B Web Engineering & Technical SEO",
+  "short_name": "Rankur",
+  "description": "Custom Next.js websites and technical SEO architecture for B2B founders.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#C9A84C",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/rankur-logo.png",
+      "sizes": "420x280",
+      "type": "image/png"
+    }
+  ]
+}
+

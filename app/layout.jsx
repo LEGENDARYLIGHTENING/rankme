@@ -11,6 +11,7 @@ export const metadata = {
   },
   description:
     'I build fast, custom Next.js websites for B2B founders and structure them for Google search, AI answer visibility, and qualified pipeline leads.',
+  manifest: '/manifest.webmanifest',
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
@@ -64,10 +65,19 @@ const masterSchema = {
       '@type': 'Organization',
       '@id': 'https://rankursite.com/#organization',
       name: 'Rankur',
+      legalName: 'Moksh Productions',
       url: 'https://rankursite.com',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://rankursite.com/logo-banner-dark.png',
+        url: 'https://rankursite.com/rankur-logo.png',
+        width: 420,
+        height: 280,
+      },
+      contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'Business Inquiries',
+        email: 'contactus@rankursite.com',
+        availableLanguage: ['English'],
       },
       sameAs: [
         'https://www.crunchbase.com/organization/rankur-a39c',
@@ -78,14 +88,10 @@ const masterSchema = {
       },
       knowsAbout: [
         'B2B Web Design',
-        'Next.js 16 Engineering',
+        'Next.js Engineering',
         'Generative Engine Optimization (GEO)',
         'Technical SEO',
         'Conversion Rate Optimization',
-        'Enterprise Fleet Telematics Infrastructure',
-        'AIS-140 GPS Compliance Architecture',
-        'B2B Healthcare Headless Commerce',
-        'Nutraceutical CDMO Digital Systems',
       ],
       workExample: [
         {
@@ -93,50 +99,32 @@ const masterSchema = {
           '@id': 'https://www.wiziot.com/#website',
           name: 'WizIOT',
           url: 'https://www.wiziot.com',
-          description: 'Enterprise Fleet Telematics, IoT Hardware & Sensor Integration platform built on Next.js 16 + Turbopack (1,040+ static pages).',
-          creator: {
-            '@id': 'https://rankursite.com/#organization',
-          },
+          description: 'Client project: Fleet telematics and IoT hardware platform built with Next.js.',
+          creator: { '@id': 'https://rankursite.com/#organization' },
         },
         {
           '@type': 'WebSite',
           '@id': 'https://www.atlantasys.com/#website',
           name: 'Atlanta Systems',
           url: 'https://www.atlantasys.com',
-          description: 'AIS-140 Certified GPS & Automotive Telematics Manufacturer web infrastructure built on Next.js 16 (460+ static pages).',
-          creator: {
-            '@id': 'https://rankursite.com/#organization',
-          },
+          description: 'Co-led for an in-house venture: AIS-140 automotive telematics manufacturing platform.',
+          creator: { '@id': 'https://rankursite.com/#organization' },
         },
         {
           '@type': 'WebSite',
           '@id': 'https://www.medventa.in/#website',
           name: 'Medventa',
           url: 'https://www.medventa.in',
-          description: 'B2B Medical Supplies, Surgical Sutures & Hospital Procurement headless commerce platform built on Next.js 14 (440+ static pages).',
-          creator: {
-            '@id': 'https://rankursite.com/#organization',
-          },
+          description: 'Client project: Headless Next.js B2B surgical and hospital supply catalog.',
+          creator: { '@id': 'https://rankursite.com/#organization' },
         },
         {
           '@type': 'WebSite',
           '@id': 'https://www.probiotainnovations.com/#website',
           name: 'Probiota Innovations',
           url: 'https://www.probiotainnovations.com',
-          description: 'US-FDA Registered Probiotic & Functional Gummy CDMO web platform built on Next.js 16 (340+ static pages).',
-          creator: {
-            '@id': 'https://rankursite.com/#organization',
-          },
-        },
-        {
-          '@type': 'WebSite',
-          '@id': 'https://wafatrust.org/#website',
-          name: 'Wafa Trust',
-          url: 'https://wafatrust.org',
-          description: 'Philanthropic Healthcare, Dialysis Support & Education NGO platform.',
-          creator: {
-            '@id': 'https://rankursite.com/#organization',
-          },
+          description: 'Built in-house venture: Nutraceutical and functional gummy CDMO web platform.',
+          creator: { '@id': 'https://rankursite.com/#organization' },
         },
       ],
     },
@@ -144,7 +132,7 @@ const masterSchema = {
       '@type': 'Person',
       '@id': 'https://rankursite.com/#founder',
       name: 'Moksh Parjapati',
-      jobTitle: 'Founder & B2B Growth Consultant',
+      jobTitle: 'Founder & B2B Web/SEO Engineer',
       url: 'https://rankursite.com/about',
       worksFor: {
         '@id': 'https://rankursite.com/#organization',
@@ -157,17 +145,20 @@ const masterSchema = {
         'Conversion Rate Optimization',
       ],
       sameAs: [
-        'https://www.crunchbase.com/organization/rankur-a39c',
+        'https://linkedin.com/in/moksh-parjapati',
         'https://twitter.com/moksh_rankur',
       ],
     },
     {
       '@type': 'ProfessionalService',
       '@id': 'https://rankursite.com/#service',
-      name: 'Rankur - B2B Growth & Web Engineering',
+      name: 'Rankur - B2B Web Engineering & Technical SEO',
       url: 'https://rankursite.com',
+      parentOrganization: {
+        '@id': 'https://rankursite.com/#organization',
+      },
       priceRange: '$$$',
-      areaServed: ['US', 'GB', 'CA', 'AU', 'AE', 'DE'],
+      areaServed: ['US', 'GB', 'CA', 'AU', 'AE', 'SA'],
       serviceType: [
         'Custom React & Next.js Websites',
         'B2B Conversion Rate Optimization',
