@@ -65,17 +65,17 @@ export default function Process() {
           <div className="process-detail__layout">
             <div className="process-detail__step-num">1</div>
             <div className="process-detail__content">
-              <h3>Diagnostic Audit &amp; Scope Discovery</h3>
+              <h3>Diagnostic Audit &amp; Strategic Discovery</h3>
               <p>
-                Every project starts with a written review identifying technical bottlenecks, index bloat, metadata conflicts, and positioning gaps across your existing site.
+                Every engagement begins with an executive diagnostic evaluating commercial bottlenecks, conversion friction, and organic discoverability across your digital footprint.
               </p>
               <div className="process-detail__items">
-                <div className="process-detail__item">Core Web Vitals &amp; mobile layout review</div>
-                <div className="process-detail__item">Index hygiene, canonicals &amp; sitemap audit</div>
-                <div className="process-detail__item">Commercial positioning &amp; copy clarity review</div>
-                <div className="process-detail__item">Consent-clean GA4 event tracking check</div>
-                <div className="process-detail__item">301 redirect risk map prior to any migration</div>
-                <div className="process-detail__item">Written priority roadmap before proposal sign-off</div>
+                <div className="process-detail__item">High-intent buyer experience &amp; conversion friction evaluation</div>
+                <div className="process-detail__item">Search equity preservation &amp; discoverability assessment</div>
+                <div className="process-detail__item">Commercial positioning &amp; value proposition clarity review</div>
+                <div className="process-detail__item">Inbound pipeline &amp; lead tracking verification</div>
+                <div className="process-detail__item">Domain authority &amp; traffic retention mapping</div>
+                <div className="process-detail__item">Actionable executive roadmap with defined milestones</div>
               </div>
             </div>
           </div>
@@ -87,17 +87,17 @@ export default function Process() {
           <div className="process-detail__layout">
             <div className="process-detail__step-num" style={{ color: 'var(--color-red)' }}>2</div>
             <div className="process-detail__content">
-              <h3>Custom Next.js Engineering &amp; SEO Hygiene</h3>
+              <h3>Proprietary Web Engineering &amp; Platform Deployment</h3>
               <p>
-                I build the approved pages in clean React and Next.js with prebuild SEO verification checks, milestone sign-off, and full repository ownership transferred to you.
+                We architect custom digital platforms engineered for speed, conversion, and market authority, transferring complete codebase and asset ownership to your organization.
               </p>
               <div className="process-detail__items">
-                <div className="process-detail__item">Custom Next.js App Router frontend</div>
-                <div className="process-detail__item">Consistent metadata, OpenGraph &amp; JSON-LD schema</div>
-                <div className="process-detail__item">Explicit HTTP 301 rules for legacy URLs</div>
-                <div className="process-detail__item">Validated contact &amp; RFQ forms with spam protection</div>
-                <div className="process-detail__item">Automated prebuild checks preventing thin-page regressions</div>
-                <div className="process-detail__item">Full source code handoff in your GitHub repository</div>
+                <div className="process-detail__item">Bespoke high-performance Next.js web infrastructure</div>
+                <div className="process-detail__item">Multi-platform search &amp; generative AI answer readiness</div>
+                <div className="process-detail__item">Zero-loss domain equity preservation &amp; traffic retention</div>
+                <div className="process-detail__item">Enterprise inquiry capture &amp; verified lead routing</div>
+                <div className="process-detail__item">Rigorous quality benchmarks &amp; sub-second performance</div>
+                <div className="process-detail__item">Complete repository handoff with zero platform lock-in</div>
               </div>
             </div>
           </div>
@@ -109,17 +109,17 @@ export default function Process() {
           <div className="process-detail__layout">
             <div className="process-detail__step-num">3</div>
             <div className="process-detail__content">
-              <h3>Search Refinement &amp; Ongoing Optimization</h3>
+              <h3>Market Authority &amp; Pipeline Acceleration</h3>
               <p>
-                Post-launch, Search Console indexing and GA4 telemetry guide targeted landing page improvements, content quality cleanups, and conversion iteration.
+                Post-launch, our ongoing refinement focuses on inbound pipeline velocity, buyer engagement, and long-term commercial search authority.
               </p>
               <div className="process-detail__items">
-                <div className="process-detail__item">Bottom-of-funnel solution &amp; comparison pages</div>
-                <div className="process-detail__item">Structured Q&amp;A blocks aligned to visible copy</div>
-                <div className="process-detail__item">Search Console index &amp; sitemap monitoring</div>
-                <div className="process-detail__item">Form drop-off and CTA clarity improvements</div>
-                <div className="process-detail__item">Iterative Core Web Vitals optimization</div>
-                <div className="process-detail__item">Transparent monthly change log and review</div>
+                <div className="process-detail__item">High-intent commercial solution ecosystems</div>
+                <div className="process-detail__item">Executive decision &amp; buyer evaluation assets</div>
+                <div className="process-detail__item">Continuous search authority &amp; indexation intelligence</div>
+                <div className="process-detail__item">Inquiry qualification &amp; conversion pathway refinement</div>
+                <div className="process-detail__item">Sub-second global speed &amp; Core Web Vitals maintenance</div>
+                <div className="process-detail__item">Transparent executive milestone reviews &amp; progress logs</div>
               </div>
             </div>
           </div>

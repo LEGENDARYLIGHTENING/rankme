@@ -12,76 +12,76 @@ import './Services.css';
 const servicesData = [
   {
     icon: '◎',
-    title: 'Strategic Positioning & Messaging',
+    title: 'Strategic Positioning & Market Authority',
     description:
-      'I translate complex manufacturing, software, and clinical workflows into straightforward commercial web copy aligned to executive buying evaluation.',
+      'We translate technical workflows and complex product capabilities into high-trust commercial messaging that commands authority and accelerates executive buying cycles.',
     deliverables: [
-      'Competitor messaging teardown',
-      'Above-the-fold positioning clarity pass',
-      'Commercial capability & spec sheet structure',
-      'Lead qualification pathways & objection-handling FAQs',
+      'Executive Positioning & Competitive Moat Analysis',
+      'Above-the-Fold Value Proposition Engineering',
+      'Commercial Capability Architecture & Specification Maps',
+      'Frictionless Qualification & Objection-Resolution Systems',
     ],
     timeline: 'Scoped during discovery milestone',
   },
   {
     icon: '⟨/⟩',
-    title: 'Custom Next.js Web Engineering',
+    title: 'Proprietary Next.js Web Infrastructure',
     description:
-      'I design and build clean React and Next.js websites deployed on edge networks without bloated visual builders or fragile plugin stacks.',
+      'We architect bespoke React and Next.js digital platforms engineered on global edge networks — delivering sub-second response times, zero CMS dependencies, and full source code ownership.',
     deliverables: [
-      'Custom React & Next.js App Router frontend',
-      'Consent-clean GA4 conversion event tracking',
-      'Accessible semantic markup & responsive layouts',
-      'Full GitHub repository ownership transferred to you',
+      'High-Performance Next.js Edge Architecture',
+      'Zero-Loss Telemetry & Event Tracking',
+      'Accessible, High-Conversion Semantic Interfaces',
+      '100% Repository Transfer & Asset Ownership',
     ],
     timeline: 'Milestone-based sign-off, terms in proposal',
   },
   {
     icon: '🔍',
-    title: 'Technical SEO & GEO Architecture',
+    title: 'Search Authority & Generative AI Discovery',
     description:
-      'I audit and fix crawl bloat, canonical conflicts, thin doorway routes, schema hygiene, and clear factual structure for Google and AI search engines.',
+      'Deterministic search infrastructure engineered for sustainable dominance across Google, ChatGPT, and Perplexity — safeguarding authority and ensuring verified answer recommendations.',
     deliverables: [
-      '301 redirect preservation for legacy URLs',
-      'Prebuild SEO checks enforcing canonical & meta limits',
-      'Cleaned sitemaps matching real indexable routes',
-      'Structured JSON-LD entity and FAQ schema markup',
+      'Proprietary Search Equity & Domain Protection',
+      'Zero-Defect Deterministic Indexation Architecture',
+      'Enterprise Knowledge Graph & Semantic Entity Integration',
+      'AI Engine Citation Optimization & Brand Authority Guardrails',
     ],
     timeline: 'Integrated into every website build or audit',
   },
   {
     icon: '✍',
-    title: 'B2B Content & Comparison Architecture',
+    title: 'High-Intent Commercial Topic Clusters',
     description:
-      'I replace repetitive filler posts with focused commercial comparison pages, technical guides, and clear internal linking across core topic hubs.',
+      'We construct authoritative topic ecosystems and commercial decision guides that systematically capture and convert high-ticket executive buyers actively evaluating vendors.',
     deliverables: [
-      'Editorial content pruning & noindex/triage workflows',
-      'Category hub and contextual internal link architecture',
-      'Solution and technical buyer evaluation guides',
-      'Zero unsourced stats or placeholder copy',
+      'High-Value Solution Architecture & Intent Mapping',
+      'Authoritative Commercial Decision Guides',
+      'Strategic Interlinking & Equity Distribution',
+      'High-Trust Editorial Standards',
     ],
     timeline: 'Scoped per content roadmap',
   },
   {
     icon: '📊',
-    title: 'Conversion Flow & Form Optimization',
+    title: 'Conversion Flow & Pipeline Velocity',
     description:
-      'I remove form friction, fix dead or confusing CTAs, add anti-spam protections, and make inquiry handoffs measurable without inflating traffic spend.',
+      'We eliminate friction at critical decision points, ensuring high-intent visitors transition seamlessly into qualified sales conversations and booked calls.',
     deliverables: [
-      'Lead & RFQ form friction teardowns',
-      'Consent & privacy notice integration',
-      'Honeypot spam protection & confirmation routing',
-      'Consent-gated GA4 lead event measurement',
+      'Frictionless Inbound Flow Engineering',
+      'Enterprise Inquiry Qualification Protocols',
+      'Full-Funnel Pipeline Telemetry',
+      'Sub-Second Conversion Pathway Testing',
     ],
-    timeline: 'Included in builds and CRO scopes',
+    timeline: 'Integrated into every engagement',
   },
 ];
 
 const technicalStack = [
-  { category: 'Frontend Architecture', tools: 'React, Next.js (App Router), HTML5, Modular CSS' },
-  { category: 'Backend & Integrations', tools: 'Node.js, PostgreSQL, REST APIs, Supabase, Web3Forms' },
-  { category: 'Hosting & Security', tools: 'Vercel Edge, HTTPS/HSTS, Security Headers, 301 Redirect Maps' },
-  { category: 'Analytics & Verification', tools: 'GA4 (consent-gated), Google Search Console, Automated SEO CI Checks' },
+  { category: 'Core Platform Engineering', tools: 'Modern React & Next.js Ecosystem, Component Modularization, Edge Runtimes' },
+  { category: 'Enterprise Integration', tools: 'High-Throughput APIs, Distributed Data Layers, Secure Lead Routing Protocols' },
+  { category: 'Infrastructure & Security', tools: 'Global Edge Delivery, Automated Zero-Downtime Deployments, Hardened Security Headers' },
+  { category: 'Commercial Intelligence', tools: 'High-Resolution Funnel Telemetry, Search Engine Indexation Monitoring, Pipeline Attribution' },
 ];
 
 const faqs = [
@@ -93,12 +93,12 @@ const faqs = [
   {
     question: 'Why build on custom React and Next.js instead of template themes?',
     answer:
-      'Custom Next.js gives full control over bundle size, clean semantic HTML, explicit metadata inheritance, prebuild validation, and zero plugin vulnerability bloat.',
+      'A custom high-performance architecture ensures sub-second global performance, total technical control, immune security posture with zero third-party plugin vulnerabilities, and complete intellectual property ownership.',
   },
   {
     question: 'What does Generative Engine Optimization (GEO) mean in practice?',
     answer:
-      'In practice, GEO means clear entity schema markup, factual non-hyped service copy, clean Q&A structure matching visible page content, and crawlable static HTML so both search engines and AI systems parse your capabilities accurately.',
+      'Generative Engine Optimization (GEO) establishes your brand as the definitive authority cited by AI search models like ChatGPT, Perplexity, and Google. We engineer proprietary semantic graphs and factual capability positioning so AI systems accurately recommend your solutions to enterprise buyers.',
   },
   {
     question: 'Do you sign mutual NDAs before reviewing internal specs?',
@@ -168,7 +168,7 @@ export default function Services() {
           <p className="section-label">Execution Stack</p>
           <h2 className="section-title">Core Technologies Used</h2>
           <p className="section-subtitle" style={{ marginBottom: 'var(--space-3xl)' }}>
-            Combining structured commercial messaging with clean React/Next.js code, explicit redirects, and consent-clean telemetry.
+            Unifying high-impact commercial positioning with enterprise-grade web engineering, domain equity preservation, and high-resolution pipeline telemetry.
           </p>
           <div className="tools-grid">
             {technicalStack.map((tech, i) => (

@@ -9,7 +9,7 @@ export const CREDENTIALS = [
     issuer: 'Google Skillshop',
     year: '2024',
     impact:
-      'Configures clean event telemetry, lead submission goals, and channel attribution across custom Next.js builds.',
+      'Instruments precision conversion tracking, qualified buyer milestones, and channel attribution across custom platforms.',
     verifyUrl:
       'https://skillshop.docebosaas.com/learn/courses/18609/google-analytics-certification-2026?hash=68065f5c06f16d1e2f97e157c19473356d171fc5&generated_by=12413115',
     verified: true,

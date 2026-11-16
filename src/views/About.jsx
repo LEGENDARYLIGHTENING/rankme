@@ -31,7 +31,7 @@ export default function About() {
             Founder-Led <span className="text-gold">Web &amp; SEO Engineering</span>
           </>
         }
-        subtitle="I build custom Next.js web platforms, technical SEO structures, and clean conversion flows based on systems tested across my own ventures and client work."
+        subtitle="I engineer high-performance digital platforms and search authority systems engineered to capture high-value buyer demand and accelerate B2B pipeline."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
       />
 
@@ -44,10 +44,10 @@ export default function About() {
               I started Moksh Productions to build software platforms and technical web products. Along the way, I repeatedly saw B2B teams stuck between agencies: developers who treat SEO and messaging as afterthoughts, or marketers who ship bloated templates held back by slow code and duplicate URLs.
             </p>
             <p>
-              I founded <strong>Rankur</strong> to handle positioning, React/Next.js frontend engineering, technical SEO, and analytics measurement under one roof cleanly.
+              I founded <strong>Rankur</strong> to unify commercial market positioning, high-performance web engineering, and enterprise search authority under a single, accountable partner.
             </p>
             <p>
-              The architectures and search structures I build for Rankur client builds follow the same engineering discipline I apply to my own internal products and ventures — prioritizing verifiable craft over inflated agency slogans.
+              Every client platform is deployed using battle-tested proprietary standards — prioritizing defensible commercial growth and verifiable pipeline over inflated agency slogans.
             </p>
 
             <div className="img-placeholder" style={{ margin: 'var(--space-2xl) 0', borderRadius: 'var(--border-radius-lg)', overflow: 'hidden' }}>

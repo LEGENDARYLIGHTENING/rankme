@@ -18,12 +18,12 @@ const beliefs = [
   {
     num: '03',
     title: 'SEO should target commercial buyer questions cleanly.',
-    desc: 'Publishing scaled filler keywords hurts credibility. Focused technical hubs, clean canonicals, and helpful buyer guides build sustainable authority.',
+    desc: 'Publishing scaled filler content dilutes authority. High-intent search architecture, authoritative buyer positioning, and commercial decision frameworks build defensible category dominance.',
   },
   {
     num: '04',
     title: 'Structured clarity helps both search engines and AI answers.',
-    desc: 'Consistent JSON-LD schema, factual Q&A blocks aligned to visible content, and non-hyped positioning make it straightforward for search engines and AI systems to parse what you do.',
+    desc: 'Enterprise search algorithms and generative AI engines reward unambiguous capability and brand authority. Proprietary search-readiness frameworks ensure your solutions are cited as authoritative answers for high-value buyer queries.',
   },
   {
     num: '05',
@@ -32,8 +32,8 @@ const beliefs = [
   },
   {
     num: '06',
-    title: 'Clean telemetry beats assumptions.',
-    desc: 'Privacy-respecting GA4 events and Search Console index tracking ground iterative improvements in actual behavior.',
+    title: 'High-resolution telemetry beats assumptions.',
+    desc: 'Privacy-first commercial telemetry and pipeline attribution ground iterative optimizations in verified buyer journeys rather than vanity pageviews.',
   },
 ];
 
@@ -77,7 +77,7 @@ export default function Philosophy() {
             <p className="section-label">Operator Mindset</p>
             <h2 className="section-title">Built on Real Shipping Discipline</h2>
             <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', fontSize: '1rem', marginBottom: 'var(--space-lg)' }}>
-              Rankur operates under <strong>Moksh Productions</strong>. The React and Next.js engineering patterns, technical SEO checks, and clear qualification flows I ship for clients come from building real platforms and operating in-house ventures.
+              Rankur operates under <strong>Moksh Productions</strong>. The proprietary web engineering systems, search authority architectures, and executive qualification funnels I deploy for clients are proven across high-stakes commercial platforms and enterprise environments.
             </p>
             <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', fontSize: '1rem' }}>
               Milestone-based sign-off and full GitHub source code ownership keep engagements transparent from kickoff to handoff.

@@ -41,42 +41,42 @@ const portfolioShowcases = [
 const capabilities = [
   {
     icon: '◎',
-    title: 'Clear Positioning & Messaging',
+    title: 'Strategic Positioning & Market Authority',
     description:
-      'Most B2B sites list vague slogans instead of buyer answers. I clarify what you build, who it serves, and how evaluation buyers take the next step.',
-    deliverables: ['Competitor messaging teardown', 'Focused value proposition', 'Straightforward buyer copy'],
-    timeline: 'Discovery milestone',
+      'Most B2B platforms rely on vague buzzwords that confuse serious buyers. We establish clear commercial positioning, high-intent value propositions, and unambiguous proof that commands executive trust.',
+    deliverables: ['Executive Positioning Framework', 'Buyer Intent Alignment', 'High-Trust Commercial Copy'],
+    timeline: 'Discovery Milestone',
   },
   {
     icon: '⟨/⟩',
-    title: 'Fast, Custom Next.js Websites',
+    title: 'Proprietary Next.js Web Infrastructure',
     description:
-      'I build maintainable sites from scratch in React and Next.js — lean bundles, semantic markup, and full GitHub source code ownership with zero CMS bloat.',
-    deliverables: ['Custom Next.js & React build', 'Validated, bot-protected forms', 'Consent-clean analytics setup'],
+      'Custom-engineered from the ground up for high-growth B2B brands. Lightning-fast edge delivery, sub-second response times, and full codebase ownership with zero CMS dependency or plugin bloat.',
+    deliverables: ['Custom Next.js Edge Architecture', 'Zero-Friction Inbound Capture', '100% Client Codebase Ownership'],
     timeline: 'Milestone-based sign-off',
   },
   {
     icon: '🔍',
-    title: 'Technical SEO & AI Citation Readiness',
+    title: 'Search Authority & Generative AI Discovery',
     description:
-      'I clean up canonical conflicts, thin doorway sprawl, and bloated sitemaps while structuring entity schema and factual Q&As for search engines and AI answers.',
-    deliverables: ['301 migration protection', 'Schema & metadata hygiene', 'Prebuild SEO validation checks'],
+      'Deterministic search positioning engineered for Google, ChatGPT, and Perplexity. We structure your digital footprint so your brand is surfaced as the definitive, verified answer across traditional and generative search.',
+    deliverables: ['Proprietary Search Equity Guardrails', 'Enterprise Knowledge Graph Integration', 'Zero-Defect Technical Indexation'],
     timeline: 'Integrated per scope',
   },
   {
     icon: '✍',
-    title: 'Focused Editorial & Topic Hubs',
+    title: 'High-Intent Commercial Topic Clusters',
     description:
-      'Instead of publishing scaled filler posts, I organize helpful comparison guides and technical articles inside clear category hubs that earn buyer trust.',
-    deliverables: ['Category hub structure', 'High-intent buyer guides', 'Internal linking cleanup'],
+      'We eliminate low-quality content churn and architect high-authority commercial clusters that systematically intercept and capture executive buyers actively researching solutions.',
+    deliverables: ['High-Value Solution Architecture', 'Strategic Authority Clustering', 'Executive Decision Guides'],
     timeline: 'Ongoing or per batch',
   },
   {
     icon: '📊',
-    title: 'Conversion Flow Optimization',
+    title: 'Conversion Architecture & Pipeline Telemetry',
     description:
-      'I spot where visitors hit friction — buried CTAs, broken mobile layouts, unclear promises, unmeasured forms — and simplify the path to real conversations.',
-    deliverables: ['UX & form friction audit', 'Clear inquiry qualification', 'Consent-gated GA4 telemetry'],
+      'We transform passive traffic into qualified sales inquiries. Through precision UX engineering and privacy-compliant analytics, every buyer touchpoint is optimized for pipeline velocity.',
+    deliverables: ['Frictionless Inbound Flow Engineering', 'Qualified Lead Routing', 'Enterprise Conversion Telemetry'],
     timeline: 'Included in builds',
   },
 ];
@@ -90,19 +90,19 @@ const niches = [
 
 const processSteps = [
   {
-    title: '1. Manual Site Audit',
+    title: '1. Strategic Diagnostic Audit',
     description:
-      'Submit your URL and goals. I review page speed, crawl/index bloat, metadata hygiene, and conversion friction — returning written priority findings within 2 business days.',
+      'We perform an in-depth evaluation of your current search footprint, technical bottlenecks, and buyer conversion friction — delivering a prioritized roadmap for maximum commercial impact.',
   },
   {
-    title: '2. Milestone Build',
+    title: '2. Dedicated Architecture & Sprint Build',
     description:
-      'Approved scope is engineered cleanly in React and Next.js with automated SEO checks, written deliverable sign-off, and full code ownership transferred to your GitHub.',
+      'Your platform is custom-engineered using our proprietary Next.js infrastructure and search standards, backed by milestone deliverables and 100% source code ownership.',
   },
   {
-    title: '3. Measurement & Iteration',
+    title: '3. Pipeline Velocity & Ongoing Dominance',
     description:
-      'Post-launch, Google Search Console indexing and consent-clean GA4 conversion telemetry guide targeted copy, technical, and conversion refinements.',
+      'Post-launch, our telemetry and indexation monitoring continuously optimize buyer engagement, search visibility, and inbound pipeline quality.',
   },
 ];
 

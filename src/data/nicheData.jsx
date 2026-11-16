@@ -22,7 +22,7 @@ export const nicheData = {
         {
           icon: '⟨/⟩',
           title: 'Conversion-Focused Architecture',
-          desc: 'Clear pathways from feature and integration pages to demo booking with low-friction forms and GA4 event telemetry.',
+          desc: 'Streamlined qualification funnels from capability deep-dives to demo evaluations, instrumented with precision pipeline tracking.',
         },
         {
           icon: '◎',
@@ -41,7 +41,7 @@ export const nicheData = {
         {
           question: 'Why rebuild a Webflow or WordPress SaaS site in Next.js?',
           answer:
-            'When you need full ownership of code, lean JavaScript payloads, clean custom forms or database workflows, automated prebuild SEO validation, and zero plugin bloat, custom Next.js eliminates template constraints cleanly.',
+            'When you require complete code ownership, sub-second edge performance, bespoke conversion workflows, and zero third-party plugin vulnerability or bloat, custom Next.js provides an unconstrained enterprise foundation.',
         },
         {
           question: 'How are timelines and scopes structured?',
@@ -51,12 +51,12 @@ export const nicheData = {
         {
           question: 'What does conversion optimization mean on a SaaS marketing site?',
           answer:
-            'It means aligning headline specificity, navigation clarity, proof placement, and form fields to what an evaluating buyer needs before booking a demo — backed by consent-clean GA4 event measurement.',
+            'It means aligning headline specificity, navigation clarity, proof placement, and form fields to what an evaluating buyer needs before booking a demo — backed by high-resolution conversion and pipeline attribution telemetry.',
         },
         {
           question: 'Will structured markup help my product appear in AI assistants?',
           answer:
-            'Structured Organization, Service, and matching visible FAQ markup plus clear factual pages help both traditional search engines and AI systems extract accurate context about your software, though no consultant can ethically promise guaranteed rankings.',
+            'Proprietary semantic entity architecture and authoritative commercial documentation make it straightforward for search engines and generative AI models to index and recommend your platform, though no consultant can ethically promise guaranteed rankings.',
         },
         {
           question: 'Do you work with early-stage SaaS as well as established companies?',

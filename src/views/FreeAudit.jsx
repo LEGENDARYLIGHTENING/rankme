@@ -16,8 +16,8 @@ const auditSteps = [
   },
   {
     icon: '🔍',
-    title: '2. Manual Technical Review',
-    desc: 'I check Core Web Vitals, crawl/index bloat, canonical structure, positioning clarity, and form friction.',
+    title: '2. Diagnostic Evaluation',
+    desc: 'I evaluate search engine discovery barriers, buyer qualification drop-offs, platform performance bottlenecks, and positioning clarity.',
   },
   {
     icon: '📄',
@@ -129,7 +129,7 @@ export default function FreeAudit() {
             <span className="text-gold">B2B Site &amp; SEO Audit</span>
           </>
         }
-        subtitle="I manually inspect your Core Web Vitals, technical SEO metadata, crawl bloat, messaging clarity, and lead form friction — delivered within 2 business days."
+        subtitle="A comprehensive diagnostic uncovering search authority gaps, enterprise buyer drop-offs, platform speed bottlenecks, and conversion friction — delivered within 2 business days."
         center
       />
 
@@ -277,7 +277,7 @@ export default function FreeAudit() {
                     className="form-textarea"
                     value={formData.challenges}
                     onChange={handleChange}
-                    placeholder="E.g., index bloat, slow mobile LCP, unclear B2B positioning, or WordPress migration risks..."
+                    placeholder="E.g., high traffic with low inquiry conversion, legacy platform re-platforming risks, or lost organic visibility against competitors..."
                   ></textarea>
                   {errors.challenges && <span className="form-error">{errors.challenges}</span>}
                 </div>

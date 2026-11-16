@@ -2,7 +2,7 @@ export const AUDIT_FAQS = [
   {
     question: 'What is included in the free B2B website and SEO audit?',
     answer:
-      'I manually review your page speed bottlenecks, technical SEO metadata and index hygiene, mobile navigation or form friction, positioning clarity, and answer readiness for search engines and AI assistants.',
+      'A thorough manual evaluation of your digital commercial presence: search authority bottlenecks, generative AI visibility, commercial positioning clarity, and friction points across your buyer qualification pathways.',
   },
   {
     question: 'How long does it take to receive the audit findings?',

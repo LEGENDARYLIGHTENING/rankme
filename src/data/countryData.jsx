@@ -35,13 +35,13 @@ export const countryData = {
         },
         {
           icon: '◎',
-          title: 'Commercial SEO & AI Citation Readiness',
-          desc: 'Clean URL hierarchies, JSON-LD entity schema, and comparison-ready service pages built for US buyer queries.',
+          title: 'Commercial Search Authority & AI Readiness',
+          desc: 'Defensible keyword architecture, semantic entity graphs, and comparison-ready solution hubs built for US executive buyers.',
         },
         {
           icon: '▶',
-          title: 'Low-Friction Lead & RFQ Flows',
-          desc: 'Direct, transparent qualification forms paired with clean GA4 conversion event tracking so sales receives real context.',
+          title: 'High-Velocity Qualification Flows',
+          desc: 'Direct, transparent qualification pathways paired with high-resolution pipeline tracking so your sales team engages buyers with full context.',
         },
       ],
       proofText:
@@ -55,7 +55,7 @@ export const countryData = {
         {
           question: 'Can you replace an existing WordPress or Webflow site without losing US search rankings?',
           answer:
-            'Yes. Every migration starts with a full URL inventory and explicit HTTP 301 redirect map before launch, preserving inbound links and existing indexed pages.',
+            'Yes. Every replatforming engagement executes a rigorous zero-loss migration protocol before launch, safeguarding your accumulated search equity, inbound backlinks, and core commercial rankings.',
         },
         {
           question: 'Who owns the code and content once the site launches?',
@@ -87,8 +87,8 @@ export const countryData = {
       solutions: [
         {
           icon: '📊',
-          title: 'Consent-Clean GA4 Measurement',
-          desc: 'Practical event and funnel telemetry wired with UK privacy notice hygiene and clear attribution.',
+          title: 'Enterprise Pipeline Telemetry',
+          desc: 'High-resolution conversion tracking and attribution modeling configured with strict UK privacy compliance.',
         },
         {
           icon: '✍',
@@ -154,8 +154,8 @@ export const countryData = {
         },
         {
           icon: '◎',
-          title: 'Technical SEO Audits & Cleanup',
-          desc: 'Fixing canonical conflicts, bloated sitemaps, and metadata inheritance issues that hold back organic growth.',
+          title: 'Technical Search Architecture & Governance',
+          desc: 'Resolving search engine indexing barriers, equity dilution, and architectural conflicts holding back organic expansion.',
         },
       ],
       proofText:
@@ -174,7 +174,7 @@ export const countryData = {
         {
           question: 'What happens if our internal team takes over maintenance later?',
           answer:
-            'The repository uses standard Next.js conventions, documented environment variables, and automated prebuild SEO checks so internal developers can maintain it safely.',
+            'You receive 100% full source code ownership in your private GitHub repository, with clean architectural documentation and automated quality guardrails so internal engineering teams maintain full autonomy.',
         },
       ],
     },
@@ -382,8 +382,8 @@ export const countryData = {
         },
         {
           icon: '◎',
-          title: 'Technical SEO Hygiene',
-          desc: 'Clean canonical tags, schema validation, and non-bloated sitemaps for sustainable search indexing.',
+          title: 'Search Equity & Discovery Architecture',
+          desc: 'Deterministic indexation standards and semantic entity validation for durable, long-term search dominance.',
         },
         {
           icon: '▶',
@@ -430,7 +430,7 @@ export const countryData = {
         {
           icon: '⚡',
           title: 'Next.js Performance & Clean Code',
-          desc: 'Maintainable React architectures shipped cleanly with prebuild SEO verification.',
+          desc: 'Maintainable React architectures engineered to enterprise performance benchmarks and search-readiness standards.',
         },
         {
           icon: '◎',
@@ -486,8 +486,8 @@ export const countryData = {
         },
         {
           icon: '◎',
-          title: 'Structured Data & Technical SEO',
-          desc: 'Clean metadata, canonical URLs, and schema markup built for search accuracy.',
+          title: 'Structured Authority & Technical SEO',
+          desc: 'Semantic entity modeling and search architecture engineered for definitive answer indexing and commercial visibility.',
         },
         {
           icon: '▶',
@@ -506,7 +506,7 @@ export const countryData = {
         {
           question: 'What stack do you build on?',
           answer:
-            'Custom Next.js (App Router) with structured JSON-LD schema and clean deployment on edge hosting such as Vercel.',
+            'Modern Next.js web architecture engineered on global edge infrastructure, paired with proprietary search authority and structured data frameworks.',
         },
       ],
     },
@@ -553,7 +553,7 @@ export const countryData = {
         {
           question: 'Can you help consolidate duplicate regional or city pages?',
           answer:
-            'Yes. I audit index bloat, set up HTTP 301 consolidation rules, and refocus authority on core national and service pages.',
+            'Yes. We audit diluted indexation, execute zero-loss consolidation protocols, and refocus domain authority onto high-converting national capability hubs.',
         },
         {
           question: 'Do you support custom B2B SaaS or API documentation layouts?',
@@ -590,8 +590,8 @@ export const countryData = {
         },
         {
           icon: '◎',
-          title: 'Structured Data & Technical SEO',
-          desc: 'Accurate JSON-LD entities, clean canonicals, and non-duplicated metadata across all routes.',
+          title: 'Structured Authority & Technical SEO',
+          desc: 'Accurate semantic entities and high-integrity search architecture eliminating dilution across all routes.',
         },
         {
           icon: '▶',
