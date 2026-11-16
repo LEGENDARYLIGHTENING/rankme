@@ -46,7 +46,7 @@ export const TESTIMONIALS = [
     domain: 'https://www.probiotainnovations.com',
     linkedin: '',
     relationship: 'in-house venture',
-    consent: false,
+    consent: true,
   },
   {
     id: 'wafa-trust',
