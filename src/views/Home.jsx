@@ -264,26 +264,6 @@ export default function Home() {
             })}
           </div>
 
-                    <div className="case-showcase-card__actions">
-                      <Link href="/case-studies" className="btn btn--secondary" style={{ padding: '0.45rem 1rem', fontSize: '0.82rem' }}>
-                        View Case Study &rarr;
-                      </Link>
-                      <a
-                        href={cs.domain}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="case-showcase-card__verify-link"
-                        title={`Visit ${cs.domain}`}
-                      >
-                        Visit site &#8599;
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-
           <div style={{ textAlign: 'center', marginTop: 'var(--space-3xl)' }}>
             <Link href="/case-studies" className="btn btn--primary" style={{ padding: 'var(--space-md) var(--space-2xl)' }}>
               Explore Case Studies &rarr;
