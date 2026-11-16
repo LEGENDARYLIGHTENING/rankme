@@ -15,29 +15,9 @@ const corporateCredentials = [
 // NEEDS-MOKSH (T4): Add real scans of MSME registration, signed recommendation letter, and GA4 certificate when supplied.
 const platformsLedger = [
   {
-    title: 'WizIOT — Client Project',
+    title: 'Wafa Educational & Charitable Trust — Client Platform',
     evidence:
-      'Custom Next.js platform built for an enterprise fleet telematics and IoT hardware company serving buyers across GCC, Africa, and Europe.',
-  },
-  {
-    title: 'Atlanta Systems — Co-led for an In-House Venture',
-    evidence:
-      'AIS-140 GPS and automotive telematics manufacturing site engineered on Next.js with structured capability pages and automated RFQ capture.',
-  },
-  {
-    title: 'Medventa — Client Project',
-    evidence:
-      'Headless Next.js B2B catalog for surgical supplies and hospital procurement teams with streamlined product inquiry workflows.',
-  },
-  {
-    title: 'Probiota Innovations — Built for My Own In-House Venture',
-    evidence:
-      'Next.js B2B manufacturing and private-label nutraceutical site structured for wholesale supplement formulation inquiries.',
-  },
-  {
-    title: 'Wafa Trust — Client Project',
-    evidence:
-      'Accessible Next.js website built for a philanthropic healthcare and community development trust.',
+      'Accessible, high-performance Next.js digital platform built for a philanthropic healthcare and education trust, organizing community medical aid and donor contact pathways cleanly at wafatrustindia.org.',
   },
 ];
 

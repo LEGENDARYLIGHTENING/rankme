@@ -34,7 +34,7 @@ This is digital noise. It answers zero questions for the buyer.
 
 To achieve a **B2B website low conversion fix**, you must transition to extreme specificity. Your headline must immediately state exactly what you do, who you do it for, and the specific commercial outcome you deliver. 
 
-For example, when we repositioned [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), we eliminated all vague wellness claims. We stated clearly that they are a GMP-certified contract manufacturer delivering rapid-turnaround private label supplements to international brands. This sharp positioning was the primary driver behind generating over 50 qualified B2B leads within their first 30 days. Specificity converts; ambiguity bounces.
+For example, when we repositioned [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), we eliminated all vague wellness claims. We stated clearly that they are a GMP-certified contract manufacturer delivering rapid-turnaround private label supplements to international brands. This sharp positioning was the primary driver behind generating over 50 qualified B2B leads within their first 30 days. Specificity converts; ambiguity bounces.
 
 ### Mistake 2: Missing or Misplaced Trust Signals
 

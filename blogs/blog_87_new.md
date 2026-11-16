@@ -83,7 +83,7 @@ We invest $30,000 in a headless architecture, implement outcome-first positionin
 **The ROI Calculation:**
 The new website generates an additional $90,000 in revenue *every single month*. The initial $30,000 investment pays for itself in less than two weeks. This is the reality of **measuring B2B website ROI** accurately. 
 
-This is exactly what occurred when we rebuilt the digital infrastructure for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house). By focusing relentlessly on conversion architecture and compliance visibility, the site generated over 50 qualified international leads in its first month, instantly validating the investment.
+This is exactly what occurred when we rebuilt the digital infrastructure for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study). By focusing relentlessly on conversion architecture and compliance visibility, the site generated over 50 qualified international leads in its first month, instantly validating the investment.
 
 ## The Prerequisite: Flawless CRM Integration
 

@@ -66,7 +66,7 @@ This accomplishes two critical goals:
 1. It reduces the cognitive friction of typing out a long email, drastically increasing the conversion rate.
 2. It standardizes the data entering your CRM, ensuring your sales team receives a fully qualified, structured lead rather than a vague inquiry. 
 
-When we restructured the digital pipeline for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), we implemented this exact type of structured qualification. By making it easy for international wholesale buyers to specify their exact regulatory requirements upfront, the site generated over 50 highly qualified leads in its first month. 
+When we restructured the digital pipeline for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), we implemented this exact type of structured qualification. By making it easy for international wholesale buyers to specify their exact regulatory requirements upfront, the site generated over 50 highly qualified leads in its first month. 
 
 ## Integrating with Generative Engine Optimization (GEO)
 

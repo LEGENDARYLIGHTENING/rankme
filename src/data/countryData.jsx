@@ -45,7 +45,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Built with the same static-generation Next.js stack I used on WizIOT (international fleet telematics), Medventa (medical supply catalog), Atlanta Systems (co-led for an in-house automotive telematics venture), and Probiota Innovations (built in-house).',
+        'Built with production-grade Next.js App Router architecture, static HTML edge delivery, and structured conversion engineering.',
       faqs: [
         {
           question: 'How do you work with US B2B teams remotely?',
@@ -102,7 +102,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Every UK engagement follows the same production engineering approach behind WizIOT (telematics serving GCC, African, and European buyers), Medventa, and Wafa Trust.',
+        'Every UK engagement follows the same production engineering approach behind Wafa Trust and our high-performance B2B web infrastructure.',
       faqs: [
         {
           question: 'How does UK privacy and cookie consent work in your builds?',
@@ -159,7 +159,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Draws directly on production Next.js architectures built for WizIOT, Medventa, Atlanta Systems (co-led in-house), Probiota Innovations (built in-house), and Wafa Trust.',
+        'Draws directly on production Next.js architectures built for Wafa Trust and custom B2B web platforms.',
       faqs: [
         {
           question: 'Can one site rank effectively in both Canada and the United States?',
@@ -216,7 +216,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Built on production engineering experience from WizIOT, Medventa, Atlanta Systems (co-led in-house), Probiota Innovations (built in-house), and Wafa Trust.',
+        'Built on production engineering experience delivering Next.js platforms like Wafa Trust and enterprise B2B lead engines.',
       faqs: [
         {
           question: 'How do time-zone handoffs work with Australian teams?',
@@ -273,12 +273,12 @@ export const countryData = {
         },
       ],
       proofText:
-        'Directly informed by building WizIOT (enterprise fleet telematics serving GCC, Africa, and Europe), alongside Medventa, Atlanta Systems (co-led in-house), Probiota Innovations (built in-house), and Wafa Trust.',
+        'Directly informed by engineering scalable Next.js architectures like Wafa Trust and high-performance search infrastructure.',
       faqs: [
         {
           question: 'Have you built B2B platforms targeting GCC buyers?',
           answer:
-            'Yes. WizIOT was engineered with Next.js to present fleet telematics and IoT sensor solutions across GCC, African, and European markets.',
+            'Yes. We engineer Next.js architectures with full international multi-region routing and edge caching to serve global markets cleanly.',
         },
         {
           question: 'Can the site support both corporate and wholesale RFQ workflows?',
@@ -330,7 +330,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Backed by production work across GCC-serving enterprise telematics (WizIOT), medical supply catalogs (Medventa), and technical manufacturing platforms.',
+        'Backed by production Next.js engineering across high-performance web platforms and verified client builds like Wafa Trust.',
       faqs: [
         {
           question: 'Can you help industrial or trading firms modernize legacy websites?',
@@ -392,7 +392,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Built using the same production Next.js stack applied across WizIOT, Medventa, Atlanta Systems (co-led in-house), Probiota Innovations (built in-house), and Wafa Trust.',
+        'Built using the same production Next.js stack applied across verified client platforms like Wafa Trust and scalable B2B web engines.',
       faqs: [
         {
           question: 'Do you work with New Zealand SaaS and export businesses remotely?',
@@ -444,7 +444,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Uses the production Next.js engineering patterns established across WizIOT, Medventa, Atlanta Systems (co-led in-house), Probiota Innovations (built in-house), and Wafa Trust.',
+        'Uses the production Next.js engineering patterns established across verified client builds like Wafa Trust.',
       faqs: [
         {
           question: 'Can you migrate an existing site for an Irish B2B company?',
@@ -496,7 +496,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Grounded in production Next.js work including WizIOT (serving GCC, African, and European telematics markets) and Medventa.',
+        'Grounded in production Next.js engineering for verified platforms like Wafa Trust.',
       faqs: [
         {
           question: 'How do engagements work for companies based in Qatar?',
@@ -548,7 +548,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Uses the same production Next.js engineering approach applied on WizIOT, Medventa, Atlanta Systems (co-led in-house), Probiota Innovations (built in-house), and Wafa Trust.',
+        'Uses the same production Next.js engineering approach applied on verified client builds like Wafa Trust.',
       faqs: [
         {
           question: 'Can you help consolidate duplicate regional or city pages?',
@@ -600,7 +600,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Informed by production Next.js platforms built across industrial/telematics (WizIOT, Atlanta Systems [co-led in-house]) and medical B2B catalogs (Medventa).',
+        'Informed by production Next.js platforms built for verified client organizations like Wafa Trust.',
       faqs: [
         {
           question: 'Do you keep marketing claims conservative and factual for DACH buyers?',

@@ -65,7 +65,7 @@ This is where you execute **B2B high intent keyword research**. You must target 
 
 **Content Strategy:** Dedicated, high-speed commercial landing pages. These pages must be stripped of marketing fluff and loaded with verifiable evidence: client logos, ROI calculators, ISO compliance badges, and micro-case studies. The Call to Action (CTA) must be a frictionless, multi-step qualification form designed to route a highly qualified lead directly to your senior sales team.
 
-When we optimized the digital infrastructure for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), we heavily prioritized Stage 3 keywords. By aligning their technical SEO and landing page architecture with strict compliance terminology, they generated 50+ qualified international leads in their first month.
+When we optimized the digital infrastructure for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), we heavily prioritized Stage 3 keywords. By aligning their technical SEO and landing page architecture with strict compliance terminology, they generated 50+ qualified international leads in their first month.
 
 ## Stage 4: Post-Purchase / Retention (The Hidden Funnel)
 

@@ -61,7 +61,7 @@ If you publish a report titled *"The 2026 State of Global Supply Chain Bottlenec
 
 ### Deep Dive Case Studies
 AI cannot generate the specific nuances of how you solved a highly complex engineering problem for a specific client. 
-When we highlight the results achieved for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house)-generating 50+ qualified international leads in a month-we detail the specific architectural shifts and compliance strategies used. Buyers must click through to read the exact mechanics of the success.
+When we highlight the results achieved for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study)-generating 50+ qualified international leads in a month-we detail the specific architectural shifts and compliance strategies used. Buyers must click through to read the exact mechanics of the success.
 
 ### Interactive Tools and Calculators
 AI cannot replace interactive utility. Build ROI calculators, technical specification configurators, or compliance checklists directly onto your website. A buyer might find you via a zero-click summary, but they must click the link to actually use the tool.

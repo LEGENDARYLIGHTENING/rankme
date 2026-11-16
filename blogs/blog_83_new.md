@@ -74,7 +74,7 @@ For a detailed look at how to structure these data flows, review our guide on [I
 
 In a long sales cycle, trust is the only currency that matters. 
 
-Generic claims of "industry-leading service" degrade trust. You must replace adjectives with evidence. Your website must be saturated with verifiable proof points. When we rebuilt the digital presence for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), we aggressively highlighted their GMP certifications and exact manufacturing turnaround times. This factual transparency generated over 50 highly qualified international B2B leads in the first 30 days, proving that evidence accelerates the sales cycle.
+Generic claims of "industry-leading service" degrade trust. You must replace adjectives with evidence. Your website must be saturated with verifiable proof points. When we rebuilt the digital presence for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), we aggressively highlighted their GMP certifications and exact manufacturing turnaround times. This factual transparency generated over 50 highly qualified international B2B leads in the first 30 days, proving that evidence accelerates the sales cycle.
 
 ## Conclusion
 

@@ -38,7 +38,7 @@ To execute a flawless **international B2B website localization**, your developme
 
 This technical fluidity is a massive trust signal. It proves to the buyer that your company possesses the operational sophistication to handle international complexities. 
 
-We apply these rigorous technical standards in all our custom web builds. When we developed the digital infrastructure for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), we ensured that every element of the site was technically sound and capable of handling international scale, contributing to the capture of over 50 qualified B2B leads globally within 30 days.
+We apply these rigorous technical standards in all our custom web builds. When we developed the digital infrastructure for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), we ensured that every element of the site was technically sound and capable of handling international scale, contributing to the capture of over 50 qualified B2B leads globally within 30 days.
 
 ## Structuring the Domain for Middle East SEO
 

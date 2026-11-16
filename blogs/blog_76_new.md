@@ -46,7 +46,7 @@ Mobile users are frequently on cellular networks, dealing with fluctuating bandw
 
 Speed is the ultimate UX feature. This is why we advocate for custom React/Next.js builds over traditional monolithic CMS platforms. By decoupling the frontend and serving static assets via an edge network, your site loads instantly, even on 4G connections. 
 
-When we rebuilt the digital infrastructure for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), we prioritized lightning-fast mobile rendering. This frictionless technical foundation was instrumental in capturing over 50 qualified international B2B leads in the first month, proving that speed directly impacts the bottom line.
+When we rebuilt the digital infrastructure for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), we prioritized lightning-fast mobile rendering. This frictionless technical foundation was instrumental in capturing over 50 qualified international B2B leads in the first month, proving that speed directly impacts the bottom line.
 
 ### 3. Skimmable Data and Collapsible Specifications
 

@@ -36,7 +36,7 @@ export const nicheData = {
         },
       ],
       proofText:
-        'Built using the same static-generation Next.js patterns I applied on WizIOT (client enterprise telematics), Medventa (client medical procurement catalog), Atlanta Systems (co-led for an in-house venture), and Probiota Innovations (built in-house).',
+        'Built using the same static-generation Next.js patterns applied on verified client platforms like Wafa Trust.',
       faqs: [
         {
           question: 'Why rebuild a Webflow or WordPress SaaS site in Next.js?',

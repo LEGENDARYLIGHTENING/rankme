@@ -24,7 +24,7 @@ Furthermore, Generative Engine Optimization (GEO) and AI-driven search are chang
 
 The most common mistake when you start a wellness brand using pre-made formulas is failing to differentiate the product through branding and positioning. Because multiple companies may sell the exact same formulation, your competitive advantage must come from your marketing execution, user experience, and customer service. High-quality packaging, compelling copywriting, and a frictionless purchasing journey are non-negotiable.
 
-When selling white label supplements, your website must instantly communicate trust and premium value. Across B2B service sites and direct-to-consumer funnels, buyers often abandon carts when the brand feels generic or the checkout process is clunky. For example, [Probiota Innovations](/case-studies#probiota-case-study) (built in-house) demonstrated that a fast, conversion-focused website supports stronger B2B buyer trust. Your digital storefront must do the heavy lifting to separate your white label offering from competitors utilizing the same manufacturer.
+When selling white label supplements, your website must instantly communicate trust and premium value. Across B2B service sites and direct-to-consumer funnels, buyers often abandon carts when the brand feels generic or the checkout process is clunky. For example, [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study) demonstrated that a fast, conversion-focused website supports stronger B2B buyer trust. Your digital storefront must do the heavy lifting to separate your white label offering from competitors utilizing the same manufacturer.
 
 ## Execution and Market Launch
 

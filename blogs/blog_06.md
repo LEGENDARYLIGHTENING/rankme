@@ -46,7 +46,7 @@ Platform choice is the second major cost driver. **React website redesign** proj
 
 For a standard B2B SaaS marketing website (home, product, pricing, about, contact, and a blog) built by a specialist freelancer using React JS, expect $6,000-$12,000 in the US market in 2026, with delivery in two to four weeks. The same scope from a mid-size agency would typically be $20,000-$40,000 and take eight to twelve weeks.
 
-The [Probiota Innovations](/case-studies#probiota-case-study) project (built in-house) demonstrates how clear positioning before development streamlines delivery. That was possible because the strategy was clear before development started, the component architecture was pre-planned, and there was no agency overhead or multi-team coordination slowing the process.
+The [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study) project (built in-house) demonstrates how clear positioning before development streamlines delivery. That was possible because the strategy was clear before development started, the component architecture was pre-planned, and there was no agency overhead or multi-team coordination slowing the process.
 
 **Website redesign timeline** is closely correlated with cost. Longer timelines mean more meetings, more revision cycles, and more opportunity for scope creep - all of which add to the final invoice. A specialist who starts with a clear brief and a defined component architecture can deliver a high-converting React SaaS website in a fraction of the time an agency takes, at a fraction of the cost.
 
@@ -64,7 +64,7 @@ Actionable questions to ask before commissioning a redesign:
 
 I deliver B2B SaaS website redesigns that combine conversion strategy, React JS development, and SEO/GEO architecture into a single engagement - at freelance rates, not agency overhead. The process starts with a conversion audit of the existing site, identifying exactly what's preventing demo requests and what the redesigned site needs to fix.
 
-Every redesign is built in React JS with Next.js, structured for both traditional SEO and AI search citation, and optimized for Core Web Vitals performance that matches or exceeds the benchmarks buyers expect in 2026. The Probiota Innovations result - a full B2B React JS site generating qualified leads from launch - represents the standard every project is held to.
+Every redesign is built in React JS with Next.js, structured for both traditional SEO and AI search citation, and optimized for Core Web Vitals performance that matches or exceeds the benchmarks buyers expect in 2026. The Wafa Educational & Charitable Trust result - a full B2B React JS site generating qualified leads from launch - represents the standard every project is held to.
 
 If you're planning a SaaS website redesign and want to understand what a specialist engagement would look like - scope, timeline, investment, and expected conversion outcomes - a free 30-minute growth audit with me is the fastest way to get a clear picture.
 

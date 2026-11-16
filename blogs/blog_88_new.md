@@ -45,7 +45,7 @@ When you analyze a high-converting B2B SaaS or manufacturing site, you will see 
 - **Micro-Case Studies:** Single-sentence metrics (e.g., *"How Client X increased output by 40% in 30 days"*) injected directly into capability pages.
 - **Compliance Badges:** ISO, SOC 2, and FDA badges prominently displayed in the footer and on checkout/lead forms to reduce last-minute anxiety.
 
-When we overhauled [Probiota Innovations](/case-studies#probiota-case-study) (built in-house)' digital strategy, we moved their GMP and FDA compliance data to the forefront of the user journey. This factual transparency was the primary catalyst for generating over 50 qualified international wholesale leads in their first month.
+When we overhauled [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study)' digital strategy, we moved their GMP and FDA compliance data to the forefront of the user journey. This factual transparency was the primary catalyst for generating over 50 qualified international wholesale leads in their first month.
 
 ## Teardown 3: Architectural Speed and Headless CMS
 

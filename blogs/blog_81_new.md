@@ -48,7 +48,7 @@ Enterprise buyers are highly skeptical. When they evaluate your digital presence
 
 Custom architecture allows for precise **custom website B2B outcomes**. You can build dynamic, multi-step qualification forms that change based on the user's input. You can integrate complex, interactive product configuration tools that would break a standard template. 
 
-When Rankur completely rebuilt the digital infrastructure for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), we abandoned their old template entirely. We engineered a custom React frontend that prioritized their FDA compliance badges and GMP certifications above the fold, while implementing a strategic, multi-step wholesale inquiry matrix. The result? Over 50 highly qualified international B2B leads generated in the first month. The investment in custom architecture paid for itself in a matter of weeks through a massive increase in pipeline velocity.
+When Rankur completely rebuilt the digital infrastructure for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), we abandoned their old template entirely. We engineered a custom React frontend that prioritized their FDA compliance badges and GMP certifications above the fold, while implementing a strategic, multi-step wholesale inquiry matrix. The result? Over 50 highly qualified international B2B leads generated in the first month. The investment in custom architecture paid for itself in a matter of weeks through a massive increase in pipeline velocity.
 
 ### Generative Engine Optimization (GEO) Readiness
 

@@ -73,7 +73,7 @@ These pages must move beyond language translation and focus on logistical locali
 - **Regional Compliance:** Highlight the specific certifications required for their market (e.g., CE marking for Europe, FDA compliance for the US). 
 - **Regional Proof:** If you have existing clients in their country, feature those case studies prominently on that specific localized page.
 
-When we developed the digital architecture for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), we focused heavily on validating their facility's compliance standards for foreign buyers. By structuring their export capabilities clearly and prominently, they were able to generate 50+ qualified international leads in their first month, proving that clear logistical positioning drives conversion. 
+When we developed the digital architecture for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), we focused heavily on validating their facility's compliance standards for foreign buyers. By structuring their export capabilities clearly and prominently, they were able to generate 50+ qualified international leads in their first month, proving that clear logistical positioning drives conversion. 
 
 For a deeper dive into structuring international sites, review our blueprint on [B2B Website Architecture for International Markets](/blog/b2b-website-architecture-international-markets).
 

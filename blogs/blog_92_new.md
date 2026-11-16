@@ -68,7 +68,7 @@ AI engines rely on perfect mathematical structure to understand the context of a
 
 ## Execution is the Differentiator
 
-When we built the digital infrastructure for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), the focus wasn't just on beautiful design. We executed a rigorous technical SEO framework, prioritizing sub-second load times and flawless schema markup. This technical perfection allowed search engines to instantly understand their value proposition, resulting in 50+ highly qualified international leads within the first 30 days.
+When we built the digital infrastructure for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), the focus wasn't just on beautiful design. We executed a rigorous technical SEO framework, prioritizing sub-second load times and flawless schema markup. This technical perfection allowed search engines to instantly understand their value proposition, resulting in 50+ highly qualified international leads within the first 30 days.
 
 Technical SEO is not a one-time task; it is an ongoing standard of engineering excellence. If your B2B website is failing this checklist, you are actively blocking enterprise buyers from finding you. 
 

@@ -62,7 +62,7 @@ Case studies are the ultimate proof of "Experience."
 
 Do not hide them. If you want a service page to rank for "Enterprise React Development," that page must contain a micro-case study detailing exactly how you executed that service for a recognizable client. 
 
-When we architected the digital presence for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), we aggressively highlighted their real-world manufacturing metrics and FDA compliance standards. This verifiable proof of expertise was a massive trust signal to both Google and human buyers, directly leading to 50+ qualified international leads in their first month.
+When we architected the digital presence for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), we aggressively highlighted their real-world manufacturing metrics and FDA compliance standards. This verifiable proof of expertise was a massive trust signal to both Google and human buyers, directly leading to 50+ qualified international leads in their first month.
 
 ### Strategy 4: Digital PR for Authoritativeness
 To build the "A" in E-E-A-T, you need other authoritative sites to vouch for you. 

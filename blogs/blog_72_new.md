@@ -32,7 +32,7 @@ In consumer e-commerce, a slow website costs you a $50 sale. In B2B, a slow webs
 
 Enterprise buyers associate digital speed with operational competence. If a UK procurement officer has to wait four seconds for your product catalogue to render, they will assume your logistics and supply chain are equally sluggish. A headless architecture deployed on a global CDN ensures sub-second load times worldwide, providing the instantaneous, premium experience that enterprise buyers expect.
 
-We implemented this exact high-performance, React-based architecture when executing the digital strategy for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house). By prioritizing speed and structural clarity for an international wholesale audience, the site was able to capture high-intent traffic, generating over 10 qualified B2B leads in the very first 10 days post-launch. That is the commercial impact of proper technical architecture.
+We implemented this exact high-performance, React-based architecture when executing the digital strategy for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study). By prioritizing speed and structural clarity for an international wholesale audience, the site was able to capture high-intent traffic, generating over 10 qualified B2B leads in the very first 10 days post-launch. That is the commercial impact of proper technical architecture.
 
 ## Structuring the International B2B Website Structure
 

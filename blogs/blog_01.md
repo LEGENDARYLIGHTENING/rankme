@@ -48,7 +48,7 @@ Load speed kills intent. A **React website for SaaS** loads in under 1.5 seconds
 
 A high-converting **B2B SaaS website** needs five structural elements to drive demo bookings: a pain-led hero with a specific outcome-based headline; social proof positioned before the first CTA, not after; a features section that frames each feature as a benefit to a specific buyer persona; a friction-reduced demo booking flow (Calendly embedded, not linked); and a second CTA mid-page that catches buyers who scroll past the hero but aren't ready to commit yet.
 
-This is the same conversion architecture applied to [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), prioritizing buyer clarity and fast performance from launch. The speed of the build didn't compromise quality because the structure was planned before a single line of code was written. Conversion architecture came first. Design served strategy. That sequence is what separates a specialist from a generalist.
+This is the same conversion architecture applied to [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), prioritizing buyer clarity and fast performance from launch. The speed of the build didn't compromise quality because the structure was planned before a single line of code was written. Conversion architecture came first. Design served strategy. That sequence is what separates a specialist from a generalist.
 
 ---
 
@@ -74,7 +74,7 @@ Actionable takeaways for any SaaS founder evaluating their website:
 
 I am Moksh Parjapati, a B2B growth consultant specializing in building high-converting React JS websites for SaaS startups across the United States and other English-speaking markets. The work isn't just development - it's conversion strategy, SEO architecture, and GEO readiness built into every site from the ground up.
 
-The [Probiota Innovations case study](/case-studies#probiota-case-study) (built in-house) illustrates how clear B2B positioning and fast architecture support lead generation. I work with early-stage SaaS teams who need a website that performs, not just one that looks good in a Loom recording.
+The [Wafa Educational & Charitable Trust case study](/case-studies#wafa-case-study) illustrates how clear B2B positioning and fast architecture support lead generation. I work with early-stage SaaS teams who need a website that performs, not just one that looks good in a Loom recording.
 
 If your current website isn't producing demo requests at a rate that makes your growth targets realistic, the problem is almost always structural - and it's fixable. I offer a free 30-minute growth audit where I review your current website against conversion best practices and identify the highest-impact changes you can make, whether you work together or not.
 
@@ -96,7 +96,7 @@ If your demo calendar isn't filling the way your product deserves, the website i
 A specialist SaaS website development agency understands B2B buyer psychology, not just design trends. They build conversion architecture - hero sections that lead with outcomes, trust signals placed strategically, CTAs embedded in the buyer's decision flow - rather than just producing a visually polished site. They also tend to build with React JS for performance advantages that directly affect SEO and conversion rates.
 
 **How long does it take to build a high-converting SaaS website?**
-Timeline varies based on scope, but a focused specialist can deliver a high-converting SaaS website faster than most generalist agencies. The [Probiota Innovations case study](/case-studies#probiota-case-study) (built in-house) illustrates how pre-planned component architecture speeds up delivery. Speed is a function of clear strategy before development begins.
+Timeline varies based on scope, but a focused specialist can deliver a high-converting SaaS website faster than most generalist agencies. The [Wafa Educational & Charitable Trust case study](/case-studies#wafa-case-study) illustrates how pre-planned component architecture speeds up delivery. Speed is a function of clear strategy before development begins.
 
 **What is a good demo request conversion rate for a B2B SaaS website?**
 If your organic traffic is not converting into qualified demo requests, the root cause is usually messaging clarity, CTA placement, proof structure, or page speed - all of which are directly addressable through a structured website audit.

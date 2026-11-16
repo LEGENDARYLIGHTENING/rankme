@@ -12,7 +12,7 @@ import './Home.css';
 
 const proofItems = [
   { value: 'Next.js 16', label: 'Static & App Router Architecture' },
-  { value: '5 Platforms', label: 'Client Work & In-House Ventures' },
+  { value: 'Live Platform', label: 'Wafa Educational Trust' },
   { value: 'GA4 Certified', label: 'Consent-Clean Event Telemetry' },
   { value: '100%', label: 'Client Codebase Ownership' },
   { value: 'Direct', label: 'Founder-Led Execution' },
@@ -20,71 +20,20 @@ const proofItems = [
 
 const portfolioShowcases = [
   {
-    id: 'wiziot',
+    id: 'wafa-trust',
     ownership: 'Client Project',
-    tag: 'IoT Telematics & Hardware',
-    title: 'WizIOT: Enterprise Fleet Telematics Platform',
-    domain: 'https://www.wiziot.com',
-    badge: 'Client Project · Next.js 16',
-    image: '/case-studies/wiziot.webp',
-    alt: 'WizIOT website desktop homepage screenshot',
+    tag: 'Philanthropic Healthcare & Education',
+    title: 'Wafa Educational & Charitable Trust',
+    domain: 'https://www.wafatrustindia.org/',
+    badge: 'Client Project · Next.js Web Architecture',
+    image: null,
+    alt: 'Wafa Educational And Charitable Trust platform',
     description:
-      'Custom Next.js App Router platform structured for enterprise fleet telematics and IoT hardware buyers across GCC, Africa, and Europe.',
+      'Engineered a clean, accessible Next.js web platform for a philanthropic healthcare and education trust, organizing community initiatives, health aid documentation, and donor contact pathways.',
     architecturalNotes: [
       { value: 'Next.js 16', label: 'App Router' },
-      { value: 'Static HTML', label: 'Edge Delivery' },
-      { value: 'RFQ Flows', label: 'Buyer Capture' },
-    ],
-  },
-  {
-    id: 'atlanta-systems',
-    ownership: 'Co-led for an in-house venture',
-    tag: 'Automotive Manufacturing',
-    title: 'Atlanta Systems: AIS-140 GPS Hardware Infrastructure',
-    domain: 'https://www.atlantasys.com',
-    badge: 'Co-led for an in-house venture · Next.js 16',
-    image: null, // NEEDS-MOKSH (C4): Domain behind Cloudflare bot verification; add real approved desktop screenshot.
-    alt: 'Atlanta Systems platform preview placeholder',
-    description:
-      'Co-led and architected for an in-house automotive telematics venture covering AIS-140 hardware specifications and commercial RFQ workflows.',
-    architecturalNotes: [
-      { value: 'Next.js 16', label: 'Custom Build' },
-      { value: 'AIS-140', label: 'Product Specs' },
-      { value: 'RFQ Pipeline', label: 'Procurement Forms' },
-    ],
-  },
-  {
-    id: 'medventa',
-    ownership: 'Client Project',
-    tag: 'B2B Healthcare Commerce',
-    title: 'Medventa: Surgical Supplies & Hospital Catalog',
-    domain: 'https://www.medventa.in',
-    badge: 'Client Project · Next.js 14',
-    image: '/case-studies/medventa.webp',
-    alt: 'Medventa surgical supplies website homepage screenshot',
-    description:
-      'Custom Next.js headless medical procurement catalog presenting surgical sutures and hospital consumables with direct institutional quote requests.',
-    architecturalNotes: [
-      { value: 'Next.js 14', label: 'Headless Stack' },
-      { value: 'SKU Catalog', label: 'Structured Specs' },
-      { value: 'Bulk RFQ', label: 'Hospital Inquiry' },
-    ],
-  },
-  {
-    id: 'probiota',
-    ownership: 'Built in-house',
-    tag: 'Nutraceutical CDMO',
-    title: 'Probiota Innovations: Probiotic & Gummy CDMO',
-    domain: 'https://www.probiotainnovations.com',
-    badge: 'Built in-house · Next.js 16',
-    image: '/case-studies/probiota.webp',
-    alt: 'Probiota Innovations CDMO website homepage screenshot',
-    description:
-      'Engineered for my own in-house nutraceutical venture to present dosage capabilities, regulatory documentation, and wholesale manufacturing inquiries.',
-    architecturalNotes: [
-      { value: 'Next.js 16', label: 'Static Architecture' },
-      { value: 'CDMO Docs', label: 'MOQ & Compliance' },
-      { value: 'Wholesale', label: 'Buyer Capture' },
+      { value: 'Accessible', label: 'Mobile-First UI' },
+      { value: 'Live Platform', label: 'wafatrustindia.org' },
     ],
   },
 ];
@@ -133,11 +82,10 @@ const capabilities = [
 ];
 
 const niches = [
-  { label: 'Fleet Telematics & IoT Hardware', to: '/case-studies#wiziot-case-study' },
-  { label: 'Automotive & AIS-140 Hardware', to: '/case-studies#atlanta-case-study' },
-  { label: 'B2B Medical Supplies & Hospitals', to: '/case-studies#medventa-case-study' },
-  { label: 'Nutraceutical & Wellness CDMO', to: '/case-studies#probiota-case-study' },
-  { label: 'B2B SaaS & Software Teams', to: '/saas-websites' },
+  { label: 'Healthcare & Philanthropic Web Platforms', to: '/case-studies#wafa-case-study' },
+  { label: 'B2B SaaS & Tech Platforms', to: '/saas-websites' },
+  { label: 'Enterprise Web & Technical SEO', to: '/services' },
+  { label: 'High-Intent B2B Lead Funnels', to: '/free-audit' },
 ];
 
 const processSteps = [
@@ -238,43 +186,44 @@ export default function Home() {
       <section className="case-teaser" id="case-teaser">
         <div className="container">
           <div className="case-teaser__header">
-            <p className="section-label">Platforms I&apos;ve Built</p>
-            <h2 className="section-title">Client Builds &amp; In-House Ventures</h2>
+            <p className="section-label">Featured Client Build</p>
+            <h2 className="section-title">Production Web Architecture</h2>
             <p className="section-subtitle">
-              Production websites built with Next.js, clearly labeled by client vs. in-house venture relationship.
+              Accessible digital infrastructure engineered with Next.js and high-performance frontend architecture.
             </p>
           </div>
 
-          <div className="case-teaser__showcase-grid">
+          <div className="case-teaser__showcase-grid" style={{ gridTemplateColumns: 'minmax(320px, 780px)', justifyContent: 'center' }}>
             {portfolioShowcases.map((cs) => {
-              const psi = psiMetrics[cs.id];
               return (
-                <div key={cs.id} className="case-showcase-card">
-                  <div className="case-showcase-card__image-wrap">
-                    {cs.image ? (
-                      <img src={cs.image} alt={cs.alt} width={1200} height={750} loading="lazy" />
-                    ) : (
-                      <div
-                        style={{
-                          width: '100%',
-                          height: '100%',
-                          background: 'linear-gradient(135deg, #12151c 0%, #1c222e 100%)',
-                          display: 'flex',
-                          flexDirection: 'column',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          padding: '1.5rem',
-                          textAlign: 'center',
-                        }}
-                      >
-                        <span style={{ color: 'var(--color-gold)', fontWeight: 700, fontSize: '1.15rem' }}>
-                          Atlanta Systems
-                        </span>
-                        <span style={{ color: 'var(--color-text-muted)', fontSize: '0.82rem', marginTop: '0.35rem' }}>
-                          Screenshot pending (Cloudflare check on automated capture)
-                        </span>
-                      </div>
-                    )}
+                <div key={cs.id} className="case-showcase-card" style={{ maxWidth: '780px', margin: '0 auto', width: '100%' }}>
+                  <div className="case-showcase-card__image-wrap" style={{ minHeight: '200px' }}>
+                    <div
+                      style={{
+                        width: '100%',
+                        height: '100%',
+                        minHeight: '200px',
+                        background: 'linear-gradient(135deg, #0e1218 0%, #1a2230 100%)',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        padding: '2rem',
+                        textAlign: 'center',
+                      }}
+                    >
+                      <img
+                        src="/wafa-trust-logo.jpeg"
+                        alt="Wafa Educational And Charitable Trust logo"
+                        style={{ width: '84px', height: '84px', objectFit: 'contain', borderRadius: '8px', marginBottom: '1rem' }}
+                      />
+                      <span style={{ color: 'var(--color-gold)', fontWeight: 700, fontSize: '1.25rem' }}>
+                        Wafa Educational &amp; Charitable Trust
+                      </span>
+                      <span style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', marginTop: '0.35rem' }}>
+                        Live Web Platform · https://www.wafatrustindia.org/
+                      </span>
+                    </div>
                     <span className="case-showcase-card__badge-pill">{cs.badge}</span>
                   </div>
                   <div className="case-showcase-card__body">
@@ -291,11 +240,29 @@ export default function Home() {
                       ))}
                     </div>
 
-                    {psi?.ok && (
-                      <p style={{ fontSize: '0.78rem', color: 'var(--color-text-muted)', marginTop: '0.5rem' }}>
-                        Mobile Score: {psi.performanceScore}/100 · LCP {psi.lcp} · ({psi.caption})
-                      </p>
-                    )}
+                    <div style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+                      <a
+                        href={cs.domain}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn--secondary"
+                        style={{ fontSize: '0.88rem' }}
+                      >
+                        Visit Live Platform &rarr;
+                      </a>
+                      <Link
+                        href="/case-studies#wafa-case-study"
+                        className="btn btn--outline"
+                        style={{ fontSize: '0.88rem' }}
+                      >
+                        Read Case Study &rarr;
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
 
                     <div className="case-showcase-card__actions">
                       <Link href="/case-studies" className="btn btn--secondary" style={{ padding: '0.45rem 1rem', fontSize: '0.82rem' }}>

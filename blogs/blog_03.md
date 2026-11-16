@@ -58,7 +58,7 @@ Beyond raw performance, a **React JS SaaS website** enables conversion architect
 
 Embedded demo booking flows - a Calendly or custom scheduling component that loads inline without a redirect, reducing friction in the booking process. Interactive pricing calculators that let buyers self-qualify before they speak to sales. Feature comparison modules that dynamically update based on buyer persona selection. Social proof blocks that pull live data from review platforms via API. None of these are impossible in WordPress or Webflow, but all of them require workarounds that hurt performance.
 
-The Probiota Innovations project demonstrates this in concrete terms. A custom React build structured cleanly around buyer decision paths. The speed of delivery was possible because the architecture was planned before development began, and React's component model allowed rapid assembly of pre-built, tested components into a production-ready site. No plugin conflicts. No theme limitations. No performance debt.
+The Wafa Educational & Charitable Trust project demonstrates this in concrete terms. A custom React build structured cleanly around buyer decision paths. The speed of delivery was possible because the architecture was planned before development began, and React's component model allowed rapid assembly of pre-built, tested components into a production-ready site. No plugin conflicts. No theme limitations. No performance debt.
 
 Actionable takeaways for SaaS founders evaluating their website platform:
 
@@ -74,7 +74,7 @@ Actionable takeaways for SaaS founders evaluating their website platform:
 
 I build custom React JS websites for SaaS startups across the United States and Canada that are designed to convert from day one. The builds aren't just technically clean - they're structured around the conversion architecture that drives demo requests, trial signups, and qualified pipeline.
 
-Every project starts with an understanding of the buyer: who they are, what they need to see, and how the website needs to be structured to move them from first visit to demo booking. The development follows the strategy, not the other way around. That sequence is what makes fast builds like the Probiota Innovations project possible without sacrificing performance or conversion quality.
+Every project starts with an understanding of the buyer: who they are, what they need to see, and how the website needs to be structured to move them from first visit to demo booking. The development follows the strategy, not the other way around. That sequence is what makes fast builds like the Wafa Educational & Charitable Trust project possible without sacrificing performance or conversion quality.
 
 If your current website is built on a platform that's limiting your growth - or if you're starting fresh and want to build it right the first time - I offer a free 30-minute growth audit where I'll assess your current setup and map out what a high-performance React alternative would look like for your specific situation.
 
@@ -96,7 +96,7 @@ If you're ready to understand exactly what a custom React website would do for y
 For a SaaS startup focused on performance, conversion, and custom functionality, React JS outperforms WordPress consistently. WordPress introduces plugin dependencies, theme limitations, and performance overhead that requires constant management. React JS with Next.js achieves higher Core Web Vitals scores by default, supports complex custom components without workarounds, and scales more cleanly as your site and product evolve.
 
 **How fast can a custom React SaaS website be built?**
-Timeline depends on scope and complexity, but a focused, conversion-optimized React JS SaaS website can be built faster than most founders expect. The [Probiota Innovations case study](/case-studies#probiota-case-study) (built in-house) shows what focused component architecture makes possible. Larger projects with more pages and custom functionality typically take 1-3 weeks. The key is having a clear strategy and component architecture planned before development begins.
+Timeline depends on scope and complexity, but a focused, conversion-optimized React JS SaaS website can be built faster than most founders expect. The [Wafa Educational & Charitable Trust case study](/case-studies#wafa-case-study) shows what focused component architecture makes possible. Larger projects with more pages and custom functionality typically take 1-3 weeks. The key is having a clear strategy and component architecture planned before development begins.
 
 **Does React JS actually improve SEO for SaaS websites?**
 Yes, meaningfully. A well-built React site using Next.js achieves stronger Core Web Vitals scores, cleaner semantic HTML output, and better crawlability than WordPress sites with equivalent content. These technical SEO advantages compound over time into better rankings for competitive SaaS keywords. Google's algorithm treats page experience signals as ranking factors, and React-powered sites consistently outperform CMS-based alternatives on those signals.

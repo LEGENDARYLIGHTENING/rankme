@@ -68,7 +68,7 @@ Executing this level of personalization requires a modern digital infrastructure
 
 Dynamic content requires a headless architecture (like React or Next.js) paired with an edge network. The personalization logic is executed at the edge server closest to the user, ensuring that the personalized page renders in under a second. 
 
-When we executed the digital strategy for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), the focus was entirely on contextual relevance for international B2B buyers. By ensuring that the right compliance data and product specifications were immediately visible to the right regional audience, the infrastructure generated over 50 qualified wholesale leads in its first month. Contextual relevance drives conversion.
+When we executed the digital strategy for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), the focus was entirely on contextual relevance for international B2B buyers. By ensuring that the right compliance data and product specifications were immediately visible to the right regional audience, the infrastructure generated over 50 qualified wholesale leads in its first month. Contextual relevance drives conversion.
 
 ## Avoiding the "Creepy" Factor
 

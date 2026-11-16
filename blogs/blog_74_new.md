@@ -50,7 +50,7 @@ In B2B, speed is a trust signal. If your site is sluggish, the enterprise buyer 
 
 A headless architecture ensures that your site loads almost instantaneously, regardless of whether the buyer is in London, Dubai, or New York. This immediate rendering drastically reduces bounce rates and keeps the buyer engaged in your conversion funnel. 
 
-For example, when we rebuilt the digital infrastructure for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), we moved them off a slow, template-based system and built a custom React frontend. The resulting speed improvements didn't just boost their technical SEO; it provided a frictionless user experience that directly contributed to generating over 50 qualified B2B leads in their first month. Speed translates directly to revenue.
+For example, when we rebuilt the digital infrastructure for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), we moved them off a slow, template-based system and built a custom React frontend. The resulting speed improvements didn't just boost their technical SEO; it provided a frictionless user experience that directly contributed to generating over 50 qualified B2B leads in their first month. Speed translates directly to revenue.
 
 ### 2. Bulletproof Security for Enterprise Trust
 

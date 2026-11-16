@@ -324,12 +324,11 @@ async function runPrebuildChecks() {
   const trustBarSrc = fs.readFileSync(path.join(rootDir, 'src/components/ClientTrustBar.jsx'), 'utf8');
   const homeSrc = fs.readFileSync(path.join(rootDir, 'src/views/Home.jsx'), 'utf8');
   for (const [lbl, txt] of [['Home.jsx', homeSrc], ['CaseStudies.jsx', caseStudiesSrc], ['ClientTrustBar.jsx', trustBarSrc]]) {
-    if (!/Co-led for an in-house venture/i.test(txt)) fail(`[C1] Missing Atlanta Systems in-house disclosure in ${lbl}`);
-    if (!/in-house/i.test(txt)) fail(`[C1] Missing Probiota in-house disclosure in ${lbl}`);
+    if (!/Wafa/i.test(txt)) fail(`[C1] Missing Wafa Trust featured platform in ${lbl}`);
   }
-  for (const shot of ['wiziot.webp', 'medventa.webp', 'probiota.webp']) {
-    if (!fs.existsSync(path.join(rootDir, 'public/case-studies', shot))) {
-      fail(`[C4] Missing real case-study screenshot: public/case-studies/${shot}`);
+  for (const shot of ['wafa-trust-logo.jpeg']) {
+    if (!fs.existsSync(path.join(rootDir, 'public', shot))) {
+      fail(`[C4] Missing client asset: public/${shot}`);
     }
   }
 

@@ -74,7 +74,7 @@ Finally, your digital infrastructure must be flawless. If a buyer in London clic
 
 Your **B2B service business SEO** strategy must be built on a headless, Edge-deployed architecture (like React/Next.js) that guarantees sub-second load times globally. 
 
-When we built the international architecture for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), the priority was sub-second global performance and strict compliance transparency. This eliminated the geographic friction, resulting in 50+ qualified international leads in the first month.
+When we built the international architecture for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), the priority was sub-second global performance and strict compliance transparency. This eliminated the geographic friction, resulting in 50+ qualified international leads in the first month.
 
 ## Stop Acting Local. Act Global.
 

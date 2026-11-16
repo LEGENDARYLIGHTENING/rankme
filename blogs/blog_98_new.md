@@ -64,7 +64,7 @@ You cannot execute this level of granular tracking on a broken digital foundatio
 
 If your website relies on outdated analytics plugins or fails to pass behavioral data via API to your CRM, you will suffer from "attribution leakage." You will close a massive enterprise deal, but you won't know that it originated from a specific SEO-optimized blog post six months ago. 
 
-This is why we engineer custom, headless web applications for our clients. By ensuring lightning-fast load times and flawless data integration between the frontend and the CRM, we guarantee accurate attribution. When we built the digital pipeline for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), the focus was entirely on generating verifiable, trackable international wholesale leads, completely ignoring vanity traffic metrics.
+This is why we engineer custom, headless web applications for our clients. By ensuring lightning-fast load times and flawless data integration between the frontend and the CRM, we guarantee accurate attribution. When we built the digital pipeline for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), the focus was entirely on generating verifiable, trackable international wholesale leads, completely ignoring vanity traffic metrics.
 
 For the exact technical requirements needed to support this infrastructure, review our [Technical SEO Checklist for B2B Websites](/blog/technical-seo-checklist-b2b-websites-enterprise).
 

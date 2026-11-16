@@ -52,7 +52,7 @@ You cannot fake expertise in 2026. Your **B2B SEO qualified leads** strategy mus
 - **Author Bios:** Every piece of content must be authored by a recognized expert in your company (e.g., your Lead Engineer or Founder), backed by robust Person Schema markup.
 - **Embedded Proof:** Stop isolating case studies. If you are trying to rank a page for "Enterprise SaaS Implementation," you must embed a micro-case study directly on that page detailing exactly how you implemented your software for a Fortune 500 client. 
 
-When we executed the digital positioning for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), we didn't just target "supplement manufacturing." We targeted compliance-heavy keywords and saturated the pages with their FDA and GMP certifications. This strict adherence to E-E-A-T principles generated over 50 qualified international leads in their first month.
+When we executed the digital positioning for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), we didn't just target "supplement manufacturing." We targeted compliance-heavy keywords and saturated the pages with their FDA and GMP certifications. This strict adherence to E-E-A-T principles generated over 50 qualified international leads in their first month.
 
 ## Step 3: Generative Engine Optimization (GEO)
 

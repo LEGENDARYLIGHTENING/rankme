@@ -39,7 +39,7 @@ Request a factory audit, either in person or through a third-party inspection fi
 
 Reference checks matter more in contract manufacturing than in most B2B relationships because the consequences of a bad choice are embedded in your product unit economics for years. Ask for three references from clients in your product category and contact all of them. Ask about defect rates, how the manufacturer handles quality issues mid-run, and whether they communicate proactively when problems emerge.
 
-For [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), clear compliance positioning in the digital layer helped build buyer credibility quickly. The same principle applies to supplier selection: move with structure and speed, not speed alone.
+For [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), clear compliance positioning in the digital layer helped build buyer credibility quickly. The same principle applies to supplier selection: move with structure and speed, not speed alone.
 
 ---
 

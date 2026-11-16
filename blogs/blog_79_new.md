@@ -64,7 +64,7 @@ This page should detail:
 - Your infrastructure partners (e.g., AWS, Vercel, Cloudflare) and their compliance postures.
 - How you handle and protect client IP and manufacturing data.
 
-By proactively addressing these concerns, you eliminate cognitive friction for the buyer and preemptively answer the questions their legal team is going to ask. We applied this exact strategy when positioning [Probiota Innovations](/case-studies#probiota-case-study) (built in-house) as a low-risk partner for international wholesale buyers, heavily emphasizing their FDA compliance and facility standards directly in the user journey.
+By proactively addressing these concerns, you eliminate cognitive friction for the buyer and preemptively answer the questions their legal team is going to ask. We applied this exact strategy when positioning [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study) as a low-risk partner for international wholesale buyers, heavily emphasizing their FDA compliance and facility standards directly in the user journey.
 
 ## The Cost of Non-Compliance
 

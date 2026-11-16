@@ -57,7 +57,7 @@ The secret to sub-second load times is headless architecture. By decoupling your
 
 Instead, your site is pre-rendered into static files and distributed globally via a Content Delivery Network (CDN) like Vercel or Cloudflare. When a buyer in Dubai requests a page, it is served instantly from a local edge node, rather than making a round-trip query to a database in New York. 
 
-We utilize this exact high-performance stack for all our clients. When we developed the digital infrastructure for [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), the transition to a modern React architecture guaranteed instantaneous global load times. This frictionless experience was a core component in capturing over 50 qualified international B2B leads within their first month of launch.
+We utilize this exact high-performance stack for all our clients. When we developed the digital infrastructure for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), the transition to a modern React architecture guaranteed instantaneous global load times. This frictionless experience was a core component in capturing over 50 qualified international B2B leads within their first month of launch.
 
 For a deeper dive into this infrastructure, read our analysis on [Headless CMS vs Traditional for B2B Websites](/blog/headless-cms-vs-traditional-for-b2b-websites).
 

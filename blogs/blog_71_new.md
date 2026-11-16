@@ -35,7 +35,7 @@ Beautiful design does not generate **qualified leads**. Strategic positioning do
 
 Before a single line of code is written in React or Next.js, the messaging architecture must be locked in. You must transition from describing *what you do* to defining *the specific financial or operational outcome you deliver*. 
 
-For example, when architecting [Probiota Innovations](/case-studies#probiota-case-study) (built in-house), we didn't just build a visually appealing site. We positioned them as the lowest-risk, highest-compliance manufacturing partner for international wholesale buyers. By focusing the architecture on regulatory transparency and rapid quote turnarounds, the new site generated over 10 qualified international wholesale inquiries within the first 10 days of launch, ultimately scaling to 50+ verified B2B opportunities in the first month.
+For example, when architecting [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), we didn't just build a visually appealing site. We positioned them as the lowest-risk, highest-compliance manufacturing partner for international wholesale buyers. By focusing the architecture on regulatory transparency and rapid quote turnarounds, the new site generated over 10 qualified international wholesale inquiries within the first 10 days of launch, ultimately scaling to 50+ verified B2B opportunities in the first month.
 
 This is the power of positioning translated into digital infrastructure.
 

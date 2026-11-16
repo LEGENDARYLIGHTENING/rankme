@@ -47,7 +47,7 @@ Use a skimmable, highly structured layout (like an accordion or a tabbed interfa
 ### 4. Contextual Case Studies
 Do not link away to a separate case study page. Embed a micro-case study directly on the landing page. If this is a landing page for "Aerospace Manufacturing," embed a specific example of how you solved a tolerance issue for an aerospace client. 
 
-For a real-world example of how we structure contextual evidence, review our case study on [How [Probiota Innovations](/case-studies#probiota-case-study) (built in-house)' Website Generated Qualified Leads](/blog/case-study-probiota-innovations-website-leads). 
+For a real-world example of how we structure contextual evidence, review our case study on [How B2B Growth Infrastructure Generates Qualified Leads](/blog/case-study-b2b-growth-infrastructure-leads). 
 
 ### 5. The Friction-Based Qualification Form
 At the bottom of the page (and accessible via sticky navigation), present your lead capture mechanism. 
