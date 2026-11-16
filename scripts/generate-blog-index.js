@@ -222,6 +222,18 @@ const blogIndex = files.map((filename) => {
   const primaryKeyword = (data['Primary Keyword'] || title).trim();
   const lane = classifyLane(taxInfo.tag, title, primaryKeyword, content);
 
+  let blogImage = taxInfo.image;
+  const numMatch = filename.match(/^blog_0*(\d+)(?:_new)?\.md$/);
+  if (numMatch) {
+    const num = parseInt(numMatch[1], 10);
+    if (num >= 1 && num <= 120) {
+      const candidate = `/blog-images/prompt-${num}.webp`;
+      if (fs.existsSync(path.join(rootDir, 'public', candidate))) {
+        blogImage = candidate;
+      }
+    }
+  }
+
   return {
     filename,
     title,
@@ -237,7 +249,7 @@ const blogIndex = files.map((filename) => {
     wordCount,
     excerpt: cleanExcerpt,
     slug: data.Slug || data.slug || filename.replace('.md', ''),
-    image: taxInfo.image,
+    image: blogImage,
     imageWidth: 1200,
     imageHeight: 630,
     imageAlt: title,
