@@ -19,7 +19,7 @@ export default function Testimonials({
           {subtitle && <p className="section-subtitle">{subtitle}</p>}
         </div>
 
-        <div className="testimonials__grid">
+        <div className={`testimonials__grid ${APPROVED_TESTIMONIALS.length === 1 ? 'testimonials__grid--single' : ''}`}>
           {APPROVED_TESTIMONIALS.map((item) => (
             <div key={item.id} className="testimonial-card">
               <p className="testimonial-card__quote">{item.quote}</p>

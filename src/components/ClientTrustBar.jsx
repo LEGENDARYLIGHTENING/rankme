@@ -160,10 +160,10 @@ const platformsBuilt = [
   {
     id: 'wafa-trust',
     name: 'Wafa Trust',
-    url: '/case-studies#wafa-case-study',
+    url: 'https://www.wafatrustindia.org/',
     niche: 'Philanthropic Healthcare & Community NGO',
-    badge: 'Client Project · Healthcare NGO (Archive)',
-    external: false,
+    badge: 'Client Project · Live Web Platform',
+    external: true,
     renderLogo: () => (
       <img
         src="/wafa-trust-logo.jpeg"

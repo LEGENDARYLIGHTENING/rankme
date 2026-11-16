@@ -20,6 +20,11 @@
   gap: var(--space-xl);
 }
 
+.testimonials__grid--single {
+  grid-template-columns: minmax(320px, 720px);
+  justify-content: center;
+}
+
 .testimonial-card {
   background-color: var(--color-card-bg);
   border: 1px solid var(--color-border);
