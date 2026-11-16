@@ -29,8 +29,8 @@ Keywords: mobile-first B2B website, B2B website industrial buyers, mobile B2B we
 7. **Integrating CRM and Website for Seamless B2B Lead Flow**
 Keywords: B2B website CRM integration, CRM website integration B2B leads, seamless B2B lead flow system, B2B website automation leads, integrate CRM B2B website
 
-8. **Case Study: How Probiota Innovations' Website Generated Qualified Leads**
-Keywords: Probiota website case study, B2B website lead generation case study, qualified B2B leads case study, nutraceutical B2B website results, B2B website ROI case study
+8. **Case Study: How Wafa Educational & Charitable Trust' Website Generated Qualified Leads**
+Keywords: Wafa Trust website case study, B2B website lead generation case study, qualified B2B leads case study, nutraceutical B2B website results, B2B website ROI case study
 
 9. **B2B Website Security and Compliance for Regulated Industries**
 Keywords: B2B website security compliance, regulated industry B2B website, B2B website data security, compliance focused B2B website, secure B2B website international
@@ -504,7 +504,7 @@ Keywords: supplement stability content, shelf life nutraceutical marketing, stab
 156. **Targeting International Wellness Brands Looking for a Manufacturing Partner**
 Keywords: international wellness brand outreach, nutraceutical CM lead generation, B2B wellness brand acquisition, manufacturing partner search content, supplement brand prospecting
 
-157. **D2C vs B2B Positioning When You Run Both (Gut & Beyond Style)**
+157. **D2C vs B2B Positioning When You Run Both (Direct B2B Growth Strategy Style)**
 Keywords: D2C B2B positioning nutraceutical, dual brand strategy wellness, supplement brand D2C B2B split, nutraceutical parent company branding, gummy brand positioning strategy
 
 158. **SEO for Gummy and Functional Candy Supplement Brands**
@@ -656,4 +656,4 @@ Keywords: B2B authority playbook, long term B2B positioning, sustainable authori
   - Pillars 4, 5, 6 (Organic Lead Gen, LinkedIn, CRO) → Lead Gen
   - Pillars 7, 8, 9 (Manufacturer, Nutraceutical, SaaS) → Industry Notes
   - Pillar 10 (Trust/Positioning/Authority) → split between Lead Gen and Industry Notes depending on topic specificity, or treat as supporting content linked across all categories
-- Verified proof points only - do not invent numbers: Probiota Innovations (website build + SEO/GEO, real qualified leads), Gut & Beyond (Brand Manager role), Competence Consulting/Alibaba channel partner (experience letter available), Glitchy (contributed to qualified lead gen and revenue growth - phrase conservatively)
+- Verified proof points only - do not invent numbers: Wafa Educational & Charitable Trust (website build + SEO/GEO, real qualified leads), Direct B2B Growth Strategy (Brand Manager role), Competence Consulting/Alibaba channel partner (experience letter available), Glitchy (contributed to qualified lead gen and revenue growth - phrase conservatively)

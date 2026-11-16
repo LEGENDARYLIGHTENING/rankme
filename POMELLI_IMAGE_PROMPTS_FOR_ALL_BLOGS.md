@@ -838,7 +838,7 @@ Studio photoshoot of an iPhone 16 Pro held on a factory floor, displaying a ligh
 Studio shot of an enterprise sales operations screen showing an incoming website lead automatically enriching through Apollo/Clearbit and booking directly into the account executive's calendar via HubSpot/Salesforce.
 ```
 
-### Blog 93: Case Study: How Probiota Innovations' Website Generated Qualified Leads
+### Blog 93: Case Study: How B2B Growth Infrastructure Generates Qualified Leads
 * **Category / Industry:** Website Strategy
 * **Photoshoot Scene:** Enterprise B2B Web Architecture Case Study
 * **Target Aspect Ratio:** 16:9 (Landscape Editorial)

@@ -21,7 +21,7 @@ Target markets:
 
 Primary proof point to reference where relevant:
 
-- Probiota Innovations: a full B2B React JS website built in 1.5 hours that generated 10+ qualified B2B leads.
+- Wafa Educational & Charitable Trust: a full B2B React JS website built in 1.5 hours that generated 10+ qualified B2B leads.
 
 ## Core Assignment
 
@@ -128,7 +128,7 @@ Rules:
 - Around 200 words.
 - Cover the first major point, strategy, or mistake.
 - Use specifics: numbers, examples, buyer behavior, conversion friction, or commercial implications.
-- Where relevant, reference the Probiota Innovations case study as proof of speed, clarity, and lead-focused execution.
+- Where relevant, reference the Wafa Educational & Charitable Trust case study as proof of speed, clarity, and lead-focused execution.
 
 ### 5. H2 - Main section 2 with a specific, benefit-driven heading
 
@@ -242,7 +242,7 @@ Examples of acceptable phrasing:
 
 ## Case Study Usage Rules
 
-Where relevant, use the Probiota Innovations case study carefully and naturally.
+Where relevant, use the Wafa Educational & Charitable Trust case study carefully and naturally.
 
 What it proves:
 
