@@ -124,6 +124,30 @@ const masterSchema = {
         'https://linkedin.com/in/moksh-parjapati',
         'https://twitter.com/moksh_rankur',
       ],
+      hasCredential: [
+        {
+          '@type': 'EducationalOccupationalCredential',
+          name: 'Google Analytics 4 (GA4) Certification',
+          credentialCategory: 'certification',
+          recognizedBy: {
+            '@type': 'Organization',
+            name: 'Google Skillshop',
+            url: 'https://skillshop.credential.net',
+          },
+          url: 'https://skillshop.credential.net/4de8075c-d494-4e05-b6ed-1bb204e4e982#acc.YgFQXSAI',
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          name: 'HubSpot Inbound Marketing Certification',
+          credentialCategory: 'certification',
+          recognizedBy: {
+            '@type': 'Organization',
+            name: 'HubSpot Academy',
+            url: 'https://academy.hubspot.com',
+          },
+          url: 'https://app-na2.hubspot.com/academy/achievements/p168r1xl/en/1/parjapati-na/inbound-marketing-certified',
+        },
+      ],
     },
     {
       '@type': 'ProfessionalService',
