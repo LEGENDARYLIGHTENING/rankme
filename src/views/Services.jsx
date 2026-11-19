@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import HeroSection from '../components/HeroSection';
 import ClientTrustBar from '../components/ClientTrustBar';
-import ServiceCard from '../components/ServiceCard';
+import SpotlightCard from '../components/SpotlightCard';
 import Testimonials from '../components/Testimonials';
 import CTABlock from '../components/CTABlock';
 import { SeoJsonLd } from '../components/Seo';
@@ -13,8 +13,9 @@ const servicesData = [
   {
     icon: '◎',
     title: 'Strategic Positioning & Market Authority',
+    badge: 'Discovery & Copy',
     description:
-      'We translate technical workflows and complex product capabilities into high-trust commercial messaging that commands authority and accelerates executive buying cycles.',
+      'We translate complex technical capabilities into high-trust commercial messaging that commands authority and accelerates executive buying cycles.',
     deliverables: [
       'Executive Positioning & Competitive Moat Analysis',
       'Above-the-Fold Value Proposition Engineering',
@@ -26,6 +27,7 @@ const servicesData = [
   {
     icon: '⟨/⟩',
     title: 'Proprietary High-Performance Web Infrastructure',
+    badge: 'Core Engineering',
     description:
       'We architect bespoke digital platforms engineered on global edge networks — delivering sub-second response times, zero CMS dependencies, and full source code ownership.',
     deliverables: [
@@ -39,6 +41,7 @@ const servicesData = [
   {
     icon: '🔍',
     title: 'Search Authority & Generative AI Discovery',
+    badge: 'Technical SEO & GEO',
     description:
       'Deterministic search infrastructure engineered for sustainable dominance across Google, ChatGPT, and Perplexity — safeguarding authority and ensuring verified answer recommendations.',
     deliverables: [
@@ -52,6 +55,7 @@ const servicesData = [
   {
     icon: '✍',
     title: 'Commercial Demand & Category Authority',
+    badge: 'Content Strategy',
     description:
       'We construct authoritative commercial ecosystems and executive decision frameworks that systematically capture and convert high-ticket enterprise buyers actively evaluating vendors.',
     deliverables: [
@@ -65,6 +69,7 @@ const servicesData = [
   {
     icon: '📊',
     title: 'Conversion Flow & Pipeline Velocity',
+    badge: 'Analytics & CRO',
     description:
       'We eliminate friction at critical decision points, ensuring high-intent visitors transition seamlessly into qualified sales conversations and booked calls.',
     deliverables: [
@@ -74,6 +79,33 @@ const servicesData = [
       'Sub-Second Conversion Pathway Testing',
     ],
     timeline: 'Integrated into every engagement',
+  },
+];
+
+const methodologyStages = [
+  {
+    step: '01',
+    title: 'Forensic Diagnostic Audit',
+    subtitle: '48-Hour Technical & Commercial Teardown',
+    desc: 'We inspect every layer of your existing digital presence: Core Web Vitals across international device cohorts, crawl budget efficiency, cannibalized search queries, index bloat, and buyer qualification friction. You receive a prioritized, factual roadmap with zero fluff.',
+  },
+  {
+    step: '02',
+    title: 'Precision Architecture & Wireframing',
+    subtitle: 'Bespoke Engineering Sprint',
+    desc: 'We discard generic CMS templates and author clean, modular semantic components engineered on modern edge frameworks. We design user journeys specifically tailored to multi-stakeholder enterprise buying committees.',
+  },
+  {
+    step: '03',
+    title: 'Generative Engine & Semantic Search Readiness',
+    subtitle: 'Structured Data Graph Construction',
+    desc: 'We structure your complete service catalog, case proof, and founder authority into verified Schema.org entity graphs. This ensures Large Language Models (ChatGPT, Claude, Perplexity) parse and cite your brand as the definitive recommendation.',
+  },
+  {
+    step: '04',
+    title: 'Conversion Telemetry & Repository Transfer',
+    subtitle: 'Verified Handoff & Milestone Completion',
+    desc: 'We implement consent-clean GA4 and CRM event pipelines to monitor every qualified demo request. Upon final milestone sign-off, 100% of the production git repository and intellectual property are transferred directly to your organization.',
   },
 ];
 
@@ -151,19 +183,99 @@ export default function Services() {
 
       <ClientTrustBar />
 
-      <section className="section" id="services-full">
+      {/* Core Services Section with Aceternity Spotlight Cards */}
+      <section className="section" id="services-full" style={{ padding: 'var(--space-5xl) 0' }}>
         <div className="container">
-          <p className="section-label">Core Offerings</p>
-          <h2 className="section-title">How I Build &amp; Optimize B2B Sites</h2>
-          <div className="services-page__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))' }}>
+          <div style={{ textAlign: 'center', maxWidth: '780px', margin: '0 auto var(--space-4xl)' }}>
+            <div className="aceternity-badge" style={{ margin: '0 auto var(--space-md)' }}>
+              <span className="aceternity-badge__dot"></span>
+              Full-Lifecycle B2B Capabilities
+            </div>
+            <h2 className="section-title" style={{ marginBottom: 'var(--space-md)' }}>
+              Comprehensive Web Engineering &amp; Search Authority
+            </h2>
+            <p className="section-subtitle">
+              Every deliverable is engineered to remove buyer friction, defend search equity, and systematically convert enterprise demand.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))', gap: 'var(--space-xl)' }}>
             {servicesData.map((service, i) => (
-              <ServiceCard key={i} {...service} />
+              <SpotlightCard key={i} style={{ padding: 'var(--space-2xl)' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-between' }}>
+                  <div>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--space-lg)' }}>
+                      <span style={{ fontSize: '1.75rem', color: 'var(--color-gold)' }}>{service.icon}</span>
+                      <span className="cert-skill-tag" style={{ color: 'var(--color-gold)', borderColor: 'rgba(201, 168, 76, 0.3)' }}>
+                        {service.badge}
+                      </span>
+                    </div>
+
+                    <h3 style={{ fontSize: '1.25rem', color: 'var(--color-white)', fontWeight: 700, marginBottom: 'var(--space-sm)', lineHeight: '1.35' }}>
+                      {service.title}
+                    </h3>
+                    <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7', marginBottom: 'var(--space-xl)' }}>
+                      {service.description}
+                    </p>
+
+                    <div style={{ marginBottom: 'var(--space-xl)' }}>
+                      <p style={{ fontSize: '0.78rem', textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--color-text-muted)', marginBottom: '0.5rem', fontWeight: 600 }}>
+                        Deliverables:
+                      </p>
+                      <ul style={{ paddingLeft: '1.2rem', margin: 0, color: 'var(--color-text-muted)', fontSize: '0.88rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                        {service.deliverables.map((del, dIdx) => (
+                          <li key={dIdx}>{del}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div style={{ paddingTop: 'var(--space-md)', borderTop: '1px solid rgba(255, 255, 255, 0.08)' }}>
+                    <span style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', fontStyle: 'italic' }}>
+                      {service.timeline}
+                    </span>
+                  </div>
+                </div>
+              </SpotlightCard>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="tech-stack-section" style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)' }}>
+      {/* Methodology Section */}
+      <section style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', maxWidth: '820px', margin: '0 auto var(--space-4xl)' }}>
+            <p className="section-label">Our Protocol</p>
+            <h2 className="section-title">The 4-Stage Engagement Methodology</h2>
+            <p style={{ color: 'var(--color-text-muted)', fontSize: '1.05rem', lineHeight: '1.8' }}>
+              How we take B2B companies from fragmented, sluggish digital brochures to enterprise-grade web platforms with verified pipeline attribution.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--space-xl)' }}>
+            {methodologyStages.map((stage, idx) => (
+              <SpotlightCard key={idx} style={{ padding: 'var(--space-2xl)' }}>
+                <span style={{ fontSize: '2rem', fontWeight: 900, color: 'rgba(201, 168, 76, 0.25)', fontFamily: 'monospace', display: 'block', marginBottom: 'var(--space-sm)' }}>
+                  {stage.step}
+                </span>
+                <h4 style={{ fontSize: '1.18rem', color: 'var(--color-white)', fontWeight: 700, marginBottom: 'var(--space-xs)' }}>
+                  {stage.title}
+                </h4>
+                <p style={{ color: 'var(--color-gold)', fontSize: '0.85rem', fontWeight: 600, marginBottom: 'var(--space-md)' }}>
+                  {stage.subtitle}
+                </p>
+                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', lineHeight: '1.7' }}>
+                  {stage.desc}
+                </p>
+              </SpotlightCard>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Execution Stack */}
+      <section className="tech-stack-section" style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-black)' }}>
         <div className="container">
           <p className="section-label">Execution Stack</p>
           <h2 className="section-title">Core Technologies Used</h2>

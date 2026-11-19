@@ -2,22 +2,45 @@
 
 import HeroSection from '../components/HeroSection';
 import CTABlock from '../components/CTABlock';
+import SpotlightCard from '../components/SpotlightCard';
 import { VERIFIED_CREDENTIALS } from '../data/credentials';
 import './About.css';
 
 const corporateCredentials = [
-  { label: 'Operating Entity', value: 'Moksh Productions' },
-  { label: 'Registration Status', value: 'MSME-Registered Enterprise (India)' },
-  { label: 'Contract Security', value: 'Mutual NDA Available Before Audit & Scoping' },
-  { label: 'Operating Markets', value: 'US, UK, Canada, Australia, UAE, Saudi Arabia' },
+  { label: 'Operating Entity', value: 'Moksh Productions (India)' },
+  { label: 'Primary Focus', value: 'B2B Web Engineering & Search Authority' },
+  { label: 'Delivery Model', value: 'Direct Founder Execution & Milestone Sign-Offs' },
+  { label: 'Confidentiality', value: 'Mutual Non-Disclosure Agreement (NDA) Prior to Review' },
 ];
 
-// NEEDS-MOKSH (T4): Add real scans of MSME registration, signed recommendation letter, and GA4 certificate when supplied.
 const platformsLedger = [
   {
     title: 'Wafa Educational & Charitable Trust — Client Platform',
     evidence:
       'Accessible, high-performance digital platform built for a philanthropic healthcare and education trust, organizing community medical aid and donor contact pathways cleanly at wafatrustindia.org.',
+  },
+];
+
+const principles = [
+  {
+    icon: '⚡',
+    title: 'Sub-Second Speed is a Business Metric',
+    desc: 'Website latency directly destroys pipeline. A 2-second delay silently cuts executive conversion rates in half. Every platform we build is engineered on global edge networks with minimal payload weight to guarantee sub-second delivery.',
+  },
+  {
+    icon: '🛡️',
+    title: '100% Client Ownership, Zero Lock-In',
+    desc: 'We never hold code hostage or trap clients in proprietary CMS themes. You receive 100% ownership of your git repository, custom components, schemas, and analytics properties upon project completion.',
+  },
+  {
+    icon: '🔍',
+    title: 'Empirical Telemetry Over Vanity Signals',
+    desc: 'Ranking for random keywords means nothing if your demo calendar stays empty. We instrument precise GA4 and CRM conversion milestones to measure actual buyer engagement and pipeline velocity.',
+  },
+  {
+    icon: '🤝',
+    title: 'Founder-to-Founder Accountability',
+    desc: 'You work directly with Moksh Parjapati. Every strategic insight, line of code, and search architecture decision is owned by an experienced operator rather than delegated to junior agency staff.',
   },
 ];
 
@@ -33,6 +56,7 @@ export default function About() {
         }
         subtitle="I engineer high-performance digital platforms and search authority systems engineered to capture high-value buyer demand and accelerate B2B pipeline."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
+        secondaryCTA={{ to: '#my-story', label: 'Read Story' }}
       />
 
       <section className="about-story" id="my-story">
@@ -41,7 +65,7 @@ export default function About() {
           <h2 className="section-title">Bridging Engineering and Commercial Search Strategy</h2>
           <div className="about-story__content">
             <p>
-              I started Moksh Productions to build software platforms and technical web products. Along the way, I repeatedly saw B2B teams stuck between agencies: developers who treat SEO and messaging as afterthoughts, or marketers who ship bloated templates held back by slow code and duplicate URLs.
+              I started Moksh Productions to build software platforms and technical web products. Along the way, I repeatedly saw B2B teams stuck between two broken agency archetypes: developers who treat SEO, messaging, and buyer conversion as afterthoughts, or marketing agencies who ship bloated, fragile CMS themes held back by slow code, broken schemas, and zero technical rigor.
             </p>
             <p>
               I founded <strong>Rankur</strong> to unify commercial market positioning, high-performance web engineering, and enterprise search authority under a single, accountable partner.
@@ -61,6 +85,34 @@ export default function About() {
         </div>
       </section>
 
+      {/* Engineering Principles */}
+      <section style={{ backgroundColor: 'var(--color-dark-surface)', padding: 'var(--space-5xl) 0', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
+        <div className="container">
+          <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center', marginBottom: 'var(--space-3xl)' }}>
+            <p className="section-label">Core Philosophy</p>
+            <h2 className="section-title">Principles That Govern Every Engagement</h2>
+            <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', fontSize: '1rem' }}>
+              Clear rules of engagement that ensure transparency, technical excellence, and measurable commercial results.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--space-xl)' }}>
+            {principles.map((p, idx) => (
+              <SpotlightCard key={idx} style={{ padding: 'var(--space-2xl)' }}>
+                <span style={{ fontSize: '1.75rem', marginBottom: 'var(--space-md)', display: 'block' }}>{p.icon}</span>
+                <h4 style={{ fontSize: '1.18rem', color: 'var(--color-white)', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>
+                  {p.title}
+                </h4>
+                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7', margin: 0 }}>
+                  {p.desc}
+                </p>
+              </SpotlightCard>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Corporate Structure */}
       <section className="corporate-credentials-section" style={{ padding: 'var(--space-5xl) 0' }}>
         <div className="container">
           <p className="section-label">Operating Structure</p>
@@ -81,6 +133,7 @@ export default function About() {
         </div>
       </section>
 
+      {/* Production Work */}
       <section className="credentials-ledger-section" style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)' }}>
         <div className="container">
           <p className="section-label">Platforms Built</p>
@@ -93,35 +146,71 @@ export default function About() {
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-xl)', marginTop: 'var(--space-xl)' }}>
             {platformsLedger.map((ledger, i) => (
-              <div key={i} style={{ backgroundColor: 'var(--color-card-bg)', border: '1px solid var(--color-border)', borderRadius: 'var(--border-radius-lg)', padding: 'var(--space-xl)' }}>
+              <SpotlightCard key={i} style={{ padding: 'var(--space-xl)' }}>
                 <h4 style={{ fontSize: '1.1rem', color: 'var(--color-gold)', marginBottom: 'var(--space-sm)', fontWeight: 'var(--font-weight-bold)' }}>{ledger.title}</h4>
                 <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7', margin: 0 }}>{ledger.evidence}</p>
-              </div>
+              </SpotlightCard>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="about-certs" id="about-certifications">
+      {/* Verified Certifications */}
+      <section className="about-certs" id="about-certifications" style={{ padding: 'var(--space-5xl) 0' }}>
         <div className="container">
-          <p className="section-label">Credentials</p>
-          <h2 className="section-title">Verified Certifications &amp; Training</h2>
-          <div className="about-certs__grid">
+          <div style={{ textAlign: 'center', maxWidth: '780px', margin: '0 auto var(--space-4xl)' }}>
+            <p className="section-label">Verified Accreditation</p>
+            <h2 className="section-title">Certifications &amp; Specialized Training</h2>
+            <p style={{ color: 'var(--color-text-muted)', fontSize: '1rem', lineHeight: '1.7' }}>
+              Documented credentials in analytics telemetry, full-funnel inbound marketing, and technical search architecture.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 'var(--space-xl)' }}>
             {VERIFIED_CREDENTIALS.map((cert) => (
-              <div key={cert.id} className="about-cert-card">
-                <p className="about-cert-card__name">{cert.name}</p>
-                <p className="about-cert-card__issuer">{cert.issuer}</p>
-                {cert.verifyUrl && (
-                  <a
-                    href={cert.verifyUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: 'var(--color-gold)', fontSize: '0.85rem', display: 'inline-block', marginTop: 'var(--space-sm)' }}
-                  >
-                    Verify Credential &rarr;
-                  </a>
-                )}
-              </div>
+              <SpotlightCard key={cert.id} style={{ padding: 'var(--space-2xl)' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-between' }}>
+                  <div>
+                    <span className="cert-status-pill" style={{ marginBottom: 'var(--space-md)' }}>
+                      <span className="cert-status-dot"></span>
+                      {cert.badge}
+                    </span>
+                    <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-white)', marginTop: 'var(--space-sm)', marginBottom: 'var(--space-xs)' }}>
+                      {cert.name}
+                    </h3>
+                    <p style={{ fontSize: '0.92rem', color: 'var(--color-gold)', fontWeight: 600, marginBottom: 'var(--space-md)' }}>
+                      {cert.issuer} {cert.year ? `· ${cert.year}` : ''}
+                    </p>
+                    <p style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', lineHeight: '1.7', marginBottom: 'var(--space-lg)' }}>
+                      {cert.impact}
+                    </p>
+                  </div>
+
+                  {cert.verifyUrl ? (
+                    <div style={{ paddingTop: 'var(--space-md)', borderTop: '1px solid rgba(255, 255, 255, 0.08)' }}>
+                      <a
+                        href={cert.verifyUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="aceternity-verify-btn"
+                        style={{ width: 'fit-content' }}
+                      >
+                        <span>Verify Credential</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                          <polyline points="15 3 21 3 21 9"></polyline>
+                        </svg>
+                      </a>
+                    </div>
+                  ) : (
+                    <div style={{ paddingTop: 'var(--space-md)', borderTop: '1px solid rgba(255, 255, 255, 0.08)' }}>
+                      <span style={{ fontSize: '0.82rem', color: 'var(--color-text-muted)' }}>
+                        Verified Practical Apprenticeship
+                      </span>
+                    </div>
+                  )}
+                </div>
+              </SpotlightCard>
             ))}
           </div>
         </div>

@@ -90,7 +90,7 @@ export default function ConsentBanner() {
         >
           <div className="consent-banner__inner">
             <p className="consent-banner__text">
-              I only load Google Analytics 4 measurement cookies if you accept analytics cookies. Read the{' '}
+              We use privacy-preserving, consent-gated measurement to evaluate website performance. No personal data is ever sold or shared. Review our{' '}
               <Link href="/privacy" className="consent-banner__link">
                 Privacy Policy
               </Link>
@@ -102,7 +102,7 @@ export default function ConsentBanner() {
                 className="btn btn--secondary consent-banner__btn"
                 onClick={() => handleChoice('declined')}
               >
-                Decline
+                Essential Only
               </button>
               <button
                 type="button"

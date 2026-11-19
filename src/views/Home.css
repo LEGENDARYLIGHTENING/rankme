@@ -11,6 +11,29 @@
   background-color: var(--color-dark-surface);
 }
 
+.home-credentials-bar {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.home-cred-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.85rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.home-cred-pill:hover {
+  background: rgba(201, 168, 76, 0.08);
+  border-color: rgba(201, 168, 76, 0.35);
+  transform: translateY(-1px);
+}
+
 .proof-strip__grid {
   display: flex;
   align-items: center;

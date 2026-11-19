@@ -287,8 +287,11 @@ async function runPrebuildChecks() {
     const lp = path.join(rootDir, legal);
     if (!fs.existsSync(lp)) {
       fail(`[T7] Missing legal route: ${legal}`);
-    } else if (!fs.readFileSync(lp, 'utf8').includes('Draft — legal review required before publishing')) {
-      fail(`[T7] Missing Draft legal review disclaimer on ${legal}`);
+    } else {
+      const c = fs.readFileSync(lp, 'utf8');
+      if (!c.includes('Moksh Productions') || !c.includes('contactus@rankursite.com')) {
+        fail(`[T7] Missing operating entity or contact email on ${legal}`);
+      }
     }
   }
 

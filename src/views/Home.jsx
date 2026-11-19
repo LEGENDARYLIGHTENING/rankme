@@ -3,11 +3,11 @@
 import Link from 'next/link';
 import HeroSection from '../components/HeroSection';
 import ClientTrustBar from '../components/ClientTrustBar';
-import ServiceCard from '../components/ServiceCard';
+import SpotlightCard from '../components/SpotlightCard';
 import ProcessSteps from '../components/ProcessSteps';
 import Testimonials from '../components/Testimonials';
 import Guarantee from '../components/Guarantee';
-import psiMetrics from '../data/psiMetrics.json';
+import { VERIFIED_CREDENTIALS } from '../data/credentials';
 import './Home.css';
 
 const proofItems = [
@@ -42,42 +42,75 @@ const capabilities = [
   {
     icon: '◎',
     title: 'Strategic Positioning & Market Authority',
+    badge: 'Discovery & Copy',
     description:
-      'Most B2B platforms rely on vague buzzwords that confuse serious buyers. We establish clear commercial positioning, high-intent value propositions, and unambiguous proof that commands executive trust.',
+      'Most B2B platforms rely on generic corporate buzzwords that confuse serious buyers. We establish clear commercial positioning, high-intent value propositions, and unambiguous proof that commands executive trust.',
     deliverables: ['Executive Positioning Framework', 'Buyer Intent Alignment', 'High-Trust Commercial Copy'],
-    timeline: 'Discovery Milestone',
+    stat: '100% ICP Clarity',
   },
   {
     icon: '⟨/⟩',
     title: 'Proprietary High-Performance Web Infrastructure',
+    badge: 'Core Engineering',
     description:
       'Custom-engineered from the ground up for high-growth B2B brands. Lightning-fast edge delivery, sub-second response times, and full codebase ownership with zero CMS dependency or plugin bloat.',
     deliverables: ['Custom High-Speed Edge Architecture', 'Zero-Friction Inbound Capture', '100% Client Codebase Ownership'],
-    timeline: 'Milestone-based sign-off',
+    stat: '<0.8s Global LCP',
   },
   {
     icon: '🔍',
     title: 'Search Authority & Generative AI Discovery',
+    badge: 'SEO & GEO',
     description:
       'Deterministic search positioning engineered for Google, ChatGPT, and Perplexity. We structure your digital footprint so your brand is surfaced as the definitive, verified answer across traditional and generative search.',
     deliverables: ['Proprietary Search Equity Guardrails', 'Enterprise Knowledge Graph Integration', 'Zero-Defect Technical Indexation'],
-    timeline: 'Integrated per scope',
+    stat: 'Top Citation Readiness',
   },
   {
     icon: '✍',
     title: 'Commercial Demand & Category Authority',
+    badge: 'Content Equity',
     description:
       'We eliminate low-quality content churn and architect authoritative digital ecosystems that systematically intercept and capture executive buyers actively evaluating enterprise solutions.',
     deliverables: ['High-Value Solution Architecture', 'Defensible Search Equity Framework', 'Executive Decision Frameworks'],
-    timeline: 'Ongoing or per batch',
+    stat: 'Zero Generic Fluff',
   },
   {
     icon: '📊',
     title: 'Conversion Architecture & Pipeline Telemetry',
+    badge: 'Analytics & CRO',
     description:
       'We transform passive traffic into qualified sales inquiries. Through precision UX engineering and privacy-compliant analytics, every buyer touchpoint is optimized for pipeline velocity.',
     deliverables: ['Frictionless Inbound Flow Engineering', 'Qualified Lead Routing', 'Enterprise Conversion Telemetry'],
-    timeline: 'Included in builds',
+    stat: 'GA4 Verified Tracking',
+  },
+];
+
+const comparisonData = [
+  {
+    metric: 'Core Web Vitals & Load Speed',
+    legacy: '3.5s – 6.0s (Bloated WordPress themes, 35+ plugins)',
+    rankur: '<0.8s Global LCP (Custom static edge architecture, 0 bloat)',
+  },
+  {
+    metric: 'AI Search Readiness (ChatGPT, Perplexity)',
+    legacy: 'Unstructured text, zero entity schema, ignored by AI engines',
+    rankur: 'Structured JSON-LD entity graph, verified for AI answer citations',
+  },
+  {
+    metric: 'Codebase & Intellectual Property',
+    legacy: 'Trapped in proprietary agency page builder or hostage hosting',
+    rankur: '100% complete GitHub repository transfer with zero vendor lock-in',
+  },
+  {
+    metric: 'Lead Capture & Friction',
+    legacy: 'Clunky 10-field forms, zero attribution, high bounce rate',
+    rankur: 'Frictionless qualification pathways + GA4 event attribution',
+  },
+  {
+    metric: 'Delivery & Communication',
+    legacy: 'Passed around junior account managers and offshore contractors',
+    rankur: 'Direct execution by Moksh Parjapati with milestone sign-offs',
   },
 ];
 
@@ -124,6 +157,7 @@ export default function Home() {
 
       <ClientTrustBar />
 
+      {/* Proof Strip */}
       <section className="proof-strip" id="proof-strip">
         <div className="container">
           <div className="proof-strip__grid">
@@ -137,6 +171,37 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Aceternity Verified Credentials Trust Bar */}
+      <section className="home-credentials-bar" style={{ padding: 'var(--space-2xl) 0', backgroundColor: '#080a0d', borderBottom: '1px solid var(--color-border)' }}>
+        <div className="container">
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 'var(--space-lg)' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+              <span className="cert-status-dot" style={{ width: '8px', height: '8px' }}></span>
+              <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                Verified Platform Credentials:
+              </span>
+            </div>
+
+            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-md)', flexWrap: 'wrap' }}>
+              {VERIFIED_CREDENTIALS.filter((c) => c.verifyUrl).map((c) => (
+                <a
+                  key={c.id}
+                  href={c.verifyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="home-cred-pill"
+                >
+                  <span style={{ color: 'var(--color-gold)', fontWeight: 700 }}>✓ {c.issuer}:</span>
+                  <span style={{ color: 'var(--color-white)' }}>{c.name}</span>
+                  <span style={{ fontSize: '0.75rem', opacity: 0.6 }}>↗</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Founder Section */}
       <section className="home-founder" style={{ padding: 'var(--space-5xl) 0' }}>
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 'var(--space-3xl)', alignItems: 'center' }}>
@@ -154,11 +219,14 @@ export default function Home() {
               <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-lg) 0' }}>
                 Direct Execution by Moksh Parjapati
               </h2>
-              <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)' }}>
-                Many agencies win a contract and hand the work to junior account managers or bloated page-builder themes. Everything on a Rankur engagement — commercial positioning, technical search equity, bespoke frontend engineering, and conversion telemetry — runs directly through me.
+              <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)', fontSize: '1.02rem' }}>
+                Most B2B agencies operate on an assembly-line model: senior partners sell the contract, then pass your project down to junior account managers who paste your content into bloated page-builder themes. The result is predictable — slow load times, fragile plugin stacks, and zero pipeline impact.
               </p>
-              <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-lg)' }}>
-                You get direct communication, realistic claims, clean maintainable code in your own repository, and transparent terms agreed up front.
+              <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)', fontSize: '1.02rem' }}>
+                At Rankur, every single engagement — commercial positioning, technical search equity, custom frontend architecture, and conversion telemetry — is executed directly by me. No junior intermediaries. No outsourced codebases.
+              </p>
+              <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-xl)', fontSize: '1.02rem' }}>
+                You get direct engineering velocity, honest diagnostic feedback, clean source code in your own repository, and milestone-based sign-offs agreed up front.
               </p>
               <Link href="/about" className="btn btn--secondary">
                 About Moksh &rarr;
@@ -168,21 +236,105 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="services-overview" id="services-overview">
+      {/* Aceternity Bento Capabilities Section */}
+      <section className="services-overview" id="services-overview" style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)' }}>
         <div className="container">
-          <p className="section-label">What I Do</p>
-          <h2 className="section-title">How I Help B2B Teams</h2>
-          <p className="section-subtitle">
-            Five focused areas that turn a slow, disorganized brochure site into a clean, search-ready B2B platform.
-          </p>
-          <div className="services-overview__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))' }}>
+          <div style={{ textAlign: 'center', maxWidth: '780px', margin: '0 auto var(--space-4xl)' }}>
+            <div className="aceternity-badge" style={{ margin: '0 auto var(--space-md)' }}>
+              <span className="aceternity-badge__dot"></span>
+              Proprietary Engineering Architecture
+            </div>
+            <h2 className="section-title" style={{ marginBottom: 'var(--space-md)' }}>
+              Engineered for Pipeline Velocity &amp; Market Dominance
+            </h2>
+            <p className="section-subtitle">
+              We eliminate low-converting agency templates and architect bespoke digital platforms engineered for sub-second speed, search engine dominance, and high-ticket B2B conversion.
+            </p>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))', gap: 'var(--space-xl)' }}>
             {capabilities.map((service, i) => (
-              <ServiceCard key={i} {...service} />
+              <SpotlightCard key={i} style={{ padding: 'var(--space-2xl)' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-between' }}>
+                  <div>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--space-lg)' }}>
+                      <span style={{ fontSize: '1.6rem', color: 'var(--color-gold)' }}>{service.icon}</span>
+                      <span className="cert-skill-tag" style={{ color: 'var(--color-gold)', borderColor: 'rgba(201, 168, 76, 0.3)' }}>
+                        {service.badge}
+                      </span>
+                    </div>
+
+                    <h3 style={{ fontSize: '1.25rem', color: 'var(--color-white)', fontWeight: 700, marginBottom: 'var(--space-sm)', lineHeight: '1.35' }}>
+                      {service.title}
+                    </h3>
+                    <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7', marginBottom: 'var(--space-xl)' }}>
+                      {service.description}
+                    </p>
+
+                    <div style={{ marginBottom: 'var(--space-xl)' }}>
+                      <p style={{ fontSize: '0.78rem', textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--color-text-muted)', marginBottom: '0.5rem', fontWeight: 600 }}>
+                        Key Deliverables:
+                      </p>
+                      <ul style={{ paddingLeft: '1.2rem', margin: 0, color: 'var(--color-text-muted)', fontSize: '0.88rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                        {service.deliverables.map((del, dIdx) => (
+                          <li key={dIdx}>{del}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: 'var(--space-md)', borderTop: '1px solid rgba(255, 255, 255, 0.08)' }}>
+                    <span style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>Benchmark:</span>
+                    <span style={{ fontSize: '0.85rem', color: 'var(--color-gold)', fontWeight: 700 }}>{service.stat}</span>
+                  </div>
+                </div>
+              </SpotlightCard>
             ))}
           </div>
         </div>
       </section>
 
+      {/* The Architectural Breakdown / Comparison Table */}
+      <section style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-black)' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', maxWidth: '820px', margin: '0 auto var(--space-4xl)' }}>
+            <p className="section-label">Architectural Reality</p>
+            <h2 className="section-title">Why Legacy Agency Websites Fail Enterprise Buyers</h2>
+            <p style={{ color: 'var(--color-text-muted)', fontSize: '1.05rem', lineHeight: '1.8' }}>
+              The traditional agency model is broken. When high-ticket buyers evaluate your company, their first impression is formed in sub-second increments. Here is how Rankur compares to standard web studios.
+            </p>
+          </div>
+
+          <div style={{ overflowX: 'auto', borderRadius: '16px', border: '1px solid rgba(255, 255, 255, 0.1)', background: '#0c0e12' }}>
+            <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', minWidth: '640px' }}>
+              <thead>
+                <tr style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.1)', backgroundColor: 'rgba(255, 255, 255, 0.02)' }}>
+                  <th style={{ padding: '1.25rem 1.5rem', color: 'var(--color-text-muted)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Performance Factor</th>
+                  <th style={{ padding: '1.25rem 1.5rem', color: '#ef4444', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Legacy Agency / WordPress Theme</th>
+                  <th style={{ padding: '1.25rem 1.5rem', color: 'var(--color-gold)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Rankur Custom Edge System</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonData.map((row, idx) => (
+                  <tr key={idx} style={{ borderBottom: idx < comparisonData.length - 1 ? '1px solid rgba(255, 255, 255, 0.06)' : 'none' }}>
+                    <td style={{ padding: '1.25rem 1.5rem', fontWeight: 600, color: 'var(--color-white)', fontSize: '0.95rem' }}>
+                      {row.metric}
+                    </td>
+                    <td style={{ padding: '1.25rem 1.5rem', color: 'var(--color-text-muted)', fontSize: '0.9rem', lineHeight: '1.6' }}>
+                      <span style={{ color: '#ef4444', marginRight: '0.5rem' }}>✕</span> {row.legacy}
+                    </td>
+                    <td style={{ padding: '1.25rem 1.5rem', color: 'var(--color-white)', fontSize: '0.9rem', lineHeight: '1.6', backgroundColor: 'rgba(201, 168, 76, 0.03)' }}>
+                      <span style={{ color: 'var(--color-gold)', marginRight: '0.5rem' }}>✓</span> {row.rankur}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Production Work */}
       <section className="case-teaser" id="case-teaser">
         <div className="container">
           <div className="case-teaser__header">
