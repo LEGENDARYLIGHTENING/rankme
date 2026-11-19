@@ -2,26 +2,15 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Compass, Code2, Search, FileText, BarChart3 } from 'lucide-react';
 import HeroSection from '../components/HeroSection';
-import ClientTrustBar from '../components/ClientTrustBar';
-import TechStackBar from '../components/TechStackBar';
-import BentoVisualShowcase from '../components/BentoVisualShowcase';
-import SpotlightCard from '../components/SpotlightCard';
+import HeroVisualDashboard from '../components/HeroVisualDashboard';
+import TrustEcosystemRibbon from '../components/TrustEcosystemRibbon';
+import MasterBentoArchitecture from '../components/MasterBentoArchitecture';
 import ProcessSteps from '../components/ProcessSteps';
 import Testimonials from '../components/Testimonials';
 import Guarantee from '../components/Guarantee';
-import { VERIFIED_CREDENTIALS } from '../data/credentials';
 import './Home.css';
 import './Blog.css';
-
-const proofItems = [
-  { value: '<0.8s Speed', label: 'Sub-Second Speed That Stops Buyer Bounces' },
-  { value: 'Verified Proof', label: 'Wafa Educational & Charitable Trust' },
-  { value: 'GA4 & HubSpot', label: 'Certified Pipeline & Conversion Attribution' },
-  { value: '100% IP', label: 'Complete Intellectual Property Ownership' },
-  { value: 'Direct Access', label: 'Founder-Led Strategic Execution' },
-];
 
 const portfolioShowcases = [
   {
@@ -31,7 +20,7 @@ const portfolioShowcases = [
     title: 'Wafa Educational & Charitable Trust',
     domain: 'https://www.wafatrustindia.org/',
     badge: 'Client Project · High-Speed Digital Architecture',
-    image: null,
+    image: '/showcase/hero-section-with-mousemove.webp',
     alt: 'Wafa Educational And Charitable Trust platform',
     description:
       'Engineered a clean, accessible high-speed web platform for a philanthropic healthcare and education trust, organizing community initiatives, health aid documentation, and donor contact pathways.',
@@ -40,54 +29,6 @@ const portfolioShowcases = [
       { value: 'Accessible', label: 'Mobile-First UI' },
       { value: 'Live Platform', label: 'wafatrustindia.org' },
     ],
-  },
-];
-
-const capabilities = [
-  {
-    icon: Compass,
-    title: 'Strategic Positioning & Market Authority',
-    badge: 'Discovery & Copy',
-    description:
-      'Most B2B platforms rely on generic corporate buzzwords that confuse serious buyers. We establish clear commercial positioning, high-intent value propositions, and unambiguous proof that commands executive trust.',
-    deliverables: ['Executive Positioning Framework', 'Buyer Intent Alignment', 'High-Trust Commercial Copy'],
-    stat: '100% ICP Clarity',
-  },
-  {
-    icon: Code2,
-    title: 'High-Converting Web Infrastructure & Pipeline Architecture',
-    badge: 'Performance & Revenue',
-    description:
-      'Custom-engineered from the ground up for high-growth B2B companies. Sub-second global load times that prevent drop-offs, frictionless demo booking pathways, and 100% intellectual property ownership with zero plugin bloat.',
-    deliverables: ['Sub-Second Global Performance', 'Frictionless Inbound Capture', '100% Client Code & Asset Ownership'],
-    stat: '<0.8s Global Speed',
-  },
-  {
-    icon: Search,
-    title: 'Search Authority & Generative AI Discovery',
-    badge: 'SEO & GEO',
-    description:
-      'Deterministic search positioning engineered for Google, ChatGPT, and Perplexity. We structure your digital footprint so your brand is surfaced as the definitive, verified answer across traditional and generative search.',
-    deliverables: ['Proprietary Search Equity Guardrails', 'Enterprise Knowledge Graph Integration', 'Zero-Defect Technical Indexation'],
-    stat: 'Top Citation Readiness',
-  },
-  {
-    icon: FileText,
-    title: 'Commercial Demand & Category Authority',
-    badge: 'Content Equity',
-    description:
-      'We eliminate low-quality content churn and architect authoritative digital ecosystems that systematically intercept and capture executive buyers actively evaluating enterprise solutions.',
-    deliverables: ['High-Value Solution Architecture', 'Defensible Search Equity Framework', 'Executive Decision Frameworks'],
-    stat: 'Zero Generic Fluff',
-  },
-  {
-    icon: BarChart3,
-    title: 'Conversion Architecture & Pipeline Telemetry',
-    badge: 'Analytics & CRO',
-    description:
-      'We transform passive traffic into qualified sales inquiries. Through precision UX engineering and privacy-compliant analytics, every buyer touchpoint is optimized for pipeline velocity.',
-    deliverables: ['Frictionless Inbound Flow Engineering', 'Qualified Lead Routing', 'Enterprise Conversion Telemetry'],
-    stat: 'GA4 Verified Tracking',
   },
 ];
 
@@ -180,8 +121,9 @@ const featuredInsights = [
 export default function Home() {
   return (
     <>
+      {/* 1. Master Hero Section with 3D Glassmorphic Telemetry Dashboard */}
       <HeroSection
-        label="Enterprise B2B Web Engineering & Deterministic Search"
+        label="✦ Enterprise B2B Web Engineering &amp; Deterministic Search"
         title={
           <>
             Custom B2B Platforms Engineered to{' '}
@@ -191,166 +133,18 @@ export default function Home() {
         subtitle="We engineer sub-second Next.js digital infrastructure, deterministic Google & AI search authority, and high-ticket buyer qualification flows: with 100% intellectual property ownership."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'View Platforms Built' }}
-      />
+        center
+      >
+        <HeroVisualDashboard />
+      </HeroSection>
 
-      <ClientTrustBar />
+      {/* 2. Unified Social Proof & Enterprise Standards Ribbon */}
+      <TrustEcosystemRibbon />
 
-      {/* Proof Strip */}
-      <section className="proof-strip" id="proof-strip">
-        <div className="container">
-          <div className="proof-strip__grid">
-            {proofItems.map((item, i) => (
-              <div key={i} className="proof-strip__item">
-                <span className="proof-strip__value">{item.value}</span>
-                <span className="proof-strip__label">{item.label}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* 3. Master Aceternity Bento Architecture (Unified 5-Cell Grid with Real UI Previews) */}
+      <MasterBentoArchitecture />
 
-      {/* Aceternity Verified Credentials Trust Bar */}
-      <section className="home-credentials-bar" style={{ padding: 'var(--space-2xl) 0', backgroundColor: '#080a0d', borderBottom: '1px solid var(--color-border)' }}>
-        <div className="container">
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 'var(--space-lg)' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-              <span className="cert-status-dot" style={{ width: '8px', height: '8px' }}></span>
-              <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                Verified Platform Credentials:
-              </span>
-            </div>
-
-            <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-md)', flexWrap: 'wrap' }}>
-              {VERIFIED_CREDENTIALS.filter((c) => c.verifyUrl).map((c) => (
-                <a
-                  key={c.id}
-                  href={c.verifyUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="home-cred-pill"
-                >
-                  <span style={{ color: 'var(--color-gold)', fontWeight: 700 }}>✓ {c.issuer}:</span>
-                  <span style={{ color: 'var(--color-white)' }}>{c.name}</span>
-                  <span style={{ fontSize: '0.75rem', opacity: 0.6 }}>↗</span>
-                </a>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Production Tech Stack & Enterprise Compliance Standards */}
-      <TechStackBar />
-
-      {/* Founder Section */}
-      <section className="home-founder" style={{ padding: 'var(--space-5xl) 0' }}>
-        <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 'var(--space-3xl)', alignItems: 'center' }}>
-            <div className="img-placeholder" style={{ borderRadius: 'var(--border-radius-lg)', overflow: 'hidden' }}>
-              <img
-                src="/founder-b2b-growth-infrastructure.webp"
-                alt="Moksh Parjapati, Founder of Rankur"
-                width={720}
-                height={720}
-                style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 'inherit' }}
-              />
-            </div>
-            <div className="founder-intro-content">
-              <p className="section-label">Founder-Led Consultancy</p>
-              <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-lg) 0' }}>
-                Direct Execution by Moksh Parjapati
-              </h2>
-              <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)', fontSize: '1.02rem' }}>
-                Most B2B agencies operate on an assembly-line model: senior partners sell the contract, then pass your project down to junior account managers who paste your content into bloated page-builder themes. The result is predictable: slow load times, fragile plugin stacks, and zero pipeline impact.
-              </p>
-              <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)', fontSize: '1.02rem' }}>
-                At Rankur, every single engagement: commercial positioning, technical search equity, custom frontend architecture, and conversion telemetry: is executed directly by me. No junior intermediaries. No outsourced codebases.
-              </p>
-              <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-xl)', fontSize: '1.02rem' }}>
-                You get direct engineering velocity, honest diagnostic feedback, clean source code in your own repository, and milestone-based sign-offs agreed up front.
-              </p>
-              <Link href="/about" className="btn btn--secondary">
-                About Moksh &rarr;
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Aceternity Bento Capabilities Section */}
-      <section className="services-overview" id="services-overview" style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)' }}>
-        <div className="container">
-          <div style={{ textAlign: 'center', maxWidth: '780px', margin: '0 auto var(--space-4xl)' }}>
-            <div className="aceternity-badge" style={{ margin: '0 auto var(--space-md)' }}>
-              <span className="aceternity-badge__dot"></span>
-              Proprietary Engineering Architecture
-            </div>
-            <h2 className="section-title" style={{ marginBottom: 'var(--space-md)' }}>
-              Engineered for Pipeline Velocity &amp; Market Dominance
-            </h2>
-            <p className="section-subtitle">
-              We eliminate low-converting agency templates and architect bespoke digital platforms engineered for sub-second speed, search engine dominance, and high-ticket B2B conversion.
-            </p>
-          </div>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 340px), 1fr))', gap: 'var(--space-xl)' }}>
-            {capabilities.map((service, i) => (
-              <SpotlightCard key={i} style={{ padding: 'var(--space-2xl)' }}>
-                <div style={{ display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-between' }}>
-                  <div>
-                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--space-lg)' }}>
-                      <div style={{
-                        width: '46px',
-                        height: '46px',
-                        borderRadius: '12px',
-                        backgroundColor: 'rgba(201, 168, 76, 0.08)',
-                        border: '1px solid rgba(201, 168, 76, 0.25)',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        color: 'var(--color-gold)',
-                      }}>
-                        {React.createElement(service.icon, { size: 24, strokeWidth: 1.8 })}
-                      </div>
-                      <span className="cert-skill-tag" style={{ color: 'var(--color-gold)', borderColor: 'rgba(201, 168, 76, 0.3)' }}>
-                        {service.badge}
-                      </span>
-                    </div>
-
-                    <h3 style={{ fontSize: '1.25rem', color: 'var(--color-white)', fontWeight: 700, marginBottom: 'var(--space-sm)', lineHeight: '1.35' }}>
-                      {service.title}
-                    </h3>
-                    <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7', marginBottom: 'var(--space-xl)' }}>
-                      {service.description}
-                    </p>
-
-                    <div style={{ marginBottom: 'var(--space-xl)' }}>
-                      <p style={{ fontSize: '0.78rem', textTransform: 'uppercase', letterSpacing: '0.06em', color: 'var(--color-text-muted)', marginBottom: '0.5rem', fontWeight: 600 }}>
-                        Key Deliverables:
-                      </p>
-                      <ul style={{ paddingLeft: '1.2rem', margin: 0, color: 'var(--color-text-muted)', fontSize: '0.88rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
-                        {service.deliverables.map((del, dIdx) => (
-                          <li key={dIdx}>{del}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: 'var(--space-md)', borderTop: '1px solid rgba(255, 255, 255, 0.08)' }}>
-                    <span style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>Benchmark:</span>
-                    <span style={{ fontSize: '0.85rem', color: 'var(--color-gold)', fontWeight: 700 }}>{service.stat}</span>
-                  </div>
-                </div>
-              </SpotlightCard>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Aceternity Visual Architecture Bento Showcase with Real UI Assets */}
-      <BentoVisualShowcase />
-
-      {/* The Architectural Breakdown / Comparison Table */}
+      {/* 4. The Architectural Breakdown / Comparison Table */}
       <section style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-black)' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '820px', margin: '0 auto var(--space-4xl)' }}>

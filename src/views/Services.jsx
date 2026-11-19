@@ -3,9 +3,7 @@ import React, { useState } from 'react';
 import { Compass, Code2, Search, FileText, BarChart3 } from 'lucide-react';
 
 import HeroSection from '../components/HeroSection';
-import ClientTrustBar from '../components/ClientTrustBar';
-import TechStackBar from '../components/TechStackBar';
-import BentoVisualShowcase from '../components/BentoVisualShowcase';
+import TrustEcosystemRibbon from '../components/TrustEcosystemRibbon';
 import SpotlightCard from '../components/SpotlightCard';
 import Testimonials from '../components/Testimonials';
 import CTABlock from '../components/CTABlock';
@@ -179,12 +177,12 @@ export default function Services() {
             Engineering-Led <span className="text-gold">Web &amp; SEO Systems</span>
           </>
         }
-        subtitle="I engineer fast B2B web systems, fix technical SEO debt, and structure clear buyer qualification flows."
+        subtitle="Founder-led Next.js engineering, deterministic search infrastructure, and frictionless buyer conversion flows for ambitious B2B enterprises."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'View Case Studies' }}
       />
 
-      <ClientTrustBar />
+      <TrustEcosystemRibbon />
 
       {/* Core Services Section with Aceternity Spotlight Cards */}
       <section className="section" id="services-full" style={{ padding: 'var(--space-5xl) 0' }}>
@@ -256,12 +254,6 @@ export default function Services() {
           </div>
         </div>
       </section>
-
-      {/* Production Tech Stack & Standards */}
-      <TechStackBar />
-
-      {/* Aceternity Visual Architecture Bento Showcase */}
-      <BentoVisualShowcase />
 
       {/* Methodology Section */}
       <section style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
