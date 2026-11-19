@@ -1,8 +1,10 @@
 "use client";
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { Compass, Code2, Search, FileText, BarChart3 } from 'lucide-react';
 
 import HeroSection from '../components/HeroSection';
 import ClientTrustBar from '../components/ClientTrustBar';
+import TechStackBar from '../components/TechStackBar';
 import SpotlightCard from '../components/SpotlightCard';
 import Testimonials from '../components/Testimonials';
 import CTABlock from '../components/CTABlock';
@@ -11,7 +13,7 @@ import './Services.css';
 
 const servicesData = [
   {
-    icon: '◎',
+    icon: Compass,
     title: 'Strategic Positioning & Market Authority',
     badge: 'Discovery & Copy',
     description:
@@ -25,7 +27,7 @@ const servicesData = [
     timeline: 'Scoped during discovery milestone',
   },
   {
-    icon: '⟨/⟩',
+    icon: Code2,
     title: 'High-Converting Web Infrastructure & Pipeline Engineering',
     badge: 'Performance & Revenue',
     description:
@@ -39,7 +41,7 @@ const servicesData = [
     timeline: 'Milestone-based sign-off, terms in proposal',
   },
   {
-    icon: '🔍',
+    icon: Search,
     title: 'Search Authority & Generative AI Discovery',
     badge: 'Technical SEO & GEO',
     description:
@@ -53,7 +55,7 @@ const servicesData = [
     timeline: 'Integrated into every website build or audit',
   },
   {
-    icon: '✍',
+    icon: FileText,
     title: 'Commercial Demand & Category Authority',
     badge: 'Content Strategy',
     description:
@@ -67,7 +69,7 @@ const servicesData = [
     timeline: 'Scoped per content roadmap',
   },
   {
-    icon: '📊',
+    icon: BarChart3,
     title: 'Conversion Flow & Pipeline Velocity',
     badge: 'Analytics & CRO',
     description:
@@ -205,7 +207,19 @@ export default function Services() {
                 <div style={{ display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-between' }}>
                   <div>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--space-lg)' }}>
-                      <span style={{ fontSize: '1.75rem', color: 'var(--color-gold)' }}>{service.icon}</span>
+                      <div style={{
+                        width: '46px',
+                        height: '46px',
+                        borderRadius: '12px',
+                        backgroundColor: 'rgba(201, 168, 76, 0.08)',
+                        border: '1px solid rgba(201, 168, 76, 0.25)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        color: 'var(--color-gold)',
+                      }}>
+                        {React.createElement(service.icon, { size: 24, strokeWidth: 1.8 })}
+                      </div>
                       <span className="cert-skill-tag" style={{ color: 'var(--color-gold)', borderColor: 'rgba(201, 168, 76, 0.3)' }}>
                         {service.badge}
                       </span>
@@ -241,6 +255,9 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      {/* Production Tech Stack & Standards */}
+      <TechStackBar />
 
       {/* Methodology Section */}
       <section style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>

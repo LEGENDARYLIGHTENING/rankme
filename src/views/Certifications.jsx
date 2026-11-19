@@ -2,7 +2,9 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { BarChart3, Target, Cpu } from 'lucide-react';
 import HeroSection from '../components/HeroSection';
+import TechStackBar from '../components/TechStackBar';
 import CTABlock from '../components/CTABlock';
 import { VERIFIED_CREDENTIALS } from '../data/credentials';
 import './Certifications.css';
@@ -150,6 +152,12 @@ export default function Certifications() {
         </div>
       </section>
 
+      {/* Production Tech Stack & Enterprise Compliance Standards */}
+      <TechStackBar
+        title="Enterprise Tech Stack & Security Frameworks"
+        subtitle="Verifiable production standards, type-safe Next.js architecture, and privacy-compliant telemetry protocols."
+      />
+
       {/* Aceternity Bento Architecture Section */}
       <section style={{ backgroundColor: 'var(--color-dark-surface)', padding: 'var(--space-5xl) 0', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
         <div className="container">
@@ -163,7 +171,20 @@ export default function Certifications() {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 'var(--space-xl)', marginTop: 'var(--space-2xl)' }}>
             <SpotlightCard style={{ padding: 'var(--space-2xl)' }}>
-              <div style={{ fontSize: '1.75rem', marginBottom: 'var(--space-md)' }}>📊</div>
+              <div style={{
+                width: '48px',
+                height: '48px',
+                borderRadius: '12px',
+                backgroundColor: 'rgba(201, 168, 76, 0.08)',
+                border: '1px solid rgba(201, 168, 76, 0.25)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: 'var(--color-gold)',
+                marginBottom: 'var(--space-md)',
+              }}>
+                <BarChart3 size={24} strokeWidth={1.8} />
+              </div>
               <h4 style={{ fontSize: '1.2rem', color: 'var(--color-white)', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>
                 Clean Attribution &amp; Zero Guesswork
               </h4>
@@ -173,7 +194,20 @@ export default function Certifications() {
             </SpotlightCard>
 
             <SpotlightCard style={{ padding: 'var(--space-2xl)' }}>
-              <div style={{ fontSize: '1.75rem', marginBottom: 'var(--space-md)' }}>🎯</div>
+              <div style={{
+                width: '48px',
+                height: '48px',
+                borderRadius: '12px',
+                backgroundColor: 'rgba(201, 168, 76, 0.08)',
+                border: '1px solid rgba(201, 168, 76, 0.25)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: 'var(--color-gold)',
+                marginBottom: 'var(--space-md)',
+              }}>
+                <Target size={24} strokeWidth={1.8} />
+              </div>
               <h4 style={{ fontSize: '1.2rem', color: 'var(--color-white)', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>
                 Inbound Lead Velocity &amp; Nurturing
               </h4>
@@ -183,7 +217,20 @@ export default function Certifications() {
             </SpotlightCard>
 
             <SpotlightCard style={{ padding: 'var(--space-2xl)' }}>
-              <div style={{ fontSize: '1.75rem', marginBottom: 'var(--space-md)' }}>⚡</div>
+              <div style={{
+                width: '48px',
+                height: '48px',
+                borderRadius: '12px',
+                backgroundColor: 'rgba(201, 168, 76, 0.08)',
+                border: '1px solid rgba(201, 168, 76, 0.25)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: 'var(--color-gold)',
+                marginBottom: 'var(--space-md)',
+              }}>
+                <Cpu size={24} strokeWidth={1.8} />
+              </div>
               <h4 style={{ fontSize: '1.2rem', color: 'var(--color-white)', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>
                 High-Speed Codebase Architecture
               </h4>

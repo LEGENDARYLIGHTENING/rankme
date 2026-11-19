@@ -1,11 +1,34 @@
 "use client";
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { Code2, Compass, Play, BarChart3, PenTool, Zap, CheckCircle2, Settings } from 'lucide-react';
 
 import HeroSection from '../components/HeroSection';
 import CTABlock from '../components/CTABlock';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Guarantee from '../components/Guarantee';
 import './NichePage.css';
+
+const ICON_MAP = {
+  '⟨/⟩': Code2,
+  '◎': Compass,
+  '▶': Play,
+  '📊': BarChart3,
+  '✍': PenTool,
+  '⚡': Zap,
+  '⚙': Settings,
+};
+
+function renderSolutionIcon(icon) {
+  if (!icon) return <CheckCircle2 size={22} />;
+  if (typeof icon === 'function' || typeof icon === 'object') {
+    return React.createElement(icon, { size: 22, strokeWidth: 1.8 });
+  }
+  const Mapped = ICON_MAP[icon];
+  if (Mapped) {
+    return <Mapped size={22} strokeWidth={1.8} />;
+  }
+  return <span>{icon}</span>;
+}
 
 export default function NichePage({
   seoTitle,
@@ -139,7 +162,9 @@ export default function NichePage({
           <div className="niche-solution__grid">
             {solutions.map((item, i) => (
               <div key={i} className="niche-feature">
-                <div className="niche-feature__icon">{item.icon}</div>
+                <div className="niche-feature__icon">
+                  {renderSolutionIcon(item.icon)}
+                </div>
                 <h4>{item.title}</h4>
                 <p>{item.desc}</p>
               </div>

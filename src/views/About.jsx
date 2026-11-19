@@ -1,5 +1,7 @@
 "use client";
 
+import React from 'react';
+import { Zap, ShieldCheck, SearchCheck, Handshake } from 'lucide-react';
 import HeroSection from '../components/HeroSection';
 import CTABlock from '../components/CTABlock';
 import SpotlightCard from '../components/SpotlightCard';
@@ -23,22 +25,22 @@ const platformsLedger = [
 
 const principles = [
   {
-    icon: '⚡',
+    icon: Zap,
     title: 'Sub-Second Speed is a Business Metric',
     desc: 'Website latency directly destroys pipeline. A 2-second delay silently cuts executive conversion rates in half. Every platform we build is engineered on global edge networks with minimal payload weight to guarantee sub-second delivery.',
   },
   {
-    icon: '🛡️',
+    icon: ShieldCheck,
     title: '100% Client Ownership, Zero Lock-In',
     desc: 'We never hold code hostage or trap clients in proprietary CMS themes. You receive 100% ownership of your git repository, custom components, schemas, and analytics properties upon project completion.',
   },
   {
-    icon: '🔍',
+    icon: SearchCheck,
     title: 'Empirical Telemetry Over Vanity Signals',
     desc: 'Ranking for random keywords means nothing if your demo calendar stays empty. We instrument precise GA4 and CRM conversion milestones to measure actual buyer engagement and pipeline velocity.',
   },
   {
-    icon: '🤝',
+    icon: Handshake,
     title: 'Founder-to-Founder Accountability',
     desc: 'You work directly with Moksh Parjapati. Every strategic insight, line of code, and search architecture decision is owned by an experienced operator rather than delegated to junior agency staff.',
   },
@@ -99,7 +101,20 @@ export default function About() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--space-xl)' }}>
             {principles.map((p, idx) => (
               <SpotlightCard key={idx} style={{ padding: 'var(--space-2xl)' }}>
-                <span style={{ fontSize: '1.75rem', marginBottom: 'var(--space-md)', display: 'block' }}>{p.icon}</span>
+                <div style={{
+                  width: '48px',
+                  height: '48px',
+                  borderRadius: '12px',
+                  backgroundColor: 'rgba(201, 168, 76, 0.08)',
+                  border: '1px solid rgba(201, 168, 76, 0.25)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  color: 'var(--color-gold)',
+                  marginBottom: 'var(--space-md)',
+                }}>
+                  {React.createElement(p.icon, { size: 24, strokeWidth: 1.8 })}
+                </div>
                 <h4 style={{ fontSize: '1.18rem', color: 'var(--color-white)', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>
                   {p.title}
                 </h4>

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { RefreshCw } from 'lucide-react';
 
 export default function OpportunityCard({ opportunity }) {
   const {
@@ -72,6 +73,9 @@ export default function OpportunityCard({ opportunity }) {
           {refresh_status === 'MONITORING' && (
             <span
               style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '5px',
                 backgroundColor: 'rgba(46, 204, 113, 0.15)',
                 color: '#2ECC71',
                 fontSize: '12px',
@@ -81,7 +85,7 @@ export default function OpportunityCard({ opportunity }) {
                 border: '1px solid #2ECC7133',
               }}
             >
-              🔄 Monitoring Baseline
+              <RefreshCw size={13} strokeWidth={2.2} /> Monitoring Baseline
             </span>
           )}
         </div>

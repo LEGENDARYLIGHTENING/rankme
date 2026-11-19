@@ -1,6 +1,22 @@
 "use client";
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
+import {
+  Sparkles,
+  Compass,
+  Search,
+  Rocket,
+  Factory,
+  ShieldCheck,
+  TrendingUp,
+  Target,
+  Zap,
+  DollarSign,
+  Users,
+  PenTool,
+  BarChart3,
+  Bookmark,
+} from 'lucide-react';
 import HeroSection from '../components/HeroSection';
 import Guarantee from '../components/Guarantee';
 import { POSTS_PER_PAGE } from '../utils/blogConfig';
@@ -34,19 +50,19 @@ const hubDescriptions = {
 };
 
 const categoryIcons = {
-  'All': '⚡',
-  'Website Strategy': '🏛️',
-  'SEO & AI Search': '🔍',
-  'SaaS & Tech Startups': '🚀',
-  'B2B Manufacturers & Exporters': '🏭',
-  'Nutraceuticals & Wellness Brands': '🌿',
-  'Organic Lead Generation': '📈',
-  'Conversions & Leads': '🎯',
-  'Tech & Speed': '⚡',
-  'Cost & ROI': '💎',
-  'Hiring & Agency': '🤝',
-  'Founder-Led Marketing': '🖋️',
-  'Case Studies': '📊',
+  'All': Sparkles,
+  'Website Strategy': Compass,
+  'SEO & AI Search': Search,
+  'SaaS & Tech Startups': Rocket,
+  'B2B Manufacturers & Exporters': Factory,
+  'Nutraceuticals & Wellness Brands': ShieldCheck,
+  'Organic Lead Generation': TrendingUp,
+  'Conversions & Leads': Target,
+  'Tech & Speed': Zap,
+  'Cost & ROI': DollarSign,
+  'Hiring & Agency': Users,
+  'Founder-Led Marketing': PenTool,
+  'Case Studies': BarChart3,
 };
 
 export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
@@ -142,25 +158,28 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
             </div>
           </div>
 
-          {/* Probiota-Style Pill Category Filter Tabs with Category Icons */}
+          {/* Category Filter Tabs with Crisp SVG Icons */}
           <nav className="category-filters" id="blog-filters" aria-label="Blog Categories">
             <Link
               href="/blog"
               className={`category-btn ${activeFilter === 'All' ? 'active' : ''}`}
             >
-              <span style={{ marginRight: '6px' }}>{categoryIcons['All']}</span>
+              <Sparkles size={14} strokeWidth={2} style={{ marginRight: '6px', flexShrink: 0 }} />
               All Categories
             </Link>
-            {allCategories.map((cat) => (
-              <Link
-                key={cat.slug}
-                href={`/blog/category/${cat.slug}`}
-                className={`category-btn ${activeFilter === cat.tag ? 'active' : ''}`}
-              >
-                <span style={{ marginRight: '6px' }}>{categoryIcons[cat.tag] || '📌'}</span>
-                {cat.tag}
-              </Link>
-            ))}
+            {allCategories.map((cat) => {
+              const IconComp = categoryIcons[cat.tag] || Bookmark;
+              return (
+                <Link
+                  key={cat.slug}
+                  href={`/blog/category/${cat.slug}`}
+                  className={`category-btn ${activeFilter === cat.tag ? 'active' : ''}`}
+                >
+                  <IconComp size={14} strokeWidth={2} style={{ marginRight: '6px', flexShrink: 0 }} />
+                  {cat.tag}
+                </Link>
+              );
+            })}
           </nav>
 
           {/* Active Hub Description */}

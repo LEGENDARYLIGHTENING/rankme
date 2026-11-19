@@ -1,7 +1,8 @@
 "use client";
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import { ClipboardList, Search, FileText, PhoneCall } from 'lucide-react';
 
 import HeroSection from '../components/HeroSection';
 import { AUDIT_FAQS } from '../data/auditFaqs';
@@ -10,22 +11,22 @@ import './Contact.css';
 
 const auditSteps = [
   {
-    icon: '📋',
+    icon: ClipboardList,
     title: '1. Submit Site Details',
     desc: 'Share your URL, vertical, and main conversion or search bottlenecks so I know what to inspect.',
   },
   {
-    icon: '🔍',
+    icon: Search,
     title: '2. Diagnostic Evaluation',
     desc: 'I evaluate search engine discovery barriers, buyer qualification drop-offs, platform performance bottlenecks, and positioning clarity.',
   },
   {
-    icon: '📄',
+    icon: FileText,
     title: '3. Written Priority Teardown',
     desc: 'Receive a concise prioritized brief covering what is broken and which fixes matter most: within 2 business days.',
   },
   {
-    icon: '📞',
+    icon: PhoneCall,
     title: '4. Optional Discussion',
     desc: 'If helpful, we can review the findings together by email or call. Zero sales pressure.',
   },
@@ -143,7 +144,20 @@ export default function FreeAudit() {
           <div className="audit-what__grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))' }}>
             {auditSteps.map((step, i) => (
               <div key={i} className="audit-what__item">
-                <div className="audit-what__icon" style={{ fontSize: '2rem', marginBottom: 'var(--space-md)' }}>{step.icon}</div>
+                <div style={{
+                  width: '48px',
+                  height: '48px',
+                  borderRadius: '12px',
+                  backgroundColor: 'rgba(201, 168, 76, 0.08)',
+                  border: '1px solid rgba(201, 168, 76, 0.25)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  color: 'var(--color-gold)',
+                  marginBottom: 'var(--space-md)',
+                }}>
+                  {React.createElement(step.icon, { size: 24, strokeWidth: 1.8 })}
+                </div>
                 <h4 style={{ fontSize: '1.1rem', fontWeight: 'var(--font-weight-bold)', marginBottom: 'var(--space-sm)' }}>{step.title}</h4>
                 <p style={{ fontSize: '0.88rem', color: 'var(--color-text-muted)', lineHeight: '1.6' }}>{step.desc}</p>
               </div>
