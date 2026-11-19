@@ -87,7 +87,18 @@ const CURATED_PILLARS = new Set([
   'competitor-website-teardowns-top-b2b-sites',
   'scaling-b2b-website-global-traffic-performance',
   'measuring-b2b-seo-roi-beyond-vanity-metrics',
-  'zero-click-searches-b2b-seo-survival-guide'
+  'zero-click-searches-b2b-seo-survival-guide',
+  // Batch 8 Masterclass Additions
+  'b2b-landing-page-strategy-product-categories',
+  'b2b-seo-strategy-rank-high-intent-buyer-keywords',
+  'international-seo-for-b2b-hreflang-market-targeting',
+  'seo-mistakes-kill-b2b-lead-quality',
+  'schema-markup-b2b-product-service-pages',
+  'algorithm-update-resilience-b2b-websites',
+  'custom-build-vs-agency-retainer-cost-roi',
+  'website-traffic-up-qualified-pipeline-down',
+  'enterprise-buyers-leave-contact-form',
+  'high-intent-bounce-pricing-page'
 ]);
 
 // 1. Primary keyword uniqueness and clustering
