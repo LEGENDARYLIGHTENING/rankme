@@ -33,6 +33,22 @@ const hubDescriptions = {
   'Case Studies': 'Architectural breakdowns from production web builds and verified commercial transformations.',
 };
 
+const categoryIcons = {
+  'All': '⚡',
+  'Website Strategy': '🏛️',
+  'SEO & AI Search': '🔍',
+  'SaaS & Tech Startups': '🚀',
+  'B2B Manufacturers & Exporters': '🏭',
+  'Nutraceuticals & Wellness Brands': '🌿',
+  'Organic Lead Generation': '📈',
+  'Conversions & Leads': '🎯',
+  'Tech & Speed': '⚡',
+  'Cost & ROI': '💎',
+  'Hiring & Agency': '🤝',
+  'Founder-Led Marketing': '🖋️',
+  'Case Studies': '📊',
+};
+
 export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -126,12 +142,13 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
             </div>
           </div>
 
-          {/* Probiota-Style Pill Category Filter Tabs */}
+          {/* Probiota-Style Pill Category Filter Tabs with Category Icons */}
           <nav className="category-filters" id="blog-filters" aria-label="Blog Categories">
             <Link
               href="/blog"
               className={`category-btn ${activeFilter === 'All' ? 'active' : ''}`}
             >
+              <span style={{ marginRight: '6px' }}>{categoryIcons['All']}</span>
               All Categories
             </Link>
             {allCategories.map((cat) => (
@@ -140,6 +157,7 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
                 href={`/blog/category/${cat.slug}`}
                 className={`category-btn ${activeFilter === cat.tag ? 'active' : ''}`}
               >
+                <span style={{ marginRight: '6px' }}>{categoryIcons[cat.tag] || '📌'}</span>
                 {cat.tag}
               </Link>
             ))}
@@ -165,7 +183,7 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
             )}
           </div>
 
-          {/* Blog Grid: 3-Column Layout */}
+          {/* Blog Grid: 3-Column Layout with Big Formatted Images & Floating Badges */}
           <div className="blog-grid">
             {currentPosts.map((post) => {
               const cleanTitle = (post.title || '').replace(/\s*\|\s*Rankur\s*$/i, '');
@@ -177,6 +195,18 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
                   className="blog-card"
                 >
                   <div className="blog-card-image">
+                    <span className="blog-card-floating-tag">
+                      {post.tag || 'Strategy'}
+                    </span>
+                    {post.readTime && (
+                      <span className="blog-card-floating-read">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        {post.readTime}
+                      </span>
+                    )}
                     <img
                       src={post.image || '/blog-images/prompt-115.webp'}
                       alt={post.imageAlt || cleanTitle}
@@ -186,14 +216,18 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
                     />
                   </div>
                   <div className="blog-card-content">
-                    <div className="blog-card-meta-header">
-                      <span className="blog-card-category">{post.tag || 'Strategy'}</span>
-                      {post.readTime && <span className="blog-card-read-time">{post.readTime}</span>}
-                    </div>
                     <h3 className="blog-card-title">{cleanTitle}</h3>
                     <p className="blog-card-excerpt">{post.excerpt}</p>
                     <div className="blog-card-footer">
-                      <span className="blog-card-date">{dateStr}</span>
+                      <span className="blog-card-date">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ marginRight: '5px', verticalAlign: '-1px' }}>
+                          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                          <line x1="16" y1="2" x2="16" y2="6"></line>
+                          <line x1="8" y1="2" x2="8" y2="6"></line>
+                          <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        {dateStr}
+                      </span>
                       <span className="read-more">
                         Read Article
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
