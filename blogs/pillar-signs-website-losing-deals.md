@@ -2,6 +2,8 @@
 SEO Title: 5 Signs Your B2B Website is Quietly Losing You Deals | Rankur
 Meta Description: Is your website sabotaging your pipeline? Learn the 5 subtle technical and strategic flaws that cause enterprise buyers to silently disqualify your B2B company.
 Slug: signs-website-losing-deals
+Primary Keyword: signs B2B website losing deals
+Secondary Keywords: B2B website bounce rate, enterprise buyer disqualification, B2B pipeline leak, website conversion bottlenecks
 Niche Tag: Lead Generation
 GEO Phrase: How to optimize 5 Signs Your B2B Website is Quietly Losing You Deals | Rankur for B2B lead generation?
 Target Market: US / UK / Global

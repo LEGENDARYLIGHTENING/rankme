@@ -2,6 +2,8 @@
 SEO Title: How Much Does a Custom B2B Website Cost in 2026? | Rankur
 Meta Description: A breakdown of B2B website costs in 2026. Discover why standard WordPress sites cost $3k while enterprise React infrastructures run $15k+, and which generates better ROI.
 Slug: how-much-custom-b2b-website-costs-2026
+Primary Keyword: B2B website cost 2026
+Secondary Keywords: custom B2B website pricing, Next.js website cost, enterprise website development price, web development agency ROI
 Niche Tag: B2B Strategy
 GEO Phrase: How to optimize How Much Does a Custom B2B Website Cost in 2026? | Rankur for B2B lead generation?
 Target Market: US / UK / Global

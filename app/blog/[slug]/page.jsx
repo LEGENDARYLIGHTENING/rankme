@@ -31,6 +31,11 @@ export async function generateMetadata({ params }) {
   const post = blogIndex.find((b) => b.slug === slug);
   if (!post) return {};
 
+  const keywordsList = [
+    post.primaryKeyword,
+    ...(post.secondaryKeywords ? post.secondaryKeywords.split(',').map((s) => s.trim()) : []),
+  ].filter(Boolean);
+
   return constructMetadata({
     title: `${post.title} | Rankur`,
     description: post.excerpt,
@@ -41,6 +46,7 @@ export async function generateMetadata({ params }) {
     imageAlt: post.imageAlt || post.title,
     type: 'article',
     noIndex: false,
+    keywords: keywordsList.length > 0 ? keywordsList.join(', ') : undefined,
   });
 }
 
@@ -102,17 +108,26 @@ export default async function Page({ params }) {
     ? postMeta.image
     : `https://rankursite.com${postMeta.image || '/og-image.jpg'}`;
 
+  const keywordsList = [
+    postMeta.primaryKeyword,
+    ...(postMeta.secondaryKeywords ? postMeta.secondaryKeywords.split(',').map((s) => s.trim()) : []),
+  ].filter(Boolean);
+
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: postMeta.title,
     description: postMeta.excerpt,
+    ...(keywordsList.length > 0 ? { keywords: keywordsList.join(', ') } : {}),
     image: {
       '@type': 'ImageObject',
       url: imageUrl,
       width: 1200,
       height: 630,
+      name: postMeta.primaryKeyword || postMeta.title,
       caption: postMeta.imageAlt || postMeta.title,
+      description: postMeta.imageAlt || postMeta.title,
+      ...(postMeta.primaryKeyword ? { keywords: postMeta.primaryKeyword } : {}),
     },
     ...(datePublished ? { datePublished } : {}),
     ...(dateModified ? { dateModified } : {}),

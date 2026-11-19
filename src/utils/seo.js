@@ -37,6 +37,7 @@ export function constructMetadata({
   noIndex = false,
   robotsFollow = true,
   alternatesLanguages,
+  keywords,
 } = {}) {
   const cleanPath = canonical === '/' ? '' : canonical;
   const fullCanonical = canonical.startsWith('http')
@@ -61,6 +62,7 @@ export function constructMetadata({
   return {
     title: finalTitle,
     description: finalDesc,
+    ...(keywords ? { keywords } : {}),
     alternates,
     robots: noIndex
       ? { index: false, follow: robotsFollow }

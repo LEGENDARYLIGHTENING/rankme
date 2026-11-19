@@ -9,7 +9,7 @@ import { APPROVED_TESTIMONIALS } from '../data/testimonials';
 import './CaseStudies.css';
 
 const architecturalHighlights = [
-  { value: 'Next.js 16', label: 'Static & App Router Architecture' },
+  { value: '<1s Load', label: 'Sub-Second Global Edge Performance' },
   { value: 'Verified Build', label: 'Live Client Platform' },
   { value: 'Accessible', label: 'Mobile-First Design' },
   { value: 'Clean Code', label: 'Full Repository Ownership' },
@@ -39,7 +39,7 @@ export default function CaseStudies() {
 
       <ClientTrustBar
         title="Featured Client Platform"
-        subtitle="Live production platform engineered with Next.js, mobile accessibility, and clean search architecture."
+        subtitle="Live production platform engineered with sub-second responsiveness, mobile accessibility, and clean search architecture."
       />
 
       {/* Case Study: Wafa Educational & Charitable Trust */}
@@ -82,7 +82,7 @@ export default function CaseStudies() {
             <div className="case-full__content">
               <div className="case-full__tech-pills">
                 <span className="case-full__tech-pill">Client Project</span>
-                <span className="case-full__tech-pill">Next.js Frontend</span>
+                <span className="case-full__tech-pill">High-Performance Frontend</span>
                 <span className="case-full__tech-pill">Mobile-First Accessibility</span>
                 <span className="case-full__tech-pill">Structured Data Schema</span>
               </div>
@@ -94,7 +94,7 @@ export default function CaseStudies() {
 
               <h3>Engineering &amp; Architecture Approach</h3>
               <ul>
-                <li><strong>Accessible Next.js Architecture:</strong> Built a lightweight, mobile-first frontend ensuring instant load times across varying network speeds and devices.</li>
+                <li><strong>Accessible Modern Web Architecture:</strong> Built a lightweight, mobile-first frontend ensuring instant load times across varying network speeds and devices.</li>
                 <li><strong>Clear Program Hierarchy:</strong> Structured community outreach, medical dispensaries, and education programs into clear, easy-to-navigate modules.</li>
                 <li><strong>Transparent Engagement Pathways:</strong> Implemented frictionless donor contact and inquiry pathways to facilitate support and community engagement.</li>
               </ul>

@@ -41,7 +41,7 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
         <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
           <div className="markdown-prose">
             {postMeta.image && (
-              <div
+              <figure
                 className="blog-post__featured-image img-placeholder"
                 style={{ marginBottom: '2.5rem', width: '100%', overflow: 'hidden', borderRadius: '8px' }}
               >
@@ -54,7 +54,12 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
                   fetchPriority="high"
                   style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover', borderRadius: 'inherit' }}
                 />
-              </div>
+                {postMeta.imageAlt && (
+                  <figcaption style={{ fontSize: '0.85rem', color: 'var(--color-muted)', marginTop: '0.65rem', textAlign: 'center', lineHeight: '1.4' }}>
+                    {postMeta.imageAlt}
+                  </figcaption>
+                )}
+              </figure>
             )}
             <ReactMarkdown>{content}</ReactMarkdown>
           </div>

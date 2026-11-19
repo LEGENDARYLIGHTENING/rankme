@@ -32,7 +32,7 @@ const auditSteps = [
 ];
 
 const trustMetrics = [
-  { value: 'Next.js 16', label: 'Modern React Architecture' },
+  { value: '<1s Load', label: 'Sub-Second Global Edge Performance' },
   { value: 'Moksh Productions', label: 'Operating Entity (India)' },
   { value: 'Mutual NDA', label: 'Available Prior to Sharing Files' },
   { value: 'GA4 Certified', label: 'Clean Event Measurement' },

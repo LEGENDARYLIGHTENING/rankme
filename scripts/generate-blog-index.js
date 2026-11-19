@@ -76,6 +76,15 @@ const TAXONOMY_MAP = {
   'case studies': { tag: 'Case Studies', slug: 'case-studies', image: '/blog-images/hub-case-studies.webp' },
 };
 
+const PILLAR_NUM_MAP = {
+  'pillar-getting-found-google-chatgpt-perplexity-b2b.md': 115,
+  'pillar-how-much-b2b-website-costs-2026.md': 116,
+  'pillar-react-vs-wordpress-b2b.md': 117,
+  'pillar-signs-website-losing-deals.md': 118,
+  'pillar-website-redesign-checklist-founders.md': 119,
+  'pillar-why-business-websites-get-zero-leads.md': 120,
+};
+
 // Parse prompts map for dedicated blog hero images and rich descriptive alt text
 const promptsMap = {};
 try {
@@ -243,18 +252,22 @@ const blogIndex = files.map((filename) => {
   const lane = classifyLane(taxInfo.tag, title, primaryKeyword, content);
 
   let blogImage = taxInfo.image;
-  let blogAlt = `${title} — ${taxInfo.tag} | Rankur`;
-  const numMatch = filename.match(/^blog_0*(\d+)(?:_new)?\.md$/);
-  if (numMatch) {
-    const num = parseInt(numMatch[1], 10);
-    if (num >= 1 && num <= 120) {
-      const candidate = `/blog-images/prompt-${num}.webp`;
-      if (fs.existsSync(path.join(rootDir, 'public', candidate))) {
-        blogImage = candidate;
-        const pInfo = promptsMap[num];
-        if (pInfo && pInfo.scene) {
-          blogAlt = `${pInfo.scene} — ${title} | Rankur`;
-        }
+  let blogAlt = `${primaryKeyword} — ${title} | Rankur`;
+  let num = PILLAR_NUM_MAP[filename] || null;
+  if (!num) {
+    const numMatch = filename.match(/^blog_0*(\d+)(?:_new)?\.md$/);
+    if (numMatch) {
+      num = parseInt(numMatch[1], 10);
+    }
+  }
+
+  if (num && num >= 1 && num <= 120) {
+    const candidate = `/blog-images/prompt-${num}.webp`;
+    if (fs.existsSync(path.join(rootDir, 'public', candidate))) {
+      blogImage = candidate;
+      const pInfo = promptsMap[num];
+      if (pInfo && pInfo.scene) {
+        blogAlt = `${primaryKeyword} — ${pInfo.scene} (${title}) | Rankur`;
       }
     }
   }
@@ -279,6 +292,8 @@ const blogIndex = files.map((filename) => {
     imageHeight: 630,
     imageAlt: blogAlt,
     primaryKeyword,
+    secondaryKeywords: data['Secondary Keywords'] || '',
+    geoPhrase: data['GEO Phrase'] || '',
     targetMarket: data['Target Market'] || 'US / UK / Australia',
   };
 });

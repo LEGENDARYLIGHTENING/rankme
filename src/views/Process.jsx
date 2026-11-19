@@ -56,7 +56,7 @@ export default function Process() {
             Audit. Build. <span className="text-gold">Measure.</span>
           </>
         }
-        subtitle="From an initial manual site teardown to a custom Next.js build and clean search measurement — here is how engagements run."
+        subtitle="From an initial manual site teardown to custom high-performance engineering and clean search measurement — here is how engagements run."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
       />
 
@@ -92,7 +92,7 @@ export default function Process() {
                 We architect custom digital platforms engineered for speed, conversion, and market authority, transferring complete codebase and asset ownership to your organization.
               </p>
               <div className="process-detail__items">
-                <div className="process-detail__item">Bespoke high-performance Next.js web infrastructure</div>
+                <div className="process-detail__item">Bespoke high-performance web infrastructure</div>
                 <div className="process-detail__item">Multi-platform search &amp; generative AI answer readiness</div>
                 <div className="process-detail__item">Zero-loss domain equity preservation &amp; traffic retention</div>
                 <div className="process-detail__item">Enterprise inquiry capture &amp; verified lead routing</div>

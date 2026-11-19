@@ -11,14 +11,6 @@ const footerNav = [
   { to: '/certifications', label: 'Certifications' },
 ];
 
-const footerServices = [
-  { to: '/services', label: 'Website Build' },
-  { to: '/services', label: 'SEO & GEO' },
-  { to: '/services', label: 'LinkedIn Content' },
-  { to: '/services', label: 'Meta & Google Ads' },
-  { to: '/free-audit', label: 'Free Audit' },
-];
-
 const footerMarkets = [
   { to: '/usa', label: 'United States' },
   { to: '/uk', label: 'United Kingdom' },

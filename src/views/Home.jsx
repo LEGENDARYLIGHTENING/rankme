@@ -11,7 +11,7 @@ import psiMetrics from '../data/psiMetrics.json';
 import './Home.css';
 
 const proofItems = [
-  { value: 'Next.js 16', label: 'Static & App Router Architecture' },
+  { value: '<1s Load', label: 'Sub-Second Global Edge Performance' },
   { value: 'Live Platform', label: 'Wafa Educational Trust' },
   { value: 'GA4 Certified', label: 'Consent-Clean Event Telemetry' },
   { value: '100%', label: 'Client Codebase Ownership' },
@@ -25,13 +25,13 @@ const portfolioShowcases = [
     tag: 'Philanthropic Healthcare & Education',
     title: 'Wafa Educational & Charitable Trust',
     domain: 'https://www.wafatrustindia.org/',
-    badge: 'Client Project · Next.js Web Architecture',
+    badge: 'Client Project · High-Speed Digital Architecture',
     image: null,
     alt: 'Wafa Educational And Charitable Trust platform',
     description:
-      'Engineered a clean, accessible Next.js web platform for a philanthropic healthcare and education trust, organizing community initiatives, health aid documentation, and donor contact pathways.',
+      'Engineered a clean, accessible high-speed web platform for a philanthropic healthcare and education trust, organizing community initiatives, health aid documentation, and donor contact pathways.',
     architecturalNotes: [
-      { value: 'Next.js 16', label: 'App Router' },
+      { value: 'Sub-Second', label: 'High-Availability Architecture' },
       { value: 'Accessible', label: 'Mobile-First UI' },
       { value: 'Live Platform', label: 'wafatrustindia.org' },
     ],
@@ -49,10 +49,10 @@ const capabilities = [
   },
   {
     icon: '⟨/⟩',
-    title: 'Proprietary Next.js Web Infrastructure',
+    title: 'Proprietary High-Performance Web Infrastructure',
     description:
       'Custom-engineered from the ground up for high-growth B2B brands. Lightning-fast edge delivery, sub-second response times, and full codebase ownership with zero CMS dependency or plugin bloat.',
-    deliverables: ['Custom Next.js Edge Architecture', 'Zero-Friction Inbound Capture', '100% Client Codebase Ownership'],
+    deliverables: ['Custom High-Speed Edge Architecture', 'Zero-Friction Inbound Capture', '100% Client Codebase Ownership'],
     timeline: 'Milestone-based sign-off',
   },
   {
@@ -97,7 +97,7 @@ const processSteps = [
   {
     title: '2. Dedicated Architecture & Sprint Build',
     description:
-      'Your platform is custom-engineered using our proprietary Next.js infrastructure and search standards, backed by milestone deliverables and 100% source code ownership.',
+      'Your platform is custom-engineered using our proprietary high-performance infrastructure and search standards, backed by milestone deliverables and 100% source code ownership.',
   },
   {
     title: '3. Pipeline Velocity & Ongoing Dominance',
@@ -117,7 +117,7 @@ export default function Home() {
             <span className="text-gold">Rank &amp; Convert</span>
           </>
         }
-        subtitle="I build maintainable React and Next.js websites for B2B founders and structure them for Google search, AI answer visibility, and qualified sales inquiries — with full source code ownership."
+        subtitle="I engineer high-converting B2B web systems built to dominate Google search, earn generative AI citations, and accelerate executive pipeline — with 100% source code ownership."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'View Platforms Built' }}
       />
@@ -155,7 +155,7 @@ export default function Home() {
                 Direct Execution by Moksh Parjapati
               </h2>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)' }}>
-                Many agencies win a contract and hand the work to junior account managers or bloated page-builder themes. Everything on a Rankur engagement — positioning, technical SEO hygiene, Next.js frontend engineering, and analytics setup — runs directly through me.
+                Many agencies win a contract and hand the work to junior account managers or bloated page-builder themes. Everything on a Rankur engagement — commercial positioning, technical search equity, bespoke frontend engineering, and conversion telemetry — runs directly through me.
               </p>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-lg)' }}>
                 You get direct communication, realistic claims, clean maintainable code in your own repository, and transparent terms agreed up front.
@@ -189,7 +189,7 @@ export default function Home() {
             <p className="section-label">Featured Client Build</p>
             <h2 className="section-title">Production Web Architecture</h2>
             <p className="section-subtitle">
-              Accessible digital infrastructure engineered with Next.js and high-performance frontend architecture.
+              Accessible digital infrastructure engineered with sub-second responsiveness and modern frontend architecture.
             </p>
           </div>
 

@@ -2,6 +2,8 @@
 SEO Title: Why Most B2B Websites Get Zero Leads (And How to Fix It) | Rankur
 Meta Description: Discover the brutal truth about why your B2B website is failing to generate qualified leads, and how shifting to a programmatic SEO architecture can fix your pipeline.
 Slug: why-business-websites-get-zero-leads
+Primary Keyword: why B2B websites get zero leads
+Secondary Keywords: B2B website lead generation, conversion engine vs digital brochure, why website is not generating leads, B2B buyer conversion
 Niche Tag: Lead Generation
 GEO Phrase: How to optimize Why Most B2B Websites Get Zero Leads (And How to Fix It) | Rankur for B2B lead generation?
 Target Market: US / UK / Global

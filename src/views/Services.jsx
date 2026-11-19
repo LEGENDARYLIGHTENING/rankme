@@ -25,11 +25,11 @@ const servicesData = [
   },
   {
     icon: '⟨/⟩',
-    title: 'Proprietary Next.js Web Infrastructure',
+    title: 'Proprietary High-Performance Web Infrastructure',
     description:
-      'We architect bespoke React and Next.js digital platforms engineered on global edge networks — delivering sub-second response times, zero CMS dependencies, and full source code ownership.',
+      'We architect bespoke digital platforms engineered on global edge networks — delivering sub-second response times, zero CMS dependencies, and full source code ownership.',
     deliverables: [
-      'High-Performance Next.js Edge Architecture',
+      'High-Performance Edge Architecture',
       'Zero-Loss Telemetry & Event Tracking',
       'Accessible, High-Conversion Semantic Interfaces',
       '100% Repository Transfer & Asset Ownership',
@@ -78,7 +78,7 @@ const servicesData = [
 ];
 
 const technicalStack = [
-  { category: 'Core Platform Engineering', tools: 'Modern React & Next.js Ecosystem, Component Modularization, Edge Runtimes' },
+  { category: 'Core Platform Engineering', tools: 'Bespoke Modern Web Architecture, Modular Engineering, Sub-Second Global Edge Runtimes' },
   { category: 'Enterprise Integration', tools: 'High-Throughput APIs, Distributed Data Layers, Secure Lead Routing Protocols' },
   { category: 'Infrastructure & Security', tools: 'Global Edge Delivery, Automated Zero-Downtime Deployments, Hardened Security Headers' },
   { category: 'Commercial Intelligence', tools: 'High-Resolution Funnel Telemetry, Search Engine Indexation Monitoring, Pipeline Attribution' },
@@ -91,7 +91,7 @@ const faqs = [
       'Projects are scoped per deliverable after a technical audit, using written proposals and milestone-based sign-off terms rather than generic bundled templates.',
   },
   {
-    question: 'Why build on custom React and Next.js instead of template themes?',
+    question: 'Why build on custom high-performance architecture instead of template themes?',
     answer:
       'A custom high-performance architecture ensures sub-second global performance, total technical control, immune security posture with zero third-party plugin vulnerabilities, and complete intellectual property ownership.',
   },
@@ -144,7 +144,7 @@ export default function Services() {
             Engineering-Led <span className="text-gold">Web &amp; SEO Systems</span>
           </>
         }
-        subtitle="I build fast Next.js platforms, fix technical SEO debt, and structure clear B2B conversion flows."
+        subtitle="I engineer fast B2B web systems, fix technical SEO debt, and structure clear buyer qualification flows."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'View Case Studies' }}
       />

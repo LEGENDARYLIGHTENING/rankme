@@ -17,7 +17,7 @@ const platformsLedger = [
   {
     title: 'Wafa Educational & Charitable Trust — Client Platform',
     evidence:
-      'Accessible, high-performance Next.js digital platform built for a philanthropic healthcare and education trust, organizing community medical aid and donor contact pathways cleanly at wafatrustindia.org.',
+      'Accessible, high-performance digital platform built for a philanthropic healthcare and education trust, organizing community medical aid and donor contact pathways cleanly at wafatrustindia.org.',
   },
 ];
 
@@ -87,7 +87,7 @@ export default function About() {
           <h2 className="section-title">Production Work &amp; Venture Disclosure</h2>
           <div className="about-story__content" style={{ marginBottom: 'var(--space-3xl)' }}>
             <p>
-              Below is the production ledger of client builds and in-house ventures developed using the same Next.js architecture, clearly distinguishing third-party clients from ventures I co-led or founded.
+              Below is the production ledger of client platforms developed using our high-performance web systems and search architecture, clearly distinguishing third-party clients from ventures I co-led or founded.
             </p>
           </div>
 

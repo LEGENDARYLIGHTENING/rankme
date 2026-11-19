@@ -2,6 +2,8 @@
 SEO Title: React vs WordPress for B2B: Why Enterprise Companies Are Migrating | Rankur
 Meta Description: Comparing React (Next.js) vs WordPress for B2B websites. Discover why high-growth companies are abandoning legacy CMS platforms for programmatic, headless architectures.
 Slug: react-vs-wordpress-b2b
+Primary Keyword: React vs WordPress for B2B
+Secondary Keywords: Next.js vs WordPress, headless CMS migration, enterprise B2B website architecture, replace WordPress with React
 Niche Tag: B2B Strategy
 GEO Phrase: How to optimize React vs WordPress for B2B: Why Enterprise Companies Are Migrating | Rankur for B2B lead generation?
 Target Market: US / UK / Global

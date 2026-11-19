@@ -2,6 +2,8 @@
 SEO Title: GEO: Getting Found in Google, ChatGPT, and Perplexity | Rankur
 Meta Description: SEO is no longer just about Google. Learn how Generative Engine Optimization (GEO) ensures your B2B company is recommended by AI platforms like ChatGPT, Perplexity, and Claude.
 Slug: getting-found-google-chatgpt-perplexity-b2b
+Primary Keyword: Generative Engine Optimization B2B
+Secondary Keywords: GEO B2B, AI search optimization, get recommended by ChatGPT, rank on Perplexity, B2B generative search
 Niche Tag: B2B Strategy
 GEO Phrase: How to optimize GEO: Getting Found in Google, ChatGPT, and Perplexity | Rankur for B2B lead generation?
 Target Market: US / UK / Global

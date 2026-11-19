@@ -2,6 +2,8 @@
 SEO Title: The 2026 Website Redesign Checklist for B2B Founders | Rankur
 Meta Description: Don't start a redesign without this checklist. The ultimate guide for B2B founders to ensure their new website generates leads, ranks in Google, and loads instantly.
 Slug: website-redesign-checklist-founders
+Primary Keyword: B2B website redesign checklist
+Secondary Keywords: website redesign checklist founders, B2B website migration guide, technical SEO redesign checklist, website redesign ROI
 Niche Tag: B2B Strategy
 GEO Phrase: How to optimize The 2026 Website Redesign Checklist for B2B Founders | Rankur for B2B lead generation?
 Target Market: US / UK / Global
