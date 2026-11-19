@@ -54,7 +54,18 @@ const CURATED_PILLARS = new Set([
   'future-proofing-b2b-websites-generative-engine-optimization',
   'key-metrics-measuring-geo-success',
   'ai-overviews-b2b-click-through-rate-strategies',
-  'comparison-seo-vs-geo-vs-paid-international-b2b'
+  'comparison-seo-vs-geo-vs-paid-international-b2b',
+  // Batch 5 Masterclass Additions
+  'optimizing-linkedin-content-ai-scraping-citation',
+  'technical-requirements-strong-geo-performance',
+  'creating-source-authoritative-content-ai-systems',
+  'geo-roadmap-saas-companies',
+  'how-buyers-use-ai-search-before-contacting-b2b-vendors',
+  'monitoring-ai-search-mentions-b2b-brand',
+  'integrating-geo-overall-b2b-growth-strategy',
+  'organic-lead-generation-strategies-b2b-international-markets',
+  'b2b-lead-magnet-strategy-high-quality-international-inquiries',
+  'international-b2b-lead-nurturing-organic-channels'
 ]);
 
 // 1. Primary keyword uniqueness and clustering
