@@ -109,7 +109,18 @@ const CURATED_PILLARS = new Set([
   'using-case-studies-as-lead-generation-asset',
   'executive-personal-branding-linkedin-international-b2b',
   'linkedin-content-calendar-b2b-authority-building',
-  'commenting-strategies-linkedin-b2b-lead-generation'
+  'commenting-strategies-linkedin-b2b-lead-generation',
+  // Batch 10 Masterclass Additions
+  'multilingual-b2b-website-strategy-middle-east',
+  'case-study-b2b-growth-infrastructure-leads',
+  'using-ai-in-b2b-website-development-better-ux',
+  'technical-seo-checklist-b2b-websites-enterprise',
+  'keyword-research-long-b2b-sales-cycles',
+  'local-seo-b2b-manufacturers-exporting-internationally',
+  'eeat-for-b2b-seo-build-authority-fast',
+  'backlink-strategy-b2b-companies-competitive-niches',
+  'content-clusters-rank-b2b-buyer-journeys',
+  'competitor-gap-analysis-b2b-seo-domination'
 ]);
 
 // 1. Primary keyword uniqueness and clustering
