@@ -3,9 +3,11 @@ import path from 'path';
 import { notFound } from 'next/navigation';
 import BlogPost from '../../../src/views/BlogPost';
 import rawBlogIndex from '../../../src/data/blogs-index.json';
+import blogTriage from '../../../src/data/blog-triage.json';
 import { constructMetadata } from '../../../src/utils/seo';
 
 const blogIndex = rawBlogIndex.filter((b) => b.slug);
+const keepSlugsSet = new Set(blogTriage?.keepSlugs || []);
 
 export const dynamicParams = false;
 
@@ -36,6 +38,8 @@ export async function generateMetadata({ params }) {
     ...(post.secondaryKeywords ? post.secondaryKeywords.split(',').map((s) => s.trim()) : []),
   ].filter(Boolean);
 
+  const isKeep = keepSlugsSet.has(slug);
+
   return constructMetadata({
     title: `${post.title} | Rankur`,
     description: post.excerpt,
@@ -45,7 +49,8 @@ export async function generateMetadata({ params }) {
     imageHeight: post.imageHeight || 630,
     imageAlt: post.imageAlt || post.title,
     type: 'article',
-    noIndex: false,
+    noIndex: !isKeep,
+    robotsFollow: true,
     keywords: keywordsList.length > 0 ? keywordsList.join(', ') : undefined,
   });
 }

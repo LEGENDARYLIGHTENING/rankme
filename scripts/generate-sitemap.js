@@ -157,8 +157,22 @@ async function generateSitemap() {
         });
       }
 
+      // Read triage data to only include authoritative keep posts in sitemap
+      let keepSlugsSet = null;
+      try {
+        const triagePath = path.resolve(__dirname, '../src/data/blog-triage.json');
+        if (fs.existsSync(triagePath)) {
+          const triageData = JSON.parse(fs.readFileSync(triagePath, 'utf-8'));
+          if (Array.isArray(triageData.keepSlugs)) {
+            keepSlugsSet = new Set(triageData.keepSlugs);
+          }
+        }
+      } catch (err) {
+        console.warn('Could not read blog-triage.json:', err.message);
+      }
+
       blogIndex
-        .filter(post => post.slug)
+        .filter(post => post.slug && (!keepSlugsSet || keepSlugsSet.has(post.slug)))
         .forEach(post => {
           const fullUrl = `${BASE_URL}/blog/${post.slug}`;
           allValidUrls.push(fullUrl);
