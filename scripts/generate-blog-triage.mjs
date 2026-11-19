@@ -65,7 +65,18 @@ const CURATED_PILLARS = new Set([
   'integrating-geo-overall-b2b-growth-strategy',
   'organic-lead-generation-strategies-b2b-international-markets',
   'b2b-lead-magnet-strategy-high-quality-international-inquiries',
-  'international-b2b-lead-nurturing-organic-channels'
+  'international-b2b-lead-nurturing-organic-channels',
+  // Batch 6 Masterclass Additions
+  'lead-scoring-organic-b2b-channels',
+  'gated-vs-ungated-content-b2b-lead-generation',
+  'full-funnel-organic-lead-generation-system-b2b',
+  'high-intent-keyword-targeting-b2b-organic-leads',
+  'building-b2b-referral-engine-without-paid-ads',
+  'partnership-co-marketing-organic-b2b-leads',
+  'free-tools-calculators-b2b-lead-magnets',
+  'organic-lead-generation-long-b2b-sales-cycles',
+  'measuring-organic-lead-quality-vs-quantity-b2b',
+  'linkedin-thought-leadership-strategy-generates-b2b-meetings'
 ]);
 
 // 1. Primary keyword uniqueness and clustering
