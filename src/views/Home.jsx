@@ -9,6 +9,7 @@ import Testimonials from '../components/Testimonials';
 import Guarantee from '../components/Guarantee';
 import { VERIFIED_CREDENTIALS } from '../data/credentials';
 import './Home.css';
+import './Blog.css';
 
 const proofItems = [
   { value: '<0.8s Speed', label: 'Sub-Second Speed That Stops Buyer Bounces' },
@@ -136,6 +137,39 @@ const processSteps = [
     title: '3. Pipeline Velocity & Ongoing Dominance',
     description:
       'Post-launch, our telemetry and indexation monitoring continuously optimize buyer engagement, search visibility, and inbound pipeline quality.',
+  },
+];
+
+const featuredInsights = [
+  {
+    slug: 'getting-found-google-chatgpt-perplexity-b2b',
+    tag: 'Website Strategy',
+    readTime: '7 min read',
+    title: 'GEO: Getting Found in Google, ChatGPT, and Perplexity',
+    excerpt: 'How generative search engines discover, parse, and cite B2B sources: and how to structure your platform architecture for AI answer citations and organic visibility.',
+    image: '/blog-images/prompt-115.webp',
+    imageAlt: 'GEO Generative Engine Optimization for B2B search discovery',
+    date: 'August 28, 2026',
+  },
+  {
+    slug: 'how-much-custom-b2b-website-costs-2026',
+    tag: 'Cost & ROI',
+    readTime: '8 min read',
+    title: 'How Much Does a Custom B2B Website Cost in 2026?',
+    excerpt: 'An honest breakdown of agency pricing, custom high-performance architecture, and the hidden total cost of ownership of fragile template builds.',
+    image: '/blog-images/prompt-116.webp',
+    imageAlt: 'B2B website development cost breakdown and pricing guide',
+    date: 'August 28, 2026',
+  },
+  {
+    slug: 'signs-website-losing-deals',
+    tag: 'Conversions & Leads',
+    readTime: '6 min read',
+    title: '5 Signs Your B2B Website is Quietly Losing You Deals',
+    excerpt: 'Slow load speeds, generic positioning copy, and high-friction forms quietly drain executive pipeline before sales discovery calls ever happen.',
+    image: '/blog-images/prompt-118.webp',
+    imageAlt: 'Signs a B2B website is losing deals and pipeline revenue',
+    date: 'August 28, 2026',
   },
 ];
 
@@ -446,6 +480,64 @@ export default function Home() {
           <h2 className="section-title">Three Straightforward Steps</h2>
           <div className="home-process__steps">
             <ProcessSteps steps={processSteps} />
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Insights & Tactical Guides (Probiota Innovations Design Pattern) */}
+      <section className="home-blog-section" style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
+        <div className="container">
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '3.5rem', flexWrap: 'wrap', gap: '1.5rem' }}>
+            <div>
+              <span className="tagline">Tactical Insights</span>
+              <h2 className="section-title" style={{ textAlign: 'left', margin: '0.5rem 0 0' }}>
+                Latest from the Knowledge Base
+              </h2>
+            </div>
+            <Link href="/blog" className="btn btn--outline" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+              Explore All 900+ Guides &rarr;
+            </Link>
+          </div>
+
+          <div className="blog-grid">
+            {featuredInsights.map((post) => {
+              const cleanTitle = post.title.replace(/\s*\|\s*Rankur\s*$/i, '');
+              return (
+                <Link
+                  href={`/blog/${post.slug}`}
+                  key={post.slug}
+                  className="blog-card"
+                >
+                  <div className="blog-card-image">
+                    <img
+                      src={post.image}
+                      alt={post.imageAlt || cleanTitle}
+                      width={1200}
+                      height={630}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="blog-card-content">
+                    <div className="blog-card-meta-header">
+                      <span className="blog-card-category">{post.tag}</span>
+                      <span className="blog-card-read-time">{post.readTime}</span>
+                    </div>
+                    <h3 className="blog-card-title">{cleanTitle}</h3>
+                    <p className="blog-card-excerpt">{post.excerpt}</p>
+                    <div className="blog-card-footer">
+                      <span className="blog-card-date">{post.date}</span>
+                      <span className="read-more">
+                        Read Article
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <line x1="5" y1="12" x2="19" y2="12"></line>
+                          <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>

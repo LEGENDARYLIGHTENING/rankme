@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import HeroSection from '../components/HeroSection';
 import Guarantee from '../components/Guarantee';
 import './BlogPost.css';
+import './Blog.css';
 
 export default function BlogPost({ postMeta, content, relatedPosts }) {
   const pubDate = postMeta.datePublished || postMeta.date;
@@ -64,63 +65,75 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
             <ReactMarkdown>{content}</ReactMarkdown>
           </div>
 
-          {/* Delivery Terms Box */}
+          {/* Direct Execution Brief */}
           <div
-            className="money-back-guarantee-box"
+            className="blog-editorial-trust"
             style={{
-              marginTop: '3.5rem',
-              padding: '2.25rem',
-              backgroundColor: 'var(--color-surface, #161920)',
-              border: '1px solid var(--color-gold, #c9a84c)',
-              borderRadius: '12px',
+              marginTop: '4rem',
+              borderRadius: '1rem',
             }}
           >
-            <h3 style={{ fontSize: '1.25rem', color: 'var(--color-gold)', margin: '0 0 0.75rem 0', fontWeight: '700' }}>
-              Work With Me on Your B2B Site
-            </h3>
+            <div>
+              <span className="tagline" style={{ marginBottom: '0.25rem' }}>Direct Execution</span>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--color-white)', margin: '0.25rem 0 0.5rem 0', fontWeight: '700' }}>
+                Work Directly With Moksh Parjapati
+              </h3>
+              <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', margin: 0, maxWidth: '600px' }}>
+                I engineer custom high-converting web systems and technical SEO architecture personally for B2B founders: stopping buyer bounces with sub-second speeds, zero bloated plugins, and 100% intellectual property ownership.
+              </p>
+            </div>
 
-            <p style={{ fontSize: '1rem', color: 'var(--color-white)', lineHeight: '1.6', marginBottom: '1.25rem' }}>
-              I build custom Next.js websites and technical SEO architecture personally for B2B founders.{' '}
-              <Guarantee />
-            </p>
-
-            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '1.25rem' }}>
-              <Link href="/free-audit" className="btn btn--primary">
+            <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+              <Link href="/free-audit" className="btn btn--primary" style={{ padding: '0.65rem 1.4rem', fontSize: '0.9rem' }}>
                 Request Free Audit &rarr;
               </Link>
-              <Link href="/services" className="btn btn--secondary">
+              <Link href="/services" className="btn btn--secondary" style={{ padding: '0.65rem 1.4rem', fontSize: '0.9rem' }}>
                 View Services &rarr;
               </Link>
             </div>
           </div>
 
-          {/* Internal Linking / Related Posts */}
+          {/* Internal Linking / Related Posts (Probiota Cards) */}
           {relatedPosts && relatedPosts.length > 0 && (
-            <div className="related-posts" style={{ marginTop: '4rem', borderTop: '1px solid var(--color-border)', paddingTop: '2rem' }}>
-              <h3 style={{ marginBottom: '1.5rem', color: 'var(--color-text)' }}>Related B2B Guides</h3>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.5rem' }}>
-                {relatedPosts.map((post) => (
-                  <Link
-                    href={`/blog/${post.slug}`}
-                    key={post.slug}
-                    style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}
-                  >
-                    <div className="img-placeholder" style={{ borderRadius: '4px', overflow: 'hidden' }}>
-                      <img
-                        src={post.image || '/blog-images/hub-website-strategy.webp'}
-                        alt={post.imageAlt || post.title}
-                        width={1200}
-                        height={630}
-                        loading="lazy"
-                        style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover', borderRadius: 'inherit' }}
-                      />
-                    </div>
-                    <h4 style={{ fontSize: '1rem', margin: 0, color: 'var(--color-text)' }}>{post.title}</h4>
-                    <span style={{ fontSize: '0.875rem', color: 'var(--color-text-muted)' }}>
-                      {post.datePublished || post.date} · {post.readTime}
-                    </span>
-                  </Link>
-                ))}
+            <div className="related-posts" style={{ marginTop: '4.5rem', borderTop: '1px solid var(--color-border)', paddingTop: '2.5rem' }}>
+              <span className="tagline">Curated Knowledge</span>
+              <h3 style={{ marginBottom: '2rem', color: 'var(--color-white)', fontSize: '1.5rem', fontWeight: '700' }}>
+                Related B2B Guides
+              </h3>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.75rem' }}>
+                {relatedPosts.map((post) => {
+                  const cleanTitle = (post.title || '').replace(/\s*\|\s*Rankur\s*$/i, '');
+                  return (
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      key={post.slug}
+                      className="blog-card"
+                    >
+                      <div className="blog-card-image">
+                        <img
+                          src={post.image || '/blog-images/prompt-115.webp'}
+                          alt={post.imageAlt || cleanTitle}
+                          width={1200}
+                          height={630}
+                          loading="lazy"
+                        />
+                      </div>
+                      <div className="blog-card-content" style={{ padding: '1.5rem' }}>
+                        <div className="blog-card-meta-header">
+                          <span className="blog-card-category">{post.tag || 'Strategy'}</span>
+                          {post.readTime && <span className="blog-card-read-time">{post.readTime}</span>}
+                        </div>
+                        <h4 className="blog-card-title" style={{ fontSize: '1.1rem' }}>{cleanTitle}</h4>
+                        <div className="blog-card-footer" style={{ marginTop: 'auto', paddingTop: '1rem' }}>
+                          <span className="blog-card-date">{post.datePublished || post.date}</span>
+                          <span className="read-more" style={{ fontSize: '0.82rem' }}>
+                            Read Article &rarr;
+                          </span>
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
               </div>
             </div>
           )}
@@ -129,11 +142,11 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
           <div
             className="location-mesh"
             style={{
-              marginTop: '3.5rem',
+              marginTop: '4rem',
               borderTop: '1px solid var(--color-border)',
-              backgroundColor: 'var(--color-surface, #161920)',
+              backgroundColor: 'var(--color-card-bg)',
               padding: '2rem',
-              borderRadius: '8px',
+              borderRadius: '1rem',
             }}
           >
             <h4 style={{ fontSize: '1.1rem', color: 'var(--color-gold)', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.5px' }}>

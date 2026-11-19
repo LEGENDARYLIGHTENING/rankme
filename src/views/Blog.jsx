@@ -19,18 +19,18 @@ for (const p of blogPosts) {
 const allCategories = [...categoryListMap.values()];
 
 const hubDescriptions = {
-  'Website Strategy': 'Architecting B2B websites that convert. Custom Next.js builds, UX flow, and positioning alignment.',
-  'SEO & AI Search': 'Technical SEO and Generative Engine Optimization (GEO) for traditional search and AI answer engines.',
-  'SaaS & Tech Startups': 'Conversion architecture, speed optimization, and demo pipeline engineering for SaaS teams.',
-  'B2B Manufacturers & Exporters': 'Digital credibility, technical documentation, and RFQ funnels for manufacturing and export.',
+  'Website Strategy': 'Architecting B2B web systems that convert. Custom high-performance engineering, buyer UX flow, and positioning alignment.',
+  'SEO & AI Search': 'Technical SEO and Generative Engine Optimization (GEO) for traditional search engines and AI answer engines.',
+  'SaaS & Tech Startups': 'Conversion architecture, speed optimization, and demo pipeline engineering for high-growth tech platforms.',
+  'B2B Manufacturers & Exporters': 'Digital credibility, technical documentation, and RFQ funnels for manufacturing and global export.',
   'Nutraceuticals & Wellness Brands': 'Compliance-first digital positioning for contract manufacturers and supplement brands.',
   'Organic Lead Generation': 'Bottom-of-funnel organic content and demand capture for B2B service businesses.',
-  'Conversions & Leads': 'Removing buyer friction, clarifying messaging, and optimizing B2B lead conversion.',
-  'Tech & Speed': 'Core Web Vitals, static edge rendering, and eliminating legacy CMS performance overhead.',
-  'Cost & ROI': 'Evaluating B2B website architecture investments against long-term pipeline efficiency.',
+  'Conversions & Leads': 'Removing buyer friction, clarifying messaging, and optimizing B2B qualified lead conversion.',
+  'Tech & Speed': 'Sub-second Core Web Vitals, static edge rendering, and eliminating legacy CMS performance overhead.',
+  'Cost & ROI': 'Evaluating B2B website architecture investments against long-term pipeline efficiency and customer acquisition cost.',
   'Hiring & Agency': 'Practical vetting criteria for B2B founders selecting engineering and growth partners.',
   'Founder-Led Marketing': 'Authority-driven LinkedIn and editorial distribution systems for B2B founders.',
-  'Case Studies': 'Architectural breakdowns from production web builds.',
+  'Case Studies': 'Architectural breakdowns from production web builds and verified commercial transformations.',
 };
 
 export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
@@ -80,13 +80,13 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
   const pageHref = (p) => (p <= 1 ? '/blog' : `/blog/page/${p}`);
 
   return (
-    <>
+    <div className="blog-listing">
       <HeroSection
-        label={activeCategoryObj ? activeCategoryObj.tag : 'B2B Engineering & Search Blog'}
+        label={activeCategoryObj ? activeCategoryObj.tag : 'B2B Engineering & Search Knowledge Base'}
         title={
           activeCategoryObj ? (
             <>
-              Guides on <span className="text-gold">{activeCategoryObj.tag}</span>
+              Tactical Guides on <span className="text-gold">{activeCategoryObj.tag}</span>
             </>
           ) : (
             <>
@@ -98,86 +98,47 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
         subtitle={
           activeCategoryObj
             ? hubDescriptions[activeCategoryObj.tag] ||
-              'Tactical B2B guides on custom Next.js engineering, technical SEO, and lead conversion.'
-            : 'Tactical guides on custom Next.js web engineering, conversion architecture, Core Web Vitals, and AI search optimization.'
+              'Tactical B2B guides on custom high-performance web engineering, technical SEO, and conversion architecture.'
+            : 'Tactical guides on custom high-speed web systems, conversion architecture, Core Web Vitals, and generative AI search optimization.'
         }
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
       />
 
-      <section className="section" id="blog-index">
+      <section className="section" id="blog-index" style={{ paddingTop: 'var(--space-2xl)' }}>
         <div className="container">
-          {/* Engagement Terms Banner */}
-          <div
-            style={{
-              backgroundColor: 'var(--color-surface, #161920)',
-              border: '1px solid var(--color-gold)',
-              borderRadius: '8px',
-              padding: '1.25rem 1.75rem',
-              marginBottom: '2.5rem',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              gap: '1.5rem',
-              flexWrap: 'wrap',
-            }}
-          >
-            <div>
-              <strong style={{ color: 'var(--color-gold)', fontSize: '1rem', display: 'block' }}>
-                Direct Founder-Led Engineering
-              </strong>
-              <span style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem' }}>
-                <Guarantee />
-              </span>
-            </div>
-            <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-              <Link href="/free-audit" className="btn btn--primary" style={{ padding: '0.5rem 1.25rem', fontSize: '0.85rem' }}>
-                Request Free Audit &rarr;
-              </Link>
-              <Link href="/services" className="btn btn--secondary" style={{ padding: '0.5rem 1.25rem', fontSize: '0.85rem' }}>
-                View Services &rarr;
-              </Link>
+          {/* Probiota-Style Search Bar */}
+          <div className="blog-search-container">
+            <div className="blog-search-wrapper">
+              <div className="blog-search-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </div>
+              <input
+                id="blog-search-input"
+                type="text"
+                className="blog-search-input"
+                placeholder="Search tactical B2B guides by topic, keyword, or problem..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
             </div>
           </div>
 
-          {/* Search Bar */}
-          <div style={{ maxWidth: '600px', margin: '0 auto 2.5rem', display: 'flex', gap: '0.5rem' }}>
-            <label htmlFor="blog-search-input" className="sr-only">
-              Search B2B guides
-            </label>
-            <input
-              id="blog-search-input"
-              type="text"
-              placeholder="Search B2B guides (e.g. Next.js, Technical SEO, GEO, SaaS)..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              style={{
-                width: '100%',
-                padding: '0.85rem 1.25rem',
-                backgroundColor: 'var(--color-surface, #161920)',
-                border: '1px solid var(--color-border)',
-                borderRadius: '8px',
-                color: 'var(--color-white)',
-                fontSize: '1rem',
-                outline: 'none',
-              }}
-            />
-          </div>
-
-          {/* Crawlable Category Hub Links */}
-          <nav className="blog-filters" id="blog-filters" aria-label="Blog Categories">
+          {/* Probiota-Style Pill Category Filter Tabs */}
+          <nav className="category-filters" id="blog-filters" aria-label="Blog Categories">
             <Link
               href="/blog"
-              className={`blog-filter ${activeFilter === 'All' ? 'blog-filter--active' : ''}`}
-              style={{ textDecoration: 'none' }}
+              className={`category-btn ${activeFilter === 'All' ? 'active' : ''}`}
             >
-              All
+              All Categories
             </Link>
             {allCategories.map((cat) => (
               <Link
                 key={cat.slug}
                 href={`/blog/category/${cat.slug}`}
-                className={`blog-filter ${activeFilter === cat.tag ? 'blog-filter--active' : ''}`}
-                style={{ textDecoration: 'none' }}
+                className={`category-btn ${activeFilter === cat.tag ? 'active' : ''}`}
               >
                 {cat.tag}
               </Link>
@@ -186,137 +147,170 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
 
           {/* Active Hub Description */}
           {activeFilter !== 'All' && hubDescriptions[activeFilter] && (
-            <div className="blog-hub-description" style={{ margin: '0 auto var(--space-2xl)', textAlign: 'center', maxWidth: '800px' }}>
-              <h2 className="section-title" style={{ fontSize: '1.5rem', marginBottom: 'var(--space-md)' }}>
-                {activeFilter}
-              </h2>
-              <p style={{ color: 'var(--color-text-muted)' }}>{hubDescriptions[activeFilter]}</p>
+            <div className="blog-hub-description">
+              <h2>{activeFilter}</h2>
+              <p>{hubDescriptions[activeFilter]}</p>
             </div>
           )}
 
           {/* Result Count Status */}
-          <div style={{ marginBottom: '1.5rem', color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>
-            Showing {filtered.length > 0 ? indexOfFirstPost + 1 : 0}:{Math.min(indexOfLastPost, filtered.length)} of {filtered.length} guides
+          <div className="blog-status-count">
+            <span>
+              Showing {filtered.length > 0 ? indexOfFirstPost + 1 : 0}:{Math.min(indexOfLastPost, filtered.length)} of {filtered.length} tactical guides
+            </span>
+            {activeFilter !== 'All' && (
+              <Link href="/blog" style={{ color: 'var(--color-gold)', textDecoration: 'underline', fontSize: '0.85rem' }}>
+                Reset filter
+              </Link>
+            )}
           </div>
 
-          {/* Blog Grid */}
+          {/* Blog Grid: 3-Column Layout */}
           <div className="blog-grid">
-            {currentPosts.map((post) => (
-              <Link href={`/blog/${post.slug}`} key={post.slug} className="blog-card" style={{ textDecoration: 'none', color: 'inherit' }}>
-                <div className="blog-card__image img-placeholder" style={{ minHeight: '200px' }}>
-                  <img
-                    src={post.image || '/blog-images/hub-website-strategy.webp'}
-                    alt={post.imageAlt || post.title}
-                    width={1200}
-                    height={630}
-                    loading="lazy"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit' }}
-                  />
-                </div>
-                <div className="blog-card__body">
-                  <div className="blog-card__meta">
-                    <span className="blog-card__tag">{post.tag}</span>
-                    <span className="blog-card__date">{post.datePublished || post.date}</span>
-                    <span className="blog-card__read-time">{post.readTime}</span>
+            {currentPosts.map((post) => {
+              const cleanTitle = (post.title || '').replace(/\s*\|\s*Rankur\s*$/i, '');
+              const dateStr = post.datePublished || post.date;
+              return (
+                <Link
+                  href={`/blog/${post.slug}`}
+                  key={post.slug}
+                  className="blog-card"
+                >
+                  <div className="blog-card-image">
+                    <img
+                      src={post.image || '/blog-images/prompt-115.webp'}
+                      alt={post.imageAlt || cleanTitle}
+                      width={1200}
+                      height={630}
+                      loading="lazy"
+                    />
                   </div>
-                  <h3 className="blog-card__title">{post.title}</h3>
-                  <p className="blog-card__excerpt">{post.excerpt}</p>
-                </div>
-              </Link>
-            ))}
+                  <div className="blog-card-content">
+                    <div className="blog-card-meta-header">
+                      <span className="blog-card-category">{post.tag || 'Strategy'}</span>
+                      {post.readTime && <span className="blog-card-read-time">{post.readTime}</span>}
+                    </div>
+                    <h3 className="blog-card-title">{cleanTitle}</h3>
+                    <p className="blog-card-excerpt">{post.excerpt}</p>
+                    <div className="blog-card-footer">
+                      <span className="blog-card-date">{dateStr}</span>
+                      <span className="read-more">
+                        Read Article
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                          <line x1="5" y1="12" x2="19" y2="12"></line>
+                          <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
 
           {/* Crawlable SSR Pagination */}
           {!q && !isCategoryArchive && totalPages > 1 && (
-            <nav aria-label="Blog pagination" style={{ marginTop: '3.5rem', textAlign: 'center' }}>
-              <div className="pagination" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap' }}>
-                <Link
-                  href="/blog"
-                  aria-disabled={safePage === 1}
-                  className="btn btn--secondary"
-                  style={{ padding: '0.4rem 0.75rem', fontSize: '0.85rem', pointerEvents: safePage === 1 ? 'none' : 'auto', opacity: safePage === 1 ? 0.4 : 1 }}
-                >
-                  First
-                </Link>
-                <Link
-                  href={pageHref(safePage - 1)}
-                  aria-disabled={safePage === 1}
-                  className="btn btn--secondary"
-                  style={{ padding: '0.4rem 0.85rem', fontSize: '0.85rem', pointerEvents: safePage === 1 ? 'none' : 'auto', opacity: safePage === 1 ? 0.4 : 1 }}
-                >
-                  &larr; Prev
-                </Link>
+            <nav aria-label="Blog pagination" className="blog-pagination">
+              <Link
+                href="/blog"
+                aria-disabled={safePage === 1}
+                className="blog-pagination__btn"
+                style={{ pointerEvents: safePage === 1 ? 'none' : 'auto', opacity: safePage === 1 ? 0.35 : 1 }}
+              >
+                First
+              </Link>
+              <Link
+                href={pageHref(safePage - 1)}
+                aria-disabled={safePage === 1}
+                className="blog-pagination__btn"
+                style={{ pointerEvents: safePage === 1 ? 'none' : 'auto', opacity: safePage === 1 ? 0.35 : 1 }}
+              >
+                &larr; Prev
+              </Link>
 
-                {getPageNumbers().map((num) => (
-                  <Link
-                    key={num}
-                    href={pageHref(num)}
-                    aria-current={safePage === num ? 'page' : undefined}
-                    style={{
-                      padding: '0.4rem 0.85rem',
-                      borderRadius: '6px',
-                      border: safePage === num ? '1px solid var(--color-gold)' : '1px solid var(--color-border)',
-                      backgroundColor: safePage === num ? 'var(--color-gold)' : 'var(--color-surface, #161920)',
-                      color: safePage === num ? 'var(--color-black)' : 'var(--color-white)',
-                      fontWeight: safePage === num ? 'bold' : 'normal',
-                      fontSize: '0.9rem',
-                      textDecoration: 'none',
-                    }}
-                  >
-                    {num}
-                  </Link>
-                ))}
-
+              {getPageNumbers().map((num) => (
                 <Link
-                  href={pageHref(safePage + 1)}
-                  aria-disabled={safePage === totalPages}
-                  className="btn btn--secondary"
-                  style={{ padding: '0.4rem 0.85rem', fontSize: '0.85rem', pointerEvents: safePage === totalPages ? 'none' : 'auto', opacity: safePage === totalPages ? 0.4 : 1 }}
+                  key={num}
+                  href={pageHref(num)}
+                  aria-current={safePage === num ? 'page' : undefined}
+                  className={`blog-pagination__btn ${safePage === num ? 'blog-pagination__btn--active' : ''}`}
                 >
-                  Next &rarr;
+                  {num}
                 </Link>
-                <Link
-                  href={pageHref(totalPages)}
-                  aria-disabled={safePage === totalPages}
-                  className="btn btn--secondary"
-                  style={{ padding: '0.4rem 0.75rem', fontSize: '0.85rem', pointerEvents: safePage === totalPages ? 'none' : 'auto', opacity: safePage === totalPages ? 0.4 : 1 }}
-                >
-                  Last ({totalPages})
-                </Link>
-              </div>
+              ))}
 
-              <details style={{ marginTop: '1.5rem', color: 'var(--color-text-muted)', fontSize: '0.85rem' }}>
-                <summary style={{ cursor: 'pointer', color: 'var(--color-gold)' }}>
-                  All Archive Pages (1:{totalPages})
-                </summary>
-                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0.4rem', marginTop: '1rem', maxWidth: '800px', marginInline: 'auto' }}>
-                  {Array.from({ length: totalPages }, (_, idx) => idx + 1).map((p) => (
-                    <Link
-                      key={p}
-                      href={pageHref(p)}
-                      style={{
-                        padding: '0.25rem 0.55rem',
-                        borderRadius: '4px',
-                        border: '1px solid var(--color-border)',
-                        color: p === safePage ? 'var(--color-gold)' : 'var(--color-text-muted)',
-                        textDecoration: 'none',
-                      }}
-                    >
-                      {p}
-                    </Link>
-                  ))}
-                </div>
-              </details>
+              <Link
+                href={pageHref(safePage + 1)}
+                aria-disabled={safePage === totalPages}
+                className="blog-pagination__btn"
+                style={{ pointerEvents: safePage === totalPages ? 'none' : 'auto', opacity: safePage === totalPages ? 0.35 : 1 }}
+              >
+                Next &rarr;
+              </Link>
+              <Link
+                href={pageHref(totalPages)}
+                aria-disabled={safePage === totalPages}
+                className="blog-pagination__btn"
+                style={{ pointerEvents: safePage === totalPages ? 'none' : 'auto', opacity: safePage === totalPages ? 0.35 : 1 }}
+              >
+                Last ({totalPages})
+              </Link>
             </nav>
           )}
 
-          {/* Core Services & Markets Footer */}
-          <div style={{ marginTop: '4rem', padding: '2rem', backgroundColor: 'var(--color-surface, #161920)', borderRadius: '8px', border: '1px solid var(--color-border)' }}>
-            <h3 style={{ fontSize: '1.25rem', color: 'var(--color-gold)', marginBottom: '0.75rem' }}>
+          {!q && !isCategoryArchive && totalPages > 1 && (
+            <details style={{ marginTop: '1.5rem', textAlign: 'center', color: 'var(--color-text-muted)', fontSize: '0.85rem' }}>
+              <summary style={{ cursor: 'pointer', color: 'var(--color-gold)' }}>
+                All Archive Pages (1:{totalPages})
+              </summary>
+              <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0.4rem', marginTop: '1rem', maxWidth: '800px', marginInline: 'auto' }}>
+                {Array.from({ length: totalPages }, (_, idx) => idx + 1).map((p) => (
+                  <Link
+                    key={p}
+                    href={pageHref(p)}
+                    style={{
+                      padding: '0.25rem 0.55rem',
+                      borderRadius: '4px',
+                      border: '1px solid var(--color-border)',
+                      color: p === safePage ? 'var(--color-gold)' : 'var(--color-text-muted)',
+                      textDecoration: 'none',
+                    }}
+                  >
+                    {p}
+                  </Link>
+                ))}
+              </div>
+            </details>
+          )}
+
+          {/* Probiota-Style Founder & Editorial Trust Banner */}
+          <div className="blog-editorial-trust">
+            <div>
+              <span className="tagline" style={{ marginBottom: '0.25rem' }}>Direct Execution</span>
+              <h3 style={{ fontSize: '1.25rem', color: 'var(--color-white)', margin: '0.25rem 0 0.5rem 0', fontWeight: 700 }}>
+                Founder-Led Engineering &amp; Search Dominance
+              </h3>
+              <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', margin: 0, maxWidth: '640px', lineHeight: '1.6' }}>
+                Every architecture, technical audit, and growth system is directly engineered by Moksh Parjapati with verified milestone deliverables.
+              </p>
+            </div>
+            <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+              <Link href="/free-audit" className="btn btn--primary" style={{ padding: '0.65rem 1.4rem', fontSize: '0.9rem' }}>
+                Request Free Audit &rarr;
+              </Link>
+              <Link href="/case-studies" className="btn btn--secondary" style={{ padding: '0.65rem 1.4rem', fontSize: '0.9rem' }}>
+                View Case Studies &rarr;
+              </Link>
+            </div>
+          </div>
+
+          {/* Core Services & Key Markets */}
+          <div style={{ marginTop: '3.5rem', padding: '2rem', backgroundColor: 'var(--color-card-bg)', borderRadius: '1rem', border: '1px solid var(--color-border)' }}>
+            <h3 style={{ fontSize: '1.15rem', color: 'var(--color-gold)', marginBottom: '0.75rem', fontWeight: 700 }}>
               Core Services &amp; Markets
             </h3>
-            <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', marginBottom: '1rem', lineHeight: '1.5' }}>
-              I build custom Next.js websites and technical SEO architecture for B2B companies across key markets.
+            <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', marginBottom: '1rem', lineHeight: '1.6' }}>
+              We build custom high-performance web platforms and technical SEO architecture for B2B enterprises across key commercial regions.
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem 1.25rem', fontSize: '0.9rem' }}>
               <Link href="/services" style={{ color: 'var(--color-white)', textDecoration: 'none' }}>View Services</Link> ·
@@ -330,19 +324,8 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
               <Link href="/locations" style={{ color: 'var(--color-gold)', fontWeight: 'bold', textDecoration: 'none' }}>All Markets &rarr;</Link>
             </div>
           </div>
-
-          {/* Sidebar CTA */}
-          <div className="blog-cta-sidebar" id="blog-cta" style={{ marginTop: '3rem' }}>
-            <h3>Want These Growth Results for Your Business?</h3>
-            <p>
-              Request an audit to diagnose your B2B website speed, technical SEO, and lead conversion bottlenecks.
-            </p>
-            <Link href="/free-audit" className="btn btn--primary">
-              Request Free Audit
-            </Link>
-          </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

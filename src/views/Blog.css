@@ -1,140 +1,355 @@
 /* =============================================
-   BLOG PAGE
+   BLOG SECTION & ARCHIVE STYLES
+   Inspired by Probiota Innovations Design System
    ============================================= */
 @import '../styles/variables.css';
 
-.blog-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-sm);
-  margin-top: var(--space-2xl);
-  margin-bottom: var(--space-2xl);
+.blog-listing {
+  padding-bottom: 8rem;
 }
 
-.blog-filter {
-  padding: var(--space-sm) var(--space-lg);
-  font-size: 0.8rem;
-  font-weight: var(--font-weight-medium);
-  border: 1px solid var(--color-gold);
-  border-radius: var(--border-radius);
+/* Page Header & Tagline */
+.blog-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
+
+.tagline {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
   color: var(--color-gold);
-  background-color: var(--color-black);
-  cursor: pointer;
-  transition: all var(--transition-base);
+  font-size: 0.78rem;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 0.75rem;
 }
 
-.blog-filter:hover,
-.blog-filter--active {
-  background-color: var(--color-gold);
-  color: var(--color-black);
+/* Search Bar */
+.blog-search-container {
+  max-width: 640px;
+  margin: 0 auto 3rem;
+  position: relative;
 }
 
-.blog-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  gap: var(--space-xl);
+.blog-search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
-.blog-card {
-  background-color: var(--color-card-bg);
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius-lg);
-  overflow: hidden;
-  transition: all var(--transition-base);
-  cursor: pointer;
-}
-
-.blog-card:hover {
-  border-color: var(--color-gold);
-  transform: translateY(-4px);
-}
-
-.blog-card__image {
-  width: 100%;
-  height: 180px;
-  background-color: var(--color-dark-surface);
+.blog-search-icon {
+  position: absolute;
+  left: 1.25rem;
+  width: 18px;
+  height: 18px;
+  color: var(--color-gold);
+  pointer-events: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-text-muted);
-  font-size: 0.85rem;
-  border-bottom: 1px solid var(--color-border);
 }
 
-.blog-card__body {
-  padding: var(--space-xl);
-}
-
-.blog-card__meta {
-  display: flex;
-  align-items: center;
-  gap: var(--space-md);
-  margin-bottom: var(--space-md);
-}
-
-.blog-card__tag {
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: var(--color-gold);
-  background-color: var(--color-black);
-  padding: 2px 8px;
-  border-radius: 100px;
-  border: 1px solid var(--color-gold);
-}
-
-.blog-card__date,
-.blog-card__read-time {
-  font-size: 0.75rem;
-  color: var(--color-text-muted);
-}
-
-.blog-card__title {
-  font-size: 1.1rem;
-  font-weight: var(--font-weight-bold);
-  margin-bottom: var(--space-sm);
-  line-height: 1.3;
-}
-
-.blog-card__excerpt {
-  font-size: 0.85rem;
-  color: var(--color-text-muted);
-  line-height: 1.6;
-}
-
-/* Blog sidebar CTA */
-.blog-cta-sidebar {
+.blog-search-input {
+  width: 100%;
+  padding: 0.95rem 1.25rem 0.95rem 3.25rem;
   background-color: var(--color-card-bg);
   border: 1px solid var(--color-border);
-  border-radius: var(--border-radius-lg);
-  padding: var(--space-2xl);
-  text-align: center;
-  margin-top: var(--space-2xl);
+  border-radius: 999px;
+  color: var(--color-white);
+  font-family: inherit;
+  font-size: 0.95rem;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.blog-cta-sidebar h3 {
-  font-size: 1.15rem;
-  margin-bottom: var(--space-md);
+.blog-search-input:focus {
+  border-color: var(--color-gold);
+  box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.15), 0 8px 24px rgba(0, 0, 0, 0.35);
+  background-color: #171a22;
 }
 
-.blog-cta-sidebar p {
-  font-size: 0.9rem;
+.blog-search-input::placeholder {
   color: var(--color-text-muted);
-  margin-bottom: var(--space-lg);
+}
+
+/* Category Filter Tabs (Pill Buttons) */
+.category-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 3.5rem;
+}
+
+.category-btn {
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  color: var(--color-text-muted);
+  background-color: var(--color-card-bg);
+  border-radius: 999px;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.category-btn:hover {
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+  transform: translateY(-2px);
+  background-color: #171a22;
+}
+
+.category-btn.active,
+.category-btn--active {
+  background-color: var(--color-gold);
+  border-color: var(--color-gold);
+  color: var(--color-black);
+  box-shadow: 0 4px 14px rgba(201, 168, 76, 0.3);
+  font-weight: 700;
+}
+
+/* Active Hub Description */
+.blog-hub-description {
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 3rem;
+  padding: 1.5rem 2rem;
+  background-color: rgba(201, 168, 76, 0.04);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  border-radius: 1rem;
+}
+
+.blog-hub-description h2 {
+  font-size: 1.35rem;
+  color: var(--color-gold);
+  margin-bottom: 0.5rem;
+}
+
+.blog-hub-description p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Status Meta Count */
+.blog-status-count {
+  margin-bottom: 1.75rem;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Blog Cards Grid - 3 Column Probiota Layout */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
+  }
 }
 
 @media (max-width: 768px) {
   .blog-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }
 
-@media (max-width: 480px) {
-  .blog-card__body {
-    padding: var(--space-lg);
-  }
+/* Probiota-Style Blog Card */
+.blog-card {
+  border-radius: 1rem;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-card-bg);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), 
+              box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), 
+              border-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
 
-  .blog-filter {
-    padding: var(--space-xs) var(--space-md);
-    font-size: 0.75rem;
-  }
+.blog-card:hover {
+  box-shadow: 0 20px 40px -6px rgba(0, 0, 0, 0.55);
+  transform: translateY(-6px);
+  border-color: var(--color-gold);
+}
+
+.blog-card-image {
+  aspect-ratio: 16/10;
+  position: relative;
+  overflow: hidden;
+  background-color: #0b0d13;
+}
+
+.blog-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: block;
+}
+
+.blog-card:hover .blog-card-image img {
+  transform: scale(1.05);
+}
+
+.blog-card-content {
+  padding: 1.75rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.blog-card-meta-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.blog-card-category {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-gold);
+  font-size: 0.72rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.blog-card-read-time {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.blog-card-title {
+  margin: 0 0 0.85rem 0;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  color: var(--color-white);
+  font-weight: 700;
+  transition: color 0.2s ease;
+}
+
+.blog-card:hover .blog-card-title {
+  color: var(--color-gold);
+}
+
+.blog-card-excerpt {
+  color: var(--color-text-muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 0 0 1.75rem 0;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.blog-card-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 1.25rem;
+}
+
+.blog-card-date {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+
+.read-more {
+  color: var(--color-gold);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.blog-card:hover .read-more {
+  gap: 0.75rem;
+  color: var(--color-gold-hover, #d4b85a);
+}
+
+.read-more svg {
+  transition: transform 0.2s ease;
+}
+
+.blog-card:hover .read-more svg {
+  transform: translateX(4px);
+}
+
+/* Pagination Bar */
+.blog-pagination {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.blog-pagination__btn {
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-card-bg);
+  color: var(--color-text-muted);
+}
+
+.blog-pagination__btn:hover {
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+  transform: translateY(-1px);
+}
+
+.blog-pagination__btn--active {
+  background-color: var(--color-gold);
+  border-color: var(--color-gold);
+  color: var(--color-black);
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(201, 168, 76, 0.25);
+}
+
+/* Editorial Trust Card */
+.blog-editorial-trust {
+  margin-top: 4.5rem;
+  padding: 2.25rem 2.5rem;
+  background-color: var(--color-card-bg);
+  border: 1px solid rgba(201, 168, 76, 0.35);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
