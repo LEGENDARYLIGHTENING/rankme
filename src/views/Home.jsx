@@ -6,6 +6,7 @@ import { Compass, Code2, Search, FileText, BarChart3 } from 'lucide-react';
 import HeroSection from '../components/HeroSection';
 import ClientTrustBar from '../components/ClientTrustBar';
 import TechStackBar from '../components/TechStackBar';
+import BentoVisualShowcase from '../components/BentoVisualShowcase';
 import SpotlightCard from '../components/SpotlightCard';
 import ProcessSteps from '../components/ProcessSteps';
 import Testimonials from '../components/Testimonials';
@@ -180,14 +181,14 @@ export default function Home() {
   return (
     <>
       <HeroSection
-        label="B2B SEO Consultant & Web Engineering"
+        label="Enterprise B2B Web Engineering & Deterministic Search"
         title={
           <>
-            I Build Custom B2B Websites Engineered to{' '}
-            <span className="text-gold">Rank &amp; Convert</span>
+            Custom B2B Platforms Engineered to{' '}
+            <span className="text-gold">Dominate Search &amp; Accelerate Pipeline</span>
           </>
         }
-        subtitle="I engineer high-converting B2B web systems built to dominate Google search, earn generative AI citations, and accelerate executive pipeline: with 100% source code ownership."
+        subtitle="We engineer sub-second Next.js digital infrastructure, deterministic Google & AI search authority, and high-ticket buyer qualification flows: with 100% intellectual property ownership."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'View Platforms Built' }}
       />
@@ -346,6 +347,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Aceternity Visual Architecture Bento Showcase with Real UI Assets */}
+      <BentoVisualShowcase />
+
       {/* The Architectural Breakdown / Comparison Table */}
       <section style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-black)' }}>
         <div className="container">
@@ -401,30 +405,41 @@ export default function Home() {
             {portfolioShowcases.map((cs) => {
               return (
                 <div key={cs.id} className="case-showcase-card" style={{ maxWidth: '780px', margin: '0 auto', width: '100%' }}>
-                  <div className="case-showcase-card__image-wrap" style={{ minHeight: '200px' }}>
-                    <div
+                  <div className="case-showcase-card__image-wrap" style={{ minHeight: '260px', position: 'relative', overflow: 'hidden' }}>
+                    <img
+                      src="/showcase/hero-section-with-mousemove.webp"
+                      alt="Wafa Educational And Charitable Trust platform architecture"
                       style={{
                         width: '100%',
                         height: '100%',
-                        minHeight: '200px',
-                        background: 'linear-gradient(135deg, #0e1218 0%, #1a2230 100%)',
+                        minHeight: '260px',
+                        objectFit: 'cover',
+                        objectPosition: 'top center',
+                        filter: 'brightness(0.7) contrast(1.15)',
+                      }}
+                    />
+                    <div
+                      style={{
+                        position: 'absolute',
+                        inset: 0,
+                        background: 'linear-gradient(180deg, rgba(14, 18, 24, 0.45) 0%, rgba(14, 18, 24, 0.96) 100%)',
                         display: 'flex',
                         flexDirection: 'column',
                         alignItems: 'center',
-                        justifyContent: 'center',
-                        padding: '2rem',
+                        justifyContent: 'flex-end',
+                        padding: '1.75rem',
                         textAlign: 'center',
                       }}
                     >
                       <img
                         src="/wafa-trust-logo.jpeg"
                         alt="Wafa Educational And Charitable Trust logo"
-                        style={{ width: '84px', height: '84px', objectFit: 'contain', borderRadius: '8px', marginBottom: '1rem' }}
+                        style={{ width: '68px', height: '68px', objectFit: 'contain', borderRadius: '10px', marginBottom: '0.65rem', boxShadow: '0 6px 16px rgba(0,0,0,0.6)', border: '1px solid rgba(255,255,255,0.1)' }}
                       />
-                      <span style={{ color: 'var(--color-gold)', fontWeight: 700, fontSize: '1.25rem' }}>
+                      <span style={{ color: 'var(--color-gold)', fontWeight: 700, fontSize: '1.2rem', letterSpacing: '-0.01em' }}>
                         Wafa Educational &amp; Charitable Trust
                       </span>
-                      <span style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', marginTop: '0.35rem' }}>
+                      <span style={{ color: 'var(--color-text-muted)', fontSize: '0.85rem', marginTop: '0.25rem' }}>
                         Live Web Platform · https://www.wafatrustindia.org/
                       </span>
                     </div>

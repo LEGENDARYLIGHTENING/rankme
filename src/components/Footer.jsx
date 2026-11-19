@@ -33,8 +33,7 @@ export default function Footer() {
               </Link>
             </div>
             <p className="footer__brand-desc">
-              B2B Growth Consultant &amp; Web Engineer. I build high-converting Next.js websites
-              and search systems for businesses across the US, UK, Australia, Canada, and Gulf.
+              Founder-Led B2B Web Engineering &amp; Deterministic Search Systems. Architecting sub-second Next.js platforms, verified analytics pipelines, and Generative Engine Optimization (GEO) for enterprise operators across the US, UK, Australia, Canada, and the GCC.
             </p>
             <div className="footer__socials">
               <a

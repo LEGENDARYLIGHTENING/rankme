@@ -26,8 +26,8 @@ export function fitSeoDescription(rawDesc, maxLen = 155) {
 }
 
 export function constructMetadata({
-  title = 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
-  description = 'Fast, high-converting Next.js websites for B2B founders, engineered to rank on Google and AI search engines. Milestone-based delivery.',
+  title = 'Enterprise B2B Web Engineering & Search Systems | Rankur',
+  description = 'Sub-second Next.js web systems and deterministic search architecture for B2B operators. Milestone delivery with 100% source code ownership.',
   canonical = 'https://rankursite.com',
   image = 'https://rankursite.com/og-image.jpg',
   imageWidth = 1200,

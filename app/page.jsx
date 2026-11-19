@@ -2,9 +2,9 @@ import Home from '../src/views/Home';
 import { constructMetadata } from '../src/components/Seo';
 
 export const metadata = constructMetadata({
-  title: 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
+  title: 'Enterprise B2B Web Engineering & Search Systems | Rankur',
   description:
-    'I build fast, custom Next.js websites for B2B founders and structure them for Google search, AI answer visibility, and qualified pipeline leads.',
+    'Sub-second Next.js web systems and deterministic search architecture for B2B operators. Milestone delivery with 100% source code ownership.',
   canonical: 'https://rankursite.com',
 });
 

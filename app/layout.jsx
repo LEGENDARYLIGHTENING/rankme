@@ -6,11 +6,11 @@ import ConsentBanner from '../src/components/ConsentBanner';
 export const metadata = {
   metadataBase: new URL('https://rankursite.com'),
   title: {
-    default: 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
+    default: 'Enterprise B2B Web Engineering & Search Systems | Rankur',
     template: '%s',
   },
   description:
-    'I build fast, custom Next.js websites for B2B founders and structure them for Google search, AI answer visibility, and qualified pipeline leads.',
+    'Sub-second Next.js web systems and deterministic search architecture for B2B operators. Milestone delivery with 100% source code ownership.',
   manifest: '/manifest.webmanifest',
   icons: {
     icon: [
@@ -21,9 +21,9 @@ export const metadata = {
     apple: '/rankur-logo.png',
   },
   openGraph: {
-    title: 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
+    title: 'Enterprise B2B Web Engineering & Search Systems | Rankur',
     description:
-      'I build fast, custom Next.js websites for B2B founders and structure them for Google search, AI answer visibility, and qualified pipeline leads.',
+      'Sub-second Next.js web systems and deterministic search architecture for B2B operators. Milestone delivery with 100% source code ownership.',
     url: 'https://rankursite.com',
     siteName: 'Rankur',
     images: [
@@ -31,7 +31,7 @@ export const metadata = {
         url: 'https://rankursite.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Rankur - B2B SEO & Next.js Web Engineering',
+        alt: 'Rankur: B2B SEO and Next.js Web Engineering',
       },
     ],
     locale: 'en_US',
@@ -39,9 +39,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'B2B SEO Consultant & High-Speed Web Engineering | Rankur',
+    title: 'Enterprise B2B Web Engineering & Search Systems | Rankur',
     description:
-      'I build fast, custom Next.js websites for B2B founders and structure them for Google search, AI answer visibility, and qualified pipeline leads.',
+      'Sub-second Next.js web systems and deterministic search architecture for B2B operators. Milestone delivery with 100% source code ownership.',
     creator: '@moksh_rankur',
     images: ['https://rankursite.com/twitter-image.jpg'],
   },

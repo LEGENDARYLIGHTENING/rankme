@@ -48,7 +48,7 @@ export default function Philosophy() {
             <span className="text-gold">Web &amp; SEO Work</span>
           </>
         }
-        subtitle="I build client web systems using the same transparent, engineering-led approach I apply to my own platforms."
+        subtitle="We engineer client web platforms using the same transparent, architecture-led discipline applied across high-performance enterprise systems."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         center
       />

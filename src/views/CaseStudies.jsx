@@ -2,6 +2,7 @@
 
 import HeroSection from '../components/HeroSection';
 import ClientTrustBar from '../components/ClientTrustBar';
+import BentoVisualShowcase from '../components/BentoVisualShowcase';
 import CTABlock from '../components/CTABlock';
 import Testimonials from '../components/Testimonials';
 import Guarantee from '../components/Guarantee';
@@ -59,24 +60,53 @@ export default function CaseStudies() {
           </h2>
 
           <div className="case-full__layout">
-            <div className="case-full__image" style={{ flexDirection: 'column', gap: '1.25rem', padding: '2.5rem', textAlign: 'center', background: 'linear-gradient(135deg, #0e1218 0%, #1a2230 100%)', borderRadius: '12px' }}>
+            <div className="case-full__image" style={{ position: 'relative', overflow: 'hidden', minHeight: '380px', borderRadius: '16px', border: '1px solid rgba(255, 255, 255, 0.1)' }}>
               <img
-                src="/wafa-trust-logo.jpeg"
-                alt="Wafa Educational And Charitable Trust logo"
-                style={{ width: '110px', height: '110px', objectFit: 'contain', borderRadius: '8px' }}
+                src="/showcase/hero-section-with-mousemove.webp"
+                alt="Wafa Educational And Charitable Trust platform live architecture"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  minHeight: '380px',
+                  objectFit: 'cover',
+                  objectPosition: 'top center',
+                  filter: 'brightness(0.65) contrast(1.15)',
+                }}
               />
-              <span style={{ color: 'var(--color-gold)', fontWeight: 700, fontSize: '1.15rem' }}>
-                Wafa Educational &amp; Charitable Trust
-              </span>
-              <a
-                href="https://www.wafatrustindia.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn--secondary"
-                style={{ fontSize: '0.85rem', padding: '0.6rem 1.25rem', marginTop: '0.5rem' }}
+              <div
+                style={{
+                  position: 'absolute',
+                  inset: 0,
+                  background: 'linear-gradient(180deg, rgba(14, 18, 24, 0.3) 0%, rgba(14, 18, 24, 0.95) 100%)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  justifyContent: 'flex-end',
+                  padding: '2.5rem',
+                  textAlign: 'center',
+                }}
               >
-                Visit Live Site &rarr;
-              </a>
+                <img
+                  src="/wafa-trust-logo.jpeg"
+                  alt="Wafa Educational And Charitable Trust logo"
+                  style={{ width: '80px', height: '80px', objectFit: 'contain', borderRadius: '12px', marginBottom: '0.85rem', boxShadow: '0 8px 24px rgba(0,0,0,0.6)', border: '1px solid rgba(255,255,255,0.1)' }}
+                />
+                <span style={{ color: 'var(--color-gold)', fontWeight: 700, fontSize: '1.25rem', letterSpacing: '-0.01em' }}>
+                  Wafa Educational &amp; Charitable Trust
+                </span>
+                <span style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', marginTop: '0.35rem', marginBottom: '1rem' }}>
+                  Live Web Platform · https://www.wafatrustindia.org/
+                </span>
+                <a
+                  href="https://www.wafatrustindia.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn--secondary"
+                  style={{ fontSize: '0.85rem', padding: '0.6rem 1.25rem' }}
+                >
+                  Visit Live Site &rarr;
+                </a>
+              </div>
             </div>
 
             <div className="case-full__content">
@@ -122,6 +152,9 @@ export default function CaseStudies() {
           </div>
         </div>
       </section>
+
+      {/* Production Visual Architecture Showcase */}
+      <BentoVisualShowcase />
 
       {/* B2B Engineering Standards */}
       <section className="impact-section" id="delivery-standards">

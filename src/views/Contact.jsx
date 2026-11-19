@@ -1,7 +1,8 @@
 "use client";
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import { Mail, Building2 } from 'lucide-react';
 
 import './Contact.css';
 
@@ -92,7 +93,7 @@ export default function Contact() {
             <p className="section-label">Contact</p>
             <h1>Let&apos;s Discuss Your Site &amp; Search Goals</h1>
             <p style={{ marginBottom: 'var(--space-xl)' }}>
-              I build custom Next.js web platforms and technical SEO structures for B2B SaaS teams, manufacturers, and export brands.
+              We engineer high-performance Next.js web platforms, deterministic search architectures, and verified attribution pipelines for enterprise B2B operators.
             </p>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7', marginBottom: 'var(--space-2xl)' }}>
               Submit the project brief below. Every inquiry goes directly to founder Moksh Parjapati, and I reply by email within 2 business days. Mutual NDAs can be signed prior to sharing sensitive metrics.
@@ -100,7 +101,9 @@ export default function Contact() {
 
             <div className="contact-methods">
               <div className="contact-method">
-                <div className="contact-method__icon" aria-hidden="true">@</div>
+                <div className="contact-method__icon" aria-hidden="true">
+                  <Mail size={18} strokeWidth={2} />
+                </div>
                 <div className="contact-method__details">
                   <span>Direct Email</span>
                   <a href="mailto:contactus@rankursite.com">contactus@rankursite.com</a>
@@ -108,7 +111,11 @@ export default function Contact() {
               </div>
 
               <div className="contact-method">
-                <div className="contact-method__icon" aria-hidden="true">in</div>
+                <div className="contact-method__icon" aria-hidden="true">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                  </svg>
+                </div>
                 <div className="contact-method__details">
                   <span>Founder Profile</span>
                   <a
@@ -123,7 +130,9 @@ export default function Contact() {
               </div>
 
               <div className="contact-method">
-                <div className="contact-method__icon" aria-hidden="true">M</div>
+                <div className="contact-method__icon" aria-hidden="true">
+                  <Building2 size={18} strokeWidth={2} />
+                </div>
                 <div className="contact-method__details">
                   <span>Operating Entity</span>
                   <span style={{ fontSize: '1rem', color: 'var(--color-white)', fontWeight: 'var(--font-weight-medium)', textTransform: 'none', letterSpacing: 'normal' }}>
