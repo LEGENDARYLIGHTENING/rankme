@@ -98,7 +98,18 @@ const CURATED_PILLARS = new Set([
   'custom-build-vs-agency-retainer-cost-roi',
   'website-traffic-up-qualified-pipeline-down',
   'enterprise-buyers-leave-contact-form',
-  'high-intent-bounce-pricing-page'
+  'high-intent-bounce-pricing-page',
+  // Batch 9 Masterclass Additions
+  'content-syndication-strategies-b2b-lead-generation',
+  'case-study-organic-b2b-lead-generation-action',
+  'cold-email-outreach-strategy-international-b2b',
+  'webinars-b2b-organic-lead-channel',
+  'email-newsletter-strategy-b2b-organic-growth',
+  'community-led-growth-b2b-companies',
+  'using-case-studies-as-lead-generation-asset',
+  'executive-personal-branding-linkedin-international-b2b',
+  'linkedin-content-calendar-b2b-authority-building',
+  'commenting-strategies-linkedin-b2b-lead-generation'
 ]);
 
 // 1. Primary keyword uniqueness and clustering
