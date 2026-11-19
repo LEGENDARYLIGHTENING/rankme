@@ -206,7 +206,7 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
                 <div className="blog-card__image img-placeholder" style={{ minHeight: '200px' }}>
                   <img
                     src={post.image || '/blog-images/hub-website-strategy.webp'}
-                    alt={post.title}
+                    alt={post.imageAlt || post.title}
                     width={1200}
                     height={630}
                     loading="lazy"

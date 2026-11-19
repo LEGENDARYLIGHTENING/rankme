@@ -38,7 +38,7 @@ export async function generateMetadata({ params }) {
     image: post.image || '/og-image.jpg',
     imageWidth: post.imageWidth || 1200,
     imageHeight: post.imageHeight || 630,
-    imageAlt: post.title,
+    imageAlt: post.imageAlt || post.title,
     type: 'article',
     noIndex: false,
   });
@@ -107,7 +107,13 @@ export default async function Page({ params }) {
     '@type': 'BlogPosting',
     headline: postMeta.title,
     description: postMeta.excerpt,
-    image: imageUrl,
+    image: {
+      '@type': 'ImageObject',
+      url: imageUrl,
+      width: 1200,
+      height: 630,
+      caption: postMeta.imageAlt || postMeta.title,
+    },
     ...(datePublished ? { datePublished } : {}),
     ...(dateModified ? { dateModified } : {}),
     author: {

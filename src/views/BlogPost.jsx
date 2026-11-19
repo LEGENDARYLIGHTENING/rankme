@@ -47,7 +47,7 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
               >
                 <img
                   src={postMeta.image}
-                  alt={postMeta.title}
+                  alt={postMeta.imageAlt || postMeta.title}
                   width={1200}
                   height={630}
                   loading="eager"
@@ -103,7 +103,7 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
                     <div className="img-placeholder" style={{ borderRadius: '4px', overflow: 'hidden' }}>
                       <img
                         src={post.image || '/blog-images/hub-website-strategy.webp'}
-                        alt={post.title}
+                        alt={post.imageAlt || post.title}
                         width={1200}
                         height={630}
                         loading="lazy"

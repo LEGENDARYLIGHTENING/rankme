@@ -76,6 +76,26 @@ const TAXONOMY_MAP = {
   'case studies': { tag: 'Case Studies', slug: 'case-studies', image: '/blog-images/hub-case-studies.webp' },
 };
 
+// Parse prompts map for dedicated blog hero images and rich descriptive alt text
+const promptsMap = {};
+try {
+  const promptsPath = path.join(rootDir, 'POMELLI_IMAGE_PROMPTS_FOR_ALL_BLOGS.md');
+  if (fs.existsSync(promptsPath)) {
+    const pContent = fs.readFileSync(promptsPath, 'utf8');
+    const sections = pContent.split(/### Blog (\d+):/);
+    for (let i = 1; i < sections.length; i += 2) {
+      const num = parseInt(sections[i], 10);
+      const block = sections[i + 1];
+      const title = block.trim().split('\n')[0].trim();
+      const sceneMatch = block.match(/\* \*\*Photoshoot Scene:\*\*\s*([^\n]+)/);
+      const scene = sceneMatch ? sceneMatch[1].trim() : 'B2B Growth Platform Photography';
+      promptsMap[num] = { title, scene };
+    }
+  }
+} catch (e) {
+  console.warn('[Warning] Could not parse POMELLI prompts map:', e.message);
+}
+
 function classifyLane(normalizedTag, title, pk, body) {
   const hay = `${normalizedTag} ${title} ${pk}`.toLowerCase();
   if (/nutraceutical|supplement|probiotic|wellness|gummy|cdmo|white label supplement/.test(hay)) {
@@ -222,6 +242,23 @@ const blogIndex = files.map((filename) => {
   const primaryKeyword = (data['Primary Keyword'] || title).trim();
   const lane = classifyLane(taxInfo.tag, title, primaryKeyword, content);
 
+  let blogImage = taxInfo.image;
+  let blogAlt = `${title} — ${taxInfo.tag} | Rankur`;
+  const numMatch = filename.match(/^blog_0*(\d+)(?:_new)?\.md$/);
+  if (numMatch) {
+    const num = parseInt(numMatch[1], 10);
+    if (num >= 1 && num <= 120) {
+      const candidate = `/blog-images/prompt-${num}.webp`;
+      if (fs.existsSync(path.join(rootDir, 'public', candidate))) {
+        blogImage = candidate;
+        const pInfo = promptsMap[num];
+        if (pInfo && pInfo.scene) {
+          blogAlt = `${pInfo.scene} — ${title} | Rankur`;
+        }
+      }
+    }
+  }
+
   return {
     filename,
     title,
@@ -237,10 +274,10 @@ const blogIndex = files.map((filename) => {
     wordCount,
     excerpt: cleanExcerpt,
     slug: data.Slug || data.slug || filename.replace('.md', ''),
-    image: taxInfo.image,
+    image: blogImage,
     imageWidth: 1200,
     imageHeight: 630,
-    imageAlt: title,
+    imageAlt: blogAlt,
     primaryKeyword,
     targetMarket: data['Target Market'] || 'US / UK / Australia',
   };
