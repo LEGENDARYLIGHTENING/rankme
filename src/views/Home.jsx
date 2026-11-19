@@ -65,10 +65,10 @@ const capabilities = [
   },
   {
     icon: '✍',
-    title: 'High-Intent Commercial Topic Clusters',
+    title: 'Commercial Demand & Category Authority',
     description:
-      'We eliminate low-quality content churn and architect high-authority commercial clusters that systematically intercept and capture executive buyers actively researching solutions.',
-    deliverables: ['High-Value Solution Architecture', 'Strategic Authority Clustering', 'Executive Decision Guides'],
+      'We eliminate low-quality content churn and architect authoritative digital ecosystems that systematically intercept and capture executive buyers actively evaluating enterprise solutions.',
+    deliverables: ['High-Value Solution Architecture', 'Defensible Search Equity Framework', 'Executive Decision Frameworks'],
     timeline: 'Ongoing or per batch',
   },
   {

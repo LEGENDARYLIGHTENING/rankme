@@ -51,14 +51,14 @@ const servicesData = [
   },
   {
     icon: '✍',
-    title: 'High-Intent Commercial Topic Clusters',
+    title: 'Commercial Demand & Category Authority',
     description:
-      'We construct authoritative topic ecosystems and commercial decision guides that systematically capture and convert high-ticket executive buyers actively evaluating vendors.',
+      'We construct authoritative commercial ecosystems and executive decision frameworks that systematically capture and convert high-ticket enterprise buyers actively evaluating vendors.',
     deliverables: [
       'High-Value Solution Architecture & Intent Mapping',
-      'Authoritative Commercial Decision Guides',
-      'Strategic Interlinking & Equity Distribution',
-      'High-Trust Editorial Standards',
+      'Authoritative Commercial Decision Frameworks',
+      'Defensible Search Equity Distribution',
+      'High-Trust Thought Leadership Standards',
     ],
     timeline: 'Scoped per content roadmap',
   },

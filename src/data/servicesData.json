@@ -4,13 +4,13 @@
     "name": "B2B Web Design & Next.js Development",
     "shortName": "B2B Web Design",
     "icon": "⟨/⟩",
-    "headline": "Fast Next.js B2B Websites Built for Clarity and Conversions",
-    "description": "I replace heavy, slow legacy CMS templates with custom React and Next.js architectures designed for clean SEO hygiene and qualified lead capture.",
+    "headline": "High-Performance B2B Web Systems Engineered for Market Authority",
+    "description": "We engineer bespoke digital platforms built for sub-second speed, search engine dominance, and frictionless executive buyer conversion.",
     "deliverables": [
-      "Custom Next.js App Router Frontend",
-      "Edge-Ready Static Generation",
-      "Clear Lead & RFQ Capture Forms",
-      "100% IP & GitHub Source Code Ownership"
+      "High-Performance React & Next.js Architecture",
+      "Sub-Second Global Edge Delivery",
+      "High-Velocity Inbound Qualification Systems",
+      "100% Intellectual Property & Repository Ownership"
     ]
   },
   {
@@ -32,13 +32,13 @@
     "name": "B2B Conversion Rate Optimization (CRO)",
     "shortName": "Conversion Rate Optimization",
     "icon": "▶",
-    "headline": "Remove Contact Form Friction & Clarify Buyer Journeys",
-    "description": "I audit and simplify user conversion bottlenecks, fixing confusing navigation, weak CTAs, and form drop-offs with clean GA4 tracking.",
+    "headline": "Remove Friction & Accelerate Buyer Qualification",
+    "description": "We systematically diagnose and eliminate buyer drop-off points, turning passive high-intent traffic into qualified sales opportunities.",
     "deliverables": [
-      "Form & CTA Friction Teardowns",
-      "Clear Qualification Flows",
-      "Bot-Protected Lead Routing",
-      "Consent-Clean GA4 Event Measurement"
+      "Executive Buyer Journey & Friction Audits",
+      "High-Velocity Pipeline Qualification Protocols",
+      "Secure Enterprise Lead Routing",
+      "High-Resolution Pipeline Telemetry & Attribution"
     ]
   },
   {
@@ -85,44 +85,44 @@
   },
   {
     "slug": "core-web-vitals-speed",
-    "name": "Core Web Vitals & Asset Optimization",
-    "shortName": "Speed Optimization",
+    "name": "Platform Performance & Sub-Second Speed",
+    "shortName": "Performance Optimization",
     "icon": "🚀",
-    "headline": "Eliminate Render-Blocking Scripts & Heavy Media Bloat",
-    "description": "I remove unnecessary third-party embeds, optimize responsive image sizes, and minimize client bundle overhead for snappy mobile loading.",
+    "headline": "Sub-Second Response Times & High-Efficiency Infrastructure",
+    "description": "We optimize digital infrastructure to load instantaneously worldwide, eliminating performance bottlenecks that cause high-value buyers to bounce.",
     "deliverables": [
-      "LCP Media Sizing & Preload Hygiene",
-      "Minimal CLS Layout Stability",
-      "Lean Client JavaScript Payloads",
-      "Edge Caching & Asset Compression"
+      "Sub-Second Global Edge Delivery",
+      "Zero Layout Shift & Visual Stability",
+      "High-Efficiency Asset & Code Optimization",
+      "Enterprise Edge Caching & Delivery"
     ]
   },
   {
     "slug": "b2b-lead-funnel-analytics",
-    "name": "B2B Lead Funnel & GA4 Telemetry",
-    "shortName": "GA4 Analytics & Telemetry",
+    "name": "Commercial Pipeline Intelligence & Attribution",
+    "shortName": "Pipeline Intelligence",
     "icon": "🎯",
-    "headline": "Honest Lead Attribution & Conversion Tracking",
-    "description": "Consent-respecting GA4 event setup paired with clean Google Search Console indexing visibility so measurement reflects reality.",
+    "headline": "Verified Pipeline Attribution & Conversion Telemetry",
+    "description": "High-resolution commercial telemetry that maps every enterprise buyer touchpoint from initial search touch to qualified sales conversation.",
     "deliverables": [
-      "Custom GA4 Lead Event Tracking",
-      "Consent-Gated Analytics Configuration",
-      "Search Console Sitemap & Index Audits",
-      "Clear Funnel Reporting Setup"
+      "High-Resolution Pipeline Telemetry",
+      "Privacy-First Analytics Configuration",
+      "Commercial Indexation & Equity Governance",
+      "Executive Pipeline & Revenue Attribution Models"
     ]
   },
   {
     "slug": "b2b-content-clusters",
-    "name": "B2B Content Cluster & Editorial Architecture",
-    "shortName": "Content Cluster Strategy",
+    "name": "B2B Commercial Demand & Category Authority",
+    "shortName": "Category Authority Strategy",
     "icon": "✍",
-    "headline": "Focused Topic Clusters Without Scaled Filler",
-    "description": "I organize commercial guides into tight category hubs with purposeful internal linking while pruning thin or duplicate pages.",
+    "headline": "Authoritative Category Architecture Without Low-Quality Filler",
+    "description": "We architect high-intent commercial content ecosystems and category authority hubs that systematically capture executive buyer demand and build sustainable search dominance.",
     "deliverables": [
-      "Commercial Keyword Cluster Map",
-      "Category Hub Interlinking Structure",
-      "Editorial Hygiene & Pruning Reviews",
-      "Factual Citation Formatting"
+      "High-Intent Commercial Demand Mapping",
+      "Category Authority Interlinking Architecture",
+      "Content Governance & Quality Guardrails",
+      "Defensible Brand Citation & Search Equity"
     ]
   },
   {
