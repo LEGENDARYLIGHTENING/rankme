@@ -11,11 +11,11 @@ import { VERIFIED_CREDENTIALS } from '../data/credentials';
 import './Home.css';
 
 const proofItems = [
-  { value: '<1s Load', label: 'Sub-Second Global Edge Performance' },
-  { value: 'Live Platform', label: 'Wafa Educational Trust' },
-  { value: 'GA4 Certified', label: 'Consent-Clean Event Telemetry' },
-  { value: '100%', label: 'Client Codebase Ownership' },
-  { value: 'Direct', label: 'Founder-Led Execution' },
+  { value: '<0.8s Speed', label: 'Sub-Second Speed That Stops Buyer Bounces' },
+  { value: 'Verified Proof', label: 'Wafa Educational & Charitable Trust' },
+  { value: 'GA4 & HubSpot', label: 'Certified Pipeline & Conversion Attribution' },
+  { value: '100% IP', label: 'Complete Intellectual Property Ownership' },
+  { value: 'Direct Access', label: 'Founder-Led Strategic Execution' },
 ];
 
 const portfolioShowcases = [
@@ -50,12 +50,12 @@ const capabilities = [
   },
   {
     icon: '⟨/⟩',
-    title: 'Proprietary High-Performance Web Infrastructure',
-    badge: 'Core Engineering',
+    title: 'High-Converting Web Infrastructure & Pipeline Architecture',
+    badge: 'Performance & Revenue',
     description:
-      'Custom-engineered from the ground up for high-growth B2B brands. Lightning-fast edge delivery, sub-second response times, and full codebase ownership with zero CMS dependency or plugin bloat.',
-    deliverables: ['Custom High-Speed Edge Architecture', 'Zero-Friction Inbound Capture', '100% Client Codebase Ownership'],
-    stat: '<0.8s Global LCP',
+      'Custom-engineered from the ground up for high-growth B2B companies. Sub-second global load times that prevent drop-offs, frictionless demo booking pathways, and 100% intellectual property ownership with zero plugin bloat.',
+    deliverables: ['Sub-Second Global Performance', 'Frictionless Inbound Capture', '100% Client Code & Asset Ownership'],
+    stat: '<0.8s Global Speed',
   },
   {
     icon: '🔍',

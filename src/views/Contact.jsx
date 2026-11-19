@@ -232,7 +232,7 @@ export default function Contact() {
                         onChange={handleChange}
                       >
                         <option value="">Select...</option>
-                        <option value="Custom Web Build">Custom Web Build (React/Next.js)</option>
+                        <option value="Custom Web Build">Custom High-Performance Web Platform</option>
                         <option value="SEO/GEO Visibility">Technical SEO &amp; GEO</option>
                         <option value="Brand Positioning">Positioning &amp; Copy</option>
                         <option value="Conversion Optimization">Conversion Optimization</option>

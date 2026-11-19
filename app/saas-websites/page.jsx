@@ -5,7 +5,7 @@ import { constructMetadata } from '../../src/components/Seo';
 export const metadata = constructMetadata({
   title: 'B2B SaaS Website Engineering & SEO | Rankur',
   description:
-    'Custom React and Next.js marketing websites built for B2B SaaS startups targeting clear positioning, demo conversions, and clean search indexing.',
+    'High-converting B2B SaaS marketing platforms engineered for clear market positioning, qualified demo conversions, and dominant search authority.',
   canonical: '/saas-websites',
 });
 

@@ -4,7 +4,7 @@ export const nicheData = {
     props: {
       seoTitle: 'B2B SaaS Website Engineering & SEO | Rankur',
       seoDesc:
-        'Custom React and Next.js marketing websites built for B2B SaaS startups targeting clear positioning, demo conversions, and clean search indexing.',
+        'High-converting B2B SaaS marketing platforms engineered for clear market positioning, qualified demo conversions, and dominant search authority.',
       niche: 'SaaS',
       heroTitle: (
         <>
@@ -12,11 +12,11 @@ export const nicheData = {
         </>
       ),
       heroSubtitle:
-        'Most SaaS websites read like an internal changelog. I engineer Next.js marketing platforms structured around buyer evaluation, technical SEO, and demo conversion clarity.',
+        'Most SaaS websites read like an internal changelog. I engineer high-converting B2B marketing platforms structured around buyer psychology, search engine authority, and frictionless demo conversion.',
       problemText: [
         'Many SaaS teams ship visually clean marketing sites that fail at turning technical buyer traffic into booked product demos.',
         'Product pages often bury core workflows behind jargon, skip comparison and integration search architecture, and overload forms with friction.',
-        'I build fast static-first Next.js frontends with focused positioning copy, structured schema, and transparent inquiry workflows.',
+        'I build sub-second commercial web systems with persuasive positioning copy, verified AI citation architecture, and transparent buyer inquiry pathways.',
       ],
       solutions: [
         {
@@ -31,17 +31,17 @@ export const nicheData = {
         },
         {
           icon: '▶',
-          title: 'Clean Migration & Speed',
-          desc: 'Moving off heavy CMS templates to custom React/Next.js codebases you own completely in GitHub.',
+          title: 'Clean Performance & Speed',
+          desc: 'Eliminating bloated CMS templates and plugins in favor of custom high-speed web systems that your organization owns 100% with zero licensing lock-in.',
         },
       ],
       proofText:
-        'Built using the same static-generation Next.js patterns applied on verified client platforms like Wafa Trust.',
+        'Built using the same high-speed, accessible web architecture applied on verified client platforms like Wafa Trust.',
       faqs: [
         {
-          question: 'Why rebuild a Webflow or WordPress SaaS site in Next.js?',
+          question: 'Why rebuild a legacy Webflow or WordPress site into custom high-performance architecture?',
           answer:
-            'When you require complete code ownership, sub-second edge performance, bespoke conversion workflows, and zero third-party plugin vulnerability or bloat, custom Next.js provides an unconstrained enterprise foundation.',
+            'When you require 100% intellectual property ownership, sub-second global load times that stop buyer drop-offs, and custom demo conversion workflows without third-party plugin vulnerabilities, custom high-performance architecture provides an unconstrained enterprise foundation.',
         },
         {
           question: 'How are timelines and scopes structured?',

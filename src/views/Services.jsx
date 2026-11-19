@@ -26,15 +26,15 @@ const servicesData = [
   },
   {
     icon: '⟨/⟩',
-    title: 'Proprietary High-Performance Web Infrastructure',
-    badge: 'Core Engineering',
+    title: 'High-Converting Web Infrastructure & Pipeline Engineering',
+    badge: 'Performance & Revenue',
     description:
-      'We architect bespoke digital platforms engineered on global edge networks: delivering sub-second response times, zero CMS dependencies, and full source code ownership.',
+      'We build custom digital platforms engineered to capture enterprise pipeline: delivering sub-second load times that keep buyers engaged, frictionless inquiry flows, and 100% intellectual property ownership.',
     deliverables: [
-      'High-Performance Edge Architecture',
-      'Zero-Loss Telemetry & Event Tracking',
-      'Accessible, High-Conversion Semantic Interfaces',
-      '100% Repository Transfer & Asset Ownership',
+      'Sub-Second Global Architecture That Stops Buyer Bounces',
+      'High-Intent Demo & RFQ Inbound Pathways',
+      'Clean Conversion & Pipeline Attribution Tracking',
+      '100% Codebase Transfer With Zero Vendor Lock-in',
     ],
     timeline: 'Milestone-based sign-off, terms in proposal',
   },
@@ -110,10 +110,10 @@ const methodologyStages = [
 ];
 
 const technicalStack = [
-  { category: 'Core Platform Engineering', tools: 'Bespoke Modern Web Architecture, Modular Engineering, Sub-Second Global Edge Runtimes' },
-  { category: 'Enterprise Integration', tools: 'High-Throughput APIs, Distributed Data Layers, Secure Lead Routing Protocols' },
-  { category: 'Infrastructure & Security', tools: 'Global Edge Delivery, Automated Zero-Downtime Deployments, Hardened Security Headers' },
-  { category: 'Commercial Intelligence', tools: 'High-Resolution Funnel Telemetry, Search Engine Indexation Monitoring, Pipeline Attribution' },
+  { category: 'Conversion Infrastructure', tools: 'Bespoke Modern Web Architecture, Sub-Second Global Edge Runtimes, Zero CMS Vulnerabilities' },
+  { category: 'Enterprise Integration', tools: 'High-Throughput CRM APIs, Secure Inbound Lead Routing, Automated Inbound Qualification' },
+  { category: 'Infrastructure & Security', tools: 'Global Edge Delivery, Automated Zero-Downtime Deployments, Hardened Enterprise Security' },
+  { category: 'Commercial Intelligence', tools: 'Full-Funnel Pipeline Telemetry, Search Engine Indexation Monitoring, Revenue Attribution' },
 ];
 
 const faqs = [

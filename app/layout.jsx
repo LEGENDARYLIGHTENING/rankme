@@ -136,7 +136,7 @@ const masterSchema = {
       priceRange: '$$$',
       areaServed: ['US', 'GB', 'CA', 'AU', 'AE', 'SA'],
       serviceType: [
-        'Custom React & Next.js Websites',
+        'High-Converting B2B Web Systems',
         'B2B Conversion Rate Optimization',
         'Generative Engine Optimization (GEO)',
         'Technical SEO Auditing',
