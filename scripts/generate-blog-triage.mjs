@@ -43,7 +43,18 @@ const CURATED_PILLARS = new Set([
   'custom-react-website-saas-startup',
   'saas-organic-growth-strategies-2026',
   'saas-churn-reduction-content-marketing',
-  'b2b-saas-website-redesign-cost-2026'
+  'b2b-saas-website-redesign-cost-2026',
+  // Batch 4 Masterclass Additions
+  'signs-website-losing-deals',
+  'website-redesign-checklist-founders',
+  'getting-found-google-chatgpt-perplexity-b2b',
+  'ai-search-optimization-manufacturers-exporters',
+  'prompt-engineering-testing-b2b-geo-performance',
+  'building-entity-authority-ai-search-engines',
+  'future-proofing-b2b-websites-generative-engine-optimization',
+  'key-metrics-measuring-geo-success',
+  'ai-overviews-b2b-click-through-rate-strategies',
+  'comparison-seo-vs-geo-vs-paid-international-b2b'
 ]);
 
 // 1. Primary keyword uniqueness and clustering
