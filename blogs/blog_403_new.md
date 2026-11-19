@@ -20,7 +20,7 @@ This in-depth guide examines **core web vitals b2b deal velocity** from a practi
 
 ## 1. Core Web Vitals: The Invisible Revenue Factor
 
-Google's Core Web Vitals are not just SEO metrics—they are direct revenue drivers.
+Google's Core Web Vitals are not just SEO metrics: they are direct revenue drivers.
 
 - **Largest Contentful Paint (LCP < 2.5s):** If your primary hero image or headline takes over 2.5 seconds to render, over 50% of mobile executive traffic bounces.
 - **Interaction to Next Paint (INP < 200ms):** If clicking a navigation button or form field causes visual lag, buyers assume your product is equally sluggish.

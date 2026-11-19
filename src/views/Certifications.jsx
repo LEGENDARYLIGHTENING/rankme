@@ -188,7 +188,7 @@ export default function Certifications() {
                 High-Speed Codebase Architecture
               </h4>
               <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7' }}>
-                We translate strategic positioning into custom Next.js engineering that scores 98–100 on Core Web Vitals, guaranteeing sub-second load times that keep enterprise buyers engaged and prevent drop-off.
+                We translate strategic positioning into custom Next.js engineering that scores 98 to 100 on Core Web Vitals, guaranteeing sub-second load times that keep enterprise buyers engaged and prevent drop-off.
               </p>
             </SpotlightCard>
           </div>

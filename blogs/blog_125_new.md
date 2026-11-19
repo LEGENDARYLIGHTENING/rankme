@@ -42,7 +42,7 @@ Giving buyers a realistic anchor builds trust and filters out unqualified leads 
 
 ## 2. Failing to Reiterate Value Alongside Cost
 
-When a prospect views a pricing table, their brain shifts into risk-evaluation mode. They are no longer thinking about how great your service is—they are thinking about cash outflow.
+When a prospect views a pricing table, their brain shifts into risk-evaluation mode. They are no longer thinking about how great your service is: they are thinking about cash outflow.
 
 If your pricing page displays features in technical terms (*"Includes 5 API integrations, 10 GB storage"*), you force the buyer to calculate the ROI in their head.
 
@@ -87,6 +87,6 @@ To optimize a B2B pricing page:
 
 ## Convert High-Intent Pricing Visitors Into Closed Deals
 
-Your pricing page shouldn't be a brick wall—it should be the bridge that confidently carries qualified buyers into your sales pipeline.
+Your pricing page shouldn't be a brick wall: it should be the bridge that confidently carries qualified buyers into your sales pipeline.
 
 If you are ready to fix your conversion leaks and build a high-performance web asset, explore our [B2B Growth Services](/services) or request a [Free B2B Audit](/free-audit) today.

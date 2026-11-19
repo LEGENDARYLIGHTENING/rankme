@@ -20,7 +20,7 @@ This is the single most frustrating bottleneck in B2B growth: **high traffic, ze
 
 Most founders assume the solution is more traffic. They burn tens of thousands of dollars on LinkedIn ads, Google Search campaigns, and cheap SEO agencies to double their visitors. But throwing more water into a leaky bucket doesn't fix the bucket. 
 
-If your B2B website gets traffic but zero booked sales calls, your website isn't an asset—it's an active sales liability. Here is the brutal diagnosis of why enterprise buyers are bouncing off your site without inquiring, and how to fix it immediately.
+If your B2B website gets traffic but zero booked sales calls, your website isn't an asset: it's an active sales liability. Here is the brutal diagnosis of why enterprise buyers are bouncing off your site without inquiring, and how to fix it immediately.
 
 ---
 
@@ -45,7 +45,7 @@ Your hero headline must answer three questions in under 3 seconds:
 
 ## 2. Friction-Heavy Contact Forms Are Scaring Away Busy Decision-Makers
 
-If your inquiry form asks for 12 required fields—including phone number, company ARR, budget range, employee count, and street address—you are actively killing your conversion rate.
+If your inquiry form asks for 12 required fields, including phone number, company ARR, budget range, employee count, and street address: you are actively killing your conversion rate.
 
 While marketing teams love progressive profiling and lead scoring data, enterprise buyers value their time above all else. 
 
@@ -89,7 +89,7 @@ When a prospect reaches your pricing page or contact form, that is the moment of
 
 ## 5. You Lack Factual Q&A Blocks for AI Search Engines (GEO)
 
-In 2026, buyers don't just search Google—they ask ChatGPT, Perplexity, and Claude for vendor recommendations:
+In 2026, buyers don't just search Google: they ask ChatGPT, Perplexity, and Claude for vendor recommendations:
 > *"What are the best B2B web design studios that build fast Next.js sites for SaaS startups?"*
 
 If your website consists of vague marketing prose, AI engines cannot extract factual data about your services. They skip your company entirely and recommend competitors whose sites feature structured, clear Q&A blocks.

@@ -54,7 +54,7 @@ Post-redesign lead drops are frequently caused by mobile UX failures:
 
 If your redesign involved changing URL structures (e.g. moving from `/services/b2b-web-design` to `/our-work/web-design`) without setting up proper **301 redirects**, Google drops your rankings overnight.
 
-When high-intent search pages disappear from Google, high-intent traffic vanishes—and form submissions drop accordingly.
+When high-intent search pages disappear from Google, high-intent traffic vanishes, and form submissions drop accordingly.
 
 ### Post-Redesign SEO Recovery Protocol
 1. Audit your Google Search Console coverage report for 404 errors.

@@ -20,8 +20,8 @@ function cleanText(text) {
     .replace(/\[Internal link:\s*([^-\]]+)\s*-\s*(?:anchor text:\s*)?([^\]]+)\]/gi, '$2')
     .replace(/\[External link:\s*([^-\]]+)\s*-\s*([^\]]+)\]/gi, '$2')
     .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1')
-    .replace(/—/g, '-')
-    .replace(/–/g, '-')
+    .replace(/:/g, '-')
+    .replace(/:/g, '-')
     .replace(/\*\*/g, '')
     .replace(/\*   \[ \]/g, '')
     .trim();

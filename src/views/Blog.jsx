@@ -196,7 +196,7 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
 
           {/* Result Count Status */}
           <div style={{ marginBottom: '1.5rem', color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>
-            Showing {filtered.length > 0 ? indexOfFirstPost + 1 : 0}–{Math.min(indexOfLastPost, filtered.length)} of {filtered.length} guides
+            Showing {filtered.length > 0 ? indexOfFirstPost + 1 : 0}:{Math.min(indexOfLastPost, filtered.length)} of {filtered.length} guides
           </div>
 
           {/* Blog Grid */}
@@ -287,7 +287,7 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
 
               <details style={{ marginTop: '1.5rem', color: 'var(--color-text-muted)', fontSize: '0.85rem' }}>
                 <summary style={{ cursor: 'pointer', color: 'var(--color-gold)' }}>
-                  All Archive Pages (1–{totalPages})
+                  All Archive Pages (1:{totalPages})
                 </summary>
                 <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0.4rem', marginTop: '1rem', maxWidth: '800px', marginInline: 'auto' }}>
                   {Array.from({ length: totalPages }, (_, idx) => idx + 1).map((p) => (

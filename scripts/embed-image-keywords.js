@@ -149,7 +149,7 @@ async function run() {
       .filter(Boolean)
       .join('; ');
 
-    const description = `${info.primaryKeyword} — ${info.title} | ${info.scene} | Rankur B2B Growth Platform`;
+    const description = `${info.primaryKeyword}: ${info.title} | ${info.scene} | Rankur B2B Growth Platform`;
     const subject = `${info.primaryKeyword} | ${info.nicheTag}`;
     const comment = `Target Search Keyword: ${info.primaryKeyword}. Secondary: ${info.secondaryKeywords}. Optimized for Google & AI search engine visibility.`;
 
@@ -239,7 +239,7 @@ async function run() {
         .filter(Boolean)
         .join('; ');
 
-      const description = `${info.primaryKeyword} — ${info.title} | ${info.scene} | Rankur Commercial Photography`;
+      const description = `${info.primaryKeyword}: ${info.title} | ${info.scene} | Rankur Commercial Photography`;
       const subject = `${info.primaryKeyword} | ${info.nicheTag}`;
       const comment = `Target Search Keyword: ${info.primaryKeyword}. Secondary: ${info.secondaryKeywords}. Rankur Media Pipeline.`;
 

@@ -49,7 +49,7 @@ function getRandom(arr) {
 }
 
 function clean(text) {
-  return text.replace(/—/g, '-').replace(/–/g, '-');
+  return text.replace(/:/g, '-').replace(/:/g, '-');
 }
 
 let linkedinContent = '';

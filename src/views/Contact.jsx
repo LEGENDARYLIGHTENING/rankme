@@ -59,7 +59,7 @@ export default function Contact() {
         },
         body: JSON.stringify({
           access_key: '5517f453-049b-41fc-900d-e8254b555a53',
-          subject: 'New Contact Inquiry — Rankur',
+          subject: 'New Contact Inquiry: Rankur',
           name: formData.name,
           email: formData.email,
           website: formData.website,

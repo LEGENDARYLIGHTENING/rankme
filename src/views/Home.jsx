@@ -89,7 +89,7 @@ const capabilities = [
 const comparisonData = [
   {
     metric: 'Core Web Vitals & Load Speed',
-    legacy: '3.5s – 6.0s (Bloated WordPress themes, 35+ plugins)',
+    legacy: '3.5s to 6.0s (Bloated WordPress themes, 35+ plugins)',
     rankur: '<0.8s Global LCP (Custom static edge architecture, 0 bloat)',
   },
   {
@@ -125,7 +125,7 @@ const processSteps = [
   {
     title: '1. Strategic Diagnostic Audit',
     description:
-      'We perform an in-depth evaluation of your current search footprint, technical bottlenecks, and buyer conversion friction — delivering a prioritized roadmap for maximum commercial impact.',
+      'We perform an in-depth evaluation of your current search footprint, technical bottlenecks, and buyer conversion friction: delivering a prioritized roadmap for maximum commercial impact.',
   },
   {
     title: '2. Dedicated Architecture & Sprint Build',
@@ -150,7 +150,7 @@ export default function Home() {
             <span className="text-gold">Rank &amp; Convert</span>
           </>
         }
-        subtitle="I engineer high-converting B2B web systems built to dominate Google search, earn generative AI citations, and accelerate executive pipeline — with 100% source code ownership."
+        subtitle="I engineer high-converting B2B web systems built to dominate Google search, earn generative AI citations, and accelerate executive pipeline: with 100% source code ownership."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'View Platforms Built' }}
       />
@@ -220,10 +220,10 @@ export default function Home() {
                 Direct Execution by Moksh Parjapati
               </h2>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)', fontSize: '1.02rem' }}>
-                Most B2B agencies operate on an assembly-line model: senior partners sell the contract, then pass your project down to junior account managers who paste your content into bloated page-builder themes. The result is predictable — slow load times, fragile plugin stacks, and zero pipeline impact.
+                Most B2B agencies operate on an assembly-line model: senior partners sell the contract, then pass your project down to junior account managers who paste your content into bloated page-builder themes. The result is predictable: slow load times, fragile plugin stacks, and zero pipeline impact.
               </p>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)', fontSize: '1.02rem' }}>
-                At Rankur, every single engagement — commercial positioning, technical search equity, custom frontend architecture, and conversion telemetry — is executed directly by me. No junior intermediaries. No outsourced codebases.
+                At Rankur, every single engagement: commercial positioning, technical search equity, custom frontend architecture, and conversion telemetry: is executed directly by me. No junior intermediaries. No outsourced codebases.
               </p>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-xl)', fontSize: '1.02rem' }}>
                 You get direct engineering velocity, honest diagnostic feedback, clean source code in your own repository, and milestone-based sign-offs agreed up front.
@@ -455,7 +455,7 @@ export default function Home() {
           <p className="section-label">Free Audit</p>
           <h2 className="section-title">Want to see what is holding your website back?</h2>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '1.1rem', lineHeight: '1.8', marginBottom: 'var(--space-2xl)' }}>
-            Submit your URL for a manual review of your Core Web Vitals, technical SEO hygiene, messaging clarity, and form friction — delivered as a prioritized written brief within 2 business days.
+            Submit your URL for a manual review of your Core Web Vitals, technical SEO hygiene, messaging clarity, and form friction: delivered as a prioritized written brief within 2 business days.
           </p>
           <Link href="/free-audit" className="btn btn--primary" style={{ padding: 'var(--space-md) var(--space-3xl)' }}>
             Request Free Audit

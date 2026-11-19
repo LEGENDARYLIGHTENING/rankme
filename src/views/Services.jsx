@@ -29,7 +29,7 @@ const servicesData = [
     title: 'Proprietary High-Performance Web Infrastructure',
     badge: 'Core Engineering',
     description:
-      'We architect bespoke digital platforms engineered on global edge networks — delivering sub-second response times, zero CMS dependencies, and full source code ownership.',
+      'We architect bespoke digital platforms engineered on global edge networks: delivering sub-second response times, zero CMS dependencies, and full source code ownership.',
     deliverables: [
       'High-Performance Edge Architecture',
       'Zero-Loss Telemetry & Event Tracking',
@@ -43,7 +43,7 @@ const servicesData = [
     title: 'Search Authority & Generative AI Discovery',
     badge: 'Technical SEO & GEO',
     description:
-      'Deterministic search infrastructure engineered for sustainable dominance across Google, ChatGPT, and Perplexity — safeguarding authority and ensuring verified answer recommendations.',
+      'Deterministic search infrastructure engineered for sustainable dominance across Google, ChatGPT, and Perplexity: safeguarding authority and ensuring verified answer recommendations.',
     deliverables: [
       'Proprietary Search Equity & Domain Protection',
       'Zero-Defect Deterministic Indexation Architecture',

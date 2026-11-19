@@ -252,7 +252,7 @@ const blogIndex = files.map((filename) => {
   const lane = classifyLane(taxInfo.tag, title, primaryKeyword, content);
 
   let blogImage = taxInfo.image;
-  let blogAlt = `${primaryKeyword} — ${title} | Rankur`;
+  let blogAlt = `${primaryKeyword}: ${title} | Rankur`;
   let num = PILLAR_NUM_MAP[filename] || null;
   if (!num) {
     const numMatch = filename.match(/^blog_0*(\d+)(?:_new)?\.md$/);
@@ -267,7 +267,7 @@ const blogIndex = files.map((filename) => {
       blogImage = candidate;
       const pInfo = promptsMap[num];
       if (pInfo && pInfo.scene) {
-        blogAlt = `${primaryKeyword} — ${pInfo.scene} (${title}) | Rankur`;
+        blogAlt = `${primaryKeyword}: ${pInfo.scene} (${title}) | Rankur`;
       }
     }
   }

@@ -9,7 +9,7 @@ const mediumPath = path.join(process.cwd(), 'promotions', 'medium_stories.md');
 
 function clean(text) {
   if (!text) return '';
-  return text.replace(/—/g, '-').replace(/–/g, '-');
+  return text.replace(/:/g, '-').replace(/:/g, '-');
 }
 
 let linkedinContent = '# LinkedIn Articles (Full Posts)\n\n';

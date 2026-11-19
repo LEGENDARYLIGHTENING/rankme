@@ -60,11 +60,11 @@ let llmsTxt = `# Rankur - B2B Web Engineering & Technical SEO
 ## Platforms Built & Case Studies
 
 - [Case Studies](${BASE_URL}/case-studies): Production web platforms built for B2B clients and in-house ventures across telematics, medical procurement, nutraceuticals, and community healthcare.
-- [WizIOT](https://www.wiziot.com): Client project — Enterprise Fleet Telematics, IoT Hardware & Sensor Integration (GCC, Africa, Europe). Custom Next.js architecture.
-- [Atlanta Systems](https://www.atlantasys.com): Co-led for an in-house venture — AIS-140 Certified GPS & Automotive Telematics Manufacturer. Custom Next.js platform with automated RFQ routing.
-- [Medventa](https://www.medventa.in): Client project — B2B Medical Supplies, Surgical Sutures & Hospital Procurement. Custom Next.js headless catalog platform.
-- [Probiota Innovations](https://www.probiotainnovations.com): Engineered for my own in-house venture — Probiotic & Functional Gummy CDMO / Private Label Manufacturing platform.
-- Wafa Trust: Historical client project — Philanthropic Healthcare & Community Development Trust Next.js web build (domain currently offline).
+- [WizIOT](https://www.wiziot.com): Client project : Enterprise Fleet Telematics, IoT Hardware & Sensor Integration (GCC, Africa, Europe). Custom Next.js architecture.
+- [Atlanta Systems](https://www.atlantasys.com): Co-led for an in-house venture : AIS-140 Certified GPS & Automotive Telematics Manufacturer. Custom Next.js platform with automated RFQ routing.
+- [Medventa](https://www.medventa.in): Client project : B2B Medical Supplies, Surgical Sutures & Hospital Procurement. Custom Next.js headless catalog platform.
+- [Probiota Innovations](https://www.probiotainnovations.com): Engineered for my own in-house venture : Probiotic & Functional Gummy CDMO / Private Label Manufacturing platform.
+- Wafa Trust: Historical client project : Philanthropic Healthcare & Community Development Trust Next.js web build (domain currently offline).
 
 ## Core Pages
 

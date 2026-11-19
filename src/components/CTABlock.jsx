@@ -4,7 +4,7 @@ import './CTABlock.css';
 export default function CTABlock({
   label = 'Ready to Start?',
   title = 'Request a Free Site & Technical SEO Audit',
-  subtitle = 'Get a manual review of your page speed, search structure, and lead conversion bottlenecks — no sales pressure, just a prioritized action list.',
+  subtitle = 'Get a manual review of your page speed, search structure, and lead conversion bottlenecks: no sales pressure, just a prioritized action list.',
   primaryCTA = { to: '/free-audit', label: 'Request Free Audit' },
   secondaryCTA,
 }) {

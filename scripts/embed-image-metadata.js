@@ -32,7 +32,7 @@ async function embedMetadata() {
     if (!fs.existsSync(webpFile)) continue;
 
     const info = promptsMap[num] || { title: `Blog ${num}`, scene: 'B2B Growth Infrastructure' };
-    const desc = `${info.scene} — ${info.title} | Rankur`;
+    const desc = `${info.scene}: ${info.title} | Rankur`;
 
     const inputBuf = fs.readFileSync(webpFile);
     const outputBuf = await sharp(inputBuf)

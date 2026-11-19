@@ -41,7 +41,7 @@ Unless your sales team offers instant, low-friction phone support, make the phon
 
 Form fields asking for *"Annual Budget"* or *"Current Tech Spend"* create immediate hesitation. 
 
-Early in the buying journey, enterprise buyers often don't have a fixed budget allocated yet—they are researching to build a business case for their board. Forcing them to select a budget range (e.g., *$50k-$100k*) before they understand your value proposition causes instant drop-off.
+Early in the buying journey, enterprise buyers often don't have a fixed budget allocated yet: they are researching to build a business case for their board. Forcing them to select a budget range (e.g., *$50k-$100k*) before they understand your value proposition causes instant drop-off.
 
 ### How to Qualify Without Friction
 Instead of asking for explicit dollar amounts, ask situational qualification questions:
@@ -92,7 +92,7 @@ To reduce form abandonment:
 
 ## Turn Form Friction Into Enterprise Pipeline
 
-Your contact form should feel like an inviting, low-risk doorway—not an interrogation room.
+Your contact form should feel like an inviting, low-risk doorway, not an interrogation room.
 
 By eliminating redundant fields, displaying hard trust signals, and offering instant calendar scheduling, you transform passive website visits into a predictable stream of qualified enterprise meetings.
 

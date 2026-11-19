@@ -23,7 +23,7 @@ This in-depth guide examines **generative engine optimization geo chatgpt perple
 In 2026, enterprise buyers no longer just type keywords into Google. They ask generative AI engines (ChatGPT, Perplexity, Claude) complex questions:
 > *"Which custom Next.js web design agencies specialize in B2B SaaS lead generation?"*
 
-If your site relies on keyword stuffing and lacks structured JSON-LD schema, AI models cannot parse your capabilities—leaving you invisible in AI-generated answers.
+If your site relies on keyword stuffing and lacks structured JSON-LD schema, AI models cannot parse your capabilities: leaving you invisible in AI-generated answers.
 
 ---
 

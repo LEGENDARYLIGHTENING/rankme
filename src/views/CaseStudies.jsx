@@ -115,7 +115,7 @@ export default function CaseStudies() {
               {wafaQuote && (
                 <div className="case-full__quote-block">
                   <p className="case-full__quote-text">&ldquo;{wafaQuote.quote}&rdquo;</p>
-                  <p className="case-full__quote-author">&mdash; {wafaQuote.name}, {wafaQuote.role}, {wafaQuote.company}</p>
+                  <p className="case-full__quote-author">:  {wafaQuote.name}, {wafaQuote.role}, {wafaQuote.company}</p>
                 </div>
               )}
             </div>

@@ -15,7 +15,7 @@ const corporateCredentials = [
 
 const platformsLedger = [
   {
-    title: 'Wafa Educational & Charitable Trust — Client Platform',
+    title: 'Wafa Educational & Charitable Trust: Client Platform',
     evidence:
       'Accessible, high-performance digital platform built for a philanthropic healthcare and education trust, organizing community medical aid and donor contact pathways cleanly at wafatrustindia.org.',
   },
@@ -71,7 +71,7 @@ export default function About() {
               I founded <strong>Rankur</strong> to unify commercial market positioning, high-performance web engineering, and enterprise search authority under a single, accountable partner.
             </p>
             <p>
-              Every client platform is deployed using battle-tested proprietary standards — prioritizing defensible commercial growth and verifiable pipeline over inflated agency slogans.
+              Every client platform is deployed using battle-tested proprietary standards: prioritizing defensible commercial growth and verifiable pipeline over inflated agency slogans.
             </p>
 
             <div className="img-placeholder" style={{ margin: 'var(--space-2xl) 0', borderRadius: 'var(--border-radius-lg)', overflow: 'hidden' }}>

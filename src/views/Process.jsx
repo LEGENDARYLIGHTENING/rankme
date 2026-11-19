@@ -56,7 +56,7 @@ export default function Process() {
             Audit. Build. <span className="text-gold">Measure.</span>
           </>
         }
-        subtitle="From an initial manual site teardown to custom high-performance engineering and clean search measurement — here is how engagements run."
+        subtitle="From an initial manual site teardown to custom high-performance engineering and clean search measurement: here is how engagements run."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
       />
 

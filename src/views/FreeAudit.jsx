@@ -22,7 +22,7 @@ const auditSteps = [
   {
     icon: '📄',
     title: '3. Written Priority Teardown',
-    desc: 'Receive a concise prioritized brief covering what is broken and which fixes matter most — within 2 business days.',
+    desc: 'Receive a concise prioritized brief covering what is broken and which fixes matter most: within 2 business days.',
   },
   {
     icon: '📞',
@@ -94,7 +94,7 @@ export default function FreeAudit() {
         },
         body: JSON.stringify({
           access_key: '5517f453-049b-41fc-900d-e8254b555a53',
-          subject: 'New Free Audit Request — Rankur',
+          subject: 'New Free Audit Request: Rankur',
           name: formData.name,
           email: formData.email,
           website: formData.website,
@@ -129,7 +129,7 @@ export default function FreeAudit() {
             <span className="text-gold">B2B Site &amp; SEO Audit</span>
           </>
         }
-        subtitle="A comprehensive diagnostic uncovering search authority gaps, enterprise buyer drop-offs, platform speed bottlenecks, and conversion friction — delivered within 2 business days."
+        subtitle="A comprehensive diagnostic uncovering search authority gaps, enterprise buyer drop-offs, platform speed bottlenecks, and conversion friction: delivered within 2 business days."
         center
       />
 
@@ -263,7 +263,7 @@ export default function FreeAudit() {
                     <option value="">Select range...</option>
                     <option value="audit-only">Audit Only (Evaluating Next Steps)</option>
                     <option value="under-3k">Under $3,000 Project Scope</option>
-                    <option value="3k-to-7k">$3,000 – $7,000 Project Scope</option>
+                    <option value="3k-to-7k">$3,000 to $7,000 Project Scope</option>
                     <option value="over-7k">$7,000+ Full Rebuild &amp; SEO Scope</option>
                   </select>
                   {errors.budget && <span className="form-error">{errors.budget}</span>}

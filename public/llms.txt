@@ -30,11 +30,11 @@
 ## Platforms Built & Case Studies
 
 - [Case Studies](https://rankursite.com/case-studies): Production web platforms built for B2B clients and in-house ventures across telematics, medical procurement, nutraceuticals, and community healthcare.
-- [WizIOT](https://www.wiziot.com): Client project — Enterprise Fleet Telematics, IoT Hardware & Sensor Integration (GCC, Africa, Europe). Custom Next.js architecture.
-- [Atlanta Systems](https://www.atlantasys.com): Co-led for an in-house venture — AIS-140 Certified GPS & Automotive Telematics Manufacturer. Custom Next.js platform with automated RFQ routing.
-- [Medventa](https://www.medventa.in): Client project — B2B Medical Supplies, Surgical Sutures & Hospital Procurement. Custom Next.js headless catalog platform.
-- [Probiota Innovations](https://www.probiotainnovations.com): Engineered for my own in-house venture — Probiotic & Functional Gummy CDMO / Private Label Manufacturing platform.
-- Wafa Trust: Historical client project — Philanthropic Healthcare & Community Development Trust Next.js web build (domain currently offline).
+- [WizIOT](https://www.wiziot.com): Client project : Enterprise Fleet Telematics, IoT Hardware & Sensor Integration (GCC, Africa, Europe). Custom Next.js architecture.
+- [Atlanta Systems](https://www.atlantasys.com): Co-led for an in-house venture : AIS-140 Certified GPS & Automotive Telematics Manufacturer. Custom Next.js platform with automated RFQ routing.
+- [Medventa](https://www.medventa.in): Client project : B2B Medical Supplies, Surgical Sutures & Hospital Procurement. Custom Next.js headless catalog platform.
+- [Probiota Innovations](https://www.probiotainnovations.com): Engineered for my own in-house venture : Probiotic & Functional Gummy CDMO / Private Label Manufacturing platform.
+- Wafa Trust: Historical client project : Philanthropic Healthcare & Community Development Trust Next.js web build (domain currently offline).
 
 ## Core Pages
 
@@ -73,7 +73,7 @@ The following is an index of B2B growth, SEO, and web architecture guides organi
 - [Multilingual B2B Website Strategy for Middle East Expansion](https://rankursite.com/blog/multilingual-b2b-website-strategy-middle-east): Expanding into the UAE and Saudi Arabia? Discover the technical and cultural requirements for a multilingual B2B website strategy that converts Middle Eastern enterprise buyers.
 - [Mobile-First B2B Website Design That Converts Industrial Buyers](https://rankursite.com/blog/mobile-first-b2b-website-design-converts-industrial): Think industrial buyers only use desktop computers? Learn why mobile-first B2B website design is the secret to converting modern procurement teams and driving international RFQs in 2026.
 - [Integrating CRM and Website for Seamless B2B Lead Flow](https://rankursite.com/blog/integrating-crm-and-website-b2b-lead-flow): Stop losing qualified leads in your inbox. Learn how integrating your CRM and B2B website creates a seamless, automated pipeline that accelerates sales velocity and prevents lead leakage.
-- [Case Study: How Probiota Innovations' Website Generated Qualified Leads](https://rankursite.com/blog/case-study-probiota-innovations-website-leads): See exactly how we rebuilt the digital infrastructure for Probiota Innovations, transforming a generic brochure site into a high-converting B2B pipeline engine that generated 50+ qualified leads in its first month.
+- [Case Study: How B2B Growth Infrastructure Generates Qualified Leads](https://rankursite.com/blog/case-study-b2b-growth-infrastructure-leads): See exactly how we rebuilt the digital infrastructure for enterprise B2B client organizations, transforming a generic brochure site into a high-converting B2B pipeline engine that generated 50+ qualified leads in its first month.
 - [B2B Website Security and Compliance for Regulated Industries](https://rankursite.com/blog/b2b-website-security-compliance-regulated): Selling to enterprise or government clients? Learn why B2B website security and strict compliance architecture are non-negotiable requirements for closing high-ticket deals in regulated industries.
 - [Fast-Loading B2B Websites: Performance Benchmarks for 2026](https://rankursite.com/blog/fast-loading-b2b-websites-performance-benchmarks): Is your website speed killing your pipeline? Discover the strict 2026 performance benchmarks for fast-loading B2B websites and how latency directly impacts enterprise conversion rates.
 - [Custom vs Template B2B Websites: Cost vs Outcome Analysis](https://rankursite.com/blog/custom-vs-template-b2b-websites-cost-outcome): Stop evaluating B2B website rebuilds based on initial cost. Discover the true ROI difference between a custom B2B website vs a template, and why templates kill international pipeline.
@@ -516,7 +516,7 @@ The following is an index of B2B growth, SEO, and web architecture guides organi
 
 ### Cost & ROI
 
-- [Custom Build vs Agency Retainer: Full Cost & ROI Breakdown](https://rankursite.com/blog/custom-build-vs-agency-retainer-cost-roi): Comparing a $30k–$75k one-time custom website build vs $10k/mo agency retainers. Calculate the 3-year total cost of ownership and true pipeline ROI.
+- [Custom Build vs Agency Retainer: Full Cost & ROI Breakdown](https://rankursite.com/blog/custom-build-vs-agency-retainer-cost-roi): Comparing a $30k to $75k one-time custom website build vs $10k/mo agency retainers. Calculate the 3-year total cost of ownership and true pipeline ROI.
 - [Custom Nextjs Build Vs Monthly Agency Retainer 3 Year Cost](https://rankursite.com/blog/custom-nextjs-build-vs-monthly-agency-retainer-3-year-cost): Custom Nextjs Build Vs Monthly Agency Retainer 3 Year Cost. Learn how B2B founders fix pipeline leakage, page speed, and conversion friction to generate qu
 - [How Much Does A Custom B2b Website Actually Cost In 2026](https://rankursite.com/blog/how-much-does-a-custom-b2b-website-actually-cost-in-2026): How Much Does A Custom B2b Website Actually Cost In 2026. Learn how B2B founders fix pipeline leakage, page speed, and conversion friction to generate qual
 - [Realistic Total Cost Of Ownership For New B2b Website](https://rankursite.com/blog/realistic-total-cost-of-ownership-for-new-b2b-website): Realistic Total Cost Of Ownership For New B2b Website. Learn how B2B founders fix pipeline leakage, page speed, and conversion friction to generate qualifi

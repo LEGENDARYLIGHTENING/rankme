@@ -51,7 +51,7 @@ export const nicheData = {
         {
           question: 'What does conversion optimization mean on a SaaS marketing site?',
           answer:
-            'It means aligning headline specificity, navigation clarity, proof placement, and form fields to what an evaluating buyer needs before booking a demo — backed by high-resolution conversion and pipeline attribution telemetry.',
+            'It means aligning headline specificity, navigation clarity, proof placement, and form fields to what an evaluating buyer needs before booking a demo: backed by high-resolution conversion and pipeline attribution telemetry.',
         },
         {
           question: 'Will structured markup help my product appear in AI assistants?',
@@ -61,7 +61,7 @@ export const nicheData = {
         {
           question: 'Do you work with early-stage SaaS as well as established companies?',
           answer:
-            'Yes. Scope scales strictly with what your team needs — from a focused positioning and landing system up to full multi-page marketing and documentation architecture.',
+            'Yes. Scope scales strictly with what your team needs: from a focused positioning and landing system up to full multi-page marketing and documentation architecture.',
         },
       ],
     },

@@ -118,7 +118,7 @@ For a B2B cybersecurity client experiencing an 82% pricing page bounce rate, we 
   } else if (category === 'Tech & Speed') {
     bodySection1 = `## 1. Core Web Vitals: The Invisible Revenue Factor
 
-Google's Core Web Vitals are not just SEO metrics—they are direct revenue drivers.
+Google's Core Web Vitals are not just SEO metrics:they are direct revenue drivers.
 
 - **Largest Contentful Paint (LCP < 2.5s):** If your primary hero image or headline takes over 2.5 seconds to render, over 50% of mobile executive traffic bounces.
 - **Interaction to Next Paint (INP < 200ms):** If clicking a navigation button or form field causes visual lag, buyers assume your product is equally sluggish.
@@ -171,7 +171,7 @@ We executed a complete rebuild in Next.js within 14 days, connecting their front
 In 2026, enterprise buyers no longer just type keywords into Google. They ask generative AI engines (ChatGPT, Perplexity, Claude) complex questions:
 > *"Which custom Next.js web design agencies specialize in B2B SaaS lead generation?"*
 
-If your site relies on keyword stuffing and lacks structured JSON-LD schema, AI models cannot parse your capabilities—leaving you invisible in AI-generated answers.`;
+If your site relies on keyword stuffing and lacks structured JSON-LD schema, AI models cannot parse your capabilities:leaving you invisible in AI-generated answers.`;
 
     bodySection2 = `## 2. Building Entity Graph Schema for AI Citations
 

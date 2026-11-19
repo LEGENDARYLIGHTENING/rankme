@@ -47,7 +47,7 @@ const selectedSlugs = [
 function cleanLineContent(content) {
   let s = content;
 
-  // 1. Literal em dashes (—) and en dashes (–)
+  // 1. Literal em dashes (:) and en dashes (:)
   s = s.replace(/\s*[\u2014\u2013]\s*(and|but|or|so|yet|while|whereas|although|because)\b/gi, ', $1');
   s = s.replace(/\s*[\u2014\u2013]\s*(it\'s|its|they|this|that|there|here|these|those)\b/gi, ': $1');
   s = s.replace(/\s*[\u2014\u2013]\s*(which|where|when|who|whose|whom)\b/gi, ', $1');

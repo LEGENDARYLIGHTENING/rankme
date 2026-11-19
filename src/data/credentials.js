@@ -6,7 +6,7 @@ export const CREDENTIALS = [
     badge: 'Verified Credential',
     name: 'Google Analytics 4 (GA4) Certification',
     issuer: 'Google Skillshop',
-    year: '2024 – Present',
+    year: '2024 to Present',
     impact:
       'Instruments consent-clean event measurement, high-intent buyer milestone tracking, and multi-channel attribution across enterprise Next.js systems.',
     verifyUrl:
@@ -20,7 +20,7 @@ export const CREDENTIALS = [
     badge: 'Verified Credential',
     name: 'HubSpot Inbound Marketing Certification',
     issuer: 'HubSpot Academy',
-    year: '2024 – Present',
+    year: '2024 to Present',
     impact:
       'Full-funnel inbound marketing architecture, buyer persona mapping, friction-free qualification flows, and lead nurturing protocols for high-ticket B2B.',
     verifyUrl:

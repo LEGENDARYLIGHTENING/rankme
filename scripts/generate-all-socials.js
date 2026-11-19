@@ -62,7 +62,7 @@ function getRandom(arr) {
 
 function clean(text) {
   if (!text) return '';
-  return text.replace(/—/g, '-').replace(/–/g, '-');
+  return text.replace(/:/g, '-').replace(/:/g, '-');
 }
 
 let content = `# Complete Story-Teach-Sell Campaign (120 Posts)\n`;

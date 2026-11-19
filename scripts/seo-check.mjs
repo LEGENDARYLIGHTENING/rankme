@@ -25,8 +25,8 @@ function decodeHtmlEntities(s) {
     .replace(/&apos;/g, "'")
     .replace(/&#x27;/g, "'")
     .replace(/&#39;/g, "'")
-    .replace(/&ndash;/g, '–')
-    .replace(/&mdash;/g, '—');
+    .replace(/&ndash;/g, '-')
+    .replace(/&mdash;/g, '-');
 }
 
 function walkFiles(dir, exts, out = []) {
@@ -427,7 +427,7 @@ function checkBuiltHtmlFile(filePath, relLabel) {
     fail(`[T2/B5] Missing og:image:width/height/alt in ${relLabel}`);
   }
 
-  // Body checks: single H1 (skip internal Next.js hidden template h1 if any — check <main> or visible h1s)
+  // Body checks: single H1 (skip internal Next.js hidden template h1 if any : check <main> or visible h1s)
   const mainMatch = html.match(/<main[\s\S]*?<\/main>/i);
   const mainHtml = mainMatch ? mainMatch[0] : html;
   const h1Count = (mainHtml.match(/<h1[\s>]/gi) || []).length;

@@ -36,7 +36,7 @@ export async function generateMetadata({ params }) {
     title: props.seoTitle || `B2B Web Design & SEO in ${props.niche} | Rankur`,
     description: props.seoDesc,
     canonical: `/${slug}`,
-    imageAlt: `${props.niche} — Rankur`,
+    imageAlt: `${props.niche}: Rankur`,
     noIndex: !isIndexable,
     robotsFollow: true,
     alternatesLanguages: isIndexable ? INDEXABLE_HREFLANG : undefined,

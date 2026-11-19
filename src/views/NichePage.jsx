@@ -40,7 +40,7 @@ export default function NichePage({
   const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    name: `Rankur — B2B Web & Technical SEO (${niche})`,
+    name: `Rankur: B2B Web & Technical SEO (${niche})`,
     description: seoDesc,
     areaServed: {
       '@type': 'AdministrativeArea',

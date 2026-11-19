@@ -26,7 +26,7 @@ In this guide, we break down why this pipeline collapse happens and how to re-en
 
 The root cause of high-traffic, low-pipeline websites is poor keyword selection. 
 
-Many SEO agencies chase vanity volume. They target broad, educational search queries like *"what is B2B marketing"* or *"top web design trends"*. These keywords generate thousands of visits, but 99% of those visitors are "tourists"—people seeking free information with zero commercial intent.
+Many SEO agencies chase vanity volume. They target broad, educational search queries like *"what is B2B marketing"* or *"top web design trends"*. These keywords generate thousands of visits, but 99% of those visitors are "tourists":people seeking free information with zero commercial intent.
 
 ### The Shift to High-Intent Search Clusters
 To generate qualified pipeline, you must stop writing for tourists and start writing for decision-makers experiencing active business pain.
@@ -96,6 +96,6 @@ To align content with SQLs:
 
 ## Stop Chasing Vanity Traffic and Build a Pipeline Engine
 
-Your website shouldn't just be an online brochure—it should be your most effective sales representative.
+Your website shouldn't just be an online brochure: it should be your most effective sales representative.
 
 If you are ready to stop wasting budget on vanity traffic and build a high-speed digital asset that converts, explore our [B2B Growth Services](/services) or book a [Free B2B Audit](/free-audit) today.

@@ -261,7 +261,7 @@ const doc = new Document({
               'Service Areas\n(Domestic & Global)',
               '• Delhi NCR, Gurgaon, Noida, Bangalore, Mumbai, Hyderabad\n• International: United States, United Kingdom, Canada, Australia, UAE (Dubai/Abu Dhabi), Saudi Arabia (Riyadh)'
             ),
-            createRow('Operating Hours', 'Monday – Saturday: 9:00 AM – 7:00 PM IST (Online Client Portal 24/7)'),
+            createRow('Operating Hours', 'Monday : Saturday: 9:00 AM : 7:00 PM IST (Online Client Portal 24/7)'),
           ],
         }),
 
@@ -491,7 +491,7 @@ const doc = new Document({
           spacing: { before: 150, after: 50 },
           children: [
             new TextRun({
-              text: 'GMB Post 01: Client Deployment Showcase — WizIOT (1,040+ Static Pages)',
+              text: 'GMB Post 01: Client Deployment Showcase : WizIOT (1,040+ Static Pages)',
               bold: true,
               size: 22,
               color: darkColor,
@@ -513,7 +513,7 @@ const doc = new Document({
           spacing: { before: 200, after: 50 },
           children: [
             new TextRun({
-              text: 'GMB Post 02: Automotive Telematics Manufacturing — Atlanta Systems (460+ Pages)',
+              text: 'GMB Post 02: Automotive Telematics Manufacturing : Atlanta Systems (460+ Pages)',
               bold: true,
               size: 22,
               color: darkColor,
@@ -535,7 +535,7 @@ const doc = new Document({
           spacing: { before: 200, after: 50 },
           children: [
             new TextRun({
-              text: 'GMB Post 03: Headless Medical Procurement — Medventa (440+ SKUs)',
+              text: 'GMB Post 03: Headless Medical Procurement : Medventa (440+ SKUs)',
               bold: true,
               size: 22,
               color: darkColor,
@@ -670,7 +670,7 @@ const doc = new Document({
         new Paragraph({
           children: [
             new TextRun({
-              text: '"Hi [Client Name],\n\nHope all is well with you and the team! As we continue scaling Rankur and helping B2B founders build high-performance web infrastructure, Google Business reviews from verified partners like [Client Company] make a huge difference.\n\nCould you take 60 seconds to share your experience regarding our build speed, Next.js architecture, and lead generation setup?\n\nDirect review link: [Insert Your GMB Shortlink Here]\n\nThank you so much for your partnership!\n— Moksh Parjapati | Rankur"',
+              text: '"Hi [Client Name],\n\nHope all is well with you and the team! As we continue scaling Rankur and helping B2B founders build high-performance web infrastructure, Google Business reviews from verified partners like [Client Company] make a huge difference.\n\nCould you take 60 seconds to share your experience regarding our build speed, Next.js architecture, and lead generation setup?\n\nDirect review link: [Insert Your GMB Shortlink Here]\n\nThank you so much for your partnership!\n: Moksh Parjapati | Rankur"',
               italics: true,
             }),
           ],

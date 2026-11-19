@@ -253,13 +253,13 @@ const doc = new Document({
         // ==========================================
         // SLIDE 7
         // ==========================================
-        ...createSlideHeader('07', 'Slide 7: Why RankurSite.com — The Operating Manifesto', true),
+        ...createSlideHeader('07', 'Slide 7: Why RankurSite.com : The Operating Manifesto', true),
         new Paragraph({
           children: [
             new TextRun({ text: 'Headline: ', bold: true }),
             new TextRun({ text: 'The question worth asking before you hire an agency.\n\n', bold: true }),
             new TextRun({ text: 'Operating Manifesto:\n', bold: true }),
-            new TextRun({ text: 'Most agencies focus on producing pretty mockups and reporting vanity clicks.\nWe focus on advancing what digital infrastructure actually generates.\n\nFrom deploying 2,000+ pages that never crash to priming platforms for AI search engines, modern B2B growth demands more than generic templates — it requires engineered solutions.\n\nBecause in enterprise B2B, differentiation isn\'t about what you claim.\nIt\'s about what actually performs when real buyers search.\n\n' }),
+            new TextRun({ text: 'Most agencies focus on producing pretty mockups and reporting vanity clicks.\nWe focus on advancing what digital infrastructure actually generates.\n\nFrom deploying 2,000+ pages that never crash to priming platforms for AI search engines, modern B2B growth demands more than generic templates : it requires engineered solutions.\n\nBecause in enterprise B2B, differentiation isn\'t about what you claim.\nIt\'s about what actually performs when real buyers search.\n\n' }),
             new TextRun({ text: 'Verified Production Benchmarks:\n', bold: true, color: goldColor }),
             new TextRun({ text: '• 2,280+ Static Pages Live in Active Production\n• 5 Verified Production Client Deployments\n• < 0.9s Global Largest Contentful Paint (LCP) Benchmark' }),
           ],
@@ -277,7 +277,7 @@ const doc = new Document({
             new TextRun({ text: 'Structured entity models force generative AI engines (ChatGPT, Perplexity, Claude) to cite and recommend your brand for vendor queries.\n\n' }),
             new TextRun({ text: '03. Verified Live Provenance: ', bold: true, color: goldColor }),
             new TextRun({ text: 'Inspect live production platforms (WizIOT, Atlanta Systems, Medventa, Probiota Innovations) and click through the verified "Designed and built by Rankur" (RankurSite.com) footer links.\n\n' }),
-            new TextRun({ text: '04. Rapid 7–14 Day Delivery Sprint: ', bold: true, color: goldColor }),
+            new TextRun({ text: '04. Rapid 7:14 Day Delivery Sprint: ', bold: true, color: goldColor }),
             new TextRun({ text: 'Zero bureaucratic agency delays; launch your custom high-converting website in 7 to 14 days, not 6 months.\n\n' }),
             new TextRun({ text: '05. Founder-Led Execution: ', bold: true, color: goldColor }),
             new TextRun({ text: 'Moksh Parjapati personally designs, strategizes, and deploys every engagement; zero junior account manager handoffs.\n\n' }),
@@ -295,7 +295,7 @@ const doc = new Document({
             new TextRun({ text: 'Headline: ', bold: true }),
             new TextRun({ text: 'Built by a strategist. Not by account managers.\n\n', bold: true }),
             new TextRun({ text: 'Founder Profile:\n', bold: true }),
-            new TextRun({ text: 'Moksh Parjapati — Founder & B2B Growth Consultant | RankurSite.com & Moksh Productions\n\n' }),
+            new TextRun({ text: 'Moksh Parjapati : Founder & B2B Growth Consultant | RankurSite.com & Moksh Productions\n\n' }),
             new TextRun({ text: 'Founder Creed: ', bold: true, color: goldColor }),
             new TextRun({ text: '"We do not build generic digital brochures. We build high-speed revenue engines. And we do it with uncompromising technical integrity."\n\n', italics: true }),
             new TextRun({ text: 'Credentials Ledger:\n', bold: true }),
