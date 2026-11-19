@@ -76,7 +76,18 @@ const CURATED_PILLARS = new Set([
   'free-tools-calculators-b2b-lead-magnets',
   'organic-lead-generation-long-b2b-sales-cycles',
   'measuring-organic-lead-quality-vs-quantity-b2b',
-  'linkedin-thought-leadership-strategy-generates-b2b-meetings'
+  'linkedin-thought-leadership-strategy-generates-b2b-meetings',
+  // Batch 7 Masterclass Additions
+  'integrating-crm-and-website-b2b-lead-flow',
+  'b2b-website-security-compliance-regulated',
+  'fast-loading-b2b-websites-performance-benchmarks',
+  'b2b-website-personalization-enterprise-buyers',
+  'designing-b2b-websites-long-sales-cycles',
+  'technical-seo-foundations-every-b2b-website-needs',
+  'competitor-website-teardowns-top-b2b-sites',
+  'scaling-b2b-website-global-traffic-performance',
+  'measuring-b2b-seo-roi-beyond-vanity-metrics',
+  'zero-click-searches-b2b-seo-survival-guide'
 ]);
 
 // 1. Primary keyword uniqueness and clustering
