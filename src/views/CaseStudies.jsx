@@ -1,7 +1,7 @@
 "use client";
 
 import HeroSection from '../components/HeroSection';
-import TrustEcosystemRibbon from '../components/TrustEcosystemRibbon';
+import ClientTrustBar from '../components/ClientTrustBar';
 import BentoVisualShowcase from '../components/BentoVisualShowcase';
 import CTABlock from '../components/CTABlock';
 import Testimonials from '../components/Testimonials';
@@ -38,7 +38,10 @@ export default function CaseStudies() {
         secondaryCTA={{ to: '#wafa-case-study', label: 'Explore Build' }}
       />
 
-      <TrustEcosystemRibbon />
+      <ClientTrustBar
+        title="Featured Client Platform"
+        subtitle="Live production platform engineered with sub-second responsiveness, mobile accessibility, and clean search architecture."
+      />
 
       {/* Case Study: Wafa Educational & Charitable Trust */}
       <section

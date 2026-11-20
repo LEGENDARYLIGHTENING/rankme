@@ -8,7 +8,6 @@ export default function HeroSection({
   primaryCTA,
   secondaryCTA,
   center = false,
-  children,
 }) {
   return (
     <section className={`hero ${center ? 'hero--center' : ''}`} id="hero-section">
@@ -30,7 +29,6 @@ export default function HeroSection({
             </Link>
           )}
         </div>
-        {children}
       </div>
       <div className="hero__decoration" aria-hidden="true"></div>
       <div className="hero__decoration hero__decoration--2" aria-hidden="true"></div>
