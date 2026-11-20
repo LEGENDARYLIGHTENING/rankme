@@ -2,11 +2,14 @@ import { notFound } from 'next/navigation';
 import Blog from '../../../../src/views/Blog';
 import { POSTS_PER_PAGE } from '../../../../src/utils/blogConfig';
 import rawBlogPosts from '../../../../src/data/blogs-index.json';
+import blogTriage from '../../../../src/data/blog-triage.json';
 import { constructMetadata } from '../../../../src/utils/seo';
 
 export const dynamicParams = false;
 
-const totalPages = Math.max(1, Math.ceil(rawBlogPosts.length / POSTS_PER_PAGE));
+const keepSet = new Set(blogTriage.keepSlugs);
+const curatedPosts = rawBlogPosts.filter((p) => keepSet.has(p.slug));
+const totalPages = Math.max(1, Math.ceil(curatedPosts.length / POSTS_PER_PAGE));
 
 export function generateStaticParams() {
   const params = [];

@@ -23,8 +23,10 @@ import { POSTS_PER_PAGE } from '../utils/blogConfig';
 import './Blog.css';
 
 import rawBlogPosts from '../data/blogs-index.json';
+import blogTriage from '../data/blog-triage.json';
 
-const blogPosts = rawBlogPosts;
+const keepSet = new Set(blogTriage.keepSlugs);
+const blogPosts = rawBlogPosts.filter((p) => keepSet.has(p.slug));
 
 const categoryListMap = new Map();
 for (const p of blogPosts) {
