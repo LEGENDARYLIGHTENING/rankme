@@ -153,7 +153,18 @@ const CURATED_PILLARS = new Set([
   'three-year-total-cost-of-ownership-custom-nextjs-vs-webflow-6',
   'how-to-audit-your-website-for-core-web-vitals-conversion-leaks-6',
   'why-enterprise-procurement-teams-reject-low-cost-web-design-quotes-7',
-  'true-monthly-cost-of-constant-developer-fixes-on-old-site'
+  'true-monthly-cost-of-constant-developer-fixes-on-old-site',
+  // Batch 14 Masterclass Additions
+  'form-submissions-dropped-after-redesign',
+  'book-a-demo-clicks-but-no-actual-meetings-get-scheduled',
+  'mobile-users-abandon-rfq-form-halfway-through-completion',
+  'procurement-managers-research-heavily-but-never-submit-inquiry',
+  'sales-team-reports-website-leads-are-completely-unqualified',
+  'engaged-session-time-high-yet-zero-form-completions',
+  'heatmap-shows-hover-on-cta-but-users-never-click',
+  'returning-visitors-still-refuse-to-complete-contact-form',
+  'paid-traffic-converts-significantly-worse-than-organic-traffic',
+  'linkedin-visitors-leave-site-without-taking-any-action'
 ]);
 
 // 1. Primary keyword uniqueness and clustering
