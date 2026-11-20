@@ -131,7 +131,18 @@ const CURATED_PILLARS = new Set([
   'structured-data-strategies-ai-search-visibility',
   'scaling-b2b-seo-with-ai-tools-without-losing-quality',
   'difference-between-traditional-seo-geo-b2b',
-  'how-to-measure-true-roi-of-custom-b2b-web-design-build-7'
+  'how-to-measure-true-roi-of-custom-b2b-web-design-build-7',
+  // Batch 12 Masterclass Additions
+  'website-that-wins-both-google-rankings-and-ai-citations',
+  'b2b-content-cluster-strategy-that-dominates-google-and-ai-search-6',
+  'extra-leads-needed-to-break-even-on-fifty-thousand-site',
+  'clear-signs-it-is-time-to-walk-away-from-agency-mid-project',
+  'measuring-share-of-voice-across-google-and-ai-answer-engines',
+  'tracking-which-seo-and-ai-efforts-produce-actual-sales-calls',
+  'how-to-qualify-leads-on-website-forms-without-losing-conversion-volume-6',
+  'how-to-get-cited-by-perplexity-and-chatgpt-for-saas-tools-7',
+  'custom-nextjs-build-vs-monthly-agency-retainer-3-year-cost',
+  'how-long-before-seo-and-ai-search-produce-real-pipeline'
 ]);
 
 // 1. Primary keyword uniqueness and clustering
