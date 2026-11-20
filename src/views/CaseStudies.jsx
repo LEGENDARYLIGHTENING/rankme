@@ -2,7 +2,6 @@
 
 import HeroSection from '../components/HeroSection';
 import ClientTrustBar from '../components/ClientTrustBar';
-import BentoVisualShowcase from '../components/BentoVisualShowcase';
 import CTABlock from '../components/CTABlock';
 import Testimonials from '../components/Testimonials';
 import Guarantee from '../components/Guarantee';
@@ -152,9 +151,6 @@ export default function CaseStudies() {
           </div>
         </div>
       </section>
-
-      {/* Production Visual Architecture Showcase */}
-      <BentoVisualShowcase />
 
       {/* B2B Engineering Standards */}
       <section className="impact-section" id="delivery-standards">

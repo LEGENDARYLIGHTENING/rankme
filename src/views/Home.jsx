@@ -6,7 +6,6 @@ import { Compass, Code2, Search, FileText, BarChart3 } from 'lucide-react';
 import HeroSection from '../components/HeroSection';
 import ClientTrustBar from '../components/ClientTrustBar';
 import TechStackBar from '../components/TechStackBar';
-import BentoVisualShowcase from '../components/BentoVisualShowcase';
 import SpotlightCard from '../components/SpotlightCard';
 import ProcessSteps from '../components/ProcessSteps';
 import Testimonials from '../components/Testimonials';
@@ -346,9 +345,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Aceternity Visual Architecture Bento Showcase with Real UI Assets */}
-      <BentoVisualShowcase />
 
       {/* The Architectural Breakdown / Comparison Table */}
       <section style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-black)' }}>

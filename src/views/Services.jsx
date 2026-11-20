@@ -5,7 +5,6 @@ import { Compass, Code2, Search, FileText, BarChart3 } from 'lucide-react';
 import HeroSection from '../components/HeroSection';
 import ClientTrustBar from '../components/ClientTrustBar';
 import TechStackBar from '../components/TechStackBar';
-import BentoVisualShowcase from '../components/BentoVisualShowcase';
 import SpotlightCard from '../components/SpotlightCard';
 import Testimonials from '../components/Testimonials';
 import CTABlock from '../components/CTABlock';
@@ -259,9 +258,6 @@ export default function Services() {
 
       {/* Production Tech Stack & Standards */}
       <TechStackBar />
-
-      {/* Aceternity Visual Architecture Bento Showcase */}
-      <BentoVisualShowcase />
 
       {/* Methodology Section */}
       <section style={{ padding: 'var(--space-5xl) 0', backgroundColor: 'var(--color-dark-surface)', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
