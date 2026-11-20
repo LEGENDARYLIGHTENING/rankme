@@ -214,7 +214,18 @@ const CURATED_PILLARS = new Set([
   'performance-based-website-pricing-models-that-share-risk',
   'expected-roi-and-payback-period-from-website-rebuild',
   'cost-per-qualified-lead-after-major-website-investment',
-  'website-spend-relative-to-current-customer-acquisition-cost'
+  'website-spend-relative-to-current-customer-acquisition-cost',
+  // Batch 20 Masterclass Additions (Pillars 201 to 210)
+  'pipeline-volume-required-to-justify-seventy-five-thousand-rebuild',
+  'long-term-hidden-costs-of-choosing-cheapest-website-option',
+  'opportunity-cost-of-delaying-necessary-website-rebuild-another-year',
+  'should-growing-company-finance-website-rebuild-or-pay-cash',
+  'why-similar-website-project-quotes-range-from-forty-to-one-forty',
+  'fixed-price-project-versus-ongoing-retainer-which-protects-budget',
+  'recommended-payment-milestone-structure-for-website-rebuild-contract',
+  'extra-cost-to-include-comprehensive-design-system-in-project',
+  'content-and-media-migration-cost-during-website-rebuild',
+  'technical-seo-migration-and-redirect-mapping-additional-cost'
 ]);
 
 // 1. Primary keyword uniqueness and clustering

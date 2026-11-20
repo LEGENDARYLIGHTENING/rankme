@@ -261,11 +261,12 @@ const blogIndex = files.map((filename) => {
     }
   }
 
-  if (num && num >= 1 && num <= 120) {
-    const candidate = `/blog-images/prompt-${num}.webp`;
+  const promptIdx = num ? (((num - 1) % 120) + 1) : null;
+  if (promptIdx) {
+    const candidate = `/blog-images/prompt-${promptIdx}.webp`;
     if (fs.existsSync(path.join(rootDir, 'public', candidate))) {
       blogImage = candidate;
-      const pInfo = promptsMap[num];
+      const pInfo = promptsMap[promptIdx];
       if (pInfo && pInfo.scene) {
         blogAlt = `${primaryKeyword}: ${pInfo.scene} (${title}) | Rankur`;
       }
