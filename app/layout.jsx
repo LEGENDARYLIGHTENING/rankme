@@ -66,6 +66,7 @@ const masterSchema = {
       '@id': 'https://rankursite.com/#organization',
       name: 'Rankur',
       legalName: 'Moksh Productions',
+      alternateName: ['Rankur Web Systems', 'Rankur Studio', 'Moksh Productions'],
       url: 'https://rankursite.com',
       logo: {
         '@type': 'ImageObject',
@@ -82,6 +83,8 @@ const masterSchema = {
       sameAs: [
         'https://www.crunchbase.com/organization/rankur-a39c',
         'https://twitter.com/moksh_rankur',
+        'https://github.com/LEGENDARYLIGHTENING',
+        'https://linkedin.com/in/moksh-parjapati',
       ],
       founder: {
         '@id': 'https://rankursite.com/#founder',
@@ -108,6 +111,7 @@ const masterSchema = {
       '@type': 'Person',
       '@id': 'https://rankursite.com/#founder',
       name: 'Moksh Parjapati',
+      alternateName: ['Moksh Prajapati'],
       jobTitle: 'Founder & B2B Web/SEO Engineer',
       url: 'https://rankursite.com/about',
       worksFor: {
@@ -123,6 +127,7 @@ const masterSchema = {
       sameAs: [
         'https://linkedin.com/in/moksh-parjapati',
         'https://twitter.com/moksh_rankur',
+        'https://github.com/LEGENDARYLIGHTENING',
       ],
       hasCredential: [
         {
