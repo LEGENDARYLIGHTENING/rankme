@@ -142,7 +142,18 @@ const CURATED_PILLARS = new Set([
   'how-to-qualify-leads-on-website-forms-without-losing-conversion-volume-6',
   'how-to-get-cited-by-perplexity-and-chatgpt-for-saas-tools-7',
   'custom-nextjs-build-vs-monthly-agency-retainer-3-year-cost',
-  'how-long-before-seo-and-ai-search-produce-real-pipeline'
+  'how-long-before-seo-and-ai-search-produce-real-pipeline',
+  // Batch 13 Masterclass Additions
+  'should-companies-still-blog-or-is-there-better-way-to-get-found',
+  'intent-based-routing-that-sends-high-value-traffic-to-right-pages',
+  'all-in-cost-for-strategy-design-development-and-launch-support',
+  'create-react-app-technical-debt-versus-modern-nextjs-migration',
+  'technical-seo-audits-required-before-and-after-website-rebuild',
+  'can-small-team-rank-for-competitive-high-intent-buyer-keywords',
+  'three-year-total-cost-of-ownership-custom-nextjs-vs-webflow-6',
+  'how-to-audit-your-website-for-core-web-vitals-conversion-leaks-6',
+  'why-enterprise-procurement-teams-reject-low-cost-web-design-quotes-7',
+  'true-monthly-cost-of-constant-developer-fixes-on-old-site'
 ]);
 
 // 1. Primary keyword uniqueness and clustering
