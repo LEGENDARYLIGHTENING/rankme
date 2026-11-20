@@ -155,6 +155,16 @@ https://rankursite.com/blog/heatmap-shows-hover-on-cta-but-users-never-click
 https://rankursite.com/blog/returning-visitors-still-refuse-to-complete-contact-form
 https://rankursite.com/blog/paid-traffic-converts-significantly-worse-than-organic-traffic
 https://rankursite.com/blog/linkedin-visitors-leave-site-without-taking-any-action
+https://rankursite.com/blog/service-pages-rank-well-but-generate-almost-no-leads
+https://rankursite.com/blog/blog-traffic-never-turns-into-actual-sales-conversations
+https://rankursite.com/blog/thank-you-page-does-nothing-to-keep-new-leads-warm
+https://rankursite.com/blog/too-many-competing-calls-to-action-confuse-potential-buyers
+https://rankursite.com/blog/progressive-profiling-form-causes-high-abandonment-rates
+https://rankursite.com/blog/required-budget-field-scares-away-serious-potential-customers
+https://rankursite.com/blog/phone-number-field-reduces-overall-form-completion-rate
+https://rankursite.com/blog/multi-step-form-loses-half-the-prospects-mid-way
+https://rankursite.com/blog/single-long-form-overwhelms-busy-decision-makers-completely
+https://rankursite.com/blog/no-clear-next-step-after-viewing-detailed-case-studies
 https://rankursite.com/blog/custom-nextjs-build-vs-monthly-agency-retainer-3-year-cost
 https://rankursite.com/blog/extra-leads-needed-to-break-even-on-fifty-thousand-site
 https://rankursite.com/blog/true-monthly-cost-of-constant-developer-fixes-on-old-site

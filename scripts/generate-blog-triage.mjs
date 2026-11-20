@@ -164,7 +164,18 @@ const CURATED_PILLARS = new Set([
   'heatmap-shows-hover-on-cta-but-users-never-click',
   'returning-visitors-still-refuse-to-complete-contact-form',
   'paid-traffic-converts-significantly-worse-than-organic-traffic',
-  'linkedin-visitors-leave-site-without-taking-any-action'
+  'linkedin-visitors-leave-site-without-taking-any-action',
+  // Batch 15 Masterclass Additions
+  'service-pages-rank-well-but-generate-almost-no-leads',
+  'blog-traffic-never-turns-into-actual-sales-conversations',
+  'thank-you-page-does-nothing-to-keep-new-leads-warm',
+  'too-many-competing-calls-to-action-confuse-potential-buyers',
+  'progressive-profiling-form-causes-high-abandonment-rates',
+  'required-budget-field-scares-away-serious-potential-customers',
+  'phone-number-field-reduces-overall-form-completion-rate',
+  'multi-step-form-loses-half-the-prospects-mid-way',
+  'single-long-form-overwhelms-busy-decision-makers-completely',
+  'no-clear-next-step-after-viewing-detailed-case-studies'
 ]);
 
 // 1. Primary keyword uniqueness and clustering
