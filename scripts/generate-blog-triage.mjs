@@ -120,7 +120,18 @@ const CURATED_PILLARS = new Set([
   'eeat-for-b2b-seo-build-authority-fast',
   'backlink-strategy-b2b-companies-competitive-niches',
   'content-clusters-rank-b2b-buyer-journeys',
-  'competitor-gap-analysis-b2b-seo-domination'
+  'competitor-gap-analysis-b2b-seo-domination',
+  // Batch 11 Masterclass Additions
+  'seo-for-b2b-service-businesses-targeting-us-uk-markets',
+  'seo-audits-uncover-hidden-lead-opportunities',
+  'pillar-page-strategy-b2b-topical-authority',
+  'geo-optimization-rank-chatgpt-perplexity-gemini-b2b',
+  'creating-content-ai-answers-cite-b2b-topics',
+  'voice-search-optimization-b2b-decision-makers',
+  'structured-data-strategies-ai-search-visibility',
+  'scaling-b2b-seo-with-ai-tools-without-losing-quality',
+  'difference-between-traditional-seo-geo-b2b',
+  'how-to-measure-true-roi-of-custom-b2b-web-design-build-7'
 ]);
 
 // 1. Primary keyword uniqueness and clustering
