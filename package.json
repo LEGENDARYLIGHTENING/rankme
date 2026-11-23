@@ -13,6 +13,8 @@
     "syndicate:status": "node scripts/hybrid-syndicate-publisher.mjs --status",
     "syndicate:month-1": "node scripts/hybrid-syndicate-publisher.mjs --month=1 --status=draft",
     "syndicate:month-2": "node scripts/hybrid-syndicate-publisher.mjs --month=2 --status=draft",
+    "syndicate:month-3": "node scripts/hybrid-syndicate-publisher.mjs --month=3 --status=draft",
+    "syndicate:all-30": "node scripts/hybrid-syndicate-publisher.mjs --all --status=draft",
     "start": "next start",
     "lint": "next lint"
   },
