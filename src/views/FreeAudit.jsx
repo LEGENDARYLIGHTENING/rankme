@@ -255,11 +255,11 @@ export default function FreeAudit() {
                       onChange={handleChange}
                     >
                       <option value="">Select industry...</option>
-                      <option value="Nutraceutical">Nutraceutical &amp; Wellness</option>
-                      <option value="Manufacturing">B2B Manufacturing &amp; Export</option>
-                      <option value="TechSaaS">SaaS &amp; Technology</option>
-                      <option value="Industrial">Industrial Services</option>
-                      <option value="Other">Other B2B</option>
+                      <option value="TechSaaS">B2B SaaS &amp; Enterprise Software</option>
+                      <option value="Industrial">Industrial &amp; Manufacturing (RFQ / Export)</option>
+                      <option value="ProfessionalServices">High-Ticket Professional Services &amp; Consulting</option>
+                      <option value="HealthcarePhilanthropy">Healthcare &amp; Philanthropic Platforms</option>
+                      <option value="Other">Other B2B Commercial Enterprise</option>
                     </select>
                     {errors.industry && <span className="form-error">{errors.industry}</span>}
                   </div>
