@@ -1,5 +1,15 @@
 [
   {
+    "source": "/blog/category/nutraceuticals-wellness-brands",
+    "destination": "/blog",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog/category/hiring-agency",
+    "destination": "/blog",
+    "statusCode": 301
+  },
+  {
     "source": "/home",
     "destination": "/",
     "statusCode": 301

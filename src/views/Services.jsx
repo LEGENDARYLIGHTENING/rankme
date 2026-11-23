@@ -47,10 +47,10 @@ const servicesData = [
     description:
       'Deterministic search infrastructure engineered for sustainable dominance across Google, ChatGPT, and Perplexity: safeguarding authority and ensuring verified answer recommendations.',
     deliverables: [
-      'Proprietary Search Equity & Domain Protection',
-      'Zero-Defect Deterministic Indexation Architecture',
-      'Enterprise Knowledge Graph & Semantic Entity Integration',
-      'AI Engine Citation Optimization & Brand Authority Guardrails',
+      'Every Page Reliably Found by Google & AI Engines',
+      'Structured Signals That Make AI Recommend You to Decision-Makers',
+      'Intercept High-Intent Buyers Evaluating Your Competitors',
+      'Remove Hidden Friction Killing Qualified Inbound Pipeline',
     ],
     timeline: 'Integrated into every website build or audit',
   },
@@ -172,14 +172,14 @@ export default function Services() {
       <SeoJsonLd data={faqSchema} />
 
       <HeroSection
-        label="Services"
+        label="B2B Inbound Pipeline & Growth Infrastructure"
         title={
           <>
-            Engineering-Led <span className="text-gold">Web &amp; SEO Systems</span>
+            Inbound Growth Infrastructure Built to <span className="text-gold">Turn Visitors Into Pipeline</span>
           </>
         }
-        subtitle="I engineer fast B2B web systems, fix technical SEO debt, and structure clear buyer qualification flows."
-        primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
+        subtitle="We replace bloated agency retainers with custom high-speed web platforms, AI search citations, and frictionless inquiry funnels that convert enterprise decision-makers."
+        primaryCTA={{ to: '/free-audit', label: 'Claim Free Pipeline Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'View Case Studies' }}
       />
 

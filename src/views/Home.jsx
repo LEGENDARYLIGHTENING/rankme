@@ -15,10 +15,10 @@ import './Home.css';
 import './Blog.css';
 
 const proofItems = [
-  { value: '<0.8s Speed', label: 'Sub-Second Speed That Stops Buyer Bounces' },
+  { value: '<0.8s Speed', label: 'Stops Buyer Bounces & Multiplies Inbound Forms' },
   { value: 'Verified Proof', label: 'Wafa Educational & Charitable Trust' },
-  { value: 'GA4 & HubSpot', label: 'Certified Pipeline & Conversion Attribution' },
-  { value: '100% IP', label: 'Complete Intellectual Property Ownership' },
+  { value: 'GA4 & HubSpot', label: 'Certified Pipeline & Lead Attribution' },
+  { value: '100% IP', label: 'Full GitHub Transfer With Zero Agency Retainers' },
   { value: 'Direct Access', label: 'Founder-Led Strategic Execution' },
 ];
 
@@ -67,7 +67,11 @@ const capabilities = [
     badge: 'SEO & GEO',
     description:
       'Deterministic search positioning engineered for Google, ChatGPT, and Perplexity. We structure your digital footprint so your brand is surfaced as the definitive, verified answer across traditional and generative search.',
-    deliverables: ['Proprietary Search Equity Guardrails', 'Enterprise Knowledge Graph Integration', 'Zero-Defect Technical Indexation'],
+    deliverables: [
+      'Every Page Reliably Found by Google & AI Engines',
+      'Structured Data That Makes AI Engines Recommend You',
+      'Route High-Intent Searchers Directly Into Your Pipeline',
+    ],
     stat: 'Top Citation Readiness',
   },
   {
@@ -93,23 +97,23 @@ const capabilities = [
 const comparisonData = [
   {
     metric: 'Core Web Vitals & Load Speed',
-    legacy: '3.5s to 6.0s (Bloated WordPress themes, 35+ plugins)',
-    rankur: '<0.8s Global LCP (Custom static edge architecture, 0 bloat)',
+    legacy: '3.5s to 6.0s (Bloated WordPress themes, 35+ plugins, mobile bounce)',
+    rankur: '<0.8s Global Speed (Sub-second pages that stop buyer drop-offs)',
   },
   {
     metric: 'AI Search Readiness (ChatGPT, Perplexity)',
-    legacy: 'Unstructured text, zero entity schema, ignored by AI engines',
-    rankur: 'Structured JSON-LD entity graph, verified for AI answer citations',
+    legacy: 'Unstructured text, zero schema, ignored while competitors get cited',
+    rankur: 'Structured entity signals that make AI engines recommend your platform',
   },
   {
     metric: 'Codebase & Intellectual Property',
-    legacy: 'Trapped in proprietary agency page builder or hostage hosting',
-    rankur: '100% complete GitHub repository transfer with zero vendor lock-in',
+    legacy: 'Trapped in proprietary agency locks or $5,000/mo retainers',
+    rankur: '100% complete GitHub repository transfer with zero agency retainers',
   },
   {
     metric: 'Lead Capture & Friction',
-    legacy: 'Clunky 10-field forms, zero attribution, high bounce rate',
-    rankur: 'Frictionless qualification pathways + GA4 event attribution',
+    legacy: 'Clunky 10-field forms, zero attribution, high drop-off',
+    rankur: 'Frictionless qualification pathways + GA4 pipeline attribution',
   },
   {
     metric: 'Delivery & Communication',
@@ -119,10 +123,10 @@ const comparisonData = [
 ];
 
 const niches = [
-  { label: 'Healthcare & Philanthropic Web Platforms', to: '/case-studies#wafa-case-study' },
-  { label: 'B2B SaaS & Tech Platforms', to: '/saas-websites' },
-  { label: 'Enterprise Web & Technical SEO', to: '/services' },
-  { label: 'High-Intent B2B Lead Funnels', to: '/free-audit' },
+  { label: 'B2B SaaS & Tech (Inbound Demo Funnels)', to: '/saas-websites' },
+  { label: 'Industrial & Manufacturing (Tier-1 RFQ Catalogs)', to: '/services' },
+  { label: 'High-Ticket Professional Services (Qualified Calls)', to: '/free-audit' },
+  { label: 'Philanthropic & Healthcare (Accessible Web Platforms)', to: '/case-studies#wafa-case-study' },
 ];
 
 const processSteps = [
@@ -180,15 +184,15 @@ export default function Home() {
   return (
     <>
       <HeroSection
-        label="Enterprise B2B Web Engineering & Deterministic Search"
+        label="B2B Inbound Pipeline & Growth Infrastructure"
         title={
           <>
-            Custom B2B Platforms Engineered to{' '}
-            <span className="text-gold">Dominate Search &amp; Accelerate Pipeline</span>
+            Stop Losing Qualified Leads to a Website That{' '}
+            <span className="text-gold">Looks Busy But Converts Nothing</span>
           </>
         }
-        subtitle="We engineer sub-second Next.js digital infrastructure, deterministic Google & AI search authority, and high-ticket buyer qualification flows: with 100% intellectual property ownership."
-        primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
+        subtitle="We build high-performance B2B platforms that turn existing organic and paid traffic into booked discovery calls, RFQs, and sales pipeline: with 100% source code ownership and zero retainer lock-in."
+        primaryCTA={{ to: '/free-audit', label: 'Claim Free Pipeline Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'View Platforms Built' }}
       />
 
@@ -239,7 +243,10 @@ export default function Home() {
       </section>
 
       {/* Production Tech Stack & Enterprise Compliance Standards */}
-      <TechStackBar />
+      <TechStackBar
+        title="Conversion-Engineered Architecture: How We Stop Lead Leakage"
+        subtitle="We deploy sub-second Next.js edge infrastructure, verified GA4 conversion telemetry, and deterministic Google indexing so every organic visitor has a frictionless path to a booked discovery call."
+      />
 
       {/* Founder Section */}
       <section className="home-founder" style={{ padding: 'var(--space-5xl) 0' }}>
@@ -491,8 +498,11 @@ export default function Home() {
 
       <section className="niche-strip" id="niche-strip">
         <div className="container">
-          <p className="section-label">Who I Work With</p>
-          <h2 className="section-title">B2B Founders in Technical &amp; Commercial Sectors</h2>
+          <p className="section-label">Target B2B Sectors</p>
+          <h2 className="section-title">Built Exclusively for B2B Leaders Scaling Inbound Pipeline</h2>
+          <p style={{ maxWidth: '680px', margin: '0 auto var(--space-2xl)', textAlign: 'center', color: 'var(--color-text-muted)', fontSize: '1rem', lineHeight: '1.7' }}>
+            We partner with funded founders, revenue executives, and technical enterprise teams selling high-ticket solutions. Engineered for serious commercial pipeline, not generic templates or DIY experiments.
+          </p>
           <div className="niche-strip__grid">
             {niches.map((niche, i) => (
               <Link key={i} href={niche.to} className="niche-strip__item">

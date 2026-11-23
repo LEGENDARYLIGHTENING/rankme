@@ -37,4 +37,8 @@ rankursite.com-Performance-on-Search-*
 images for blogs/
 *.zip
 aceternity-temp/
+ig-autoposter-*.json
+*-credentials.json
+prototype/archive/
+archive/
 

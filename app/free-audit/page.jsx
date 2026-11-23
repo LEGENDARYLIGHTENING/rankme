@@ -3,9 +3,9 @@ import { constructMetadata, SeoJsonLd } from '../../src/components/Seo';
 import { AUDIT_FAQS } from '../../src/data/auditFaqs';
 
 export const metadata = constructMetadata({
-  title: 'Free B2B Technical Website & SEO Audit | Rankur',
+  title: 'Free B2B Website & Inbound Pipeline Audit | Rankur',
   description:
-    'Request a manual review of your website page speed, technical SEO metadata, mobile UX friction, and AI search citation readiness.',
+    'Find out why your website gets traffic but zero discovery calls. Uncover lead drop-offs, speed bottlenecks, and AI search visibility gaps.',
   canonical: '/free-audit',
 });
 

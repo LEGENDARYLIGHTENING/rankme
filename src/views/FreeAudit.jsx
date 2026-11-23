@@ -123,14 +123,14 @@ export default function FreeAudit() {
   return (
     <>
       <HeroSection
-        label="Free Audit"
+        label="B2B Pipeline & Conversion Diagnostic"
         title={
           <>
-            Request a Free <br />
-            <span className="text-gold">B2B Site &amp; SEO Audit</span>
+            Find Out Why Your Website Gets Traffic <br />
+            <span className="text-gold">But Zero Discovery Calls</span>
           </>
         }
-        subtitle="A comprehensive diagnostic uncovering search authority gaps, enterprise buyer drop-offs, platform speed bottlenecks, and conversion friction: delivered within 2 business days."
+        subtitle="A comprehensive commercial diagnostic uncovering why enterprise buyers bounce, where lead drop-off happens, and how to capture high-intent search demand: delivered within 2 business days."
         center
       />
 

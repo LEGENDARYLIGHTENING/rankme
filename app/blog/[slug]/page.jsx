@@ -8,6 +8,7 @@ import { constructMetadata } from '../../../src/utils/seo';
 
 const blogIndex = rawBlogIndex.filter((b) => b.slug);
 const keepSlugsSet = new Set(blogTriage?.keepSlugs || []);
+const curatedBlogIndex = blogIndex.filter((b) => keepSlugsSet.has(b.slug));
 
 export const dynamicParams = false;
 
@@ -56,7 +57,8 @@ export async function generateMetadata({ params }) {
 }
 
 function getDeterministicRelatedPosts(slug, postMeta) {
-  const sameCategory = blogIndex.filter((b) => b.categorySlug === postMeta.categorySlug);
+  const pool = keepSlugsSet.has(slug) ? curatedBlogIndex : blogIndex;
+  const sameCategory = pool.filter((b) => b.categorySlug === postMeta.categorySlug);
   const picked = [];
   const seen = new Set([slug]);
 
@@ -71,11 +73,11 @@ function getDeterministicRelatedPosts(slug, postMeta) {
     }
   }
 
-  // Fallback / top-up from global circular index if category has fewer than 5 posts
+  // Fallback / top-up from pool if category has fewer than 5 posts
   if (picked.length < 4) {
-    const gIdx = blogIndex.findIndex((b) => b.slug === slug);
-    for (let offset = 1; offset <= blogIndex.length && picked.length < 4; offset++) {
-      const candidate = blogIndex[(gIdx + offset) % blogIndex.length];
+    const gIdx = pool.findIndex((b) => b.slug === slug);
+    for (let offset = 1; offset <= pool.length && picked.length < 4; offset++) {
+      const candidate = pool[(gIdx + offset) % pool.length];
       if (candidate && !seen.has(candidate.slug)) {
         seen.add(candidate.slug);
         picked.push(candidate);

@@ -1,12 +1,16 @@
 import { notFound } from 'next/navigation';
 import Blog from '../../../../src/views/Blog';
 import rawBlogPosts from '../../../../src/data/blogs-index.json';
+import blogTriage from '../../../../src/data/blog-triage.json';
 import { constructMetadata } from '../../../../src/utils/seo';
 
 export const dynamicParams = false;
 
+const keepSet = new Set(blogTriage?.keepSlugs || []);
+const curatedPosts = rawBlogPosts.filter((p) => keepSet.has(p.slug));
+
 const categoryMap = new Map();
-for (const p of rawBlogPosts) {
+for (const p of curatedPosts) {
   if (p.categorySlug && p.tag && !categoryMap.has(p.categorySlug)) {
     categoryMap.set(p.categorySlug, { tag: p.tag, slug: p.categorySlug, image: p.image });
   }

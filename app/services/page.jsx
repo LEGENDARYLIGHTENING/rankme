@@ -2,9 +2,9 @@ import Services from '../../src/views/Services';
 import { constructMetadata } from '../../src/components/Seo';
 
 export const metadata = constructMetadata({
-  title: 'B2B Web Engineering & Technical SEO Services | Rankur',
+  title: 'B2B Lead Generation & Inbound Pipeline Services | Rankur',
   description:
-    'Custom Next.js websites, technical SEO audits, Generative Engine Optimization (GEO), and conversion optimization built for B2B founders.',
+    'Custom B2B web systems engineered to turn organic traffic into discovery calls and RFQs. Zero monthly retainers with 100% code ownership.',
   canonical: '/services',
 });
 

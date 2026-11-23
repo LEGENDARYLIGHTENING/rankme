@@ -144,19 +144,6 @@ async function generateSitemap() {
     if (fs.existsSync(dataPath)) {
       const blogIndex = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
 
-      // Category hub URLs
-      const catSlugs = [...new Set(blogIndex.map(p => p.categorySlug).filter(Boolean))];
-      for (const cSlug of catSlugs) {
-        const catUrl = `${BASE_URL}/blog/category/${cSlug}`;
-        allValidUrls.push(catUrl);
-        blogUrls.push({
-          url: catUrl,
-          lastModified: getTodayDate(),
-          changeFrequency: 'weekly',
-          priority: '0.75'
-        });
-      }
-
       // Read triage data to only include authoritative keep posts in sitemap
       let keepSlugsSet = null;
       try {
@@ -171,18 +158,31 @@ async function generateSitemap() {
         console.warn('Could not read blog-triage.json:', err.message);
       }
 
-      blogIndex
-        .filter(post => post.slug && (!keepSlugsSet || keepSlugsSet.has(post.slug)))
-        .forEach(post => {
-          const fullUrl = `${BASE_URL}/blog/${post.slug}`;
-          allValidUrls.push(fullUrl);
-          blogUrls.push({
-            url: fullUrl,
-            lastModified: getValidDate(post.dateModified || post.datePublished || post.date),
-            changeFrequency: 'monthly',
-            priority: '0.7'
-          });
+      const curatedPosts = blogIndex.filter(post => post.slug && (!keepSlugsSet || keepSlugsSet.has(post.slug)));
+
+      // Category hub URLs (ONLY for categories that have at least one keep post)
+      const catSlugs = [...new Set(curatedPosts.map(p => p.categorySlug).filter(Boolean))];
+      for (const cSlug of catSlugs) {
+        const catUrl = `${BASE_URL}/blog/category/${cSlug}`;
+        allValidUrls.push(catUrl);
+        blogUrls.push({
+          url: catUrl,
+          lastModified: getTodayDate(),
+          changeFrequency: 'weekly',
+          priority: '0.75'
         });
+      }
+
+      curatedPosts.forEach(post => {
+        const fullUrl = `${BASE_URL}/blog/${post.slug}`;
+        allValidUrls.push(fullUrl);
+        blogUrls.push({
+          url: fullUrl,
+          lastModified: getValidDate(post.dateModified || post.datePublished || post.date),
+          changeFrequency: 'monthly',
+          priority: '0.80'
+        });
+      });
     }
   } catch (error) {
     console.warn('Could not read blog index for sitemap generation:', error.message);
