@@ -112,7 +112,7 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
           {postMeta.image && (
             <figure className="blog-post__featured-image">
               <img
-                src={postMeta.image}
+                src={postMeta.image.startsWith('http') ? postMeta.image : `https://rankursite.com${postMeta.image}`}
                 alt={postMeta.imageAlt || cleanTitle}
                 width={1200}
                 height={630}

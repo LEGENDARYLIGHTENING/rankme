@@ -14,10 +14,32 @@ const articles = blocks.map((block, index) => {
   const titleLine = lines.find(l => l.startsWith('**Medium Title:**'));
   const tagsLine = lines.find(l => l.startsWith('**Tags:**'));
   const canonicalLine = lines.find(l => l.startsWith('**Canonical URL:**'));
+  const coverLine = lines.find(l => l.startsWith('**Cover Image File:**'));
 
   const title = titleLine ? titleLine.replace('**Medium Title:**', '').trim() : `Article ${index + 1}`;
   const tags = tagsLine ? tagsLine.replace('**Tags:**', '').split(',').map(t => t.trim()).filter(Boolean) : ['B2B', 'SEO'];
   const canonicalUrl = canonicalLine ? canonicalLine.replace('**Canonical URL:**', '').trim() : 'https://rankursite.com';
+
+  let imageJpegPath = '';
+  let imageWebpPath = '';
+  if (coverLine) {
+    const match = coverLine.match(/`([^`]+)`/);
+    if (match) {
+      const p = match[1];
+      imageWebpPath = path.join(rootDir, p);
+      imageJpegPath = imageWebpPath.replace(/\.webp$/, '.jpeg').replace(/\.webp\b/, '.jpeg');
+      if (!fs.existsSync(imageJpegPath)) {
+        imageJpegPath = imageWebpPath.replace(/\.webp$/, '.jpg');
+      }
+    }
+  }
+
+  // Fallback to blog-images if medium posts image not found
+  const slug = canonicalUrl.replace('https://rankursite.com/blog/', '').trim();
+  const relJpeg = `medium posts/article-${index + 1 < 10 ? '0' + (index + 1) : index + 1}-${slug}.jpeg`;
+  if (fs.existsSync(path.join(rootDir, relJpeg))) {
+    imageJpegPath = path.join(rootDir, relJpeg);
+  }
 
   const contentStartIndex = lines.findIndex(l => l.startsWith('### Article Content'));
   const content = contentStartIndex !== -1 ? lines.slice(contentStartIndex + 1).join('\n').trim() : block;
@@ -27,6 +49,7 @@ const articles = blocks.map((block, index) => {
     title,
     tags,
     canonicalUrl,
+    imageJpegPath,
     content
   };
 });
@@ -61,6 +84,10 @@ const html = `<!DOCTYPE html>
     h1 { font-size: 26px; font-weight: 700; margin: 12px 0 6px; letter-spacing: -0.02em; }
     p.sub { color: var(--text-muted); font-size: 14px; }
     
+    .guide-banner { background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 12px; padding: 18px 22px; margin-bottom: 28px; }
+    .guide-banner h3 { font-size: 15px; color: #fbbf24; margin-bottom: 6px; }
+    .guide-banner p { font-size: 13px; color: #d1d5db; line-height: 1.6; }
+
     .stats-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 28px; }
     .stat-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 18px; }
     .stat-val { font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 4px; }
@@ -87,6 +114,8 @@ const html = `<!DOCTYPE html>
     .btn { display: inline-flex; align-items: center; gap: 6px; padding: 9px 14px; font-size: 13px; font-weight: 600; border-radius: 8px; border: 1px solid transparent; cursor: pointer; text-decoration: none; transition: all 0.15s; }
     .btn-import { background: #10b981; color: #fff; }
     .btn-import:hover { background: #059669; }
+    .btn-img { background: rgba(245, 158, 11, 0.15); border-color: rgba(245, 158, 11, 0.4); color: #fbbf24; }
+    .btn-img:hover { background: rgba(245, 158, 11, 0.25); color: #fff; }
     .btn-secondary { background: rgba(255,255,255,0.05); border-color: var(--border); color: #e5e7eb; }
     .btn-secondary:hover { background: rgba(255,255,255,0.1); border-color: #4b5563; }
 
@@ -109,6 +138,11 @@ const html = `<!DOCTYPE html>
     <h1>Rankur Medium Hybrid Syndication Hub</h1>
     <p class="sub">Direct Medium Canonical Importer and Batch Scheduler. All articles preserve 100% canonical SEO backlink authority to rankursite.com/blog/...</p>
   </header>
+
+  <div class="guide-banner">
+    <h3>💡 Why Medium Skips Images on Import & The 5-Second Fix:</h3>
+    <p>Medium's import scraper only imports text and drops .webp images because Medium requires JPEG/PNG. To add the high-res Cover Image to your Medium story: click <strong>"🖼️ Copy Image Path"</strong> below, then in Medium click the <strong>(+) Camera icon</strong> (or drag the image file directly) to drop the high-res JPEG cover into your story in 2 seconds.</p>
+  </div>
 
   <div class="stats-bar">
     <div class="stat-card">
@@ -249,6 +283,11 @@ const html = `<!DOCTYPE html>
             <button class="btn btn-import" onclick="openImport('\${a.canonicalUrl}')">
               ⚡ 1-Click Import in Medium (Copies URL)
             </button>
+            \${a.imageJpegPath ? \`
+            <button class="btn btn-img" onclick="copyText(this, '\${a.imageJpegPath}')">
+              🖼️ Copy Image Path (JPEG)
+            </button>
+            \` : ""}
             <button class="btn btn-secondary" onclick="copyText(this, '\${a.canonicalUrl}')">
               🔗 Copy Canonical
             </button>
@@ -278,4 +317,4 @@ const html = `<!DOCTYPE html>
 </html>`;
 
 fs.writeFileSync(path.join(rootDir, 'syndicate-parjapatiwork.html'), html, 'utf8');
-console.log('✓ Successfully generated prototype/syndicate-parjapatiwork.html with all 30 articles!');
+console.log('✓ Successfully rebuilt prototype/syndicate-parjapatiwork.html with image paths!');
