@@ -92,7 +92,7 @@ Vague marketing pages boasting "scalable end-to-end solutions" were rewritten in
 To dominate both traditional Google rankings and generative AI search engines (Perplexity, ChatGPT, and Google AI Overviews), custom JSON-LD structured data was injected cleanly into document heads:
 - Hierarchical `Organization`, `Service`, and `Product` schemas were intricately linked to verified external databases and executive leadership entities.
 - Rich `FAQPage` schema was embedded to directly answer complex procurement questions on search results pages.
-- As a result, search engines began awarding rich snippet badges, and AI engines began citing the company as a definitive primary authority for enterprise queries.
+- As a result, search engines recognized the structured data, and AI engines began citing the company as a definitive primary authority for enterprise queries.
 
 Read our masterclass on [schema markup for B2B product and service pages](/blog/schema-markup-b2b-product-service-pages).
 
@@ -151,7 +151,7 @@ Enforce sub-500ms global render speeds and clean Core Web Vitals.
        ▼
 [Phase 3: Machine-Readable Entity Structuring]
 Inject hierarchical Schema.org JSON-LD structured data linking services to verified corporate entities and executive authors.
-Capture rich snippets and optimize for generative AI citations.
+Optimize structured Q&A for generative AI citations and machine readability.
        │
        ▼
 [Phase 4: Strategic Qualification Routing]

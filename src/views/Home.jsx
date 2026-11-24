@@ -15,7 +15,7 @@ import './Home.css';
 import './Blog.css';
 
 const proofItems = [
-  { value: '<0.8s Speed', label: 'Stops Buyer Bounces & Multiplies Inbound Forms' },
+  { value: 'Fast Edge', label: 'Optimized Page Delivery (TODO: Add measured load speed)' },
   { value: 'Verified Proof', label: 'Wafa Educational & Charitable Trust' },
   { value: 'GA4 & HubSpot', label: 'Certified Pipeline & Lead Attribution' },
   { value: '100% IP', label: 'Full GitHub Transfer With Zero Agency Retainers' },
@@ -58,15 +58,15 @@ const capabilities = [
     badge: 'Performance & Revenue',
     description:
       'Custom-engineered from the ground up for high-growth B2B companies. Sub-second global load times that prevent drop-offs, frictionless demo booking pathways, and 100% intellectual property ownership with zero plugin bloat.',
-    deliverables: ['Sub-Second Global Performance', 'Frictionless Inbound Capture', '100% Client Code & Asset Ownership'],
-    stat: '<0.8s Global Speed',
+    deliverables: ['High-Speed Edge Delivery', 'Frictionless Inbound Capture', '100% Client Code & Asset Ownership'],
+    stat: 'Edge Optimized (TODO: Add measured speed)',
   },
   {
     icon: Search,
     title: 'Search Authority & Generative AI Discovery',
     badge: 'SEO & GEO',
     description:
-      'Deterministic search positioning engineered for Google, ChatGPT, and Perplexity. We structure your digital footprint so your brand is surfaced as the definitive, verified answer across traditional and generative search.',
+      'Search positioning engineered for Google, ChatGPT, and Perplexity. We structure your digital footprint so your brand is surfaced as a verified answer across traditional and generative search.',
     deliverables: [
       'Every Page Reliably Found by Google & AI Engines',
       'Structured Data That Makes AI Engines Recommend You',
@@ -79,7 +79,7 @@ const capabilities = [
     title: 'Commercial Demand & Category Authority',
     badge: 'Content Equity',
     description:
-      'We eliminate low-quality content churn and architect authoritative digital ecosystems that systematically intercept and capture executive buyers actively evaluating enterprise solutions.',
+      'We eliminate low-quality content churn and architect authoritative digital ecosystems that systematically intercept and capture buyers actively evaluating solutions.',
     deliverables: ['High-Value Solution Architecture', 'Defensible Search Equity Framework', 'Executive Decision Frameworks'],
     stat: 'Zero Generic Fluff',
   },
@@ -88,8 +88,8 @@ const capabilities = [
     title: 'Conversion Architecture & Pipeline Telemetry',
     badge: 'Analytics & CRO',
     description:
-      'We transform passive traffic into qualified sales inquiries. Through precision UX engineering and privacy-compliant analytics, every buyer touchpoint is optimized for pipeline velocity.',
-    deliverables: ['Frictionless Inbound Flow Engineering', 'Qualified Lead Routing', 'Enterprise Conversion Telemetry'],
+      'We transform passive traffic into qualified inquiries. Through precision UX engineering and privacy-compliant analytics, every buyer touchpoint is optimized for pipeline velocity.',
+    deliverables: ['Frictionless Inbound Flow Engineering', 'Qualified Lead Routing', 'Verified Conversion Telemetry'],
     stat: 'GA4 Verified Tracking',
   },
 ];
@@ -98,7 +98,7 @@ const comparisonData = [
   {
     metric: 'Core Web Vitals & Load Speed',
     legacy: '3.5s to 6.0s (Bloated WordPress themes, 35+ plugins, mobile bounce)',
-    rankur: '<0.8s Global Speed (Sub-second pages that stop buyer drop-offs)',
+    rankur: 'High-speed edge architecture (TODO: Add measured load speed)',
   },
   {
     metric: 'AI Search Readiness (ChatGPT, Perplexity)',
@@ -184,14 +184,14 @@ export default function Home() {
   return (
     <>
       <HeroSection
-        label="B2B Inbound Pipeline & Growth Infrastructure"
+        label="B2B & Mission-Driven Web Infrastructure"
         title={
           <>
-            Stop Losing Qualified Leads to a Website That{' '}
+            Stop Losing Qualified Inquiries to a Website That{' '}
             <span className="text-gold">Looks Busy But Converts Nothing</span>
           </>
         }
-        subtitle="We build high-performance B2B platforms that turn existing organic and paid traffic into booked discovery calls, RFQs, and sales pipeline: with 100% source code ownership and zero retainer lock-in."
+        subtitle="We build high-performance web platforms for B2B and mission-driven organisations that turn existing organic and direct traffic into qualified inquiries and sales pipeline: with 100% source code ownership and zero retainer lock-in."
         primaryCTA={{ to: '/free-audit', label: 'Claim Free Pipeline Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'View Platforms Built' }}
       />
@@ -242,10 +242,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Production Tech Stack & Enterprise Compliance Standards */}
+      {/* Production Tech Stack */}
       <TechStackBar
-        title="Conversion-Engineered Architecture: How We Stop Lead Leakage"
-        subtitle="We deploy sub-second Next.js edge infrastructure, verified GA4 conversion telemetry, and deterministic Google indexing so every organic visitor has a frictionless path to a booked discovery call."
+        title="Conversion-Engineered Architecture: How We Stop Inquiry Leakage"
+        subtitle="We deploy Next.js edge infrastructure, verified GA4 conversion telemetry, and deterministic Google indexing so every organic visitor has a clear path to contact."
       />
 
       {/* Founder Section */}
@@ -534,7 +534,7 @@ export default function Home() {
               </h2>
             </div>
             <Link href="/blog" className="btn btn--outline" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
-              Explore All 900+ Guides &rarr;
+              Explore Engineering Insights &rarr;
             </Link>
           </div>
 

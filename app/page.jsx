@@ -2,9 +2,9 @@ import Home from '../src/views/Home';
 import { constructMetadata } from '../src/components/Seo';
 
 export const metadata = constructMetadata({
-  title: 'B2B Lead Generation & High-Speed Web Platforms | Rankur',
+  title: 'Custom Next.js Websites & Technical SEO for B2B | Rankur',
   description:
-    'High-converting B2B web systems engineered to capture organic search demand, accelerate pipeline, and eliminate lead leakage. 100% code ownership.',
+    'We engineer high-performance Next.js web platforms, technical SEO, and generative engine optimization for B2B and mission-driven organisations. 100% code ownership.',
   canonical: 'https://rankursite.com',
 });
 

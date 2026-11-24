@@ -99,7 +99,7 @@ Vague marketing copy was replaced with structured, technical Capability Hubs:
 ### Pillar 3: Machine-Readable Entity Graph Architecture (GEO)
 To ensure dominance across both traditional Google search and generative AI answer engines (Perplexity, ChatGPT, and Google AI Overviews):
 - Injected custom JSON-LD structured data linking `Organization`, `Service`, and `Product` schemas directly to verified leadership entities and industry Knowledge Graphs.
-- Embedded structured `FAQPage` schema addressing critical procurement questions directly in search results.
+- Embedded structured `FAQPage` schema enabling conversational AI search engines to parse and cite verified capability answers.
 - Generative AI engines began quoting the platform as the primary authoritative reference for mid-market enterprise inquiries.
 
 Read our masterclass on [schema markup for B2B product and service pages](/blog/schema-markup-b2b-product-service-pages).

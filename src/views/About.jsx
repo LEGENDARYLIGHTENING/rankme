@@ -56,7 +56,7 @@ export default function About() {
             Founder-Led <span className="text-gold">Web &amp; SEO Engineering</span>
           </>
         }
-        subtitle="I engineer high-performance digital platforms and search authority systems engineered to capture high-value buyer demand and accelerate B2B pipeline."
+        subtitle="I engineer high-performance web platforms, technical SEO, and generative search systems for B2B and mission-driven organisations."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         secondaryCTA={{ to: '#my-story', label: 'Read Story' }}
       />

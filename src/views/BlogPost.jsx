@@ -264,8 +264,9 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
                     >
                       <div className="blog-card-image">
                         <img
-                          src={post.image || '/blog-images/prompt-115.webp'}
-                          alt={post.imageAlt || cleanRelatedTitle}
+                          src={post.image || '/og-image.jpg'}
+                          alt=""
+                          aria-hidden="true"
                           width={1200}
                           height={630}
                           loading="lazy"

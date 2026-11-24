@@ -9,11 +9,11 @@ import { APPROVED_TESTIMONIALS } from '../data/testimonials';
 import './CaseStudies.css';
 
 const architecturalHighlights = [
-  { value: '<1s Load', label: 'Sub-Second Global Edge Performance' },
   { value: 'Verified Build', label: 'Live Client Platform' },
   { value: 'Accessible', label: 'Mobile-First Design' },
   { value: 'Clean Code', label: 'Full Repository Ownership' },
-  { value: 'Sub-Second', label: 'Core Web Vitals Speed' },
+  { value: 'Performance', label: 'Edge Architecture (TODO: Add measured number)' },
+  { value: 'Structured', label: 'Schema Knowledge Graph' },
 ];
 
 function getApprovedQuote(id) {
@@ -118,14 +118,21 @@ export default function CaseStudies() {
 
               <h3>Context &amp; Mission</h3>
               <p>
-                Wafa Educational and Charitable Trust manages vital community healthcare, charitable dispensaries, and educational scholarship initiatives. They required a modern, highly accessible web presence capable of conveying their mission to donors, volunteers, and beneficiaries worldwide.
+                Wafa Educational and Charitable Trust manages community healthcare, charitable dispensaries, and educational scholarship initiatives. They required a modern, accessible web platform to convey their humanitarian mission and facilitate direct donor inquiries.
               </p>
 
-              <h3>Engineering &amp; Architecture Approach</h3>
+              <h3>What Was Built (Architecture &amp; Features)</h3>
               <ul>
-                <li><strong>Accessible Modern Web Architecture:</strong> Built a lightweight, mobile-first frontend ensuring instant load times across varying network speeds and devices.</li>
-                <li><strong>Clear Program Hierarchy:</strong> Structured community outreach, medical dispensaries, and education programs into clear, easy-to-navigate modules.</li>
-                <li><strong>Transparent Engagement Pathways:</strong> Implemented frictionless donor contact and inquiry pathways to facilitate support and community engagement.</li>
+                <li><strong>Accessible Modern Web Architecture:</strong> Built a lightweight, mobile-first frontend ensuring fast load times across devices.</li>
+                <li><strong>Clear Program Hierarchy:</strong> Structured community outreach, medical dispensaries, and educational programs into clear modules.</li>
+                <li><strong>Inquiry &amp; Contact Pathways:</strong> Implemented direct contact pathways to facilitate donor communication and support.</li>
+                <li><em>TODO: Detail exact pages and features built</em></li>
+              </ul>
+
+              <h3>Verified Metrics &amp; Performance Telemetry</h3>
+              <ul>
+                <li><strong>Performance:</strong> <em>TODO: Measured PageSpeed/Lighthouse numbers, with test date and device</em></li>
+                <li><strong>Search &amp; Visibility:</strong> <em>TODO: Indexed-page count, and any before/after traffic from GSC/GA4</em></li>
               </ul>
 
               <div className="case-full__live-box">
@@ -144,7 +151,7 @@ export default function CaseStudies() {
               {wafaQuote && (
                 <div className="case-full__quote-block">
                   <p className="case-full__quote-text">&ldquo;{wafaQuote.quote}&rdquo;</p>
-                  <p className="case-full__quote-author">:  {wafaQuote.name}, {wafaQuote.role}, {wafaQuote.company}</p>
+                  <p className="case-full__quote-author">- {wafaQuote.name} <em>(TODO: Named person name and title, as approved by Wafa)</em></p>
                 </div>
               )}
             </div>

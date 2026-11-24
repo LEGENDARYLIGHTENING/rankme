@@ -3,8 +3,8 @@ import { APPROVED_TESTIMONIALS } from '../data/testimonials';
 import './Testimonials.css';
 
 export default function Testimonials({
-  title = 'Partner & Client Feedback',
-  subtitle = 'Named, permission-verified feedback from leaders whose platforms I helped engineer.',
+  title = 'Client feedback',
+  subtitle = 'Client feedback from organisations whose platforms I helped engineer.',
 }) {
   if (!APPROVED_TESTIMONIALS || APPROVED_TESTIMONIALS.length === 0) {
     return null;
@@ -14,7 +14,7 @@ export default function Testimonials({
     <section className="testimonials" id="testimonials">
       <div className="container">
         <div className="testimonials__header">
-          <p className="section-label">Verified Feedback</p>
+          <p className="section-label">Client feedback</p>
           <h2 className="section-title">{title}</h2>
           {subtitle && <p className="section-subtitle">{subtitle}</p>}
         </div>

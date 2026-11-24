@@ -38,7 +38,7 @@ To engineer effective technical search architecture, leadership must understand 
 | Crawl Budget Allocated Based on Speed & Domain Authority    |
 |                                                             |
 | Scenario A: Sluggish Monolith (3.5s TTFB, Client-Side JS)   |
-| -> Crawler times out; scans only 25 pages per visit.        |
+| -> Crawler encounters latency bottlenecks and delays discovery.        |
 | -> New technical case studies sit un-indexed for months.    |
 |                                                             |
 | Scenario B: Modern Server-Rendered Edge (<800ms LCP)        |
@@ -47,7 +47,7 @@ To engineer effective technical search architecture, leadership must understand 
 +-------------------------------------------------------------+
 ```
 
-Search engine crawlers (Googlebot, Bingbot) and generative AI scrapers (GPTBot, PerplexityBot, ClaudeBot) do not possess infinite computing resources. They assign each website a strict **crawl budget** based on server responsiveness, page rendering speed, and domain authority.
+Search engine crawlers (Googlebot, Bingbot) and generative AI scrapers (GPTBot, PerplexityBot, ClaudeBot) do not possess infinite computing resources. While small to medium websites are rarely constrained by crawl budget limits, search crawlers still prioritize fast, clean architectures with low server latency.
 
 If your website is slow or forces crawlers to execute heavy client-side JavaScript to render text and pricing tables, the crawler exhausts its resource allowance after visiting a fraction of your pages. Your high-value technical whitepapers and case studies sit un-indexed in the dark.
 
@@ -109,7 +109,7 @@ Without strict technical governance, search crawlers waste crawl equity indexing
 ```
 
 ### Enforcing Single-Hop Redirects
-Multi-hop redirect chains (e.g., `http://domain.com` -> `https://domain.com` -> `https://www.domain.com` -> `https://www.domain.com/`) burn crawl budget and dilute link equity by up to 15% per hop. Configure edge web servers to enforce single-hop 301 permanent redirects directly to the canonical destination.
+Multi-hop redirect chains (e.g., `http://domain.com` -> `https://domain.com` -> `https://www.domain.com` -> `https://www.domain.com/`) burn crawl budget and introduce unnecessary latency and crawler hops. While Google has confirmed that 301 redirects preserve full link equity, direct single-hop redirects ensure the fastest crawl efficiency. Configure edge web servers to enforce single-hop 301 permanent redirects directly to the canonical destination.
 
 ---
 

@@ -6,11 +6,11 @@ import ConsentBanner from '../src/components/ConsentBanner';
 export const metadata = {
   metadataBase: new URL('https://rankursite.com'),
   title: {
-    default: 'Enterprise B2B Web Engineering & Search Systems | Rankur',
+    default: 'B2B Web Development, Technical SEO & GEO | Rankur',
     template: '%s',
   },
   description:
-    'Sub-second Next.js web systems and deterministic search architecture for B2B operators. Milestone delivery with 100% source code ownership.',
+    'Custom Next.js web platforms, technical SEO, and generative engine optimization for B2B and mission-driven organisations. 100% source code ownership.',
   manifest: '/manifest.webmanifest',
   icons: {
     icon: [
@@ -21,9 +21,9 @@ export const metadata = {
     apple: '/rankur-logo.png',
   },
   openGraph: {
-    title: 'Enterprise B2B Web Engineering & Search Systems | Rankur',
+    title: 'B2B Web Development, Technical SEO & GEO | Rankur',
     description:
-      'Sub-second Next.js web systems and deterministic search architecture for B2B operators. Milestone delivery with 100% source code ownership.',
+      'Custom Next.js web platforms, technical SEO, and generative engine optimization for B2B and mission-driven organisations. 100% source code ownership.',
     url: 'https://rankursite.com',
     siteName: 'Rankur',
     images: [
@@ -39,9 +39,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Enterprise B2B Web Engineering & Search Systems | Rankur',
+    title: 'B2B Web Development, Technical SEO & GEO | Rankur',
     description:
-      'Sub-second Next.js web systems and deterministic search architecture for B2B operators. Milestone delivery with 100% source code ownership.',
+      'Custom Next.js web platforms, technical SEO, and generative engine optimization for B2B and mission-driven organisations. 100% source code ownership.',
     creator: '@moksh_rankur',
     images: ['https://rankursite.com/twitter-image.jpg'],
   },

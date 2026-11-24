@@ -1,14 +1,20 @@
 export function fitSeoTitle(rawTitle, maxLen = 60) {
   let t = String(rawTitle || '').replace(/\s+/g, ' ').trim();
-  if (t.length <= maxLen) return t;
-  // Remove trailing " | Rankur" if present and too long
-  const withoutBrand = t.replace(/\s*\|\s*Rankur\s*$/i, '').trim();
-  if (withoutBrand.length <= maxLen) return withoutBrand;
+  // Strip any and all trailing "| Rankur" occurrences to avoid double branding
+  while (/\s*\|\s*Rankur\s*$/i.test(t)) {
+    t = t.replace(/\s*\|\s*Rankur\s*$/i, '').trim();
+  }
+  const brand = ' | Rankur';
+  const availableLen = maxLen - brand.length;
+  if (t.length <= availableLen) {
+    return `${t}${brand}`;
+  }
   // Trim cleanly at word boundary without adding ellipsis or cutting a word
-  const slice = withoutBrand.slice(0, maxLen);
+  const slice = t.slice(0, availableLen);
   const lastSpace = slice.lastIndexOf(' ');
-  const candidate = lastSpace > Math.floor(maxLen * 0.55) ? slice.slice(0, lastSpace) : slice;
-  return candidate.replace(/[\s:\-,;|/]+$/, '').trim();
+  const candidate = lastSpace > Math.floor(availableLen * 0.55) ? slice.slice(0, lastSpace) : slice;
+  const clean = candidate.replace(/[\s:\-,;|/]+$/, '').trim();
+  return `${clean}${brand}`;
 }
 
 export function fitSeoDescription(rawDesc, maxLen = 155) {
@@ -26,8 +32,8 @@ export function fitSeoDescription(rawDesc, maxLen = 155) {
 }
 
 export function constructMetadata({
-  title = 'Enterprise B2B Web Engineering & Search Systems | Rankur',
-  description = 'Sub-second Next.js web systems and deterministic search architecture for B2B operators. Milestone delivery with 100% source code ownership.',
+  title = 'B2B Web Development, Technical SEO & GEO | Rankur',
+  description = 'Custom Next.js web platforms, technical SEO, and generative engine optimization for B2B and mission-driven organisations. 100% source code ownership.',
   canonical = 'https://rankursite.com',
   image = 'https://rankursite.com/og-image.jpg',
   imageWidth = 1200,
@@ -37,7 +43,6 @@ export function constructMetadata({
   noIndex = false,
   robotsFollow = true,
   alternatesLanguages,
-  keywords,
 } = {}) {
   const cleanPath = canonical === '/' ? '' : canonical;
   const fullCanonical = canonical.startsWith('http')
@@ -62,7 +67,6 @@ export function constructMetadata({
   return {
     title: finalTitle,
     description: finalDesc,
-    ...(keywords ? { keywords } : {}),
     alternates,
     robots: noIndex
       ? { index: false, follow: robotsFollow }

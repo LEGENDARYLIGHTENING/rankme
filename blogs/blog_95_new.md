@@ -161,7 +161,7 @@ The power of translating organizational transparency and verified governance int
 
 When Rankur engineered the digital platform for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/), the organization was seeking to establish deep, multi-year partnerships with major international philanthropic foundations and governmental bodies. Previous communication efforts lacked the structured, verifiable trust markers required by international evaluation boards.
 
-Rankur deployed a modern Next.js edge platform embedding transparent governance documentation, audited financial reports, verified leadership profiles, and real-time programmatic impact telemetry. Search engines recognized the domain's unassailable E-E-A-T signals, awarding dominant rich snippets across international search queries, while global philanthropic institutions committed historic multi-year grant funding with total institutional confidence.
+Rankur deployed a modern Next.js edge platform embedding transparent governance documentation, audited financial reports, verified leadership profiles, and real-time programmatic impact telemetry. Search engines recognized the domain's unassailable E-E-A-T signals, awarding strong search authority across international search queries, while global philanthropic institutions committed historic multi-year grant funding with total institutional confidence.
 
 ---
 

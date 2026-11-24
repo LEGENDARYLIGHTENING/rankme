@@ -89,13 +89,13 @@ const methodologyStages = [
     step: '01',
     title: 'Forensic Diagnostic Audit',
     subtitle: '48-Hour Technical & Commercial Teardown',
-    desc: 'We inspect every layer of your existing digital presence: Core Web Vitals across international device cohorts, crawl budget efficiency, cannibalized search queries, index bloat, and buyer qualification friction. You receive a prioritized, factual roadmap with zero fluff.',
+    desc: 'We inspect every layer of your existing digital presence: Core Web Vitals across international device cohorts, technical crawl efficiency, cannibalized search queries, index bloat, and buyer qualification friction. You receive a prioritized, factual roadmap with zero fluff.',
   },
   {
     step: '02',
     title: 'Precision Architecture & Wireframing',
     subtitle: 'Bespoke Engineering Sprint',
-    desc: 'We discard generic CMS templates and author clean, modular semantic components engineered on modern edge frameworks. We design user journeys specifically tailored to multi-stakeholder enterprise buying committees.',
+    desc: 'We discard generic CMS templates and author clean, modular semantic components engineered on modern edge frameworks. We design user journeys specifically tailored to B2B and mission-driven decision makers.',
   },
   {
     step: '03',
@@ -132,7 +132,7 @@ const faqs = [
   {
     question: 'What does Generative Engine Optimization (GEO) mean in practice?',
     answer:
-      'Generative Engine Optimization (GEO) establishes your brand as the definitive authority cited by AI search models like ChatGPT, Perplexity, and Google. We engineer proprietary semantic graphs and factual capability positioning so AI systems accurately recommend your solutions to enterprise buyers.',
+      'Generative Engine Optimization (GEO) establishes your brand as an authority cited by AI search models like ChatGPT, Perplexity, and Google. We engineer semantic graphs and factual capability positioning so AI systems accurately surface your solutions to decision makers.',
   },
   {
     question: 'Do you sign mutual NDAs before reviewing internal specs?',
