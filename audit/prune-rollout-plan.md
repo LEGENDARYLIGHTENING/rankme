@@ -112,15 +112,15 @@ A recommended observation window of **2 to 3 weeks** must occur between Wave 1 a
 | **Soft 404** | `[Awaiting GSC count]` | | | |
 
 ### Exact Post-Deployment Check-In Schedule
-Assuming Wave 1 deploys on **Day 0 (2026-11-25)** (shift by the actual deploy date if deployed later):
+**Actual Wave 1 Deploy Date**: `[Not yet deployed]`
 
-1. **Day 7 (2026-12-02)**
+1. **Deploy date + 7 days**
    - **Reports to open**: *Settings > Crawl stats* (By response code) and *Indexing > Pages*.
    - **What to check**: Confirm Googlebot is receiving `410 Gone` responses on Wave 1 URLs and that *Soft 404* remains at 0.
-2. **Day 14 (2026-12-09)**
+2. **Deploy date + 14 days**
    - **Reports to open**: *Indexing > Pages* and *Indexing > Sitemaps*.
    - **What to check**: Verify *Excluded by 'noindex' tag* is declining as URLs move to *Not found (404/410)*, and confirm `sitemap.xml` child sitemaps show clean discovery without errors.
-3. **Day 21 (2026-12-16)**
+3. **Deploy date + 21 days**
    - **Reports to open**: *Performance > Search results* and *Indexing > Pages*.
    - **What to check**: Confirm impressions and clicks on the 45 KEEP pillars remain stable or improved, and confirm crawl allocation has shifted to kept URLs before approving Wave 2.
 
