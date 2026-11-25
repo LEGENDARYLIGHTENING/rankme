@@ -94,3 +94,33 @@ A recommended observation window of **2 to 3 weeks** must occur between Wave 1 a
 | **Interim** | GSC Monitoring (2-3 wks) | Track Crawl Stats, Page Indexing, and Soft 404s in GSC. | 0 Soft 404 warnings; crawl shift to pillars. |
 | **Wave 2A** | Content Consolidation | Fold 60 MERGE posts into master pillars in approved batches. | Pillars enriched with verified technical depth. |
 | **Wave 2B** | 301 Deployments | Deploy 49 exact 301 redirects and remaining 48 410s. | 100% single-hop 301s; traffic preserved. |
+
+---
+
+## 6. Before / After GSC Counts & Scheduled Check-In Dates (Step 4D)
+
+### Baseline GSC Counts (Before Wave 1)
+*(Pending paste-in from Google Search Console -> Indexing -> Pages; no numbers invented)*
+
+| GSC Page Indexing Bucket | Before Wave 1 (Baseline) | Day 7 | Day 14 | Day 21 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Indexed pages** | `[Awaiting GSC count]` | | | |
+| **Crawled - currently not indexed** | `[Awaiting GSC count]` | | | |
+| **Discovered - currently not indexed** | `[Awaiting GSC count]` | | | |
+| **Excluded by 'noindex' tag** | `[Awaiting GSC count]` | | | |
+| **Not found (404 / 410)** | `[Awaiting GSC count]` | | | |
+| **Soft 404** | `[Awaiting GSC count]` | | | |
+
+### Exact Post-Deployment Check-In Schedule
+Assuming Wave 1 deploys on **Day 0 (2026-11-25)** (shift by the actual deploy date if deployed later):
+
+1. **Day 7 (2026-12-02)**
+   - **Reports to open**: *Settings > Crawl stats* (By response code) and *Indexing > Pages*.
+   - **What to check**: Confirm Googlebot is receiving `410 Gone` responses on Wave 1 URLs and that *Soft 404* remains at 0.
+2. **Day 14 (2026-12-09)**
+   - **Reports to open**: *Indexing > Pages* and *Indexing > Sitemaps*.
+   - **What to check**: Verify *Excluded by 'noindex' tag* is declining as URLs move to *Not found (404/410)*, and confirm `sitemap.xml` child sitemaps show clean discovery without errors.
+3. **Day 21 (2026-12-16)**
+   - **Reports to open**: *Performance > Search results* and *Indexing > Pages*.
+   - **What to check**: Confirm impressions and clicks on the 45 KEEP pillars remain stable or improved, and confirm crawl allocation has shifted to kept URLs before approving Wave 2.
+
