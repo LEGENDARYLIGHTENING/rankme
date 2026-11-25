@@ -178,7 +178,7 @@ export default function Services() {
             Inbound Growth Infrastructure Built to <span className="text-gold">Turn Visitors Into Pipeline</span>
           </>
         }
-        subtitle="We replace bloated agency retainers with custom high-speed web platforms, AI search citations, and frictionless inquiry funnels that convert enterprise decision-makers."
+        subtitle="We replace bloated agency retainers with custom Next.js web platforms, AI search citations, and frictionless inquiry funnels that convert enterprise decision-makers."
         primaryCTA={{ to: '/free-audit', label: 'Claim Free Pipeline Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'View Case Studies' }}
       />

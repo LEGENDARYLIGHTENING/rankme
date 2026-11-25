@@ -15,7 +15,7 @@ import './Home.css';
 import './Blog.css';
 
 const proofItems = [
-  { value: 'Fast Edge', label: 'Optimized Page Delivery' },
+  { value: 'Next.js SSR', label: 'Server-Rendered Delivery' },
   { value: 'Verified Proof', label: 'Wafa Educational & Charitable Trust' },
   { value: 'GA4 & HubSpot', label: 'Certified Pipeline & Lead Attribution' },
   { value: '100% IP', label: 'Full GitHub Transfer With Zero Agency Retainers' },
@@ -29,13 +29,13 @@ const portfolioShowcases = [
     tag: 'Philanthropic Healthcare & Education',
     title: 'Wafa Educational & Charitable Trust',
     domain: 'https://www.wafatrustindia.org/',
-    badge: 'Client Project · High-Speed Digital Architecture',
+    badge: 'Client Project · Custom Web Platform',
     image: null,
     alt: 'Wafa Educational And Charitable Trust platform',
     description:
-      'Engineered a clean, accessible high-speed web platform for a philanthropic healthcare and education trust, organizing community initiatives, health aid documentation, and donor contact pathways.',
+      'Engineered a clean, accessible web platform for a philanthropic healthcare and education trust, organizing community initiatives, health aid documentation, and donor contact pathways.',
     architecturalNotes: [
-      { value: 'High Availability', label: 'Edge-Rendered Architecture' },
+      { value: 'Server-Rendered', label: 'Next.js Architecture' },
       { value: 'Accessible', label: 'Mobile-First UI' },
       { value: 'Live Platform', label: 'wafatrustindia.org' },
     ],
@@ -57,9 +57,9 @@ const capabilities = [
     title: 'High-Converting Web Infrastructure & Pipeline Architecture',
     badge: 'Performance & Revenue',
     description:
-      'Custom-engineered from the ground up for high-growth B2B companies. Rapid global load times that prevent drop-offs, frictionless demo booking pathways, and 100% intellectual property ownership with zero plugin bloat.',
-    deliverables: ['High-Speed Edge Delivery', 'Frictionless Inbound Capture', '100% Client Code & Asset Ownership'],
-    stat: 'Edge Optimized',
+      'Custom-engineered from the ground up for B2B and mission-driven organisations. Clean server-rendered Next.js architecture, frictionless demo booking pathways, and 100% intellectual property ownership with zero plugin bloat.',
+    deliverables: ['Custom Next.js Architecture', 'Frictionless Inbound Capture', '100% Client Code & Asset Ownership'],
+    stat: 'Clean Architecture',
   },
   {
     icon: Search,
@@ -98,7 +98,7 @@ const comparisonData = [
   {
     metric: 'Core Web Vitals & Load Speed',
     legacy: '3.5s to 6.0s (Bloated WordPress themes, 35+ plugins, mobile bounce)',
-    rankur: 'High-speed edge architecture',
+    rankur: 'Server-rendered Next.js with minimal client JavaScript',
   },
   {
     metric: 'AI Search Readiness (ChatGPT, Perplexity)',
@@ -295,7 +295,7 @@ export default function Home() {
               Engineered for Pipeline Velocity &amp; Market Dominance
             </h2>
             <p className="section-subtitle">
-              We eliminate low-converting agency templates and architect bespoke digital platforms engineered for rapid speed, search engine dominance, and high-ticket B2B conversion.
+              We eliminate low-converting agency templates and architect bespoke digital platforms engineered for clean technical SEO, structured data, and B2B buyer conversion.
             </p>
           </div>
 

@@ -33,7 +33,7 @@ const auditSteps = [
 ];
 
 const trustMetrics = [
-  { value: 'Fast Edge', label: 'Global CDN Performance' },
+  { value: 'Next.js SSR', label: 'Server-Rendered Architecture' },
   { value: 'Moksh Productions', label: 'Operating Entity (India)' },
   { value: 'Mutual NDA', label: 'Available Prior to Sharing Files' },
   { value: 'GA4 Certified', label: 'Clean Event Measurement' },

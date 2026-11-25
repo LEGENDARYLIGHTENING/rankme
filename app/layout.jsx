@@ -55,7 +55,7 @@ const masterSchema = {
       '@id': 'https://rankursite.com/#website',
       url: 'https://rankursite.com',
       name: 'Rankur',
-      description: 'High-speed Next.js B2B web infrastructure, GEO search optimization, and lead generation systems for founders.',
+      description: 'Custom Next.js B2B web infrastructure, GEO search optimization, and lead generation systems for founders.',
       publisher: {
         '@id': 'https://rankursite.com/#organization',
       },

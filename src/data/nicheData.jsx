@@ -32,16 +32,16 @@ export const nicheData = {
         {
           icon: '▶',
           title: 'Clean Performance & Speed',
-          desc: 'Eliminating bloated CMS templates and plugins in favor of custom high-speed web systems that your organization owns 100% with zero licensing lock-in.',
+          desc: 'Eliminating bloated CMS templates and plugins in favor of custom Next.js web systems that your organization owns 100% with zero licensing lock-in.',
         },
       ],
       proofText:
-        'Built using the same high-speed, accessible web architecture applied on verified client platforms like Wafa Trust.',
+        'Built using the same accessible Next.js web architecture applied on verified client platforms like Wafa Trust.',
       faqs: [
         {
-          question: 'Why rebuild a legacy Webflow or WordPress site into custom high-performance architecture?',
+          question: 'Why rebuild a legacy Webflow or WordPress site into custom Next.js architecture?',
           answer:
-            'When you require 100% intellectual property ownership, rapid global load times that stop buyer drop-offs, and custom demo conversion workflows without third-party plugin vulnerabilities, custom high-performance architecture provides an unconstrained enterprise foundation.',
+            'When you require 100% intellectual property ownership, clean server-rendered Next.js pages, and custom demo conversion workflows without third-party plugin vulnerabilities, custom architecture provides an unconstrained B2B foundation.',
         },
         {
           question: 'How are timelines and scopes structured?',
