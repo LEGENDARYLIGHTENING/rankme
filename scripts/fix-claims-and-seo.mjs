@@ -35,15 +35,19 @@ for (const file of files) {
   content = content.replace(/They assign each website a strict \*\*crawl budget\*\* based on server responsiveness, page rendering speed, and domain authority\./g,
     'While small to medium websites are rarely constrained by crawl budget limits, search crawlers still prioritize fast, clean architectures with low server latency.');
 
-  // 5. FAQ rich results claims
+  // 5. FAQ rich results claims (accurate wording: Google limited FAQ rich results in 2023)
   content = content.replace(/securing high-visibility rich snippet accordions on search results pages\./g,
-    'feeding structured Q&A data directly to generative AI engines (ChatGPT, Perplexity) and Google Overviews.');
+    'providing machine-readable structure. While Google limited FAQ rich results in 2023, the markup may help machines parse Q&A content cleanly, though search and citation benefits are not guaranteed.');
+  content = content.replace(/feeding structured Q&A data directly to generative AI engines \(ChatGPT, Perplexity\) and Google Overviews\./g,
+    'noting that Google limited FAQ rich results in 2023; the markup may help machines parse Q&A content, but search and citation benefits are not guaranteed.');
   content = content.replace(/addressing critical procurement questions directly in search results\./g,
-    'enabling conversational AI search engines to parse and cite verified capability answers.');
+    'providing machine-readable Q&A structure, noting that Google limited FAQ rich results in 2023 and benefits are not guaranteed.');
+  content = content.replace(/enabling conversational AI search engines to parse and cite verified capability answers\./g,
+    'providing machine-readable structure. While Google limited FAQ rich results in 2023, the markup may help machines parse Q&A content, though benefits are not guaranteed.');
   content = content.replace(/search engines began awarding rich snippet badges, and AI engines began citing/g,
     'search engines recognized the structured data, and AI engines began citing');
   content = content.replace(/Capture rich snippets and optimize for generative AI citations\./g,
-    'Optimize structured Q&A for generative AI citations and machine readability.');
+    'Structure Q&A markup cleanly. Note that Google limited FAQ rich results in 2023; the markup may help machines parse Q&A, but benefits are not guaranteed.');
   content = content.replace(/lost rich snippet real estate, and complete omission from AI generated answers/g,
     'lost semantic clarity, and omission from AI generated answers');
   content = content.replace(/awarding dominant rich snippets across international search queries/g,

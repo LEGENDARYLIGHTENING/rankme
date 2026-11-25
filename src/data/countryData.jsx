@@ -249,7 +249,7 @@ export const countryData = {
         </>
       ),
       heroSubtitle:
-        'Built for UAE B2B trading, logistics, telematics, and technology firms connecting with enterprise and free-zone procurement across Dubai, Abu Dhabi, and the wider Gulf.',
+        'Built for UAE B2B trading, logistics, and technology firms connecting with enterprise and free-zone procurement across Dubai, Abu Dhabi, and the wider Gulf.',
       problemText: [
         'Gulf procurement teams and multinational distributors in Dubai and Abu Dhabi evaluate vendor websites as a proxy for operational reliability and technical seriousness.',
         'Heavy corporate brochure sites with stock imagery and broken mobile navigation create doubt early, especially when buyers compare spec sheets on mobile connections.',

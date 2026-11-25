@@ -31,9 +31,9 @@ const servicesData = [
     title: 'High-Converting Web Infrastructure & Pipeline Engineering',
     badge: 'Performance & Revenue',
     description:
-      'We build custom digital platforms engineered to capture enterprise pipeline: delivering sub-second load times that keep buyers engaged, frictionless inquiry flows, and 100% intellectual property ownership.',
+      'We build custom digital platforms engineered to capture enterprise pipeline: delivering rapid load times that keep buyers engaged, frictionless inquiry flows, and 100% intellectual property ownership.',
     deliverables: [
-      'Sub-Second Global Architecture That Stops Buyer Bounces',
+      'Rapid Global Edge Architecture That Stops Buyer Bounces',
       'High-Intent Demo & RFQ Inbound Pathways',
       'Clean Conversion & Pipeline Attribution Tracking',
       '100% Codebase Transfer With Zero Vendor Lock-in',
@@ -78,7 +78,7 @@ const servicesData = [
       'Frictionless Inbound Flow Engineering',
       'Enterprise Inquiry Qualification Protocols',
       'Full-Funnel Pipeline Telemetry',
-      'Sub-Second Conversion Pathway Testing',
+      'Frictionless Conversion Pathway Testing',
     ],
     timeline: 'Integrated into every engagement',
   },
@@ -112,7 +112,7 @@ const methodologyStages = [
 ];
 
 const technicalStack = [
-  { category: 'Conversion Infrastructure', tools: 'Bespoke Modern Web Architecture, Sub-Second Global Edge Runtimes, Zero CMS Vulnerabilities' },
+  { category: 'Conversion Infrastructure', tools: 'Bespoke Modern Web Architecture, Rapid Global Edge Runtimes, Zero CMS Vulnerabilities' },
   { category: 'Enterprise Integration', tools: 'High-Throughput CRM APIs, Secure Inbound Lead Routing, Automated Inbound Qualification' },
   { category: 'Infrastructure & Security', tools: 'Global Edge Delivery, Automated Zero-Downtime Deployments, Hardened Enterprise Security' },
   { category: 'Commercial Intelligence', tools: 'Full-Funnel Pipeline Telemetry, Search Engine Indexation Monitoring, Revenue Attribution' },
@@ -127,7 +127,7 @@ const faqs = [
   {
     question: 'Why build on custom high-performance architecture instead of template themes?',
     answer:
-      'A custom high-performance architecture ensures sub-second global performance, total technical control, immune security posture with zero third-party plugin vulnerabilities, and complete intellectual property ownership.',
+      'A custom high-performance architecture ensures rapid global performance, total technical control, immune security posture with zero third-party plugin vulnerabilities, and complete intellectual property ownership.',
   },
   {
     question: 'What does Generative Engine Optimization (GEO) mean in practice?',

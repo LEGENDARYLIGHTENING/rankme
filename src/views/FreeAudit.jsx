@@ -33,7 +33,7 @@ const auditSteps = [
 ];
 
 const trustMetrics = [
-  { value: '<1s Load', label: 'Sub-Second Global Edge Performance' },
+  { value: 'Fast Edge', label: 'Global CDN Performance' },
   { value: 'Moksh Productions', label: 'Operating Entity (India)' },
   { value: 'Mutual NDA', label: 'Available Prior to Sharing Files' },
   { value: 'GA4 Certified', label: 'Clean Event Measurement' },

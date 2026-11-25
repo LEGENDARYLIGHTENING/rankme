@@ -127,7 +127,7 @@ In our production platform engineering for [Wafa Educational & Charitable Trust]
 | **Organization** | Global site root | Establishes company entity in Knowledge Graphs |
 | **Person** | Founder & blog authors | Provides author E-E-A-T and leadership attribution |
 | **Service / Product** | Commercial landing pages | Ingests exact technical capabilities and target markets |
-| **FAQPage** | Commercial pages & blogs | Spoon-feeds pre-formulated answers directly to LLMs |
+| **FAQPage** | Commercial pages & blogs | Provides structured Q&A markup (Google limited FAQ rich results in 2023; benefits are not guaranteed) |
 
 Transform your digital footprint into machine-readable code that generative engines cite with confidence.
 

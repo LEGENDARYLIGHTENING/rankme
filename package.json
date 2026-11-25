@@ -7,7 +7,7 @@
     "prebuild": "node scripts/generate-blog-index.js && node scripts/generate-blog-triage.mjs && node scripts/generate-sitemap.js && node scripts/seo-check.mjs",
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node scripts/seo-check.mjs --postbuild",
+    "postbuild": "node scripts/seo-check.mjs --postbuild && node scripts/check-sitemaps.mjs",
     "medium:publish": "node scripts/publish-to-medium.mjs",
     "syndicate:setup": "node scripts/hybrid-syndicate-publisher.mjs --setup",
     "syndicate:status": "node scripts/hybrid-syndicate-publisher.mjs --status",

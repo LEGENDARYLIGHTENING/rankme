@@ -149,7 +149,7 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
               </li>
               <li>
                 <span className="takeaway-bullet-icon">✓</span>
-                <span><strong>Architecture Standard:</strong> Eliminating bloated plugins, fragile templates, and sub-second load times that prevent executive buyer drop-offs.</span>
+                <span><strong>Architecture Standard:</strong> Eliminating bloated plugins, fragile templates, and delivering rapid load times that prevent executive buyer drop-offs.</span>
               </li>
               <li>
                 <span className="takeaway-bullet-icon">✓</span>
@@ -232,7 +232,7 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
                 Work Directly With Moksh Parjapati
               </h3>
               <p style={{ fontSize: '0.95rem', color: 'var(--color-text-muted)', lineHeight: '1.6', margin: 0, maxWidth: '600px' }}>
-                I engineer custom high-converting web systems and technical SEO architecture personally for B2B founders: stopping buyer bounces with sub-second speeds, zero bloated plugins, and 100% intellectual property ownership.
+                I engineer custom high-converting web systems and technical SEO architecture personally for B2B founders: stopping buyer bounces with rapid edge speed, zero bloated plugins, and 100% intellectual property ownership.
               </p>
             </div>
 

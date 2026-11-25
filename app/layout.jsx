@@ -81,10 +81,8 @@ const masterSchema = {
         availableLanguage: ['English'],
       },
       sameAs: [
-        'https://www.crunchbase.com/organization/rankur-a39c',
-        'https://twitter.com/moksh_rankur',
-        'https://github.com/LEGENDARYLIGHTENING',
         'https://linkedin.com/in/moksh-parjapati',
+        'https://twitter.com/moksh_rankur',
       ],
       founder: {
         '@id': 'https://rankursite.com/#founder',
@@ -127,7 +125,6 @@ const masterSchema = {
       sameAs: [
         'https://linkedin.com/in/moksh-parjapati',
         'https://twitter.com/moksh_rankur',
-        'https://github.com/LEGENDARYLIGHTENING',
       ],
       hasCredential: [
         {

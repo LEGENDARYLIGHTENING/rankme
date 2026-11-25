@@ -46,6 +46,19 @@ function walkFiles(dir, exts, out = []) {
 async function runPrebuildChecks() {
   console.log('--- Running seo-check (prebuild P0/P1 invariants) ---');
 
+  // P0 Invariant: No "TODO" string in user-facing source code or data files
+  const userFacingDirs = ['src/views', 'src/components', 'src/data', 'app'];
+  for (const ufDir of userFacingDirs) {
+    const fullDir = path.join(rootDir, ufDir);
+    const files = walkFiles(fullDir, ['.jsx', '.js', '.json']);
+    for (const file of files) {
+      const content = fs.readFileSync(file, 'utf8');
+      if (/\bTODO\b/i.test(content)) {
+        fail(`[P0] Unresolved "TODO" string found in user-facing file: ${path.relative(rootDir, file)}`);
+      }
+    }
+  }
+
   // B1, B4, B5, B7 across blogs/*.md & blog views/routes
   const blogsDir = path.join(rootDir, 'blogs');
   const mdFiles = fs.readdirSync(blogsDir).filter(f => f.endsWith('.md'));
@@ -605,6 +618,9 @@ async function runPostbuildChecks() {
     if (noindexCountries.has(rel)) continue;
     if (excludedPrefixes.some((p) => rel === p || rel.startsWith(`${p}/`) || rel === `${p}.html`)) continue;
     const html = fs.readFileSync(full, 'utf8');
+    if (/\bTODO\b/i.test(html)) {
+      fail(`[P0] Rendered page HTML contains "TODO": ${rel}`);
+    }
     const rMatch = html.match(/<meta[^>]*name=["']robots["'][^>]*content=["']([^"']+)["']/i);
     if (rMatch && /noindex/i.test(rMatch[1])) continue;
     const route = rel === 'index.html' ? '' : '/' + rel.replace(/\.html$/, '');

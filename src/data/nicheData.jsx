@@ -16,7 +16,7 @@ export const nicheData = {
       problemText: [
         'Many SaaS teams ship visually clean marketing sites that fail at turning technical buyer traffic into booked product demos.',
         'Product pages often bury core workflows behind jargon, skip comparison and integration search architecture, and overload forms with friction.',
-        'I build sub-second commercial web systems with persuasive positioning copy, verified AI citation architecture, and transparent buyer inquiry pathways.',
+        'I build fast commercial web systems with persuasive positioning copy, verified AI citation architecture, and transparent buyer inquiry pathways.',
       ],
       solutions: [
         {
@@ -41,7 +41,7 @@ export const nicheData = {
         {
           question: 'Why rebuild a legacy Webflow or WordPress site into custom high-performance architecture?',
           answer:
-            'When you require 100% intellectual property ownership, sub-second global load times that stop buyer drop-offs, and custom demo conversion workflows without third-party plugin vulnerabilities, custom high-performance architecture provides an unconstrained enterprise foundation.',
+            'When you require 100% intellectual property ownership, rapid global load times that stop buyer drop-offs, and custom demo conversion workflows without third-party plugin vulnerabilities, custom high-performance architecture provides an unconstrained enterprise foundation.',
         },
         {
           question: 'How are timelines and scopes structured?',

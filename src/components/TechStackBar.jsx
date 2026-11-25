@@ -97,7 +97,7 @@ const TECH_ECOSYSTEM = [
   {
     id: 'vercel',
     name: 'Vercel Edge',
-    category: 'Global Sub-Second CDN',
+    category: 'Global Edge CDN',
     renderIcon: () => (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M12 1L24 22H0L12 1Z" fill="#FFFFFF" />
@@ -139,7 +139,7 @@ const TECH_ECOSYSTEM = [
   {
     id: 'cwv',
     name: 'Core Web Vitals',
-    category: 'Edge Optimized (TODO: Add measured LCP)',
+    category: 'Edge Optimized',
     renderIcon: () => (
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="12" cy="12" r="10" stroke="rgba(255,255,255,0.2)" strokeWidth="2" />

@@ -26,8 +26,8 @@ const platformsLedger = [
 const principles = [
   {
     icon: Zap,
-    title: 'Sub-Second Speed is a Business Metric',
-    desc: 'Website latency directly destroys pipeline. A 2-second delay silently cuts executive conversion rates in half. Every platform we build is engineered on global edge networks with minimal payload weight to guarantee sub-second delivery.',
+    title: 'Speed is a Direct Revenue Metric',
+    desc: 'Website latency directly damages pipeline conversion. Excessive load delays cause high-intent buyers to abandon evaluations. Every platform we build is engineered on global edge networks with minimal payload weight to deliver fast, responsive interactions.',
   },
   {
     icon: ShieldCheck,

@@ -15,7 +15,7 @@ import './Home.css';
 import './Blog.css';
 
 const proofItems = [
-  { value: 'Fast Edge', label: 'Optimized Page Delivery (TODO: Add measured load speed)' },
+  { value: 'Fast Edge', label: 'Optimized Page Delivery' },
   { value: 'Verified Proof', label: 'Wafa Educational & Charitable Trust' },
   { value: 'GA4 & HubSpot', label: 'Certified Pipeline & Lead Attribution' },
   { value: '100% IP', label: 'Full GitHub Transfer With Zero Agency Retainers' },
@@ -35,7 +35,7 @@ const portfolioShowcases = [
     description:
       'Engineered a clean, accessible high-speed web platform for a philanthropic healthcare and education trust, organizing community initiatives, health aid documentation, and donor contact pathways.',
     architecturalNotes: [
-      { value: 'Sub-Second', label: 'High-Availability Architecture' },
+      { value: 'High Availability', label: 'Edge-Rendered Architecture' },
       { value: 'Accessible', label: 'Mobile-First UI' },
       { value: 'Live Platform', label: 'wafatrustindia.org' },
     ],
@@ -57,9 +57,9 @@ const capabilities = [
     title: 'High-Converting Web Infrastructure & Pipeline Architecture',
     badge: 'Performance & Revenue',
     description:
-      'Custom-engineered from the ground up for high-growth B2B companies. Sub-second global load times that prevent drop-offs, frictionless demo booking pathways, and 100% intellectual property ownership with zero plugin bloat.',
+      'Custom-engineered from the ground up for high-growth B2B companies. Rapid global load times that prevent drop-offs, frictionless demo booking pathways, and 100% intellectual property ownership with zero plugin bloat.',
     deliverables: ['High-Speed Edge Delivery', 'Frictionless Inbound Capture', '100% Client Code & Asset Ownership'],
-    stat: 'Edge Optimized (TODO: Add measured speed)',
+    stat: 'Edge Optimized',
   },
   {
     icon: Search,
@@ -98,7 +98,7 @@ const comparisonData = [
   {
     metric: 'Core Web Vitals & Load Speed',
     legacy: '3.5s to 6.0s (Bloated WordPress themes, 35+ plugins, mobile bounce)',
-    rankur: 'High-speed edge architecture (TODO: Add measured load speed)',
+    rankur: 'High-speed edge architecture',
   },
   {
     metric: 'AI Search Readiness (ChatGPT, Perplexity)',
@@ -124,8 +124,8 @@ const comparisonData = [
 
 const niches = [
   { label: 'B2B SaaS & Tech (Inbound Demo Funnels)', to: '/saas-websites' },
-  { label: 'Industrial & Manufacturing (Tier-1 RFQ Catalogs)', to: '/services' },
-  { label: 'High-Ticket Professional Services (Qualified Calls)', to: '/free-audit' },
+  { label: 'Industrial & Manufacturing (Tier-1 RFQ Catalogs)' },
+  { label: 'High-Ticket Professional Services (Qualified Calls)' },
   { label: 'Philanthropic & Healthcare (Accessible Web Platforms)', to: '/case-studies#wafa-case-study' },
 ];
 
@@ -295,7 +295,7 @@ export default function Home() {
               Engineered for Pipeline Velocity &amp; Market Dominance
             </h2>
             <p className="section-subtitle">
-              We eliminate low-converting agency templates and architect bespoke digital platforms engineered for sub-second speed, search engine dominance, and high-ticket B2B conversion.
+              We eliminate low-converting agency templates and architect bespoke digital platforms engineered for rapid speed, search engine dominance, and high-ticket B2B conversion.
             </p>
           </div>
 
@@ -360,7 +360,7 @@ export default function Home() {
             <p className="section-label">Architectural Reality</p>
             <h2 className="section-title">Why Legacy Agency Websites Fail Enterprise Buyers</h2>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '1.05rem', lineHeight: '1.8' }}>
-              The traditional agency model is broken. When high-ticket buyers evaluate your company, their first impression is formed in sub-second increments. Here is how Rankur compares to standard web studios.
+              The traditional agency model is broken. When high-ticket buyers evaluate your company, their first impression is formed in seconds. Here is how Rankur compares to standard web studios.
             </p>
           </div>
 
@@ -400,7 +400,7 @@ export default function Home() {
             <p className="section-label">Featured Client Build</p>
             <h2 className="section-title">Production Web Architecture</h2>
             <p className="section-subtitle">
-              Accessible digital infrastructure engineered with sub-second responsiveness and modern frontend architecture.
+              Accessible digital infrastructure engineered with edge responsiveness and modern frontend architecture.
             </p>
           </div>
 
@@ -504,11 +504,17 @@ export default function Home() {
             We partner with funded founders, revenue executives, and technical enterprise teams selling high-ticket solutions. Engineered for serious commercial pipeline, not generic templates or DIY experiments.
           </p>
           <div className="niche-strip__grid">
-            {niches.map((niche, i) => (
-              <Link key={i} href={niche.to} className="niche-strip__item">
-                {niche.label}
-              </Link>
-            ))}
+            {niches.map((niche, i) =>
+              niche.to ? (
+                <Link key={i} href={niche.to} className="niche-strip__item">
+                  {niche.label}
+                </Link>
+              ) : (
+                <div key={i} className="niche-strip__item" style={{ cursor: 'default' }}>
+                  {niche.label}
+                </div>
+              )
+            )}
           </div>
         </div>
       </section>

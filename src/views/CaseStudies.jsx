@@ -3,7 +3,6 @@
 import HeroSection from '../components/HeroSection';
 import ClientTrustBar from '../components/ClientTrustBar';
 import CTABlock from '../components/CTABlock';
-import Testimonials from '../components/Testimonials';
 import Guarantee from '../components/Guarantee';
 import { APPROVED_TESTIMONIALS } from '../data/testimonials';
 import './CaseStudies.css';
@@ -12,7 +11,7 @@ const architecturalHighlights = [
   { value: 'Verified Build', label: 'Live Client Platform' },
   { value: 'Accessible', label: 'Mobile-First Design' },
   { value: 'Clean Code', label: 'Full Repository Ownership' },
-  { value: 'Performance', label: 'Edge Architecture (TODO: Add measured number)' },
+  { value: 'Performance', label: 'Edge Architecture' },
   { value: 'Structured', label: 'Schema Knowledge Graph' },
 ];
 
@@ -39,7 +38,7 @@ export default function CaseStudies() {
 
       <ClientTrustBar
         title="Featured Client Platform"
-        subtitle="Live production platform engineered with sub-second responsiveness, mobile accessibility, and clean search architecture."
+        subtitle="Live production platform engineered with edge responsiveness, mobile accessibility, and clean search architecture."
       />
 
       {/* Case Study: Wafa Educational & Charitable Trust */}
@@ -126,13 +125,6 @@ export default function CaseStudies() {
                 <li><strong>Accessible Modern Web Architecture:</strong> Built a lightweight, mobile-first frontend ensuring fast load times across devices.</li>
                 <li><strong>Clear Program Hierarchy:</strong> Structured community outreach, medical dispensaries, and educational programs into clear modules.</li>
                 <li><strong>Inquiry &amp; Contact Pathways:</strong> Implemented direct contact pathways to facilitate donor communication and support.</li>
-                <li><em>TODO: Detail exact pages and features built</em></li>
-              </ul>
-
-              <h3>Verified Metrics &amp; Performance Telemetry</h3>
-              <ul>
-                <li><strong>Performance:</strong> <em>TODO: Measured PageSpeed/Lighthouse numbers, with test date and device</em></li>
-                <li><strong>Search &amp; Visibility:</strong> <em>TODO: Indexed-page count, and any before/after traffic from GSC/GA4</em></li>
               </ul>
 
               <div className="case-full__live-box">
@@ -151,7 +143,7 @@ export default function CaseStudies() {
               {wafaQuote && (
                 <div className="case-full__quote-block">
                   <p className="case-full__quote-text">&ldquo;{wafaQuote.quote}&rdquo;</p>
-                  <p className="case-full__quote-author">- {wafaQuote.name} <em>(TODO: Named person name and title, as approved by Wafa)</em></p>
+                  <p className="case-full__quote-author">- {wafaQuote.name}</p>
                 </div>
               )}
             </div>
@@ -177,8 +169,6 @@ export default function CaseStudies() {
           </p>
         </div>
       </section>
-
-      <Testimonials />
 
       <CTABlock />
     </>

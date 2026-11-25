@@ -96,7 +96,7 @@ export default function Process() {
                 <div className="process-detail__item">Multi-platform search &amp; generative AI answer readiness</div>
                 <div className="process-detail__item">Zero-loss domain equity preservation &amp; traffic retention</div>
                 <div className="process-detail__item">Enterprise inquiry capture &amp; verified lead routing</div>
-                <div className="process-detail__item">Rigorous quality benchmarks &amp; sub-second performance</div>
+                <div className="process-detail__item">Rigorous quality benchmarks &amp; edge performance</div>
                 <div className="process-detail__item">Complete repository handoff with zero platform lock-in</div>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function Process() {
                 <div className="process-detail__item">Executive decision &amp; buyer evaluation assets</div>
                 <div className="process-detail__item">Continuous search authority &amp; indexation intelligence</div>
                 <div className="process-detail__item">Inquiry qualification &amp; conversion pathway refinement</div>
-                <div className="process-detail__item">Sub-second global speed &amp; Core Web Vitals maintenance</div>
+                <div className="process-detail__item">Fast global speed &amp; Core Web Vitals maintenance</div>
                 <div className="process-detail__item">Transparent executive milestone reviews &amp; progress logs</div>
               </div>
             </div>

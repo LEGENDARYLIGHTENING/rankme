@@ -151,7 +151,7 @@ Enforce sub-500ms global render speeds and clean Core Web Vitals.
        ▼
 [Phase 3: Machine-Readable Entity Structuring]
 Inject hierarchical Schema.org JSON-LD structured data linking services to verified corporate entities and executive authors.
-Optimize structured Q&A for generative AI citations and machine readability.
+Structure Q&A markup cleanly. Note that Google limited FAQ rich results in 2023; the markup may help machines parse Q&A, but benefits are not guaranteed.
        │
        ▼
 [Phase 4: Strategic Qualification Routing]

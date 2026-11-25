@@ -82,7 +82,7 @@ A baseline **technical GEO requirements** framework demands a fully integrated, 
 | 2. SameAs Schema: Maps verified Crunchbase, Bloomberg, LinkedIn|
 | 3. Service / Product Schema: Explicit NAICS & ISO taxonomy    |
 | 4. Person Schema: Anchors technical leadership & E-E-A-T      |
-| 5. FAQPage Schema: Directly feeds conversational Q&A pairs    |
+| 5. FAQPage Schema: Structured Q&A markup (Google limited FAQ results in 2023; benefits not guaranteed) |
 +---------------------------------------------------------------+
 ```
 

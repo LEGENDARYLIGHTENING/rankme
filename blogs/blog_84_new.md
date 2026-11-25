@@ -127,7 +127,7 @@ A premier **enterprise B2B technical SEO** architecture hardcodes a fully integr
 | 2. SameAs Properties: Maps verified Crunchbase, Bloomberg, LI |
 | 3. Service / Product Schema: Explicit NAICS & ISO taxonomies  |
 | 4. Person Schema: Binds technical leadership E-E-A-T to content|
-| 5. FAQPage & HowTo Schema: Directly feeds conversational Q&A  |
+| 5. FAQPage & HowTo Schema: Structured Q&A markup (Google limited FAQ results in 2023; benefits not guaranteed) |
 +---------------------------------------------------------------+
 ```
 

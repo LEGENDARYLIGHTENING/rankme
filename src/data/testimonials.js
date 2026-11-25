@@ -6,8 +6,8 @@ export const TESTIMONIALS = [
     id: 'wafa-trust',
     quote:
       'Moksh engineered our digital platform and web presence with high dedication, delivering clean, accessible web infrastructure for our organization.',
-    name: 'Wafa Educational & Charitable Trust', // Organisation label. TODO: Replace with approved person name and title from Wafa
-    role: 'Client Feedback', // TODO: Add approved person role/title
+    name: 'Wafa Educational & Charitable Trust',
+    role: 'Client Feedback',
     company: 'Wafa Educational & Charitable Trust',
     domain: 'https://www.wafatrustindia.org/',
     linkedin: '',
