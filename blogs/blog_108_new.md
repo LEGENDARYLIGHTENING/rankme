@@ -81,7 +81,7 @@ Many B2B organizations invest heavily in top-of-funnel search visibility, only t
                     ▼                               ▼
           Friction-Heavy Funnel            Streamlined Conversion Flow
           • 11 Required Form Fields        • 3 Essential Fields (Work Email)
-          • Slow 4.2s Page Load Time       • Sub-Second Edge Delivery
+          • Slow 4.2s Page Load Time       • server-rendered Edge Delivery
           • Generic "Submit" CTA           • Transparent Scope & Pricing
           • Outcome: 2 Inquiries (0.08%)   • Outcome: 48 Inquiries (1.92%)
 ```
@@ -126,7 +126,7 @@ A commercial audit must verify whether your domain's core capabilities are struc
 - **Schema Entity Validation:** Ensure JSON-LD `Organization`, `Service`, and `FAQPage` schemas clearly define your service portfolio, operating markets, and leadership attribution.
 - **Factual Density Check:** Replace vague adjectives with verified numbers, named client engagements, and exact architectural parameters.
 
-When auditing the platform for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), validating semantic markup and high-speed edge delivery ensured clean discoverability across both traditional search and generative engines.
+When auditing the platform for [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), validating semantic markup and custom Next.js edge delivery ensured clean discoverability across both traditional search and generative engines.
 
 ---
 

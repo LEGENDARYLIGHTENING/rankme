@@ -91,7 +91,7 @@ When an AI synthesizes answers regarding that specific benchmark, your domain is
 Even the most factually dense article will fail to earn citations if automated scrapers encounter crawling bottlenecks or missing entity signals:
 - Wrap every question-and-answer section in valid JSON-LD `FAQPage` schema.
 - Associate the author with a verified `Person` entity containing external links to technical profiles.
-- Maintain sub-second static HTML edge delivery so bot scrapers experience zero timeout latency.
+- Maintain server-rendered static HTML edge delivery so bot scrapers experience zero timeout latency.
 
 Review our technical guide on [structured data strategies for AI search visibility](/blog/structured-data-strategies-ai-search-visibility).
 

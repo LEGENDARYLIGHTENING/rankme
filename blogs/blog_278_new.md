@@ -99,7 +99,7 @@ In our production platform engineering for [Wafa Educational & Charitable Trust]
 | **Pre-Launch** | 1-to-1 301 Redirect Mapping | 100% legacy URLs mapped to relevant pages |
 | **Pre-Launch** | Meta Title & Description Audit | Titles <= 60 chars, Descriptions <= 155 chars |
 | **Post-Launch** | Live HTTP Status Codes | 0 404 errors, 0 redirect chains |
-| **Post-Launch** | Core Web Vitals Inspection | LCP <0.8s, CLS 0.00, INP <100ms |
+| **Post-Launch** | Core Web Vitals Inspection | CLS 0.00, INP <100ms |
 | **Post-Launch** | Telemetry Attribution Check | GA4 custom conversion events firing cleanly |
 
 Safeguard your accumulated search equity with rigorous engineering discipline.

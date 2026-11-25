@@ -197,8 +197,8 @@ Deploy dedicated security hubs displaying verified SOC 2, ISO, and privacy dossi
 Secure authoritative executive citations and podcast features linking back to named author profiles on your primary domain.
        │
        ▼
-[Phase 5: Sub-Second Performance Verification]
-Migrate commercial pathways to high-speed Next.js Edge architecture, guaranteeing sub-500ms global render speeds.
+[Phase 5: server-rendered Performance Verification]
+Migrate commercial pathways to custom Next.js Next.js Edge architecture, guaranteeing sub-500ms global render speeds.
 ```
 
-If your enterprise has built industry-leading capabilities but struggles to command the organic authority and search rankings your solutions deserve, explore our [transparent pricing tiers](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build high-speed, enterprise-grade digital systems designed to turn technical execution into verified commercial revenue.
+If your enterprise has built industry-leading capabilities but struggles to command the organic authority and search rankings your solutions deserve, explore our [transparent pricing tiers](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build custom Next.js, enterprise-grade digital systems designed to turn technical execution into verified commercial revenue.

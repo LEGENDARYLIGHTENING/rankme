@@ -207,4 +207,4 @@ Embed contextual case study snippets directly on core service pages, pricing tab
 Equip your enterprise solutions architects with modular 1-page PDF versions of each case study to support active proposals.
 ```
 
-If your enterprise has delivered exceptional outcomes for clients but lacks the high-converting digital proof assets required to win competitive bids, explore our [transparent pricing packages](/pricing) or book an architectural consultation through our [contact portal](/contact). We build high-speed, enterprise-grade digital systems designed to turn technical execution into verified commercial revenue.
+If your enterprise has delivered exceptional outcomes for clients but lacks the high-converting digital proof assets required to win competitive bids, explore our [transparent pricing packages](/pricing) or book an architectural consultation through our [contact portal](/contact). We build custom Next.js, enterprise-grade digital systems designed to turn technical execution into verified commercial revenue.

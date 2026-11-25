@@ -103,7 +103,7 @@ The table below contrasts the commercial performance of a traditional brochure w
 
 | Evaluation Element | The Zero-Lead Brochure Site | The High-Converting Platform |
 | :--- | :--- | :--- |
-| **Hero Headline** | *"Pioneering Smart Digital Transformation"* | *"Custom High-Speed Web Platforms for Mid-Market B2B Exporters"* |
+| **Hero Headline** | *"Pioneering Smart Digital Transformation"* | *"Custom custom Next.js Web Platforms for Mid-Market B2B Exporters"* |
 | **Proof Elements** | Generic stock graphics, unverified quotes | Verified client case studies, founder portrait, Skillshop links |
 | **Mobile Speed (LCP)** | 4.8 seconds (Sluggish WordPress theme) | 0.9 seconds (Static Next.js Edge delivery) |
 | **Contact Mechanism** | 12-field form requiring phone & budget | 2-step frictionless qualification with instant calendar booking |

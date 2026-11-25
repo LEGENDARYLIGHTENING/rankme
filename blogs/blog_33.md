@@ -188,4 +188,4 @@ Map incoming corporate domains against target account lists, routing engaged dec
 Measure pipeline velocity, average contract values, and closed-won revenue from syndication touchpoints over 90 days.
 ```
 
-If your enterprise has built exceptional capabilities but struggles to command the market attention your solutions deserve, explore our [fixed-fee pricing plans](/pricing) or contact our digital architects through our [consultation calendar](/contact). We build high-speed, enterprise-grade digital systems engineered to convert technical expertise into verified commercial revenue.
+If your enterprise has built exceptional capabilities but struggles to command the market attention your solutions deserve, explore our [fixed-fee pricing plans](/pricing) or contact our digital architects through our [consultation calendar](/contact). We build custom Next.js, enterprise-grade digital systems engineered to convert technical expertise into verified commercial revenue.

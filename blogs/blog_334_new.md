@@ -131,7 +131,7 @@ The table below contrasts standard agency hero sections against high-converting 
 
 ---
 
-## 4. Technical Performance: The Sub-Second Edge Render
+## 4. Technical Performance: The Server-Rendered Edge Delivery
 
 A perfectly written hero section will still fail if it takes 4 seconds to render on an executive's mobile device.
 
@@ -160,4 +160,4 @@ Your homepage hero section is your company's digital handshake. If it is vague, 
 +-------------------------------------------------------------------------------+
 ```
 
-By engineering your hero section for commercial clarity, authentic proof, and sub-second performance, your company hooks enterprise decision-makers immediately and turns homepage traffic into predictable sales pipeline.
+By engineering your hero section for commercial clarity, authentic proof, and server-rendered performance, your company hooks enterprise decision-makers immediately and turns homepage traffic into predictable sales pipeline.

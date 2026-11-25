@@ -119,7 +119,7 @@ Executing professional **enterprise partner marketing** requires dedicated digit
 Enterprise digital platforms must support high-performance collaborative assets:
 - **Dedicated Co-Branded Landing Hubs:** Host joint research and interactive tools on custom sub-domains or dedicated URLs that cleanly display dual branding, unified navigation, and shared institutional proof.
 - **Unified Structured Data (JSON-LD):** Deploy nested `Organization` schema markup that mathematically defines the partnership relationship, signaling institutional credibility to both search crawlers and AI discovery engines.
-- **Sub-Second Edge Delivery:** Ensure joint calculators and diagnostic tools load in under 800 milliseconds globally, preventing partner audience drop-off.
+- **server-rendered Edge Delivery:** Ensure joint calculators and diagnostic tools load in under 800 milliseconds globally, preventing partner audience drop-off.
 
 To learn why custom headless engineering outperforms generic website templates in supporting advanced integrations, review our analysis on [Custom vs Template B2B Websites: Cost vs Outcome Analysis](/blog/custom-vs-template-b2b-websites-cost-outcome).
 

@@ -368,7 +368,7 @@ export const countryData = {
         </>
       ),
       heroSubtitle:
-        'Clean, high-speed Next.js web architecture and technical SEO for New Zealand export-oriented B2B and SaaS teams.',
+        'Clean, custom Next.js web architecture and technical SEO for New Zealand export-oriented B2B and SaaS teams.',
       problemText: [
         'New Zealand B2B companies frequently balance domestic market clarity with export growth into Australia, North America, and Europe.',
         'Legacy websites built on heavy visual themes slow down mobile buyers and leave international search visibility on the table.',

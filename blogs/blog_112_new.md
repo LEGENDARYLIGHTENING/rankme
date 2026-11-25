@@ -95,7 +95,7 @@ Never rely on unstructured marketing paragraphs alone to explain your commercial
   "name": "B2B Web Engineering & Search Systems",
   "provider": { "@id": "https://rankursite.com/#organization" },
   "serviceType": "Enterprise Custom Web Architecture",
-  "description": "Sub-second Next.js digital platforms engineered for deterministic search visibility and enterprise B2B lead qualification.",
+  "description": "server-rendered Next.js digital platforms engineered for deterministic search visibility and enterprise B2B lead qualification.",
   "areaServed": [
     { "@type": "Country", "name": "United States" },
     { "@type": "Country", "name": "United Kingdom" },

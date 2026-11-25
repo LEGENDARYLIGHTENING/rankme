@@ -164,8 +164,8 @@ Replace generic PDF lead captures with interactive ROI calculators and multi-ste
        │
        ▼
 [Month 3: Technical Performance and Edge Modernization]
-Eliminate plugin bloat and migrate critical commercial paths to high-speed Next.js Edge architecture.
-Verify sub-second mobile rendering times and implement enterprise structured schema markup.
+Eliminate plugin bloat and migrate critical commercial paths to custom Next.js Next.js Edge architecture.
+Verify server-rendered mobile rendering times and implement enterprise structured schema markup.
 ```
 
 ---
@@ -174,6 +174,6 @@ Verify sub-second mobile rendering times and implement enterprise structured sch
 
 A high-traffic website that fails to generate qualified sales pipeline is a depreciating marketing asset that wastes sales development resources and misleads executive leadership.
 
-By aligning your content architecture with commercial buyer intent, eliminating cognitive messaging friction, and engineering high-speed digital pathways, your website becomes the most reliable revenue driver in your organization.
+By aligning your content architecture with commercial buyer intent, eliminating cognitive messaging friction, and engineering custom Next.js digital pathways, your website becomes the most reliable revenue driver in your organization.
 
 Review our transparent [pricing packages](/pricing) or book a strategic infrastructure review with our senior partners via our [consultation calendar](/contact). We help ambitious enterprise brands turn digital visibility into closed-won commercial revenue.

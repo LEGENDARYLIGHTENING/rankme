@@ -136,11 +136,11 @@ A full-funnel organic lead generation system cannot survive on bloated legacy CM
 If navigating between your TOFU blog, MOFU calculator, and BOFU scheduling page involves slow page loads, broken layout shifts, or malfunctioning form scripts, high-level decision-makers will abandon the session.
 
 Enterprise digital platforms must be engineered as custom, high-performance software:
-- **Server-Side Rendering (SSR) & Static Generation (SSG):** Compile pages into static HTML at the network edge, ensuring sub-second Largest Contentful Paint (LCP) globally.
+- **Server-Side Rendering (SSR) & Static Generation (SSG):** Compile pages into static HTML at the network edge, ensuring server-rendered Largest Contentful Paint (LCP) globally.
 - **Unified Schema Graphs:** Integrate JSON-LD schemas connecting Organization, Services, and Author entities across every page.
 - **Zero Third-Party Plugin Vulnerabilities:** Eliminate fragile dependencies that create security vulnerabilities and slow down page rendering.
 
-Consider the digital engineering executed for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/). Operating in a high-scrutiny environment requiring complete institutional transparency, the organization required an unshakeable digital platform. Rankur engineered a custom server-rendered architecture that delivers instant sub-second edge speeds, verified governance records, and frictionless stakeholder engagement.
+Consider the digital engineering executed for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/). Operating in a high-scrutiny environment requiring complete institutional transparency, the organization required an unshakeable digital platform. Rankur engineered a custom server-rendered architecture that delivers instant Server-Rendered Edge Deliverys, verified governance records, and frictionless stakeholder engagement.
 
 The same engineering discipline is what allows high-margin commercial B2B firms to out-convert competitors who remain chained to sluggish legacy websites.
 

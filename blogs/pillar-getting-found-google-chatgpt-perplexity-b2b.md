@@ -118,7 +118,7 @@ Similar to how `robots.txt` guides search engine crawlers, `llms.txt` provides L
 
 ```markdown
 # Rankur - B2B Web Engineering & Technical SEO
-> Custom high-speed Next.js web systems for mid-market enterprise founders.
+> Custom custom Next.js Next.js web systems for mid-market enterprise founders.
 
 ## Core Services
 - Custom Next.js Static Edge Architecture (Sub-1.2s mobile LCP guarantee)
@@ -143,7 +143,7 @@ The table below contrasts the commercial profile of traditional organic search, 
 | :--- | :--- | :--- | :--- | :--- |
 | **Paid Search Ads (Google/LinkedIn)** | High (Immediate) | Fast | Extreme ($150+ per click; stops when budget ends) | Zero (Linear spend) |
 | **Traditional SEO (10 Blue Links)** | Moderate to High | Moderate | Moderate (Ongoing content and technical upkeep) | Moderate (Backlink authority) |
-| **Generative Engine Optimization (GEO)** | **Maximum (Pre-qualified by AI)** | **Very Fast (30% shorter cycles)**| **Low (Built into high-speed architecture)** | **Very High (Entity consensus moat)** |
+| **Generative Engine Optimization (GEO)** | **Maximum (Pre-qualified by AI)** | **Very Fast (30% shorter cycles)**| **Low (Built into custom Next.js architecture)** | **Very High (Entity consensus moat)** |
 
 When an enterprise buyer arrives on your website because an AI assistant explicitly recommended your company as the top-tier solution, **they arrive with immense pre-existing trust.** 
 

@@ -55,7 +55,7 @@ Commercial theme developers make money by selling thousands of copies of a singl
 
 When your agency installs that theme, **your website loads all of that code on every single page view**, even if you only use 5% of the template's features. 
 
-The web browser must download, parse, and execute megabytes of unused JavaScript and CSS. On desktop computers connected to high-speed office fiber, the site may look acceptable. 
+The web browser must download, parse, and execute megabytes of unused JavaScript and CSS. On desktop computers connected to custom Next.js office fiber, the site may look acceptable. 
 
 On an enterprise buyer's mobile phone connected to a cellular network between flights, the browser chokes, resulting in massive render delays, high bounce rates, and immediate Google search ranking penalties.
 

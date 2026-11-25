@@ -33,7 +33,7 @@ The table below outlines the four primary tiers of commercial web development, t
 | :--- | :--- | :--- | :--- |
 | **Tier 1: Low-Cost Freelance** | $2,500 to $7,500 | Off-the-shelf WordPress/Webflow theme, pre-built templates | Looks acceptable on desktop, slow on mobile (LCP > 4.5s), generic copy, zero pipeline impact. |
 | **Tier 2: Regional Agency** | $12,000 to $25,000 | Custom WordPress or standard Webflow build, custom graphics | Better visual polish, basic on-page SEO, standard contact forms. Moderate lead generation. |
-| **Tier 3: Engineering Consultancy** | $25,000 to $55,000 | Custom Next.js static edge architecture, custom conversion routing | Sub-second mobile speeds, high-intent qualification funnels, nested Schema.org, dominant search visibility. |
+| **Tier 3: Engineering Consultancy** | $25,000 to $55,000 | Custom Next.js static edge architecture, custom conversion routing | server-rendered mobile speeds, high-intent qualification funnels, nested Schema.org, dominant search visibility. |
 | **Tier 4: Enterprise Agency** | $75,000 to $150,000+ | Large-scale CMS (Drupal, Adobe Experience Manager, or custom headless) | Extensive stakeholder workshops, full rebrand, multi-language localization. Long 6 to 9-month delivery cycles. |
 
 ---
@@ -74,7 +74,7 @@ Saving $20,000 on website development to lose two $50,000 deals is the single mo
 
 When you partner with a specialized B2B web engineering consultancy, your investment is distributed across four core disciplines:
 
-### 1. High-Speed Technical Architecture (Next.js & Edge CDN)
+### 1. Custom Next.js Technical Architecture (Next.js & Edge CDN)
 Building a bespoke React Next.js application requires skilled software engineering rather than dragging and dropping blocks in a page builder. 
 
 The consultancy writes modular components, sets up static site generation (SSG), optimizes server response times to sub-50 milliseconds, and guarantees Google Core Web Vitals scores above 95. This technical foundation ensures your site never suffers from plugin crashes or hosting slowdowns.
@@ -130,4 +130,4 @@ A B2B website is not a creative art project; it is the most critical commercial 
 +-------------------------------------------------------------------------------+
 ```
 
-By investing in high-speed custom architecture and clear commercial positioning, you build an enduring digital revenue engine that establishes market authority, pre-qualifies buyers, and delivers outsized financial returns for years to come.
+By investing in custom Next.js custom architecture and clear commercial positioning, you build an enduring digital revenue engine that establishes market authority, pre-qualifies buyers, and delivers outsized financial returns for years to come.

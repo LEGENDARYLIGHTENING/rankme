@@ -113,7 +113,7 @@ To transition from ad-hoc tactics to an integrated growth capability, executive 
 Generic marketing language like "innovative scalable solutions" is invisible to large language models. Product marketing must coin and consistently deploy proprietary nomenclature for your methodologies. When your team defines a distinct framework (e.g., "The 3-Phase Enterprise Modernization Blueprint"), generative engines categorize that framework as unique intellectual property, binding it directly to your brand.
 
 ### Web Engineering: Treating the Website as Software
-Your website is not a marketing brochure; it is high-performance infrastructure. Engineering must treat sub-second Edge Server-Side Rendering (SSR), multi-tiered schema graphs, and crawler accessibility as mission-critical technical SLAs. If a web deployment breaks schema validation or introduces client-side rendering bottlenecks, it is treated as a critical production bug.
+Your website is not a marketing brochure; it is high-performance infrastructure. Engineering must treat server-rendered Edge Server-Side Rendering (SSR), multi-tiered schema graphs, and crawler accessibility as mission-critical technical SLAs. If a web deployment breaks schema validation or introduces client-side rendering bottlenecks, it is treated as a critical production bug.
 
 ### Sales and Revenue Operations: Calibrating for Velocity
 Revenue operations must update CRM tracking to isolate inbound leads originating from `perplexity.ai`, `chatgpt.com`, and other generative referrers. Sales leadership must retrain Account Executives: when a prospect arrives via generative discovery, they do not need a 45-minute company overview; they need deep architectural confirmation and contract structuring.
@@ -168,7 +168,7 @@ To evaluate whether your organization has successfully integrated GEO across its
 | #  | Operational Checkpoint       | Executive Integration Standard                                |
 +----+------------------------------+---------------------------------------------------------------+
 | 1  | Machine-Readable Messaging   | Core value propositions structured in concise factual units.  |
-| 2  | Infrastructure Reliability   | Sub-second Edge SSR with 100% valid nested JSON-LD schemas.   |
+| 2  | Infrastructure Reliability   | server-rendered Edge SSR with 100% valid nested JSON-LD schemas.   |
 | 3  | Commercial Transparency      | Un-gated pricing tiers, implementation ranges, and ROI tools. |
 | 4  | RevOps Citation Attribution  | CRM tracking isolating AI referral opportunities and pipeline.|
 | 5  | Sales Enablement Alignment   | Sales reps equipped with third-party generative validation.   |

@@ -120,7 +120,7 @@ A future-proof digital infrastructure treats your corporate website as a bespoke
 ### The Value of Custom Web Infrastructure
 Custom-engineered web architecture provides total command over your digital asset:
 - **Instant Crawler Adaptation:** Update schema definitions, caching headers, and robot directives across thousands of pages instantly via automated build pipelines.
-- **Sub-Second Global Performance:** Deliver static assets from edge networks with Core Web Vitals scores exceeding 95, ensuring maximum crawl efficiency.
+- **Global Edge Delivery:** Deliver static assets from edge networks with Core Web Vitals scores exceeding 95, ensuring maximum crawl efficiency.
 - **Zero Plugin Vulnerabilities:** Eliminate third-party dependencies that expose corporate databases to security breaches.
 
 Consider the digital engineering executed for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/). Operating in a high-trust, audited institutional environment, the organization required a custom web infrastructure capable of delivering absolute reliability, instantaneous load speeds, and total transparency. By engineering a custom digital architecture, Rankur provided an unshakeable digital footprint that serves users and automated verification systems with zero technical debt or operational downtime.
@@ -141,7 +141,7 @@ To ensure your digital platform remains resilient against ongoing AI search disr
 +----+------------------------------+---------------------------------------------------------------+
 | 1  | Zero Client-Side Dependency  | Complete factual and compliance data pre-rendered in HTML.    |
 | 2  | Deep Semantic Schema Graph   | Multi-tier JSON-LD binding corporate entities, leaders, specs.|
-| 3  | Sub-Second Edge Performance  | Core Web Vitals in 95th percentile globally across all pages. |
+| 3  | Edge-Delivered Architecture  | Core Web Vitals in 95th percentile globally across all pages. |
 | 4  | Quotable Factual Density     | Core pages structured into concise, authoritative answer units.|
 | 5  | High-Intent Conversion Hooks | Interactive tools and calculators that compel post-click action|
 | 6  | Total Architectural Control  | Modern headless framework immune to legacy plugin breakages.  |
