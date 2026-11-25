@@ -135,7 +135,7 @@ To assist executive leadership in balancing capital allocation, we evaluate all 
 +------------------------------+--------------------+--------------------+--------------------+
 ```
 
-For a comprehensive mathematical framework to model your organization's specific customer acquisition costs, explore our guide on [The True Cost Per Sales Qualified Lead (SQL)](/blog/cost-per-sales-qualified-lead-website-calculator-327).
+For a comprehensive mathematical framework to model your organization's specific customer acquisition costs, explore our guide on [The True Cost Per Sales Qualified Lead (SQL)](/blog/b2b-website-roi-calculator-framework).
 
 ---
 

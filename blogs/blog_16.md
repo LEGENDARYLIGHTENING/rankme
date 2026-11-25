@@ -114,7 +114,7 @@ Evaluate this segment on conversion efficiency rather than raw volume:
 - **Lead-to-Opportunity Rate:** AI referrals typically convert at 3x to 5x the rate of standard search traffic because the buyer has already been pre-qualified by the generative synthesis.
 - **Deal Velocity:** Prospects originating from generative citations frequently move through sales stages faster because the AI has already answered their foundational compliance, technical, and pricing questions before the first sales call.
 
-To evaluate how these conversion multipliers impact your overall commercial economics, review our framework on [Calculating the True Cost Per Sales Qualified Lead (SQL)](/blog/cost-per-sales-qualified-lead-website-calculator-327).
+To evaluate how these conversion multipliers impact your overall commercial economics, review our framework on [Calculating the True Cost Per Sales Qualified Lead (SQL)](/blog/b2b-website-roi-calculator-framework).
 
 ---
 

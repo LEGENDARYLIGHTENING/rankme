@@ -93,7 +93,7 @@ Even the most factually dense article will fail to earn citations if automated s
 - Associate the author with a verified `Person` entity containing external links to technical profiles.
 - Maintain server-rendered static HTML edge delivery so bot scrapers experience zero timeout latency.
 
-Review our technical guide on [structured data strategies for AI search visibility](/blog/structured-data-strategies-ai-search-visibility).
+Review our technical guide on [structured data strategies for AI search visibility](/blog/schema-markup-b2b-product-service-pages).
 
 ---
 

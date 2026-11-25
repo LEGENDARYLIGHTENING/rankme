@@ -115,7 +115,7 @@ High-performing B2B enterprises implement strategic qualification friction:
 - **Domain Verification:** Require business email domains, instantly filtering out consumer `@gmail` or `@yahoo` submissions.
 - **Project Sizing Fields:** Inquire about implementation timelines and active budget thresholds directly on discovery forms.
 
-Explore our comprehensive analysis on [gated vs ungated content for B2B lead generation](/blog/gated-vs-ungated-content-b2b-lead-generation) to recalibrate your lead qualification filters.
+Explore our comprehensive analysis on [gated vs ungated content for B2B lead generation](/blog/why-business-websites-get-zero-leads) to recalibrate your lead qualification filters.
 
 ---
 

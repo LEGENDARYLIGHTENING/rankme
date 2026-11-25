@@ -75,7 +75,7 @@ Enterprise vendors frequently refuse to display public pricing because every con
 
 The strategic solution is utilizing aggregate offer structures. By specifying currency definitions alongside realistic starting baseline ranges (e.g., annual contracts starting at a baseline threshold), your website satisfies the algorithm's commercial criteria while pre-qualifying incoming inquiries. Inquisitive tire-kickers are filtered out before reaching your executive calendar.
 
-For additional insight into structuring high-conversion product landing pages, read our analysis on [B2B product category landing page strategy](/blog/b2b-landing-page-strategy-product-categories).
+For additional insight into structuring high-conversion product landing pages, read our analysis on [B2B product category landing page strategy](/blog/technical-seo-foundations-every-b2b-website-needs).
 
 ---
 

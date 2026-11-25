@@ -46,7 +46,7 @@ Prior to the architectural overhaul, the organization was experiencing the class
 2. **Monolithic CMS Latency:** The corporate website was built on an unoptimized WordPress theme burdened with 42 plugins. Mobile load times averaged 4.6 seconds, triggering immediate abandonment by enterprise buyers researching on handheld devices.
 3. **Absence of Technical Qualification:** The contact form consisted of three generic fields (*Name, Email, Message*). This lack of friction attracted automated spam and non-funded inquiries while repelling serious enterprise buyers who sought clear scoping frameworks.
 
-Review our analysis on [why website traffic rises while qualified pipeline falls](/blog/website-traffic-up-qualified-pipeline-down) for a deeper diagnostic of this common failure mode.
+Review our analysis on [why website traffic rises while qualified pipeline falls](/blog/seo-mistakes-kill-b2b-lead-quality) for a deeper diagnostic of this common failure mode.
 
 ---
 

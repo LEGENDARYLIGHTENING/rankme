@@ -1,4 +1,7 @@
 import { NextResponse } from 'next/server';
+import goneSlugs from './src/data/goneSlugs.json';
+
+const GONE_SLUGS_SET = new Set(goneSlugs);
 
 export function middleware(request) {
   const { pathname, search } = request.nextUrl;
@@ -6,6 +9,20 @@ export function middleware(request) {
 
   const strippedPath =
     pathname !== '/' && pathname.endsWith('/') ? pathname.slice(0, -1) : pathname;
+
+  // 0. Serve HTTP 410 Gone for Wave 1 archived blog slugs (data-driven lookup)
+  if (strippedPath.startsWith('/blog/')) {
+    const slug = strippedPath.slice('/blog/'.length);
+    if (slug && !slug.includes('/') && GONE_SLUGS_SET.has(slug)) {
+      return new NextResponse('410 Gone', {
+        status: 410,
+        headers: {
+          'Content-Type': 'text/plain; charset=utf-8',
+          'X-Robots-Tag': 'noindex',
+        },
+      });
+    }
+  }
 
   // 1. Force non-WWW canonical domain + strip trailing slash in one 301 hop
   if (hostname.toLowerCase().startsWith('www.')) {

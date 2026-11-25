@@ -55,7 +55,7 @@ Google outlines the E-E-A-T framework within its formal Search Quality Rater Gui
 
 When an enterprise website mathematically proves all four dimensions through underlying code and verifiable third-party linkages, search algorithms award top-tier rankings and prominent generative citations.
 
-Review our analysis on [algorithm update resilience for B2B websites](/blog/algorithm-update-resilience-b2b-websites).
+Review our analysis on [algorithm update resilience for B2B websites](/blog/future-proofing-b2b-websites-generative-engine-optimization).
 
 ---
 
@@ -151,7 +151,7 @@ An enterprise executive evaluating a vendor requires total assurance regarding l
 
 When an enterprise buyer visits your website and encounters transparent pricing, verified security badges, clear corporate governance, and named executive authors, all institutional risk anxiety is eliminated.
 
-Review our analysis on [why high-intent visitors bounce from B2B pricing pages](/blog/high-intent-bounce-pricing-page).
+Review our analysis on [why high-intent visitors bounce from B2B pricing pages](/blog/b2b-pricing-page-bounces-high-intent-buyers-332).
 
 ---
 
