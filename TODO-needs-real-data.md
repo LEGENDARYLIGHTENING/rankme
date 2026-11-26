@@ -11,12 +11,12 @@ All placeholder phrases and inline TODO strings have been removed from user-faci
 - **File**: `src/views/Home.jsx`
   - **What is needed**: Real measured page load speed and edge delivery time (e.g. mobile LCP in seconds, mobile TTFB) to back performance statements.
   - **Who supplies it**: Moksh Parjapati (measured via Google PageSpeed Insights on mobile or webpagetest.org).
-  - **Current status**: Displays qualitative statement "Fast Edge" and "High-speed edge architecture".
+  - **Current status**: Displays plain Next.js SSR architecture wording. Local Lighthouse 13.6.0 Lab Data (5-run idle medians against local `next start` on `perf-fixes`, 2026-11-26) is **available, awaiting Moksh's approval to publish** (Baseline -> After: Mobile Perf 82 -> 91, LCP 1.32s -> 1.28s, CLS 0 -> 0, TBT 710ms -> 376ms; Desktop Perf 100 -> 100, LCP 0.51s -> 0.34s, CLS 0.022 -> 0, TBT 40ms -> 0ms; see `audit/performance-before-after.md`). Note: earlier desktop figure of 77 overlapped with a build and has been replaced.
 
 - **File**: `src/components/TechStackBar.jsx`
   - **What is needed**: Measured Core Web Vitals LCP benchmark under edge network deployment.
   - **Who supplies it**: Moksh Parjapati.
-  - **Current status**: Displays qualitative category "Edge Optimized".
+  - **Current status**: Displays plain category "Web Performance Auditing". Lab Data medians are **available, awaiting Moksh's approval to publish** in `audit/performance-before-after.md`.
 
 ---
 
