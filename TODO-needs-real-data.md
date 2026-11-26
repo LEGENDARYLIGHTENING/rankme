@@ -11,12 +11,12 @@ All placeholder phrases and inline TODO strings have been removed from user-faci
 - **File**: `src/views/Home.jsx`
   - **What is needed**: Real measured page load speed and edge delivery time (e.g. mobile LCP in seconds, mobile TTFB) to back performance statements.
   - **Who supplies it**: Moksh Parjapati (measured via Google PageSpeed Insights on mobile or webpagetest.org).
-  - **Current status**: Displays qualitative statement "Fast Edge" and "High-speed edge architecture".
+  - **Current status**: Displays plain Next.js SSR architecture wording. Local Lighthouse Lab Data (3-run medians, 2026-11-25/26) for `https://rankursite.com/` is **available, awaiting Moksh's approval to publish** (Mobile: Perf 72, LCP 2.24s, CLS 0, TBT 1198ms; Desktop: Perf 77, LCP 1.44s, CLS 0.008, TBT 216ms; see `audit/pagespeed/summary.md`).
 
 - **File**: `src/components/TechStackBar.jsx`
   - **What is needed**: Measured Core Web Vitals LCP benchmark under edge network deployment.
   - **Who supplies it**: Moksh Parjapati.
-  - **Current status**: Displays qualitative category "Edge Optimized".
+  - **Current status**: Displays plain category "Web Performance Auditing". Lab Data medians are **available, awaiting Moksh's approval to publish** in `audit/pagespeed/summary.md`.
 
 ---
 
@@ -25,7 +25,7 @@ All placeholder phrases and inline TODO strings have been removed from user-faci
 - **File**: `src/views/CaseStudies.jsx`
   - **What is needed**:
     1. **Detailed Features Built**: Specific list of functional deliverables implemented for Wafa (e.g. direct donation flow, programs directory, community healthcare portal, contact routing).
-    2. **Measured PageSpeed/Lighthouse**: Exact mobile and desktop scores (Performance, Accessibility, Best Practices, SEO), test date, and device cohort.
+    2. **Measured PageSpeed/Lighthouse**: Exact mobile and desktop scores (Performance, Accessibility, Best Practices, SEO), test date, and device cohort. Local Lighthouse Lab Data (3-run medians, 2026-11-26) for `https://www.wafatrustindia.org/` is **available, awaiting Moksh's approval to publish** (Mobile: Perf 59, LCP 5.06s, CLS 0, TBT 913ms; Desktop: Perf 97, LCP 1.17s, CLS 0, TBT 8ms; see `audit/pagespeed/summary.md`).
     3. **Indexed Pages & Growth**: Total indexed URLs count and before/after traffic metrics from Google Search Console or Google Analytics 4.
     4. **Named Signatory**: Approved individual person name and official leadership title/designation from Wafa to accompany the testimonial quote.
   - **Who supplies it**: Moksh Parjapati and Wafa Trust Leadership.
