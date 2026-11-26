@@ -4,7 +4,7 @@ import { constructMetadata } from '../../src/components/Seo';
 export const metadata = constructMetadata({
   title: 'B2B Web Architecture & Client Case Studies | Rankur',
   description:
-    'Inspect verified web platform architecture, technical SEO structure, and digital accessibility delivered for Wafa Educational & Charitable Trust. Full code ownership delivered.',
+    'Case study of the Wafa Educational & Charitable Trust website rebuild from WordPress to Next.js 16 with React 19 (App Router), hosted on Vercel.',
   canonical: '/case-studies',
 });
 

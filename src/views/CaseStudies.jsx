@@ -38,7 +38,7 @@ export default function CaseStudies() {
 
       <ClientTrustBar
         title="Featured Client Platform"
-        subtitle="Live production platform engineered with edge responsiveness, mobile accessibility, and clean search architecture."
+        subtitle="Rebuilt from WordPress to Next.js 16 with React 19 (App Router) and hosted on Vercel."
       />
 
       {/* Case Study: Wafa Educational & Charitable Trust */}
@@ -52,9 +52,9 @@ export default function CaseStudies() {
             <span className="case-full__verified-pulse"></span>
             Verified Client Platform · Live Production
           </div>
-          <p className="section-label">Case Study · Healthcare, Education &amp; Philanthropic NGO</p>
+          <p className="section-label">Case Study · Client Build</p>
           <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-md) 0' }}>
-            Wafa Educational &amp; Charitable Trust: Accessible Digital Platform
+            Wafa Educational &amp; Charitable Trust: Next.js Web Platform
           </h2>
 
           <div className="case-full__layout">
@@ -110,22 +110,30 @@ export default function CaseStudies() {
             <div className="case-full__content">
               <div className="case-full__tech-pills">
                 <span className="case-full__tech-pill">Client Project</span>
-                <span className="case-full__tech-pill">High-Performance Frontend</span>
-                <span className="case-full__tech-pill">Mobile-First Accessibility</span>
-                <span className="case-full__tech-pill">Structured Data Schema</span>
+                <span className="case-full__tech-pill">Next.js 16 + React 19</span>
+                <span className="case-full__tech-pill">Vercel Edge Cache</span>
+                <span className="case-full__tech-pill">Zero Third-Party JS on Homepage</span>
               </div>
 
-              <h3>Context &amp; Mission</h3>
+              <h3>What Was Built</h3>
+              <ul>
+                <li><strong>WordPress to Next.js Migration:</strong> Rebuilt the Wafa Trust website from WordPress to Next.js 16 with React 19 (App Router).</li>
+                <li><strong>Page Modules:</strong> Implemented a hero slider, impact counters, a project showcase, a campaign grid, and a donation section with a QR code.</li>
+                <li><strong>On-Page Technical Baseline:</strong> Configured the homepage with one H1, a language attribute, a canonical tag, a robots.txt, and alt text on all 17 images.</li>
+              </ul>
+
+              <h3>Approach</h3>
               <p>
-                Wafa Educational and Charitable Trust manages community healthcare, charitable dispensaries, and educational scholarship initiatives. They required a modern, accessible web platform to convey their humanitarian mission and facilitate direct donor inquiries.
+                Hosted on Vercel, pages are prerendered and served from Vercel&apos;s edge cache (verified via <code>x-nextjs-prerender</code> and <code>x-vercel-cache: HIT</code> response headers), with zero third-party JavaScript loading on the homepage.
               </p>
 
-              <h3>What Was Built (Architecture &amp; Features)</h3>
-              <ul>
-                <li><strong>Accessible Modern Web Architecture:</strong> Built a lightweight, mobile-first frontend ensuring fast load times across devices.</li>
-                <li><strong>Clear Program Hierarchy:</strong> Structured community outreach, medical dispensaries, and educational programs into clear modules.</li>
-                <li><strong>Inquiry &amp; Contact Pathways:</strong> Implemented direct contact pathways to facilitate donor communication and support.</li>
-              </ul>
+              <h3>Result</h3>
+              <p>
+                Built to the client&apos;s brief and approved by the client.
+              </p>
+              <p style={{ marginTop: '0.5rem', color: 'var(--color-text-muted)', fontSize: '0.92rem' }}>
+                <strong>Desktop measurement (Lighthouse lab test, desktop, median of 5 runs, Nov 2026):</strong> Performance 97, LCP 1.17s, CLS 0, TBT 13ms.
+              </p>
 
               <div className="case-full__live-box">
                 <span className="case-full__live-box-title">Verified Live Platform</span>

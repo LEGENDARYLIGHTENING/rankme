@@ -19,7 +19,7 @@ const platformsLedger = [
   {
     title: 'Wafa Educational & Charitable Trust: Client Platform',
     evidence:
-      'Accessible, high-performance digital platform built for a philanthropic healthcare and education trust, organizing community medical aid and donor contact pathways cleanly at wafatrustindia.org.',
+      "Rebuilt from WordPress to Next.js 16 with React 19 (App Router) and hosted on Vercel with prerendered pages at wafatrustindia.org. Built to the client's brief and approved by the client.",
   },
 ];
 

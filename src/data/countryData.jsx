@@ -102,7 +102,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Every UK engagement follows the same production engineering approach behind Wafa Trust and our high-performance B2B web infrastructure.',
+        'Every UK engagement follows the same production engineering approach behind Wafa Trust and our custom Next.js B2B web infrastructure.',
       faqs: [
         {
           question: 'How does UK privacy and cookie consent work in your builds?',
@@ -273,7 +273,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Directly informed by engineering scalable Next.js architectures like Wafa Trust and high-performance search infrastructure.',
+        'Directly informed by engineering Next.js architectures like Wafa Trust and technical search infrastructure.',
       faqs: [
         {
           question: 'Have you built B2B platforms targeting GCC buyers?',
@@ -330,7 +330,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Backed by production Next.js engineering across high-performance web platforms and verified client builds like Wafa Trust.',
+        'Backed by production Next.js engineering across B2B web platforms and client builds like Wafa Trust.',
       faqs: [
         {
           question: 'Can you help industrial or trading firms modernize legacy websites?',

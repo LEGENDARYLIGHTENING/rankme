@@ -36,7 +36,7 @@ export const nicheData = {
         },
       ],
       proofText:
-        'Built using the same accessible Next.js web architecture applied on verified client platforms like Wafa Trust.',
+        'Built using the same Next.js App Router architecture applied on client platforms like Wafa Trust.',
       faqs: [
         {
           question: 'Why rebuild a legacy Webflow or WordPress site into custom Next.js architecture?',
