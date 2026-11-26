@@ -25,7 +25,7 @@ Or does it hallucinate outdated features, recommend two of your direct competito
 
 Most B2B executive teams have no idea how their brand is portrayed by Large Language Models (LLMs). They assume that because they rank on Google Page 1, the AI models have them covered.
 
-This guide provides an executive testing framework to **audit your B2B GEO performance**. We detail the four prompt archetypes real enterprise buyers use, outline a structured 30-day testing matrix, and explain how to systematically correct AI hallucinations and competitor proxy citations.
+This guide provides an executive testing framework to **audit your B2B GEO performance**. We detail the four prompt archetypes real enterprise buyers use, outline a structured 30-day testing matrix, and explain how to [monitor B2B brand mentions and sentiment in AI search](/blog/monitoring-ai-search-mentions-b2b-brand) to systematically correct AI hallucinations and competitor proxy citations.
 
 ---
 

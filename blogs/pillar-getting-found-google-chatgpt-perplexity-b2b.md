@@ -57,7 +57,7 @@ The critical insight uncovered by recent search studies is that **ranking on Goo
 * Overlap between major AI engines is surprisingly low: only 14% of top-cited domains appear across ChatGPT, Perplexity, and Google AI Overviews simultaneously.
 * AI engines heavily favor third-party verification: independent reviews, trade directories, and earned media are cited four times more frequently than self-promotional corporate marketing pages.
 
-Winning modern B2B pipeline requires an integrated strategy that satisfies traditional search algorithms while feeding generative AI models the dense, structured data they crave.
+Winning modern B2B pipeline requires an integrated strategy that satisfies traditional search algorithms, applies [B2B CTR strategies for AI Overviews](/blog/ai-overviews-b2b-click-through-rate-strategies), and gives generative AI models the dense, structured data they rely on.
 
 ---
 

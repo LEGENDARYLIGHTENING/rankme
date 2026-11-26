@@ -37,7 +37,7 @@ Welcome to **Generative Engine Optimization (GEO)**. This comprehensive guide br
 
 ## 1. Empirical Citation Data: How LLMs Actually Choose What to Cite
 
-Large Language Models do not index keywords like traditional web spiders. They synthesize answers using probabilistic retrieval-augmented generation (RAG) models trained on entity relationships, semantic consensus, and citation authority.
+Large Language Models do not index keywords like traditional web spiders. They synthesize answers using probabilistic retrieval-augmented generation (RAG) models trained on entity relationships, semantic consensus, and citation authority, which also reshapes [how B2B teams protect click-through rates in AI Overviews](/blog/ai-overviews-b2b-click-through-rate-strategies).
 
 Recent cross-engine analyses across Google AI Overviews, Perplexity, and ChatGPT Search reveal four critical empirical realities:
 
