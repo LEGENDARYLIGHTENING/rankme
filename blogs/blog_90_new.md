@@ -99,7 +99,7 @@ Modern architecture executes routing logic using **Edge Middleware**:
 2. The middleware routes the visitor directly to their dedicated regional silo (e.g., `/usa`, `/uk`, `/canada`, or `/australia`).
 3. The tailored HTML document is delivered to the browser on the initial network byte with zero layout shift and zero client-side DOM swapping.
 
-To understand how to structure international regional silos, explore our guide on [International B2B Organic Lead Generation Strategies](/blog/full-funnel-organic-lead-generation-system-b2b).
+To understand how to structure international regional silos, explore our guide on [full-funnel organic lead generation system for B2B](/blog/full-funnel-organic-lead-generation-system-b2b).
 
 ---
 

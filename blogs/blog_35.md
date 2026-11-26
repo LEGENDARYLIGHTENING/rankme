@@ -82,7 +82,7 @@ At this stage, the buying committee is actively attempting to eliminate vendors.
 
 By providing un-gated, machine-readable diligence assets, you respect the buyer's intelligence and establish immediate technical authority.
 
-To explore how interactive tools outperform static documents, review our analysis on [Interactive Web Calculators as B2B Lead Magnets](/blog/b2b-website-roi-calculator-framework).
+To explore how interactive tools outperform static documents, review our analysis on [B2B Website ROI Calculator Framework](/blog/b2b-website-roi-calculator-framework).
 
 ---
 

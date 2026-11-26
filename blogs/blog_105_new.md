@@ -128,7 +128,7 @@ You must earn contextual editorial citations from relevant trade publications, o
 - **Contribute Technical Teardowns:** Break down open-source engineering implementations, Core Web Vitals optimizations, or semantic schema graphs.
 - **Establish Knowledge Graph Entity Verification:** Ensure your brand is recognized as an active commercial entity across trusted databases like Crunchbase, Wikidata, and industry-specific registries.
 
-Explore our methodology for [building defensible B2B backlink equity](/blog/technical-seo-foundations-every-b2b-website-needs).
+Explore our methodology for [technical SEO foundations every B2B website needs](/blog/technical-seo-foundations-every-b2b-website-needs).
 
 ---
 

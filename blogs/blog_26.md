@@ -143,7 +143,7 @@ For years, enterprise B2B organizations poured millions of dollars into paid sea
 
 By reallocating 40% to 60% of paid ad budgets toward high-performance web engineering, structured entity authority, and primary-source research, organizations build permanent digital equity. The resulting citation dominance delivers pre-qualified enterprise inbound opportunities month after month without incurring incremental auction fees.
 
-To review a detailed financial breakdown of this capital reallocation, read our analysis on [SEO vs GEO vs Paid: B2B Growth Channel Comparison](/blog/getting-found-google-chatgpt-perplexity-b2b).
+To review a detailed financial breakdown of this capital reallocation, read our analysis on [getting found in Google, ChatGPT, and Perplexity for B2B](/blog/getting-found-google-chatgpt-perplexity-b2b).
 
 ---
 

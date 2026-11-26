@@ -84,7 +84,7 @@ Dedicate the first third of the case study to deconstructing the client's origin
 
 When an executive reads an in-depth breakdown of a crisis identical to the one they are currently enduring, they feel understood. You validate their pain before proposing the remedy.
 
-Explore our analysis on [why high-intent visitors bounce from B2B pricing pages](/blog/b2b-pricing-page-bounces-high-intent-buyers-332) to align proof with commercial evaluation.
+Explore our analysis on [why B2B pricing pages bounce high-intent buyers](/blog/b2b-pricing-page-bounces-high-intent-buyers-332) to align proof with commercial evaluation.
 
 ---
 
@@ -178,7 +178,7 @@ A brilliant case study buried on an unvisited sub-page provides zero commercial 
   └─────────────────────────────────────────────────────────────────┘
 ```
 
-Review our analysis on [why enterprise buyers abandon contact forms](/blog/b2b-demo-requests-fail-attended-meetings-599) to optimize conversion pathways.
+Review our analysis on [why B2B demo requests fail to convert into attended meetings](/blog/b2b-demo-requests-fail-attended-meetings-599) to optimize conversion pathways.
 
 ---
 

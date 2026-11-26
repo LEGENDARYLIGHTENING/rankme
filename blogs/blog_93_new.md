@@ -129,7 +129,7 @@ Search queries in this phase become intensely commercial and risk-oriented:
 
 To capture Stage 3 intent, your website must provide commercial transparency: transparent baseline pricing thresholds, audited compliance dossiers, and interactive scoping calculators.
 
-Read our analysis on [why high-intent visitors bounce from B2B pricing pages](/blog/b2b-pricing-page-bounces-high-intent-buyers-332).
+Read our analysis on [why B2B pricing pages bounce high-intent buyers](/blog/b2b-pricing-page-bounces-high-intent-buyers-332).
 
 ---
 

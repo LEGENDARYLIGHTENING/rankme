@@ -50,7 +50,7 @@ Instead, page one is dominated by nimble, modern specialty firms that have inves
 
 Your competitive gap analysis must benchmark against the organizations that currently own the search attention of your target buyers, regardless of their offline corporate size.
 
-Review our technical guide on [competitor website teardowns for top B2B sites](/blog/signs-website-losing-deals).
+Review our technical guide on [signs your B2B website is quietly losing deals](/blog/signs-website-losing-deals).
 
 ---
 
@@ -89,7 +89,7 @@ Your objective is identifying **High-Intent Commercial Evaluation Gaps**: search
 - **Cost and Total Cost of Ownership (TCO) Queries:** Searches seeking commercial transparency (e.g., *"custom build vs agency retainer cost"*).
 - **Compliance and Security Scoping:** Searches vetting regulatory qualifications (e.g., *"HIPAA compliant cloud migration agency"*).
 
-Review our masterclass on [keyword research for long B2B sales cycles](/blog/high-intent-keyword-targeting-b2b-organic-leads).
+Review our masterclass on [high-intent keyword targeting for B2B organic leads](/blog/high-intent-keyword-targeting-b2b-organic-leads).
 
 ---
 
@@ -150,7 +150,7 @@ Auditing where your competitors acquire their domain authority reveals immediate
 2. **Identify Certified Partner Ecosystems:** Check if competitors are listed on accredited cloud provider partner directories, ERP vendor networks, or ISO certification registries that your organization is eligible to join.
 3. **Reclaim Broken Competitor Backlinks:** Identify high-authority external websites linking to competitor pages that have since resulted in 404 errors or outdated information. Reach out to the referring editor offering your comprehensive, updated research masterclass as an active replacement.
 
-Explore our masterclass on [high-authority B2B backlink strategies for competitive niches](/blog/technical-seo-foundations-every-b2b-website-needs).
+Explore our masterclass on [technical SEO foundations every B2B website needs](/blog/technical-seo-foundations-every-b2b-website-needs).
 
 ---
 

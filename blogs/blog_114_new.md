@@ -59,7 +59,7 @@ Generative AI models despise narrative fluff. They are extraction algorithms tha
 - **Use Definitive Answer Blocks:** Open key sections with an H2 phrased as a question, followed immediately by a 50-word concise, factual answer.
 - **Embed Structured Tables:** Format technical specifications, compliance parameters, and pricing frameworks into clean HTML data tables that scrapers can ingest without ambiguity.
 
-Read our blueprint on [creating content that AI answers cite for B2B topics](/blog/creating-source-authoritative-content-ai-systems).
+Read our blueprint on [creating source-authoritative content for AI systems](/blog/creating-source-authoritative-content-ai-systems).
 
 ---
 

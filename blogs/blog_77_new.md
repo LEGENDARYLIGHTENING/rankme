@@ -150,7 +150,7 @@ By integrating automated lead scoring directly into your website's submission lo
 
 This dynamic architecture guarantees that high-margin buyers experience instant, VIP scheduling velocity, while your sales team is protected from tire-kickers and students.
 
-To explore how to engineer lead scoring systems that filter noise, review our masterclass on [Lead Scoring for Organic B2B Channels](/blog/integrating-crm-and-website-b2b-lead-flow).
+To explore how to engineer lead scoring systems that filter noise, review our masterclass on [integrating your CRM and website for B2B lead flow](/blog/integrating-crm-and-website-b2b-lead-flow).
 
 ---
 

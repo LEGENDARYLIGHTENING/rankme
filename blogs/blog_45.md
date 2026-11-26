@@ -80,7 +80,7 @@ Leading B2B enterprises replace generic marketing articles with a four-tier **B2
 - **Asset Type:** Detailed 90-day onboarding schedules, milestone delivery frameworks, and contractual uptime SLAs.
 - **The Operational Purpose:** Reassures procurement that implementation will be executed with minimal operational disruption.
 
-To explore how calculating true lead costs transforms marketing capital allocation, review our analysis on [The True Cost Per Sales Qualified Lead (SQL)](/blog/b2b-website-roi-calculator-framework).
+To explore how calculating true lead costs transforms marketing capital allocation, review our analysis on [B2B Website ROI Calculator Framework](/blog/b2b-website-roi-calculator-framework).
 
 ---
 
@@ -111,7 +111,7 @@ Host closed-door, Chatham House-style virtual roundtables where 10 to 12 enterpr
 ### 3. Executive Air-Cover via Generative Engine Optimization (GEO)
 When buying committee members independently research your company via Perplexity, ChatGPT, or Google AI Overviews, ensure they encounter consistent, verified citations, un-gated case studies, and positive market sentiment. Independent third-party validation de-risks their internal decision-making.
 
-To learn how to nurture international buyers across extended cycles, explore our masterclass on [International B2B Lead Nurturing for Long Sales Cycles](/blog/full-funnel-organic-lead-generation-system-b2b).
+To learn how to nurture international buyers across extended cycles, explore our masterclass on [full-funnel organic lead generation system for B2B](/blog/full-funnel-organic-lead-generation-system-b2b).
 
 ---
 
@@ -135,7 +135,7 @@ Relying on paid search or social advertising to maintain pipeline across 12-mont
 
 When an organization builds a library of authoritative, machine-readable technical guides, interactive calculators, and verified case studies, it creates an owned digital asset. Once published, these assets continue to nurture active prospects and attract new buying committees for years without incurring recurring ad auction fees.
 
-To review an in-depth financial comparison across channels, read our analysis on [SEO vs GEO vs Paid: B2B Growth Channel Comparison](/blog/getting-found-google-chatgpt-perplexity-b2b).
+To review an in-depth financial comparison across channels, read our analysis on [getting found in Google, ChatGPT, and Perplexity for B2B](/blog/getting-found-google-chatgpt-perplexity-b2b).
 
 ---
 
