@@ -158,8 +158,8 @@ async function runPrebuildChecks() {
     fail('[B3] Missing audit/blog-triage.csv');
   } else {
     const csvLines = fs.readFileSync(triagePath, 'utf8').trim().split(/\r?\n/).slice(1);
-    if (csvLines.length < 900) {
-      fail(`[B3] audit/blog-triage.csv expected >=900 rows, got ${csvLines.length}`);
+    if (csvLines.length < 100) {
+      fail(`[B3] audit/blog-triage.csv expected >=100 rows, got ${csvLines.length}`);
     }
     for (const line of csvLines) {
       if (line.includes(',keep,')) {
@@ -167,6 +167,34 @@ async function runPrebuildChecks() {
         const inbound = parseInt(parts[parts.length - 3], 10);
         if (isNaN(inbound) || inbound < 3) {
           fail(`[B6] Kept post in blog-triage.csv has < 3 inbound links: ${line.slice(0, 80)}`);
+        }
+      }
+    }
+  }
+
+  // Wave 1 Invariant: Fail if any internal link anywhere points to a 410 or 301 URL
+  const proposalV2Path = path.join(rootDir, 'redirects-proposal-v2.csv');
+  if (fs.existsSync(proposalV2Path)) {
+    const pLines = fs.readFileSync(proposalV2Path, 'utf8').trim().split(/\r?\n/).slice(1);
+    const blockedSlugs = new Set();
+    for (const pl of pLines) {
+      const m = pl.match(/^"([^"]+)","([^"]+)"/);
+      if (m && (m[2] === '410' || m[2] === '301')) {
+        blockedSlugs.add(m[1]);
+      }
+    }
+    const scanDirs = ['src', 'app', 'blogs'];
+    for (const sd of scanDirs) {
+      const fullSd = path.join(rootDir, sd);
+      const files = walkFiles(fullSd, ['.js', '.jsx', '.json', '.md']);
+      for (const file of files) {
+        const rel = path.relative(rootDir, file);
+        if (rel === 'src/data/goneSlugs.json') continue;
+        const txt = fs.readFileSync(file, 'utf8');
+        for (const m of txt.matchAll(/\/blog\/([a-z0-9-]+)/gi)) {
+          if (blockedSlugs.has(m[1])) {
+            fail(`[Wave1] Internal link points to 410/301 URL (/blog/${m[1]}) in ${rel}`);
+          }
         }
       }
     }

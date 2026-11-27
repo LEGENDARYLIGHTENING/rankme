@@ -159,7 +159,7 @@ Modern enterprise buyers appreciate interactive digital interfaces that allow th
 
 Deploying an interactive scoping and ROI tool directly on your pricing page transforms a passive, intimidating cost evaluation into an engaging strategic planning session. 
 
-Check our [live B2B ROI calculator](/blog/cost-per-sales-qualified-lead-website-calculator-327) to see how dynamic financial modeling accelerates sales qualified meetings.
+Check our [B2B website ROI calculator framework](/blog/b2b-website-roi-calculator-framework) to see how dynamic financial modeling accelerates sales qualified meetings.
 
 ---
 

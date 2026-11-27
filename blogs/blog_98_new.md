@@ -186,7 +186,7 @@ To transform your SEO presentations into compelling executive business cases, re
 2. **Implement Closed-Loop CRM Tracking:** Ensure your CRM tracks the initial organic search landing page and referral source through to closed-won revenue.
 3. **Upgrade to High-Performance Architecture:** Modernize your digital platform with server-rendered frameworks like Next.js that guarantee Server-Rendered Edge Deliverys and flawless machine readability.
 
-To evaluate how infrastructure decisions impact your overall customer acquisition economics, review our analysis on [Calculating the True Cost Per Sales Qualified Lead (SQL)](/blog/cost-per-sales-qualified-lead-website-calculator-327).
+To evaluate how infrastructure decisions impact your overall customer acquisition economics, review our analysis on [B2B Website ROI Calculator Framework](/blog/b2b-website-roi-calculator-framework).
 
 ---
 

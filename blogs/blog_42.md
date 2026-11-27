@@ -108,7 +108,7 @@ Replace generic marketing webinars with exclusive, closed-door executive roundta
 - Both partner firms co-host the session, facilitating high-level discussion rather than delivering a sales pitch.
 - The collaborative environment fosters deep peer relationships, naturally generating qualified enterprise scoping conversations following the session.
 
-To explore how these joint initiatives impact your customer acquisition costs, review our analysis on [Calculating the True Cost Per Sales Qualified Lead (SQL)](/blog/cost-per-sales-qualified-lead-website-calculator-327).
+To explore how these joint initiatives impact your customer acquisition costs, review our analysis on [B2B Website ROI Calculator Framework](/blog/b2b-website-roi-calculator-framework).
 
 ---
 
@@ -157,7 +157,7 @@ To establish a high-margin co-marketing partnership engine, leadership should ex
 2. **Eliminate Low-Value Social Swaps:** Do not waste executive time on reciprocal social media posts or newsletter sponsor swaps. Focus exclusively on co-authored primary data and private executive roundtables.
 3. **Formalize Partner Handoff Protocols:** When a partner refers an enterprise inquiry, ensure your team enforces a strict 15-minute response SLA with direct routing to senior technical leads.
 
-To review a complete financial comparison between partner-driven growth and paid advertising, read our guide on [SEO vs GEO vs Paid: B2B Growth Channel Comparison](/blog/comparison-seo-vs-geo-vs-paid-international-b2b).
+To review a complete financial comparison between partner-driven growth and paid advertising, read our guide on [getting found in Google, ChatGPT, and Perplexity for B2B](/blog/getting-found-google-chatgpt-perplexity-b2b).
 
 ---
 

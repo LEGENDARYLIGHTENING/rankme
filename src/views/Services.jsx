@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { Compass, Code2, Search, FileText, BarChart3 } from 'lucide-react';
 
 import HeroSection from '../components/HeroSection';
@@ -197,7 +198,7 @@ export default function Services() {
               Comprehensive Web Engineering &amp; Search Authority
             </h2>
             <p className="section-subtitle">
-              Every deliverable is engineered to remove buyer friction, defend search equity, and systematically convert enterprise demand.
+              Every deliverable is engineered to remove buyer friction, defend search equity across <Link href="/blog/geo-optimization-saas-ai-search-2026" style={{ color: 'var(--color-gold)', textDecoration: 'underline' }}>AI answer engines and B2B GEO</Link>, and systematically convert demand compared with <Link href="/blog/saas-website-development-agency-us" style={{ color: 'var(--color-gold)', textDecoration: 'underline' }}>traditional SaaS web agencies</Link>.
             </p>
           </div>
 

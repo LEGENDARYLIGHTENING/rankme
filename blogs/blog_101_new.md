@@ -170,7 +170,7 @@ To ensure your digital platform dominates international search without technical
 2. **Audit Geolocation Redirect Rules:** Test accessing your European and UK URLs from an American IP address. If the server forces an automated redirect to the homepage, disable that script immediately.
 3. **Upgrade to High-Performance Architecture:** Modernize your multi-region platform using server-rendered frameworks like Next.js that compile regional sitemaps and hreflang tags automatically at build time.
 
-To evaluate how international architecture impacts customer acquisition economics, explore our guide on [International B2B Organic Lead Generation Strategies](/blog/organic-lead-generation-strategies-b2b-international-markets).
+To evaluate how international architecture impacts customer acquisition economics, explore our guide on [full-funnel organic lead generation system for B2B](/blog/full-funnel-organic-lead-generation-system-b2b).
 
 ---
 

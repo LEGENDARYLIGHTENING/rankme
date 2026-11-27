@@ -103,7 +103,7 @@ In generative search (Perplexity, ChatGPT), enterprise buyers do not use short k
 
 By structuring your content to answer these complex, multi-constraint queries, you position your brand to win both traditional long-tail search and generative AI citations.
 
-To explore how these intent patterns interact with customer acquisition economics, review our guide on [The True Cost Per Sales Qualified Lead (SQL)](/blog/cost-per-sales-qualified-lead-website-calculator-327).
+To explore how these intent patterns interact with customer acquisition economics, review our guide on [B2B Website ROI Calculator Framework](/blog/b2b-website-roi-calculator-framework).
 
 ---
 

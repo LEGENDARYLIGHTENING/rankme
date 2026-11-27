@@ -1,0 +1,142 @@
+[
+  {
+    "site": "https://rankursite.com/",
+    "device": "mobile",
+    "testDate": "2026-11-25T17:58:35.224Z",
+    "perfMedian": 72,
+    "lcpSecMedian": 2.24,
+    "clsMedian": 0,
+    "tbtMsMedian": 1198,
+    "runs": [
+      {
+        "run": 1,
+        "perf": 90,
+        "lcpSec": 1.85,
+        "cls": 0,
+        "tbtMs": 310,
+        "fetchTime": "2026-11-25T17:58:35.224Z"
+      },
+      {
+        "run": 2,
+        "perf": 27,
+        "lcpSec": 7.9,
+        "cls": 0,
+        "tbtMs": 5333,
+        "fetchTime": "2026-11-25T17:59:41.669Z"
+      },
+      {
+        "run": 3,
+        "perf": 72,
+        "lcpSec": 2.24,
+        "cls": 0,
+        "tbtMs": 1198,
+        "fetchTime": "2026-11-25T18:01:13.673Z"
+      }
+    ]
+  },
+  {
+    "site": "https://rankursite.com/",
+    "device": "desktop",
+    "testDate": "2026-11-26T09:52:15.380Z",
+    "perfMedian": 77,
+    "lcpSecMedian": 1.44,
+    "clsMedian": 0.008,
+    "tbtMsMedian": 216,
+    "runs": [
+      {
+        "run": 1,
+        "perf": 77,
+        "lcpSec": 1.44,
+        "cls": 0.008,
+        "tbtMs": 216,
+        "fetchTime": "2026-11-26T09:52:15.380Z"
+      },
+      {
+        "run": 2,
+        "perf": 44,
+        "lcpSec": 2.16,
+        "cls": 0,
+        "tbtMs": 982,
+        "fetchTime": "2026-11-26T09:53:22.189Z"
+      },
+      {
+        "run": 3,
+        "perf": 99,
+        "lcpSec": 0.65,
+        "cls": 0.008,
+        "tbtMs": 52,
+        "fetchTime": "2026-11-26T09:57:37.378Z"
+      }
+    ]
+  },
+  {
+    "site": "https://www.wafatrustindia.org/",
+    "device": "mobile",
+    "testDate": "2026-11-26T09:58:05.256Z",
+    "perfMedian": 59,
+    "lcpSecMedian": 5.06,
+    "clsMedian": 0,
+    "tbtMsMedian": 913,
+    "runs": [
+      {
+        "run": 1,
+        "perf": 55,
+        "lcpSec": 5.53,
+        "cls": 0,
+        "tbtMs": 949,
+        "fetchTime": "2026-11-26T09:58:05.256Z"
+      },
+      {
+        "run": 2,
+        "perf": 60,
+        "lcpSec": 4.89,
+        "cls": 0,
+        "tbtMs": 913,
+        "fetchTime": "2026-11-26T09:59:29.223Z"
+      },
+      {
+        "run": 3,
+        "perf": 59,
+        "lcpSec": 5.06,
+        "cls": 0,
+        "tbtMs": 904,
+        "fetchTime": "2026-11-26T10:00:23.626Z"
+      }
+    ]
+  },
+  {
+    "site": "https://www.wafatrustindia.org/",
+    "device": "desktop",
+    "testDate": "2026-11-26T10:01:15.136Z",
+    "perfMedian": 97,
+    "lcpSecMedian": 1.17,
+    "clsMedian": 0,
+    "tbtMsMedian": 8,
+    "runs": [
+      {
+        "run": 1,
+        "perf": 97,
+        "lcpSec": 1.24,
+        "cls": 0,
+        "tbtMs": 4,
+        "fetchTime": "2026-11-26T10:01:15.136Z"
+      },
+      {
+        "run": 2,
+        "perf": 97,
+        "lcpSec": 1.17,
+        "cls": 0,
+        "tbtMs": 8,
+        "fetchTime": "2026-11-26T10:01:46.724Z"
+      },
+      {
+        "run": 3,
+        "perf": 98,
+        "lcpSec": 1.1,
+        "cls": 0,
+        "tbtMs": 8,
+        "fetchTime": "2026-11-26T10:02:42.767Z"
+      }
+    ]
+  }
+]

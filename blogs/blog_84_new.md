@@ -151,7 +151,7 @@ If an authoritative technical whitepaper or new service capability has only one 
 - **Semantic Anchor Text:** Eliminate generic "click here" or "learn more" links. Use descriptive, keyword-rich anchor text that clearly defines the destination page's commercial topic.
 - **Symmetrical Reciprocal Hreflang:** If your site operates international silos (`/usa`, `/uk`, `/canada`), ensure every regional variation contains reciprocal `hreflang` tags pointing back to its counterparts, with a designated `x-default` fallback.
 
-To learn how to structure international regional hubs, review our guide on [International B2B Organic Lead Generation Strategies](/blog/organic-lead-generation-strategies-b2b-international-markets).
+To learn how to structure international regional hubs, review our guide on [full-funnel organic lead generation system for B2B](/blog/full-funnel-organic-lead-generation-system-b2b).
 
 ---
 

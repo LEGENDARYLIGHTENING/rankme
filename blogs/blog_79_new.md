@@ -120,7 +120,7 @@ A genuinely **regulated industry B2B website** enforces strict conditional scrip
 
 Demonstrating strict privacy compliance reassures European and North American enterprise buyers that contracting with your firm will not expose them to cross-border regulatory liabilities.
 
-To understand how this interacts with overall global discovery, explore our guide on [International B2B Organic Lead Generation Strategies](/blog/organic-lead-generation-strategies-b2b-international-markets).
+To understand how this interacts with overall global discovery, explore our guide on [full-funnel organic lead generation system for B2B](/blog/full-funnel-organic-lead-generation-system-b2b).
 
 ---
 

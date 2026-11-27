@@ -54,7 +54,7 @@ Paid syndication networks distribute your executive white papers and calculators
 
 While paid syndication delivers contact records directly into your CRM, its commercial value depends entirely on post-download qualification. If your follow-up sequence treats these contacts like hot inbound demo requests, conversion rates plummet.
 
-Review our guide on [lead scoring for organic B2B channels](/blog/lead-scoring-organic-b2b-channels) to understand how to segment syndication prospects from high-intent inbound inquiries.
+Review our guide on [integrating your CRM and website for B2B lead flow](/blog/integrating-crm-and-website-b2b-lead-flow) to understand how to segment syndication prospects from high-intent inbound inquiries.
 
 ---
 
@@ -103,7 +103,7 @@ Publish data that cannot be found anywhere else on the web. Aggregate anonymized
 ### 2. Architectural Failure Teardowns
 Expose the real-world operational bottlenecks of legacy architectures. When you publish a rigorous case analysis detailing how a legacy system cost an enterprise $250,000 in uncaptured revenue, senior leaders facing identical challenges will seek your advisory services.
 
-Read our analysis on [competitor website teardowns for top B2B sites](/blog/competitor-website-teardowns-top-b2b-sites) to see how deep failure-mode analysis builds unassailable authority.
+Read our analysis on [signs your B2B website is quietly losing deals](/blog/signs-website-losing-deals) to see how deep failure-mode analysis builds unassailable authority.
 
 ---
 

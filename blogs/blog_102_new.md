@@ -90,7 +90,7 @@ An enterprise buyer conducting preliminary diligence will not surrender their pe
 
 **The Fix:** Pre-render 100% of your technical specifications, architecture diagrams, and compliance credentials in clean, semantic HTML. Reserve form gates exclusively for personalized interactive utilities (e.g., custom financial ROI models).
 
-To master the gating balance, explore our guide on [Gated vs Ungated Content for B2B Lead Generation](/blog/gated-vs-ungated-content-b2b-lead-generation).
+To master the gating balance, explore our guide on [why B2B websites fail to convert organic traffic into leads](/blog/why-business-websites-get-zero-leads).
 
 ---
 
@@ -175,7 +175,7 @@ To audit your search architecture and eliminate unqualified inbound waste, leade
 2. **Review Inbound Disqualification Logs:** Ask your sales team why the last 50 inbound form fills were disqualified. If the primary reasons are "budget too low" or "looking for consumer retail," your SEO targeting is misconfigured.
 3. **Upgrade to High-Performance Architecture:** Modernize your digital platform with server-rendered frameworks like Next.js that guarantee Server-Rendered Edge Deliverys and flawless machine readability.
 
-To evaluate how lead quality impacts your customer acquisition costs, explore our analysis on [Measuring Organic Lead Quality vs Quantity for Enterprise B2B](/blog/measuring-organic-lead-quality-vs-quantity-b2b).
+To evaluate how lead quality impacts your customer acquisition costs, explore our analysis on [measuring B2B SEO ROI beyond vanity traffic metrics](/blog/measuring-b2b-seo-roi-beyond-vanity-metrics).
 
 ---
 

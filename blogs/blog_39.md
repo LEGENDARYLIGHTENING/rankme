@@ -44,7 +44,7 @@ Enterprise executives do not commit an hour of their day to be sold to. They att
 
 The core principle of the Technical Teardown Model is radical transparency. You deliver un-gated, deeply technical solutions to complex business problems without demanding a purchase. By proving your mastery through unfiltered problem-solving, the buyer reaches the natural commercial conclusion: *"If their free public analysis is this advanced, their paid enterprise engagement will be exceptional."*
 
-Review our analysis on [using case studies as high-converting lead generation assets](/blog/using-case-studies-as-lead-generation-asset) to see how transparent problem analysis builds executive authority.
+Review our analysis on [anatomy of a high-converting B2B case study page](/blog/anatomy-high-margin-b2b-case-study-page-335) to see how transparent problem analysis builds executive authority.
 
 ---
 

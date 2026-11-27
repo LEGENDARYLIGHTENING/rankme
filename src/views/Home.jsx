@@ -267,7 +267,7 @@ export default function Home() {
                 Direct Execution by Moksh Parjapati
               </h2>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)', fontSize: '1.02rem' }}>
-                Most B2B agencies operate on an assembly-line model: senior partners sell the contract, then pass your project down to junior account managers who paste your content into bloated page-builder themes. The result is predictable: slow load times, fragile plugin stacks, and zero pipeline impact.
+                Most B2B agencies operate on an assembly-line model: senior partners sell the contract, then pass your project down to junior account managers who paste your content into bloated page-builder themes (see our breakdown of <Link href="/blog/saas-website-development-agency-us" style={{ color: 'var(--color-gold)', textDecoration: 'underline' }}>what separates effective SaaS web development agencies</Link>). The result is predictable: slow load times, fragile plugin stacks, and zero pipeline impact.
               </p>
               <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', marginBottom: 'var(--space-md)', fontSize: '1.02rem' }}>
                 At Rankur, every single engagement: commercial positioning, technical search equity, custom frontend architecture, and conversion telemetry: is executed directly by me. No junior intermediaries. No outsourced codebases.
@@ -295,7 +295,7 @@ export default function Home() {
               Engineered for Pipeline Velocity &amp; Market Dominance
             </h2>
             <p className="section-subtitle">
-              We eliminate low-converting agency templates and architect bespoke digital platforms engineered for clean technical SEO, structured data, and B2B buyer conversion.
+              We eliminate low-converting agency templates and architect bespoke digital platforms engineered for clean technical SEO, <Link href="/blog/geo-optimization-saas-ai-search-2026" style={{ color: 'var(--color-gold)', textDecoration: 'underline' }}>generative AI citation readiness</Link>, and B2B buyer conversion.
             </p>
           </div>
 

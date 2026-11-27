@@ -88,7 +88,7 @@ Prominently display your regulatory certifications, audit dates, and registrar i
 ### Pillar 4: Friction-Calibrated RFQ Architecture
 Replace generic "Contact Us" buttons with dedicated **Request for Scoping** workflows that allow engineers to upload technical CAD drawings (`.STEP`, `.IGES`, `.DWG`) and specify production volumes directly on the category page.
 
-To explore how industrial product pages capture high-intent buyers, review our guide on [SEO for Industrial Product Pages That Drive Qualified RFQs](/blog/seo-industrial-product-pages-drive-rfqs).
+To explore how industrial product pages capture high-intent buyers, review our guide on [technical SEO foundations every B2B website needs](/blog/technical-seo-foundations-every-b2b-website-needs).
 
 ---
 

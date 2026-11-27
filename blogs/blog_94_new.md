@@ -59,7 +59,7 @@ Before an international procurement director issues an official Request for Quot
 
 When your manufacturing facility is officially verified on Google Maps with high-resolution imagery of your production floor, clean regulatory citations, and structured local entity graphs, international buyers immediately recognize your firm as a legitimate, tier-one industrial supplier.
 
-Review our technical guide on [SEO for industrial product pages that drive RFQs](/blog/seo-industrial-product-pages-drive-rfqs).
+Review our technical guide on [technical SEO foundations every B2B website needs](/blog/technical-seo-foundations-every-b2b-website-needs).
 
 ---
 
@@ -155,7 +155,7 @@ Embed structured Export Capability Modules directly into every product and capab
 
 Providing this granular logistical clarity on your primary website proves that your organization is an experienced international exporter capable of executing cross-border supply chain operations without friction.
 
-Review our guide on [RFQ generation content strategies for B2B manufacturers](/blog/rfq-generation-content-strategies-b2b-manufacturers).
+Review our guide on [B2B SEO strategy to rank high-intent buyer keywords](/blog/b2b-seo-strategy-rank-high-intent-buyer-keywords).
 
 ---
 
