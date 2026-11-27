@@ -29,7 +29,7 @@ This guide details the modern playbook to **increase SaaS demo requests with SEO
 
 ## 1. The Three Tiers of B2B Search Intent: Where Demos Actually Happen
 
-To capture qualified sales pipeline from Google and AI search engines, you must map your SEO strategy across the three distinct stages of the B2B buying journey:
+To capture qualified sales pipeline from Google and AI search engines, you must map your [SEO strategy](/blog/hire-saas-seo-expert) across the three distinct stages of the B2B buying journey:
 
 ```
 +-------------------------------------------------------------------------------+

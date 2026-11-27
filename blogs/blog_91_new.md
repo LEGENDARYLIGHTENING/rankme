@@ -51,7 +51,7 @@ To construct a high-converting search engine strategy, leadership must understan
 
 When an enterprise organization generates 200 monthly visits from technology leaders actively evaluating database migration costs, those 200 visits are worth vastly more than 50,000 casual visits to a generic definition post.
 
-A modern enterprise SEO strategy stops competing for the largest aggregate audience and starts competing for the highest-intent commercial buying committees.
+A modern enterprise [SEO strategy](/blog/hire-saas-seo-expert) stops competing for the largest aggregate audience and starts competing for the highest-intent commercial buying committees.
 
 ---
 

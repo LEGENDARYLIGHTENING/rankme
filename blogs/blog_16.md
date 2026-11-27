@@ -151,7 +151,7 @@ For a mathematical framework to evaluate digital return on capital, explore our 
 
 ## 6. The Executive GEO Dashboard: The 4-Quadrant Board Report
 
-To present GEO performance effectively to directors and investors, replace forty-page SEO slide decks with a streamlined four-quadrant executive dashboard:
+To present [GEO performance](/blog/prompt-engineering-testing-b2b-geo-performance) effectively to directors and investors, replace forty-page SEO slide decks with a streamlined four-quadrant executive dashboard:
 
 ```
 +-----------------------------------+-----------------------------------+

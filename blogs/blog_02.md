@@ -87,7 +87,7 @@ When interviewing prospective SEO consultants or agencies, ask these five diagno
 
 ### Question 1: "How do you evaluate keyword commercial intent vs. raw search volume?"
 * **Weak Answer:** *"We look for keywords with search volume over 1,000 and low keyword difficulty."*
-* **Strong Answer:** *"We prioritize high-intent bottom-of-funnel queries, comparison terms, and migration phrases even if they only have 40 searches a month. A keyword searched 30 times a month by enterprise procurement directors looking to replace a legacy competitor is worth 100,000 consumer searches."*
+* **Strong Answer:** *"We prioritize high-intent bottom-of-funnel queries, comparison terms, and migration phrases even if they only have 40 searches a month. A keyword searched 30 times a month by enterprise procurement directors looking to replace a legacy [competitor](/blog/competitor-gap-analysis-b2b-seo-domination) is worth 100,000 consumer searches."*
 
 ### Question 2: "What is your methodology for tracking organic revenue in our CRM?"
 * **Weak Answer:** *"We track Google Analytics goals and organic traffic growth."*
