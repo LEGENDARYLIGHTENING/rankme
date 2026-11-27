@@ -91,6 +91,7 @@ const masterSchema = {
       sameAs: [
         'https://linkedin.com/in/moksh-parjapati',
         'https://twitter.com/moksh_rankur',
+        'https://www.crunchbase.com/organization/rankur-a39c',
       ],
       founder: {
         '@id': 'https://rankursite.com/#founder',
@@ -133,6 +134,7 @@ const masterSchema = {
       sameAs: [
         'https://linkedin.com/in/moksh-parjapati',
         'https://twitter.com/moksh_rankur',
+        'https://www.crunchbase.com/organization/rankur-a39c',
       ],
       hasCredential: [
         {

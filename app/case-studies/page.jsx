@@ -1,5 +1,6 @@
 import CaseStudies from '../../src/views/CaseStudies';
 import { constructMetadata } from '../../src/components/Seo';
+import JsonLd, { buildBreadcrumbSchema } from '../../src/components/JsonLd';
 
 export const metadata = constructMetadata({
   title: 'B2B Web Architecture & Client Case Studies | Rankur',
@@ -8,6 +9,16 @@ export const metadata = constructMetadata({
   canonical: '/case-studies',
 });
 
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', path: '/' },
+  { name: 'Case Studies', path: '/case-studies' },
+]);
+
 export default function Page() {
-  return <CaseStudies />;
+  return (
+    <>
+      <JsonLd data={breadcrumbSchema} />
+      <CaseStudies />
+    </>
+  );
 }

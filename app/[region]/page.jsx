@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { countryData, INDEXABLE_COUNTRIES } from '../../src/data/countryData.jsx';
 import { constructMetadata } from '../../src/utils/seo';
 import NichePage from '../../src/views/NichePage';
+import JsonLd, { buildBreadcrumbSchema } from '../../src/components/JsonLd';
 
 export const dynamicParams = false;
 
@@ -52,5 +53,16 @@ export default async function Page({ params }) {
   }
 
   const regionData = countryData[slug];
-  return <NichePage {...regionData.props} />;
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', path: '/' },
+    { name: 'Locations', path: '/locations' },
+    { name: regionData.props.niche || slug.toUpperCase(), path: `/${slug}` },
+  ]);
+
+  return (
+    <>
+      <JsonLd data={breadcrumbSchema} />
+      <NichePage {...regionData.props} />
+    </>
+  );
 }

@@ -1,5 +1,6 @@
 import About from '../../src/views/About';
 import { constructMetadata } from '../../src/components/Seo';
+import JsonLd, { buildBreadcrumbSchema } from '../../src/components/JsonLd';
 
 export const metadata = constructMetadata({
   title: 'About Moksh Parjapati | Founder-Led B2B Systems | Rankur',
@@ -8,6 +9,16 @@ export const metadata = constructMetadata({
   canonical: '/about',
 });
 
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', path: '/' },
+  { name: 'About', path: '/about' },
+]);
+
 export default function Page() {
-  return <About />;
+  return (
+    <>
+      <JsonLd data={breadcrumbSchema} />
+      <About />
+    </>
+  );
 }

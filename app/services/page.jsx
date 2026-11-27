@@ -1,5 +1,6 @@
 import Services from '../../src/views/Services';
 import { constructMetadata } from '../../src/components/Seo';
+import JsonLd, { buildBreadcrumbSchema } from '../../src/components/JsonLd';
 
 export const metadata = constructMetadata({
   title: 'B2B Lead Generation & Inbound Pipeline Services | Rankur',
@@ -8,6 +9,27 @@ export const metadata = constructMetadata({
   canonical: '/services',
 });
 
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'B2B Web Engineering, Technical SEO & GEO Services',
+  provider: { '@id': 'https://rankursite.com/#organization' },
+  url: 'https://rankursite.com/services',
+  serviceType: 'B2B Web Development, Technical SEO, and Generative Engine Optimization',
+  areaServed: ['US', 'GB', 'CA', 'AU', 'AE', 'SA'],
+};
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', path: '/' },
+  { name: 'Services', path: '/services' },
+]);
+
 export default function Page() {
-  return <Services />;
+  return (
+    <>
+      <JsonLd data={serviceSchema} />
+      <JsonLd data={breadcrumbSchema} />
+      <Services />
+    </>
+  );
 }
