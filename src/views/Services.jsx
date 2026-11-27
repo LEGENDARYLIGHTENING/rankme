@@ -31,9 +31,9 @@ const servicesData = [
     title: 'High-Converting Web Infrastructure & Pipeline Engineering',
     badge: 'Performance & Revenue',
     description:
-      'We build custom digital platforms engineered to capture enterprise pipeline: delivering sub-second load times that keep buyers engaged, frictionless inquiry flows, and 100% intellectual property ownership.',
+      'We build custom digital platforms engineered to capture enterprise pipeline: delivering rapid load times that keep buyers engaged, frictionless inquiry flows, and 100% intellectual property ownership.',
     deliverables: [
-      'Sub-Second Global Architecture That Stops Buyer Bounces',
+      'Rapid Global Edge Architecture That Stops Buyer Bounces',
       'High-Intent Demo & RFQ Inbound Pathways',
       'Clean Conversion & Pipeline Attribution Tracking',
       '100% Codebase Transfer With Zero Vendor Lock-in',
@@ -78,7 +78,7 @@ const servicesData = [
       'Frictionless Inbound Flow Engineering',
       'Enterprise Inquiry Qualification Protocols',
       'Full-Funnel Pipeline Telemetry',
-      'Sub-Second Conversion Pathway Testing',
+      'Frictionless Conversion Pathway Testing',
     ],
     timeline: 'Integrated into every engagement',
   },
@@ -89,13 +89,13 @@ const methodologyStages = [
     step: '01',
     title: 'Forensic Diagnostic Audit',
     subtitle: '48-Hour Technical & Commercial Teardown',
-    desc: 'We inspect every layer of your existing digital presence: Core Web Vitals across international device cohorts, crawl budget efficiency, cannibalized search queries, index bloat, and buyer qualification friction. You receive a prioritized, factual roadmap with zero fluff.',
+    desc: 'We inspect every layer of your existing digital presence: Core Web Vitals across international device cohorts, technical crawl efficiency, cannibalized search queries, index bloat, and buyer qualification friction. You receive a prioritized, factual roadmap with zero fluff.',
   },
   {
     step: '02',
     title: 'Precision Architecture & Wireframing',
     subtitle: 'Bespoke Engineering Sprint',
-    desc: 'We discard generic CMS templates and author clean, modular semantic components engineered on modern edge frameworks. We design user journeys specifically tailored to multi-stakeholder enterprise buying committees.',
+    desc: 'We discard generic CMS templates and author clean, modular semantic components engineered on modern edge frameworks. We design user journeys specifically tailored to B2B and mission-driven decision makers.',
   },
   {
     step: '03',
@@ -112,7 +112,7 @@ const methodologyStages = [
 ];
 
 const technicalStack = [
-  { category: 'Conversion Infrastructure', tools: 'Bespoke Modern Web Architecture, Sub-Second Global Edge Runtimes, Zero CMS Vulnerabilities' },
+  { category: 'Conversion Infrastructure', tools: 'Bespoke Modern Web Architecture, Rapid Global Edge Runtimes, Zero CMS Vulnerabilities' },
   { category: 'Enterprise Integration', tools: 'High-Throughput CRM APIs, Secure Inbound Lead Routing, Automated Inbound Qualification' },
   { category: 'Infrastructure & Security', tools: 'Global Edge Delivery, Automated Zero-Downtime Deployments, Hardened Enterprise Security' },
   { category: 'Commercial Intelligence', tools: 'Full-Funnel Pipeline Telemetry, Search Engine Indexation Monitoring, Revenue Attribution' },
@@ -127,12 +127,12 @@ const faqs = [
   {
     question: 'Why build on custom high-performance architecture instead of template themes?',
     answer:
-      'A custom high-performance architecture ensures sub-second global performance, total technical control, immune security posture with zero third-party plugin vulnerabilities, and complete intellectual property ownership.',
+      'A custom high-performance architecture ensures rapid global performance, total technical control, immune security posture with zero third-party plugin vulnerabilities, and complete intellectual property ownership.',
   },
   {
     question: 'What does Generative Engine Optimization (GEO) mean in practice?',
     answer:
-      'Generative Engine Optimization (GEO) establishes your brand as the definitive authority cited by AI search models like ChatGPT, Perplexity, and Google. We engineer proprietary semantic graphs and factual capability positioning so AI systems accurately recommend your solutions to enterprise buyers.',
+      'Generative Engine Optimization (GEO) establishes your brand as an authority cited by AI search models like ChatGPT, Perplexity, and Google. We engineer semantic graphs and factual capability positioning so AI systems accurately surface your solutions to decision makers.',
   },
   {
     question: 'Do you sign mutual NDAs before reviewing internal specs?',
@@ -178,7 +178,7 @@ export default function Services() {
             Inbound Growth Infrastructure Built to <span className="text-gold">Turn Visitors Into Pipeline</span>
           </>
         }
-        subtitle="We replace bloated agency retainers with custom high-speed web platforms, AI search citations, and frictionless inquiry funnels that convert enterprise decision-makers."
+        subtitle="We replace bloated agency retainers with custom Next.js web platforms, AI search citations, and frictionless inquiry funnels that convert enterprise decision-makers."
         primaryCTA={{ to: '/free-audit', label: 'Claim Free Pipeline Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'View Case Studies' }}
       />

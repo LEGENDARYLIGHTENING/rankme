@@ -186,6 +186,6 @@ To stop losing high-value enterprise prospects at your conversion threshold, exe
 2. **Deploy Progressive Multi-Step UX:** Replace single-page form walls with a clean, progressive two-step or three-step interface that captures context before requesting contact details.
 3. **Embed Verifiable Trust Signals:** Place encryption badges, data privacy guarantees, and mutual NDA availability notices directly alongside the submission trigger.
 4. **Automate Post-Submission Scheduling:** Transition from passive thank-you messages to dynamic calendar booking that captures high-intent executive interest instantly.
-5. **Enforce Sub-Second Load Times:** Ensure your contact page renders in under 500 milliseconds globally. Slow loading speeds compound form abandonment before the page even displays.
+5. **Enforce server-rendered Load Times:** Ensure your contact page renders in under 500 milliseconds globally. Slow loading speeds compound form abandonment before the page even displays.
 
-If your enterprise website is generating traffic but losing high-margin deals at the final step, review our [transparent pricing tiers](/pricing) or contact our digital architects through our [consultation portal](/contact). We build high-speed, enterprise-grade digital platforms engineered to turn executive attention into closed-won commercial contracts.
+If your enterprise website is generating traffic but losing high-margin deals at the final step, review our [transparent pricing tiers](/pricing) or contact our digital architects through our [consultation portal](/contact). We build custom Next.js, enterprise-grade digital platforms engineered to turn executive attention into closed-won commercial contracts.

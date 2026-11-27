@@ -95,7 +95,7 @@ Never rely on unstructured marketing paragraphs alone to explain your commercial
   "name": "B2B Web Engineering & Search Systems",
   "provider": { "@id": "https://rankursite.com/#organization" },
   "serviceType": "Enterprise Custom Web Architecture",
-  "description": "Sub-second Next.js digital platforms engineered for deterministic search visibility and enterprise B2B lead qualification.",
+  "description": "server-rendered Next.js digital platforms engineered for deterministic search visibility and enterprise B2B lead qualification.",
   "areaServed": [
     { "@type": "Country", "name": "United States" },
     { "@type": "Country", "name": "United Kingdom" },
@@ -127,7 +127,7 @@ In our production platform engineering for [Wafa Educational & Charitable Trust]
 | **Organization** | Global site root | Establishes company entity in Knowledge Graphs |
 | **Person** | Founder & blog authors | Provides author E-E-A-T and leadership attribution |
 | **Service / Product** | Commercial landing pages | Ingests exact technical capabilities and target markets |
-| **FAQPage** | Commercial pages & blogs | Spoon-feeds pre-formulated answers directly to LLMs |
+| **FAQPage** | Commercial pages & blogs | Provides structured Q&A markup (Google limited FAQ rich results in 2023; benefits are not guaranteed) |
 
 Transform your digital footprint into machine-readable code that generative engines cite with confidence.
 

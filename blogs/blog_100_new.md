@@ -165,7 +165,7 @@ The strategic validity of deploying disciplined topic clusters to establish glob
 
 When Rankur engineered the international digital infrastructure for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/), the organization was managing diverse humanitarian initiatives spanning healthcare, education, emergency relief, and orphan support. Previous digital communication presented these initiatives in fragmented, disconnected posts that failed to communicate the structural depth of their operational footprint.
 
-Rankur architected a unified cluster topology: creating core institutional pillars for each major humanitarian division, supported by granular field reports, audited financial breakdowns, and transparent operational case studies. Bidirectional internal linking connected field updates directly to governance pillars. Search engines recognized the organization's unassailable topical authority, awarding dominant rich snippets across international philanthropic queries, while global institutional foundations committed historic multi-year grant funding with total confidence.
+Rankur architected a unified cluster topology: creating core institutional pillars for each major humanitarian division, supported by granular field reports, audited financial breakdowns, and transparent operational case studies. Bidirectional internal linking connected field updates directly to governance pillars. Search engines recognized the organization's unassailable topical authority, awarding strong search authority across international philanthropic queries, while global institutional foundations committed historic multi-year grant funding with total confidence.
 
 ---
 

@@ -232,10 +232,10 @@ export default function Certifications() {
                 <Cpu size={24} strokeWidth={1.8} />
               </div>
               <h4 style={{ fontSize: '1.2rem', color: 'var(--color-white)', fontWeight: 700, marginBottom: 'var(--space-sm)' }}>
-                High-Speed Codebase Architecture
+                Custom Next.js Architecture
               </h4>
               <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7' }}>
-                We translate strategic positioning into custom Next.js engineering that scores 98 to 100 on Core Web Vitals, guaranteeing sub-second load times that keep enterprise buyers engaged and prevent drop-off.
+                We translate strategic positioning into custom Next.js engineering built for Core Web Vitals, with server-rendered HTML and structured metadata.
               </p>
             </SpotlightCard>
           </div>

@@ -155,4 +155,4 @@ In enterprise B2B sales, your website is either a high-velocity revenue engine o
 +-------------------------------------------------------------------------------+
 ```
 
-When evaluated through rigorous commercial mathematics, investing in a high-speed, custom-engineered B2B web system is one of the highest-return capital allocations an enterprise leadership team can make.
+When evaluated through rigorous commercial mathematics, investing in a custom Next.js, custom-engineered B2B web system is one of the highest-return capital allocations an enterprise leadership team can make.

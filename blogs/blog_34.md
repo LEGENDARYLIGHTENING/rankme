@@ -16,7 +16,7 @@ The theoretical marketing advice circulating through the B2B technology and indu
 
 For leadership teams operating in complex, high-stakes B2B sectors where average contract values (ACVs) range from $50,000 to $250,000 or more, this generic playbook produces zero measurable pipeline. 
 
-Enterprise procurement executives, Chief Technology Officers, and Engineering Directors do not make multi-year vendor commitments based on casual marketing copy. They require rigorous technical verification, transparent capability frameworks, sub-second digital responsiveness, and structural proof of operational competence.
+Enterprise procurement executives, Chief Technology Officers, and Engineering Directors do not make multi-year vendor commitments based on casual marketing copy. They require rigorous technical verification, transparent capability frameworks, server-rendered digital responsiveness, and structural proof of operational competence.
 
 In this comprehensive B2B organic lead generation case study, we document the structural, technical, and commercial teardown of how an enterprise firm transformed a stagnant, high-bounce web presence into a high-margin inbound pipeline engine.
 
@@ -74,10 +74,10 @@ To reverse the pipeline collapse, the digital infrastructure was re-engineered a
                     └───────────────────────────┘
 ```
 
-### Pillar 1: Migrating to High-Speed Next.js Edge Architecture
+### Pillar 1: Migrating to custom Next.js Next.js Edge Architecture
 The legacy monolithic CMS was completely replaced by a custom Next.js frontend deployed across global edge networks. 
 - Global page load times were compressed from **4.6 seconds down to 480 milliseconds**.
-- Largest Contentful Paint (LCP) was reduced to 0.7 seconds, achieving a perfect 100/100 Core Web Vitals score across all global locations.
+- Largest Contentful Paint (LCP) was reduced to 0.7 seconds, achieving a perfect Core Web Vitals focused Core Web Vitals score across all global locations.
 - Eliminating render-blocking scripts guaranteed that enterprise executives navigating from mobile devices encountered instant, fluid rendering.
 
 Explore our technical benchmarks on [fast-loading B2B websites and speed economics](/blog/fast-loading-b2b-websites-performance-benchmarks).
@@ -92,7 +92,7 @@ Vague marketing pages boasting "scalable end-to-end solutions" were rewritten in
 To dominate both traditional Google rankings and generative AI search engines (Perplexity, ChatGPT, and Google AI Overviews), custom JSON-LD structured data was injected cleanly into document heads:
 - Hierarchical `Organization`, `Service`, and `Product` schemas were intricately linked to verified external databases and executive leadership entities.
 - Rich `FAQPage` schema was embedded to directly answer complex procurement questions on search results pages.
-- As a result, search engines began awarding rich snippet badges, and AI engines began citing the company as a definitive primary authority for enterprise queries.
+- As a result, search engines recognized the structured data, and AI engines began citing the company as a definitive primary authority for enterprise queries.
 
 Read our masterclass on [schema markup for B2B product and service pages](/blog/schema-markup-b2b-product-service-pages).
 
@@ -130,7 +130,7 @@ The validity of engineering digital architecture around transparency, performanc
 
 When Rankur engineered the digital platform and governance infrastructure for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/), the organization faced significant hurdles in engaging major international institutional partners. The previous platform suffered from sluggish load times and lacked structured programmatic documentation.
 
-Rankur deployed a sub-second Next.js edge platform featuring clear impact metrics, verified governance documentation, and streamlined engagement workflows. By presenting verifiable proof and transparent organizational data, international stakeholders and philanthropic institutions committed record funding with complete confidence.
+Rankur deployed a server-rendered Next.js edge platform featuring clear impact metrics, verified governance documentation, and streamlined engagement workflows. By presenting verifiable proof and transparent organizational data, international stakeholders and philanthropic institutions committed record funding with complete confidence.
 
 ---
 
@@ -145,13 +145,13 @@ Realign keyword focus toward problem-solving, vendor comparison, and technical s
        │
        ▼
 [Phase 2: Performance Modernization]
-Eliminate monolithic CMS plugin bloat. Migrate commercial landing pages to high-speed Next.js Edge architecture.
+Eliminate monolithic CMS plugin bloat. Migrate commercial landing pages to custom Next.js Next.js Edge architecture.
 Enforce sub-500ms global render speeds and clean Core Web Vitals.
        │
        ▼
 [Phase 3: Machine-Readable Entity Structuring]
 Inject hierarchical Schema.org JSON-LD structured data linking services to verified corporate entities and executive authors.
-Capture rich snippets and optimize for generative AI citations.
+Structure Q&A markup cleanly. Note that Google limited FAQ rich results in 2023; the markup may help machines parse Q&A, but benefits are not guaranteed.
        │
        ▼
 [Phase 4: Strategic Qualification Routing]

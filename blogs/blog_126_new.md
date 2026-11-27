@@ -48,7 +48,7 @@ However, because the agency bundled 4MB of analytics scripts, chat widgets, and 
 The buyer taps "Submit" twice, nothing happens, they assume the platform is broken, and they close the tab.
 
 ### The Technical Fix: Zero-Latency Static Architecture
-On our high-performance Next.js builds, interactive elements are isolated with zero blocking JavaScript. We maintain a sub-second Largest Contentful Paint (<0.8s) and ensure Total Blocking Time (TBT) remains below 50ms. Forms submit via reliable server actions that execute whether scripts have finished parsing or not.
+On our high-performance Next.js builds, interactive elements are isolated with zero blocking JavaScript. We maintain a server-rendered Largest Contentful Paint and ensure Total Blocking Time (TBT) remains below 50ms. Forms submit via reliable server actions that execute whether scripts have finished parsing or not.
 
 ---
 
@@ -98,7 +98,7 @@ By removing phone number requirements and budget dropdowns, you eliminate defens
 When Rankur engineered the digital infrastructure for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/), our mandate was maximizing user trust and donation inquiries across global supporters.
 
 By replacing legacy bloated form plugins with zero-friction, edge-rendered Next.js submission pipelines, we achieved:
-- **100% Core Web Vitals score** with sub-second global interaction speed.
+- **Core Web Vitals focused engineering** with server-rendered global interaction speed.
 - **+40% increase in verified conversion completions** within 30 days of launch.
 - Zero silent submission failures across mobile and corporate firewalls.
 

@@ -19,15 +19,15 @@ const platformsLedger = [
   {
     title: 'Wafa Educational & Charitable Trust: Client Platform',
     evidence:
-      'Accessible, high-performance digital platform built for a philanthropic healthcare and education trust, organizing community medical aid and donor contact pathways cleanly at wafatrustindia.org.',
+      "Rebuilt from WordPress to Next.js 16 with React 19 (App Router) and hosted on Vercel with prerendered pages at wafatrustindia.org. Built to the client's brief and approved by the client.",
   },
 ];
 
 const principles = [
   {
     icon: Zap,
-    title: 'Sub-Second Speed is a Business Metric',
-    desc: 'Website latency directly destroys pipeline. A 2-second delay silently cuts executive conversion rates in half. Every platform we build is engineered on global edge networks with minimal payload weight to guarantee sub-second delivery.',
+    title: 'Speed is a Direct Revenue Metric',
+    desc: 'Website latency directly damages pipeline conversion. Excessive load delays cause high-intent buyers to abandon evaluations. Every platform we build is engineered on global edge networks with minimal payload weight to deliver fast, responsive interactions.',
   },
   {
     icon: ShieldCheck,
@@ -56,7 +56,7 @@ export default function About() {
             Founder-Led <span className="text-gold">Web &amp; SEO Engineering</span>
           </>
         }
-        subtitle="I engineer high-performance digital platforms and search authority systems engineered to capture high-value buyer demand and accelerate B2B pipeline."
+        subtitle="I engineer high-performance web platforms, technical SEO, and generative search systems for B2B and mission-driven organisations."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         secondaryCTA={{ to: '#my-story', label: 'Read Story' }}
       />

@@ -122,7 +122,7 @@ To achieve search dominance, your digital infrastructure must translate marketin
 - **Organization Schema:** Include official legal business name, registered corporate identifiers, headquarters coordinates, official social profiles via `sameAs`, and verified leadership entities.
 - **Service & Product Schema:** Explicitly declare the commercial taxonomy of your offering, supported enterprise operating environments, and aggregate pricing baseline ranges.
 - **Person (Author) Schema:** Every technical guide, white paper, and case study must link named executive authors directly to verified external authority profiles (such as LinkedIn or Wikidata).
-- **FAQPage Schema:** Embed structured Q&A accordions addressing critical procurement questions directly in document heads, securing high-visibility rich snippet accordions on search results pages.
+- **FAQPage Schema:** Embed structured Q&A accordions addressing critical procurement questions directly in document heads, noting that Google limited FAQ rich results in 2023; the markup may help machines parse Q&A content, but search and citation benefits are not guaranteed.
 
 Read our complete guide on [schema markup for B2B product and service pages](/blog/schema-markup-b2b-product-service-pages).
 
@@ -194,4 +194,4 @@ Audit all international subdirectories for bidirectional hreflang reciprocity an
 Integrate automated prebuild testing scripts to catch title length, canonical, and link regressions before deployment.
 ```
 
-If your enterprise website is currently burdened by technical debt that prevents your capabilities from commanding the organic search visibility they deserve, explore our [transparent pricing packages](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build high-speed, enterprise-grade digital systems designed to turn technical execution into verified commercial revenue.
+If your enterprise website is currently burdened by technical debt that prevents your capabilities from commanding the organic search visibility they deserve, explore our [transparent pricing packages](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build custom Next.js, enterprise-grade digital systems designed to turn technical execution into verified commercial revenue.

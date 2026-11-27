@@ -241,34 +241,38 @@ const blogIndex = files.map((filename) => {
     image: '/blog-images/hub-website-strategy.webp',
   };
 
-  // Real dates from frontmatter / git history (B2: never invent dates)
-  const gitPub = gitAddedMap.get(filename);
-  const gitMod = gitModifiedMap.get(filename);
+  // Real dates from frontmatter: never invent bulk modified dates
   const fmDate = data['Date'] && /^\d{4}-\d{2}-\d{2}/.test(data['Date']) ? data['Date'].slice(0, 10) : null;
+  const gitPub = gitAddedMap.get(filename);
   const datePublished = fmDate || (gitPub ? gitPub.slice(0, 10) : null);
-  const dateModified = gitMod ? gitMod.slice(0, 10) : datePublished;
+  // Keep dateModified in sync with datePublished unless frontmatter explicitly specifies a real Date Modified
+  const fmMod = data['Date Modified'] && /^\d{4}-\d{2}-\d{2}/.test(data['Date Modified']) ? data['Date Modified'].slice(0, 10) : null;
+  const dateModified = fmMod || datePublished;
 
   const primaryKeyword = (data['Primary Keyword'] || title).trim();
   const lane = classifyLane(taxInfo.tag, title, primaryKeyword, content);
 
+  const cleanBlogTitle = (title || '').replace(/\s*\|\s*Rankur\s*$/i, '').trim();
   let blogImage = taxInfo.image;
-  let blogAlt = `${primaryKeyword}: ${title} | Rankur`;
-  let num = PILLAR_NUM_MAP[filename] || null;
-  if (!num) {
-    const numMatch = filename.match(/^blog_0*(\d+)(?:_new)?\.md$/);
-    if (numMatch) {
-      num = parseInt(numMatch[1], 10);
-    }
-  }
+  let blogAlt = `${cleanBlogTitle} architectural guide`;
 
-  const promptIdx = num ? (((num - 1) % 120) + 1) : null;
-  if (promptIdx) {
-    const candidate = `/blog-images/prompt-${promptIdx}.webp`;
-    if (fs.existsSync(path.join(rootDir, 'public', candidate))) {
-      blogImage = candidate;
-      const pInfo = promptsMap[promptIdx];
-      if (pInfo && pInfo.scene) {
-        blogAlt = `${primaryKeyword}: ${pInfo.scene} (${title}) | Rankur`;
+  const slug = data.Slug || data.slug || filename.replace('.md', '');
+  const semanticImageCandidate = `/blog-images/${slug}.webp`;
+  if (fs.existsSync(path.join(rootDir, 'public', semanticImageCandidate))) {
+    blogImage = semanticImageCandidate;
+  } else {
+    let num = PILLAR_NUM_MAP[filename] || null;
+    if (!num) {
+      const numMatch = filename.match(/^blog_0*(\d+)(?:_new)?\.md$/);
+      if (numMatch) {
+        num = parseInt(numMatch[1], 10);
+      }
+    }
+    const promptIdx = num ? (((num - 1) % 120) + 1) : null;
+    if (promptIdx) {
+      const legacyCandidate = `/blog-images/prompt-${promptIdx}.webp`;
+      if (fs.existsSync(path.join(rootDir, 'public', legacyCandidate))) {
+        blogImage = legacyCandidate;
       }
     }
   }

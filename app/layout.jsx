@@ -1,16 +1,24 @@
+import { Inter } from 'next/font/google';
 import '../src/styles/global.css';
 import Navbar from '../src/components/Navbar';
 import Footer from '../src/components/Footer';
 import ConsentBanner from '../src/components/ConsentBanner';
 
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-inter',
+});
+
 export const metadata = {
   metadataBase: new URL('https://rankursite.com'),
   title: {
-    default: 'Enterprise B2B Web Engineering & Search Systems | Rankur',
+    default: 'B2B Web Development, Technical SEO & GEO | Rankur',
     template: '%s',
   },
   description:
-    'Sub-second Next.js web systems and deterministic search architecture for B2B operators. Milestone delivery with 100% source code ownership.',
+    'Custom Next.js web platforms, technical SEO, and generative engine optimization for B2B and mission-driven organisations. 100% source code ownership.',
   manifest: '/manifest.webmanifest',
   icons: {
     icon: [
@@ -21,9 +29,9 @@ export const metadata = {
     apple: '/rankur-logo.png',
   },
   openGraph: {
-    title: 'Enterprise B2B Web Engineering & Search Systems | Rankur',
+    title: 'B2B Web Development, Technical SEO & GEO | Rankur',
     description:
-      'Sub-second Next.js web systems and deterministic search architecture for B2B operators. Milestone delivery with 100% source code ownership.',
+      'Custom Next.js web platforms, technical SEO, and generative engine optimization for B2B and mission-driven organisations. 100% source code ownership.',
     url: 'https://rankursite.com',
     siteName: 'Rankur',
     images: [
@@ -39,9 +47,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Enterprise B2B Web Engineering & Search Systems | Rankur',
+    title: 'B2B Web Development, Technical SEO & GEO | Rankur',
     description:
-      'Sub-second Next.js web systems and deterministic search architecture for B2B operators. Milestone delivery with 100% source code ownership.',
+      'Custom Next.js web platforms, technical SEO, and generative engine optimization for B2B and mission-driven organisations. 100% source code ownership.',
     creator: '@moksh_rankur',
     images: ['https://rankursite.com/twitter-image.jpg'],
   },
@@ -55,7 +63,7 @@ const masterSchema = {
       '@id': 'https://rankursite.com/#website',
       url: 'https://rankursite.com',
       name: 'Rankur',
-      description: 'High-speed Next.js B2B web infrastructure, GEO search optimization, and lead generation systems for founders.',
+      description: 'Custom Next.js B2B web infrastructure, GEO search optimization, and lead generation systems for founders.',
       publisher: {
         '@id': 'https://rankursite.com/#organization',
       },
@@ -81,10 +89,8 @@ const masterSchema = {
         availableLanguage: ['English'],
       },
       sameAs: [
-        'https://www.crunchbase.com/organization/rankur-a39c',
-        'https://twitter.com/moksh_rankur',
-        'https://github.com/LEGENDARYLIGHTENING',
         'https://linkedin.com/in/moksh-parjapati',
+        'https://twitter.com/moksh_rankur',
       ],
       founder: {
         '@id': 'https://rankursite.com/#founder',
@@ -127,7 +133,6 @@ const masterSchema = {
       sameAs: [
         'https://linkedin.com/in/moksh-parjapati',
         'https://twitter.com/moksh_rankur',
-        'https://github.com/LEGENDARYLIGHTENING',
       ],
       hasCredential: [
         {
@@ -176,13 +181,10 @@ const masterSchema = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.variable}>
       <head>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="icon" type="image/png" href="/rankur-logo.png" sizes="any" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(masterSchema) }}

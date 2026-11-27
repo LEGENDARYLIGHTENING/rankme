@@ -170,7 +170,7 @@ To transition your search engine strategy from generating useless traffic to cap
 ### Strategic Milestones for Leadership
 1. **Audit Your Top Organic Pages:** Review your top 10 organic landing pages by traffic. What percentage of that traffic converts into Sales Qualified Leads? If a page generates thousands of visits but zero sales meetings over 12 months, re-allocate those resources immediately.
 2. **Consult Senior Sales Leads:** Ask your senior Account Executives what technical and commercial questions prospects ask during late-stage sales calls. Build dedicated commercial masterclasses around those exact questions.
-3. **Upgrade to High-Performance Web Infrastructure:** Ensure your commercial landing pages are pre-rendered at the edge using modern SSR frameworks, delivering sub-second load times that keep high-intent buyers engaged.
+3. **Upgrade to High-Performance Web Infrastructure:** Ensure your commercial landing pages are pre-rendered at the edge using modern SSR frameworks, delivering server-rendered load times that keep high-intent buyers engaged.
 
 To evaluate how web architecture impacts commercial outcomes, explore our analysis on [Why Most B2B Websites Get Zero Leads](/blog/why-business-websites-get-zero-leads).
 

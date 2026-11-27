@@ -86,7 +86,7 @@ Google needs time to re-crawl your new architecture, process the 301 redirects, 
 
 However, if you executed the migration perfectly-and especially if the new site is significantly faster and better structured than the old one-the traffic will rebound and often exceed previous levels by month two. 
 
-When we handle digital infrastructure transitions on platforms including [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), the focus is entirely on mitigating this risk. By executing a flawless technical transition to a high-speed React architecture, we didn't just preserve their SEO; we amplified it, resulting in 50+ qualified international leads in the first 30 days.
+When we handle digital infrastructure transitions on platforms including [Wafa Educational & Charitable Trust](/case-studies#wafa-case-study), the focus is entirely on mitigating this risk. By executing a flawless technical transition to a custom Next.js React architecture, we didn't just preserve their SEO; we amplified it, resulting in 50+ qualified international leads in the first 30 days.
 
 ## Don't Migrate Blindly
 

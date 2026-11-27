@@ -110,7 +110,7 @@ When you lose a visitor back to the search engine, search algorithms register po
 +---------------------------------------------------------------+
 | The Post-Click Executive Conversion Funnel                    |
 +---------------------------------------------------------------+
-| Step 1: Sub-Second Edge Rendering (<800ms)                    |
+| Step 1: Server-Rendered Edge Delivery                    |
 | -> Zero layout shifts; instant visual delivery.               |
 +---------------------------------------------------------------+
 | Step 2: Immediate Factual Mirroring Above the Fold            |
@@ -160,7 +160,7 @@ To transform passive AI citations into an active enterprise pipeline engine, mar
 | 1  | Restructure Core Content     | Implement the 3-tier Information Gap Architecture on top pages|
 | 2  | Re-Engineer Title Tags       | Front-load action triggers and proprietary utility in titles. |
 | 3  | Deploy Proprietary Utilities | Build interactive cost models, calculators, and audit tools.   |
-| 4  | Eliminate Rendering Lag      | Enforce sub-second edge delivery via modern SSR architecture. |
+| 4  | Eliminate Rendering Lag      | Enforce server-rendered edge delivery via modern SSR architecture. |
 | 5  | Streamline Conversion Paths  | Replace multi-field gate forms with high-intent demo routing. |
 +----+------------------------------+---------------------------------------------------------------+
 ```

@@ -169,7 +169,7 @@ To engineer an inbound engine capable of closing complex, multi-quarter enterpri
 ### Strategic Milestones for Leadership
 1. **Audit Active Pipeline Stalls:** Identify opportunities that have been open for more than 120 days. Pinpoint which committee role is hesitant (e.g., Security, Finance) and commission dedicated assets to address their specific concerns.
 2. **Equip Sales Leads with Technical Assets:** Ensure your sales team has direct access to un-gated case studies, architecture blueprints, and compliance matrices ready to forward to prospects.
-3. **Upgrade to High-Performance Architecture:** Ensure your digital platform delivers sub-second load times globally, providing buying committees with a frictionless diligence experience.
+3. **Upgrade to High-Performance Architecture:** Ensure your digital platform delivers server-rendered load times globally, providing buying committees with a frictionless diligence experience.
 
 To evaluate how web infrastructure impacts customer acquisition economics, explore our analysis on [Custom vs Template B2B Websites: Cost vs Outcome Analysis](/blog/custom-vs-template-b2b-websites-cost-outcome).
 

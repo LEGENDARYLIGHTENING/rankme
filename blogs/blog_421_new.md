@@ -55,7 +55,7 @@ For a B2B cybersecurity client experiencing an 82% pricing page bounce rate, we 
 ### The Conversion Overhaul
 1. **Replaced Iframe Forms with React State:** Built native, pre-rendered React qualification forms loading instantly from the Edge.
 2. **Dynamic Value Anchoring:** Added interactive sliders allowing prospects to see baseline pricing tiers and ROI metrics in real time.
-3. **Result:** Bounce rates dropped from 82% to 29%, and qualified inbound inquiries jumped **215% in the first 45 days post-launch**.
+3. **Result:** Bounce rates dropped significantly, and qualified inbound inquiries increased following the replatforming.
 
 ---
 

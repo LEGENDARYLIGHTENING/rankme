@@ -67,7 +67,7 @@ A truly global digital platform must deploy three non-negotiable architectural l
 +---------------------------------------------------------------+
 | 1. Symmetrical Reciprocal Hreflang Tags (Zero Orphan Nodes)   |
 | 2. Dedicated Regional Silos (/usa, /uk, /canada, /australia)  |
-| 3. Sub-Second Global Edge Delivery (Edge Caching & SSR)       |
+| 3. Global Edge Delivery (Edge Caching & SSR)       |
 +---------------------------------------------------------------+
 ```
 
@@ -84,7 +84,7 @@ Avoid automatic IP-based redirects that force visitors or automated crawlers int
 
 Instead, build dedicated regional directories (e.g., `/usa`, `/uk`, `/canada`). This architecture allows search bots and human buyers to navigate regional hubs freely while preserving localized crawl paths.
 
-### Layer 3: Sub-Second Global Edge Delivery
+### Layer 3: Global Edge Delivery
 If a procurement director in London or New York clicks your link and experiences a three-second latency delay because your web server is located thousands of miles away, they will bounce. Modern global architecture must utilize Edge Server-Side Rendering (SSR) and edge-cached static distribution (via CDNs like Cloudflare or Vercel Edge Networks), ensuring sub-800ms Largest Contentful Paint (LCP) in every target market worldwide.
 
 ---

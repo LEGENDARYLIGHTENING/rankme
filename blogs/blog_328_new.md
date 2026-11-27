@@ -62,7 +62,7 @@ When you ask for basic B2B commercial features (such as an interactive ROI calcu
 Every minor modification requires additional billable hours. The $4,500 project quickly balloons to $12,000, and delivery stretches from three weeks to five months.
 
 ### Stage 4: The Inevitable Post-Launch Rebuild
-The site finally launches. It looks visually passable on a high-speed desktop monitor in the agency's office. 
+The site finally launches. It looks visually passable on a custom Next.js desktop monitor in the agency's office. 
 
 In the real world, mobile load times soar past 4 seconds, bounce rates spike to 70%, and inbound demo volume dries up. 
 
@@ -109,7 +109,7 @@ Why do specialized B2B web engineering consultancies charge $25,000 to $50,000+?
 ### 1. Contractually Guaranteed Core Web Vitals (Sub-1.2s Mobile LCP)
 Cheap agencies build on bloated themes that fail Google PageSpeed Insights. 
 
-Specialized engineering teams write custom Next.js code compiled to global edge CDNs, guaranteeing sub-50ms server response times and sub-second mobile rendering.
+Specialized engineering teams write custom Next.js code compiled to global edge CDNs, guaranteeing sub-50ms server response times and server-rendered mobile rendering.
 
 ### 2. Deep Commercial Positioning & Conversion Copywriting
 Cheap agencies demand that you provide all the copy: *"Send us your text in a Word document."* 
@@ -161,4 +161,4 @@ In modern B2B sales, your website is the foundation of your company's enterprise
 +-------------------------------------------------------------------------------+
 ```
 
-By investing in high-speed custom architecture, clear commercial positioning, and intelligent qualification funnels, your company commands enterprise authority, protects its sales pipeline, and generates compounding financial returns for years to come.
+By investing in custom Next.js custom architecture, clear commercial positioning, and intelligent qualification funnels, your company commands enterprise authority, protects its sales pipeline, and generates compounding financial returns for years to come.

@@ -201,8 +201,8 @@ Inject hierarchical JSON-LD structured data linking factory GPS coordinates, cer
 Embed structured Incoterms, packaging standards, and customs compliance dossiers directly on all core product pages.
        │
        ▼
-[Phase 5: Sub-Second Edge CDN Deployment]
-Deploy your web application on high-speed Next.js Edge infrastructure, ensuring sub-500ms render speeds for overseas buyers.
+[Phase 5: server-rendered Edge CDN Deployment]
+Deploy your web application on custom Next.js Next.js Edge infrastructure, ensuring sub-500ms render speeds for overseas buyers.
 ```
 
-If your manufacturing or export enterprise operates world-class physical facilities but struggles to capture the international supply chain contracts your capabilities deserve, explore our [transparent pricing packages](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build high-speed, enterprise-grade digital systems designed to turn industrial capability into verified commercial revenue.
+If your manufacturing or export enterprise operates world-class physical facilities but struggles to capture the international supply chain contracts your capabilities deserve, explore our [transparent pricing packages](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build custom Next.js, enterprise-grade digital systems designed to turn industrial capability into verified commercial revenue.

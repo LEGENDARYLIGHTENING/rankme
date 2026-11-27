@@ -124,7 +124,7 @@ export default function Contact() {
                     rel="noopener noreferrer"
                     aria-label="Moksh Parjapati on LinkedIn"
                   >
-                    linkedin.com/in/moksh-parjapati
+                    LinkedIn
                   </a>
                 </div>
               </div>

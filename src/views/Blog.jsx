@@ -44,7 +44,7 @@ const hubDescriptions = {
   'Nutraceuticals & Wellness Brands': 'Compliance-first digital positioning for contract manufacturers and supplement brands.',
   'Organic Lead Generation': 'Bottom-of-funnel organic content and demand capture for B2B service businesses.',
   'Conversions & Leads': 'Removing buyer friction, clarifying messaging, and optimizing B2B qualified lead conversion.',
-  'Tech & Speed': 'Sub-second Core Web Vitals, static edge rendering, and eliminating legacy CMS performance overhead.',
+  'Tech & Speed': 'Optimized Core Web Vitals, static edge rendering, and eliminating legacy CMS performance overhead.',
   'Cost & ROI': 'Evaluating B2B website architecture investments against long-term pipeline efficiency and customer acquisition cost.',
   'Hiring & Agency': 'Practical vetting criteria for B2B founders selecting engineering and growth partners.',
   'Founder-Led Marketing': 'Authority-driven LinkedIn and editorial distribution systems for B2B founders.',
@@ -82,11 +82,11 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
   const q = searchQuery.toLowerCase().trim();
   const filtered = q
     ? baseList.filter(
-        (p) =>
-          (p.title && p.title.toLowerCase().includes(q)) ||
-          (p.primaryKeyword && p.primaryKeyword.toLowerCase().includes(q)) ||
-          (p.excerpt && p.excerpt.toLowerCase().includes(q))
-      )
+      (p) =>
+        (p.title && p.title.toLowerCase().includes(q)) ||
+        (p.primaryKeyword && p.primaryKeyword.toLowerCase().includes(q)) ||
+        (p.excerpt && p.excerpt.toLowerCase().includes(q))
+    )
     : baseList;
 
   const isCategoryArchive = Boolean(activeCategoryObj) && !q;
@@ -132,8 +132,8 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
         subtitle={
           activeCategoryObj
             ? hubDescriptions[activeCategoryObj.tag] ||
-              'Tactical B2B guides on custom high-performance web engineering, technical SEO, and conversion architecture.'
-            : 'Tactical guides on custom high-speed web systems, conversion architecture, Core Web Vitals, and generative AI search optimization.'
+            'Tactical B2B guides on custom high-performance web engineering, technical SEO, and conversion architecture.'
+            : 'Tactical guides on custom Next.js web systems, conversion architecture, Core Web Vitals, and generative AI search optimization.'
         }
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
       />

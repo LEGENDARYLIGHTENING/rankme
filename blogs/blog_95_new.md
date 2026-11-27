@@ -161,7 +161,7 @@ The power of translating organizational transparency and verified governance int
 
 When Rankur engineered the digital platform for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/), the organization was seeking to establish deep, multi-year partnerships with major international philanthropic foundations and governmental bodies. Previous communication efforts lacked the structured, verifiable trust markers required by international evaluation boards.
 
-Rankur deployed a modern Next.js edge platform embedding transparent governance documentation, audited financial reports, verified leadership profiles, and real-time programmatic impact telemetry. Search engines recognized the domain's unassailable E-E-A-T signals, awarding dominant rich snippets across international search queries, while global philanthropic institutions committed historic multi-year grant funding with total institutional confidence.
+Rankur deployed a modern Next.js edge platform embedding transparent governance documentation, audited financial reports, verified leadership profiles, and real-time programmatic impact telemetry. Search engines recognized the domain's unassailable E-E-A-T signals, awarding strong search authority across international search queries, while global philanthropic institutions committed historic multi-year grant funding with total institutional confidence.
 
 ---
 
@@ -197,8 +197,8 @@ Deploy dedicated security hubs displaying verified SOC 2, ISO, and privacy dossi
 Secure authoritative executive citations and podcast features linking back to named author profiles on your primary domain.
        │
        ▼
-[Phase 5: Sub-Second Performance Verification]
-Migrate commercial pathways to high-speed Next.js Edge architecture, guaranteeing sub-500ms global render speeds.
+[Phase 5: server-rendered Performance Verification]
+Migrate commercial pathways to custom Next.js Next.js Edge architecture, guaranteeing sub-500ms global render speeds.
 ```
 
-If your enterprise has built industry-leading capabilities but struggles to command the organic authority and search rankings your solutions deserve, explore our [transparent pricing tiers](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build high-speed, enterprise-grade digital systems designed to turn technical execution into verified commercial revenue.
+If your enterprise has built industry-leading capabilities but struggles to command the organic authority and search rankings your solutions deserve, explore our [transparent pricing tiers](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build custom Next.js, enterprise-grade digital systems designed to turn technical execution into verified commercial revenue.

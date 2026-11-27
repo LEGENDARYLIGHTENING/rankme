@@ -15,7 +15,7 @@ Date: 2026-08-30
 When a scaling B2B enterprise generating between $5 million and $50 million in annual revenue evaluates its digital marketing infrastructure, the leadership team invariably arrives at a critical capital allocation fork:
 
 1. **The Retainer Model:** Sign an ongoing agency retainer paying $8,000 to $15,000 every single month for continuous design tweaks, maintenance retainers, and general digital support.
-2. **The Capital Asset Model:** Invest in a fixed-scope, one-time custom website build ($35,000 to $75,000) engineered on modern high-speed architecture (Next.js), owned entirely in-house as a balance-sheet asset.
+2. **The Capital Asset Model:** Invest in a fixed-scope, one-time custom website build ($35,000 to $75,000) engineered on modern custom Next.js architecture (Next.js), owned entirely in-house as a balance-sheet asset.
 
 Digital agencies aggressively pitch monthly retainers because predictable recurring revenue benefits agency margins and agency valuations. However, for the B2B enterprise funding that retainer, paying $100,000 to $180,000 year after year frequently creates an operational trap: paying senior rates for junior execution while remaining chained to fragile, slow legacy software.
 
@@ -96,10 +96,10 @@ When an enterprise builds on modern frameworks such as Next.js:
 ### 1. Permanent Balance-Sheet Asset Value
 A custom-built codebase is stored in your private GitHub repository and hosted on your corporate cloud accounts. You own 100% of the intellectual property, design tokens, and components. If you decide to transition internal teams or work with external specialists in the future, you never face vendor lock-in or proprietary code hostages.
 
-### 2. Sub-Second Global Performance
+### 2. Global Edge Delivery
 Enterprise custom builds pre-render static HTML and serve assets via global edge content delivery networks. Instead of relying on bloated database queries that take 2 to 4 seconds to compile on legacy servers, pages load in under 500 milliseconds globally. 
 
-In high-value B2B procurement, sub-second performance directly reduces bounce rates. When an executive buyer visits from mobile devices, fast loading speeds convey immediate technical competence and respect for the buyer's time.
+In high-value B2B procurement, server-rendered performance directly reduces bounce rates. When an executive buyer visits from mobile devices, fast loading speeds convey immediate technical competence and respect for the buyer's time.
 
 ### 3. Complete Marketing Independence via Headless Architecture
 Modern custom architectures separate the frontend rendering engine from content administration through headless content management systems. Your marketing and growth teams can create, edit, and publish high-converting landing pages, case studies, and blog posts without touching code or waiting on agency developer queues.
@@ -146,7 +146,7 @@ To decide which investment model matches your corporate strategy, evaluate your 
 ### Choose a Custom Build If:
 - **You Seek Capital Efficiency:** You want to invest $35,000 to $75,000 once and eliminate recurring $10,000 monthly operational expenses from your P&L statement.
 - **You Value Intellectual Property:** You want 100% control and ownership over your codebase, brand assets, and digital infrastructure.
-- **Speed is a Competitive Moat:** You operate in competitive enterprise markets where sub-second load times and flawless Core Web Vitals directly impact deal velocity.
+- **Speed is a Competitive Moat:** You operate in competitive enterprise markets where server-rendered load times and flawless Core Web Vitals directly impact deal velocity.
 - **You Have an Internal Marketing Operator:** Your team can manage content updates internally using an intuitive headless CMS once the initial infrastructure is deployed.
 
 ### Choose an Agency Retainer If:
@@ -160,6 +160,6 @@ To decide which investment model matches your corporate strategy, evaluate your 
 
 Treating your enterprise website as a perpetual monthly maintenance subscription drains cash flow, slows down your marketing team, and surrenders technical control to outside vendors.
 
-By investing in a fixed-scope, custom Next.js build, your organization secures a high-speed, enterprise-grade digital asset that compounds in value, accelerates qualified sales pipeline, and pays for itself within months.
+By investing in a fixed-scope, custom Next.js build, your organization secures a custom Next.js, enterprise-grade digital asset that compounds in value, accelerates qualified sales pipeline, and pays for itself within months.
 
 Explore our [transparent pricing tiers](/pricing) to review exact scope deliverables, or schedule a strategic briefing with our senior engineering team via our [consultation portal](/contact). We help ambitious B2B enterprises replace agency bloat with permanent commercial advantage.

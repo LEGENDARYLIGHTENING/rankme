@@ -286,3 +286,14 @@
     flex: 0 1 calc(50% - var(--space-md));
   }
 }
+
+/* Defer off-screen Style & Layout work for below-the-fold homepage sections */
+.services-overview,
+.case-teaser,
+.niche-strip,
+.home-process,
+.home-blog-section,
+.home-cta-block {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 600px;
+}

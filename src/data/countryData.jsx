@@ -102,7 +102,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Every UK engagement follows the same production engineering approach behind Wafa Trust and our high-performance B2B web infrastructure.',
+        'Every UK engagement follows the same production engineering approach behind Wafa Trust and our custom Next.js B2B web infrastructure.',
       faqs: [
         {
           question: 'How does UK privacy and cookie consent work in your builds?',
@@ -249,7 +249,7 @@ export const countryData = {
         </>
       ),
       heroSubtitle:
-        'Built for UAE B2B trading, logistics, telematics, and technology firms connecting with enterprise and free-zone procurement across Dubai, Abu Dhabi, and the wider Gulf.',
+        'Built for UAE B2B trading, logistics, and technology firms connecting with enterprise and free-zone procurement across Dubai, Abu Dhabi, and the wider Gulf.',
       problemText: [
         'Gulf procurement teams and multinational distributors in Dubai and Abu Dhabi evaluate vendor websites as a proxy for operational reliability and technical seriousness.',
         'Heavy corporate brochure sites with stock imagery and broken mobile navigation create doubt early, especially when buyers compare spec sheets on mobile connections.',
@@ -273,7 +273,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Directly informed by engineering scalable Next.js architectures like Wafa Trust and high-performance search infrastructure.',
+        'Directly informed by engineering Next.js architectures like Wafa Trust and technical search infrastructure.',
       faqs: [
         {
           question: 'Have you built B2B platforms targeting GCC buyers?',
@@ -330,7 +330,7 @@ export const countryData = {
         },
       ],
       proofText:
-        'Backed by production Next.js engineering across high-performance web platforms and verified client builds like Wafa Trust.',
+        'Backed by production Next.js engineering across B2B web platforms and client builds like Wafa Trust.',
       faqs: [
         {
           question: 'Can you help industrial or trading firms modernize legacy websites?',
@@ -368,7 +368,7 @@ export const countryData = {
         </>
       ),
       heroSubtitle:
-        'Clean, high-speed Next.js web architecture and technical SEO for New Zealand export-oriented B2B and SaaS teams.',
+        'Clean, custom Next.js web architecture and technical SEO for New Zealand export-oriented B2B and SaaS teams.',
       problemText: [
         'New Zealand B2B companies frequently balance domestic market clarity with export growth into Australia, North America, and Europe.',
         'Legacy websites built on heavy visual themes slow down mobile buyers and leave international search visibility on the table.',

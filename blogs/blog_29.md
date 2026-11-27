@@ -47,7 +47,7 @@ To generate high-margin industrial RFQs, you must understand the exact three-sta
 Before procurement talks to sales, a lead manufacturing engineer or product designer visits your website to verify raw technical feasibility:
 * What exact materials do you machine or formulate (e.g., Titanium Grade 5, Inconel 718, PEEK, custom elastomers)?
 * What are your verified dimensional tolerances (e.g., ±0.0002 inches or ±0.005 mm)?
-* What machinery and bed sizes do you operate (e.g., 5-axis CNC machining centers, cleanroom class 10,000, high-speed automated extrusion)?
+* What machinery and bed sizes do you operate (e.g., 5-axis CNC machining centers, cleanroom class 10,000, custom Next.js automated extrusion)?
 
 If this technical data is buried inside a 40-page unsearchable PDF or missing entirely, the engineer bounces to a competitor whose specifications are indexed cleanly in search results.
 
@@ -124,7 +124,7 @@ Explicitly annotate your manufacturing parameters (`material`, `depth`, `width`,
 Consider a precision contract manufacturer producing specialized stainless-steel valves for fluid control systems:
 
 * **Before Optimization:** Their website was a static 5-page site built in 2017. Their total inbound RFQ volume was 1 to 2 low-margin quote requests per quarter, primarily from local job shops.
-* **The Strategic Intervention:** We re-engineered their platform into a high-speed custom Next.js system with dedicated capability silos for high-pressure sanitary valves, published certified ISO 9001:2015 documentation, and deployed a 2-step secure CAD upload portal.
+* **The Strategic Intervention:** We re-engineered their platform into a custom Next.js custom Next.js system with dedicated capability silos for high-pressure sanitary valves, published certified ISO 9001:2015 documentation, and deployed a 2-step secure CAD upload portal.
 * **The Commercial Outcome:** Inbound organic impressions for high-intent OEM procurement queries surged by 280%. Within five months, the manufacturer secured two enterprise contracts from global pharmaceutical brands totaling over $380,000 in gross margin.
 
 ---

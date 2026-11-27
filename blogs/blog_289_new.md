@@ -87,7 +87,7 @@ Review our technical guide on [creating content that AI answers cite for B2B top
 To guarantee that AI models accurately understand your service capabilities, you must translate visible text into machine-readable JSON-LD schema markup:
 - **Organization & Person Schema:** Validates corporate ownership, physical venues, and executive leadership attribution.
 - **Service Schema:** Explicitly defines capability boundaries, delivery regions, and compliance frameworks.
-- **FAQPage Schema:** Spoon-feeds structured question-and-answer pairs directly to AI models.
+- **FAQPage Schema:** Provides structured question-and-answer markup. Google limited FAQ rich results in 2023; the markup may help machines parse Q&A content, but benefits are not guaranteed.
 
 Review our blueprint on [Schema Markup for B2B Product and Service Pages](/blog/schema-markup-b2b-product-service-pages).
 

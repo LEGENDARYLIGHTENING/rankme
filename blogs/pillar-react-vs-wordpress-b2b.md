@@ -122,7 +122,7 @@ However, looking strictly at Year 1 capital expenditure obscures the true commer
 +-------------------------------------------------------------------------------+
 ```
 
-By Year 2, the custom Next.js platform is already dramatically cheaper to operate than the WordPress alternative. When you factor in the additional enterprise conversions captured by sub-second page loads, the custom architecture delivers an overwhelming return on investment.
+By Year 2, the custom Next.js platform is already dramatically cheaper to operate than the WordPress alternative. When you factor in the additional enterprise conversions captured by rapid page loads, the custom architecture delivers an overwhelming return on investment.
 
 ---
 

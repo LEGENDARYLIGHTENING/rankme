@@ -117,14 +117,14 @@ To explore the technical foundations required for AI search, review our mastercl
 
 ---
 
-## 4. Technical Performance: Sub-Second Edge Delivery for Global Buyers
+## 4. Technical Performance: server-rendered Edge Delivery for Global Buyers
 
 Enterprise procurement leads routinely review dozens of supplier category pages while compiling a tender list. If your category page takes three seconds to load, freezes while rendering hundreds of thumbnail images, or shifts layouts as fonts load, they will abandon the page.
 
 Category pages must be built on high-performance foundations:
 - **Server-Side Rendering (SSR) & Static Generation (SSG):** Compile category pages into static HTML at the network edge using Next.js, ensuring Largest Contentful Paint (LCP) renders in under 800 milliseconds globally.
 - **Automated Next-Gen Image Pipelines:** Convert all product photography into lightweight WebP or AVIF formats automatically, reserving explicit aspect ratio containers to permanently eliminate Cumulative Layout Shift (CLS = 0).
-- **Sub-Second Search & Faceted Filtering:** Execute product filtering in browser memory using lightweight client-side state rather than triggering slow database reloads.
+- **server-rendered Search & Faceted Filtering:** Execute product filtering in browser memory using lightweight client-side state rather than triggering slow database reloads.
 
 To explore how infrastructure choices impact customer acquisition economics, review our analysis on [Custom vs Template B2B Websites: Cost vs Outcome Analysis](/blog/custom-vs-template-b2b-websites-cost-outcome).
 

@@ -34,51 +34,43 @@ export async function generateMetadata({ params }) {
   const post = blogIndex.find((b) => b.slug === slug);
   if (!post) return {};
 
-  const keywordsList = [
-    post.primaryKeyword,
-    ...(post.secondaryKeywords ? post.secondaryKeywords.split(',').map((s) => s.trim()) : []),
-  ].filter(Boolean);
-
   const isKeep = keepSlugsSet.has(slug);
+  const cleanTitle = (post.title || '').replace(/\s*\|\s*Rankur\s*$/i, '').trim();
 
   return constructMetadata({
-    title: `${post.title} | Rankur`,
+    title: cleanTitle,
     description: post.excerpt,
     canonical: `/blog/${post.slug}`,
     image: post.image || '/og-image.jpg',
     imageWidth: post.imageWidth || 1200,
     imageHeight: post.imageHeight || 630,
-    imageAlt: post.imageAlt || post.title,
+    imageAlt: post.imageAlt || cleanTitle,
     type: 'article',
     noIndex: !isKeep,
     robotsFollow: true,
-    keywords: keywordsList.length > 0 ? keywordsList.join(', ') : undefined,
   });
 }
 
 function getDeterministicRelatedPosts(slug, postMeta) {
   const pool = keepSlugsSet.has(slug) ? curatedBlogIndex : blogIndex;
-  const sameCategory = pool.filter((b) => b.categorySlug === postMeta.categorySlug);
   const picked = [];
   const seen = new Set([slug]);
 
-  if (sameCategory.length > 1) {
-    const idx = sameCategory.findIndex((b) => b.slug === slug);
-    for (let offset = 1; offset <= 4 && picked.length < 4; offset++) {
-      const candidate = sameCategory[(idx + offset) % sameCategory.length];
-      if (candidate && !seen.has(candidate.slug)) {
-        seen.add(candidate.slug);
-        picked.push(candidate);
-      }
+  // 1. First pick from same category, strictly excluding self and duplicates
+  const sameCategory = pool.filter((b) => b.categorySlug === postMeta.categorySlug && b.slug !== slug);
+  for (const candidate of sameCategory) {
+    if (picked.length >= 4) break;
+    if (candidate?.slug && !seen.has(candidate.slug)) {
+      seen.add(candidate.slug);
+      picked.push(candidate);
     }
   }
 
-  // Fallback / top-up from pool if category has fewer than 5 posts
+  // 2. Top-up from global pool if category has fewer than 4 posts
   if (picked.length < 4) {
-    const gIdx = pool.findIndex((b) => b.slug === slug);
-    for (let offset = 1; offset <= pool.length && picked.length < 4; offset++) {
-      const candidate = pool[(gIdx + offset) % pool.length];
-      if (candidate && !seen.has(candidate.slug)) {
+    for (const candidate of pool) {
+      if (picked.length >= 4) break;
+      if (candidate?.slug && !seen.has(candidate.slug)) {
         seen.add(candidate.slug);
         picked.push(candidate);
       }

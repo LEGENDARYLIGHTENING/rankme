@@ -70,7 +70,7 @@ Traditional technical SEO focuses on robots.txt, XML sitemaps, and Core Web Vita
 GEO assumes speed and crawlability as basic prerequisites, demanding deep **JSON-LD Schema Markup**:
 - **Organization & Person Schema:** Mathematically proves who owns the company, executive credentials, and public entity profiles.
 - **Service Schema:** Explicitly defines technical capabilities, target markets, and compliance certifications.
-- **FAQPage Schema:** Spoon-feeds structured question-and-answer pairs directly to AI models.
+- **FAQPage Schema:** Provides structured question-and-answer markup. Google limited FAQ rich results in 2023; the markup may help machines parse Q&A content, but benefits are not guaranteed.
 
 Review our technical handbook on [Schema Markup for B2B Product and Service Pages](/blog/schema-markup-b2b-product-service-pages).
 
@@ -96,6 +96,6 @@ In our production platform engineering for [Wafa Educational & Charitable Trust]
 | **Trust Evaluation** | Backlink volume and anchor text | Verified entity authority and factual accuracy |
 | **Buyer Engagement** | Visitor reads webpage from top | Executive reads synthesized recommendation |
 
-Dominate both channels by pairing sub-second web architecture with machine-readable entity data.
+Dominate both channels by pairing server-rendered web architecture with machine-readable entity data.
 
 Learn how we architect dual-channel digital platforms by exploring our [B2B Growth Services](/services) or book an evaluation through our [Free Audit](/free-audit) portal.

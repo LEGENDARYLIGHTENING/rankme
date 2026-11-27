@@ -82,7 +82,7 @@ A baseline **technical GEO requirements** framework demands a fully integrated, 
 | 2. SameAs Schema: Maps verified Crunchbase, Bloomberg, LinkedIn|
 | 3. Service / Product Schema: Explicit NAICS & ISO taxonomy    |
 | 4. Person Schema: Anchors technical leadership & E-E-A-T      |
-| 5. FAQPage Schema: Directly feeds conversational Q&A pairs    |
+| 5. FAQPage Schema: Structured Q&A markup (Google limited FAQ results in 2023; benefits not guaranteed) |
 +---------------------------------------------------------------+
 ```
 
@@ -141,7 +141,7 @@ Technical performance is not an academic exercise; it is the prerequisite for or
 
 When Rankur engineered the digital infrastructure for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/), the primary mandate was absolute institutional reliability and instantaneous accessibility. Operating in an environment requiring complete transparency for institutional partners and donors, the platform demanded flawless technical execution.
 
-Rankur deployed a custom, server-rendered digital asset built on lightweight semantic architecture, complete structured data graphs, and sub-second edge delivery. By eliminating bloated dependencies and prioritizing clean HTML payloads, the digital asset achieved flawless stability, ensuring that every visitor and automated system can verify organizational impact instantly.
+Rankur deployed a custom, server-rendered digital asset built on lightweight semantic architecture, complete structured data graphs, and server-rendered edge delivery. By eliminating bloated dependencies and prioritizing clean HTML payloads, the digital asset achieved flawless stability, ensuring that every visitor and automated system can verify organizational impact instantly.
 
 The exact same technical discipline separates market-leading B2B enterprises from organizations struggling with sluggish legacy websites.
 

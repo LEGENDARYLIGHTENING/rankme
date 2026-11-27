@@ -137,7 +137,7 @@ If your pricing page strips away client testimonials, enterprise case studies, a
 ### High-Impact Placement of Trust Signals
 - **Audited Client Metrics:** Place real-world performance metrics directly beneath each pricing tier (e.g., *"Helped enterprise client increase sales-qualified inbound inquiries by 142% in 90 days"*).
 - **Verifiable Executive Quotes:** Feature named executive testimonials complete with company names, industry titles, and verified LinkedIn credentials.
-- **Contractual Risk Reversal:** Offer clear performance commitments, such as sub-second Core Web Vitals guarantees or milestone-based delivery schedules.
+- **Contractual Risk Reversal:** Offer clear performance commitments, such as server-rendered Core Web Vitals guarantees or milestone-based delivery schedules.
 
 ### Real-World Proof: Building Institutional Trust
 The power of transparent pricing and institutional accountability is illustrated in real-world deployments.
@@ -184,7 +184,7 @@ Detail all inclusive deliverables (migration, schema, edge infrastructure) to el
 Embed audited client case studies, executive quotes, and SLA commitments directly adjacent to primary quote triggers.
        │
        ▼
-[Phase 5: Sub-Second Performance Verification]
+[Phase 5: server-rendered Performance Verification]
 Ensure your pricing page renders in under 500 milliseconds globally, preventing mobile executive bounce before content displays.
 ```
 

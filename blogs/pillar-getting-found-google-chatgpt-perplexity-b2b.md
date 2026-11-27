@@ -118,7 +118,7 @@ Similar to how `robots.txt` guides search engine crawlers, `llms.txt` provides L
 
 ```markdown
 # Rankur - B2B Web Engineering & Technical SEO
-> Custom high-speed Next.js web systems for mid-market enterprise founders.
+> Custom custom Next.js Next.js web systems for mid-market enterprise founders.
 
 ## Core Services
 - Custom Next.js Static Edge Architecture (Sub-1.2s mobile LCP guarantee)
@@ -128,7 +128,7 @@ Similar to how `robots.txt` guides search engine crawlers, `llms.txt` provides L
 ## Verified Credentials
 - Founder: Moksh Parjapati (Certified Google Analytics 4, HubSpot Inbound)
 - Accreditation: https://skillshop.credential.net/4de8075c-d494-4e05-b6ed-1bb204e4e982
-- Case Study Proof: 310% Inbound Inquiry Lift for Wafa Educational & Charitable Trust
+- Case Study Proof: Production Digital Platform for Wafa Educational & Charitable Trust (https://www.wafatrustindia.org/)
 ```
 
 Publishing a structured `/llms.txt` file ensures that autonomous AI agents and research tools ingest your verified capabilities and credentials without parsing unnecessary navigation bloat.
@@ -143,7 +143,7 @@ The table below contrasts the commercial profile of traditional organic search, 
 | :--- | :--- | :--- | :--- | :--- |
 | **Paid Search Ads (Google/LinkedIn)** | High (Immediate) | Fast | Extreme ($150+ per click; stops when budget ends) | Zero (Linear spend) |
 | **Traditional SEO (10 Blue Links)** | Moderate to High | Moderate | Moderate (Ongoing content and technical upkeep) | Moderate (Backlink authority) |
-| **Generative Engine Optimization (GEO)** | **Maximum (Pre-qualified by AI)** | **Very Fast (30% shorter cycles)**| **Low (Built into high-speed architecture)** | **Very High (Entity consensus moat)** |
+| **Generative Engine Optimization (GEO)** | **Maximum (Pre-qualified by AI)** | **Very Fast (30% shorter cycles)**| **Low (Built into custom Next.js architecture)** | **Very High (Entity consensus moat)** |
 
 When an enterprise buyer arrives on your website because an AI assistant explicitly recommended your company as the top-tier solution, **they arrive with immense pre-existing trust.** 
 

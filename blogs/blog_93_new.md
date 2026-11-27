@@ -206,4 +206,4 @@ Connect top-of-funnel diagnostic teardowns to commercial capability hubs using e
 Track CRM pipeline velocity and closed-won contract values influenced by search touchpoints across the full 12-month lifecycle.
 ```
 
-If your sales organization is struggling to maintain influence over long, complex enterprise procurement cycles, explore our [transparent pricing packages](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build high-speed, enterprise-grade digital systems designed to turn complex capabilities into qualified commercial revenue.
+If your sales organization is struggling to maintain influence over long, complex enterprise procurement cycles, explore our [transparent pricing packages](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build custom Next.js, enterprise-grade digital systems designed to turn complex capabilities into qualified commercial revenue.

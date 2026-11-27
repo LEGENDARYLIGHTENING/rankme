@@ -13,7 +13,7 @@ export default function HeroSection({
     <section className={`hero ${center ? 'hero--center' : ''}`} id="hero-section">
       <div className="container">
         {label && <span className="hero__label animate-in">{label}</span>}
-        <h1 className="hero__title animate-in animate-delay-1">{title}</h1>
+        <h1 className="hero__title">{title}</h1>
         {subtitle && (
           <p className="hero__subtitle animate-in animate-delay-2">{subtitle}</p>
         )}

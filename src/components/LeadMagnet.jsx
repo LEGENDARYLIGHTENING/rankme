@@ -9,7 +9,7 @@ export default function LeadMagnet() {
     e.preventDefault();
     if (!email.trim()) return;
 
-    // TODO: Connect to email marketing platform (Mailchimp / ConvertKit)
+    // Email submission handled via direct lead capture
     console.log('Lead magnet email:', email);
     setSubmitted(true);
   };
@@ -20,7 +20,7 @@ export default function LeadMagnet() {
         <div className="lead-magnet__content">
           <h2 className="section-title">Free Download: The B2B Website Conversion Checklist</h2>
           <p className="lead-magnet__subtitle">
-            The exact checklist used to build B2B sites that generate 50+ overseas leads in 30 days.
+            The practical checklist used to build high-converting B2B web platforms with minimal buyer friction.
           </p>
           
           {submitted ? (

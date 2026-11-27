@@ -59,7 +59,7 @@ To attract C-suite decision-makers with allocated budgets, source workshop topic
 
 ### Example: High-Intent vs Low-Intent Event Titles
 - **Low-Intent (Hobbyist Traffic):** *"Introduction to Enterprise Web Performance"*
-- **High-Intent (Executive Traffic):** *"Diagnosing Sub-Second Latency Failures: A Live Architectural Teardown for CTOs and VPs of Engineering"*
+- **High-Intent (Executive Traffic):** *"Diagnosing server-rendered Latency Failures: A Live Architectural Teardown for CTOs and VPs of Engineering"*
 
 Explore our guide on [high-intent keyword targeting for B2B organic leads](/blog/high-intent-keyword-targeting-b2b-organic-leads).
 
@@ -185,4 +185,4 @@ Deliver interactive spreadsheets and offer private 1-on-1 architectural consulta
 Publish comprehensive editorial guides and structured VideoObject schemas on your primary domain to drive permanent organic traffic.
 ```
 
-If your enterprise has built advanced technical capabilities and needs a digital infrastructure that turns live authority into qualified sales pipeline, explore our [transparent pricing packages](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build high-speed, enterprise-grade digital systems that compound commercial revenue.
+If your enterprise has built advanced technical capabilities and needs a digital infrastructure that turns live authority into qualified sales pipeline, explore our [transparent pricing packages](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build custom Next.js, enterprise-grade digital systems that compound commercial revenue.

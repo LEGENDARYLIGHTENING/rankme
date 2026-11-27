@@ -97,7 +97,7 @@ const TECH_ECOSYSTEM = [
   {
     id: 'vercel',
     name: 'Vercel Edge',
-    category: 'Global Sub-Second CDN',
+    category: 'Global Edge CDN',
     renderIcon: () => (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M12 1L24 22H0L12 1Z" fill="#FFFFFF" />
@@ -139,7 +139,7 @@ const TECH_ECOSYSTEM = [
   {
     id: 'cwv',
     name: 'Core Web Vitals',
-    category: '<0.8s Global LCP',
+    category: 'Web Performance Auditing',
     renderIcon: () => (
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="12" cy="12" r="10" stroke="rgba(255,255,255,0.2)" strokeWidth="2" />
@@ -151,8 +151,8 @@ const TECH_ECOSYSTEM = [
 ];
 
 export default function TechStackBar({
-  title = "Enterprise Infrastructure & Security Standards",
-  subtitle = "Bespoke Next.js platforms engineered with verified analytics telemetry, deterministic search indexing, and security compliance.",
+  title = "Production Infrastructure & Performance Standards",
+  subtitle = "Custom Next.js platforms engineered with verified analytics telemetry, search indexing, and modern edge performance.",
 }) {
   return (
     <section className="tech-stack-bar" id="tech-stack-bar">
@@ -160,7 +160,7 @@ export default function TechStackBar({
         <div className="tech-stack-bar__header">
           <div className="tech-stack-bar__tag">
             <span className="tech-stack-bar__dot"></span>
-            Production Tech Stack &amp; Verified Protocols
+            Production Tech Stack &amp; Infrastructure Standards
           </div>
           <h3 className="tech-stack-bar__title">{title}</h3>
           <p className="tech-stack-bar__subtitle">{subtitle}</p>

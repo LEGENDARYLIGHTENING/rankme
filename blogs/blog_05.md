@@ -41,7 +41,7 @@ Converting LinkedIn attention into closed-won B2B revenue requires a disciplined
 |                  |                                                            |
 | [Stage 2: Profile as a Landing Page]-> Crisp positioning, clear proof, 1 link |
 |                  |                                                            |
-| [Stage 3: Sub-Second Website Asset] -> Fast custom Next.js landing diagnostic |
+| [Stage 3: Server-Rendered Website Asset] -> Fast custom Next.js landing diagnostic |
 |                  |                                                            |
 | [Stage 4: 2-Step Calendar Booking]  -> Immediate qualification within 48 hours|
 +-------------------------------------------------------------------------------+
@@ -148,4 +148,4 @@ LinkedIn is the most concentrated gathering of enterprise capital and commercial
 +-------------------------------------------------------------------------------+
 ```
 
-By engineering an authoritative content presence backed by a high-speed, frictionless web platform, your LinkedIn activity transitions from an empty social distraction into your company's most reliable high-margin deal origination engine.
+By engineering an authoritative content presence backed by a custom Next.js, frictionless web platform, your LinkedIn activity transitions from an empty social distraction into your company's most reliable high-margin deal origination engine.

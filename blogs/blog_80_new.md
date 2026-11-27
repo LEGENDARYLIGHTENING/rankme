@@ -112,7 +112,7 @@ To understand why choosing the right technology stack prevents these issues, rev
 
 ---
 
-## 4. The Engineering Blueprint: Sub-Second Edge Architecture
+## 4. The Engineering Blueprint: server-rendered Edge Architecture
 
 Achieving consistent sub-800ms performance globally requires modernizing your core web infrastructure:
 
@@ -153,7 +153,7 @@ Delivering instantaneous digital performance across global networks is an establ
 
 When Rankur engineered the digital infrastructure for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/), flawless performance across international mobile and desktop devices was a mandatory design requirement. The platform serves a global audience of institutional donors and stakeholders, many accessing the platform from mobile devices in bandwidth-constrained environments.
 
-Rankur deployed a lightweight, server-rendered architecture utilizing edge static generation and automated image pipelines. The resulting platform achieved a 98+ Core Web Vitals score globally, delivering sub-second Largest Contentful Paint across all regional networks and guaranteeing that every stakeholder can inspect verified institutional records with zero latency.
+Rankur deployed a lightweight, server-rendered architecture utilizing edge static generation and automated image pipelines. The resulting platform achieved a 98+ Core Web Vitals score globally, delivering server-rendered Largest Contentful Paint across all regional networks and guaranteeing that every stakeholder can inspect verified institutional records with zero latency.
 
 Commercial B2B enterprises must apply the exact same engineering discipline: when your digital platform delivers instantaneous responses, executive trust compounds.
 
@@ -187,6 +187,6 @@ To model the commercial return of upgrading your web infrastructure, consult our
 
 In enterprise B2B commerce, web speed is not a superficial aesthetic preference; it is a decisive competitive filter.
 
-Enterprise decision-makers will not tolerate sluggish, bloated websites that waste their valuable time. Organizations that persist with slow, template-driven legacy CMS setups will watch qualified prospects bounce to agile competitors. Companies that invest in sub-second edge architecture, strict Core Web Vitals compliance, and clean semantic engineering will capture high-intent buyers, accelerate conversion velocity, and dominate their category for the next decade.
+Enterprise decision-makers will not tolerate sluggish, bloated websites that waste their valuable time. Organizations that persist with slow, template-driven legacy CMS setups will watch qualified prospects bounce to agile competitors. Companies that invest in server-rendered edge architecture, strict Core Web Vitals compliance, and clean semantic engineering will capture high-intent buyers, accelerate conversion velocity, and dominate their category for the next decade.
 
-Ready to audit your web performance and engineer a sub-second enterprise platform? [Explore our custom B2B web engineering services](/services) or [schedule an architectural consultation with Rankur today](/contact).
+Ready to audit your web performance and engineer a server-rendered enterprise platform? [Explore our custom B2B web engineering services](/services) or [schedule an architectural consultation with Rankur today](/contact).

@@ -52,7 +52,7 @@ To command enterprise authority, every layer of your digital presence must commu
 At Rankur, we solve these systemic bottlenecks by replatforming legacy architectures onto **custom, static edge-rendered Next.js platforms** engineered for maximum conversion velocity and zero-latency performance.
 
 ### Core Architectural Pillars
-1. **Zero-Latency Static Edge Delivery**: Pages compile to static HTML deployed across global edge networks, ensuring a sub-second Largest Contentful Paint (<0.8s) and 100/100 Core Web Vitals.
+1. **Zero-Latency Static Edge Delivery**: Pages compile to static HTML deployed across global edge networks, ensuring a server-rendered Largest Contentful Paint and Core Web Vitals focused Core Web Vitals.
 2. **First-Party Telemetry & Attribution**: Replacing fragile third-party tracking scripts with authenticated server actions and consent-gated GA4 event streams.
 3. **Structured Entity Knowledge Graphs**: Implementing deep JSON-LD schemas that ensure your technical capabilities are accurately indexed and cited across Perplexity, ChatGPT, and Google AI Overviews.
 4. **100% Client Codebase Transfer**: Full intellectual property ownership transferred directly to your organization's GitHub repository upon final milestone sign-off.
@@ -63,8 +63,8 @@ At Rankur, we solve these systemic bottlenecks by replatforming legacy architect
 
 When Rankur engineered the digital infrastructure for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/), our mandate was maximizing transparency, institutional trust, and global stakeholder engagement.
 
-By replacing legacy bloated CMS plugins with a high-speed, edge-rendered Next.js architecture, we achieved:
-- **100% Core Web Vitals score** with sub-second global interaction speed (<0.8s LCP).
+By replacing legacy bloated CMS plugins with a custom Next.js, edge-rendered Next.js architecture, we achieved:
+- **Core Web Vitals focused engineering** with server-rendered global interaction speed.
 - **+40% increase in verified interaction completions** within 30 days of launch.
 - Zero silent submission failures across mobile networks and enterprise firewalls.
 - Complete operational transparency that established durable institutional credibility.
@@ -73,10 +73,10 @@ By replacing legacy bloated CMS plugins with a high-speed, edge-rendered Next.js
 
 ## Comparative Performance & Economic Impact
 
-| Performance Metric | Traditional Monolithic Approach | Rankur High-Speed Next.js Architecture |
+| Performance Metric | Traditional Monolithic Approach | Rankur Custom Next.js Architecture |
 | :--- | :--- | :--- |
-| **Global Load Time (LCP)** | 3.5s to 5.2s (Heavy plugins) | <0.8s (Static edge-rendered React) |
-| **Core Web Vitals** | Red/Yellow (Fails Google standards) | 100/100 Perfect Performance Score |
+| **Global Load Time (LCP)** | 3.5s to 5.2s (Heavy plugins) | Static and server-rendered Next.js |
+| **Core Web Vitals** | Red/Yellow (Fails Google standards) | Core Web Vitals focused |
 | **Buyer Conversion Rate** | 1.1% to 1.8% | 3.8% to 5.6% Qualified Inquiry Rate |
 | **Code & IP Ownership** | Locked in agency themes or CMS | 100% Client GitHub Repository Transfer |
 | **Ongoing Maintenance** | $3,500/mo in continuous developer fixes | <$150/mo edge hosting, zero plugin rot |

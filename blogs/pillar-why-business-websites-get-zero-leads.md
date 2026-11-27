@@ -71,7 +71,7 @@ If your website features:
 
 The prospective buyer concludes that your company is unproven, unvetted, and risky to hire.
 
-**The Fix:** Deploy verifiable proof architecture. Showcase real founder portraits, link directly to verified third-party accreditation (such as Google Skillshop or HubSpot credentials), and publish detailed case studies with quantifiable commercial outcomes (such as *"Scaled inquiries by 310% for Wafa Educational & Charitable Trust"*).
+**The Fix:** Deploy verifiable proof architecture. Showcase real founder portraits, link directly to verified third-party accreditation (such as Google Skillshop or HubSpot credentials), and publish detailed case studies with verified architectural outcomes (such as *"Production web platform engineering for Wafa Educational & Charitable Trust"*).
 
 ### Leak 3: The "Friction Fortress" (The 12-Field Form Barrier)
 When a high-intent buyer finally decides they want to get in touch, they click your "Contact" button and encounter an intimidating interrogation form:
@@ -103,7 +103,7 @@ The table below contrasts the commercial performance of a traditional brochure w
 
 | Evaluation Element | The Zero-Lead Brochure Site | The High-Converting Platform |
 | :--- | :--- | :--- |
-| **Hero Headline** | *"Pioneering Smart Digital Transformation"* | *"Custom High-Speed Web Platforms for Mid-Market B2B Exporters"* |
+| **Hero Headline** | *"Pioneering Smart Digital Transformation"* | *"Custom custom Next.js Web Platforms for Mid-Market B2B Exporters"* |
 | **Proof Elements** | Generic stock graphics, unverified quotes | Verified client case studies, founder portrait, Skillshop links |
 | **Mobile Speed (LCP)** | 4.8 seconds (Sluggish WordPress theme) | 0.9 seconds (Static Next.js Edge delivery) |
 | **Contact Mechanism** | 12-field form requiring phone & budget | 2-step frictionless qualification with instant calendar booking |
@@ -135,8 +135,8 @@ Remove all stock photography. Place authentic founder portraits and verified cli
 ### Week 3: Streamline the Conversion Path
 Replace long contact forms with a two-step React interface. Limit mandatory inputs to Work Email and Website Domain. Connect an automated scheduling widget with a 48-hour availability window to ensure prospects can book immediate consultations while their urgency is high.
 
-### Week 4: Guarantee Sub-Second Speed
-Migrate from slow, database-heavy hosting to static edge delivery. Optimize all imagery into modern WebP format. Ensure your mobile PageSpeed score reaches 95+, eliminating bounce penalties on cellular connections.
+### Week 4: Optimize Edge Load Speed
+Migrate from slow, database-heavy hosting to static edge delivery. Optimize all imagery into modern WebP format. Ensure your mobile PageSpeed score is optimized, eliminating bounce penalties on cellular connections.
 
 ---
 

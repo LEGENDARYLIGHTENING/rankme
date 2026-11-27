@@ -49,8 +49,8 @@ Addressing entity graph schema json ld ai search b2b directly reduces user drop-
 For an enterprise analytics provider, we deployed Entity Graph Schema across 40 service pages.
 
 ### Results:
-- AI search citations on Perplexity and ChatGPT grew by **390%**.
-- Driven **38 monthly qualified enterprise inquiries** directly from AI answer engine referrals.
+- AI search citations on Perplexity and ChatGPT grew consistently post-launch.
+- Driven recurring qualified inquiries directly from AI answer engine referrals.
 
 ---
 
