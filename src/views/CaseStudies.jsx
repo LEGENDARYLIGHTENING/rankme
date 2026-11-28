@@ -8,11 +8,10 @@ import { APPROVED_TESTIMONIALS } from '../data/testimonials';
 import './CaseStudies.css';
 
 const architecturalHighlights = [
-  { value: 'Verified Build', label: 'Live Client Platform' },
-  { value: 'Accessible', label: 'Mobile-First Design' },
-  { value: 'Clean Code', label: 'Full Repository Ownership' },
-  { value: 'Performance', label: 'Edge Architecture' },
-  { value: 'Structured', label: 'Schema Knowledge Graph' },
+  { value: 'Next.js 16', label: 'React 19 App Router' },
+  { value: 'Vercel', label: 'Prerendered Hosting' },
+  { value: 'GitHub', label: 'Full Repository Ownership' },
+  { value: 'Live Site', label: 'wafatrustindia.org' },
 ];
 
 function getApprovedQuote(id) {
@@ -50,7 +49,7 @@ export default function CaseStudies() {
         <div className="container">
           <div className="case-full__verified-banner">
             <span className="case-full__verified-pulse"></span>
-            Verified Client Platform · Live Production
+            Client Platform · Live Production
           </div>
           <p className="section-label">Case Study · Client Build</p>
           <h2 className="section-title" style={{ textAlign: 'left', margin: '0 0 var(--space-md) 0' }}>
@@ -136,7 +135,7 @@ export default function CaseStudies() {
               </p>
 
               <div className="case-full__live-box">
-                <span className="case-full__live-box-title">Verified Live Platform</span>
+                <span className="case-full__live-box-title">Live Platform</span>
                 <p>Digital platform live and accessible at:</p>
                 <a
                   href="https://www.wafatrustindia.org/"

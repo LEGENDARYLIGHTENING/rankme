@@ -93,7 +93,7 @@ export default function Contact() {
             <p className="section-label">Contact</p>
             <h1>Let&apos;s Discuss Your Site &amp; Search Goals</h1>
             <p style={{ marginBottom: 'var(--space-xl)' }}>
-              We engineer high-performance Next.js web platforms, deterministic search architectures, and verified attribution pipelines for enterprise B2B operators.
+              We engineer custom Next.js web platforms, technical SEO architectures, and GA4 attribution pipelines for B2B operators.
             </p>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', lineHeight: '1.7', marginBottom: 'var(--space-2xl)' }}>
               Submit the project brief below. Every inquiry goes directly to founder Moksh Parjapati, and I reply by email within 2 business days. Mutual NDAs can be signed prior to sharing sensitive metrics.
@@ -241,7 +241,7 @@ export default function Contact() {
                         onChange={handleChange}
                       >
                         <option value="">Select...</option>
-                        <option value="Custom Web Build">Custom High-Performance Web Platform</option>
+                        <option value="Custom Web Build">Custom Next.js Web Platform</option>
                         <option value="SEO/GEO Visibility">Technical SEO &amp; GEO</option>
                         <option value="Brand Positioning">Positioning &amp; Copy</option>
                         <option value="Conversion Optimization">Conversion Optimization</option>

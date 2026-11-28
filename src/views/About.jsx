@@ -56,7 +56,7 @@ export default function About() {
             Founder-Led <span className="text-gold">Web &amp; SEO Engineering</span>
           </>
         }
-        subtitle="I engineer high-performance web platforms, technical SEO, and generative search systems for B2B and mission-driven organisations."
+        subtitle="I engineer custom Next.js web platforms, technical SEO, and generative search systems for B2B and mission-driven organisations."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         secondaryCTA={{ to: '#my-story', label: 'Read Story' }}
       />
@@ -70,7 +70,7 @@ export default function About() {
               I started Moksh Productions to build software platforms and technical web products. Along the way, I repeatedly saw B2B teams stuck between two broken agency archetypes: developers who treat SEO, messaging, and buyer conversion as afterthoughts, or marketing agencies who ship bloated, fragile CMS themes held back by slow code, broken schemas, and zero technical rigor.
             </p>
             <p>
-              I founded <strong>Rankur</strong> to unify commercial market positioning, high-performance web engineering, and enterprise search authority under a single, accountable partner.
+              I founded <strong>Rankur</strong> to unify commercial market positioning, custom Next.js web engineering, and search architecture under a single, accountable partner.
             </p>
             <p>
               Every client platform is deployed using battle-tested proprietary standards: prioritizing defensible commercial growth and verifiable pipeline over inflated agency slogans.
@@ -155,7 +155,7 @@ export default function About() {
           <h2 className="section-title">Production Work &amp; Venture Disclosure</h2>
           <div className="about-story__content" style={{ marginBottom: 'var(--space-3xl)' }}>
             <p>
-              Below is the production ledger of client platforms developed using our high-performance web systems and search architecture, clearly distinguishing third-party clients from ventures I co-led or founded.
+              Below is the production ledger of client platforms developed using our Next.js web systems and search architecture, clearly distinguishing third-party clients from ventures I co-led or founded.
             </p>
           </div>
 

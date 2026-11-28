@@ -32,9 +32,9 @@ const servicesData = [
     title: 'High-Converting Web Infrastructure & Pipeline Engineering',
     badge: 'Performance & Revenue',
     description:
-      'We build custom digital platforms engineered to capture enterprise pipeline: delivering rapid load times that keep buyers engaged, frictionless inquiry flows, and 100% intellectual property ownership.',
+      'We build custom Next.js platforms engineered for B2B pipeline: clean architecture, frictionless inquiry flows, and 100% intellectual property ownership.',
     deliverables: [
-      'Rapid Global Edge Architecture That Stops Buyer Bounces',
+      'Custom Next.js Architecture Built on Vercel',
       'High-Intent Demo & RFQ Inbound Pathways',
       'Clean Conversion & Pipeline Attribution Tracking',
       '100% Codebase Transfer With Zero Vendor Lock-in',
@@ -46,12 +46,12 @@ const servicesData = [
     title: 'Search Authority & Generative AI Discovery',
     badge: 'Technical SEO & GEO',
     description:
-      'Deterministic search infrastructure engineered for sustainable dominance across Google, ChatGPT, and Perplexity: safeguarding authority and ensuring verified answer recommendations.',
+      'Technical SEO and GEO architecture engineered for Google, ChatGPT, and Perplexity so crawlers and AI systems can parse your services and proof clearly.',
     deliverables: [
-      'Every Page Reliably Found by Google & AI Engines',
-      'Structured Signals That Make AI Recommend You to Decision-Makers',
-      'Intercept High-Intent Buyers Evaluating Your Competitors',
-      'Remove Hidden Friction Killing Qualified Inbound Pipeline',
+      'Clean Technical Crawlability for Google & AI Bots',
+      'JSON-LD Structured Data for Services, FAQs, and Entities',
+      'Intent-Mapped Commercial & Pillar Pages',
+      'Remove Technical Friction Blocking Organic Indexation',
     ],
     timeline: 'Integrated into every website build or audit',
   },
@@ -113,10 +113,10 @@ const methodologyStages = [
 ];
 
 const technicalStack = [
-  { category: 'Conversion Infrastructure', tools: 'Bespoke Modern Web Architecture, Rapid Global Edge Runtimes, Zero CMS Vulnerabilities' },
-  { category: 'Enterprise Integration', tools: 'High-Throughput CRM APIs, Secure Inbound Lead Routing, Automated Inbound Qualification' },
-  { category: 'Infrastructure & Security', tools: 'Global Edge Delivery, Automated Zero-Downtime Deployments, Hardened Enterprise Security' },
-  { category: 'Commercial Intelligence', tools: 'Full-Funnel Pipeline Telemetry, Search Engine Indexation Monitoring, Revenue Attribution' },
+  { category: 'Web Architecture', tools: 'Custom Next.js App Router, React Components, Static & SSR Routes' },
+  { category: 'Lead Routing & Forms', tools: 'Web3Forms / CRM API Integration, Short Qualification Flows' },
+  { category: 'Hosting & Ownership', tools: 'Vercel Hosting, GitHub Repository Transfer, Zero Plugin Bloat' },
+  { category: 'Analytics & Search', tools: 'GA4 Conversion Events, Google Search Console, JSON-LD Structured Data' },
 ];
 
 const faqs = [
@@ -126,9 +126,9 @@ const faqs = [
       'Projects are scoped per deliverable after a technical audit, using written proposals and milestone-based sign-off terms rather than generic bundled templates.',
   },
   {
-    question: 'Why build on custom high-performance architecture instead of template themes?',
+    question: 'Why build on custom Next.js architecture instead of template themes?',
     answer:
-      'A custom high-performance architecture ensures rapid global performance, total technical control, immune security posture with zero third-party plugin vulnerabilities, and complete intellectual property ownership.',
+      'Custom Next.js architecture gives you full control over frontend code, avoids third-party WordPress plugin sprawl, and gives you complete intellectual property ownership via GitHub.',
   },
   {
     question: 'What does Generative Engine Optimization (GEO) mean in practice?',
@@ -267,7 +267,7 @@ export default function Services() {
             <p className="section-label">Our Protocol</p>
             <h2 className="section-title">The 4-Stage Engagement Methodology</h2>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '1.05rem', lineHeight: '1.8' }}>
-              How we take B2B companies from fragmented, sluggish digital brochures to enterprise-grade web platforms with verified pipeline attribution.
+              How we take B2B companies from fragmented digital brochures to custom Next.js web platforms with GA4 pipeline attribution.
             </p>
           </div>
 
@@ -298,7 +298,7 @@ export default function Services() {
           <p className="section-label">Execution Stack</p>
           <h2 className="section-title">Core Technologies Used</h2>
           <p className="section-subtitle" style={{ marginBottom: 'var(--space-3xl)' }}>
-            Unifying high-impact commercial positioning with enterprise-grade web engineering, domain equity preservation, and high-resolution pipeline telemetry.
+            Unifying commercial positioning with custom Next.js web engineering, redirect preservation, and GA4 pipeline telemetry.
           </p>
           <div className="tools-grid">
             {technicalStack.map((tech, i) => (

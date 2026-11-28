@@ -14,7 +14,7 @@ export default function Testimonials({
     <section className="testimonials" id="testimonials">
       <div className="container">
         <div className="testimonials__header">
-          <p className="section-label">Client feedback</p>
+          <p className="section-label">Testimonials</p>
           <h2 className="section-title">{title}</h2>
           {subtitle && <p className="section-subtitle">{subtitle}</p>}
         </div>

@@ -165,7 +165,7 @@ export default function Certifications() {
             <p className="section-label">Engineering Discipline</p>
             <h2 className="section-title">How Verified Methodology Protects Your Pipeline</h2>
             <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.8', fontSize: '1rem' }}>
-              Most websites fail because marketing and engineering operate in silos. A developer builds a template without understanding search indexing; an agency writes copy without technical measurement. Combining verified analytics certification with high-performance web engineering bridges that divide.
+              Most websites fail because marketing and engineering operate in silos. A developer builds a template without understanding search indexing; an agency writes copy without technical measurement. Combining analytics certification with custom Next.js web engineering bridges that divide.
             </p>
           </div>
 

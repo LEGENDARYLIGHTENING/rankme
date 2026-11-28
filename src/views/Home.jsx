@@ -16,7 +16,7 @@ import './Blog.css';
 
 const proofItems = [
   { value: 'Next.js SSR', label: 'Server-Rendered Delivery' },
-  { value: 'Verified Proof', label: 'Wafa Educational & Charitable Trust' },
+  { value: 'Client Build', label: 'Wafa Educational & Charitable Trust' },
   { value: 'GA4 & HubSpot', label: 'Certified Pipeline & Lead Attribution' },
   { value: '100% IP', label: 'Full GitHub Transfer With Zero Agency Retainers' },
   { value: 'Direct Access', label: 'Founder-Led Strategic Execution' },
@@ -50,82 +50,77 @@ const capabilities = [
     description:
       'Most B2B platforms rely on generic corporate buzzwords that confuse serious buyers. We establish clear commercial positioning, high-intent value propositions, and unambiguous proof that commands executive trust.',
     deliverables: ['Executive Positioning Framework', 'Buyer Intent Alignment', 'High-Trust Commercial Copy'],
-    stat: '100% ICP Clarity',
   },
   {
     icon: Code2,
-    title: 'High-Converting Web Infrastructure & Pipeline Architecture',
-    badge: 'Performance & Revenue',
+    title: 'Custom Next.js Web Infrastructure & Pipeline Architecture',
+    badge: 'Engineering & Revenue',
     description:
       'Custom-engineered from the ground up for B2B and mission-driven organisations. Clean server-rendered Next.js architecture, frictionless demo booking pathways, and 100% intellectual property ownership with zero plugin bloat.',
     deliverables: ['Custom Next.js Architecture', 'Frictionless Inbound Capture', '100% Client Code & Asset Ownership'],
-    stat: 'Clean Architecture',
   },
   {
     icon: Search,
     title: 'Search Authority & Generative AI Discovery',
     badge: 'SEO & GEO',
     description:
-      'Search positioning engineered for Google, ChatGPT, and Perplexity. We structure your digital footprint so your brand is surfaced as a verified answer across traditional and generative search.',
+      'Search positioning engineered for Google, ChatGPT, and Perplexity. We structure your digital footprint so search engines and AI systems can parse your services and proof clearly.',
     deliverables: [
-      'Every Page Reliably Found by Google & AI Engines',
-      'Structured Data That Makes AI Engines Recommend You',
-      'Route High-Intent Searchers Directly Into Your Pipeline',
+      'Clean Technical Crawlability for Google & AI Bots',
+      'Structured JSON-LD Entity & Service Schema',
+      'Intent-Mapped Commercial & Pillar Pages',
     ],
-    stat: 'Top Citation Readiness',
   },
   {
     icon: FileText,
     title: 'Commercial Demand & Category Authority',
     badge: 'Content Equity',
     description:
-      'We eliminate low-quality content churn and architect authoritative digital ecosystems that systematically intercept and capture buyers actively evaluating solutions.',
-    deliverables: ['High-Value Solution Architecture', 'Defensible Search Equity Framework', 'Executive Decision Frameworks'],
-    stat: 'Zero Generic Fluff',
+      'We eliminate low-quality content churn and build structured digital ecosystems focused on buyers actively evaluating solutions.',
+    deliverables: ['Solution Architecture & Intent Mapping', 'Comparison & Decision Guides', 'Clean Internal Linking'],
   },
   {
     icon: BarChart3,
     title: 'Conversion Architecture & Pipeline Telemetry',
     badge: 'Analytics & CRO',
     description:
-      'We transform passive traffic into qualified inquiries. Through precision UX engineering and privacy-compliant analytics, every buyer touchpoint is optimized for pipeline velocity.',
-    deliverables: ['Frictionless Inbound Flow Engineering', 'Qualified Lead Routing', 'Verified Conversion Telemetry'],
-    stat: 'GA4 Verified Tracking',
+      'We focus on turning existing traffic into qualified inquiries through clear UX engineering and privacy-compliant analytics.',
+    deliverables: ['Frictionless Inbound Flow Engineering', 'Qualified Lead Routing', 'GA4 Conversion Event Setup'],
   },
 ];
 
 const comparisonData = [
   {
-    metric: 'Core Web Vitals & Load Speed',
-    legacy: '3.5s to 6.0s (Bloated WordPress themes, 35+ plugins, mobile bounce)',
-    rankur: 'Server-rendered Next.js with minimal client JavaScript',
+    metric: 'Rendering & Asset Architecture',
+    legacy: 'Theme builders with heavy runtime scripts and third-party plugin layers',
+    rankur: 'Server-rendered and static Next.js routes with minimal client JavaScript',
   },
   {
-    metric: 'AI Search Readiness (ChatGPT, Perplexity)',
-    legacy: 'Unstructured text, zero schema, ignored while competitors get cited',
-    rankur: 'Structured entity signals that make AI engines recommend your platform',
+    metric: 'AI & Search Structured Data',
+    legacy: 'Unstructured page copy with minimal or generic plugin metadata',
+    rankur: 'JSON-LD entity, service, and FAQ schema authored directly in code',
   },
   {
     metric: 'Codebase & Intellectual Property',
-    legacy: 'Trapped in proprietary agency locks or $5,000/mo retainers',
-    rankur: '100% complete GitHub repository transfer with zero agency retainers',
+    legacy: 'Coupled to proprietary agency hosting or ongoing theme retainers',
+    rankur: '100% GitHub repository transfer with zero agency retainer lock-in',
   },
   {
     metric: 'Lead Capture & Friction',
-    legacy: 'Clunky 10-field forms, zero attribution, high drop-off',
-    rankur: 'Frictionless qualification pathways + GA4 pipeline attribution',
+    legacy: 'Long multi-field forms with unclear routing and missing analytics',
+    rankur: 'Short qualification pathways paired with GA4 conversion tracking',
   },
   {
     metric: 'Delivery & Communication',
-    legacy: 'Passed around junior account managers and offshore contractors',
+    legacy: 'Passed around junior account managers and layered subcontractors',
     rankur: 'Direct execution by Moksh Parjapati with milestone sign-offs',
   },
 ];
 
 const niches = [
-  { label: 'B2B SaaS & Tech (Inbound Demo Funnels)', to: '/saas-websites' },
-  { label: 'Industrial & Manufacturing (Tier-1 RFQ Catalogs)' },
-  { label: 'High-Ticket Professional Services (Qualified Calls)' },
+  { label: 'B2B SaaS & Tech', to: '/saas-websites' },
+  { label: 'Industrial & manufacturing' },
+  { label: 'Professional services' },
   { label: 'Wafa Educational & Charitable Trust (Client Case Study)', to: '/case-studies#wafa-case-study' },
 ];
 
@@ -138,12 +133,12 @@ const processSteps = [
   {
     title: '2. Dedicated Architecture & Sprint Build',
     description:
-      'Your platform is custom-engineered using our proprietary high-performance infrastructure and search standards, backed by milestone deliverables and 100% source code ownership.',
+      'Your platform is custom-engineered using Next.js and clean search standards, backed by milestone deliverables and 100% source code ownership.',
   },
   {
-    title: '3. Pipeline Velocity & Ongoing Dominance',
+    title: '3. Pipeline Velocity & Ongoing Optimization',
     description:
-      'Post-launch, our telemetry and indexation monitoring continuously optimize buyer engagement, search visibility, and inbound pipeline quality.',
+      'Post-launch, analytics and indexation monitoring help refine buyer engagement, search visibility, and inbound pipeline quality.',
   },
 ];
 
@@ -163,7 +158,7 @@ const featuredInsights = [
     tag: 'Cost & ROI',
     readTime: '8 min read',
     title: 'How Much Does a Custom B2B Website Cost in 2026?',
-    excerpt: 'An honest breakdown of agency pricing, custom high-performance architecture, and the hidden total cost of ownership of fragile template builds.',
+    excerpt: 'An honest breakdown of agency pricing, custom Next.js architecture, and the total cost of ownership of template builds.',
     image: '/blog-images/prompt-116.webp',
     imageAlt: 'B2B website development cost breakdown and pricing guide',
     date: 'August 28, 2026',
@@ -191,7 +186,7 @@ export default function Home() {
             <span className="text-gold">Looks Busy But Converts Nothing</span>
           </>
         }
-        subtitle="We build high-performance web platforms for B2B and mission-driven organisations that turn existing organic and direct traffic into qualified inquiries and sales pipeline: with 100% source code ownership and zero retainer lock-in."
+        subtitle="We build custom Next.js web platforms for B2B and mission-driven organisations that turn existing organic and direct traffic into qualified inquiries and sales pipeline: with 100% source code ownership and zero retainer lock-in."
         primaryCTA={{ to: '/free-audit', label: 'Claim Free Pipeline Audit' }}
         secondaryCTA={{ to: '/case-studies', label: 'View Platforms Built' }}
       />
@@ -341,11 +336,6 @@ export default function Home() {
                       </ul>
                     </div>
                   </div>
-
-                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: 'var(--space-md)', borderTop: '1px solid rgba(255, 255, 255, 0.08)' }}>
-                    <span style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>Benchmark:</span>
-                    <span style={{ fontSize: '0.85rem', color: 'var(--color-gold)', fontWeight: 700 }}>{service.stat}</span>
-                  </div>
                 </div>
               </SpotlightCard>
             ))}
@@ -358,9 +348,9 @@ export default function Home() {
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '820px', margin: '0 auto var(--space-4xl)' }}>
             <p className="section-label">Architectural Reality</p>
-            <h2 className="section-title">Why Legacy Agency Websites Fail Enterprise Buyers</h2>
+            <h2 className="section-title">Why Legacy Agency Websites Fail B2B Buyers</h2>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '1.05rem', lineHeight: '1.8' }}>
-              The traditional agency model is broken. When high-ticket buyers evaluate your company, their first impression is formed in seconds. Here is how Rankur compares to standard web studios.
+              When B2B buyers evaluate your company, clarity and technical execution matter. Here is how Rankur compares to standard agency template builds.
             </p>
           </div>
 

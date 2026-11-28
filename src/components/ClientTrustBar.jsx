@@ -7,7 +7,7 @@ const platformsBuilt = [
     name: 'Wafa Educational & Charitable Trust',
     url: 'https://www.wafatrustindia.org/',
     niche: 'Philanthropic Healthcare, Education & Community Trust',
-    badge: 'Client Platform · High-Performance Web Architecture',
+    badge: 'Client Platform · Custom Next.js Architecture',
     external: true,
     renderLogo: () => (
       <img
@@ -22,7 +22,7 @@ const platformsBuilt = [
 
 export default function ClientTrustBar({
   title = "Featured Client Platform",
-  subtitle = "High-performance digital infrastructure engineered with Next.js, accessible design, and search architecture.",
+  subtitle = "Custom digital infrastructure engineered with Next.js and structured search architecture.",
 }) {
   return (
     <section className="client-trust-bar" id="client-trust-bar">
@@ -30,7 +30,7 @@ export default function ClientTrustBar({
         <div className="client-trust-bar__header">
           <span className="client-trust-bar__meta-tag">
             <span className="client-trust-bar__live-dot"></span>
-            Verified Client Build · Live Platform
+            Client Build · Live Platform
           </span>
           <h2 className="client-trust-bar__title">{title}</h2>
           <p className="client-trust-bar__subtitle">{subtitle}</p>

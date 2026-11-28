@@ -37,7 +37,7 @@ for (const p of blogPosts) {
 const allCategories = [...categoryListMap.values()];
 
 const hubDescriptions = {
-  'Website Strategy': 'Architecting B2B web systems that convert. Custom high-performance engineering, buyer UX flow, and positioning alignment.',
+  'Website Strategy': 'Architecting B2B web systems that convert. Custom Next.js engineering, buyer UX flow, and positioning alignment.',
   'SEO & AI Search': 'Technical SEO and Generative Engine Optimization (GEO) for traditional search engines and AI answer engines.',
   'SaaS & Tech Startups': 'Conversion architecture, speed optimization, and demo pipeline engineering for high-growth tech platforms.',
   'B2B Manufacturers & Exporters': 'Digital credibility, technical documentation, and RFQ funnels for manufacturing and global export.',
@@ -132,7 +132,7 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
         subtitle={
           activeCategoryObj
             ? hubDescriptions[activeCategoryObj.tag] ||
-            'Tactical B2B guides on custom high-performance web engineering, technical SEO, and conversion architecture.'
+            'Tactical B2B guides on custom Next.js web engineering, technical SEO, and conversion architecture.'
             : 'Tactical guides on custom Next.js web systems, conversion architecture, Core Web Vitals, and generative AI search optimization.'
         }
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
@@ -365,7 +365,7 @@ export default function Blog({ initialPage = 1, activeCategorySlug = null }) {
               Core Services &amp; Markets
             </h3>
             <p style={{ color: 'var(--color-text-muted)', fontSize: '0.92rem', marginBottom: '1rem', lineHeight: '1.6' }}>
-              We build custom high-performance web platforms and technical SEO architecture for B2B enterprises across key commercial regions.
+              We build custom Next.js web platforms and technical SEO architecture for B2B businesses across key commercial regions.
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem 1.25rem', fontSize: '0.9rem' }}>
               <Link href="/services" style={{ color: 'var(--color-white)', textDecoration: 'none' }}>View Services</Link> ·

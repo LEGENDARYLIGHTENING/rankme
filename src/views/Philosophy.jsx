@@ -48,7 +48,7 @@ export default function Philosophy() {
             <span className="text-gold">Web &amp; SEO Work</span>
           </>
         }
-        subtitle="We engineer client web platforms using the same transparent, architecture-led discipline applied across high-performance enterprise systems."
+        subtitle="We engineer client web platforms using the same transparent, architecture-led discipline applied across custom Next.js systems."
         primaryCTA={{ to: '/free-audit', label: 'Request Free Audit' }}
         center
       />

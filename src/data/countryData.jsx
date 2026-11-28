@@ -23,7 +23,7 @@ export const countryData = {
       heroSubtitle:
         'For US SaaS, industrial manufacturing, and B2B service teams whose buyers compare technical documentation, speed, and clarity before booking a call.',
       problemText: [
-        'US B2B buyers routinely shortlist three to five vendors online before ever talking to sales. Slow marketing sites bolted onto heavy theme builders lose those technical evaluations early.',
+        'Technical buyers evaluating B2B vendors online check site clarity, service scope, and proof before booking a call. Slow marketing sites bolted onto heavy theme builders make that evaluation harder.',
         'Many growing American software and industrial teams publish broad blog posts while neglecting product architecture, schema markup, and clean bottom-of-funnel inquiry flows.',
         'I build lean Next.js marketing platforms with clear technical positioning, structured entity data, and focused lead capture designed for multi-stakeholder US procurement.',
       ],
@@ -50,12 +50,12 @@ export const countryData = {
         {
           question: 'How do you work with US B2B teams remotely?',
           answer:
-            'I collaborate asynchronously over Linear/Slack or email with scheduled overlap windows for US Eastern and Pacific time zones, shipping code directly into your GitHub repository with milestone sign-off.',
+            'I collaborate asynchronously over email, Loom briefs, or scheduled calls with overlap windows for US Eastern and Pacific time zones, shipping code directly into your GitHub repository with milestone sign-off.',
         },
         {
           question: 'Can you replace an existing WordPress or Webflow site without losing US search rankings?',
           answer:
-            'Yes. Every replatforming engagement executes a rigorous zero-loss migration protocol before launch, safeguarding your accumulated search equity, inbound backlinks, and core commercial rankings.',
+            'Yes. Every replatforming engagement includes a structured 301 redirect map and technical audit before launch to preserve existing indexed URLs and internal links.',
         },
         {
           question: 'Who owns the code and content once the site launches?',
@@ -258,7 +258,7 @@ export const countryData = {
       solutions: [
         {
           icon: '⟨/⟩',
-          title: 'Enterprise-Grade Frontend Craft',
+          title: 'Custom Next.js Frontend',
           desc: 'Clean visual hierarchy, real platform previews, and structured specification layouts that earn procurement trust.',
         },
         {
@@ -553,7 +553,7 @@ export const countryData = {
         {
           question: 'Can you help consolidate duplicate regional or city pages?',
           answer:
-            'Yes. We audit diluted indexation, execute zero-loss consolidation protocols, and refocus domain authority onto high-converting national capability hubs.',
+            'Yes. We audit diluted indexation, implement structured 301 consolidation, and refocus internal links onto your core capability pages.',
         },
         {
           question: 'Do you support custom B2B SaaS or API documentation layouts?',
