@@ -33,7 +33,7 @@ The table below breaks down the four distinct vendor tiers in the commercial web
 | :--- | :--- | :--- | :--- | :--- |
 | **Tier 1: Solo Freelancer / Offshore Shop** | $3,500 to $8,500 | 3 to 6 weeks | Pre-built WordPress or Webflow template customization | High risk. Sluggish mobile speeds, generic styling, zero technical SEO governance. |
 | **Tier 2: General Digital Agency** | $15,000 to $28,000 | 8 to 14 weeks | Semi-custom design on WordPress, Webflow, or Hubspot CMS | Moderate risk. Good aesthetic polish, basic on-page metadata. Often fails Core Web Vitals. |
-| **Tier 3: Specialized Web Engineering Consultancy** | $25,000 to $55,000 | 8 to 12 weeks | Custom Next.js static edge architecture, bespoke conversion funnels | Very low risk. Milestone-based delivery, guaranteed sub-1.2s mobile LCP, nested schema, high-intent CRO. |
+| **Tier 3: Specialized Web Engineering Consultancy** | $25,000 to $55,000 | 8 to 12 weeks | Custom Next.js static edge architecture, bespoke conversion funnels | Very low risk. Milestone-based delivery, contractual sub-1.2s mobile LCP SLA, nested schema, high-intent CRO. |
 | **Tier 4: Global Brand Agency** | $85,000 to $175,000+ | 6 to 9 months | Full enterprise rebrand, extensive workshops, multi-lingual CMS | High cost. Heavy bureaucratic overhead, endless discovery decks, slow time-to-market. |
 
 ---
@@ -84,7 +84,7 @@ When negotiating a website redesign contract with any digital consultancy, ensur
 ```
 
 ### 1. Mobile Performance Service Level Agreement (SLA)
-Do not accept vague promises like "The site will be fast." Require a contractually guaranteed performance benchmark: **mobile Largest Contentful Paint (LCP) under 1.2 seconds** and a Google Lighthouse mobile score of 90+ across all core landing pages.
+Do not accept vague promises like "The site will be fast." Require a contractual performance benchmark: **mobile Largest Contentful Paint (LCP) under 1.2 seconds** and a Google Lighthouse mobile score of 90+ across all core landing pages.
 
 ### 2. Full Content Migration & Single-Hop 301 Redirection
 Ensure the scope includes migrating your existing authoritative blog content, case studies, and customer proof, along with a comprehensive redirection matrix that preserves 100% of your existing search equity.
@@ -135,7 +135,7 @@ A B2B website redesign is not a routine marketing expense; it is a strategic cap
 | B2B REDESIGN READINESS CHECKLIST                                              |
 |                                                                               |
 | [ ] Reject open-ended hourly billing; insist on fixed-fee milestone scopes.   |
-| [ ] Contractually mandate mobile Core Web Vitals guarantees (LCP < 1.2s).     |
+| [ ] Contractually mandate mobile Core Web Vitals SLAs (LCP < 1.2s).          |
 | [ ] Require a comprehensive 301 redirect map before any code is deployed.     |
 | [ ] Unify design and engineering to avoid unbuildable Figma handoffs.         |
 | [ ] Tie final project sign-off to verified production performance metrics.    |

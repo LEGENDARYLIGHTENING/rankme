@@ -655,6 +655,30 @@ async function runPostbuildChecks() {
     if (/<p>\s*\|[^<]*\|[^<]*<\/p>/i.test(html)) {
       fail(`[Phase9] Built HTML contains raw-pipe markdown table row: ${rel}`);
     }
+    const htmlWithoutCode = html.replace(/<pre[\s\S]*?<\/pre>/gi, '').replace(/<code[\s\S]*?<\/code>/gi, '');
+    if (/\$\$/.test(htmlWithoutCode)) {
+      fail(`[Hotfix] Built HTML contains unrendered LaTeX "$$" block: ${rel}`);
+    }
+    const HOTFIX_BANNED_HTML = [
+      'significant budget',
+      'variable agency budgets',
+      'a large share',
+      '\\significant',
+      'a substantial share',
+      'a small portion',
+      'a large budget',
+      'a clear increase',
+      'high monthly retainers',
+      'one-time build investment including Edge hosting',
+      'predictable 3-year total cost',
+      'common budget overrun',
+      'converts at a low baseline',
+    ];
+    for (const phrase of HOTFIX_BANNED_HTML) {
+      if (htmlWithoutCode.toLowerCase().includes(phrase.toLowerCase())) {
+        fail(`[Hotfix] Built HTML contains banned placeholder phrase "${phrase}": ${rel}`);
+      }
+    }
     const rMatch = html.match(/<meta[^>]*name=["']robots["'][^>]*content=["']([^"']+)["']/i);
     if (rMatch && /noindex/i.test(rMatch[1])) continue;
     const route = rel === 'index.html' ? '' : '/' + rel.replace(/\.html$/, '');
@@ -693,6 +717,42 @@ if (isPostbuild) {
       }
       if (/Verified B2B Practitioner/i.test(txt)) {
         fail(`[Phase9] "Verified B2B Practitioner" found in blogs/${f}`);
+      }
+      if (/\$\$/.test(txt)) {
+        fail(`[Hotfix] Unrendered LaTeX "$$" block found in blogs/${f}`);
+      }
+      const HOTFIX_BANNED_MD = [
+        'significant budget',
+        'variable agency budgets',
+        'a large share',
+        '\\significant',
+        'a substantial share',
+        'a small portion',
+        'a large budget',
+        'a clear increase',
+        'high monthly retainers',
+        'enterprise ACV',
+        'one-time build investment including Edge hosting',
+        'predictable 3-year total cost',
+        'common budget overrun',
+        'converts at a low baseline',
+        'supports fast load times',
+      ];
+      for (const phrase of HOTFIX_BANNED_MD) {
+        if (txt.toLowerCase().includes(phrase.toLowerCase())) {
+          fail(`[Hotfix] Banned placeholder phrase "${phrase}" found in blogs/${f}`);
+        }
+      }
+    }
+  }
+  const srcCheckDirs = ['src/views', 'src/components', 'src/data', 'app'];
+  for (const sDir of srcCheckDirs) {
+    for (const sf of walkFiles(path.join(rootDir, sDir), ['.js', '.jsx', '.ts', '.tsx'])) {
+      const sTxt = fs.readFileSync(sf, 'utf8');
+      for (const phrase of ['significant budget', 'variable agency budgets', 'a large share', '\\significant']) {
+        if (sTxt.toLowerCase().includes(phrase.toLowerCase())) {
+          fail(`[Hotfix] Banned placeholder phrase "${phrase}" found in ${path.relative(rootDir, sf)}`);
+        }
       }
     }
   }

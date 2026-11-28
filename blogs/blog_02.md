@@ -110,7 +110,7 @@ Instead, insist on a **Two-Phase Milestone Framework**:
 | THE TWO-PHASE ALIGNED INCENTIVE FRAMEWORK                                     |
 |                                                                               |
 | Phase 1: Technical & Conversion Overhaul (Months 1-2, Fixed Milestone Fee)    |
-| * Fix Core Web Vitals (Sub-1.2s mobile LCP guarantee).                        |
+| * Fix Core Web Vitals (Sub-1.2s mobile LCP SLA).                              |
 | * 301 redirect audit and crawl bloat cleanup.                                 |
 | * Rewrite high-intent commercial landing pages and demo funnels.              |
 |                                                                               |
@@ -136,7 +136,7 @@ Hiring the right SaaS SEO expert is the difference between burning $40,000 on va
 | [ ] Reject agencies that measure success by impressions rather than demos.    |
 | [ ] Demand case studies with verifiable CRM revenue and closed-won data.      |
 | [ ] Test their understanding of Generative Engine Optimization (GEO).         |
-| [ ] Require a contractual Core Web Vitals speed guarantee (LCP < 1.2s).       |
+| [ ] Require a contractual Core Web Vitals speed SLA (LCP < 1.2s).             |
 | [ ] Structure contracts with milestone governance and performance alignment.  |
 +-------------------------------------------------------------------------------+
 ```

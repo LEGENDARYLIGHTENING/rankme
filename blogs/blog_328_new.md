@@ -106,7 +106,7 @@ Saving $35,000 upfront to lose $91,000 in net profit every single year is financ
 
 Why do specialized B2B web engineering consultancies charge $25,000 to $50,000+? Because they engineer commercial capabilities that low-cost agencies cannot deliver:
 
-### 1. Contractually Guaranteed Core Web Vitals (Sub-1.2s Mobile LCP)
+### 1. Contractual Core Web Vitals SLAs (Sub-1.2s Mobile LCP)
 Cheap agencies build on bloated themes that fail Google PageSpeed Insights. 
 
 Specialized engineering teams write custom Next.js code compiled to global edge CDNs, targeting fast server response times and server-rendered mobile rendering.
@@ -155,7 +155,7 @@ In modern B2B sales, your website is the foundation of your company's enterprise
 |                                                                               |
 | [ ] Reject proposals based on off-the-shelf themes or plugin bloat.           |
 | [ ] Calculate your true 12-month opportunity cost before selecting a vendor.  |
-| [ ] Require contractually guaranteed Core Web Vitals speed benchmarks.        |
+| [ ] Require contractual Core Web Vitals speed benchmarks.                     |
 | [ ] Insist on fixed-fee milestone governance tied to verified deliverables.   |
 | [ ] Partner with an engineering team that understands pipeline, not vanity.   |
 +-------------------------------------------------------------------------------+
