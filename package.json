@@ -16,6 +16,7 @@
     "syndicate:month-3": "node scripts/hybrid-syndicate-publisher.mjs --month=3 --status=draft",
     "syndicate:all-30": "node scripts/hybrid-syndicate-publisher.mjs --all --status=draft",
     "start": "next start",
+    "test": "node --loader ./tests/loader.mjs --experimental-strip-types --test tests/**/*.test.ts",
     "lint": "next lint"
   },
   "dependencies": {
@@ -28,6 +29,7 @@
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
     "sharp": "^0.35.4"
   },
   "devDependencies": {
