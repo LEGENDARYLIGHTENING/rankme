@@ -135,7 +135,7 @@ A B2B website redesign is not a routine marketing expense; it is a strategic cap
 | B2B REDESIGN READINESS CHECKLIST                                              |
 |                                                                               |
 | [ ] Reject open-ended hourly billing; insist on fixed-fee milestone scopes.   |
-| [ ] Contractually mandate mobile Core Web Vitals guarantees (LCP < 1.2s).     |
+| [ ] Contractually mandate mobile Core Web Vitals support (LCP < 1.2s).     |
 | [ ] Require a comprehensive 301 redirect map before any code is deployed.     |
 | [ ] Unify design and engineering to avoid unbuildable Figma handoffs.         |
 | [ ] Tie final project sign-off to verified production performance metrics.    |

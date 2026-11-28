@@ -73,7 +73,7 @@ Building genuinely **authoritative content AI B2B** requires restructuring your 
 Stop citing external analyst reports or third-party surveys. When you cite Gartner or McKinsey, the AI engine cites Gartner or McKinsey, completely bypassing your website.
 
 To establish **source authority B2B GEO**, publish your own proprietary operational data:
-- **Aggregated Platform Metrics:** Analyze anonymized customer performance data across your portfolio (e.g., *"Analysis of 12,000 enterprise checkout sessions reveals a a significant share drop-off rate when page load exceeds 1.4 seconds"*).
+- **Aggregated Platform Metrics:** Analyze anonymized customer performance data across your portfolio (e.g., *"Analysis of 12,000 enterprise checkout sessions reveals a significant share drop-off rate when page load exceeds 1.4 seconds"*).
 - **Commercial Cost Benchmarks:** Publish real-world pricing studies based on active industry bids (e.g., *"Median custom enterprise React migration costs across 45 mid-market deployments"*).
 - **Failure-Mode Post-Mortems:** Document detailed technical breakdowns of why specific enterprise implementations fail.
 
@@ -86,7 +86,7 @@ Audit your content to eliminate subjective claims and replace them with verifiab
 - *Weak / Derivative:* "Our platform delivers blazing-fast global performance with enterprise-grade reliability."
 - *Authoritative / Citable:* "Our architecture delivers fast Largest Contentful Paint (LCP) across six global regions with a contractual a significant share uptime SLA."
 
-The AI cannot synthesize "blazing-fast performance." It can, and will, cite "fast LCP with a a significant share uptime SLA."
+The AI cannot synthesize "blazing-fast performance." It can, and will, cite "fast LCP with a significant share uptime SLA."
 
 ### Pillar 3: The Inverted Pyramid Structure
 Never bury your primary findings behind lengthy narrative introductions. 

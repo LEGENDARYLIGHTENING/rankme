@@ -92,7 +92,7 @@ Authentic names eliminate buyer skepticism instantly.
 ### Component 3: The Technical Bottleneck (What Was Broken Before)
 Describe the client's pre-existing operational state with technical precision:
 * Sluggish legacy CMS taking 4.8 seconds to load on mobile cellular networks.
-* 10-field contact forms with a a significant share drop-off rate.
+* 10-field contact forms with a significant share drop-off rate.
 * Total absence of structured Schema.org entity graphs, causing zero visibility in generative AI search engines.
 
 Clearly identifying the technical bottlenecks allows prospective buyers with the same symptoms to recognize their own operational challenges.

@@ -155,7 +155,7 @@ A B2B website is either your company's most productive enterprise business devel
 | 5-POINT CONVERSION RECOVERY CHECKLIST                                         |
 |                                                                               |
 | [ ] Rewrite your hero section to state who you serve and your core outcome.   |
-| [ ] Guarantee fast mobile page load times via static edge delivery.       |
+| [ ] support fast mobile page load times via static edge delivery.       |
 | [ ] Cut initial contact forms to 3 or 4 essential fields.                     |
 | [ ] Publish verified third-party client proof and accredited credentials.     |
 | [ ] Deploy structured JSON-LD entity graphs for AI search engines.            |

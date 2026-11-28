@@ -49,7 +49,7 @@ Addressing b2b demo request show rate optimization directly reduces user drop-of
 
 ## Engineering Deep Dive: CRO Overhaul & Demo Acceleration
 
-For a B2B enterprise software vendor with a a significant share contact form bounce rate, we replaced their legacy static HTML form with a dynamic React qualification wizard.
+For a B2B enterprise software vendor with a significant share contact form bounce rate, we replaced their legacy static HTML form with a dynamic React qualification wizard.
 
 ### Technical Implementation:
 - Native React state management loading instantly from the Edge.

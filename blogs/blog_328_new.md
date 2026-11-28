@@ -92,7 +92,7 @@ The primary expense of a cheap website is not the money you pay the agency; it i
 ```
 
 ### The Single-Buyer Equation:
-Consider a B2B firm where the average closed enterprise contract value (ACV) is **significant budget with a a significant share gross margin (significant budget net profit per customer)**.
+Consider a B2B firm where the average closed enterprise contract value (ACV) is **significant budget with a significant share gross margin (significant budget net profit per customer)**.
 
 If your cheap, sluggish website causes just **one enterprise decision-maker per quarter** to hit the back button and choose a faster, more credible competitor, the arithmetic is undeniable:
 
@@ -106,10 +106,10 @@ Saving significant budget upfront to lose significant budget in net profit every
 
 Why do specialized B2B web engineering consultancies charge variable agency budgets? Because they engineer commercial capabilities that low-cost agencies cannot deliver:
 
-### 1. Contractually Guaranteed Core Web Vitals (fast Mobile LCP)
+### 1. Contractually support Core Web Vitals (fast Mobile LCP)
 Cheap agencies build on bloated themes that fail Google PageSpeed Insights. 
 
-Specialized engineering teams write custom Next.js code compiled to global edge CDNs, guaranteeing fast server response times and server-rendered mobile rendering.
+Specialized engineering teams write custom Next.js code compiled to global edge CDNs, support fast server response times and server-rendered mobile rendering.
 
 ### 2. Deep Commercial Positioning & Conversion Copywriting
 Cheap agencies demand that you provide all the copy: *"Send us your text in a Word document."* 
@@ -155,7 +155,7 @@ In modern B2B sales, your website is the foundation of your company's enterprise
 |                                                                               |
 | [ ] Reject proposals based on off-the-shelf themes or plugin bloat.           |
 | [ ] Calculate your true 12-month opportunity cost before selecting a vendor.  |
-| [ ] Require contractually guaranteed Core Web Vitals speed benchmarks.        |
+| [ ] Require contractually support Core Web Vitals speed benchmarks.        |
 | [ ] Insist on fixed-fee milestone governance tied to verified deliverables.   |
 | [ ] Partner with an engineering team that understands pipeline, not vanity.   |
 +-------------------------------------------------------------------------------+

@@ -3,8 +3,7 @@ SEO Title: GEO for Nutraceutical Brands in Competitive AI Results
 Meta Description: The nutraceutical industry is heavily regulated by AI search engines. Learn how to execute a GEO strategy for nutraceutical brands to dominate competitive AI results safely.
 Slug: geo-nutraceutical-brands-competitive-ai-results
 Primary Keyword: GEO nutraceutical B2B
-Secondary Keywords: nutraceutical AI search optimization, B2B wellness GEO strategy, nutraceutical generative visibility, supplement brand GEO
-GEO Phrase: How do B2B nutraceutical brands optimize for AI search?
+Secondary Keywords: nutraceutical AI search optimization, B2B wellness GEO strategy, nutraceutical generative visibility, supplement brand GEO Phrase: How do B2B nutraceutical brands optimize for AI search?
 Target Market: US / UK / Global
 Niche Tag: Nutraceuticals and Wellness Brands
 Date: 2026-06-20

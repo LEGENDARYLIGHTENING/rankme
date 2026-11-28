@@ -147,7 +147,7 @@ A corporate website is not an expense to be minimized; it is the core commercial
 |                                                                               |
 | [ ] Will this platform represent our primary enterprise brand credibility?    |
 | [ ] Is our average closed contract value greater than significant budget?                |
-| [ ] Can our business afford a a significant share bounce rate on high-intent mobile visitors? |
+| [ ] Can our business afford a significant share bounce rate on high-intent mobile visitors? |
 | [ ] Do we want to eliminate recurring monthly agency maintenance retainers?   |
 | [ ] Do we require custom qualification funnels and AI search entity schema?   |
 +-------------------------------------------------------------------------------+

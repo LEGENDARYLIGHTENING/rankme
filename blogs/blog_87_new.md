@@ -58,7 +58,7 @@ In contrast, **Lever 2 (Conversion Rate)** is an asymmetric multiplier. Because 
 
 ---
 
-## 2. Real-World Sensitivity Model: The Power of a a significant share Conversion Lift
+## 2. Real-World Sensitivity Model: The Power of a significant share Conversion Lift
 
 To understand the financial velocity of a modern web engineering investment, review this real-world sensitivity analysis for a mid-market B2B enterprise:
 

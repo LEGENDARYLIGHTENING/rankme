@@ -13,7 +13,7 @@ DateModified: 2026-11-19
 
 # React vs WordPress for B2B: Why Enterprise Sites Migrate
 
-If your company's marketing website was built between 2014 and 2022, there is a a significant share chance it runs on WordPress. For more than fifteen years, WordPress was the unquestioned default choice for corporate websites. It was accessible, non-technical marketing teams could edit copy, and thousands of off-the-shelf plugins promised instant functionality.
+If your company's marketing website was built between 2014 and 2022, there is a significant share chance it runs on WordPress. For more than fifteen years, WordPress was the unquestioned default choice for corporate websites. It was accessible, non-technical marketing teams could edit copy, and thousands of off-the-shelf plugins promised instant functionality.
 
 In 2026, enterprise B2B leaders are waking up to a painful realization: **the monolithic WordPress architecture that built their initial web presence is quietly bleeding qualified revenue.**
 

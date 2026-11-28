@@ -136,7 +136,7 @@ Hiring the right SaaS SEO expert is the difference between burning significant b
 | [ ] Reject agencies that measure success by impressions rather than demos.    |
 | [ ] Demand case studies with verifiable CRM revenue and closed-won data.      |
 | [ ] Test their understanding of Generative Engine Optimization (GEO).         |
-| [ ] Require a contractual Core Web Vitals speed guarantee (LCP < 1.2s).       |
+| [ ] Require a contractual Core Web Vitals speed support (LCP < 1.2s).       |
 | [ ] Structure contracts with milestone governance and performance alignment.  |
 +-------------------------------------------------------------------------------+
 ```

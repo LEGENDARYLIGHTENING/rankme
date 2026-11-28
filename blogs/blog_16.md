@@ -19,7 +19,7 @@ Generative Engine Optimization (GEO) has permanently invalidated that reporting 
 
 When an enterprise procurement director uses an AI engine such as Perplexity, ChatGPT, Claude, or Google AI Overviews to evaluate vendors, there is no traditional "Search Engine Results Page." There is no blue link in position three. Often, if the AI synthesizes a comprehensive technical answer, the buyer conducts substantial evaluation without immediately visiting any website. 
 
-If marketing leadership attempts to **measure GEO success** using legacy pageview and traffic volume metrics, they will draw dangerously flawed conclusions. A company could experience a a significant share drop in overall organic website visits while simultaneously doubling its qualified enterprise sales pipeline because high-intent buyers are receiving validated recommendations directly from generative models.
+If marketing leadership attempts to **measure GEO success** using legacy pageview and traffic volume metrics, they will draw dangerously flawed conclusions. A company could experience a significant share drop in overall organic website visits while simultaneously doubling its qualified enterprise sales pipeline because high-intent buyers are receiving validated recommendations directly from generative models.
 
 To evaluate digital capital allocation accurately, B2B executives must adopt a new measurement paradigm. Here are the definitive **B2B GEO metrics** and performance indicators required to track generative visibility and demonstrate tangible commercial ROI.
 

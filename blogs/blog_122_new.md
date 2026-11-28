@@ -110,7 +110,7 @@ Explore our breakdown of [headless CMS vs traditional monolithic architectures](
 
 ## Conversion Velocity and Speed Economics
 
-The financial viability of your web presence is determined by pipeline velocity. A website that loads in 4 seconds with a a significant share bounce rate loses high-intent buyers before they ever read your value proposition.
+The financial viability of your web presence is determined by pipeline velocity. A website that loads in 4 seconds with a significant share bounce rate loses high-intent buyers before they ever read your value proposition.
 
 Consider the commercial performance of two identical enterprises operating in the industrial software space with 10,000 monthly high-intent organic visitors:
 

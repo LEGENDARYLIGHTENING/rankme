@@ -44,7 +44,7 @@ Before a single wireframe is drawn or a line of code is written, executive leade
 ```
 
 ### 1. Define the Economic Payback Hurdle
-Do not budget for a website redesign based on arbitrary agency quotes. Calculate your exact **Break-Even Inbound Inquiries** based on your average contract value (ACV) and sales close rate. If your average gross margin on a deal is significant budget a significant budget custom web build requires only two additional closed deals over its entire lifespan to deliver a a significant share net return.
+Do not budget for a website redesign based on arbitrary agency quotes. Calculate your exact **Break-Even Inbound Inquiries** based on your average contract value (ACV) and sales close rate. If your average gross margin on a deal is significant budget a significant budget custom web build requires only two additional closed deals over its entire lifespan to deliver a significant share net return.
 
 ### 2. Formulate the Target-Outcome Headline
 Eliminate abstract corporate metaphors (*"Pioneering Digital Synergy"*). Your new homepage hero section must state with crystal clarity:
@@ -120,7 +120,7 @@ The most catastrophic risk of a website redesign is the post-launch traffic coll
 +-------------------------------------------------------------------------------+
 | PHASE 4 CHECKLIST: PRE-LAUNCH & POST-LAUNCH SEO GOVERNANCE                    |
 |                                                                               |
-| [ ] Complete a a significant share crawl audit of all legacy URLs with search impressions.   |
+| [ ] Complete a significant share crawl audit of all legacy URLs with search impressions.   |
 | [ ] Build a 1:1 single-hop 301 redirection matrix (0 chains, 0 loops).        |
 | [ ] Verify that every page has exactly ONE authoritative <h1> tag.             |
 | [ ] Validate a significant share image alt text coverage across all catalog assets.          |
