@@ -16,9 +16,9 @@ You have spent months refining your enterprise value proposition, building autho
 
 Form abandonment is the quietest, most expensive failure point in business-to-business pipeline generation. 
 
-According to enterprise conversion benchmarks, **more than a large share of qualified enterprise prospects who open an initial B2B inquiry form abandon it without submitting**. 
+According to enterprise conversion benchmarks, **more than 65% of qualified enterprise prospects who open an initial B2B inquiry form abandon it without submitting**. 
 
-When a prospective client considering a variable agency budgets engagement abandons your form, that opportunity rarely returns. In competitive enterprise markets, prospective buyers simply navigate to the next vendor on their evaluation shortlist.
+When a prospective client considering a $50,000 to $250,000 engagement abandons your form, that opportunity rarely returns. In competitive enterprise markets, prospective buyers simply navigate to the next vendor on their evaluation shortlist.
 
 Why are your highest-value prospects abandoning at the final commercial threshold? In almost every instance, the breakdown occurs because the contact interface is engineered for internal sales convenience rather than executive trust and frictionless communication.
 
@@ -51,7 +51,7 @@ When an inquiry form triggers anxiety across any of these dimensions, the execut
   ├─────────────────────────────────────────────────────────────────┤
   │  8 Abandon: Vague "We will reply in 48 hours" Black Hole Notice │
   └─────────────────────────────────────────────────────────────────┘
-    Only 25 Submissions Completed (a large share Total Pipeline Loss)
+    Only 25 Submissions Completed (75% Total Pipeline Loss)
 ```
 
 Review our analysis on [why B2B pricing pages bounce high-intent buyers](/blog/b2b-pricing-page-bounces-high-intent-buyers-332) to understand how friction at late-stage conversion points suppresses pipeline.
@@ -65,7 +65,7 @@ Demanding a mandatory direct phone number on an initial B2B discovery form is th
 Enterprise executives know exactly what happens the moment they submit a direct phone line: their number is routed into an automated outbound dialer, resulting in relentless, unsolicited cold calls while they are in boardroom meetings or traveling. Senior buyers actively avoid aggressive sales calls; they prefer asynchronous email communication to review materials, verify credentials, and align internal buying committees.
 
 ### The Quantified Conversion Impact
-Empirical testing across enterprise B2B websites demonstrates that removing mandatory phone number fields increases form completion rates by **a substantial share**. 
+Empirical testing across enterprise B2B websites demonstrates that removing mandatory phone number fields increases form completion rates by **25% to 40%**. 
 
 Unless your sales organization operates an instant, white-glove technical advisory hotline that answers incoming calls within 30 seconds, make the phone number optional. If your sales process genuinely requires a discovery call, give the prospect the autonomy to schedule that call directly on their terms.
 
@@ -74,7 +74,7 @@ Unless your sales organization operates an instant, white-glove technical adviso
 ## Friction Trap 2: Demanding Premature Budget Allocation Disclosures
 
 Many enterprise contact forms include dropdown fields demanding exact financial commitments:
-- *"What is your expected project budget? (significant budget-significant budget, significant budget-significant budget, significant budget-significant budget, significant budget)"*
+- *"What is your expected project budget? ($10k-$25k, $25k-$50k, $50k-$100k, $100k+)"*
 
 While sales leaders appreciate early budget qualification, forcing an enterprise buyer to declare a budget on an initial inquiry form creates immediate drop-off for three structural reasons:
 
@@ -129,7 +129,7 @@ High-performing revenue architectures eliminate the static thank-you page entire
 
 The instant an executive submits their email and qualification parameters, the platform dynamically analyzes the company domain, qualifies the account, and presents a direct calendar booking interface (such as SavvyCal or Calendly). The buyer can select a mutually convenient meeting slot with the appropriate senior partner immediately, while their intent is at its highest point.
 
-Review our in-depth research on [B2B demo request conversion benchmarks](/blog/b2b-demo-requests-fail-attended-meetings-599) to examine how instant scheduling increases completed discovery meetings by up to a large share.
+Review our in-depth research on [B2B demo request conversion benchmarks](/blog/b2b-demo-requests-fail-attended-meetings-599) to examine how instant scheduling increases completed discovery meetings by up to 35%.
 
 ---
 
@@ -141,9 +141,9 @@ Research across millions of enterprise conversion events confirms the mathematic
 
 | Form Architecture | Average Fields | Completion Rate | Lead Quality Score | Impact on Sales Velocity |
 | :--- | :--- | :--- | :--- | :--- |
-| **Monolithic Legacy Form** | 10 to 14 fields | a substantial share | Low (High abandonment) | Severe friction and lost pipeline |
-| **Basic Single-Field Capture** | 1 field (Email only) | a substantial share | Very Low (Unqualified noise) | Overwhelms sales reps with junk |
-| **Progressive Multi-Step Flow** | 4 to 6 contextual steps | a substantial share | Extremely High | Pre-qualifies high-margin enterprise accounts |
+| **Monolithic Legacy Form** | 10 to 14 fields | 12% to 18% | Low (High abandonment) | Severe friction and lost pipeline |
+| **Basic Single-Field Capture** | 1 field (Email only) | 45% to 55% | Very Low (Unqualified noise) | Overwhelms sales reps with junk |
+| **Progressive Multi-Step Flow** | 4 to 6 contextual steps | 32% to 42% | Extremely High | Pre-qualifies high-margin enterprise accounts |
 
 ```
                     PROGRESSIVE MULTI-STEP LEAD FLOW

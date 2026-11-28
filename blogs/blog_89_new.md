@@ -19,7 +19,7 @@ Most organizations treat their category pages as passive digital catalogs. A use
 
 The result is massive pipeline leakage: an enterprise procurement director arriving from a high-intent Google search or an AI search citation scans the grid for ten seconds, fails to find verified technical specifications, and bounces to a competitor.
 
-In high-margin B2B commerce (variable agency budgets contracts), category pages should not function as retail shopping shelves. They must function as **Strategic Capability Hubs** engineered to satisfy technical diligence and compel formal Requests for Quote (RFQs).
+In high-margin B2B commerce ($50,000 to $500,000+ contracts), category pages should not function as retail shopping shelves. They must function as **Strategic Capability Hubs** engineered to satisfy technical diligence and compel formal Requests for Quote (RFQs).
 
 Here is the executive blueprint for architecting a **B2B landing page strategy for product categories** that captures high-intent search traffic, educates buying committees, and converts catalog browsers into qualified enterprise pipeline.
 
@@ -153,12 +153,12 @@ To transition your product category pages from passive catalogs into high-conver
 | 1  | Eliminate Catalog Grids      | Replace photo-only cards with detailed engineering spec tables|
 | 2  | Pre-Render Material Matrices | Hardcode tolerances, alloys, and turnaround SLAs in HTML.     |
 | 3  | Deploy RFQ File Uploads      | Allow engineers to upload CAD files directly on the page.     |
-| 4  | Enforce fast Edge Speed | Pre-render category hubs at the edge using Next.js SSG/SSR.   |
+| 4  | Enforce Sub-800ms Edge Speed | Pre-render category hubs at the edge using Next.js SSG/SSR.   |
 +----+------------------------------+---------------------------------------------------------------+
 ```
 
 ### Strategic Milestones for Leadership
-1. **Audit Your Category Bounce Rates:** Review Google Analytics data. If bounce rates on your primary product categories exceed a large share, your pages are failing the 5-second technical diligence test.
+1. **Audit Your Category Bounce Rates:** Review Google Analytics data. If bounce rates on your primary product categories exceed 60%, your pages are failing the 5-second technical diligence test.
 2. **Un-Gate Technical Specifications:** Ensure all material data sheets and engineering envelopes are readable in plain HTML without requiring PDF downloads.
 3. **Upgrade to High-Performance Architecture:** Modernize your digital platform with server-rendered frameworks like Next.js, eliminating legacy CMS plugin bloat and slow load times.
 

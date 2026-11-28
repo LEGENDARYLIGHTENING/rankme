@@ -12,7 +12,7 @@ Date: 2026-06-20
 
 # How Export Compliance Consultants Protect Your International Shipments
 
-A seized shipment. A sanctions violation. A significant budget million fine from OFAC. These are not worst-case scenarios reserved for large multinationals - they are real outcomes for mid-sized manufacturers and exporters who assumed their internal team had cross-border compliance covered. The regulatory environment governing international shipments has tightened significantly across the UK, US, and Middle East since 2023, and most companies are not keeping pace.
+A seized shipment. A sanctions violation. A $2 million fine from OFAC. These are not worst-case scenarios reserved for large multinationals - they are real outcomes for mid-sized manufacturers and exporters who assumed their internal team had cross-border compliance covered. The regulatory environment governing international shipments has tightened significantly across the UK, US, and Middle East since 2023, and most companies are not keeping pace.
 
 Export compliance consultants exist to close that gap. They sit between your logistics team and the legal and regulatory frameworks that govern where your goods can go, how they must be documented, and which parties you are legally permitted to trade with. For any manufacturer or exporter shipping to Europe, the Gulf, or North America, engaging experienced export compliance consultants is no longer a luxury - it is a risk management decision.
 

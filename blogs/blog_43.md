@@ -18,7 +18,7 @@ Across thousands of corporate websites, marketing teams publish sanitized, predi
 
 This format does not convert enterprise buyers. It reads like an uncritical corporate press release.
 
-Enterprise decision-makers (Chief Technology Officers, Heads of Engineering, and VPs of Procurement) evaluate solutions through the lens of institutional risk. When committing variable agency budgets or more to an external partner, they are not looking for marketing fairy tales. They are actively hunting for the hidden risks, architectural compromises, and implementation bottlenecks that vendor sales teams attempt to conceal.
+Enterprise decision-makers (Chief Technology Officers, Heads of Engineering, and VPs of Procurement) evaluate solutions through the lens of institutional risk. When committing $50,000 to $250,000 or more to an external partner, they are not looking for marketing fairy tales. They are actively hunting for the hidden risks, architectural compromises, and implementation bottlenecks that vendor sales teams attempt to conceal.
 
 When a case study presents an effortless, friction-free implementation, the sophisticated buyer assumes the narrative has been manufactured by a copywriter with zero technical understanding. Trust evaporates, and the buyer bounces.
 
@@ -97,8 +97,8 @@ To a senior engineering leader or Chief Financial Officer, these words carry zer
 | Ambiguous Marketing Claim | Verified Technical Telemetry | Procurement Impact |
 | :--- | :--- | :--- |
 | *"The site loaded significantly faster"* | *"Largest Contentful Paint reduced from 4.8s to 420ms globally across Edge nodes"* | Passes Core Web Vitals benchmark |
-| *"Inbound leads increased substantially"* | *"Sales Qualified Meetings increased from 4/mo to 28/mo (+a large share) at significant budget ACV"* | Justifies significant budget project budget |
-| *"Improved database efficiency"* | *"Eliminated a large share of redundant cold-start database queries via serverless edge caching"* | Proves senior architectural competence |
+| *"Inbound leads increased substantially"* | *"Sales Qualified Meetings increased from 4/mo to 28/mo (+600%) at $65k ACV"* | Justifies $75k project budget |
+| *"Improved database efficiency"* | *"Eliminated 94% of redundant cold-start database queries via serverless edge caching"* | Proves senior architectural competence |
 | *"High customer satisfaction"* | *"Zero Sev-1 security incidents over 24 consecutive months of production operation"* | Mitigates enterprise compliance risk |
 
 Hard telemetry transforms marketing claims into undeniable proof points that can be presented directly to an executive board.
@@ -160,7 +160,7 @@ A brilliant case study buried on an unvisited sub-page provides zero commercial 
     1. Service & Solutions Pages
   ┌─────────────────────────────────────────────────────────────────┐
   │ Embed 2-sentence micro-proof cards alongside technical specs    │
-  │ Example: "See how we reduced LCP substantially for a B2B firm"       │
+  │ Example: "See how we reduced LCP by 82% for a B2B firm"       │
   └───────────────────────────────┬─────────────────────────────────┘
                                   │ Direct modal / slide-over link
                                   ▼
@@ -192,7 +192,7 @@ Interview delivery leads and client stakeholders to gather hard before-and-after
        │
        ▼
 [Phase 2: Bottleneck-First Drafting]
-Draft the narrative focusing a large share on the operational crisis and technical friction, a large share on architecture, and a large share on audited outcomes.
+Draft the narrative focusing 40% on the operational crisis and technical friction, 30% on architecture, and 30% on audited outcomes.
        │
        ▼
 [Phase 3: Machine-Readable Schema Injection]

@@ -19,7 +19,7 @@ Generative Engine Optimization (GEO) has permanently invalidated that reporting 
 
 When an enterprise procurement director uses an AI engine such as Perplexity, ChatGPT, Claude, or Google AI Overviews to evaluate vendors, there is no traditional "Search Engine Results Page." There is no blue link in position three. Often, if the AI synthesizes a comprehensive technical answer, the buyer conducts substantial evaluation without immediately visiting any website. 
 
-If marketing leadership attempts to **measure GEO success** using legacy pageview and traffic volume metrics, they will draw dangerously flawed conclusions. A company could experience a large share drop in overall organic website visits while simultaneously doubling its qualified enterprise sales pipeline because high-intent buyers are receiving validated recommendations directly from generative models.
+If marketing leadership attempts to **measure GEO success** using legacy pageview and traffic volume metrics, they will draw dangerously flawed conclusions. A company could experience a 20% drop in overall organic website visits while simultaneously doubling its qualified enterprise sales pipeline because high-intent buyers are receiving validated recommendations directly from generative models.
 
 To evaluate digital capital allocation accurately, B2B executives must adopt a new measurement paradigm. Here are the definitive **B2B GEO metrics** and performance indicators required to track generative visibility and demonstrate tangible commercial ROI.
 
@@ -64,9 +64,9 @@ This metric measures the percentage of high-intent, bottom-of-funnel generative 
 2. **Execute Systematic Multi-Engine Auditing:** Monthly or quarterly, run these prompts across Perplexity, ChatGPT (with web search active), Claude, and Google AI Overviews.
 3. **Calculate the Citation Ratio:**
 
-$$\text{Citation SOV} = \left( \frac{\text{Total Prompts Citing Your Brand}}{\text{Total High-Intent Prompts Evaluated}} \right) \times 100$$
+**Citation SOV (%) = (Total Prompts Citing Your Brand ÷ Total High-Intent Prompts Evaluated) × 100**
 
-If your company is cited in 32 out of 50 enterprise prompts, your Citation SOV is a large share. By tracking this metric alongside the citation rates of your top three direct competitors, leadership gains an objective benchmark of digital market dominance.
+If your company is cited in 32 out of 50 enterprise prompts, your Citation SOV is 64%. By tracking this metric alongside the citation rates of your top three direct competitors, leadership gains an objective benchmark of digital market dominance.
 
 ---
 
@@ -100,10 +100,10 @@ However, web analytics must isolate and evaluate AI referral traffic separately 
 | Dimension                      | Google Organic     | AI Engine Referral |
 +--------------------------------+--------------------+--------------------+
 | Traffic Volume                 | High               | Low to Moderate    |
-| Bounce Rate                    | a large share - a large share          | a large share - a large share          |
+| Bounce Rate                    | 55% - 75%          | 25% - 35%          |
 | Average Pages Per Session      | 1.8                | 4.2                |
-| Sales Qualified Lead (SQL) %   | a large share - a large share        | a large share - a large share       |
-| Average Deal Velocity          | Baseline           | significantly faster Close   |
+| Sales Qualified Lead (SQL) %   | 1.5% - 3.0%        | 8.0% - 15.0%       |
+| Average Deal Velocity          | Baseline           | 35% Faster Close   |
 +--------------------------------+--------------------+--------------------+
 ```
 
@@ -129,7 +129,7 @@ The ultimate test of a GEO strategy is its impact on blended Customer Acquisitio
 | Commercial Capital Efficiency Comparison                    |
 +-------------------------------------------------------------+
 | Paid Search (Google Ads):                                  |
-| significant budget CPC -> significant budget Cost Per Lead -> High Recurring CAC       |
+| $85 CPC -> $1,400 Cost Per Lead -> High Recurring CAC       |
 +-------------------------------------------------------------+
                               VS
 +-------------------------------------------------------------+
@@ -138,7 +138,7 @@ The ultimate test of a GEO strategy is its impact on blended Customer Acquisitio
 +-------------------------------------------------------------+
 ```
 
-When an enterprise organization captures dominant Citation Share of Voice, its dependency on paid search auctions drops dramatically. Instead of bidding significant budget or high cost-per-click on competitive commercial keywords, the company captures inbound enterprise procurement requests organically through generative shortlists.
+When an enterprise organization captures dominant Citation Share of Voice, its dependency on paid search auctions drops dramatically. Instead of bidding $80 or $120 per click on competitive commercial keywords, the company captures inbound enterprise procurement requests organically through generative shortlists.
 
 ### Establishing Institutional Measurement Discipline
 Tracking digital return on capital requires uncompromising data integrity. When Rankur engineered the digital platform and governance infrastructure for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/), the central requirement was complete operational transparency. Operating in an audited philanthropic environment, every digital touchpoint had to demonstrate clear stewardship, verified impact, and zero ambiguity.

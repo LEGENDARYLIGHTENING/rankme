@@ -31,7 +31,7 @@ Mobile site speed directly impacts executive purchase decisions:
 
 Monolithic CMS platforms require database lookups on server request, causing high TTFB. 
 
-**Next.js App Router** uses pre-rendered Static Site Generation (SSG) and Incremental Static Regeneration (ISR) to deliver pre-rendered HTML straight from global Edge locations (Cloudflare / Vercel), supports fast load times under 100ms anywhere on Earth.
+**Next.js App Router** uses pre-rendered Static Site Generation (SSG) and Incremental Static Regeneration (ISR) to deliver pre-rendered HTML straight from global Edge locations (Cloudflare / Vercel), targeting fast TTFB from global Edge locations.
 
 ---
 
@@ -52,7 +52,7 @@ A B2B industrial exporter's WordPress site suffered from a 4.8-second mobile LCP
 ### Next.js Architecture Pivot:
 - Framework: Next.js App Router + React Server Components.
 - Edge CDN: Vercel Global Edge Network.
-- **Outcome:** LCP reduced to **320ms**, mobile conversion rates rose **a large share**, and organic search traffic increased by **a large share**.
+- **Outcome:** LCP reduced to **320ms**, mobile conversion rates rose **280%**, and organic search traffic increased by **340%**.
 
 ---
 

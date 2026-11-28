@@ -16,11 +16,11 @@ In consumer e-commerce and transactional marketing, keyword research is a straig
 
 In enterprise business-to-business commerce, this linear model is completely irrelevant.
 
-An enterprise engagement valued between significant budget and significant budget or more involves a complex buying committee consisting of six to ten distinct stakeholders: Chief Information Officers, Heads of Engineering, Chief Financial Officers, Legal Counsel, and Procurement Directors. The evaluation lifecycle spans anywhere from six to eighteen months. No corporate executive makes a multi-year, six-figure vendor commitment based on a single search query.
+An enterprise engagement valued between $50,000 and $250,000 or more involves a complex buying committee consisting of six to ten distinct stakeholders: Chief Information Officers, Heads of Engineering, Chief Financial Officers, Legal Counsel, and Procurement Directors. The evaluation lifecycle spans anywhere from six to eighteen months. No corporate executive makes a multi-year, six-figure vendor commitment based on a single search query.
 
 Over the course of a multi-month procurement journey, members of the buying committee will execute dozens of discrete, highly specific searches. They transition from identifying acute operational bottlenecks to evaluating alternative technical methodologies, dissecting vendor risk profiles, and analyzing total cost of ownership.
 
-If your SEO strategy targets only bottom-of-the-funnel vendor search queries (*"best Next.js agency"*), you miss a large share of the research journey. By the time the prospect searches for specific vendors, the RFP criteria have already been framed by competitors who guided their thinking early in the evaluation cycle.
+If your SEO strategy targets only bottom-of-the-funnel vendor search queries (*"best Next.js agency"*), you miss 90% of the research journey. By the time the prospect searches for specific vendors, the RFP criteria have already been framed by competitors who guided their thinking early in the evaluation cycle.
 
 Here is the architectural framework for conducting enterprise keyword research mapped specifically to long, multi-stakeholder B2B sales cycles.
 
@@ -70,7 +70,7 @@ At the onset of a long sales cycle, enterprise prospects do not know your compan
 - **Authoritative Diagnostic Assets:** Answer these queries with deep, technical diagnostic guides that provide self-auditing frameworks. 
 - **Non-Commercial Gateways:** Do not push an aggressive sales pitch in Stage 1 content. Validate their pain, explain the underlying technical mechanics, and establish your firm as an intellectual authority.
 
-Explore our diagnostic teardown on [why a large share of booked B2B demo requests ghost you](/blog/b2b-demo-requests-fail-attended-meetings-599).
+Explore our diagnostic teardown on [why 50% of booked B2B demo requests ghost you](/blog/b2b-demo-requests-fail-attended-meetings-599).
 
 ---
 
@@ -115,7 +115,7 @@ Search queries in this phase become intensely commercial and risk-oriented:
                                   ▼
     Transparent Commercial Architecture (Rankur)
   ┌─────────────────────────────────────────────────────────────────┐
-  │ • Baseline starting tiers (significant budget - significant budget) clearly articulated     │
+  │ • Baseline starting tiers ($35k - $75k) clearly articulated     │
   │ • Detailed scope inclusions (Migration, Schema, Edge Caching)   │
   │ • Audited client metrics and verified SLA response guarantees   │
   └───────────────────────────────┬─────────────────────────────────┘

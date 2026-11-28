@@ -55,9 +55,9 @@ See [how I help importers and manufacturers improve their sourcing pipeline](/fr
 
 ## Structuring the Agency Relationship for Long-Term Results
 
-The way US importers structure their agency relationship determines whether they get transactional introductions or a genuine sourcing function. Most sourcing agencies operate on one of three commercial models: commission on purchase value (typically a substantial share), flat retainer with performance bonuses, or hybrid models that combine both. Understanding which model is right for your volume and category is important because it affects where the agency's incentives lie.
+The way US importers structure their agency relationship determines whether they get transactional introductions or a genuine sourcing function. Most sourcing agencies operate on one of three commercial models: commission on purchase value (typically 3% to 8%), flat retainer with performance bonuses, or hybrid models that combine both. Understanding which model is right for your volume and category is important because it affects where the agency's incentives lie.
 
-A commission-only model may incentivize the agency to recommend higher-priced suppliers or push higher volumes than your operation requires. A retainer model aligns incentives better for long-term supplier development, but requires a larger upfront commitment. For most US importers running significant budget to significant budgetM in annual sourcing, a hybrid model with a base retainer and performance-linked commission typically delivers the best outcome.
+A commission-only model may incentivize the agency to recommend higher-priced suppliers or push higher volumes than your operation requires. A retainer model aligns incentives better for long-term supplier development, but requires a larger upfront commitment. For most US importers running $500K to $5M in annual sourcing, a hybrid model with a base retainer and performance-linked commission typically delivers the best outcome.
 
 Actionable best practices for working with a product sourcing agency:
 
@@ -87,7 +87,7 @@ A B2B product sourcing agency delivers real value when the relationship is struc
 ## Frequently Asked Questions
 
 **How much does a B2B product sourcing agency charge?**
-Fees vary based on the engagement model. Commission-only agencies typically charge a substantial share of the total purchase value on each order. Retainer-based agencies run from variable agency budgets per month depending on scope and geography. Hybrid models combine a lower base retainer with a substantial share commission on purchases. For most US importers, the total cost of agency sourcing should be benchmarked against the cost of running an internal sourcing function with equivalent geographic reach - the agency is almost always more cost-effective at volumes below significant budgetM annually.
+Fees vary based on the engagement model. Commission-only agencies typically charge 3% to 8% of the total purchase value on each order. Retainer-based agencies run from $2,000 to $10,000 per month depending on scope and geography. Hybrid models combine a lower base retainer with a 2% to 4% commission on purchases. For most US importers, the total cost of agency sourcing should be benchmarked against the cost of running an internal sourcing function with equivalent geographic reach - the agency is almost always more cost-effective at volumes below $10M annually.
 
 **What is the difference between a sourcing agent and a sourcing agency?**
 A sourcing agent typically refers to an individual or small operation working on commission - they connect buyers with suppliers and earn a percentage of the transaction. A sourcing agency is a structured organization with multiple team members, defined processes, in-country presence, and a range of services covering supplier qualification, auditing, quality management, and logistics coordination. For anything beyond transactional introductions, a structured agency provides significantly more protection and accountability than an individual agent.

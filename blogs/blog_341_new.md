@@ -22,7 +22,7 @@ This in-depth guide examines **ssg vs ssr b2b website conversion** from a practi
 
 Google's Core Web Vitals are not just SEO metrics: they are direct revenue drivers.
 
-- **Largest Contentful Paint (LCP < 2.5s):** If your primary hero image or headline takes over 2.5 seconds to render, many mobile executive traffic bounces.
+- **Largest Contentful Paint (LCP < 2.5s):** If your primary hero image or headline takes over 2.5 seconds to render, over 50% of mobile executive traffic bounces.
 - **Interaction to Next Paint (INP < 200ms):** If clicking a navigation button or form field causes visual lag, buyers assume your product is equally sluggish.
 - **Cumulative Layout Shift (CLS < 0.1):** Layout shifts cause misclicks on buttons, driving high user frustration.
 
@@ -32,7 +32,7 @@ Google's Core Web Vitals are not just SEO metrics: they are direct revenue drive
 
 Traditional monolithic CMS platforms execute database queries and render HTML on server request, introducing 800ms+ of Time to First Byte (TTFB).
 
-**Next.js App Router** utilizes Static Site Generation (SSG) and Incremental Static Regeneration (ISR) to deliver pre-rendered HTML straight from global Edge locations (Cloudflare / Vercel), supports fast load times under 100ms anywhere in the world.
+**Next.js App Router** utilizes Static Site Generation (SSG) and Incremental Static Regeneration (ISR) to deliver pre-rendered HTML straight from global Edge locations (Cloudflare / Vercel), targeting fast TTFB from global Edge locations.
 
 ---
 
@@ -46,7 +46,7 @@ Addressing ssg vs ssr b2b website conversion directly reduces user drop-off, imp
 
 ---
 
-## Engineering Deep Dive: fast Performance Benchmark
+## Engineering Deep Dive: Sub-400ms Performance Benchmark
 
 We executed a headless migration for an industrial manufacturing exporter whose legacy WordPress site suffered from a 5.1-second mobile LCP and 45 active plugins.
 
@@ -54,7 +54,7 @@ We executed a headless migration for an industrial manufacturing exporter whose 
 - **Framework:** Next.js App Router + React Server Components.
 - **Media Optimization:** Next/Image with automatic WebP/AVIF compression and responsive srcsets.
 - **Deployment:** Vercel Edge Network with stale-while-revalidate caching.
-- **Outcome:** LCP dropped to **340ms**, mobile traffic bounce rate fell substantially, and organic search impressions grew by **substantially within 60 days**.
+- **Outcome:** LCP dropped to **340ms**, mobile traffic bounce rate fell by 64%, and organic search impressions grew by **310% within 60 days**.
 
 ---
 

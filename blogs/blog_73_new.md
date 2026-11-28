@@ -79,7 +79,7 @@ If any link in this chain is broken, the buyer abandons the process.
 
 Traffic acquisition is expensive. Whether you are investing heavily in SEO, GEO (AI Search visibility), or paid channels, pouring that traffic into a website that fails to convert is a catastrophic waste of capital.
 
-If your site currently converts at a low baseline and you optimize it to convert much higher, you have quadrupled your pipeline without spending an additional dollar on traffic acquisition. 
+If your site currently converts at 0.5% and you can optimize it to convert at 2.0%, you have quadrupled your pipeline without spending an additional dollar on traffic acquisition. 
 
 If you are struggling to understand why your international traffic isn't translating into revenue, read our related guide on [Why Your SaaS Website Isn't Converting](/blog/why-saas-website-not-converting) for a deeper look at industry-specific conversion bottlenecks.
 

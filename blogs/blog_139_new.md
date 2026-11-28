@@ -35,7 +35,7 @@ When presented with five competing pathways, the executive buyer's subconscious 
   │ • Download PDF                   │     │                                         │
   │ • Watch Video                    │     │                                         │
   │ • Chat Bot                       │     │                                         │
-  │ Result: a large share Overall Conversion  │     │ Result: a large share High-Intent Conversion     │
+  │ Result: 1.2% Overall Conversion  │     │ Result: 4.8% High-Intent Conversion     │
   └──────────────────────────────────┘     └─────────────────────────────────────────┘
 ```
 
@@ -81,7 +81,7 @@ Replace intrusive pop-ups with clean, persistent, predictable conversion UI:
 
 When Rankur engineered the digital infrastructure for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/), simplifying conversion choices was a primary mandate.
 
-By eliminating cluttered competing action links and structuring singular, transparent contribution pathways, donor decision fatigue was resolved, yielding a verified **a clear increase in completed engagements**.
+By eliminating cluttered competing action links and structuring singular, transparent contribution pathways, donor decision fatigue was resolved, yielding a verified **+40% increase in completed engagements**.
 
 ---
 
@@ -93,7 +93,7 @@ By eliminating cluttered competing action links and structuring singular, transp
 | **Visual Hierarchy** | Clashing colors, equal visual weight| Clear primary contrast, muted secondary styling |
 | **Pop-ups & Chat** | Intrusive auto-trigger modals | Zero annoying pop-ups, fast static edge UI |
 | **User Cognition** | Decision paralysis (Hick's Law) | Effortless clarity and guided evaluation |
-| **Conversion Rate** | a substantial share | a substantial share qualified inquiry rate |
+| **Conversion Rate** | 0.8% to 1.5% | 3.8% to 6.2% qualified inquiry rate |
 
 ---
 

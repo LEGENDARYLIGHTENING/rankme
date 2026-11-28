@@ -22,7 +22,7 @@ However, when executed with surgical precision, a migration is an opportunity to
 
 ## Phase 1: Pre-Migration Auditing and Mapping
 
-A flawless migration is a large share preparation and a large share execution. You must fully map your existing digital footprint before you write a single line of code for the new site.
+A flawless migration is 80% preparation and 20% execution. You must fully map your existing digital footprint before you write a single line of code for the new site.
 
 ### The URL Inventory
 
@@ -82,7 +82,7 @@ For the first 72 hours post-launch, monitor Google Search Console and your serve
 
 Even with a perfect **B2B website migration**, you will experience ranking volatility. 
 
-Google needs time to re-crawl your new architecture, process the 301 redirects, and recalculate your domain authority. It is normal to see traffic dip by 10-a large share for the first two to three weeks. 
+Google needs time to re-crawl your new architecture, process the 301 redirects, and recalculate your domain authority. It is normal to see traffic dip by 10-15% for the first two to three weeks. 
 
 However, if you executed the migration perfectly-and especially if the new site is significantly faster and better structured than the old one-the traffic will rebound and often exceed previous levels by month two. 
 

@@ -19,7 +19,7 @@ They hire a retail web agency that builds an online store resembling a consumer 
 
 For high-ticket B2B industrial commerce, this retail architecture is completely ineffective.
 
-Enterprise procurement directors, mechanical engineers, and corporate buyers do not swipe credit cards for significant budget pneumatic valve manifolds or custom automated assembly stations. 
+Enterprise procurement directors, mechanical engineers, and corporate buyers do not swipe credit cards for $85,000 pneumatic valve manifolds or custom automated assembly stations. 
 
 They do not buy off the shelf. They need to verify dimensional tolerances, analyze CAD models, cross-reference ISO standards, confirm regulatory compliance, and submit custom engineering specifications for a **Request for Quote (RFQ)**.
 
@@ -83,7 +83,7 @@ The table below highlights the crucial differences between consumer eCommerce an
 | **Primary Call to Action** | "Add to Cart" or "Buy Now" | "Request a Fast Engineering Quote (RFQ)" |
 | **Product Specifications** | Casual marketing bullets (Size, Color) | Precise parametric tables (Tolerances, Hardness, PSI) |
 | **Supporting Assets** | Promotional lifestyle imagery | 3D CAD models (STEP/IGES), 2D DXF blueprints, MSDS |
-| **Pricing Display** | Fixed consumer price (significant budget) | Transparent volume brackets or custom engineer-to-order |
+| **Pricing Display** | Fixed consumer price ($49.99) | Transparent volume brackets or custom engineer-to-order |
 | **Search Engine Schema** | Basic Product schema with fixed price | Nested Product and Service schema with technical parameters |
 
 ---

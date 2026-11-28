@@ -46,7 +46,7 @@ Here is the operational checklist for executing a zero-loss technical SEO migrat
 Never launch a website until these five technical invariants pass inspection on your staging environment:
 
 ### 1. The 1-to-1 Redirect Mapping Matrix
-Crawl a large share of your legacy domain using tools like Screaming Frog or Search Console export. Every single legacy URL that has historical organic traffic or external backlinks must map to an exact, logically relevant destination on the new platform.
+Crawl 100% of your legacy domain using tools like Screaming Frog or Search Console export. Every single legacy URL that has historical organic traffic or external backlinks must map to an exact, logically relevant destination on the new platform.
 - **Rule:** Never redirect all legacy URLs to the homepage. Google treats bulk homepage redirects as "Soft 404s," stripping their accumulated link equity.
 
 ### 2. Canonical Tag Reconciliation
@@ -96,7 +96,7 @@ In our production platform engineering for [Wafa Educational & Charitable Trust]
 
 | Milestone | Diagnostic Check | Acceptance Standard |
 | :--- | :--- | :--- |
-| **Pre-Launch** | 1-to-1 301 Redirect Mapping | a large share legacy URLs mapped to relevant pages |
+| **Pre-Launch** | 1-to-1 301 Redirect Mapping | 100% legacy URLs mapped to relevant pages |
 | **Pre-Launch** | Meta Title & Description Audit | Titles <= 60 chars, Descriptions <= 155 chars |
 | **Post-Launch** | Live HTTP Status Codes | 0 404 errors, 0 redirect chains |
 | **Post-Launch** | Core Web Vitals Inspection | CLS 0.00, INP <100ms |

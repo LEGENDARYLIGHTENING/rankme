@@ -15,7 +15,7 @@ DateModified: 2026-11-19
 
 For venture-backed and bootstrapped B2B SaaS companies alike, the customer acquisition playbook of the last decade has completely broken down.
 
-Google Ads cost-per-click rates in competitive SaaS categories regularly exceed significant budget driving Customer Acquisition Costs (CAC) past payback horizons. Review platform bids on Capterra and G2 continue to escalate. Meanwhile, traditional SEO traffic is eroding as Google injects AI Overviews above organic search results. 
+Google Ads cost-per-click rates in competitive SaaS categories regularly exceed $90, driving Customer Acquisition Costs (CAC) past payback horizons. Review platform bids on Capterra and G2 continue to escalate. Meanwhile, traditional SEO traffic is eroding as Google injects AI Overviews above organic search results. 
 
 Simultaneously, enterprise procurement teams are bypassing classic search engines entirely. When a Chief Technology Officer or VP of Finance evaluates new software vendors, they prompt conversational AI engines like Perplexity, ChatGPT, Claude, and Google AI Overviews to compare feature sets, audit SOC 2 compliance, analyze pricing models, and recommend shortlist candidates.
 

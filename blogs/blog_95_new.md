@@ -16,7 +16,7 @@ Many enterprise organizations make the mistake of assuming that search engine op
 
 Six to twelve months later, the results are sobering: organic impressions flatline near zero, target commercial keywords fail to reach page one, and incoming pipeline is completely stagnant.
 
-The fundamental failure point is that modern search algorithms and generative AI answer engines (Google AI Overviews, Perplexity, and ChatGPT Search) no longer rank content based solely on keyword frequency or text length. In high-stakes business-to-business sectors where contracts range from variable agency budgets or more, search algorithms apply an exceptionally rigorous quality threshold known as E-E-A-T: Experience, Expertise, Authoritativeness, and Trustworthiness.
+The fundamental failure point is that modern search algorithms and generative AI answer engines (Google AI Overviews, Perplexity, and ChatGPT Search) no longer rank content based solely on keyword frequency or text length. In high-stakes business-to-business sectors where contracts range from $50,000 to $250,000 or more, search algorithms apply an exceptionally rigorous quality threshold known as E-E-A-T: Experience, Expertise, Authoritativeness, and Trustworthiness.
 
 If your technical articles, solutions pages, and white papers are authored under anonymous bylines like "Marketing Team" or "Rankur Editorial Staff", search algorithms classify the material as low-confidence content and systematically suppress it.
 
@@ -78,7 +78,7 @@ What generic models and low-tier agencies cannot produce is authentic, first-par
   │ "Headless CMS provides fast speeds  │  │ "Across 14 enterprise migrations,   │
   │  and greater scalability for your   │  │  pre-rendering static HTML at the   │
   │  growing enterprise brand."         │  │  edge reduced LCP from 4.2s to 480ms│
-  │                                     │  │  while slashing AWS server costs a large share"│
+  │                                     │  │  while slashing AWS server costs 42%"│
   │ Result: Algorithmic suppression     │  │ Result: High-authority SERP ranking │
   └─────────────────────────────────────┘  └─────────────────────────────────────┘
 ```
@@ -198,7 +198,7 @@ Secure authoritative executive citations and podcast features linking back to na
        │
        ▼
 [Phase 5: server-rendered Performance Verification]
-Migrate commercial pathways to custom Next.js Edge architecture, support fast global render speeds.
+Migrate commercial pathways to custom Next.js Edge architecture, targeting fast global render speeds.
 ```
 
 If your enterprise has built industry-leading capabilities but struggles to command the organic authority and search rankings your solutions deserve, explore our [transparent pricing tiers](/pricing) or schedule an architectural consultation via our [contact portal](/contact). We build custom Next.js, enterprise-grade digital systems designed to turn technical execution into verified commercial revenue.

@@ -24,7 +24,7 @@ In B2B lead generation, traffic volume is a vanity metric. If your site receives
 
 Enterprise decision-makers leave landing pages for three specific reasons:
 1. **Vague Marketing Jargon:** Headlines like *"Transforming digital paradigms"* instead of *"Next.js websites live in 7 days."*
-2. **Mandatory Phone Fields:** Requiring phone numbers on initial forms drops completions by over a large share.
+2. **Mandatory Phone Fields:** Requiring phone numbers on initial forms drops completions by over 32%.
 3. **Hidden Trust Signals:** Placing client logos and security certifications in footers rather than next to submission forms.
 
 ---
@@ -50,7 +50,7 @@ Addressing replace contact form react qualification wizard directly reduces user
 
 ## Engineering Deep Dive: Conversion Rate Architecture
 
-For a B2B cybersecurity client experiencing a high pricing page bounce rate, we audited their user session recordings and found that prospects were abandoning the quote request modal due to slow loading scripts.
+For a B2B cybersecurity client experiencing an 82% pricing page bounce rate, we audited their user session recordings and found that prospects were abandoning the quote request modal due to slow loading scripts.
 
 ### The Conversion Overhaul
 1. **Replaced Iframe Forms with React State:** Built native, pre-rendered React qualification forms loading instantly from the Edge.

@@ -50,7 +50,7 @@ Your hero section has approximately three seconds to convince an executive buyer
 - State the ultimate commercial outcome.
 - Provide a clear, low-friction next step.
 
-Instead of "Leading Software Development," use "Custom React Infrastructure That Reduces Server Costs substantially for SaaS Platforms." The latter targets a specific buyer (SaaS), states an outcome (reduce server costs substantially), and implies a methodology (React Infrastructure).
+Instead of "Leading Software Development," use "Custom React Infrastructure That Reduces Server Costs by 40% for SaaS Platforms." The latter targets a specific buyer (SaaS), states an outcome (reduce server costs by 40%), and implies a methodology (React Infrastructure).
 
 ### 2. The Evidence Ledger (Trust Signals)
 

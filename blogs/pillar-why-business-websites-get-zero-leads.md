@@ -13,7 +13,7 @@ DateModified: 2026-11-19
 
 # Why Most B2B Websites Get Zero Leads (And How to Fix It)
 
-You open Google Analytics. Over the past month, your website welcomed 4,200 unique visitors. Organic search traffic from Google is up a large share, referral links are sending visits from LinkedIn, and your marketing team feels proud of the traffic curve.
+You open Google Analytics. Over the past month, your website welcomed 4,200 unique visitors. Organic search traffic from Google is up 18%, referral links are sending visits from LinkedIn, and your marketing team feels proud of the traffic curve.
 
 Then, you check your CRM or corporate email inbox. 
 
@@ -62,7 +62,7 @@ A senior decision-maker has a burning operational problem. If they cannot determ
 Clear, concrete, and impossible to misunderstand.
 
 ### Leak 2: The "Credibility Void" (Stock Photos and Anonymous Testimonials)
-Enterprise buyers are deeply risk-averse. When an executive awards a variable agency budgets contract, their own professional reputation inside their company is on the line. 
+Enterprise buyers are deeply risk-averse. When an executive awards a $50,000 to $200,000 contract, their own professional reputation inside their company is on the line. 
 
 If your website features:
 * Generic stock photos of smiling models in glass conference rooms
@@ -81,7 +81,7 @@ When a high-intent buyer finally decides they want to get in touch, they click y
 * Estimated Budget, Project Start Date
 * "Tell us about your project in detail..."
 
-Every additional field beyond four drops form completion by a substantial share. When you demand a phone number before demonstrating value, a large share of enterprise buyers abandon the page immediately because they do not want junior sales reps spamming their mobile phone.
+Every additional field beyond four drops form completion by 8% to 14%. When you demand a phone number before demonstrating value, 32% of enterprise buyers abandon the page immediately because they do not want junior sales reps spamming their mobile phone.
 
 **The Fix:** Deploy progressive two-step qualification forms. Ask for Work Email and Domain in Step 1. Use automated backend enrichment to identify company size, revenue, and industry. Keep the human interaction effortless.
 
@@ -107,7 +107,7 @@ The table below contrasts the commercial performance of a traditional brochure w
 | **Proof Elements** | Generic stock graphics, unverified quotes | Verified client case studies, founder portrait, Skillshop links |
 | **Mobile Speed (LCP)** | 4.8 seconds (Sluggish WordPress theme) | 0.9 seconds (Static Next.js Edge delivery) |
 | **Contact Mechanism** | 12-field form requiring phone & budget | 2-step frictionless qualification with instant calendar booking |
-| **Commercial Outcome** | a large share visitor-to-inquiry rate (Dead pipeline) | a large share visitor-to-inquiry rate (Consistent weekly sales calls) |
+| **Commercial Outcome** | 0.2% visitor-to-inquiry rate (Dead pipeline) | 3.8% visitor-to-inquiry rate (Consistent weekly sales calls) |
 
 ---
 

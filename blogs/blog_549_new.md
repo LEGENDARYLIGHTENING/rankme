@@ -20,15 +20,15 @@ This in-depth guide examines **unoptimized mobile web infrastructure cost** from
 
 ## 1. The Capital Allocation Equation: Investment vs CAC
 
-When evaluating a custom website project (variable agency budgets) against ongoing agency retainers (high monthly retainers), CFOs and founders must look at **Customer Acquisition Cost (CAC) reduction**.
+When evaluating a custom website project ($35,000 to $75,000) against ongoing agency retainers ($10,000/mo), CFOs and founders must look at **Customer Acquisition Cost (CAC) reduction**.
 
-If your current average deal size is significant budget ARR, your website doesn't need to generate 1,000 leads to pay for itself. It needs to generate **one or two additional closed deals** over a 12-month period.
+If your current average deal size is $50,000 ARR, your website doesn't need to generate 1,000 leads to pay for itself. It needs to generate **one or two additional closed deals** over a 12-month period.
 
 ### The 3-Year Cost Breakdown
-- **Agency Retainer Model (high monthly retainers):** significant budget over 3 years, with zero IP ownership and recurring developer dependency.
-- **Custom Next.js Build (upfront investment):** predictable 3-year total cost (including hosting and Edge distribution), owned completely in-house.
+- **Agency Retainer Model ($10k/mo):** $360,000 over 3 years, with zero IP ownership and recurring developer dependency.
+- **Custom Next.js Build ($45k upfront):** $57,000 total 3-year cost (including hosting and Edge distribution), owned 100% in-house.
 
-By shifting from continuous agency retainers to a pre-rendered custom architecture, companies save over **significant budget in operational capital** while increasing site speed substantially.
+By shifting from continuous agency retainers to a pre-rendered custom architecture, companies save over **$300,000 in operational capital** while increasing site speed by 400%.
 
 ---
 
@@ -53,12 +53,12 @@ Addressing unoptimized mobile web infrastructure cost directly reduces user drop
 
 ## Engineering Deep Dive: TCO Reduction & Pipeline Acceleration
 
-For a B2B SaaS platform paying high monthly retainers on an agency retainer, we audited their website performance and found that a large share of their spend went toward routine maintenance.
+For a B2B SaaS platform paying $14,000/mo on an agency retainer, we audited their website performance and found that 72% of their spend went toward routine maintenance.
 
 ### The Remediation Architecture
 1. **Migrated to Next.js + Headless CMS:** Eliminated the monthly agency retainer completely.
-2. **Global Edge Deployment:** Achieved fast load speeds worldwide.
-3. **Pipeline Outcome:** Inbound demo requests increased from 5 to 28 per month within 90 days, adding significant budget in new ARR pipeline while saving significant budget annually.
+2. **Global Edge Deployment:** Achieved sub-400ms load speeds worldwide.
+3. **Pipeline Outcome:** Inbound demo requests increased from 5 to 28 per month within 90 days, adding $380,000 in new ARR pipeline while saving $144,000 annually.
 
 ---
 

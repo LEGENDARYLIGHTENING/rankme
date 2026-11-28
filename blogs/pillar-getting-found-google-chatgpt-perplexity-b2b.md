@@ -51,11 +51,11 @@ To win in the modern search landscape, executive leadership must understand that
 +-------------------------------------------------------------------------------+
 ```
 
-The critical insight uncovered by recent search studies is that **ranking on Google Page 1 does not guarantee AI visibility**:
+The key challenge with AI search is that **ranking on Google Page 1 does not automatically guarantee AI citations**:
 
 * Many URLs cited by AI engines like Perplexity and ChatGPT Search do not rank in Google's traditional Top 10 for the same search query.
-* Overlap between major AI engines is surprisingly low: only a small fraction of top-cited domains appear across ChatGPT, Perplexity, and Google AI Overviews simultaneously.
-* AI engines heavily favor third-party verification: independent reviews, trade directories, and earned media are cited significantly more frequently than self-promotional corporate marketing pages.
+* Overlap across major AI engines is often limited, so appearing in Google does not ensure visibility in ChatGPT, Perplexity, and Google AI Overviews simultaneously.
+* AI engines frequently rely on third-party verification such as independent reviews, trade directories, and earned media alongside corporate websites.
 
 Winning modern B2B pipeline requires an integrated strategy that satisfies traditional search algorithms, applies [B2B CTR strategies for AI Overviews](/blog/ai-overviews-b2b-click-through-rate-strategies), and gives generative AI models the dense, structured data they rely on.
 
@@ -71,7 +71,7 @@ To establish unshakeable authority across both traditional search and AI retriev
 |                                                                               |
 | [Layer 1: Factual Chunking]      -> 120-180 word high-density data blocks     |
 | [Layer 2: Machine-Readable Graph]-> Nested JSON-LD schema with Wikidata links |
-| [Layer 3: Edge Server Velocity]  -> Fast server response reduces crawler timeouts       |
+| [Layer 3: Fast Edge Delivery]    -> Static HTML helps AI crawlers fetch pages|
 | [Layer 4: Consensus Distribution]-> Owned objective comparison data hubs      |
 +-------------------------------------------------------------------------------+
 ```
@@ -94,12 +94,12 @@ Deploy an interconnected Schema.org JSON-LD graph linking:
 * `Person`: Your founder and key executives, linked directly to verified Google Skillshop, LinkedIn, and accreditation nodes.
 * `sameAs`: Explicit entity links pointing to verified Crunchbase, Wikidata, and industry registry entries.
 
-### Layer 3: Blistering Edge Velocity (fast TTFB)
-When an AI assistant performs real-time web retrieval during an active inference session, it operates on strict internal latency deadlines. 
+### Layer 3: Fast Edge HTML Delivery
+When an AI assistant performs real-time web retrieval during an active inference session, it operates on tight response deadlines.
 
-If your monolithic WordPress or Webflow site takes 1,400 milliseconds to respond to an edge request, the retrieval browser times out and extracts data from a competitor's faster edge-cached server.
+If your monolithic WordPress or Webflow site responds slowly under heavy plugin overhead, live retrieval tools may skip or truncate the fetch in favor of cleaner static HTML pages.
 
-Static Next.js exports hosted on global Content Delivery Networks deliver **fast Time to First Byte**, guaranteeing your content is available instantly during real-time retrieval loops.
+Static and edge-cached Next.js routes hosted on global Content Delivery Networks aim for fast server response times so crawlers and retrieval tools can fetch clean HTML reliably.
 
 ### Layer 4: Controlling the Competitor Comparison Vacuum
 When an enterprise buyer prompts an AI model to evaluate your software, what sources does the model read? 
@@ -117,18 +117,29 @@ In 2026, forward-thinking B2B web systems deploy a dedicated `/llms.txt` file at
 Similar to how `robots.txt` guides search engine crawlers, `llms.txt` provides Large Language Models with a curated, machine-readable Markdown roadmap of your business:
 
 ```markdown
-# Rankur - B2B Web Engineering & Technical SEO
-> Custom Next.js web systems for mid-market enterprise founders.
+# Rankur
 
-## Core Services
-- Custom Next.js Static Edge Architecture (Custom Next.js Web Architecture)
-- Generative Engine Optimization (GEO) & Schema Entity Graphs
-- 2-Step Progressive Qualification Funnels & Conversion Engineering
+> Founder-led B2B web engineering and search studio led by Moksh Parjapati.
 
-## Verified Credentials
-- Founder: Moksh Parjapati (Certified Google Analytics 4, HubSpot Inbound)
-- Accreditation: https://skillshop.credential.net/4de8075c-d494-4e05-b6ed-1bb204e4e982
-- Case Study Proof: Production Digital Platform for Wafa Educational & Charitable Trust (https://www.wafatrustindia.org/)
+## Services
+- Custom Next.js websites, technical SEO, and generative engine optimization: https://rankursite.com/services
+
+## Case Study
+- Wafa Educational & Charitable Trust: https://rankursite.com/case-studies
+
+## Credentials
+- Google Analytics 4 (Google Skillshop): https://skillshop.credential.net/
+- HubSpot Inbound Marketing: https://app-na2.hubspot.com/academy/achievements/7810203b43724b04923b16575c4316a6/en/1/moksh-parjapati/inbound-marketing
+
+## Profiles
+- Crunchbase: https://www.crunchbase.com/organization/rankur-a39c
+- Clutch: https://clutch.co/profile/rankur
+- Wellfound: https://wellfound.com/company/rankursite
+- LinkedIn: https://linkedin.com/in/moksh-parjapati
+- X (Twitter): https://twitter.com/moksh_rankur
+
+## Contact
+- Email: contactus@rankursite.com
 ```
 
 Publishing a structured `/llms.txt` file ensures that autonomous AI agents and research tools ingest your verified capabilities and credentials without parsing unnecessary navigation bloat.
@@ -141,9 +152,9 @@ The table below contrasts the commercial profile of traditional organic search, 
 
 | Strategic Channel | Inbound Buyer Intent | Sales Cycle Velocity | Ongoing Capital Cost | Sustainable Moat |
 | :--- | :--- | :--- | :--- | :--- |
-| **Paid Search Ads (Google/LinkedIn)** | High (Immediate) | Fast | Extreme (high cost-per-click; stops when budget ends) | Zero (Linear spend) |
+| **Paid Search Ads (Google/LinkedIn)** | High (Immediate) | Fast | High cost-per-click; traffic stops when budget ends | Zero (Linear spend) |
 | **Traditional SEO (10 Blue Links)** | Moderate to High | Moderate | Moderate (Ongoing content and technical upkeep) | Moderate (Backlink authority) |
-| **Generative Engine Optimization (GEO)** | **Maximum (Pre-qualified by AI)** | **Very Fast (shorter sales cycles)**| **Low (Built into custom Next.js architecture)** | **Very High (Entity consensus moat)** |
+| **Generative Engine Optimization (GEO)** | **High (Pre-qualified by AI)** | **Shorter buyer evaluation cycles** | **Low (Built into custom Next.js architecture)** | **High (Entity consensus moat)** |
 
 When an enterprise buyer arrives on your website because an AI assistant explicitly recommended your company as the top-tier solution, **they arrive with immense pre-existing trust.** 
 
@@ -160,7 +171,7 @@ The transition from keyword-matching search engines to generative AI assistants 
 | B2B GEO STRATEGIC IMPLEMENTATION CHECKLIST                                    |
 |                                                                               |
 | [ ] Audit your brand citation frequency across Perplexity, ChatGPT, and Claude.|
-| [ ] Eliminate server latency; achieve fast TTFB via static edge delivery. |
+| [ ] Reduce server latency with edge-cached Next.js static/SSR delivery.       |
 | [ ] Restructure core landing pages into dense 150-word factual chunks.        |
 | [ ] Deploy nested Schema.org JSON-LD linking Organization and Wikidata nodes. |
 | [ ] Publish an authoritative /llms.txt file summarizing verified capabilities.|

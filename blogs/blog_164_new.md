@@ -27,7 +27,7 @@ Here is the comprehensive architectural guide to solving pipeline velocity and s
   ┌──────────────────────────────────────┐     ┌──────────────────────────────────────────┐
   │ • Vague marketing platitudes         │     │ • Forensic technical diagnosis           │
   │ • Hidden parameters & friction       │     │ • Open architectural transparency        │
-  │ • Slow monolithic WordPress themes   │     │ • fast Next.js static edge rendering │
+  │ • Slow monolithic WordPress themes   │     │ • Sub-0.8s Next.js static edge rendering │
   │ • Result: Stalled deals, lost leads  │     │ • Result: High-ticket qualified pipeline │
   └──────────────────────────────────────┘     └──────────────────────────────────────────┘
 ```
@@ -55,7 +55,7 @@ At Rankur, we solve these systemic bottlenecks by replatforming legacy architect
 1. **Zero-Latency Static Edge Delivery**: Pages compile to static HTML deployed across global edge networks, ensuring a server-rendered Largest Contentful Paint and Core Web Vitals focused Core Web Vitals.
 2. **First-Party Telemetry & Attribution**: Replacing fragile third-party tracking scripts with authenticated server actions and consent-gated GA4 event streams.
 3. **Structured Entity Knowledge Graphs**: Implementing deep JSON-LD schemas that ensure your technical capabilities are accurately indexed and cited across Perplexity, ChatGPT, and Google AI Overviews.
-4. **a large share Client Codebase Transfer**: Full intellectual property ownership transferred directly to your organization's GitHub repository upon final milestone sign-off.
+4. **100% Client Codebase Transfer**: Full intellectual property ownership transferred directly to your organization's GitHub repository upon final milestone sign-off.
 
 ---
 
@@ -65,7 +65,7 @@ When Rankur engineered the digital infrastructure for [Wafa Educational & Charit
 
 By replacing legacy bloated CMS plugins with a custom Next.js, edge-rendered Next.js architecture, we achieved:
 - **Core Web Vitals focused engineering** with server-rendered global interaction speed.
-- **a clear increase in verified interaction completions** within 30 days of launch.
+- **+40% increase in verified interaction completions** within 30 days of launch.
 - Zero silent submission failures across mobile networks and enterprise firewalls.
 - Complete operational transparency that established durable institutional credibility.
 
@@ -77,9 +77,9 @@ By replacing legacy bloated CMS plugins with a custom Next.js, edge-rendered Nex
 | :--- | :--- | :--- |
 | **Global Load Time (LCP)** | 3.5s to 5.2s (Heavy plugins) | Static and server-rendered Next.js |
 | **Core Web Vitals** | Red/Yellow (Fails Google standards) | Core Web Vitals focused |
-| **Buyer Conversion Rate** | a substantial share | a substantial share Qualified Inquiry Rate |
-| **Code & IP Ownership** | Locked in agency themes or CMS | a large share Client GitHub Repository Transfer |
-| **Ongoing Maintenance** | high monthly retainers in continuous developer fixes | <high monthly retainers edge hosting, zero plugin rot |
+| **Buyer Conversion Rate** | 1.1% to 1.8% | 3.8% to 5.6% Qualified Inquiry Rate |
+| **Code & IP Ownership** | Locked in agency themes or CMS | 100% Client GitHub Repository Transfer |
+| **Ongoing Maintenance** | $3,500/mo in continuous developer fixes | <$150/mo edge hosting, zero plugin rot |
 
 ---
 

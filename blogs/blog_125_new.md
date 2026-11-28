@@ -20,7 +20,7 @@ Yet, across business-to-business enterprise websites, the pricing page routinely
 
 Visitors land, scroll for twenty to thirty seconds, and abruptly exit the browser tab without clicking a consultation link, requesting a proposal, or initiating contact with your sales team.
 
-When an executive prospect considering a variable agency budgets commercial engagement leaves your pricing page, they rarely return. They interpret the friction, ambiguity, or opacity they encountered as a reflection of how difficult it will be to do business with your company post-contract.
+When an executive prospect considering a $35,000 to $150,000 commercial engagement leaves your pricing page, they rarely return. They interpret the friction, ambiguity, or opacity they encountered as a reflection of how difficult it will be to do business with your company post-contract.
 
 Here is the strategic breakdown of why high-intent enterprise buyers bounce from B2B pricing pages, and how revenue leaders can restructure pricing user experiences to accelerate sales-qualified discovery calls.
 
@@ -52,7 +52,7 @@ When these questions remain unanswered, the buyer exits and visits a competitor 
   ├─────────────────────────────────────────────────────────────────┤
   │  7 Bounce: No Verifiable Social Proof, Case Studies, or SLAs    │
   └─────────────────────────────────────────────────────────────────┘
-    Only 15 Inquiries Initiated (a large share Commercial Demand Lost)
+    Only 15 Inquiries Initiated (85% Commercial Demand Lost)
 ```
 
 Review our analysis on [why "Contact Sales for Pricing" destroys B2B conversions](/blog/why-contact-sales-for-pricing-destroys-conversions-336) for a deep dive into buyer psychology.
@@ -66,14 +66,14 @@ The single most destructive conversion mistake on enterprise websites is hiding 
 
 While custom scoping is genuinely required for complex software integrations or bespoke digital engineering, providing **zero financial guidance** creates an immediate barrier for two distinct buyer profiles:
 
-1. **The Mid-Market Buyer (significant budgetM to significant budgetM ARR):** This buyer has a legitimate budget of variable agency budgets When they see zero pricing guidance, they assume your services are reserved for Fortune 500 conglomerates charging significant budget or more. They bounce out of fear of wasting their time in an unaffordable sales cycle.
-2. **The Enterprise Buyer (significant budgetM+ ARR):** This executive has a substantial budget and needs enterprise-grade security, dedicated infrastructure, and rigorous SLAs. When they encounter an uninformative form, they suspect your firm is an inexperienced boutique that lacks standardized commercial frameworks.
+1. **The Mid-Market Buyer ($5M to $25M ARR):** This buyer has a legitimate budget of $35,000 to $75,000. When they see zero pricing guidance, they assume your services are reserved for Fortune 500 conglomerates charging $250,000 or more. They bounce out of fear of wasting their time in an unaffordable sales cycle.
+2. **The Enterprise Buyer ($50M+ ARR):** This executive has a substantial budget and needs enterprise-grade security, dedicated infrastructure, and rigorous SLAs. When they encounter an uninformative form, they suspect your firm is an inexperienced boutique that lacks standardized commercial frameworks.
 
 ### The Solution: Baseline Starting Thresholds and Scoping Anchors
 Even if every contract requires tailored scoping, provide clear baseline starting thresholds for distinct corporate tiers:
-- **Foundational Architecture:** *Starting at significant budget* (Ideal for high-growth firms modernizing their primary digital asset).
-- **Enterprise Scale Platform:** *Starting at significant budget* (Comprehensive multi-region architecture with custom headless integrations).
-- **Bespoke Enterprise Systems:** *Custom Scoped from significant budget* (Dedicated compliance, custom SLAs, and continuous optimization).
+- **Foundational Architecture:** *Starting at $35,000* (Ideal for high-growth firms modernizing their primary digital asset).
+- **Enterprise Scale Platform:** *Starting at $65,000* (Comprehensive multi-region architecture with custom headless integrations).
+- **Bespoke Enterprise Systems:** *Custom Scoped from $100,000+* (Dedicated compliance, custom SLAs, and continuous optimization).
 
 Providing clear financial anchors builds immediate trust, establishes commercial seriousness, and filters out non-funded inquiries before they reach your executive calendar.
 
@@ -90,7 +90,7 @@ This technical itemization forces the executive buyer to mentally calculate whet
 
 | Feature-Focused Pricing | Outcome-Anchored Enterprise Pricing | Commercial Impact |
 | :--- | :--- | :--- |
-| *"Includes Next.js Edge deployment"* | *"fast global render speed engineered to double inbound pipeline velocity"* | Connects tech to revenue |
+| *"Includes Next.js Edge deployment"* | *"Sub-500ms global render speed engineered to double inbound pipeline velocity"* | Connects tech to revenue |
 | *"Up to 25 custom landing pages"* | *"Complete product category architecture built to capture high-intent commercial RFQs"* | Proves organic market expansion |
 | *"Basic security protocol support"* | *"SOC 2 Type II and GDPR compliant architecture with automated vulnerability testing"* | Removes procurement friction |
 | *"Standard email support"* | *"Dedicated senior solutions architect with guaranteed 4-hour SLA response"* | Mitigates implementation risk |
@@ -110,7 +110,7 @@ Enterprise procurement departments and corporate legal teams are deeply suspicio
       
     Ambiguous Scope (High Bounce Rate)      Transparent Deliverables (High Close Rate)
   ┌─────────────────────────────────────┐  ┌─────────────────────────────────────┐
-  │ "Custom Web Application"            │  │ "a large share Fixed-Scope Architecture"     │
+  │ "Custom Web Application"            │  │ "100% Fixed-Scope Architecture"     │
   │ • Design & Development Included     │  │ • Pre-rendered Next.js Edge Build   │
   │ • Additional features quoted later  │  │ • Complete Content Migration        │
   │ • Hosting and maintenance extra     │  │ • Enterprise Structured Schema      │
@@ -135,7 +135,7 @@ When an executive views your pricing page, their stress levels reach the highest
 If your pricing page strips away client testimonials, enterprise case studies, and performance guarantees, the buyer is left staring at cold numbers in an informational vacuum.
 
 ### High-Impact Placement of Trust Signals
-- **Audited Client Metrics:** Place real-world performance metrics directly beneath each pricing tier (e.g., *"Helped enterprise client increase sales-qualified inbound inquiries substantially in 90 days"*).
+- **Audited Client Metrics:** Place real-world performance metrics directly beneath each pricing tier (e.g., *"Helped enterprise client increase sales-qualified inbound inquiries by 142% in 90 days"*).
 - **Verifiable Executive Quotes:** Feature named executive testimonials complete with company names, industry titles, and verified LinkedIn credentials.
 - **Contractual Risk Reversal:** Offer clear performance commitments, such as server-rendered Core Web Vitals guarantees or milestone-based delivery schedules.
 

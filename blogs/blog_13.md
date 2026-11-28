@@ -102,7 +102,7 @@ One of the most frequent reasons B2B companies fail to earn AI citations is nami
 
 Consider a mid-market industrial provider that markets itself simply as "Apex Solutions." When an enterprise buyer asks Perplexity to evaluate suppliers, the AI encounters hundreds of companies named "Apex Solutions" across insurance, janitorial services, software consulting, and logistics. 
 
-Because the AI's core directive is to minimize hallucination risk, it refuses to recommend an entity it cannot disambiguate with near-a large share mathematical certainty. The query defaults to a competitor whose corporate entity is clearly defined, uniquely branded, and structured with distinct semantic identifiers.
+Because the AI's core directive is to minimize hallucination risk, it refuses to recommend an entity it cannot disambiguate with near-100% mathematical certainty. The query defaults to a competitor whose corporate entity is clearly defined, uniquely branded, and structured with distinct semantic identifiers.
 
 To protect your pipeline, your digital infrastructure must eliminate every trace of semantic ambiguity:
 - Use consistent corporate naming across every digital touchpoint, avoiding informal abbreviations in formal documentation.
