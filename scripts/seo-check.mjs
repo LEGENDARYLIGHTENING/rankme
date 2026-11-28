@@ -655,7 +655,11 @@ async function runPostbuildChecks() {
     if (/<p>\s*\|[^<]*\|[^<]*<\/p>/i.test(html)) {
       fail(`[Phase9] Built HTML contains raw-pipe markdown table row: ${rel}`);
     }
-    const htmlWithoutCode = html.replace(/<pre[\s\S]*?<\/pre>/gi, '').replace(/<code[\s\S]*?<\/code>/gi, '');
+    const htmlWithoutCode = html
+      .replace(/<script[\s\S]*?<\/script>/gi, '')
+      .replace(/<style[\s\S]*?<\/style>/gi, '')
+      .replace(/<pre[\s\S]*?<\/pre>/gi, '')
+      .replace(/<code[\s\S]*?<\/code>/gi, '');
     if (/\$\$/.test(htmlWithoutCode)) {
       fail(`[Hotfix] Built HTML contains unrendered LaTeX "$$" block: ${rel}`);
     }
