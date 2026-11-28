@@ -157,7 +157,7 @@ To ensure your engineering team has implemented a resilient foundation for gener
 +----+------------------------------+---------------------------------------------------------------+
 | #  | Technical Checkpoint         | Engineering Standard                                          |
 +----+------------------------------+---------------------------------------------------------------+
-| 1  | Rendering Architecture       | a significant share of factual specifications pre-rendered in server HTML.   |
+| 1  | Rendering Architecture       | a large share of factual specifications pre-rendered in server HTML.   |
 | 2  | Edge Delivery Speed          | LCP under 1.0s and TTFB under 200ms globally on edge networks.|
 | 3  | Integrated Schema Graph      | Multi-tier JSON-LD connecting Organization, Person, & Services|
 | 4  | AI Bot Firewall Status       | Explicit allowance for GPTBot, PerplexityBot, and ClaudeBot.  |

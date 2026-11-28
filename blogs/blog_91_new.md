@@ -38,14 +38,14 @@ To construct a high-converting search engine strategy, leadership must understan
 | Informational "Vanity" Queries (Low Commercial Value)       |
 | "What is enterprise database migration?" (12,000 searches/mo)
 | -> Audience: Students, junior researchers, competitors      |
-| -> Answered in SERP by AI Overviews -> a significant share Lead Conversion|
+| -> Answered in SERP by AI Overviews -> a large share Lead Conversion|
 +-------------------------------------------------------------+
                               VS
 +-------------------------------------------------------------+
 | High-Intent Commercial Queries (High Commercial Value)       |
 | "Enterprise Next.js migration cost benchmarks" (180 searches)
 | -> Audience: CTO, VP Engineering with active funded budget  |
-| -> Demands deep technical due diligence -> a significant share SQL Conversion|
+| -> Demands deep technical due diligence -> a large share SQL Conversion|
 +-------------------------------------------------------------+
 ```
 

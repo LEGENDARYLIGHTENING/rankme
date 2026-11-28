@@ -33,7 +33,7 @@ When a consumer e-commerce website suffers from technical SEO defects, it might 
       
     Technical Architectural Defects          Commercial Pipeline Impact
   ┌─────────────────────────────────────┐  ┌─────────────────────────────────────┐
-  │ 3.8s Server TTFB & Script Bloat     │  │ a significant share Bounce Rate on core RFQ pages   │
+  │ 3.8s Server TTFB & Script Bloat     │  │ a large share Bounce Rate on core RFQ pages   │
   │ Unindexed International Silos       │  │ Zero organic pipeline across the UK │
   │ Broken Reciprocal Hreflang Tags     │  │ Cross-border buyers cannot discover │
   │ Missing Nested Schema Graph         │  │ 0 Citations in AI search engines    │
@@ -84,7 +84,7 @@ When search engine crawl bots encounter massive index bloat:
 ### The Index Pruning Checklist
 - **Audit All Indexed URLs:** Identify pages with fewer than 10 annual visits and zero inbound backlink equity.
 - **Surgical Noindex Implementation:** Apply `<meta name="robots" content="noindex, follow">` to paginated archives (`/blog/page/2`), internal search result pages, and low-utility duplicate clones. This preserves internal link flow while eliminating index bloat.
-- **Clean Sitemaps:** Sitemaps must contain a significant share canonical, indexable, 200-OK status URLs. Never include redirected URLs, 404 pages, or noindexed URLs in your XML sitemaps.
+- **Clean Sitemaps:** Sitemaps must contain only canonical, indexable, 200-OK status URLs. Never include redirected URLs, 404 pages, or noindexed URLs in your XML sitemaps.
 - **Robots.txt Security Governance:** Disallow private administrative directories (`/dashboard/`, `/api/`, `/settings/`), while explicitly permitting major search bots and verified AI retrieval agents (`GPTBot`, `PerplexityBot`, `Claude-Web`).
 
 Read our masterclass on [7 technical SEO mistakes that kill B2B lead quality](/blog/seo-mistakes-kill-b2b-lead-quality).
@@ -179,7 +179,7 @@ Verify fast global TTFB and fast LCP. Eliminate render-blocking third-party trac
        │
        ▼
 [Phase 2: Index Bloat Pruning & Robots Verification]
-Apply noindex, follow to paginated archives and programmatic duplicates. Reconcile sitemaps to a significant share 200-OK URLs.
+Apply noindex, follow to paginated archives and programmatic duplicates. Reconcile sitemaps to a large share 200-OK URLs.
        │
        ▼
 [Phase 3: Hierarchical Schema.org Injection]

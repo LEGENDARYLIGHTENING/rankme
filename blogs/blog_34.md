@@ -31,18 +31,18 @@ Prior to the architectural overhaul, the organization was experiencing the class
       
     18,500 Monthly Organic Visitors (Inflated by broad definitions)
   ┌─────────────────────────────────────────────────────────────────┐
-  │ a significant share Bounce Rate on core industrial and capability pages         │
+  │ a large share Bounce Rate on core industrial and capability pages         │
   ├─────────────────────────────────────────────────────────────────┤
   │ 120 Monthly Contact Submissions (Overwhelmingly unqualified)    │
   ├─────────────────────────────────────────────────────────────────┤
-  │ a significant share of inquiries: Students, overseas vendors, and zero-budget   │
+  │ a large share of inquiries: Students, overseas vendors, and zero-budget   │
   │     tire-kickers seeking retail pricing                         │
   └─────────────────────────────────────────────────────────────────┘
     Only 2 Sales-Qualified Meetings Booked per Month (significant budget Closed-Won)
 ```
 
 ### The 3 Core Architectural Bottlenecks
-1. **Vanity Search Targeting:** The marketing team was chasing educational keywords like *"what is precision CNC machining"* and *"history of automated cloud infrastructure"*. While these search queries generated thousands of monthly impressions, a significant share of visitors were researchers with zero purchasing authority.
+1. **Vanity Search Targeting:** The marketing team was chasing educational keywords like *"what is precision CNC machining"* and *"history of automated cloud infrastructure"*. While these search queries generated thousands of monthly impressions, a large share of visitors were researchers with zero purchasing authority.
 2. **Monolithic CMS Latency:** The corporate website was built on an unoptimized WordPress theme burdened with 42 plugins. Mobile load times averaged 4.6 seconds, triggering immediate abandonment by enterprise buyers researching on handheld devices.
 3. **Absence of Technical Qualification:** The contact form consisted of three generic fields (*Name, Email, Message*). This lack of friction attracted automated spam and non-funded inquiries while repelling serious enterprise buyers who sought clear scoping frameworks.
 
@@ -111,14 +111,14 @@ Following 90 days of continuous operation on the new digital architecture, the e
 
 | Performance Metric | Legacy Architecture | Modern Next.js Architecture | Commercial Impact |
 | :--- | :--- | :--- | :--- |
-| **Page Render Speed (LCP)** | 4.6 seconds | 0.48 seconds | a significant share faster page loading |
-| **Gross Monthly Visits** | 18,500 (Tourist heavy) | 9,400 (High-intent focused) | a significant share reduction in vanity noise |
-| **Inbound Monthly Inquiries**| 120 (Unqualified) | 58 (Pre-qualified RFQs) | a significant share reduction in sales junk |
+| **Page Render Speed (LCP)** | 4.6 seconds | 0.48 seconds | significantly faster page loading |
+| **Gross Monthly Visits** | 18,500 (Tourist heavy) | 9,400 (High-intent focused) | a large share reduction in vanity noise |
+| **Inbound Monthly Inquiries**| 120 (Unqualified) | 58 (Pre-qualified RFQs) | a large share reduction in sales junk |
 | **Sales Qualified Meetings** | 2 meetings / month | **24 meetings / month** | **12x increase in pipeline velocity** |
 | **Average Contract Value** | significant budget | **significant budget** | Focus on enterprise procurement |
 | **Closed-Won Pipeline (90d)**| significant budget | **significant budget** | **17x increase in closed revenue** |
 
-By intentionally filtering out vanity traffic and focusing a significant share of the digital architecture on the requirements of serious procurement teams, the enterprise reduced SDR time wastage while closing multi-year contracts at record velocity.
+By intentionally filtering out vanity traffic and focusing a large share of the digital architecture on the requirements of serious procurement teams, the enterprise reduced SDR time wastage while closing multi-year contracts at record velocity.
 
 Review our interactive [B2B website ROI calculator framework](/blog/b2b-website-roi-calculator-framework) to model your organization's specific customer acquisition costs and payback periods.
 

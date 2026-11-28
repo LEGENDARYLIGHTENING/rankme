@@ -168,7 +168,7 @@ To evaluate whether your organization has successfully integrated GEO across its
 | #  | Operational Checkpoint       | Executive Integration Standard                                |
 +----+------------------------------+---------------------------------------------------------------+
 | 1  | Machine-Readable Messaging   | Core value propositions structured in concise factual units.  |
-| 2  | Infrastructure Reliability   | server-rendered Edge SSR with a significant share valid nested JSON-LD schemas.   |
+| 2  | Infrastructure Reliability   | server-rendered Edge SSR with a large share valid nested JSON-LD schemas.   |
 | 3  | Commercial Transparency      | Un-gated pricing tiers, implementation ranges, and ROI tools. |
 | 4  | RevOps Citation Attribution  | CRM tracking isolating AI referral opportunities and pipeline.|
 | 5  | Sales Enablement Alignment   | Sales reps equipped with third-party generative validation.   |

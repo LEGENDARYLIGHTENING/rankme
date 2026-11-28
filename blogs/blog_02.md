@@ -101,7 +101,7 @@ When interviewing prospective SEO consultants or agencies, ask these five diagno
 
 ## 4. How to Structure the Engagement: Milestone Governance vs. Retainers
 
-Traditional agencies prefer open-ended monthly retainers (variable agency budgets/month) with 12-month lock-in contracts. This creates misaligned incentives: the agency collects predictable revenue while your company shoulders all the execution risk.
+Traditional agencies prefer open-ended monthly retainers (high monthly retainers) with 12-month lock-in contracts. This creates misaligned incentives: the agency collects predictable revenue while your company shoulders all the execution risk.
 
 Instead, insist on a **Two-Phase Milestone Framework**:
 

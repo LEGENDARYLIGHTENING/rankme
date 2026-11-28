@@ -20,7 +20,7 @@ An enterprise engagement valued between significant budget and significant budge
 
 Over the course of a multi-month procurement journey, members of the buying committee will execute dozens of discrete, highly specific searches. They transition from identifying acute operational bottlenecks to evaluating alternative technical methodologies, dissecting vendor risk profiles, and analyzing total cost of ownership.
 
-If your SEO strategy targets only bottom-of-the-funnel vendor search queries (*"best Next.js agency"*), you miss a significant share of the research journey. By the time the prospect searches for specific vendors, the RFP criteria have already been framed by competitors who guided their thinking early in the evaluation cycle.
+If your SEO strategy targets only bottom-of-the-funnel vendor search queries (*"best Next.js agency"*), you miss a large share of the research journey. By the time the prospect searches for specific vendors, the RFP criteria have already been framed by competitors who guided their thinking early in the evaluation cycle.
 
 Here is the architectural framework for conducting enterprise keyword research mapped specifically to long, multi-stakeholder B2B sales cycles.
 
@@ -70,7 +70,7 @@ At the onset of a long sales cycle, enterprise prospects do not know your compan
 - **Authoritative Diagnostic Assets:** Answer these queries with deep, technical diagnostic guides that provide self-auditing frameworks. 
 - **Non-Commercial Gateways:** Do not push an aggressive sales pitch in Stage 1 content. Validate their pain, explain the underlying technical mechanics, and establish your firm as an intellectual authority.
 
-Explore our diagnostic teardown on [why a significant share of booked B2B demo requests ghost you](/blog/b2b-demo-requests-fail-attended-meetings-599).
+Explore our diagnostic teardown on [why a large share of booked B2B demo requests ghost you](/blog/b2b-demo-requests-fail-attended-meetings-599).
 
 ---
 

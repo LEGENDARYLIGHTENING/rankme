@@ -35,7 +35,7 @@ When presented with five competing pathways, the executive buyer's subconscious 
   │ • Download PDF                   │     │                                         │
   │ • Watch Video                    │     │                                         │
   │ • Chat Bot                       │     │                                         │
-  │ Result: a significant share Overall Conversion  │     │ Result: a significant share High-Intent Conversion     │
+  │ Result: a large share Overall Conversion  │     │ Result: a large share High-Intent Conversion     │
   └──────────────────────────────────┘     └─────────────────────────────────────────┘
 ```
 
@@ -81,7 +81,7 @@ Replace intrusive pop-ups with clean, persistent, predictable conversion UI:
 
 When Rankur engineered the digital infrastructure for [Wafa Educational & Charitable Trust](https://www.wafatrustindia.org/), simplifying conversion choices was a primary mandate.
 
-By eliminating cluttered competing action links and structuring singular, transparent contribution pathways, donor decision fatigue was resolved, yielding a verified **+a significant share increase in completed engagements**.
+By eliminating cluttered competing action links and structuring singular, transparent contribution pathways, donor decision fatigue was resolved, yielding a verified **a clear increase in completed engagements**.
 
 ---
 

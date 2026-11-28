@@ -103,12 +103,12 @@ $$\text{Break-Even Leads Needed} = \frac{\text{Total Website Investment}}{\text{
 ### Real-World Case Scenario:
 * **Consultancy Website Investment:** significant budget (one-time milestone build)
 * **Average B2B Contract Value (ACV):** significant budget (Gross Margin: significant budget)
-* **Sales Opportunity Close Rate:** a significant share
-* **Value per Sales Qualified Lead (SQL):** significant budget (significant budget × a significant share)
+* **Sales Opportunity Close Rate:** a large share
+* **Value per Sales Qualified Lead (SQL):** significant budget (significant budget × a large share)
 
 $$\text{Break-Even Threshold} = \frac{\significant budget}{\significant budget} = 6 \text{ Qualified Inquiries}$$
 
-In this scenario, your new high-performance website only needs to generate **six additional qualified inquiries over its entire 3-year lifespan** to achieve a significant share break-even return on capital. 
+In this scenario, your new high-performance website only needs to generate **six additional qualified inquiries over its entire 3-year lifespan** to achieve a large share break-even return on capital. 
 
 Every single inquiry generated after lead number six is pure profit. If the new platform generates just two extra qualified inquiries per month, it produces an additional significant budget in net profit annually.
 

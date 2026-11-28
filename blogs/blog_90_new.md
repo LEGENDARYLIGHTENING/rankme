@@ -37,14 +37,14 @@ To understand why traditional web architecture breaks at international scale, le
 | Buyer in London Requests Page -> Request Crosses Atlantic    |
 | -> Dynamic PHP/MySQL Queries Server in US-East (120ms roundtrip)
 | -> Server Executes Code -> Page Rendered -> Sent Back to UK  |
-| Result: TTFB: 1.8s | LCP: 4.2s | International Bounce: a significant share  |
+| Result: TTFB: 1.8s | LCP: 4.2s | International Bounce: a large share  |
 +-------------------------------------------------------------+
                               VS
 +-------------------------------------------------------------+
 | Distributed Edge Architecture (Modern Global Standard)       |
 | Buyer in London Requests Page -> Handled by London Edge Node |
 | -> Static HTML & Assets Delivered from Edge Memory (<20ms)   |
-| Result: TTFB: <80ms | LCP: 720ms | International Bounce: a significant share|
+| Result: TTFB: <80ms | LCP: 720ms | International Bounce: a large share|
 +-------------------------------------------------------------+
 ```
 
@@ -165,7 +165,7 @@ To scale your B2B digital infrastructure internationally without performance los
 
 ### Strategic Milestones for Leadership
 1. **Test International Loading Speeds:** Run latency benchmarks from London, Frankfurt, and Singapore using WebPageTest. If TTFB exceeds 300ms or LCP exceeds 1.5 seconds, your infrastructure is causing international buyer bounce rates.
-2. **Audit Cache-Hit Ratios:** Ensure your global CDN achieves a cache-hit ratio exceeding a significant share for static assets, minimizing strain on origin servers.
+2. **Audit Cache-Hit Ratios:** Ensure your global CDN achieves a cache-hit ratio exceeding a large share for static assets, minimizing strain on origin servers.
 3. **Upgrade to Custom Server-Rendered Infrastructure:** Modernize your digital platform with high-performance frameworks like Next.js, eliminating legacy monolithic server bottlenecks permanently.
 
 To review performance benchmarks for modern B2B websites, explore our masterclass on [Fast-Loading B2B Websites: Performance Benchmarks for 2026](/blog/fast-loading-b2b-websites-performance-benchmarks).

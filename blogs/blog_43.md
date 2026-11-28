@@ -97,8 +97,8 @@ To a senior engineering leader or Chief Financial Officer, these words carry zer
 | Ambiguous Marketing Claim | Verified Technical Telemetry | Procurement Impact |
 | :--- | :--- | :--- |
 | *"The site loaded significantly faster"* | *"Largest Contentful Paint reduced from 4.8s to 420ms globally across Edge nodes"* | Passes Core Web Vitals benchmark |
-| *"Inbound leads increased substantially"* | *"Sales Qualified Meetings increased from 4/mo to 28/mo (+a significant share) at significant budget ACV"* | Justifies significant budget project budget |
-| *"Improved database efficiency"* | *"Eliminated a significant share of redundant cold-start database queries via serverless edge caching"* | Proves senior architectural competence |
+| *"Inbound leads increased substantially"* | *"Sales Qualified Meetings increased from 4/mo to 28/mo (+a large share) at significant budget ACV"* | Justifies significant budget project budget |
+| *"Improved database efficiency"* | *"Eliminated a large share of redundant cold-start database queries via serverless edge caching"* | Proves senior architectural competence |
 | *"High customer satisfaction"* | *"Zero Sev-1 security incidents over 24 consecutive months of production operation"* | Mitigates enterprise compliance risk |
 
 Hard telemetry transforms marketing claims into undeniable proof points that can be presented directly to an executive board.
@@ -160,7 +160,7 @@ A brilliant case study buried on an unvisited sub-page provides zero commercial 
     1. Service & Solutions Pages
   ┌─────────────────────────────────────────────────────────────────┐
   │ Embed 2-sentence micro-proof cards alongside technical specs    │
-  │ Example: "See how we reduced LCP by a significant share for a B2B firm"       │
+  │ Example: "See how we reduced LCP substantially for a B2B firm"       │
   └───────────────────────────────┬─────────────────────────────────┘
                                   │ Direct modal / slide-over link
                                   ▼
@@ -192,7 +192,7 @@ Interview delivery leads and client stakeholders to gather hard before-and-after
        │
        ▼
 [Phase 2: Bottleneck-First Drafting]
-Draft the narrative focusing a significant share on the operational crisis and technical friction, a significant share on architecture, and a significant share on audited outcomes.
+Draft the narrative focusing a large share on the operational crisis and technical friction, a large share on architecture, and a large share on audited outcomes.
        │
        ▼
 [Phase 3: Machine-Readable Schema Injection]

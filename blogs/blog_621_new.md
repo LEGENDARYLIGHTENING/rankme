@@ -22,7 +22,7 @@ This in-depth guide examines **b2b demo request show rate optimization** from a 
 
 In high-margin B2B sales, visitor drop-off occurs when contact forms demand too much effort before establishing trust.
 
-- Mandatory phone fields drop form submissions by a significant share.
+- Mandatory phone fields drop form submissions substantially.
 - Requiring detailed budget disclosures before explaining value creates immediate hesitation.
 - Placing trust signals in footers rather than adjacent to submit buttons reduces form completion rates.
 
@@ -49,12 +49,12 @@ Addressing b2b demo request show rate optimization directly reduces user drop-of
 
 ## Engineering Deep Dive: CRO Overhaul & Demo Acceleration
 
-For a B2B enterprise software vendor with a significant share contact form bounce rate, we replaced their legacy static HTML form with a dynamic React qualification wizard.
+For a B2B enterprise software vendor with a large share contact form bounce rate, we replaced their legacy static HTML form with a dynamic React qualification wizard.
 
 ### Technical Implementation:
 - Native React state management loading instantly from the Edge.
 - Real-time value sliders and ROI metrics embedded within the form flow.
-- **Results:** Form bounce rates dropped to a significant share, and qualified inbound inquiries jumped **a significant share within 30 days**.
+- **Results:** Form bounce rates dropped to a large share, and qualified inbound inquiries jumped **substantially within 30 days**.
 
 ---
 

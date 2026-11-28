@@ -70,7 +70,7 @@ To evaluate your Generative Engine Optimization performance scientifically, exec
 
 | Audit Dimension | Evaluation Question | Scoring Scale (1 to 5) | Ideal Operational Benchmark |
 | :--- | :--- | :---: | :--- |
-| **Citation Presence** | Is your brand recommended in category shortlist prompts? | 1 (Absent) to 5 (Primary Citation) | Recommended in at least a significant share of category prompts |
+| **Citation Presence** | Is your brand recommended in category shortlist prompts? | 1 (Absent) to 5 (Primary Citation) | Recommended in at least a large share of category prompts |
 | **Positioning Accuracy** | Does the AI accurately describe your target customer and value?| 1 (Severe Hallucination) to 5 (Flawless) | Exactly matches your Target-Outcome hero statement |
 | **Source Authority** | Are citations pulled from your owned domain or third parties? | 1 (Competitor site) to 5 (Owned + G2/Media) | Owned domain cited alongside verified third-party reviews |
 | **Pricing Fidelity** | Does the model accurately state your commercial brackets? | 1 (Wild hallucination) to 5 (Accurate) | Cites transparent starting brackets from pricing pages |

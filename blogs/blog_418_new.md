@@ -20,15 +20,15 @@ This in-depth guide examines **break even leads 50k website rebuild** from a pra
 
 ## 1. The Capital Allocation Equation: Investment vs CAC
 
-When evaluating a custom website project (variable agency budgets) against ongoing agency retainers (significant budget/mo), CFOs and founders must look at **Customer Acquisition Cost (CAC) reduction**.
+When evaluating a custom website project (variable agency budgets) against ongoing agency retainers (high monthly retainers), CFOs and founders must look at **Customer Acquisition Cost (CAC) reduction**.
 
 If your current average deal size is significant budget ARR, your website doesn't need to generate 1,000 leads to pay for itself. It needs to generate **one or two additional closed deals** over a 12-month period.
 
 ### The 3-Year Cost Breakdown
-- **Agency Retainer Model (significant budget/mo):** significant budget over 3 years, with zero IP ownership and recurring developer dependency.
-- **Custom Next.js Build (significant budget upfront):** significant budget total 3-year cost (including hosting and Edge distribution), owned a significant share in-house.
+- **Agency Retainer Model (high monthly retainers):** significant budget over 3 years, with zero IP ownership and recurring developer dependency.
+- **Custom Next.js Build (upfront investment):** predictable 3-year total cost (including hosting and Edge distribution), owned completely in-house.
 
-By shifting from continuous agency retainers to a pre-rendered custom architecture, companies save over **significant budget in operational capital** while increasing site speed by a significant share.
+By shifting from continuous agency retainers to a pre-rendered custom architecture, companies save over **significant budget in operational capital** while increasing site speed substantially.
 
 ---
 
@@ -36,7 +36,7 @@ By shifting from continuous agency retainers to a pre-rendered custom architectu
 
 Legacy CMS platforms (WordPress, Drupal, unoptimized Webflow builds) create hidden financial leaks:
 - **Plugin Dependency Liabilities:** Monthly plugin updates breaking form fields and routing scripts.
-- **Hosting Tier Upgrades:** Paying significant budget/mo for dedicated WP servers that still choke during campaign spikes.
+- **Hosting Tier Upgrades:** Paying high monthly retainers for dedicated WP servers that still choke during campaign spikes.
 - **Developer Maintenance Retainers:** Wasting 15 hours a month of engineering time patching legacy CSS and PHP errors.
 
 ---
@@ -53,11 +53,11 @@ Addressing break even leads 50k website rebuild directly reduces user drop-off, 
 
 ## Engineering Deep Dive: Financial ROI & Pipeline Metrics
 
-During a financial audit for a B2B SaaS platform spending significant budget/mo on an agency retainer, we discovered that a significant share of their monthly spend went toward bug fixes and plugin maintenance rather than pipeline growth.
+During a financial audit for a B2B SaaS platform spending high monthly retainers on an agency retainer, we discovered that a large share of their monthly spend went toward bug fixes and plugin maintenance rather than pipeline growth.
 
 ### The Strategic Shift
 We migrated the platform to a headless **Next.js + Sanity CMS** stack deployed on Vercel's global Edge network:
-1. **Zero Retainer Overhead:** Eliminated the significant budget/mo retainer entirely.
+1. **Zero Retainer Overhead:** Eliminated the high monthly retainers retainer entirely.
 2. **fast Global Load Speeds:** Page load times dropped from 4.2s to 360ms globally.
 3. **Pipeline Impact:** Inbound demo requests increased from 5 to 28 per month within 90 days, adding **significant budget in new ARR pipeline** while saving significant budget annually in agency fees.
 

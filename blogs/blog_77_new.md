@@ -37,16 +37,16 @@ To understand why CRM integration is an urgent executive priority, leadership mu
 | The Enterprise Speed-to-Lead Decay Curve                    |
 +-------------------------------------------------------------+
 | Response Time < 15 Minutes:                                 |
-| -> Lead-to-Qualified-Meeting Conversion: a significant share                |
+| -> Lead-to-Qualified-Meeting Conversion: a large share                |
 | -> Prospect is still actively reviewing your specifications.|
 +-------------------------------------------------------------+
 | Response Time: 2 to 6 Hours:                                |
-| -> Lead-to-Qualified-Meeting Conversion Drops to a significant share        |
+| -> Lead-to-Qualified-Meeting Conversion Drops to a large share        |
 | -> Prospect has moved on to other operational meetings.     |
 +-------------------------------------------------------------+
 | Response Time > 24 Hours:                                   |
-| -> Lead-to-Qualified-Meeting Conversion Plummets Below a significant share   |
-| -> Meeting Ghosting Rate Exceeds a significant share                        |
+| -> Lead-to-Qualified-Meeting Conversion Plummets Below a large share   |
+| -> Meeting Ghosting Rate Exceeds a large share                        |
 +-------------------------------------------------------------+
 ```
 
@@ -186,7 +186,7 @@ To eliminate lead leakage and build an automated enterprise lead flow engine, le
 2. **Review CRM Attribution Fields:** Ensure your CRM tracking fields isolate traffic originating from conversational AI engines (Perplexity, ChatGPT) to measure generative conversion multipliers.
 3. **Upgrade to High-Performance Architecture:** Ensure your website forms are pre-rendered at the edge using modern SSR frameworks, delivering instant submissions without third-party iframe lag.
 
-To learn how to prevent drop-offs once a meeting is booked, explore our masterclass on [Why a significant share of Booked B2B Demos Ghost You (And How to Fix It)](/blog/b2b-demo-requests-fail-attended-meetings-599).
+To learn how to prevent drop-offs once a meeting is booked, explore our masterclass on [Why Most Booked B2B Demos Ghost You (And How to Fix It)](/blog/b2b-demo-requests-fail-attended-meetings-599).
 
 ---
 

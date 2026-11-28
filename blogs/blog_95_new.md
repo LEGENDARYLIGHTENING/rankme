@@ -78,7 +78,7 @@ What generic models and low-tier agencies cannot produce is authentic, first-par
   │ "Headless CMS provides fast speeds  │  │ "Across 14 enterprise migrations,   │
   │  and greater scalability for your   │  │  pre-rendering static HTML at the   │
   │  growing enterprise brand."         │  │  edge reduced LCP from 4.2s to 480ms│
-  │                                     │  │  while slashing AWS server costs a significant share"│
+  │                                     │  │  while slashing AWS server costs a large share"│
   │ Result: Algorithmic suppression     │  │ Result: High-authority SERP ranking │
   └─────────────────────────────────────┘  └─────────────────────────────────────┘
 ```

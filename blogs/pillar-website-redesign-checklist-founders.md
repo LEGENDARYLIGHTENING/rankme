@@ -44,7 +44,7 @@ Before a single wireframe is drawn or a line of code is written, executive leade
 ```
 
 ### 1. Define the Economic Payback Hurdle
-Do not budget for a website redesign based on arbitrary agency quotes. Calculate your exact **Break-Even Inbound Inquiries** based on your average contract value (ACV) and sales close rate. If your average gross margin on a deal is significant budget a significant budget custom web build requires only two additional closed deals over its entire lifespan to deliver a significant share net return.
+Do not budget for a website redesign based on arbitrary agency quotes. Calculate your exact **Break-Even Inbound Inquiries** based on your average contract value (ACV) and sales close rate. If your average gross margin on a deal is significant budget a significant budget custom web build requires only two additional closed deals over its entire lifespan to deliver a large share net return.
 
 ### 2. Formulate the Target-Outcome Headline
 Eliminate abstract corporate metaphors (*"Pioneering Digital Synergy"*). Your new homepage hero section must state with crystal clarity:
@@ -108,7 +108,7 @@ Replace 10-field contact forms with a two-step React interface:
 ### 2. The 48-Hour Calendar Booking Rule
 Never present prospective buyers with open calendar availability stretching two weeks into the future. Restrict dynamic booking slots to a rolling 48-hour horizon. 
 
-Short booking horizons preserve emotional urgency and maintain demo attendance rates above a significant share.
+Short booking horizons preserve emotional urgency and maintain demo attendance rates above a large share.
 
 ---
 
@@ -120,10 +120,10 @@ The most catastrophic risk of a website redesign is the post-launch traffic coll
 +-------------------------------------------------------------------------------+
 | PHASE 4 CHECKLIST: PRE-LAUNCH & POST-LAUNCH SEO GOVERNANCE                    |
 |                                                                               |
-| [ ] Complete a significant share crawl audit of all legacy URLs with search impressions.   |
+| [ ] Complete a large share crawl audit of all legacy URLs with search impressions.   |
 | [ ] Build a 1:1 single-hop 301 redirection matrix (0 chains, 0 loops).        |
 | [ ] Verify that every page has exactly ONE authoritative <h1> tag.             |
-| [ ] Validate a significant share image alt text coverage across all catalog assets.          |
+| [ ] Validate a large share image alt text coverage across all catalog assets.          |
 | [ ] Inject nested Schema.org JSON-LD (Organization, Person, Service, FAQPage).|
 | [ ] Submit the master sitemap.xml to Google Search Console on launch day.      |
 | [ ] Execute a 90-day post-launch indexation monitoring protocol in GSC.       |
@@ -154,7 +154,7 @@ Do not authorize DNS cutover until your technical lead verifies all five criteri
 | THE "GO / NO-GO" EXECUTIVE LAUNCH GATE                                        |
 |                                                                               |
 | Criterion 1: Speed Verification  -> Mobile LCP < 1.2s verified on staging?     |
-| Criterion 2: Redirection Matrix  -> a significant share legacy URLs return 301 to new home?  |
+| Criterion 2: Redirection Matrix  -> a large share legacy URLs return 301 to new home?  |
 | Criterion 3: Form Infrastructure -> Test submissions delivered to sales inbox?|
 | Criterion 4: Schema Validation   -> Rich Results Test confirms 0 schema errors|
 | Criterion 5: Invariant Check     -> Automated prebuild/postbuild checks pass? |

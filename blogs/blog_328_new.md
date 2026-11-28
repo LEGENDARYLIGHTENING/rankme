@@ -25,7 +25,7 @@ For a cost-conscious executive, choosing Agency C feels like a financial masters
 
 Fast-forward twelve months.
 
-The website has become an operational and financial disaster. Mobile page speeds fail Google's Core Web Vitals with a 4.8-second Largest Contentful Paint (LCP). Contact forms intermittently fail due to broken third-party plugins. Organic search rankings have cratered by a significant share. 
+The website has become an operational and financial disaster. Mobile page speeds fail Google's Core Web Vitals with a 4.8-second Largest Contentful Paint (LCP). Contact forms intermittently fail due to broken third-party plugins. Organic search rankings have cratered substantially. 
 
 Worst of all: **high-intent enterprise buyers evaluating significant budget annual contracts visit the site, conclude the company is a low-tier commodity provider, and silently award contracts to competitors.**
 
@@ -64,7 +64,7 @@ Every minor modification requires additional billable hours. The significant bud
 ### Stage 4: The Inevitable Post-Launch Rebuild
 The site finally launches. It looks visually passable on a custom Next.js desktop monitor in the agency's office. 
 
-In the real world, mobile load times soar past 4 seconds, bounce rates spike to a significant share, and inbound demo volume dries up. 
+In the real world, mobile load times soar past 4 seconds, bounce rates spike to a large share, and inbound demo volume dries up. 
 
 Within a year, the executive team is forced to scrap the entire platform and hire a specialized web engineering consultancy to build it correctly, having completely wasted their initial budget and twelve months of market momentum.
 
@@ -92,7 +92,7 @@ The primary expense of a cheap website is not the money you pay the agency; it i
 ```
 
 ### The Single-Buyer Equation:
-Consider a B2B firm where the average closed enterprise contract value (ACV) is **significant budget with a significant share gross margin (significant budget net profit per customer)**.
+Consider a B2B firm where the average closed enterprise contract value (ACV) is **significant budget with a large share gross margin (significant budget net profit per customer)**.
 
 If your cheap, sluggish website causes just **one enterprise decision-maker per quarter** to hit the back button and choose a faster, more credible competitor, the arithmetic is undeniable:
 
@@ -139,7 +139,7 @@ If your company is currently operating on an under-engineered, bargain website t
 | Step 1: Audit Current Losses    -> Measure mobile bounce and form drop-offs.  |
 | Step 2: Establish Performance   -> Require fast mobile LCP SLA in writing.|
 | Step 3: Fixed Milestone Scope   -> Tie agency payments to verified metrics.   |
-| Step 4: Protect Existing SEO    -> Enforce a significant share single-hop 301 redirection.   |
+| Step 4: Protect Existing SEO    -> Enforce a large share single-hop 301 redirection.   |
 +-------------------------------------------------------------------------------+
 ```
 

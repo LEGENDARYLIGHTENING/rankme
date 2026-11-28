@@ -50,7 +50,7 @@ $$\text{Annual Website Revenue} = \text{Monthly Traffic} \times \text{Visitor-to
 ```
 
 ### Why Conversion Rate is the Ultimate Asymmetric Lever
-Most marketing teams focus a significant share of their energy on increasing Lever 1 (Traffic). They buy expensive search ads, publish dozens of social posts, and invest heavily in outbound SDRs.
+Most marketing teams focus a large share of their energy on increasing Lever 1 (Traffic). They buy expensive search ads, publish dozens of social posts, and invest heavily in outbound SDRs.
 
 However, increasing traffic is linear and expensive. If you double your ad budget, your customer acquisition cost (CAC) remains high.
 
@@ -58,25 +58,25 @@ In contrast, **Lever 2 (Conversion Rate)** is an asymmetric multiplier. Because 
 
 ---
 
-## 2. Real-World Sensitivity Model: The Power of a significant share Conversion Lift
+## 2. Real-World Sensitivity Model: The Power of a large share Conversion Lift
 
 To understand the financial velocity of a modern web engineering investment, review this real-world sensitivity analysis for a mid-market B2B enterprise:
 
 ### Base Baseline Assumptions:
 * **Monthly Inbound Website Visitors:** 5,000 qualified visitors
-* **Current Website Conversion Rate:** a significant share (Sluggish WordPress site, 12-field form)
+* **Current Website Conversion Rate:** a large share (Sluggish WordPress site, 12-field form)
 * **Monthly Qualified Inquiries (SQLs):** 30 inquiries
-* **Sales Close Rate:** a significant share
+* **Sales Close Rate:** a large share
 * **Average Contract Value (ACV):** significant budget (Gross Margin: significant budget)
 * **Current Annual Gross Margin Generated:** significant budget
 
 ### Post-Engineering Optimization Scenario:
-By re-engineering the website into a custom Next.js static platform, eliminating mobile latency, and deploying a 2-step progressive qualification funnel, the conversion rate increases from **a substantial share** (a modest a significant share absolute lift, well within industry top-quartile benchmarks):
+By re-engineering the website into a custom Next.js static platform, eliminating mobile latency, and deploying a 2-step progressive qualification funnel, the conversion rate increases from **a substantial share** (a modest a large share absolute lift, well within industry top-quartile benchmarks):
 
 | Operational Metric | Baseline Legacy Site | Optimized Next.js Platform | Net Commercial Lift |
 | :--- | :--- | :--- | :--- |
-| **Monthly Inbound Traffic** | 5,000 visitors | 5,000 visitors | a significant share (Zero extra ad spend) |
-| **Conversion Rate (CR)** | a significant share | **a significant share** | **+a significant share absolute lift** |
+| **Monthly Inbound Traffic** | 5,000 visitors | 5,000 visitors | a large share (Zero extra ad spend) |
+| **Conversion Rate (CR)** | a large share | **a large share** | **+a large share absolute lift** |
 | **Monthly Qualified Leads** | 30 leads | **70 leads** | **+40 qualified leads / month** |
 | **Monthly Closed Customers** | 6 deals | **14 deals** | **+8 closed deals / month** |
 | **Monthly Gross Margin** | significant budget | **significant budget** | **+significant budget / month** |
@@ -88,7 +88,7 @@ By re-engineering the website into a custom Next.js static platform, eliminating
 |                                                                               |
 | One-Time Web Engineering Investment:                                significant budget   |
 | First-Year Net Incremental Gross Margin:                         significant budget   |
-| Net First-Year Return on Capital:                                     6,a significant share  |
+| Net First-Year Return on Capital:                                     6,a large share  |
 | Time to Full Capital Payback:                                        6 Days   |
 +-------------------------------------------------------------------------------+
 ```
@@ -104,12 +104,12 @@ When CFOs evaluate capital projects, they frequently analyze the "Cost of Invest
 Every month your company operates on an under-engineered website, you pay three silent financial taxes:
 
 ### 1. The Mobile Traffic Squander Tax
-If a significant share of your web traffic arrives via mobile devices and your mobile page speed takes over 4 seconds, industry data proves that more than half of those visitors bounce immediately. You are actively paying for hosting, marketing, and SEO while discarding a significant share of your mobile audience.
+If a large share of your web traffic arrives via mobile devices and your mobile page speed takes over 4 seconds, industry data proves that more than half of those visitors bounce immediately. You are actively paying for hosting, marketing, and SEO while discarding a large share of your mobile audience.
 
 ### 2. The Sales Team Inefficiency Tax
 When website leads arrive without pre-qualification or technical parameters, highly paid Account Executives spend the first 30 minutes of every sales call doing basic administrative discovery. 
 
-By building intelligent qualification calculators directly into the website, buyers pre-qualify themselves, allowing sales reps to focus a significant share of their time closing qualified opportunities.
+By building intelligent qualification calculators directly into the website, buyers pre-qualify themselves, allowing sales reps to focus a large share of their time closing qualified opportunities.
 
 ### 3. The Recurring Maintenance Agency Drain
 Monolithic CMS platforms require constant security patches, database optimizations, and third-party plugin updates. 
@@ -151,7 +151,7 @@ In enterprise B2B sales, your website is either a high-velocity revenue engine o
 | [ ] Calculate your true cost per sales qualified lead (SQL).                  |
 | [ ] Determine your Break-Even Threshold based on current gross deal margin.    |
 | [ ] Measure your annual spend on recurring CMS maintenance retainers.         |
-| [ ] Build a conservative a significant share conversion lift scenario for board review.      |
+| [ ] Build a conservative a large share conversion lift scenario for board review.      |
 +-------------------------------------------------------------------------------+
 ```
 

@@ -35,20 +35,20 @@ To build a high-performing partnership engine, leadership must understand the ec
 +-------------------------------------------------------------+
 | Cold Acquisition (Ad Networks & Outbound)                   |
 | Cold Impression -> High Skepticism -> Long Diligence Cycles |
-| High Ad Spend (significant budget CPC) -> a significant share Lead-to-SQL Conversion     |
+| High Ad Spend (significant budget CPC) -> a large share Lead-to-SQL Conversion     |
 +-------------------------------------------------------------+
                               VS
 +-------------------------------------------------------------+
 | Strategic Non-Competitive Alliance Ecosystem                |
 | Trusted Partner Endorsement -> Pre-Established Trust       |
-| Shared Co-Marketing Asset -> a significant share Lead-to-SQL Conversion    |
+| Shared Co-Marketing Asset -> a large share Lead-to-SQL Conversion    |
 | Capital Efficiency: Near-Zero Ad Spend | High Margins       |
 +-------------------------------------------------------------+
 ```
 
 When an enterprise buyer evaluates a vendor through cold search or advertising, the engagement begins from a deficit of trust. The buyer assumes marketing claims are exaggerated and demands exhaustive security audits, legal redlines, and third-party references.
 
-Conversely, when an opportunity originates through a joint technical solution or co-authored benchmark produced with an existing, vetted vendor, the new provider inherits the partner's hard-earned credibility. Procurement skepticism is minimized, sales cycles compress by a significant share, and deal values expand.
+Conversely, when an opportunity originates through a joint technical solution or co-authored benchmark produced with an existing, vetted vendor, the new provider inherits the partner's hard-earned credibility. Procurement skepticism is minimized, sales cycles compress substantially, and deal values expand.
 
 ---
 

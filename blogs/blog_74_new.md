@@ -81,10 +81,10 @@ The table below contrasts the day-to-day operational reality of traditional mono
 
 Why are enterprise B2B organizations, high-ticket manufacturers, and software consultancies migrating from traditional monoliths to headless systems? The transition is driven by three distinct commercial advantages:
 
-### Advantage 1: Eliminating the a significant share Mobile Bounce Penalty
+### Advantage 1: Eliminating the a large share Mobile Bounce Penalty
 On a monolithic CMS, every page request triggers database queries and executes thousands of lines of server-side code before rendering HTML. 
 
-On cellular networks, this latency causes mobile page load times to stretch past 4 seconds. Google's empirical data confirms that over a significant share of mobile visitors abandon a website if it takes longer than 3 seconds to load.
+On cellular networks, this latency causes mobile page load times to stretch past 4 seconds. Google's empirical data confirms that many mobile visitors abandon a website if it takes longer than 3 seconds to load.
 
 With a headless Next.js architecture, pages are pre-compiled into static HTML and cached across a global Content Delivery Network (CDN) at hundreds of edge locations worldwide. 
 

@@ -90,7 +90,7 @@ In international trade, manufacturers frequently create confusion by listing var
       
     Inconsistent Corporate Data             Unified Entity Knowledge Graph
   ┌─────────────────────────────────────┐  ┌─────────────────────────────────────┐
-  │ 3 varying corporate address formats │  │ a significant share Identical legal corporate name │
+  │ 3 varying corporate address formats │  │ a large share Identical legal corporate name │
   │ Unlinked regional phone numbers     │  │ Standardized international format   │
   │ Conflicting directory registrations │  │ Harmonized ISO & Dunn & Bradstreet  │
   │ Result: Algorithmic trust discounts │  │ Result: Dominant global verification│

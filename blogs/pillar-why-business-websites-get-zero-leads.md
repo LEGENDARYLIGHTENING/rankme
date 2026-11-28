@@ -13,7 +13,7 @@ DateModified: 2026-11-19
 
 # Why Most B2B Websites Get Zero Leads (And How to Fix It)
 
-You open Google Analytics. Over the past month, your website welcomed 4,200 unique visitors. Organic search traffic from Google is up a significant share, referral links are sending visits from LinkedIn, and your marketing team feels proud of the traffic curve.
+You open Google Analytics. Over the past month, your website welcomed 4,200 unique visitors. Organic search traffic from Google is up a large share, referral links are sending visits from LinkedIn, and your marketing team feels proud of the traffic curve.
 
 Then, you check your CRM or corporate email inbox. 
 
@@ -81,7 +81,7 @@ When a high-intent buyer finally decides they want to get in touch, they click y
 * Estimated Budget, Project Start Date
 * "Tell us about your project in detail..."
 
-Every additional field beyond four drops form completion by a substantial share. When you demand a phone number before demonstrating value, a significant share of enterprise buyers abandon the page immediately because they do not want junior sales reps spamming their mobile phone.
+Every additional field beyond four drops form completion by a substantial share. When you demand a phone number before demonstrating value, a large share of enterprise buyers abandon the page immediately because they do not want junior sales reps spamming their mobile phone.
 
 **The Fix:** Deploy progressive two-step qualification forms. Ask for Work Email and Domain in Step 1. Use automated backend enrichment to identify company size, revenue, and industry. Keep the human interaction effortless.
 
@@ -107,7 +107,7 @@ The table below contrasts the commercial performance of a traditional brochure w
 | **Proof Elements** | Generic stock graphics, unverified quotes | Verified client case studies, founder portrait, Skillshop links |
 | **Mobile Speed (LCP)** | 4.8 seconds (Sluggish WordPress theme) | 0.9 seconds (Static Next.js Edge delivery) |
 | **Contact Mechanism** | 12-field form requiring phone & budget | 2-step frictionless qualification with instant calendar booking |
-| **Commercial Outcome** | a significant share visitor-to-inquiry rate (Dead pipeline) | a significant share visitor-to-inquiry rate (Consistent weekly sales calls) |
+| **Commercial Outcome** | a large share visitor-to-inquiry rate (Dead pipeline) | a large share visitor-to-inquiry rate (Consistent weekly sales calls) |
 
 ---
 

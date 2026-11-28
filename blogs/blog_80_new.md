@@ -19,7 +19,7 @@ Marketing leadership focuses obsessively on color palettes, brand messaging, and
 
 In reality, latency is the silent killer of enterprise pipeline.
 
-Consumer e-commerce giants like Amazon and Google established long ago that every 100 milliseconds of web latency reduces revenue by a significant share. In enterprise B2B, where individual contract values range from variable agency budgets, the financial cost of latency is exponentially higher. 
+Consumer e-commerce giants like Amazon and Google established long ago that every 100 milliseconds of web latency reduces revenue substantially. In enterprise B2B, where individual contract values range from variable agency budgets, the financial cost of latency is exponentially higher. 
 
 When a prospective enterprise buyer: a Chief Technology Officer, VP of Supply Chain, or Managing Director: clicks a link from an AI search citation or an organic search result, they are intensely time-constrained. If your website stares back with a white screen, a loading spinner, or shifting layouts for three seconds while client-side JavaScript boots up, they hit the back button and select a competitor.
 
@@ -38,17 +38,17 @@ To understand why performance optimization delivers massive ROI, leadership must
 | The Enterprise Conversion Latency Curve                     |
 +-------------------------------------------------------------+
 | fast Load Time (Modern Edge SSR/SSG):                  |
-| -> Bounce Rate: Under a significant share                                   |
-| -> Lead-to-Qualified-Meeting Conversion: a significant share               |
+| -> Bounce Rate: Under a large share                                   |
+| -> Lead-to-Qualified-Meeting Conversion: a large share               |
 | -> Immediate Perceived Institutional Authority              |
 +-------------------------------------------------------------+
 | 2.5 to 3.5 Second Load Time (Average B2B Template):         |
-| -> Bounce Rate: Jumps to a significant share                                |
-| -> Lead-to-Qualified-Meeting Conversion Drops to a significant share       |
+| -> Bounce Rate: Jumps to a large share                                |
+| -> Lead-to-Qualified-Meeting Conversion Drops to a large share       |
 +-------------------------------------------------------------+
 | 5.0+ Second Load Time (Bloated Monolith / Heavy Plugins):   |
-| -> Bounce Rate: Catastrophic a significant share                           |
-| -> Lead-to-Qualified-Meeting Conversion: <a significant share              |
+| -> Bounce Rate: Catastrophic a large share                           |
+| -> Lead-to-Qualified-Meeting Conversion: <a large share              |
 +-------------------------------------------------------------+
 ```
 
@@ -141,7 +141,7 @@ By compiling web pages into pre-rendered, semantic HTML at build time, the edge 
 - Enforce explicit `width` and `height` attributes on all image containers to reserve visual space and permanently eliminate layout shifts (CLS = 0).
 
 ### Off-Thread Analytics Execution
-Do not allow marketing tracking scripts to execute on the browser's primary main thread. Utilize modern background execution libraries (such as Partytown) to offload analytics pixels to background web workers, preserving a significant share of the main thread for instantaneous user interactions.
+Do not allow marketing tracking scripts to execute on the browser's primary main thread. Utilize modern background execution libraries (such as Partytown) to offload analytics pixels to background web workers, preserving most of the main thread for instantaneous user interactions.
 
 To explore how custom development compares to commercial templates, explore our analysis on [Custom vs Template B2B Websites: Cost vs Outcome Analysis](/blog/custom-vs-template-b2b-websites-cost-outcome).
 
@@ -176,7 +176,7 @@ To eliminate web latency and transform your digital platform into a high-convert
 
 ### Strategic Milestones for Leadership
 1. **Run a Google PageSpeed Insights Audit:** Test your core solution and pricing pages on PageSpeed Insights. If your mobile performance score is below 90, your infrastructure is causing pipeline loss.
-2. **Review Third-Party Script Payload:** Inspect your network waterfall in Chrome Developer Tools. If third-party tracking scripts represent more than a significant share of total page weight, execute a script pruning audit immediately.
+2. **Review Third-Party Script Payload:** Inspect your network waterfall in Chrome Developer Tools. If third-party tracking scripts represent more than a large share of total page weight, execute a script pruning audit immediately.
 3. **Upgrade to Custom Server-Rendered Infrastructure:** Modernize your digital platform with high-performance frameworks like Next.js, deploying static assets directly to global edge networks.
 
 To model the commercial return of upgrading your web infrastructure, consult our [B2B Website ROI Calculator and Business Case Framework](/blog/b2b-website-roi-calculator-framework).

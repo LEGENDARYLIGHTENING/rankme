@@ -19,7 +19,7 @@ Generative Engine Optimization (GEO) has permanently invalidated that reporting 
 
 When an enterprise procurement director uses an AI engine such as Perplexity, ChatGPT, Claude, or Google AI Overviews to evaluate vendors, there is no traditional "Search Engine Results Page." There is no blue link in position three. Often, if the AI synthesizes a comprehensive technical answer, the buyer conducts substantial evaluation without immediately visiting any website. 
 
-If marketing leadership attempts to **measure GEO success** using legacy pageview and traffic volume metrics, they will draw dangerously flawed conclusions. A company could experience a significant share drop in overall organic website visits while simultaneously doubling its qualified enterprise sales pipeline because high-intent buyers are receiving validated recommendations directly from generative models.
+If marketing leadership attempts to **measure GEO success** using legacy pageview and traffic volume metrics, they will draw dangerously flawed conclusions. A company could experience a large share drop in overall organic website visits while simultaneously doubling its qualified enterprise sales pipeline because high-intent buyers are receiving validated recommendations directly from generative models.
 
 To evaluate digital capital allocation accurately, B2B executives must adopt a new measurement paradigm. Here are the definitive **B2B GEO metrics** and performance indicators required to track generative visibility and demonstrate tangible commercial ROI.
 
@@ -66,7 +66,7 @@ This metric measures the percentage of high-intent, bottom-of-funnel generative 
 
 $$\text{Citation SOV} = \left( \frac{\text{Total Prompts Citing Your Brand}}{\text{Total High-Intent Prompts Evaluated}} \right) \times 100$$
 
-If your company is cited in 32 out of 50 enterprise prompts, your Citation SOV is a significant share. By tracking this metric alongside the citation rates of your top three direct competitors, leadership gains an objective benchmark of digital market dominance.
+If your company is cited in 32 out of 50 enterprise prompts, your Citation SOV is a large share. By tracking this metric alongside the citation rates of your top three direct competitors, leadership gains an objective benchmark of digital market dominance.
 
 ---
 
@@ -100,10 +100,10 @@ However, web analytics must isolate and evaluate AI referral traffic separately 
 | Dimension                      | Google Organic     | AI Engine Referral |
 +--------------------------------+--------------------+--------------------+
 | Traffic Volume                 | High               | Low to Moderate    |
-| Bounce Rate                    | a significant share - a significant share          | a significant share - a significant share          |
+| Bounce Rate                    | a large share - a large share          | a large share - a large share          |
 | Average Pages Per Session      | 1.8                | 4.2                |
-| Sales Qualified Lead (SQL) %   | a significant share - a significant share        | a significant share - a significant share       |
-| Average Deal Velocity          | Baseline           | a significant share Faster Close   |
+| Sales Qualified Lead (SQL) %   | a large share - a large share        | a large share - a large share       |
+| Average Deal Velocity          | Baseline           | significantly faster Close   |
 +--------------------------------+--------------------+--------------------+
 ```
 

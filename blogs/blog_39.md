@@ -38,7 +38,7 @@ Enterprise executives do not commit an hour of their day to be sold to. They att
   │ 10 min: Corporate self-promotion    │  │  0 min: Zero company introduction   │
   │ 35 min: High-level generic trends   │  │ 40 min: Live architectural breakdown│
   │ 15 min: Aggressive product pitch    │  │ 20 min: Deep interactive Q&A session│
-  │ Outcome: a significant share drop-off / 0 SQLs      │  │ Outcome: Inbound enterprise RFQs    │
+  │ Outcome: a large share drop-off / 0 SQLs      │  │ Outcome: Inbound enterprise RFQs    │
   └─────────────────────────────────────┘  └─────────────────────────────────────┘
 ```
 
@@ -67,7 +67,7 @@ Explore our guide on [high-intent keyword targeting for B2B organic leads](/blog
 
 ## Pillar 2: Pre-Event Qualification and Attendance Psychology
 
-Many marketing organizations celebrate gross webinar registrations while ignoring attendee quality. Registering 1,000 attendees is meaningless if a significant share of them are non-buyers who fail to attend the live broadcast.
+Many marketing organizations celebrate gross webinar registrations while ignoring attendee quality. Registering 1,000 attendees is meaningless if a large share of them are non-buyers who fail to attend the live broadcast.
 
 ```
                     REGISTRATION & ATTENDANCE BENCHMARKS
@@ -76,7 +76,7 @@ Many marketing organizations celebrate gross webinar registrations while ignorin
   ┌─────────────────────────────────────┐  ┌─────────────────────────────────────┐
   │ Broad, generic marketing topic      │  │ Highly technical C-suite teardown   │
   │ Low-friction form (Name + Email)    │  │ Multi-step professional validation  │
-  │ a significant share Live Attendance (280 attendees) │  │ a significant share Live Attendance (155 attendees) │
+  │ a large share Live Attendance (280 attendees) │  │ a large share Live Attendance (155 attendees) │
   │ 1 Qualified Discovery Call          │  │ 18 Sales Qualified Discovery Calls  │
   └─────────────────────────────────────┘  └─────────────────────────────────────┘
 ```

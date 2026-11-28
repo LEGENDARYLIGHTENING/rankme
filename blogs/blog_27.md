@@ -118,7 +118,7 @@ Enterprise buyers worry about communication delays during critical production in
 ### 3. Clear Commercial and Contracting Frameworks
 Demystify cross-border contracting by detailing your legal and invoicing standards: supported currencies (USD, GBP, EUR), international banking protocols, and standard governing law jurisdictions. Removing financial ambiguity de-risks the procurement approval process.
 
-To understand how to convert international traffic into attended sales meetings, read our masterclass on [Why a significant share of Booked B2B Demos Ghost You (And How to Fix It)](/blog/b2b-demo-requests-fail-attended-meetings-599).
+To understand how to convert international traffic into attended sales meetings, read our masterclass on [Why Most Booked B2B Demos Ghost You (And How to Fix It)](/blog/b2b-demo-requests-fail-attended-meetings-599).
 
 ---
 
@@ -129,7 +129,7 @@ Relying on paid advertising to enter multiple international markets simultaneous
 ```
 +-------------------------------------------------------------+
 | Multi-Country Paid Search Campaigns (Linear Cost Inflation) |
-| North America Ads (significant budget/mo) + UK Ads (significant budget/mo) + EU (significant budget/mo)|
+| North America Ads (high monthly retainers) + UK Ads (high monthly retainers) + EU (high monthly retainers)|
 | Total: significant budget / month recurring -> Stop spend -> Zero Leads |
 +-------------------------------------------------------------+
                               VS

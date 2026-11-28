@@ -76,7 +76,7 @@ When negotiating a website redesign contract with any digital consultancy, ensur
 | THE 5 ESSENTIAL B2B REDESIGN CONTRACT DELIVERABLES                            |
 |                                                                               |
 | [Deliverable 1: Core Web Vitals SLA]  -> Mobile LCP < 1.2s, Lighthouse 90+    |
-| [Deliverable 2: Complete Redirection] -> a significant share legacy URLs mapped with 301s    |
+| [Deliverable 2: Complete Redirection] -> a large share legacy URLs mapped with 301s    |
 | [Deliverable 3: Structured Data Graph]-> Nested Organization, Person, Service |
 | [Deliverable 4: High-Converting Funnel]-> 2-step progressive qualification    |
 | [Deliverable 5: 90-Day Ranking Audit] -> Active monitoring of GSC indexing    |
@@ -87,7 +87,7 @@ When negotiating a website redesign contract with any digital consultancy, ensur
 Do not accept vague promises like "The site will be fast." Require a contractually guaranteed performance benchmark: **mobile Largest Contentful Paint (LCP) under 1.2 seconds** and a Google Lighthouse mobile score of 90+ across all core landing pages.
 
 ### 2. Full Content Migration & Single-Hop 301 Redirection
-Ensure the scope includes migrating your existing authoritative blog content, case studies, and customer proof, along with a comprehensive redirection matrix that preserves a significant share of your existing search equity.
+Ensure the scope includes migrating your existing authoritative blog content, case studies, and customer proof, along with a comprehensive redirection matrix that preserves a large share of your existing search equity.
 
 ### 3. Nested Schema.org JSON-LD Structured Data
 Demand full implementation of connected schema graphs (`Organization`, `Person`, `Service`, `FAQPage`, `BreadcrumbList`, and `BlogPosting`) to ensure both Googlebot and modern AI search engines (Perplexity, ChatGPT) parse and cite your brand as an authoritative industry entity.
@@ -108,16 +108,16 @@ To ensure perfect alignment of incentives, structure your project payments acros
 +-------------------------------------------------------------------------------+
 | THE MILESTONE-BASED GOVERNANCE MODEL                                          |
 |                                                                               |
-| Milestone 1: Commercial Positioning & Architectural Blueprint (a significant share Payment)   |
+| Milestone 1: Commercial Positioning & Architectural Blueprint (a large share Payment)   |
 | * Approved wireframes, revised positioning copy, technical stack sign-off.    |
 |                                                                               |
-| Milestone 2: Complete Production Code & Speed Benchmark (a significant share Payment)         |
+| Milestone 2: Complete Production Code & Speed Benchmark (a large share Payment)         |
 | * Functional Next.js staging build, fast mobile LCP verified.            |
 |                                                                               |
-| Milestone 3: Content Migration & 301 Redirection Audit (a significant share Payment)          |
+| Milestone 3: Content Migration & 301 Redirection Audit (a large share Payment)          |
 | * Zero broken internal links, sitemaps generated, redirect matrix tested.    |
 |                                                                               |
-| Milestone 4: Production Launch & 30-Day Invariant Sign-Off (a significant share Payment)      |
+| Milestone 4: Production Launch & 30-Day Invariant Sign-Off (a large share Payment)      |
 | * Live DNS switchover, GSC sitemap submission, 0 post-launch errors.          |
 +-------------------------------------------------------------------------------+
 ```

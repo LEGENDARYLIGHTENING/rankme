@@ -101,7 +101,7 @@ Fragmented one-sentence formatting and emotional storytelling provide near-zero 
 ### 1. Concrete Quantitative Benchmarks
 Avoid vague qualifiers such as "dramatically improved speed" or "massive cost savings." Use specific numbers:
 - "Reduced API roundtrip latency from 420ms to 68ms."
-- "Lowered enterprise customer acquisition cost by a significant share over three quarters."
+- "Lowered enterprise customer acquisition cost substantially over three quarters."
 
 Generative models rely on numerical precision to ground their answers. When an enterprise buyer asks an AI engine for benchmark data, the model seeks out specific numbers authored by verified industry executives.
 

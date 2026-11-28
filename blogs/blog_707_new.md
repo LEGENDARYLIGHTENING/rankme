@@ -52,7 +52,7 @@ A B2B industrial exporter's WordPress site suffered from a 4.8-second mobile LCP
 ### Next.js Architecture Pivot:
 - Framework: Next.js App Router + React Server Components.
 - Edge CDN: Vercel Global Edge Network.
-- **Outcome:** LCP reduced to **320ms**, mobile conversion rates rose **a significant share**, and organic search traffic increased by **a significant share**.
+- **Outcome:** LCP reduced to **320ms**, mobile conversion rates rose **a large share**, and organic search traffic increased by **a large share**.
 
 ---
 

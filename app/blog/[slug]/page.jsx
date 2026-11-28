@@ -112,38 +112,34 @@ export default async function Page({ params }) {
     ...(postMeta.secondaryKeywords ? postMeta.secondaryKeywords.split(',').map((s) => s.trim()) : []),
   ].filter(Boolean);
 
+  const cleanHeadline = (postMeta.title || '').replace(/\s*\|\s*Rankur\s*$/i, '');
+  const wordCount = (content || '').trim().split(/\s+/).filter(Boolean).length;
+
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
-    headline: postMeta.title,
+    headline: cleanHeadline,
     description: postMeta.excerpt,
+    inLanguage: 'en-US',
+    wordCount,
     ...(keywordsList.length > 0 ? { keywords: keywordsList.join(', ') } : {}),
     image: {
       '@type': 'ImageObject',
       url: imageUrl,
       width: 1200,
       height: 630,
-      name: postMeta.primaryKeyword || postMeta.title,
-      caption: postMeta.imageAlt || postMeta.title,
-      description: postMeta.imageAlt || postMeta.title,
+      name: postMeta.primaryKeyword || cleanHeadline,
+      caption: postMeta.imageAlt || cleanHeadline,
+      description: postMeta.imageAlt || cleanHeadline,
       ...(postMeta.primaryKeyword ? { keywords: postMeta.primaryKeyword } : {}),
     },
     ...(datePublished ? { datePublished } : {}),
     ...(dateModified ? { dateModified } : {}),
     author: {
-      '@type': 'Person',
-      name: postMeta.author || 'Moksh Parjapati',
-      jobTitle: postMeta.authorRole || 'Founder & B2B Growth Strategist',
-      url: 'https://rankursite.com/about',
+      '@id': 'https://rankursite.com/#founder',
     },
     publisher: {
-      '@type': 'Organization',
-      name: 'Rankur',
-      url: 'https://rankursite.com',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://rankursite.com/rankur-logo.png',
-      },
+      '@id': 'https://rankursite.com/#organization',
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
@@ -176,7 +172,7 @@ export default async function Page({ params }) {
       {
         '@type': 'ListItem',
         position: 4,
-        name: postMeta.title,
+        name: cleanHeadline,
         item: `https://rankursite.com/blog/${slug}`,
       },
     ],

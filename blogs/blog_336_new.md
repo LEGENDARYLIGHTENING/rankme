@@ -25,7 +25,7 @@ However, if your company sells to **mid-market enterprises with annual contract 
 
 In 2026, modern enterprise decision-makers (CEOs, VPs of Marketing, CTOs, and Procurement Directors) do not buy the way they did in 2012. 
 
-When confronted with a mandatory "Contact Sales for Pricing" wall, **over a significant share of mid-market buyers immediately bounce and award their business to a competitor who provides transparent starting brackets.**
+When confronted with a mandatory "Contact Sales for Pricing" wall, **many mid-market buyers immediately bounce and award their business to a competitor who provides transparent starting brackets.**
 
 This guide analyzes the commercial psychology behind the "Contact Sales" friction trap, examines empirical conversion data from high-growth B2B teams, and outlines the modern hybrid pricing framework that accelerates enterprise pipeline velocity.
 
@@ -79,24 +79,24 @@ Data analyzed across B2B SaaS growth communities reveals what happens when compa
 | Pricing Architecture | Form Inbound Volume | Lead Quality Score | Opportunity Close Rate | Sales Cycle Length |
 | :--- | :---: | :---: | :---: | :---: |
 | **Fully Gated ("Contact Sales Only")** | High (High noise/curiosity) | Low (Tire-kickers mixed with buyers) | a substantial share | 75 to 90 Days |
-| **Pure Consumer E-Commerce Checkout** | Very High | Low ACV (significant budget/mo, high churn) | a substantial share | 1 Day |
-| **The Hybrid Tier Framework** | Moderate (-a significant share total leads) | **Very High (Pre-qualified)** | **a substantial share (2x Close Rate!)** | **35 to 45 Days (a significant share Faster!)** |
+| **Pure Consumer E-Commerce Checkout** | Very High | Low ACV (high monthly retainers, high churn) | a substantial share | 1 Day |
+| **The Hybrid Tier Framework** | Moderate (-a large share total leads) | **Very High (Pre-qualified)** | **a substantial share (2x Close Rate!)** | **35 to 45 Days (significantly faster!)** |
 
 ```
 +-------------------------------------------------------------------------------+
 | THE COMMERCIAL VELOCITY SHIFT                                                 |
 |                                                                               |
 | Average Sales Cycle with Gated Pricing:      [====================] 80 Days   |
-| Average Sales Cycle with Transparent Tiers:  [==========] 40 Days (a significant share Faster)|
+| Average Sales Cycle with Transparent Tiers:  [==========] 40 Days (significantly faster)|
 |                                                                               |
-| * Outcome: Sales teams spend a significant share of their time talking to buyers with        |
+| * Outcome: Sales teams spend a large share of their time talking to buyers with        |
 |   pre-validated budgets, doubling close rates and revenue velocity.           |
 +-------------------------------------------------------------------------------+
 ```
 
 When prospective buyers understand your pricing tiers before the discovery call, **the first sales meeting is no longer an awkward budget dance.** 
 
-The prospect arrives saying: *"We reviewed your Scale tier at significant budget/month. We have 40 users and need to confirm two specific integration requirements."* 
+The prospect arrives saying: *"We reviewed your Scale tier at high monthly retainers. We have 40 users and need to confirm two specific integration requirements."* 
 
 The sales cycle accelerates dramatically.
 
@@ -111,14 +111,14 @@ You do not need to publish a flat significant budget checkout button for complex
 | THE HYBRID B2B PRICING FRAMEWORK                                              |
 |                                                                               |
 | [Tier 1: Growth]              [Tier 2: Scale]             [Tier 3: Enterprise]|
-| "Plans start at significant budget/mo"   "Plans start at significant budget/mo"   "Custom Architecture|
+| "Plans start at high monthly retainers"   "Plans start at high monthly retainers"   "Custom Architecture|
 | Up to 10 users                Up to 50 users               Dedicated VPC, SLAs|
 | [1-Click Strategy Call]       [1-Click Strategy Call]      [Contact Enterprise|
 +-------------------------------------------------------------------------------+
 ```
 
 ### 1. Publish Clear "Starting At" Brackets
-Provide clear starting points: *"Plans start at significant budget/month for up to 10 users."* 
+Provide clear starting points: *"Plans start at high monthly retainers for up to 10 users."* 
 
 This accomplishes two critical objectives simultaneously:
 * It immediately repels sub-significant budget consumer tire-kickers who would waste your sales team's time.

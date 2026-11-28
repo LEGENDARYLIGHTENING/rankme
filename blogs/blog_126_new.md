@@ -82,7 +82,7 @@ During redesign workshops, internal department heads love adding "just one more 
 - Product wants use-case classifications.
 - Marketing wants referral attribution dropdowns.
 
-Every single field added to a B2B contact form reduces conversion rates by an average of a significant share. If your redesign took a 4-field inquiry form and expanded it into an 8-field interrogation, you introduced massive buyer friction.
+Every single field added to a B2B contact form reduces conversion rates by an average of a large share. If your redesign took a 4-field inquiry form and expanded it into an 8-field interrogation, you introduced massive buyer friction.
 
 ### High-Converting Field Hierarchy
 1. **Work Email** (Automatic corporate domain firmographic lookup).
@@ -99,7 +99,7 @@ When Rankur engineered the digital infrastructure for [Wafa Educational & Charit
 
 By replacing legacy bloated form plugins with zero-friction, edge-rendered Next.js submission pipelines, we achieved:
 - **Core Web Vitals focused engineering** with server-rendered global interaction speed.
-- **+a significant share increase in verified conversion completions** within 30 days of launch.
+- **a clear increase in verified conversion completions** within 30 days of launch.
 - Zero silent submission failures across mobile and corporate firewalls.
 
 ---

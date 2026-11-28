@@ -13,7 +13,7 @@ DateModified: 2026-11-19
 
 # The Anatomy of a High-Margin B2B Case Study Page That Closes Deals
 
-In high-ticket enterprise sales (significant budget to significant budget ACV), prospective buyers do not make purchasing decisions based on features alone. They make decisions based on **de-risking the investment**.
+In high-ticket enterprise sales (enterprise ACV), prospective buyers do not make purchasing decisions based on features alone. They make decisions based on **de-risking the investment**.
 
 When a VP of Marketing, Chief Technology Officer, or Chief Financial Officer reviews your proposal, their internal monologue is dominated by risk mitigation:
 
@@ -76,9 +76,9 @@ An elite case study page is engineered to convert executive readers through stru
 ### Component 1: The Executive Scorecard (Above the Fold)
 Never make an executive read four paragraphs to discover the outcome. Place a high-contrast **Executive Scorecard** directly below the main title:
 
-* **+a significant share Lift** in Qualified Inbound Donor Inquiries
+* **+a large share Lift** in Qualified Inbound Donor Inquiries
 * **0.8 Second** Mobile Largest Contentful Paint (Down from 4.8s)
-* **a significant share Zero-Downtime** Edge Architecture with significant budget Maintenance Overhead
+* **a large share Zero-Downtime** Edge Architecture with significant budget Maintenance Overhead
 
 Big, bold numbers validate the investment in the first three seconds.
 
@@ -92,7 +92,7 @@ Authentic names eliminate buyer skepticism instantly.
 ### Component 3: The Technical Bottleneck (What Was Broken Before)
 Describe the client's pre-existing operational state with technical precision:
 * Sluggish legacy CMS taking 4.8 seconds to load on mobile cellular networks.
-* 10-field contact forms with a significant share drop-off rate.
+* 10-field contact forms with a large share drop-off rate.
 * Total absence of structured Schema.org entity graphs, causing zero visibility in generative AI search engines.
 
 Clearly identifying the technical bottlenecks allows prospective buyers with the same symptoms to recognize their own operational challenges.
@@ -121,7 +121,7 @@ The table below contrasts the before-and-after operational metrics from an enter
 | **Mobile Core Web Vitals (LCP)** | 4.8 seconds (Failing Google CWV) | **0.8 seconds (98/100 Mobile Score)** |
 | **Server Response Time (TTFB)** | 1,400 milliseconds | **42 milliseconds (Global Edge CDN)** |
 | **Lead Qualification Architecture** | Single 10-field static form | Progressive 2-step qualification funnel |
-| **Commercial Inbound Lift** | 12 inquiries / month | **50+ qualified inquiries / month (+a significant share)** |
+| **Commercial Inbound Lift** | 12 inquiries / month | **50+ qualified inquiries / month (+a large share)** |
 | **Ongoing Maintenance Retainers** | significant budget / month in agency fixes | **significant budget / month (Self-sufficient immutable code)** |
 
 ---

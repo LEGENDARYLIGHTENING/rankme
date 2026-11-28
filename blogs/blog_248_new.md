@@ -38,7 +38,7 @@ If your website buries these answers behind ambiguous menus or slow-loading page
 To capture commercial intent effectively, your website architecture must align precisely with how enterprise decision-makers evaluate software and high-ticket services.
 
 ### Key Friction Leaks to Eliminate:
-- **Mandatory Phone Fields:** Requiring phone numbers on initial contact forms causes an immediate a significant share drop in completion rates. Busy executives fear aggressive SDR dialers.
+- **Mandatory Phone Fields:** Requiring phone numbers on initial contact forms causes an immediate a large share drop in completion rates. Busy executives fear aggressive SDR dialers.
 - **Hidden Pricing & Tier Benchmarks:** Forcing prospects to "Call for Quote" without baseline investment ranges creates suspicion and scares away qualified mid-market leads.
 - **Slow Page Performance:** If your mobile load time exceeds 2.5 seconds on 4G networks, over half of your mobile executive traffic bounces before viewing your offer.
 
@@ -76,7 +76,7 @@ We executed a complete rebuild utilizing **Next.js App Router** deployed on glob
 3. **Dynamic Conversion Routing:** Replaced static forms with dynamic React qualification components that routed enterprise leads directly to executive calendars.
 
 ### Measurable Results
-Within 60 days of launching the new high-speed architecture, mobile conversion rates increased by **a significant share**, and qualified inbound sales pipeline grew by over **significant budget** without increasing ad spend.
+Within 60 days of launching the new high-speed architecture, mobile conversion rates increased by **a large share**, and qualified inbound sales pipeline grew by over **significant budget** without increasing ad spend.
 
 ---
 

@@ -39,7 +39,7 @@ To understand why template websites struggle in high-ticket B2B environments, yo
 | [Commercial Pre-Built Theme]                                                  |
 | * Built to satisfy 10,000 different buyers (restaurants, dentists, tech)      |
 | * Ships with 40 distinct layout styles, 15 slider libraries, 12 icon fonts    |
-| * Total CSS & JS Payload: 3.8 MB (a significant share completely unused by your company)      |
+| * Total CSS & JS Payload: 3.8 MB (a large share completely unused by your company)      |
 | * Mobile Page Load Result: 4.8s LCP (Fails Google Core Web Vitals)            |
 |                                                                               |
 | [Custom Next.js Engineering]                                                  |
@@ -53,7 +53,7 @@ To understand why template websites struggle in high-ticket B2B environments, yo
 ### The Universal Bloat Problem
 Commercial theme developers make money by selling thousands of copies of a single template on marketplaces like ThemeForest or Webflow. To maximize sales, they pack the theme with hundreds of features: pricing tables, portfolio carousels, blog styles, booking widgets, and animation libraries.
 
-When your agency installs that theme, **your website loads all of that code on every single page view**, even if you only use a significant share of the template's features. 
+When your agency installs that theme, **your website loads all of that code on every single page view**, even if you only use a large share of the template's features. 
 
 The web browser must download, parse, and execute megabytes of unused JavaScript and CSS. On desktop computers connected to custom Next.js office fiber, the site may look acceptable. 
 
@@ -68,8 +68,8 @@ The table below contrasts the 3-year commercial reality of a significant budget 
 | Financial & Operational Dimension | Pre-Built Template Site | Custom Engineered Next.js System |
 | :--- | :--- | :--- |
 | **Initial Upfront Investment** | significant budget | significant budget |
-| **Monthly Agency Maintenance** | significant budget/mo (significant budget over 3 yrs) | significant budget/mo (Self-sufficient static edge) |
-| **Hosting & Plugin Licensing** | significant budget/mo (significant budget over 3 yrs) | significant budget/mo (significant budget over 3 yrs) |
+| **Monthly Agency Maintenance** | high monthly retainers (significant budget over 3 yrs) | high monthly retainers (Self-sufficient static edge) |
+| **Hosting & Plugin Licensing** | high monthly retainers (significant budget over 3 yrs) | high monthly retainers (significant budget over 3 yrs) |
 | **Mobile Core Web Vitals Status** | Failing (LCP > 4.2s, Mobile score < 45) | Flawless (LCP < 1.1s, Mobile score 95+) |
 | **Security Surface Area** | High (Vulnerable to theme/plugin exploits) | Near Zero (Immutable edge-cached code) |
 | **Expected Lifespan** | 18 to 24 months before rebuild needed | 4 to 6 years of scalable performance |
@@ -94,7 +94,7 @@ When you add the cost of lost pipeline caused by slow mobile speeds and high for
 
 ## 3. Four Reasons High-Ticket Enterprise Buyers Reject Template Sites
 
-When an enterprise procurement committee or C-suite executive evaluates a high-margin partnership (significant budget to significant budget ACV), they look for indicators of operational maturity. 
+When an enterprise procurement committee or C-suite executive evaluates a high-margin partnership (enterprise ACV), they look for indicators of operational maturity. 
 
 Template websites trigger four immediate red flags:
 
@@ -130,7 +130,7 @@ To maintain objective integrity, it is important to acknowledge that custom engi
 **However, if your business satisfies any of the following criteria:**
 * Average contract value (ACV) exceeds significant budget
 * Enterprise buyers conduct extensive due diligence before booking a sales consultation.
-* Mobile search traffic represents more than a significant share of inbound visits.
+* Mobile search traffic represents more than a large share of inbound visits.
 * Digital search visibility is a primary organic pipeline acquisition channel.
 
 Then investing in custom web engineering is not a luxury; it is the fundamental baseline requirement for enterprise credibility.
@@ -147,7 +147,7 @@ A corporate website is not an expense to be minimized; it is the core commercial
 |                                                                               |
 | [ ] Will this platform represent our primary enterprise brand credibility?    |
 | [ ] Is our average closed contract value greater than significant budget?                |
-| [ ] Can our business afford a significant share bounce rate on high-intent mobile visitors? |
+| [ ] Can our business afford a large share bounce rate on high-intent mobile visitors? |
 | [ ] Do we want to eliminate recurring monthly agency maintenance retainers?   |
 | [ ] Do we require custom qualification funnels and AI search entity schema?   |
 +-------------------------------------------------------------------------------+

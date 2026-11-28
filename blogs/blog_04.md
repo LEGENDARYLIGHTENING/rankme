@@ -29,7 +29,7 @@ Across communities like r/SEO and r/seogrowth, founders and search directors des
 
 > "We rank #1 organically for three of our biggest commercial keywords, but Google AI Overviews and Perplexity cite competitors who rank on page two. Traditional SEO metrics do not explain what is happening here.": Growth Director, r/seogrowth
 
-> "Only about a significant share of the pages that AI engines cite actually rank in Google's top 10 for that same query. If you assume your SEO agency has AI search covered, you are flying blind.": Technical SEO Consultant, X (Twitter)
+> "Only about a large share of the pages that AI engines cite actually rank in Google's top 10 for that same query. If you assume your SEO agency has AI search covered, you are flying blind.": Technical SEO Consultant, X (Twitter)
 
 Welcome to **Generative Engine Optimization (GEO)**. This comprehensive guide breaks down the empirical mechanics of AI citation engines, explains why traditional SEO playbooks fail in Large Language Models (LLMs), and outlines the exact technical entity architecture required to ensure your B2B brand is recommended as the verified authority.
 
@@ -44,8 +44,8 @@ Recent cross-engine analyses across Google AI Overviews, Perplexity, and ChatGPT
 | Discovery Variable | Traditional Google Search (SEO) | Generative AI Search (GEO) |
 | :--- | :--- | :--- |
 | **Primary Retrieval Mechanism** | Inverted keyword index, backlinks, PageRank | Vector embeddings, semantic distance, RAG pipelines |
-| **Citation Source Overlap** | High consistency (Top 10 URLs capture a significant share traffic) | Low overlap: only a small fraction of top-cited domains appear across all three major AI engines |
-| **SERP Rank vs. Citation** | Direct correlation between Rank 1 and CTR | Only ~a substantial share of cited URLs rank in Google's traditional Top 10 |
+| **Citation Source Overlap** | High consistency (Top 10 URLs capture the majority of search traffic) | Low overlap: only a small fraction of top-cited domains appear across all three major AI engines |
+| **SERP Rank vs. Citation** | Direct correlation between Rank 1 and CTR | Only a small portion of cited URLs rank in Google's traditional Top 10 |
 | **Owned Content vs. Earned Mentions** | Owned domain authority dominates | Third-party consensus (G2, Reddit, industry publications) cited a substantial share of the time |
 | **Freshness Velocity** | Slow decay over months | Aggressive recency bias: engines prioritize content updated within the last 90 days |
 
@@ -53,8 +53,8 @@ Recent cross-engine analyses across Google AI Overviews, Perplexity, and ChatGPT
 +-------------------------------------------------------------------------------+
 | THE CITATION DIVERGENCE: AI ENGINES VS. TRADITIONAL TOP 10                    |
 |                                                                               |
-| Traditional Top 10 URLs [=======] a significant share Cited by AI Engines                     |
-| Non-Top 10 Sources      [========================================] a significant share Cited  |
+| Traditional Top 10 URLs [=======] a large share Cited by AI Engines                     |
+| Non-Top 10 Sources      [========================================] a large share Cited  |
 |                                                                               |
 | * Data Source: r/seogrowth multi-engine RAG citation study                    |
 +-------------------------------------------------------------------------------+
@@ -121,7 +121,7 @@ When RAG systems ingest web pages, they divide HTML documents into semantic chun
 
 **Bad (Fluff):** *"Many companies find that software integration can be challenging and requires careful planning across teams."*
 
-**Good (Quotable Factual Chunk):** *"Enterprise API integration across legacy ERP systems requires an average of 42 engineering hours per endpoint when using traditional REST middleware. By adopting event-driven webhook webhooks on custom Next.js architectures, B2B data synchronization latency drops from 4.2 seconds to quickly, reducing cloud computation overhead by a significant share."*
+**Good (Quotable Factual Chunk):** *"Enterprise API integration across legacy ERP systems requires an average of 42 engineering hours per endpoint when using traditional REST middleware. By adopting event-driven webhook webhooks on custom Next.js architectures, B2B data synchronization latency drops from 4.2 seconds to quickly, reducing cloud computation overhead substantially."*
 
 ### Strategy 2: Deploying Nested JSON-LD Entity Graphs
 Your website must present an interconnected semantic graph that tells AI search engines exactly who you are, what you build, and where your credentials reside.
@@ -165,9 +165,9 @@ Static Next.js exports hosted on global edge networks deliver fast TTFB, ensurin
 
 ---
 
-## 4. Off-Site Entity Consensus: Winning the a significant share You Do Not Control
+## 4. Off-Site Entity Consensus: Winning the a large share You Do Not Control
 
-Because AI engines derive over a significant share of their citations from third-party consensus, technical on-page optimization must be paired with off-site authority distribution:
+Because AI engines derive many their citations from third-party consensus, technical on-page optimization must be paired with off-site authority distribution:
 
 1. **Own Your Comparison Narrative:** Publish objective, data-driven comparison guides on your own domain (e.g., *"Rankur vs. Traditional WordPress Agencies"*). If you do not publish your own comparison data, your competitors will write it for you.
 2. **Cultivate Unfiltered Community Mentions:** Active, authentic participation in subreddits (r/SaaS, r/webdev) and industry discussion forums creates the raw citation corpus LLMs ingest during monthly training checkpoints.

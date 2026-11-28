@@ -20,11 +20,11 @@ This in-depth guide examines **agency retainer pipeline incentives ROI** from a 
 
 ## 1. Capital Allocation: Evaluating One-Time Builds vs Monthly Retainers
 
-When B2B founders evaluate web investments, they face a choice: spend variable agency budgets upfront on a high-speed custom build, or pay significant budget/month indefinitely for an agency retainer.
+When B2B founders evaluate web investments, they face a choice: spend variable agency budgets upfront on a high-speed custom build, or pay high monthly retainers indefinitely for an agency retainer.
 
 Over 3 years:
 - **Agency Retainer Total:** significant budget with zero code ownership and recurring plugin liabilities.
-- **Custom Next.js Build Total:** significant budget including Edge hosting, owned a significant share in-house.
+- **Custom Next.js Build Total:** one-time build investment including Edge hosting, owned completely in-house.
 
 By replacing monthly agency retainers with a custom engineered architecture, companies free up **significant budget in capital** to deploy into direct sales hiring or product development.
 
@@ -51,12 +51,12 @@ Addressing agency retainer pipeline incentives ROI directly reduces user drop-of
 
 ## Engineering Deep Dive: TCO Reduction & Pipeline Acceleration
 
-For a B2B SaaS platform paying significant budget/mo on an agency retainer, we audited their website performance and found that a significant share of their spend went toward routine maintenance.
+For a B2B SaaS platform paying high monthly retainers on an agency retainer, we audited their website performance and found that a large share of their spend went toward routine maintenance.
 
 ### The Remediation Architecture
 1. **Migrated to Next.js + Headless CMS:** Eliminated the monthly agency retainer completely.
 2. **Global Edge Deployment:** Achieved fast load speeds worldwide.
-3. **Pipeline Outcome:** Inbound demo requests grew by **a significant share in 60 days**, adding significant budget in new qualified ARR while saving significant budget annually.
+3. **Pipeline Outcome:** Inbound demo requests grew by **a large share in 60 days**, adding significant budget in new qualified ARR while saving significant budget annually.
 
 ---
 

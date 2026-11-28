@@ -17,7 +17,7 @@ In late 2025, an executive leadership team at a specialized B2B logistics compli
 
 For years, the company had dominated traditional Google search rankings. They held positions 1 through 3 for high-intent search terms like *"automated fleet compliance audit"* and *"DOT inspection software."* 
 
-Yet, their inbound organic lead volume had dropped a significant share over the previous two quarters.
+Yet, their inbound organic lead volume had dropped a large share over the previous two quarters.
 
 When the Head of Sales conducted post-mortems with prospective enterprise buyers who booked demos through referrals, buyers kept mentioning the exact same research behavior:
 
@@ -109,20 +109,20 @@ Within 90 days of deploying the custom Next.js edge platform and GEO architectur
 
 | Performance Metric | Baseline (Pre-GEO) | 90 Days Post-Launch | Net Commercial Shift |
 | :--- | :--- | :--- | :--- |
-| **Perplexity Citation Rate** | a significant share of tested category queries | **a significant share of tested category queries** | **+a significant share absolute citation dominance** |
+| **Perplexity Citation Rate** | a large share of tested category queries | **a large share of tested category queries** | **+a large share absolute citation dominance** |
 | **ChatGPT Search Citations** | Unranked (Competitors cited) | **Primary recommended vendor** | Top-tier recommendation in mid-market |
-| **Edge Server TTFB** | 1,200ms (Slow WordPress) | **42ms (Next.js Global Edge)** | **a significant share reduction in server latency** |
-| **Google AI Overview Presence** | Rare / Secondary citation | **Featured source in a significant share of AIOs** | Dominant source in category summaries |
-| **Inbound Demo Requests** | 18 demos / month | **31 demos / month** | **+a significant share lift in qualified sales meetings** |
+| **Edge Server TTFB** | 1,200ms (Slow WordPress) | **42ms (Next.js Global Edge)** | **a large share reduction in server latency** |
+| **Google AI Overview Presence** | Rare / Secondary citation | **Featured source in a large share of AIOs** | Dominant source in category summaries |
+| **Inbound Demo Requests** | 18 demos / month | **31 demos / month** | **+a large share lift in qualified sales meetings** |
 
 ```
 +-------------------------------------------------------------------------------+
 | PERPLEXITY & CHATGPT CITATION VELOCITY                                        |
 |                                                                               |
-| Month 0 (Pre-Launch)  [ ] a significant share Category Citations                               |
-| Month 1 (Post-Schema) [==========] a significant share Category Citations                      |
-| Month 2 (Post-Chunks) [=======================] a significant share Category Citations        |
-| Month 3 (Post-Launch) [========================================] a significant share Citations|
+| Month 0 (Pre-Launch)  [ ] a large share Category Citations                               |
+| Month 1 (Post-Schema) [==========] a large share Category Citations                      |
+| Month 2 (Post-Chunks) [=======================] a large share Category Citations        |
+| Month 3 (Post-Launch) [========================================] a large share Citations|
 +-------------------------------------------------------------------------------+
 ```
 

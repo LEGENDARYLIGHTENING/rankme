@@ -16,7 +16,7 @@ You have spent months refining your enterprise value proposition, building autho
 
 Form abandonment is the quietest, most expensive failure point in business-to-business pipeline generation. 
 
-According to enterprise conversion benchmarks, **more than a significant share of qualified enterprise prospects who open an initial B2B inquiry form abandon it without submitting**. 
+According to enterprise conversion benchmarks, **more than a large share of qualified enterprise prospects who open an initial B2B inquiry form abandon it without submitting**. 
 
 When a prospective client considering a variable agency budgets engagement abandons your form, that opportunity rarely returns. In competitive enterprise markets, prospective buyers simply navigate to the next vendor on their evaluation shortlist.
 
@@ -51,7 +51,7 @@ When an inquiry form triggers anxiety across any of these dimensions, the execut
   ├─────────────────────────────────────────────────────────────────┤
   │  8 Abandon: Vague "We will reply in 48 hours" Black Hole Notice │
   └─────────────────────────────────────────────────────────────────┘
-    Only 25 Submissions Completed (a significant share Total Pipeline Loss)
+    Only 25 Submissions Completed (a large share Total Pipeline Loss)
 ```
 
 Review our analysis on [why B2B pricing pages bounce high-intent buyers](/blog/b2b-pricing-page-bounces-high-intent-buyers-332) to understand how friction at late-stage conversion points suppresses pipeline.
@@ -129,7 +129,7 @@ High-performing revenue architectures eliminate the static thank-you page entire
 
 The instant an executive submits their email and qualification parameters, the platform dynamically analyzes the company domain, qualifies the account, and presents a direct calendar booking interface (such as SavvyCal or Calendly). The buyer can select a mutually convenient meeting slot with the appropriate senior partner immediately, while their intent is at its highest point.
 
-Review our in-depth research on [B2B demo request conversion benchmarks](/blog/b2b-demo-requests-fail-attended-meetings-599) to examine how instant scheduling increases completed discovery meetings by up to a significant share.
+Review our in-depth research on [B2B demo request conversion benchmarks](/blog/b2b-demo-requests-fail-attended-meetings-599) to examine how instant scheduling increases completed discovery meetings by up to a large share.
 
 ---
 

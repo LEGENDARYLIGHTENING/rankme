@@ -95,7 +95,7 @@ During the final contracting phase, bureaucratic inertia threatens to push deal 
 - **The Nurturing Asset:** Deliver detailed 90-day implementation roadmaps, milestone schedules, and executive governance escalation paths.
 - **The Operational Goal:** Reassure the executive committee that operational onboarding will be seamless, de-risking the final contract signing.
 
-To understand how to prevent booked meetings and deals from falling apart early in the cycle, explore our masterclass on [Why a significant share of Booked B2B Demos Ghost You (And How to Fix It)](/blog/b2b-demo-requests-fail-attended-meetings-599).
+To understand how to prevent booked meetings and deals from falling apart early in the cycle, explore our masterclass on [Why Most Booked B2B Demos Ghost You (And How to Fix It)](/blog/b2b-demo-requests-fail-attended-meetings-599).
 
 ---
 

@@ -159,7 +159,7 @@ To ensure your web infrastructure satisfies enterprise vendor risk requirements,
 +----+------------------------------+---------------------------------------------------------------+
 | #  | Operational Checkpoint       | Executive Verification Standard                               |
 +----+------------------------------+---------------------------------------------------------------+
-| 1  | Architecture Decoupling      | a significant share static edge delivery with no public database exposure.   |
+| 1  | Architecture Decoupling      | a large share static edge delivery with no public database exposure.   |
 | 2  | Security Header Deployment   | A+ grade on Mozilla Observatory and SecurityScorecard scans.  |
 | 3  | Conditional Consent Logic    | Zero tracking scripts fire prior to explicit GDPR consent.    |
 | 4  | Machine-Readable Compliance  | Structured JSON-LD schemas verifying SOC 2 and ISO certs.     |

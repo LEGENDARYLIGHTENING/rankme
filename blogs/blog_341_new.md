@@ -22,7 +22,7 @@ This in-depth guide examines **ssg vs ssr b2b website conversion** from a practi
 
 Google's Core Web Vitals are not just SEO metrics: they are direct revenue drivers.
 
-- **Largest Contentful Paint (LCP < 2.5s):** If your primary hero image or headline takes over 2.5 seconds to render, over a significant share of mobile executive traffic bounces.
+- **Largest Contentful Paint (LCP < 2.5s):** If your primary hero image or headline takes over 2.5 seconds to render, many mobile executive traffic bounces.
 - **Interaction to Next Paint (INP < 200ms):** If clicking a navigation button or form field causes visual lag, buyers assume your product is equally sluggish.
 - **Cumulative Layout Shift (CLS < 0.1):** Layout shifts cause misclicks on buttons, driving high user frustration.
 
@@ -54,7 +54,7 @@ We executed a headless migration for an industrial manufacturing exporter whose 
 - **Framework:** Next.js App Router + React Server Components.
 - **Media Optimization:** Next/Image with automatic WebP/AVIF compression and responsive srcsets.
 - **Deployment:** Vercel Edge Network with stale-while-revalidate caching.
-- **Outcome:** LCP dropped to **340ms**, mobile traffic bounce rate fell by a significant share, and organic search impressions grew by **a significant share within 60 days**.
+- **Outcome:** LCP dropped to **340ms**, mobile traffic bounce rate fell substantially, and organic search impressions grew by **substantially within 60 days**.
 
 ---
 

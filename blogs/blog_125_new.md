@@ -52,7 +52,7 @@ When these questions remain unanswered, the buyer exits and visits a competitor 
   ├─────────────────────────────────────────────────────────────────┤
   │  7 Bounce: No Verifiable Social Proof, Case Studies, or SLAs    │
   └─────────────────────────────────────────────────────────────────┘
-    Only 15 Inquiries Initiated (a significant share Commercial Demand Lost)
+    Only 15 Inquiries Initiated (a large share Commercial Demand Lost)
 ```
 
 Review our analysis on [why "Contact Sales for Pricing" destroys B2B conversions](/blog/why-contact-sales-for-pricing-destroys-conversions-336) for a deep dive into buyer psychology.
@@ -110,7 +110,7 @@ Enterprise procurement departments and corporate legal teams are deeply suspicio
       
     Ambiguous Scope (High Bounce Rate)      Transparent Deliverables (High Close Rate)
   ┌─────────────────────────────────────┐  ┌─────────────────────────────────────┐
-  │ "Custom Web Application"            │  │ "a significant share Fixed-Scope Architecture"     │
+  │ "Custom Web Application"            │  │ "a large share Fixed-Scope Architecture"     │
   │ • Design & Development Included     │  │ • Pre-rendered Next.js Edge Build   │
   │ • Additional features quoted later  │  │ • Complete Content Migration        │
   │ • Hosting and maintenance extra     │  │ • Enterprise Structured Schema      │
@@ -135,7 +135,7 @@ When an executive views your pricing page, their stress levels reach the highest
 If your pricing page strips away client testimonials, enterprise case studies, and performance guarantees, the buyer is left staring at cold numbers in an informational vacuum.
 
 ### High-Impact Placement of Trust Signals
-- **Audited Client Metrics:** Place real-world performance metrics directly beneath each pricing tier (e.g., *"Helped enterprise client increase sales-qualified inbound inquiries by a significant share in 90 days"*).
+- **Audited Client Metrics:** Place real-world performance metrics directly beneath each pricing tier (e.g., *"Helped enterprise client increase sales-qualified inbound inquiries substantially in 90 days"*).
 - **Verifiable Executive Quotes:** Feature named executive testimonials complete with company names, industry titles, and verified LinkedIn credentials.
 - **Contractual Risk Reversal:** Offer clear performance commitments, such as server-rendered Core Web Vitals guarantees or milestone-based delivery schedules.
 

@@ -50,7 +50,7 @@ The most immediate opportunity to generate new qualified sales meetings does not
                     ┌───────────────┴───────────────┐
                     ▼                               ▼
           Position 11 - 20 (Page 2)        Position 1 - 5 (Page 1)
-          • <a significant share Organic Click Share        • >a significant share Cumulative Click Share
+          • <a large share Organic Click Share        • >a large share Cumulative Click Share
           • High Algorithmic Relevance     • Active Buyer RFP Inquiries
           • Immediate Pipeline Opportunity • Significant Commercial Growth
 ```
@@ -67,7 +67,7 @@ Moving a high-intent commercial page from #14 to #4 routinely increases qualifie
 
 ## Phase 2: The Conversion Friction and Telemetry Diagnostic
 
-A webpage that ranks #1 on Google but converts at a significant share represents a major commercial failure.
+A webpage that ranks #1 on Google but converts at a large share represents a major commercial failure.
 
 Many B2B organizations invest heavily in top-of-funnel search visibility, only to direct qualified traffic to friction-heavy landing pages that drive buyers directly to competitors.
 
@@ -83,7 +83,7 @@ Many B2B organizations invest heavily in top-of-funnel search visibility, only t
           • 11 Required Form Fields        • 3 Essential Fields (Work Email)
           • Slow 4.2s Page Load Time       • server-rendered Edge Delivery
           • Generic "Submit" CTA           • Transparent Scope & Pricing
-          • Outcome: 2 Inquiries (a significant share)   • Outcome: 48 Inquiries (a significant share)
+          • Outcome: 2 Inquiries (a large share)   • Outcome: 48 Inquiries (a large share)
 ```
 
 ### Actionable Diagnostic Steps:

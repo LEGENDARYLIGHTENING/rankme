@@ -100,14 +100,14 @@ To attract enterprise buyers who have five-figure and six-figure budgets, execut
 ### Framework 1: The "Contrarian Industry Teardown"
 Challenge an accepted industry dogma with hard mathematical or technical evidence:
 * *Thesis:* Why paying an agency significant budget for a pre-built WordPress theme ends up costing significant budget in lost pipeline over 24 months.
-* *Evidence:* Contrast mobile bounce data (a significant share drop-off at 4s) against the annual maintenance retainers required to babysit conflicting plugins.
+* *Evidence:* Contrast mobile bounce data (a large share drop-off at 4s) against the annual maintenance retainers required to babysit conflicting plugins.
 * *Conclusion:* Why high-growth B2B firms invest in bespoke edge architectures.
 
 ### Framework 2: The "Anatomy of an Enterprise Transformation"
 Walk through a real client transformation without marketing exaggeration:
 * *Baseline:* A precision manufacturing client had 4,000 monthly visits but received only 2 low-margin quote requests per quarter.
 * *Intervention:* We replaced their scanned PDF catalogs with searchable HTML parametric tables, added verifiable ISO 9001 certificates, and built a 2-step CAD upload portal.
-* *Outcome:* Inbound qualified RFQs increased by a significant share, leading to two closed aerospace contracts totaling significant budget
+* *Outcome:* Inbound qualified RFQs increased substantially, leading to two closed aerospace contracts totaling significant budget
 
 ### Framework 3: The "Behind-the-Scenes Technical Teardown"
 Demonstrate your deep domain expertise by dissecting a hidden industry problem:
@@ -126,7 +126,7 @@ This aggressive push repels senior buyers. Instead, use the **Value-First Diagno
 
 1. **Acknowledge and Validate:** *"Appreciate you reaching out, Sarah. It is a massive hidden leak across most mid-market teams right now."*
 2. **Ask One Diagnostic Question:** *"Out of curiosity, what is your current booking lead-time? Are prospects booking 2 days out or 7+ days out?"*
-3. **Offer an Unfiltered Diagnostic Resource:** *"I actually put together a 3-minute video breakdown showing how we restructured a similar calendar funnel to cut ghosting by a significant share. Happy to send the link if you'd like to review it with your team."*
+3. **Offer an Unfiltered Diagnostic Resource:** *"I actually put together a 3-minute video breakdown showing how we restructured a similar calendar funnel to cut ghosting substantially. Happy to send the link if you'd like to review it with your team."*
 
 By providing immediate diagnostic value without sales pressure, you position yourself as a trusted advisor, making a subsequent strategy consultation the natural, welcomed next step.
 

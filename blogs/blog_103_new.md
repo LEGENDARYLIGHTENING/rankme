@@ -79,7 +79,7 @@ Your objective is identifying **High-Intent Commercial Evaluation Gaps**: search
                                   ▼
     3. The Revenue Opportunity Gap
   ┌─────────────────────────────────────────────────────────────────┐
-  │ Queries where competitors capture a significant share of commercial demand     │
+  │ Queries where competitors capture a large share of commercial demand     │
   │ but your domain possesses zero dedicated, indexable URLs        │
   └─────────────────────────────────────────────────────────────────┘
 ```
@@ -104,7 +104,7 @@ Most legacy B2B websites are hosted on bloated, monolithic CMS platforms (such a
 | **Server Response Time (TTFB)** | 1,400ms to 2,800ms | Under 70ms (Globally) | 20x faster crawler indexing and page discovery |
 | **Largest Contentful Paint (LCP)** | 4.2s to 6.5s (Fails Vitals) | Under 500ms (Flawless) | Eliminates buyer bounce during mobile research |
 | **Cumulative Layout Shift (CLS)** | 0.22+ (Layout shifting) | 0.00 (Rock Solid) | Prevents cognitive fatigue and passes Core Web Vitals |
-| **Index Bloat & Thin Clones** | Thousands of thin tags/archives | Surgically pruned, a significant share quality | Maximizes site-wide domain quality scores |
+| **Index Bloat & Thin Clones** | Thousands of thin tags/archives | Surgically pruned, a large share quality | Maximizes site-wide domain quality scores |
 
 When search engines deploy core quality and speed updates, websites suffering from slow server response times and unstable mobile layouts are systematically demoted. 
 
