@@ -17,7 +17,7 @@ In late 2025, an executive leadership team at a specialized B2B logistics compli
 
 For years, the company had dominated traditional Google search rankings. They held positions 1 through 3 for high-intent search terms like *"automated fleet compliance audit"* and *"DOT inspection software."* 
 
-Yet, their inbound organic lead volume had dropped 22% over the previous two quarters.
+Yet, their inbound organic lead volume had dropped a significant share over the previous two quarters.
 
 When the Head of Sales conducted post-mortems with prospective enterprise buyers who booked demos through referrals, buyers kept mentioning the exact same research behavior:
 
@@ -74,14 +74,14 @@ To transform the website into an authoritative knowledge source for LLMs, we exe
 +-------------------------------------------------------------------------------+
 | THE 90-DAY GEO TRANSFORMATION ROADMAP                                         |
 |                                                                               |
-| Month 1: Edge Speed & Schema Graph -> Sub-50ms TTFB + Connected JSON-LD Graph |
+| Month 1: Edge Speed & Schema Graph -> fast TTFB + Connected JSON-LD Graph |
 | Month 2: Factual Chunking Overhaul -> Rewrite core pages into 150-word blocks |
 | Month 3: Owned Comparison Engines  -> Publish objective competitor data       |
 | Ongoing: Deploy /llms.txt Resource -> Machine-readable AI sitemap guidance   |
 +-------------------------------------------------------------------------------+
 ```
 
-### Phase 1: Sub-50ms Edge Performance and Connected JSON-LD
+### Phase 1: fast Edge Performance and Connected JSON-LD
 We migrated the public marketing pages from monolithic WordPress hosting to a custom Next.js static edge architecture deployed across global CDN points of presence. Mobile TTFB dropped from 1,200ms to **under 45 milliseconds**, ensuring real-time AI crawlers never timed out.
 
 Simultaneously, we injected a nested JSON-LD entity graph on every page, programmatically linking the company (`Organization`), its founders (`Person`), and its product capabilities (`SoftwareApplication`) to verified external databases (Wikidata, Crunchbase, LinkedIn, and government compliance registries).
@@ -89,7 +89,7 @@ Simultaneously, we injected a nested JSON-LD entity graph on every page, program
 ### Phase 2: Restructuring Content into 150-Word "Factual Chunks"
 We re-engineered the company's core landing pages and technical documentation around the **Factual Chunking Model**:
 * Every major section opened with an unambiguous, direct thesis answering a specific enterprise question.
-* Every block included at least two verifiable quantitative data points (e.g., *"Reduces annual IFTA audit preparation time from 48 hours to 14 minutes, cutting administrative compliance overhead by $18,400 per 100 trucks"*).
+* Every block included at least two verifiable quantitative data points (e.g., *"Reduces annual IFTA audit preparation time from 48 hours to 14 minutes, cutting administrative compliance overhead by significant budget per 100 trucks"*).
 * Content chunks were kept between 120 and 180 words, matching the optimal token window for modern LLM embedding layers.
 
 ### Phase 3: Publishing Objective, Data-Driven Comparison Assets
@@ -109,20 +109,20 @@ Within 90 days of deploying the custom Next.js edge platform and GEO architectur
 
 | Performance Metric | Baseline (Pre-GEO) | 90 Days Post-Launch | Net Commercial Shift |
 | :--- | :--- | :--- | :--- |
-| **Perplexity Citation Rate** | 0% of tested category queries | **42% of tested category queries** | **+42% absolute citation dominance** |
+| **Perplexity Citation Rate** | a significant share of tested category queries | **a significant share of tested category queries** | **+a significant share absolute citation dominance** |
 | **ChatGPT Search Citations** | Unranked (Competitors cited) | **Primary recommended vendor** | Top-tier recommendation in mid-market |
-| **Edge Server TTFB** | 1,200ms (Slow WordPress) | **42ms (Next.js Global Edge)** | **96.5% reduction in server latency** |
-| **Google AI Overview Presence** | Rare / Secondary citation | **Featured source in 68% of AIOs** | Dominant source in category summaries |
-| **Inbound Demo Requests** | 18 demos / month | **31 demos / month** | **+72% lift in qualified sales meetings** |
+| **Edge Server TTFB** | 1,200ms (Slow WordPress) | **42ms (Next.js Global Edge)** | **a significant share reduction in server latency** |
+| **Google AI Overview Presence** | Rare / Secondary citation | **Featured source in a significant share of AIOs** | Dominant source in category summaries |
+| **Inbound Demo Requests** | 18 demos / month | **31 demos / month** | **+a significant share lift in qualified sales meetings** |
 
 ```
 +-------------------------------------------------------------------------------+
 | PERPLEXITY & CHATGPT CITATION VELOCITY                                        |
 |                                                                               |
-| Month 0 (Pre-Launch)  [ ] 0% Category Citations                               |
-| Month 1 (Post-Schema) [==========] 12% Category Citations                      |
-| Month 2 (Post-Chunks) [=======================] 28% Category Citations        |
-| Month 3 (Post-Launch) [========================================] 42% Citations|
+| Month 0 (Pre-Launch)  [ ] a significant share Category Citations                               |
+| Month 1 (Post-Schema) [==========] a significant share Category Citations                      |
+| Month 2 (Post-Chunks) [=======================] a significant share Category Citations        |
+| Month 3 (Post-Launch) [========================================] a significant share Citations|
 +-------------------------------------------------------------------------------+
 ```
 
@@ -152,7 +152,7 @@ As enterprise buyers increasingly transition from traditional search engines to 
 | B2B GEO IMPLEMENTATION CHECKLIST                                              |
 |                                                                               |
 | [ ] Audit brand citation frequency across Perplexity, ChatGPT, and Claude.    |
-| [ ] Eliminate server latency; achieve sub-50ms TTFB via static edge delivery. |
+| [ ] Eliminate server latency; achieve fast TTFB via static edge delivery. |
 | [ ] Rewrite core pages into high-density 150-word factual chunks.             |
 | [ ] Implement nested Schema.org JSON-LD linking Organization and Wikidata.    |
 | [ ] Publish an authoritative /llms.txt file for AI web crawlers.              |

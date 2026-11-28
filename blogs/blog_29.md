@@ -19,9 +19,9 @@ In 2026, the industrial buying process has experienced a massive generational tr
 
 The procurement managers, VP-level supply chain directors, and chief engineers specifying components for aerospace, medical devices, automotive, and industrial machinery are no longer waiting for trade show handshakes. 
 
-Before a corporate procurement committee issues a six-figure Request for Quote (RFQ), **over 80% of vendor research is conducted anonymously online via Google, industrial search directories, and generative AI engines.**
+Before a corporate procurement committee issues a six-figure Request for Quote (RFQ), **over a significant share of vendor research is conducted anonymously online via Google, industrial search directories, and generative AI engines.**
 
-When an overseas procurement team evaluating a $250,000 component run searches for your specialized capability, what do they find? 
+When an overseas procurement team evaluating a significant budget component run searches for your specialized capability, what do they find? 
 
 If your website is an ancient, 10-year-old brochure with broken mobile layouts, scanned PDF catalogs, and a generic "Contact Us" email link, you are disqualified before you ever know you were considered.
 
@@ -125,7 +125,7 @@ Consider a precision contract manufacturer producing specialized stainless-steel
 
 * **Before Optimization:** Their website was a static 5-page site built in 2017. Their total inbound RFQ volume was 1 to 2 low-margin quote requests per quarter, primarily from local job shops.
 * **The Strategic Intervention:** We re-engineered their platform into a custom Next.js custom Next.js system with dedicated capability silos for high-pressure sanitary valves, published certified ISO 9001:2015 documentation, and deployed a 2-step secure CAD upload portal.
-* **The Commercial Outcome:** Inbound organic impressions for high-intent OEM procurement queries surged by 280%. Within five months, the manufacturer secured two enterprise contracts from global pharmaceutical brands totaling over $380,000 in gross margin.
+* **The Commercial Outcome:** Inbound organic impressions for high-intent OEM procurement queries surged by a significant share. Within five months, the manufacturer secured two enterprise contracts from global pharmaceutical brands totaling over significant budget in gross margin.
 
 ---
 

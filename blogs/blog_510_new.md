@@ -47,9 +47,9 @@ Addressing website project payment milestone structure directly reduces user dro
 
 ## Engineering Deep Dive: Agency Replacement Project
 
-A SaaS company spent $90,000 with a traditional agency for a Webflow site that couldn't handle custom API integrations.
+A SaaS company spent significant budget with a traditional agency for a Webflow site that couldn't handle custom API integrations.
 
-We rebuilt their platform in Next.js within 14 days, connecting their frontend directly to PostgreSQL and HubSpot. Inbound qualified leads increased by **$310,000 in Q1 post-launch**.
+We rebuilt their platform in Next.js within 14 days, connecting their frontend directly to PostgreSQL and HubSpot. Inbound qualified leads increased by **significant budget in Q1 post-launch**.
 
 ---
 

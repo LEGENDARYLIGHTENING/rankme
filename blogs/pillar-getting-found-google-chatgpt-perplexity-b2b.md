@@ -53,9 +53,9 @@ To win in the modern search landscape, executive leadership must understand that
 
 The critical insight uncovered by recent search studies is that **ranking on Google Page 1 does not guarantee AI visibility**:
 
-* Over 85% of URLs cited by AI engines like Perplexity and ChatGPT Search do not rank in Google's traditional Top 10 for the same search query.
-* Overlap between major AI engines is surprisingly low: only 14% of top-cited domains appear across ChatGPT, Perplexity, and Google AI Overviews simultaneously.
-* AI engines heavily favor third-party verification: independent reviews, trade directories, and earned media are cited four times more frequently than self-promotional corporate marketing pages.
+* Many URLs cited by AI engines like Perplexity and ChatGPT Search do not rank in Google's traditional Top 10 for the same search query.
+* Overlap between major AI engines is surprisingly low: only a small fraction of top-cited domains appear across ChatGPT, Perplexity, and Google AI Overviews simultaneously.
+* AI engines heavily favor third-party verification: independent reviews, trade directories, and earned media are cited significantly more frequently than self-promotional corporate marketing pages.
 
 Winning modern B2B pipeline requires an integrated strategy that satisfies traditional search algorithms, applies [B2B CTR strategies for AI Overviews](/blog/ai-overviews-b2b-click-through-rate-strategies), and gives generative AI models the dense, structured data they rely on.
 
@@ -71,7 +71,7 @@ To establish unshakeable authority across both traditional search and AI retriev
 |                                                                               |
 | [Layer 1: Factual Chunking]      -> 120-180 word high-density data blocks     |
 | [Layer 2: Machine-Readable Graph]-> Nested JSON-LD schema with Wikidata links |
-| [Layer 3: Edge Server Velocity]  -> Sub-50ms TTFB prevents RAG timeouts       |
+| [Layer 3: Edge Server Velocity]  -> Fast server response reduces crawler timeouts       |
 | [Layer 4: Consensus Distribution]-> Owned objective comparison data hubs      |
 +-------------------------------------------------------------------------------+
 ```
@@ -94,12 +94,12 @@ Deploy an interconnected Schema.org JSON-LD graph linking:
 * `Person`: Your founder and key executives, linked directly to verified Google Skillshop, LinkedIn, and accreditation nodes.
 * `sameAs`: Explicit entity links pointing to verified Crunchbase, Wikidata, and industry registry entries.
 
-### Layer 3: Blistering Edge Velocity (Sub-50ms TTFB)
+### Layer 3: Blistering Edge Velocity (fast TTFB)
 When an AI assistant performs real-time web retrieval during an active inference session, it operates on strict internal latency deadlines. 
 
 If your monolithic WordPress or Webflow site takes 1,400 milliseconds to respond to an edge request, the retrieval browser times out and extracts data from a competitor's faster edge-cached server.
 
-Static Next.js exports hosted on global Content Delivery Networks deliver **sub-50ms Time to First Byte**, guaranteeing your content is available instantly during real-time retrieval loops.
+Static Next.js exports hosted on global Content Delivery Networks deliver **fast Time to First Byte**, guaranteeing your content is available instantly during real-time retrieval loops.
 
 ### Layer 4: Controlling the Competitor Comparison Vacuum
 When an enterprise buyer prompts an AI model to evaluate your software, what sources does the model read? 
@@ -118,10 +118,10 @@ Similar to how `robots.txt` guides search engine crawlers, `llms.txt` provides L
 
 ```markdown
 # Rankur - B2B Web Engineering & Technical SEO
-> Custom custom Next.js Next.js web systems for mid-market enterprise founders.
+> Custom Next.js web systems for mid-market enterprise founders.
 
 ## Core Services
-- Custom Next.js Static Edge Architecture (Sub-1.2s mobile LCP guarantee)
+- Custom Next.js Static Edge Architecture (Custom Next.js Web Architecture)
 - Generative Engine Optimization (GEO) & Schema Entity Graphs
 - 2-Step Progressive Qualification Funnels & Conversion Engineering
 
@@ -141,9 +141,9 @@ The table below contrasts the commercial profile of traditional organic search, 
 
 | Strategic Channel | Inbound Buyer Intent | Sales Cycle Velocity | Ongoing Capital Cost | Sustainable Moat |
 | :--- | :--- | :--- | :--- | :--- |
-| **Paid Search Ads (Google/LinkedIn)** | High (Immediate) | Fast | Extreme ($150+ per click; stops when budget ends) | Zero (Linear spend) |
+| **Paid Search Ads (Google/LinkedIn)** | High (Immediate) | Fast | Extreme (high cost-per-click; stops when budget ends) | Zero (Linear spend) |
 | **Traditional SEO (10 Blue Links)** | Moderate to High | Moderate | Moderate (Ongoing content and technical upkeep) | Moderate (Backlink authority) |
-| **Generative Engine Optimization (GEO)** | **Maximum (Pre-qualified by AI)** | **Very Fast (30% shorter cycles)**| **Low (Built into custom Next.js architecture)** | **Very High (Entity consensus moat)** |
+| **Generative Engine Optimization (GEO)** | **Maximum (Pre-qualified by AI)** | **Very Fast (shorter sales cycles)**| **Low (Built into custom Next.js architecture)** | **Very High (Entity consensus moat)** |
 
 When an enterprise buyer arrives on your website because an AI assistant explicitly recommended your company as the top-tier solution, **they arrive with immense pre-existing trust.** 
 
@@ -160,7 +160,7 @@ The transition from keyword-matching search engines to generative AI assistants 
 | B2B GEO STRATEGIC IMPLEMENTATION CHECKLIST                                    |
 |                                                                               |
 | [ ] Audit your brand citation frequency across Perplexity, ChatGPT, and Claude.|
-| [ ] Eliminate server latency; achieve sub-50ms TTFB via static edge delivery. |
+| [ ] Eliminate server latency; achieve fast TTFB via static edge delivery. |
 | [ ] Restructure core landing pages into dense 150-word factual chunks.        |
 | [ ] Deploy nested Schema.org JSON-LD linking Organization and Wikidata nodes. |
 | [ ] Publish an authoritative /llms.txt file summarizing verified capabilities.|

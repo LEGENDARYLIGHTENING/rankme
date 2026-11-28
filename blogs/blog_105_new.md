@@ -138,7 +138,7 @@ International buyers have zero patience for latency. If an executive in London o
 
 High-growth international B2B organizations deploy static edge rendering on frameworks like Next.js:
 - Global Content Delivery Network (CDN) edge routing.
-- Sub-0.8s Largest Contentful Paint (LCP) across international cohorts.
+- fast Largest Contentful Paint (LCP) across international cohorts.
 - Zero third-party plugin vulnerabilities and hardened security headers.
 
 ---

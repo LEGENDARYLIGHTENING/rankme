@@ -50,7 +50,7 @@ To engineer defensible web infrastructure, leadership must understand how enterp
 
 When an enterprise procurement team enters contract diligence, automated risk evaluation platforms (such as SecurityScorecard, BitSight, or UpGuard) automatically generate a security rating for your domain. If your score falls below an enterprise threshold (typically 85/100), the procurement process immediately halts.
 
-A single misconfigured DNS record, an insecure cookie policy, or an exposed WordPress administration portal can freeze a $250,000 enterprise contract for months.
+A single misconfigured DNS record, an insecure cookie policy, or an exposed WordPress administration portal can freeze a significant budget enterprise contract for months.
 
 ---
 
@@ -159,7 +159,7 @@ To ensure your web infrastructure satisfies enterprise vendor risk requirements,
 +----+------------------------------+---------------------------------------------------------------+
 | #  | Operational Checkpoint       | Executive Verification Standard                               |
 +----+------------------------------+---------------------------------------------------------------+
-| 1  | Architecture Decoupling      | 100% static edge delivery with no public database exposure.   |
+| 1  | Architecture Decoupling      | a significant share static edge delivery with no public database exposure.   |
 | 2  | Security Header Deployment   | A+ grade on Mozilla Observatory and SecurityScorecard scans.  |
 | 3  | Conditional Consent Logic    | Zero tracking scripts fire prior to explicit GDPR consent.    |
 | 4  | Machine-Readable Compliance  | Structured JSON-LD schemas verifying SOC 2 and ISO certs.     |

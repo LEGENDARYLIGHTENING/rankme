@@ -19,7 +19,7 @@ If an enterprise company wanted to evaluate enterprise software, industrial manu
 
 That information monopoly has completely collapsed.
 
-Today, enterprise procurement committees conduct 70% to 85% of their vendor evaluation completely in the dark, long before they ever submit a form or speak to an Account Executive. The primary engine powering this anonymous, pre-sales evaluation is conversational AI.
+Today, enterprise procurement committees conduct a substantial share of their vendor evaluation completely in the dark, long before they ever submit a form or speak to an Account Executive. The primary engine powering this anonymous, pre-sales evaluation is conversational AI.
 
 Procurement directors, Chief Information Security Officers (CISOs), VPs of Engineering, and Chief Financial Officers are routinely prompting Perplexity, ChatGPT, Claude, and Google AI Overviews to dissect vendor capabilities, uncover hidden implementation costs, evaluate compliance certifications, and synthesize final vendor shortlists.
 
@@ -136,7 +136,7 @@ Provide transparent pricing benchmarks. If your enterprise contracts are fully b
 ### 3. Replace Generic Whitepapers with Interactive Calculators
 Deploy interactive tools that allow buyers to calculate migration costs, project timelines, and operational ROI directly in their browsers. These tools provide immense value to human buyers while creating unique data structures that generative engines love to cite.
 
-To understand how to convert these visitors into qualified meetings, read our masterclass on [Why 50% of Booked B2B Demos Ghost You (And How to Fix It)](/blog/b2b-demo-requests-fail-attended-meetings-599).
+To understand how to convert these visitors into qualified meetings, read our masterclass on [Why a significant share of Booked B2B Demos Ghost You (And How to Fix It)](/blog/b2b-demo-requests-fail-attended-meetings-599).
 
 ---
 

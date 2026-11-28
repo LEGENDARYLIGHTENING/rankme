@@ -31,10 +31,10 @@ The table below breaks down the four distinct vendor tiers in the commercial web
 
 | Vendor Tier | Investment Range | Typical Timeline | Primary Deliverable | Risk Profile |
 | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1: Solo Freelancer / Offshore Shop** | $3,500 to $8,500 | 3 to 6 weeks | Pre-built WordPress or Webflow template customization | High risk. Sluggish mobile speeds, generic styling, zero technical SEO governance. |
-| **Tier 2: General Digital Agency** | $15,000 to $28,000 | 8 to 14 weeks | Semi-custom design on WordPress, Webflow, or Hubspot CMS | Moderate risk. Good aesthetic polish, basic on-page metadata. Often fails Core Web Vitals. |
-| **Tier 3: Specialized Web Engineering Consultancy** | $25,000 to $55,000 | 8 to 12 weeks | Custom Next.js static edge architecture, bespoke conversion funnels | Very low risk. Milestone-based delivery, guaranteed sub-1.2s mobile LCP, nested schema, high-intent CRO. |
-| **Tier 4: Global Brand Agency** | $85,000 to $175,000+ | 6 to 9 months | Full enterprise rebrand, extensive workshops, multi-lingual CMS | High cost. Heavy bureaucratic overhead, endless discovery decks, slow time-to-market. |
+| **Tier 1: Solo Freelancer / Offshore Shop** | variable agency budgets | 3 to 6 weeks | Pre-built WordPress or Webflow template customization | High risk. Sluggish mobile speeds, generic styling, zero technical SEO governance. |
+| **Tier 2: General Digital Agency** | variable agency budgets | 8 to 14 weeks | Semi-custom design on WordPress, Webflow, or Hubspot CMS | Moderate risk. Good aesthetic polish, basic on-page metadata. Often fails Core Web Vitals. |
+| **Tier 3: Specialized Web Engineering Consultancy** | variable agency budgets | 8 to 12 weeks | Custom Next.js static edge architecture, bespoke conversion funnels | Very low risk. Milestone-based delivery, supports fast load times, nested schema, high-intent CRO. |
+| **Tier 4: Global Brand Agency** | variable agency budgets | 6 to 9 months | Full enterprise rebrand, extensive workshops, multi-lingual CMS | High cost. Heavy bureaucratic overhead, endless discovery decks, slow time-to-market. |
 
 ---
 
@@ -47,7 +47,7 @@ Watch out for these three structural traps:
 ### Trap 1: The Hourly Discovery Black Hole
 Many large agencies pitch a "Time and Materials" or hourly billing model. They begin with an open-ended "Discovery Phase" involving 40 hours of stakeholder interviews, mood boards, and user persona workshops. 
 
-Before a single line of production code is written or a single page is designed, you have already burned $20,000 of your budget.
+Before a single line of production code is written or a single page is designed, you have already burned significant budget of your budget.
 
 **The Fix:** Never sign an open-ended hourly contract for a website rebuild. Insist on a **fixed-fee, milestone-based agreement** where payments are tied directly to tangible, verified deliverables (e.g., Milestone 1: Approved Architecture, Milestone 2: Production Code & Core Web Vitals Verification, Milestone 3: Final Launch & SEO Sign-Off).
 
@@ -61,7 +61,7 @@ When you hand those designs to a developer, you discover that the animations req
 ### Trap 3: The Post-Launch Traffic Collapse (Ignoring Redirects)
 The most catastrophic mistake in web redesigns occurs when an agency launches a visually stunning new site without conducting a rigorous **301 redirect audit**. 
 
-They change URL slugs, delete old blog posts, and alter page structures without mapping legacy URLs. Google crawls the new site, encounters hundreds of 404 errors, and your organic search rankings collapse by 50% to 80% overnight.
+They change URL slugs, delete old blog posts, and alter page structures without mapping legacy URLs. Google crawls the new site, encounters hundreds of 404 errors, and your organic search rankings collapse by a substantial share overnight.
 
 **The Fix:** Demand a formal **301 Redirect Mapping Protocol** in your contract scope. Every single historical URL with existing Google search authority must be mapped with a single-hop 301 redirect to its exact canonical destination, with zero redirect chains or loops.
 
@@ -76,7 +76,7 @@ When negotiating a website redesign contract with any digital consultancy, ensur
 | THE 5 ESSENTIAL B2B REDESIGN CONTRACT DELIVERABLES                            |
 |                                                                               |
 | [Deliverable 1: Core Web Vitals SLA]  -> Mobile LCP < 1.2s, Lighthouse 90+    |
-| [Deliverable 2: Complete Redirection] -> 100% legacy URLs mapped with 301s    |
+| [Deliverable 2: Complete Redirection] -> a significant share legacy URLs mapped with 301s    |
 | [Deliverable 3: Structured Data Graph]-> Nested Organization, Person, Service |
 | [Deliverable 4: High-Converting Funnel]-> 2-step progressive qualification    |
 | [Deliverable 5: 90-Day Ranking Audit] -> Active monitoring of GSC indexing    |
@@ -87,7 +87,7 @@ When negotiating a website redesign contract with any digital consultancy, ensur
 Do not accept vague promises like "The site will be fast." Require a contractually guaranteed performance benchmark: **mobile Largest Contentful Paint (LCP) under 1.2 seconds** and a Google Lighthouse mobile score of 90+ across all core landing pages.
 
 ### 2. Full Content Migration & Single-Hop 301 Redirection
-Ensure the scope includes migrating your existing authoritative blog content, case studies, and customer proof, along with a comprehensive redirection matrix that preserves 100% of your existing search equity.
+Ensure the scope includes migrating your existing authoritative blog content, case studies, and customer proof, along with a comprehensive redirection matrix that preserves a significant share of your existing search equity.
 
 ### 3. Nested Schema.org JSON-LD Structured Data
 Demand full implementation of connected schema graphs (`Organization`, `Person`, `Service`, `FAQPage`, `BreadcrumbList`, and `BlogPosting`) to ensure both Googlebot and modern AI search engines (Perplexity, ChatGPT) parse and cite your brand as an authoritative industry entity.
@@ -108,16 +108,16 @@ To ensure perfect alignment of incentives, structure your project payments acros
 +-------------------------------------------------------------------------------+
 | THE MILESTONE-BASED GOVERNANCE MODEL                                          |
 |                                                                               |
-| Milestone 1: Commercial Positioning & Architectural Blueprint (30% Payment)   |
+| Milestone 1: Commercial Positioning & Architectural Blueprint (a significant share Payment)   |
 | * Approved wireframes, revised positioning copy, technical stack sign-off.    |
 |                                                                               |
-| Milestone 2: Complete Production Code & Speed Benchmark (30% Payment)         |
-| * Functional Next.js staging build, sub-1.2s mobile LCP verified.            |
+| Milestone 2: Complete Production Code & Speed Benchmark (a significant share Payment)         |
+| * Functional Next.js staging build, fast mobile LCP verified.            |
 |                                                                               |
-| Milestone 3: Content Migration & 301 Redirection Audit (20% Payment)          |
+| Milestone 3: Content Migration & 301 Redirection Audit (a significant share Payment)          |
 | * Zero broken internal links, sitemaps generated, redirect matrix tested.    |
 |                                                                               |
-| Milestone 4: Production Launch & 30-Day Invariant Sign-Off (20% Payment)      |
+| Milestone 4: Production Launch & 30-Day Invariant Sign-Off (a significant share Payment)      |
 | * Live DNS switchover, GSC sitemap submission, 0 post-launch errors.          |
 +-------------------------------------------------------------------------------+
 ```

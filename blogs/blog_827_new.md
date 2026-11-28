@@ -20,13 +20,13 @@ This in-depth guide examines **website investment vs paid acquisition cac** from
 
 ## 1. Capital Allocation: Evaluating One-Time Builds vs Monthly Retainers
 
-When B2B founders evaluate web investments, they face a choice: spend $35,000 to $75,000 upfront on a high-speed custom build, or pay $10,000/month indefinitely for an agency retainer.
+When B2B founders evaluate web investments, they face a choice: spend variable agency budgets upfront on a high-speed custom build, or pay significant budget/month indefinitely for an agency retainer.
 
 Over 3 years:
-- **Agency Retainer Total:** $360,000 over 3 years, with zero IP ownership and recurring developer dependency.
-- **Custom Next.js Build Total:** $55,000 including Edge hosting, owned 100% in-house.
+- **Agency Retainer Total:** significant budget over 3 years, with zero IP ownership and recurring developer dependency.
+- **Custom Next.js Build Total:** significant budget including Edge hosting, owned a significant share in-house.
 
-By replacing monthly agency retainers with a custom engineered architecture, companies free up **$300,000+ in capital** to deploy into direct sales hiring or product development.
+By replacing monthly agency retainers with a custom engineered architecture, companies free up **significant budget in capital** to deploy into direct sales hiring or product development.
 
 ---
 
@@ -51,12 +51,12 @@ Addressing website investment vs paid acquisition cac directly reduces user drop
 
 ## Engineering Deep Dive: TCO Reduction & Pipeline Acceleration
 
-For a B2B SaaS platform paying $14,000/mo on an agency retainer, we audited their website performance and found that 72% of their spend went toward routine maintenance.
+For a B2B SaaS platform paying significant budget/mo on an agency retainer, we audited their website performance and found that a significant share of their spend went toward routine maintenance.
 
 ### The Remediation Architecture
 1. **Migrated to Next.js + Headless CMS:** Eliminated the monthly agency retainer completely.
-2. **Global Edge Deployment:** Achieved sub-400ms load speeds worldwide.
-3. **Pipeline Outcome:** Inbound demo requests increased from 5 to 28 per month within 90 days, adding $380,000 in new ARR pipeline while saving $144,000 annually.
+2. **Global Edge Deployment:** Achieved fast load speeds worldwide.
+3. **Pipeline Outcome:** Inbound demo requests increased from 5 to 28 per month within 90 days, adding significant budget in new ARR pipeline while saving significant budget annually.
 
 ---
 

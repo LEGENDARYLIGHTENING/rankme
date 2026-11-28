@@ -118,7 +118,7 @@ Your website is not a marketing brochure; it is high-performance infrastructure.
 ### Sales and Revenue Operations: Calibrating for Velocity
 Revenue operations must update CRM tracking to isolate inbound leads originating from `perplexity.ai`, `chatgpt.com`, and other generative referrers. Sales leadership must retrain Account Executives: when a prospect arrives via generative discovery, they do not need a 45-minute company overview; they need deep architectural confirmation and contract structuring.
 
-To understand why treating web engineering casually destroys enterprise pipeline, explore our guide on [Why Cheap Web Agencies Cost $100k+ in Lost Pipeline](/blog/cheap-web-agencies-cost-100k-lost-pipeline-328).
+To understand why treating web engineering casually destroys enterprise pipeline, explore our guide on [Why Cheap Web Agencies Cost significant budget in Lost Pipeline](/blog/cheap-web-agencies-cost-100k-lost-pipeline-328).
 
 ---
 
@@ -126,12 +126,12 @@ To understand why treating web engineering casually destroys enterprise pipeline
 
 Integrating GEO fundamentally alters the return on marketing capital.
 
-For years, enterprise B2B organizations poured millions of dollars into paid search auctions, bidding $80+ per click on Google and LinkedIn. As ad auctions inflated, Customer Acquisition Costs soared, forcing organizations onto an unsustainable spending treadmill.
+For years, enterprise B2B organizations poured millions of dollars into paid search auctions, bidding high cost-per-click on Google and LinkedIn. As ad auctions inflated, Customer Acquisition Costs soared, forcing organizations onto an unsustainable spending treadmill.
 
 ```
 +-------------------------------------------------------------+
 | Rented Ad Spending (Linear & Depreciating)                  |
-| Spend $50,000 / month -> Stop spend -> Zero Inbound Pipeline|
+| Spend significant budget / month -> Stop spend -> Zero Inbound Pipeline|
 +-------------------------------------------------------------+
                               VS
 +-------------------------------------------------------------+
@@ -141,7 +141,7 @@ For years, enterprise B2B organizations poured millions of dollars into paid sea
 +-------------------------------------------------------------+
 ```
 
-By reallocating 40% to 60% of paid ad budgets toward high-performance web engineering, structured entity authority, and primary-source research, organizations build permanent digital equity. The resulting citation dominance delivers pre-qualified enterprise inbound opportunities month after month without incurring incremental auction fees.
+By reallocating a substantial share of paid ad budgets toward high-performance web engineering, structured entity authority, and primary-source research, organizations build permanent digital equity. The resulting citation dominance delivers pre-qualified enterprise inbound opportunities month after month without incurring incremental auction fees.
 
 To review a detailed financial breakdown of this capital reallocation, read our analysis on [getting found in Google, ChatGPT, and Perplexity for B2B](/blog/getting-found-google-chatgpt-perplexity-b2b).
 
@@ -168,7 +168,7 @@ To evaluate whether your organization has successfully integrated GEO across its
 | #  | Operational Checkpoint       | Executive Integration Standard                                |
 +----+------------------------------+---------------------------------------------------------------+
 | 1  | Machine-Readable Messaging   | Core value propositions structured in concise factual units.  |
-| 2  | Infrastructure Reliability   | server-rendered Edge SSR with 100% valid nested JSON-LD schemas.   |
+| 2  | Infrastructure Reliability   | server-rendered Edge SSR with a significant share valid nested JSON-LD schemas.   |
 | 3  | Commercial Transparency      | Un-gated pricing tiers, implementation ranges, and ROI tools. |
 | 4  | RevOps Citation Attribution  | CRM tracking isolating AI referral opportunities and pipeline.|
 | 5  | Sales Enablement Alignment   | Sales reps equipped with third-party generative validation.   |

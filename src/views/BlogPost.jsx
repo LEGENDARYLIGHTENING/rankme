@@ -1,22 +1,40 @@
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import HeroSection from '../components/HeroSection';
 import './BlogPost.css';
 import './Blog.css';
+
+function getNodeText(node) {
+  if (node == null || typeof node === 'boolean') return '';
+  if (typeof node === 'string' || typeof node === 'number') return String(node);
+  if (Array.isArray(node)) return node.map(getNodeText).join('');
+  if (node.props && node.props.children !== undefined) return getNodeText(node.props.children);
+  return '';
+}
+
+function slugifyHeading(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+}
 
 function extractHeadings(markdown) {
   if (!markdown) return [];
   const headings = [];
   const lines = markdown.split('\n');
+  let inCodeFence = false;
   for (const line of lines) {
+    if (line.trim().startsWith('```')) {
+      inCodeFence = !inCodeFence;
+      continue;
+    }
+    if (inCodeFence) continue;
     const match = line.match(/^##\s+(.+)$/);
     if (match) {
       const rawText = match[1].replace(/[*_`]/g, '').trim();
-      const id = rawText
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/(^-|-$)/g, '');
-      headings.push({ text: rawText, id });
+      headings.push({ text: rawText, id: slugifyHeading(rawText) });
     }
   }
   return headings;
@@ -69,7 +87,7 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                     </svg>
-                    Verified B2B Practitioner
+                    Founder, Rankur
                   </span>
                 </div>
                 <div className="author-meta-line">
@@ -172,7 +190,7 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
                 </svg>
                 <span>In This Guide: Architecture &amp; Key Sections</span>
               </div>
-              <ol className="toc-list">
+              <ol className="toc-list" style={{ listStyle: 'none', paddingLeft: 0 }}>
                 {headings.map((h, i) => (
                   <li key={i}>
                     <a href={`#${h.id}`}>
@@ -188,13 +206,11 @@ export default function BlogPost({ postMeta, content, relatedPosts }) {
           {/* Main Article Prose */}
           <div className="markdown-prose">
             <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
               components={{
                 h2: ({ node, children, ...props }) => {
-                  const text = String(children);
-                  const id = text
-                    .toLowerCase()
-                    .replace(/[^a-z0-9]+/g, '-')
-                    .replace(/(^-|-$)/g, '');
+                  const text = getNodeText(children).trim();
+                  const id = slugifyHeading(text);
                   return (
                     <h2 id={id} className="blog-heading-h2" {...props}>
                       <a href={`#${id}`} className="heading-anchor" aria-hidden="true">#</a>

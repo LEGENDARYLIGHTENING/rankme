@@ -21,7 +21,7 @@ When an enterprise decision-maker, procurement executive, or founder lands on yo
 
 If your homepage hero section fails this five-second test, nothing else on your website matters. 
 
-It does not matter how brilliant your case studies are, how advanced your features are, or how much you spent on digital advertising. Over 50% of your visitors will exit the tab before they ever scroll past the fold.
+It does not matter how brilliant your case studies are, how advanced your features are, or how much you spent on digital advertising. Over a significant share of your visitors will exit the tab before they ever scroll past the fold.
 
 Yet, when you review modern B2B websites, the vast majority of hero sections are filled with abstract corporate poetry, generic stock illustrations, and passive buttons that actively repel high-intent buyers.
 
@@ -99,7 +99,7 @@ $$\text{Action Verb} + \text{Target Audience} + \text{Specific Commercial Outcom
 **Examples:**
 * *"I Build Custom B2B Websites Engineered to Rank & Convert"*
 * *"Precision Titanium CNC Components Delivered in 10 Days for Medical Device OEMs"*
-* *"Automated Fleet Compliance Software That Cuts Audit Prep Time by 70%"*
+* *"Automated Fleet Compliance Software That Cuts Audit Prep Time by a significant share"*
 
 Notice that each headline answers who the product is for, what specific outcome it achieves, and why it matters to a business leader.
 
@@ -110,7 +110,7 @@ Never give visitors just one dead-end choice. Provide a balanced dual-action pat
 
 ### Pillar 4: The Verifiable Enterprise Proof Bar
 Directly beneath your CTA buttons, place a dedicated trust anchor row:
-* Verified client metrics: *"310% Inbound Lead Lift for Wafa Educational & Charitable Trust"*
+* Verified client metrics: *"a significant share Inbound Lead Lift for Wafa Educational & Charitable Trust"*
 * Real third-party credentials: Clickable Google Analytics Skillshop, HubSpot, or ISO 9001 badges.
 * Authentic founder portrait: A high-resolution photo of the founder or leadership team proving human accountability.
 
@@ -127,7 +127,7 @@ The table below contrasts standard agency hero sections against high-converting 
 | **Supporting Copy** | *"We create bespoke digital solutions tailored to your unique enterprise requirements."* | *"Fast, custom Next.js websites for B2B founders structured for Google search, AI answer visibility, and qualified pipeline leads."* |
 | **Visual Asset** | Floating 3D purple isometric illustration | High-resolution interactive product interface with real performance metrics |
 | **Primary CTA** | *"Get Started"* (Ambiguous) | *"Request a Free Technical Site & SEO Audit"* (Value-driven) |
-| **Social Proof** | Anonymous quote: "Great work!" - John | Clickable Skillshop credentials + *"Scaled Inquiries 310% for Wafa Trust"* |
+| **Social Proof** | Anonymous quote: "Great work!" - John | Clickable Skillshop credentials + *"Scaled Inquiries a significant share for Wafa Trust"* |
 
 ---
 

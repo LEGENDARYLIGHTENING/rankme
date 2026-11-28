@@ -68,7 +68,7 @@ The table below contrasts the day-to-day operational reality of traditional mono
 
 | Operational Metric | Traditional Monolithic CMS (WordPress/Drupal) | Modern Headless CMS (Headless + Next.js) |
 | :--- | :--- | :--- |
-| **Server Response Time (TTFB)** | 800ms to 2,500ms (PHP server execution) | Sub-50ms (Pre-compiled static edge delivery) |
+| **Server Response Time (TTFB)** | 800ms to 2,500ms (PHP server execution) | fast (Pre-compiled static edge delivery) |
 | **Mobile Core Web Vitals** | Poor (35 to 65 / 100 on Google Lighthouse) | Flawless (95 to 100 / 100 on Google Lighthouse) |
 | **Security Surface Area** | Extreme (Exposed database, vulnerable plugins) | Near Zero (No public database, static assets) |
 | **Content Publishing Workflow** | Cluttered visual editor, risky live page edits | Clean, structured content studio with staging previews |
@@ -81,10 +81,10 @@ The table below contrasts the day-to-day operational reality of traditional mono
 
 Why are enterprise B2B organizations, high-ticket manufacturers, and software consultancies migrating from traditional monoliths to headless systems? The transition is driven by three distinct commercial advantages:
 
-### Advantage 1: Eliminating the 53% Mobile Bounce Penalty
+### Advantage 1: Eliminating the a significant share Mobile Bounce Penalty
 On a monolithic CMS, every page request triggers database queries and executes thousands of lines of server-side code before rendering HTML. 
 
-On cellular networks, this latency causes mobile page load times to stretch past 4 seconds. Google's empirical data confirms that over 53% of mobile visitors abandon a website if it takes longer than 3 seconds to load.
+On cellular networks, this latency causes mobile page load times to stretch past 4 seconds. Google's empirical data confirms that over a significant share of mobile visitors abandon a website if it takes longer than 3 seconds to load.
 
 With a headless Next.js architecture, pages are pre-compiled into static HTML and cached across a global Content Delivery Network (CDN) at hundreds of edge locations worldwide. 
 
@@ -152,7 +152,7 @@ Migrating to a headless architecture is a strategic decision that separates high
 | * You are comfortable paying monthly agency fees for plugin maintenance.      |
 |                                                                               |
 | Headless CMS Architecture is Required If:                                     |
-| * Your average closed contract value exceeds $20,000.                          |
+| * Your average closed contract value exceeds significant budget                          |
 | * You require server-rendered mobile page speeds across global markets.            |
 | * You need absolute security isolation with zero database breach risk.        |
 | * Your marketing team demands publishing speed without layout vulnerability.  |

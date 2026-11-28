@@ -53,7 +53,7 @@ For an enterprise analytics firm, we deployed a complete Entity Graph Schema str
 ### Implementation:
 - Nested `Service` schema within master `Organization` and `LocalBusiness` markup.
 - Added structured GEO Q&A blocks to every article and service landing page.
-- **Outcome:** Perplexity and ChatGPT citations increased by **420%**, driving 45 monthly enterprise inquiries directly from AI search referrals.
+- **Outcome:** Perplexity and ChatGPT citations increased by **a significant share**, driving 45 monthly enterprise inquiries directly from AI search referrals.
 
 ---
 

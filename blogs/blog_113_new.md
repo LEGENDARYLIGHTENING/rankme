@@ -44,7 +44,7 @@ Words like *industry-leading, state-of-the-art, innovative, cutting-edge,* and *
 
 Consider the contrast:
 - **Fluffy Copy (Ignored by AI):** *"We offer industry-leading, cutting-edge B2B web development services designed to maximize your digital synergy."*
-- **Factual Copy (Extracted & Cited by AI):** *"We engineer custom Next.js web systems delivering sub-0.8s Largest Contentful Paint (LCP) and zero third-party CMS plugin vulnerabilities, transferring 100% source code ownership upon launch."*
+- **Factual Copy (Extracted & Cited by AI):** *"We engineer custom Next.js web systems delivering fast Largest Contentful Paint (LCP) and zero third-party CMS plugin vulnerabilities, transferring a significant share source code ownership upon launch."*
 
 The second sentence provides hard technical parameters, measurable speed metrics, and specific commercial deliverables. When an AI receives a prompt about enterprise web performance standards, it extracts the factual data and cites your URL.
 

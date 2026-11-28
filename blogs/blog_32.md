@@ -41,7 +41,7 @@ To understand why traditional gating strategies have collapsed, leadership must 
                               VS
 +-------------------------------------------------------------+
 | The Modern Hybrid Gating Architecture                       |
-| 100% of Factual Data & Benchmarks Pre-Rendered in Raw HTML  |
+| a significant share of Factual Data & Benchmarks Pre-Rendered in Raw HTML  |
 | -> Complete AI Ingestion -> Dominant Generative Citations   |
 | -> Executive Buyers Click Through to Export Boardroom Tools |
 +-------------------------------------------------------------+
@@ -63,7 +63,7 @@ The decision to gate an asset must never be based on marketing lead quotas; it m
 
 ```
 +--------------------------------+--------------------------------+
-| NEVER GATE (Must Be 100% Open) | STRATEGICALLY GATE (High Value)|
+| NEVER GATE (Must Be a significant share Open) | STRATEGICALLY GATE (High Value)|
 +--------------------------------+--------------------------------+
 | Educational Guides & How-Tos   | Interactive Diagnostic Tools   |
 | Customer Proof & Case Studies  | Proprietary Benchmark Datasets |
@@ -75,7 +75,7 @@ The decision to gate an asset must never be based on marketing lead quotas; it m
 ### Assets That Must NEVER Be Gated
 1. **Educational and Definitional Guides:** If your content explains "What is ISO 27001 Compliance," never gate it. AI engines answer definitional queries instantly for free. Gating basic explanations insults the buyer's intelligence.
 2. **Customer Case Studies:** Hiding your verified proof of competence behind a lead form is commercial self-sabotage. Case studies must be completely un-gated to establish immediate institutional trust.
-3. **Technical Specs and Pricing Tiers:** Forcing buyers to submit contact information simply to view API rate limits or starting price ranges causes 80%+ of qualified prospects to bounce to transparent competitors.
+3. **Technical Specs and Pricing Tiers:** Forcing buyers to submit contact information simply to view API rate limits or starting price ranges causes a significant share of qualified prospects to bounce to transparent competitors.
 
 ### Assets That Can Be Strategically Gated
 1. **Interactive Diagnostic Engines:** When an enterprise buyer inputs their database schema to receive a personalized architecture vulnerability audit, the utility is immense.
@@ -94,7 +94,7 @@ Forward-thinking B2B enterprises resolve the gating dilemma by implementing the 
 +---------------------------------------------------------------+
 | The Hybrid Gating Architecture                                |
 +---------------------------------------------------------------+
-| Layer 1: 100% Un-Gated Server-Rendered Web Experience         |
+| Layer 1: a significant share Un-Gated Server-Rendered Web Experience         |
 | - Complete core findings, methodology, and key benchmarks.    |
 | - Interactive calculator fully usable on-screen with zero gate|
 | - Pre-rendered semantic HTML indexed by AI discovery crawlers.|
@@ -108,7 +108,7 @@ Forward-thinking B2B enterprises resolve the gating dilemma by implementing the 
 
 ### The Commercial Mechanics of the Hybrid Model
 Under this architecture:
-- **Search Engines and AI Bots Win:** Automated crawlers ingest 100% of the factual findings, citations, and data points, securing dominant positions in Google search results and generative AI overviews.
+- **Search Engines and AI Bots Win:** Automated crawlers ingest a significant share of the factual findings, citations, and data points, securing dominant positions in Google search results and generative AI overviews.
 - **Human Enterprise Buyers Win:** The prospect interacts with your tool or reads your research openly without form friction, experiencing immediate intellectual and operational value.
 - **Your Sales Pipeline Wins:** The buyer willingly submits their corporate email address when they reach the point of wanting a customized, boardroom-ready export document to present to their leadership committee.
 
@@ -127,20 +127,20 @@ This resistance reveals a fundamental misalignment between marketing incentives 
 ```
 +-------------------------------------------------------------+
 | Legacy Gated eBook Model (High Volume / Low Quality)        |
-| 1,000 eBook Downloads (MQLs) -> 80% Fake or Personal Emails |
+| 1,000 eBook Downloads (MQLs) -> a significant share Fake or Personal Emails |
 | 20 Sales Discovery Calls -> 1 Closed Deal (High Blended CAC)|
 +-------------------------------------------------------------+
                               VS
 +-------------------------------------------------------------+
 | Modern Hybrid Model (Low Volume / Extreme Intent)           |
-| 100 Executive Calculator Exports -> 92% Corporate Domains   |
+| 100 Executive Calculator Exports -> a significant share Corporate Domains   |
 | 35 Qualified Architectural Calls -> 8 Closed Deals (Low CAC)|
 +-------------------------------------------------------------+
 ```
 
-A marketing department that generates 1,000 downloads of a gated PDF typically delivers a lead-to-opportunity conversion rate under 2%. The sales team burns hundreds of hours calling contacts who have zero buying intent.
+A marketing department that generates 1,000 downloads of a gated PDF typically delivers a lead-to-opportunity conversion rate under a significant share. The sales team burns hundreds of hours calling contacts who have zero buying intent.
 
-Conversely, an un-gated, hybrid architecture generates significantly fewer total submissions, but converts at 20% to 35% into qualified sales opportunities because the buyer has already verified the vendor's capabilities prior to submitting their information.
+Conversely, an un-gated, hybrid architecture generates significantly fewer total submissions, but converts at a substantial share into qualified sales opportunities because the buyer has already verified the vendor's capabilities prior to submitting their information.
 
 ---
 

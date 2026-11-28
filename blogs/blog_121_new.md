@@ -12,7 +12,7 @@ Date: 2026-08-30
 
 # Why Your B2B Website Traffic Is Not Converting Into Sales Calls
 
-You check your Google Analytics dashboard and see green arrows: impressions are climbing, organic sessions are up 40%, and your marketing team is celebrating. 
+You check your Google Analytics dashboard and see green arrows: impressions are climbing, organic sessions are up a significant share, and your marketing team is celebrating. 
 
 Yet, when you open your CRM, your sales calendar is bone dry. Inbound RFQs are non-existent, and the few demo requests arriving in your inbox come from low-budget tire-kickers who can't afford your minimum engagement size.
 
@@ -50,7 +50,7 @@ If your inquiry form asks for 12 required fields, including phone number, compan
 While marketing teams love progressive profiling and lead scoring data, enterprise buyers value their time above all else. 
 
 ### Why Phone Fields Kill Conversions
-Requiring a phone number on a B2B form drops conversion rates by up to **42%**. Decision-makers know that entering a phone number means getting hounded by aggressive SDRs 5 minutes later. 
+Requiring a phone number on a B2B form drops conversion rates by up to **a significant share**. Decision-makers know that entering a phone number means getting hounded by aggressive SDRs 5 minutes later. 
 
 ### The Friction-Free Lead Capture Architecture
 1. **Reduce Friction Upfront:** Ask only for `Work Email`, `Full Name`, and `Website URL`.
@@ -63,7 +63,7 @@ Requiring a phone number on a B2B form drops conversion rates by up to **42%**. 
 
 B2B buyers do not wait 5 seconds for a heavy, unoptimized WordPress theme to load. 
 
-According to Google performance studies, if your mobile load time exceeds 2.5 seconds, **over 53% of mobile visitors bounce before the first element even renders**.
+According to Google performance studies, if your mobile load time exceeds 2.5 seconds, **over a significant share of mobile visitors bounce before the first element even renders**.
 
 If your site is built on legacy WordPress with 45 active plugins, unoptimized 5MB hero images, and render-blocking tracking scripts, your mobile site is bleeding pipeline every single hour.
 

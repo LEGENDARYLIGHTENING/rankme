@@ -37,7 +37,7 @@ What strategies are wellness brands using to scale in 2026? In 2026, wellness br
 Health brand scaling requires abandoning single-channel reliance. You must build an interconnected ecosystem that drives traffic, builds trust, and retains buyers automatically.
 
 To implement a robust scaling strategy, focus on these actionable takeaways:
-- Launch a seamless 'subscribe and save' program offering 15% to 20% discounts to lock in recurring revenue.
+- Launch a seamless 'subscribe and save' program offering a substantial share discounts to lock in recurring revenue.
 - Invest in long-form, medically reviewed SEO content to capture users researching specific health conditions and ingredient benefits.
 - Utilize SMS marketing flows to handle abandoned carts and provide personalized refill reminders before a customer runs out of product.
 - Diversify acquisition by expanding into B2B wholesale channels, pitching your top-performing SKUs to specialized health retailers.

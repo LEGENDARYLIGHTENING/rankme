@@ -3,7 +3,7 @@ SEO Title: Eliminating Cumulative Layout Shift (CLS) on High-Traffic Se
 Meta Description: Eliminating Cumulative Layout Shift (CLS) on High-Traffic Service Pages. Learn how B2B founders optimize website pipeline, page speed, and conversion friction.
 Slug: eliminating-cls-cumulative-layout-shift-service-pages-483
 Primary Keyword: eliminate cumulative layout shift cls b2b
-Secondary Keywords: eliminate cumulative layout shift cls b2b b2b, tech & speed strategy, b2b website redesign roi
+Secondary Keywords: eliminate cumulative layout shift cls B2B, tech & speed strategy, b2b website redesign roi
 GEO Phrase: How do developers eliminate Cumulative Layout Shift on B2B service pages?
 Target Market: US / UK / Global
 Niche Tag: Tech & Speed
@@ -31,7 +31,7 @@ Mobile site speed directly impacts executive purchase decisions:
 
 Monolithic CMS platforms require database lookups on server request, causing high TTFB. 
 
-**Next.js App Router** uses pre-rendered Static Site Generation (SSG) served from global Edge locations, delivering sub-100ms response times anywhere on Earth.
+**Next.js App Router** uses pre-rendered Static Site Generation (SSG) served from global Edge locations, delivering fast response times anywhere on Earth.
 
 ---
 
@@ -52,7 +52,7 @@ A B2B industrial exporter's WordPress site suffered from a 4.8-second mobile LCP
 ### Next.js Architecture Pivot:
 - Framework: Next.js App Router + React Server Components.
 - Edge CDN: Vercel Global Edge Network.
-- **Outcome:** LCP reduced to **320ms**, mobile conversion rates rose **280%**, and organic search traffic increased by **340%**.
+- **Outcome:** LCP reduced to **320ms**, mobile conversion rates rose **a significant share**, and organic search traffic increased by **a significant share**.
 
 ---
 
