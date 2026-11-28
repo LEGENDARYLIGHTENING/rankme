@@ -649,6 +649,12 @@ async function runPostbuildChecks() {
     if (/\bTODO\b/i.test(html)) {
       fail(`[P0] Rendered page HTML contains "TODO": ${rel}`);
     }
+    if (/#[^"]*object-object/i.test(html)) {
+      fail(`[Phase9] Built HTML contains broken heading anchor ending in object-object: ${rel}`);
+    }
+    if (/<p>\s*\|[^<]*\|[^<]*<\/p>/i.test(html)) {
+      fail(`[Phase9] Built HTML contains raw-pipe markdown table row: ${rel}`);
+    }
     const rMatch = html.match(/<meta[^>]*name=["']robots["'][^>]*content=["']([^"']+)["']/i);
     if (rMatch && /noindex/i.test(rMatch[1])) continue;
     const route = rel === 'index.html' ? '' : '/' + rel.replace(/\.html$/, '');
@@ -672,6 +678,28 @@ if (isPostbuild) {
   await runPostbuildChecks();
 } else {
   await runPrebuildChecks();
+  // Phase 9 prebuild blog hygiene checks
+  const blogDir = path.join(rootDir, 'blogs');
+  if (fs.existsSync(blogDir)) {
+    const dupRe = /\b(Next\.js|custom|b2b|the|and|for|to|of|in|a|with|your|website|seo|geo)\s+\1\b/i;
+    const speedGuaranteeRe = /\bguarantee\w*\b[^.\n]{0,40}\b(?:ms|s\b|speed|LCP|TTFB|fast)/i;
+    for (const f of fs.readdirSync(blogDir).filter((x) => x.endsWith('.md'))) {
+      const txt = fs.readFileSync(path.join(blogDir, f), 'utf8');
+      if (dupRe.test(txt)) {
+        fail(`[Phase9] Adjacent duplicate word in blogs/${f}`);
+      }
+      if (speedGuaranteeRe.test(txt)) {
+        fail(`[Phase9] Speed guarantee claim in blogs/${f}`);
+      }
+      if (/Verified B2B Practitioner/i.test(txt)) {
+        fail(`[Phase9] "Verified B2B Practitioner" found in blogs/${f}`);
+      }
+    }
+  }
+  const blogPostJsx = path.join(rootDir, 'src/views/BlogPost.jsx');
+  if (fs.existsSync(blogPostJsx) && /Verified B2B Practitioner/i.test(fs.readFileSync(blogPostJsx, 'utf8'))) {
+    fail('[Phase9] "Verified B2B Practitioner" found in src/views/BlogPost.jsx');
+  }
 }
 
 if (errors.length > 0) {

@@ -1,35 +1,16 @@
-# Rankur (rankursite.com)
+# Rankur
 
-> Founder-led B2B web engineering, technical SEO, and Generative Engine Optimization (GEO) consultancy led by Moksh Parjapati.
+> Founder-led B2B web engineering and search studio led by Moksh Parjapati.
 
-Rankur (https://rankursite.com) builds custom Next.js and React web platforms, technical SEO architectures, and GEO strategies for B2B companies and mission-driven organisations, with 100% source code ownership and zero vendor lock-in.
+## Services
+- Custom Next.js websites, technical SEO, and generative engine optimization: https://rankursite.com/services
 
-## Core Pages
-- [Home](https://rankursite.com/): Overview of Next.js web engineering, technical SEO, and GEO services.
-- [Services](https://rankursite.com/services): B2B lead generation, Next.js engineering, technical SEO, and CRO services.
-- [B2B SaaS Websites](https://rankursite.com/saas-websites): Custom React and Next.js web platforms for B2B SaaS teams.
-- [Case Studies](https://rankursite.com/case-studies): Production web architecture breakdown, including Wafa Educational & Charitable Trust (https://www.wafatrustindia.org/).
-- [About](https://rankursite.com/about): Founder profile for Moksh Parjapati.
-- [Free B2B Audit](https://rankursite.com/free-audit): Technical SEO and inbound pipeline diagnostic request.
-- [Contact](https://rankursite.com/contact): Business inquiries (contactus@rankursite.com).
+## Case Study
+- Wafa Educational & Charitable Trust: https://rankursite.com/case-studies
 
-## Target Markets
-- [USA](https://rankursite.com/usa)
-- [UK](https://rankursite.com/uk)
-- [Canada](https://rankursite.com/canada)
-- [Australia](https://rankursite.com/australia)
-- [UAE](https://rankursite.com/uae)
-- [Saudi Arabia](https://rankursite.com/saudi-arabia)
+## Credentials
+- Google Analytics 4 (Google Skillshop): https://skillshop.credential.net/
+- HubSpot Inbound Marketing: https://app-na2.hubspot.com/academy/achievements/7810203b43724b04923b16575c4316a6/en/1/moksh-parjapati/inbound-marketing
 
-## Pillar Guides
-- [SaaS Website Development Agency US](https://rankursite.com/blog/saas-website-development-agency-us)
-- [How to Hire a SaaS SEO Expert](https://rankursite.com/blog/hire-saas-seo-expert)
-- [Custom React Website for SaaS Startups](https://rankursite.com/blog/custom-react-website-saas-startup)
-- [B2B GEO Playbook](https://rankursite.com/blog/geo-optimization-saas-ai-search-2026)
-- [B2B Website Redesign Cost in 2026](https://rankursite.com/blog/b2b-saas-website-redesign-cost-2026)
-- [Winning Clicks in AI Overviews](https://rankursite.com/blog/ai-overviews-b2b-click-through-rate-strategies)
-
-## Official Profiles
-- Crunchbase: https://www.crunchbase.com/organization/rankur-a39c
-- LinkedIn: https://linkedin.com/in/moksh-parjapati
-- X (Twitter): https://twitter.com/moksh_rankur
+## Contact
+- Email: contactus@rankursite.com

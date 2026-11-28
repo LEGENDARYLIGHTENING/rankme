@@ -74,7 +74,7 @@ const masterSchema = {
       '@id': 'https://rankursite.com/#organization',
       name: 'Rankur',
       legalName: 'Moksh Productions',
-      alternateName: ['Rankur Web Systems', 'Rankur Studio', 'Moksh Productions'],
+      alternateName: ['Rankur by Moksh Parjapati', 'Rankur Web Systems', 'Rankur Studio', 'Moksh Productions'],
       url: 'https://rankursite.com',
       logo: {
         '@type': 'ImageObject',
@@ -91,7 +91,6 @@ const masterSchema = {
       sameAs: [
         'https://linkedin.com/in/moksh-parjapati',
         'https://twitter.com/moksh_rankur',
-        'https://www.crunchbase.com/organization/rankur-a39c',
       ],
       founder: {
         '@id': 'https://rankursite.com/#founder',
@@ -134,7 +133,6 @@ const masterSchema = {
       sameAs: [
         'https://linkedin.com/in/moksh-parjapati',
         'https://twitter.com/moksh_rankur',
-        'https://www.crunchbase.com/organization/rankur-a39c',
       ],
       hasCredential: [
         {
